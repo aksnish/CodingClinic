@@ -1,0 +1,53 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="429">
+<Paragraph pgNo="1" begin="0" end="310">
+<Sentence sentNo="1" begin="0" end="70" sentText="Question: A patient diagnosed with blighted ovum underwent vacuum D&amp;C.">
+<RelationSet id="1133">
+<problem value="blighted ovum" begin="35" end="48" status="0" certainty="1" cui="C0266648" tui="T046" rank="767" code="NO-CODE" sourceType="MDR"/>
+<problem value="blighted" begin="35" end="43" status="0" certainty="1" cui="C0275586" tui="T047" rank="713" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="D&amp;C" begin="66" end="69" status="0" certainty="1" cui="C0012358;C1444662" tui="T061;T033" rank="702;519" code="NO-CODE" sourceType="NCI;NCI"/>
+<anatomicalStructure value="ovum" begin="44" end="48" status="0" certainty="1" cui="C0029974" tui="T025" rank="797" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="71" end="204" sentText="During the surgery, a curette was placed into the uterine cavity and suction was applied to remove the tissue/products of conception.">
+<RelationSet id="1134">
+<procedure value="surgery" begin="82" end="89" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1135">
+<medicalDevice value="curette;uterine" begin="93;121" end="100;128" status="0" certainty="0" cui="C0491619" tui="T074" rank="684" code="NO-CODE" sourceType="UMD"/>
+<medicalDevice value="curette" begin="93" end="100" status="0" certainty="0" cui="C0180236;C0010468;C0444072" tui="T074;T061;T031" rank="797;765;150" code="NO-CODE" sourceType="UMD;SNOMEDCTUS;CHV"/>
+</RelationSet>
+<RelationSet id="1136">
+<anatomicalStructure value="uterine cavity" begin="121" end="135" status="0" certainty="0" cui="C0227844;C0458851" tui="T030;T030" rank="797;797" code="NO-CODE" sourceType="RCD;FMA"/>
+<anatomicalStructure value="uterine" begin="121" end="128" status="0" certainty="0" cui="C0042149;C1269032;C0496919;C0869889;C1519876" tui="T023;T023;T191;T060;T024" rank="797;765;610;592;575" code="NO-CODE" sourceType="ICD10AM;SNOMEDCTUS;ICD10;MEDCIN;NCI"/>
+<anatomicalStructure value="cavity" begin="129" end="135" status="0" certainty="0" cui="C1510420;C0333343;C0011334" tui="T190;T030;T047" rank="767;691;399" code="NO-CODE" sourceType="SNMI;UWDA;MEDLINEPLUS"/>
+</RelationSet>
+<RelationSet id="1137">
+<anatomicalStructure value="tissue" begin="174" end="180" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="205" end="309" sentText="What are the correct body system (3rd) and body part (4th) values for D &amp; C performed for blighted ovum?">
+<RelationSet id="1138">
+<problem value="blighted ovum" begin="295" end="308" status="0" certainty="0" cui="C0266648" tui="T046" rank="767" code="NO-CODE" sourceType="MDR"/>
+<problem value="blighted" begin="295" end="303" status="0" certainty="0" cui="C0275586" tui="T047" rank="713" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="ovum" begin="304" end="308" status="0" certainty="0" cui="C0029974" tui="T025" rank="797" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="311" end="428">
+<Sentence sentNo="4" begin="311" end="428" sentText="Answer: For the extraction of the nonviable, blighted ovum via vacuum D&amp;C, assign ICD-10-PCS code as follows: 10D07Z6">
+<RelationSet id="1139">
+<procedure value="extraction" begin="327" end="337" status="0" certainty="0" cui="C0185115;C0684295" tui="T061;T059" rank="797;481" code="NO-CODE" sourceType="LCH;AOD"/>
+</RelationSet>
+<RelationSet id="1140">
+<problem value="blighted ovum" begin="356" end="369" status="0" certainty="0" cui="C0266648" tui="T046" rank="767" code="NO-CODE" sourceType="MDR"/>
+<problem value="blighted" begin="356" end="364" status="0" certainty="0" cui="C0275586" tui="T047" rank="713" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="ovum" begin="365" end="369" status="0" certainty="0" cui="C0029974" tui="T025" rank="797" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="1141">
+<procedure value="D&amp;C" begin="381" end="384" status="0" certainty="0" cui="C0012358;C1444662" tui="T061;T033" rank="702;519" code="NO-CODE" sourceType="NCI;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,91 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1021">
+<Paragraph pgNo="1" begin="0" end="353">
+<Sentence sentNo="1" begin="0" end="101" sentText="Question: How is immunocompromised state due to medication or other cause (e.g., AIDS, cancer) coded?">
+<RelationSet id="880">
+<med value="AIDS" begin="81" end="85" status="0" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="881">
+<problem value="cancer" begin="87" end="93" status="0" certainty="0" cui="C0006826;C1306459;C0998265;C0260515;C1547140" tui="T191;T191;T204;T033;T091" rank="793;765;751;592;355" code="NO-CODE" sourceType="ICPC2P;SNOMEDCTUS;NCBI;MEDCIN;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="102" end="225" sentText="The physician documented in the discharge summary that the “patient has an immunocompromised state, on immunosuppressants.”">
+</Sentence>
+<Sentence sentNo="3" begin="226" end="281" sentText="Is this considered an adverse effect of the medication?">
+</Sentence>
+<Sentence sentNo="4" begin="282" end="352" sentText="Additionally, how is long-term use of an immunosuppressant drug coded?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="354" end="1020">
+<Sentence sentNo="5" begin="354" end="499" sentText="Answer: Do not assign a code for an immunocompromised state caused by drug treatment or an underlying disease process, such as AIDS, cancer, etc.">
+<RelationSet id="883">
+<problem value="state;drug" begin="408;424" end="413;428" status="0" certainty="-2" cui="C0278180" tui="T184" rank="797" code="NO-CODE" sourceType="SNMI"/>
+</RelationSet>
+<RelationSet id="884">
+<problem value="disease" begin="456" end="463" status="0" certainty="0" cui="C0012634;C1422572;C1424810;C1416989;C3273340;C3540595;C3273341;C1331418" tui="T047;T028;T028;T028;T028;T028;T116;T041" rank="797;600;596;596;575;575;575;575" code="NO-CODE" sourceType="LCH;HGNC;OMIM;HGNC;NCI;NCI;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="884">
+<med value="AIDS" begin="481" end="485" status="0" certainty="1" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="885">
+<problem value="cancer" begin="487" end="493" status="0" certainty="1" cui="C0006826;C1306459;C0998265;C0260515;C1547140" tui="T191;T191;T204;T033;T091" rank="793;765;751;592;355" code="NO-CODE" sourceType="ICPC2P;SNOMEDCTUS;NCBI;MEDCIN;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="500" end="617" sentText="When a patient is taking the immunosuppressant medication as prescribed, the intent is to suppress the immune system.">
+<RelationSet id="886">
+<med value="immunosuppressant" begin="529" end="546" status="0" certainty="0" cui="C0021081" tui="T121,T129" rank="790" code="NO-CODE" sourceType="CSP"/>
+<med value="medication" begin="547" end="557" status="0" certainty="0" cui="C0013227;C3244316" tui="T121;T169" rank="576;366" code="NO-CODE" sourceType="LNC;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="886">
+<anatomicalStructure value="immune system" begin="603" end="616" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="618" end="727" sentText="Assign code Z79.899, Other long-term (current) drug therapy, to show the long-term use of immunosuppressants.">
+<RelationSet id="887">
+<modifier value="long-term;drug" begin="645;665" end="654;669" status="0" certainty="0" cui="C0681289" tui="T170" rank="475" code="NO-CODE" sourceType="CHV"/>
+<procedure value="long-term;drug therapy" begin="645;665" end="654;677" status="0" certainty="0" cui="C0420257" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="Other;drug therapy" begin="639;665" end="644;677" status="0" certainty="0" cui="C1563114" tui="T061" rank="242" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="current;therapy" begin="656;670" end="663;677" status="0" certainty="0" cui="C2827774" tui="T061" rank="576" code="NO-CODE" sourceType="NCI"/>
+<procedure value="drug therapy" begin="665" end="677" status="0" certainty="0" cui="C0013216;C0013217" tui="T061;T061" rank="795;794" code="NO-CODE" sourceType="MSH;MEDLINEPLUS"/>
+<procedure value="Other;therapy" begin="639;670" end="644;677" status="0" certainty="0" cui="C0418967" tui="T061" rank="717" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="therapy" begin="670" end="677" status="0" certainty="0" cui="C0039798;C0087111;C1363945" tui="T169;T061;T033" rank="794;767;575" code="NO-CODE" sourceType="MSH;CSP;NCI"/>
+<procedure value="drug" begin="665" end="669" status="0" certainty="0" cui="C0013227;C0278180;C1254351;C0013058;C0031336;C1553890;C3687832;C1135440" tui="T121;T184;T121;T122;T091;T170;T058;T061" rank="791;703;575;575;523;366;352;151" code="NO-CODE" sourceType="RCD;SNMI;NCI;NCI;NCI;HL7V3.0;MTHHH;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="728" end="799" sentText="The ICD-10-CM does not provide a specific code to identify these drugs.">
+</Sentence>
+<Sentence sentNo="9" begin="800" end="1019" sentText="Immunosuppressants are commonly used to treat autoimmune diseases, such as lupus, Crohn’s disease, myasthenia gravis, rheumatoid arthritis, etc., and they are also used to prevent organ rejection in transplant patients.">
+<RelationSet id="888">
+<problem value="autoimmune" begin="846" end="856" status="1" certainty="0" cui="C0439662;C0004368;C0443146" tui="T169;T046;T046" rank="797;795;767" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;RCD"/>
+</RelationSet>
+<RelationSet id="889">
+<problem value="lupus" begin="875" end="880" status="1" certainty="1" cui="C0409974;C0024141;C0024131;C0024138" tui="T047;T047;T047;T047" rank="765;491;289;256" code="NO-CODE" sourceType="RCD;CSP;LCH;CHV"/>
+</RelationSet>
+<RelationSet id="890">
+<problem value="Crohn;disease" begin="882;890" end="887;897" status="1" certainty="1" cui="C0010346" tui="T047" rank="797" code="NO-CODE" sourceType="MSH"/>
+<problem value="disease" begin="890" end="897" status="1" certainty="1" cui="C0012634;C1422572;C1424810;C1416989;C3273340;C3540595;C3273341;C1331418" tui="T047;T028;T028;T028;T028;T028;T116;T041" rank="797;600;596;596;575;575;575;575" code="NO-CODE" sourceType="LCH;HGNC;OMIM;HGNC;NCI;NCI;NCI;NCI"/>
+<problem value="s" begin="888" end="889" status="1" certainty="1" cui="C0439118;C1704767;C0560033;C0457385;C0565930;C1415374;C1420041;C2825524;C0039101;C1551054;C3273373;C0221135;C0086981" tui="T170;T170;T081;T079;T081;T028;T028;T079;T191;T081;T083;T116,T129;T047" rank="767;767;767;767;765;596;587;572;571;544;522;416;313" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;RCD;NCI;SNOMEDCTUS;HGNC;HGNC;NCI;NCI;NCI;NCI;LNC;DXP"/>
+</RelationSet>
+<RelationSet id="891">
+<problem value="myasthenia gravis" begin="899" end="916" status="0" certainty="1" cui="C0026896" tui="T047" rank="797" code="NO-CODE" sourceType="ICPC2P"/>
+<problem value="myasthenia" begin="899" end="909" status="0" certainty="1" cui="C0947912" tui="T047" rank="797" code="NO-CODE" sourceType="MTH"/>
+</RelationSet>
+<RelationSet id="892">
+<problem value="rheumatoid arthritis" begin="918" end="938" status="0" certainty="1" cui="C0003873;C2697391" tui="T047;T028" rank="797;598" code="NO-CODE" sourceType="AIR;OMIM"/>
+<problem value="rheumatoid" begin="918" end="928" status="0" certainty="1" cui="C0035435" tui="T047" rank="797" code="NO-CODE" sourceType="COSTAR"/>
+<problem value="arthritis" begin="929" end="938" status="0" certainty="1" cui="C0003864" tui="T047" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="893">
+<problem value="organ rejection;transplant" begin="980;999" end="995;1009" status="1" certainty="0" cui="C0345468" tui="T046" rank="767" code="NO-CODE" sourceType="RCD"/>
+<problem value="organ rejection" begin="980" end="995" status="1" certainty="0" cui="C0815080" tui="T046" rank="472" code="NO-CODE" sourceType="CHV"/>
+<anatomicalStructure value="organ" begin="980" end="985" status="1" certainty="0" cui="C0029235;C0178784;C0029246;C0029236" tui="T001;T023;T092;T057" rank="797;797;277;274" code="NO-CODE" sourceType="RCD;CSP;MSH;MSH"/>
+</RelationSet>
+<RelationSet id="894">
+<modifier value="rejection;transplant" begin="986;999" end="995;1009" status="1" certainty="0" cui="C0018129" tui="T042" rank="791" code="NO-CODE" sourceType="CHV"/>
+<procedure value="organ;transplant" begin="980;999" end="985;1009" status="1" certainty="0" cui="C0029216;C0524930;C0332835;C0032098" tui="T061;T023;T024;T002" rank="797;797;795;765" code="NO-CODE" sourceType="MSH;SNM;SNOMEDCTUS;RCD"/>
+<procedure value="transplant" begin="999" end="1009" status="1" certainty="0" cui="C0040732;C0700106;C0040733;C1552256" tui="T061;T169;T169;T097" rank="797;797;794;366" code="NO-CODE" sourceType="LCH;SNMI;MSH;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,196 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1927">
+<Paragraph pgNo="1" begin="0" end="522">
+<Sentence sentNo="1" begin="0" end="140" sentText="Question: The patient had previously suffered a displaced comminuted fracture of the right tibial shaft after falling approximately 30 feet.">
+<RelationSet id="1991">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="displaced" begin="48" end="57" status="0" certainty="1"/>
+<problem value="comminuted fracture" begin="58" end="77" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="right" begin="85" end="90" status="0" certainty="0"/>
+<problem value="comminuted fracture" begin="58" end="77" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="right" begin="85" end="90" status="0" certainty="0"/>
+<anatomicalStructure value="tibial shaft" begin="91" end="103" status="0" certainty="0"/>
+<modifier value="displaced" begin="48" end="57" status="0" certainty="1"/>
+<problem value="comminuted fracture" begin="58" end="77" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="tibial shaft" begin="91" end="103" status="0" certainty="0"/>
+<problem value="comminuted fracture" begin="58" end="77" status="0" certainty="1"/>
+</Relation>
+<modifier value="right" begin="85" end="90" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+<modifier value="displaced" begin="48" end="57" status="0" certainty="1" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<anatomicalStructure value="tibial shaft" begin="91" end="103" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<problem value="displaced comminuted fracture;right tibial shaft" begin="48;85" end="77;103" status="0" certainty="1" cui="C2862290" tui="T037" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="displaced comminuted fracture;tibial shaft" begin="48;91" end="77;103" status="0" certainty="1" cui="C3507456" tui="T037" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="comminuted fracture;tibial shaft" begin="58;91" end="77;103" status="0" certainty="1" cui="C2862289" tui="T037" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="fracture;tibial shaft" begin="69;91" end="77;103" status="0" certainty="1" cui="C0272767" tui="T037" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="displaced;fracture" begin="48;69" end="57;77" status="0" certainty="1" cui="C0585059" tui="T037" rank="765" code="NO-CODE" sourceType="RCD"/>
+<problem value="fracture;tibial" begin="69;91" end="77;97" status="0" certainty="1" cui="C0040185" tui="T037" rank="797" code="NO-CODE" sourceType="MSH"/>
+<problem value="comminuted" begin="58" end="68" status="0" certainty="1" cui="C0476171" tui="T037" rank="795" code="NO-CODE" sourceType="MSH"/>
+<problem value="fracture" begin="69" end="77" status="0" certainty="1" cui="C0016658;C1880851;C1963113" tui="T037;T067;T033" rank="797;562;551" code="NO-CODE" sourceType="ICPC2P;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="141" end="224" sentText="At that time, the patient had open reduction and internal fixation of the fracture.">
+<RelationSet id="1992">
+<modifier value="internal" begin="190" end="198" status="1" certainty="0" cui="C0205102;C1619620;C1553872" tui="T082;T170;T170" rank="797;366;366" code="NO-CODE" sourceType="RCD;HL7V3.0;HL7V3.0"/>
+<modifier value="open" begin="171" end="175" status="1" certainty="0" cui="C0175566;C1882151;C0547049" tui="T082;T082;T082" rank="797;797;767" code="NO-CODE" sourceType="RCD;NCI;RCD"/>
+<procedure value="internal fixation" begin="190" end="207" status="1" certainty="0" cui="C0016642" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="fixation;fracture" begin="199;215" end="207;223" status="1" certainty="0" cui="C0016641" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="open reduction" begin="171" end="185" status="1" certainty="0" cui="C2370853;C0185373" tui="T061;T061" rank="797;797" code="NO-CODE" sourceType="SNM;MDR"/>
+<procedure value="reduction" begin="176" end="185" status="1" certainty="0" cui="C0441610;C0301630;C0392756;C0871877" tui="T061;T070;T080;T078" rank="765;716;575;289" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;NCI;PSY"/>
+<procedure value="fixation" begin="199" end="207" status="1" certainty="0" cui="C0185023;C1522662;C0728733" tui="T061;T059;T041" rank="767;576;475" code="NO-CODE" sourceType="RCD;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="1993">
+<problem value="fracture" begin="215" end="223" status="0" certainty="0" cui="C0016658;C1880851;C1963113" tui="T037;T067;T033" rank="797;562;551" code="NO-CODE" sourceType="ICPC2P;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="225" end="324" sentText="The patient is now presenting for open removal of fixation hardware due to loosening of the screws.">
+<RelationSet id="1994">
+<modifier value="open removal" begin="259" end="271" status="0" certainty="0" cui="S1001044" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<modifier value="open" begin="259" end="263" status="0" certainty="0" cui="C0175566;C1882151;C0547049" tui="T082;T082;T082" rank="797;797;767" code="NO-CODE" sourceType="RCD;NCI;RCD"/>
+<procedure value="fixation" begin="275" end="283" status="0" certainty="0" cui="C0185023;C1522662;C0728733" tui="T061;T059;T041" rank="767;576;475" code="NO-CODE" sourceType="RCD;NCI;CHV"/>
+<procedure value="removal" begin="264" end="271" status="0" certainty="0" cui="C0015252;C0728940;C1883720;C1548394;C3244314;C0849355" tui="T061;T061;T052;T170;T169;T080" rank="767;716;576;366;366;151" code="NO-CODE" sourceType="RCD;NCI;ICPC2P;HL7V3.0;HL7V3.0;CHV"/>
+</RelationSet>
+<RelationSet id="1995">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="screws" begin="317" end="323" status="0" certainty="0"/>
+<finding value="loosening" begin="300" end="309" status="0" certainty="0"/>
+</Relation>
+<medicalDevice value="screws" begin="317" end="323" status="0" certainty="0" cui="C0301559;C0005975;C0441634;C1704683" tui="T074;T074;T169;T074" rank="797;765;711;575" code="NO-CODE" sourceType="SNM;RCD;SNOMEDCTUS;NCI"/>
+<finding value="loosening" begin="300" end="309" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="325" end="445" sentText="The orthopedist stated that loosening/ breakage of the screws is an expected outcome, not a complication of the surgery.">
+<RelationSet id="1996">
+<procedure value="surgery" begin="437" end="444" status="0" certainty="-2" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1997">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="screws" begin="380" end="386" status="0" certainty="1"/>
+<finding value="loosening" begin="353" end="362" status="0" certainty="1"/>
+</Relation>
+<medicalDevice value="screws" begin="380" end="386" status="0" certainty="1" cui="C0301559;C0005975;C0441634;C1704683" tui="T074;T074;T169;T074" rank="797;765;711;575" code="NO-CODE" sourceType="SNM;RCD;SNOMEDCTUS;NCI"/>
+<finding value="loosening" begin="353" end="362" status="0" certainty="1" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="446" end="521" sentText="What are the appropriate ICD-10-CM/PCS code assignments for this admission?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="523" end="1926">
+<Sentence sentNo="6" begin="523" end="670" sentText="Answer: Assign code S82.251D, Displaced comminuted fracture of shaft of right tibia, subsequent encounter for closed fracture with routine healing.">
+<RelationSet id="1997">
+<problem value="2.251D, Displaced comminuted fracture of shaft of right tibia, subsequent encounter for closed fracture with routine" begin="545" end="661" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1998">
+<problem value="Displaced comminuted fracture;shaft;right tibia" begin="553;586;595" end="582;591;606" status="0" certainty="0" cui="C2862290" tui="T037" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="Displaced comminuted fracture;shaft;tibia" begin="553;586;601" end="582;591;606" status="0" certainty="0" cui="C3507456" tui="T037" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="comminuted fracture;shaft;tibia" begin="563;586;601" end="582;591;606" status="0" certainty="0" cui="C2862289" tui="T037" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="comminuted fracture" begin="563" end="582" status="0" certainty="0" cui="C0476171" tui="T037" rank="795" code="NO-CODE" sourceType="MSH"/>
+<problem value="fracture;shaft;tibia" begin="574;586;601" end="582;591;606" status="0" certainty="0" cui="C0272767" tui="T037" rank="767" code="NO-CODE" sourceType="ICD10"/>
+<problem value="Displaced;fracture" begin="553;574" end="562;582" status="0" certainty="0" cui="C0585059" tui="T037" rank="765" code="NO-CODE" sourceType="RCD"/>
+<problem value="fracture;tibia" begin="574;601" end="582;606" status="0" certainty="0" cui="C0040185" tui="T037" rank="797" code="NO-CODE" sourceType="MSH"/>
+<problem value="fracture" begin="574" end="582" status="0" certainty="0" cui="C0016658;C1880851;C1963113" tui="T037;T067;T033" rank="797;562;551" code="NO-CODE" sourceType="ICPC2P;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="1999">
+<modifier value="right" begin="595" end="600" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="2000">
+<anatomicalStructure value="right tibia" begin="595" end="606" status="0" certainty="0" cui="C0817321" tui="T023" rank="692" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="shaft;tibia" begin="586;601" end="591;606" status="0" certainty="0" cui="C1281578;C0588199" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<anatomicalStructure value="tibia" begin="601" end="606" status="0" certainty="0" cui="C0040184;C1279118" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="2001">
+<problem value="closed fracture" begin="633" end="648" status="0" certainty="0" cui="C0016659" tui="T037" rank="795" code="NO-CODE" sourceType="SNM"/>
+<problem value="fracture" begin="640" end="648" status="0" certainty="0" cui="C0016658;C1880851;C1963113" tui="T037;T067;T033" rank="797;562;551" code="NO-CODE" sourceType="ICPC2P;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="671" end="779" sentText="Assign also code W17.89XD, Fall from level to another, Subsequent encounter, to describe the external cause.">
+</Sentence>
+<Sentence sentNo="8" begin="780" end="898" sentText="Assign code 0QPG04Z, Removal of internal fixation device from right tibia, open approach, for the procedure performed.">
+<RelationSet id="2002">
+<modifier value="internal" begin="812" end="820" status="0" certainty="0" cui="C0205102;C1619620;C1553872" tui="T082;T170;T170" rank="797;366;366" code="NO-CODE" sourceType="RCD;HL7V3.0;HL7V3.0"/>
+<procedure value="Removal;internal fixation device;tibia" begin="801;812;848" end="808;836;853" status="0" certainty="0" cui="C0187968" tui="T061" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<procedure value="Removal;internal fixation" begin="801;812" end="808;829" status="0" certainty="0" cui="C0185314" tui="T061" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<procedure value="internal fixation;tibia" begin="812;848" end="829;853" status="0" certainty="0" cui="C0188207" tui="T061" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<procedure value="Removal;fixation device" begin="801;821" end="808;836" status="0" certainty="0" cui="C0370646" tui="T061" rank="271" code="NO-CODE" sourceType="CPT"/>
+<procedure value="internal fixation" begin="812" end="829" status="0" certainty="0" cui="C0016642" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="Removal;device" begin="801;830" end="808;836" status="0" certainty="0" cui="C0752250" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="fixation" begin="821" end="829" status="0" certainty="0" cui="C0185023;C1522662;C0728733" tui="T061;T059;T041" rank="767;576;475" code="NO-CODE" sourceType="RCD;NCI;CHV"/>
+<procedure value="Removal" begin="801" end="808" status="0" certainty="0" cui="C0015252;C0728940;C1883720;C1548394;C3244314;C0849355" tui="T061;T061;T052;T170;T169;T080" rank="767;716;576;366;366;151" code="NO-CODE" sourceType="RCD;NCI;ICPC2P;HL7V3.0;HL7V3.0;CHV"/>
+</RelationSet>
+<RelationSet id="2003">
+<modifier value="right" begin="842" end="847" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="2004">
+<anatomicalStructure value="right tibia" begin="842" end="853" status="0" certainty="0" cui="C0817321" tui="T023" rank="692" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="tibia" begin="848" end="853" status="0" certainty="0" cui="C0040184;C1279118" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="899" end="1078" sentText="When screws or other internal orthopedic implants are placed to align and link two bones that are supposed to move eventually, the screw or implant is expected to break or loosen.">
+<RelationSet id="2005">
+<anatomicalStructure value="bones" begin="982" end="987" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T022;T023;T031;T170" rank="795;792;790;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2006">
+<medicalDevice value="screw" begin="1030" end="1035" status="0" certainty="0" cui="C0301559;C0005975;C0441634;C1704683" tui="T074;T074;T169;T074" rank="797;765;711;575" code="NO-CODE" sourceType="SNM;RCD;SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="1079" end="1165" sentText="The screw is placed to hold the positions of the two bones while healing is occurring.">
+<RelationSet id="2007">
+<medicalDevice value="screw" begin="1083" end="1088" status="0" certainty="0" cui="C0301559;C0005975;C0441634;C1704683" tui="T074;T074;T169;T074" rank="797;765;711;575" code="NO-CODE" sourceType="SNM;RCD;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="2008">
+<anatomicalStructure value="bones" begin="1132" end="1137" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T022;T023;T031;T170" rank="795;792;790;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="11" begin="1166" end="1241" sentText="Once weight bearing is initiated, the screw is expected to break or loosen.">
+<RelationSet id="2008">
+<meas value="weight" begin="1171" end="1177" status="0" certainty="0" code="NO-CODE">
+</meas>
+</RelationSet>
+<RelationSet id="2009">
+<medicalDevice value="screw" begin="1204" end="1209" status="0" certainty="0" cui="C0301559;C0005975;C0441634;C1704683" tui="T074;T074;T169;T074" rank="797;765;711;575" code="NO-CODE" sourceType="SNM;RCD;SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="12" begin="1242" end="1329" sentText="This is anticipated and expected, and in some cases the implant may have to be removed.">
+<RelationSet id="2010">
+<medicalDevice value="implant" begin="1298" end="1305" status="0" certainty="1" cui="C0021102;C3244302;C0021107;C0032098;C1704229;C1705604;C0029976;C1711357;C1692876;C1546675" tui="T074;T169;T061;T002;T122;T081;T040;T169;T169;T170" rank="797;797;767;765;765;765;716;575;366;355" code="NO-CODE" sourceType="SNOMEDCTUS;HL7V3.0;RCD;RCD;NCI;NCI;SNM;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="13" begin="1330" end="1584" sentText="According to the official guidelines, the 7th character “D” subsequent encounter is used for encounters after the patient has received active treatment of the condition and is receiving routine care for the condition during the healing or recovery phase.">
+</Sentence>
+<Sentence sentNo="14" begin="1585" end="1688" sentText="If a patient presents for fracture aftercare, the fracture code with the 7th character “D” is assigned.">
+<RelationSet id="2011">
+<problem value="fracture" begin="1611" end="1619" status="0" certainty="-3" cui="C0016658;C1880851;C1963113" tui="T037;T067;T033" rank="797;562;551" code="NO-CODE" sourceType="ICPC2P;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="2012">
+<problem value="fracture" begin="1635" end="1643" status="0" certainty="-3" cui="C0016658;C1880851;C1963113" tui="T037;T067;T033" rank="797;562;551" code="NO-CODE" sourceType="ICPC2P;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="15" begin="1689" end="1843" sentText="Aftercare Z codes are not used for aftercare for conditions such as injuries or poisonings, where 7th characters are provided to describe subsequent care.">
+<RelationSet id="2012">
+<anatomicalStructure value="Z codes" begin="1699" end="1706" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2013">
+<problem value="injuries;poisonings" begin="1757;1769" end="1765;1779" status="0" certainty="1" cui="C0178314" tui="T037" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<problem value="injuries" begin="1757" end="1765" status="0" certainty="1" cui="C1510467;C3263723;C3263722" tui="T037;T037;T037" rank="794;793;765" code="NO-CODE" sourceType="MSH;ICPC2P;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="16" begin="1844" end="1925" sentText="Removal of external or internal fixation device is an example of subsequent care.">
+<RelationSet id="2014">
+<modifier value="internal" begin="1867" end="1875" status="0" certainty="0" cui="C0205102;C1619620;C1553872" tui="T082;T170;T170" rank="797;366;366" code="NO-CODE" sourceType="RCD;HL7V3.0;HL7V3.0"/>
+<procedure value="Removal;internal fixation device" begin="1844;1867" end="1851;1891" status="0" certainty="0" cui="C0185314" tui="T061" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<procedure value="Removal;external;fixation device" begin="1844;1855;1876" end="1851;1863;1891" status="0" certainty="0" cui="C0392799" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="external;fixation device" begin="1855;1876" end="1863;1891" status="0" certainty="0" cui="C0079321;C2355569" tui="T074;T061" rank="797;595" code="NO-CODE" sourceType="MSH;MEDCIN"/>
+<procedure value="Removal;fixation device" begin="1844;1876" end="1851;1891" status="0" certainty="0" cui="C0370646" tui="T061" rank="271" code="NO-CODE" sourceType="CPT"/>
+<procedure value="internal fixation" begin="1867" end="1884" status="0" certainty="0" cui="C0016642" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="external;fixation" begin="1855;1876" end="1863;1884" status="0" certainty="0" cui="C0407333" tui="T061" rank="765" code="NO-CODE" sourceType="MDR"/>
+<procedure value="fixation" begin="1876" end="1884" status="0" certainty="0" cui="C0185023;C1522662;C0728733" tui="T061;T059;T041" rank="767;576;475" code="NO-CODE" sourceType="RCD;NCI;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

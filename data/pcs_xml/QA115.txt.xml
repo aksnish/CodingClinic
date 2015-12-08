@@ -1,0 +1,109 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1152">
+<Paragraph pgNo="1" begin="0" end="468">
+<Sentence sentNo="1" begin="0" end="125" sentText="Question: A patient with history of endocarditis is admitted with severe acute meningitis causing respiratory decompensation.">
+<RelationSet id="1294">
+<problem value="endocarditis" begin="36" end="48" status="1" certainty="1" cui="C0014118" tui="T047" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="1295">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="acute" begin="73" end="78" status="1" certainty="0"/>
+<problem value="meningitis" begin="79" end="89" status="1" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="respiratory decompensation" begin="98" end="124" status="1" certainty="0"/>
+<modifier value="acute" begin="73" end="78" status="1" certainty="0"/>
+<problem value="meningitis" begin="79" end="89" status="1" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="respiratory decompensation" begin="98" end="124" status="1" certainty="0"/>
+<modifier value="acute" begin="73" end="78" status="1" certainty="0"/>
+</Relation>
+<modifier value="acute" begin="73" end="78" status="1" certainty="0" cui="C0205178;C1547229;C1547295" tui="T079;T170;T170" rank="797;355;355" code="NO-CODE" sourceType="RCD;HL7V2.5;HL7V2.5"/>
+<problem value="meningitis" begin="79" end="89" status="1" certainty="0" cui="C0025289" tui="T047" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="126" end="235" sentText="The procedures performed during the inpatient stay are diagnostic lumbar puncture and mechanical ventilation.">
+<RelationSet id="1296">
+<procedure value="diagnostic;puncture" begin="181;199" end="191;207" status="0" certainty="0" cui="C0565128" tui="T060" rank="234" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="lumbar puncture" begin="192" end="207" status="0" certainty="0" cui="C0553794;C0037943;C1548878" tui="T060;T060,T061;T058" rank="797;791;355" code="NO-CODE" sourceType="RCD;NCI;HL7V2.5"/>
+<procedure value="puncture" begin="199" end="207" status="0" certainty="0" cui="C0034117;C0033119;C1881711" tui="T060,T061;T037;T067" rank="795;767;561" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;NCI"/>
+<anatomicalStructure value="lumbar" begin="192" end="198" status="0" certainty="0" cui="C0024090" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="1297">
+<procedure value="mechanical ventilation" begin="212" end="234" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="212" end="222" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="236" end="357" sentText="No causative organism for the meningitis is found, and the patient is extubated after 36 hours of mechanical ventilation.">
+<RelationSet id="1298">
+<problem value="meningitis" begin="266" end="276" status="0" certainty="-2" cui="C0025289" tui="T047" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="1298">
+<procedure value="extubated" begin="306" end="315" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1299">
+<procedure value="mechanical ventilation" begin="334" end="356" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="334" end="344" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="358" end="467" sentText="Which of the two procedures is the principal procedure, diagnostic lumbar puncture or mechanical ventilation?">
+<RelationSet id="1300">
+<procedure value="diagnostic;puncture" begin="414;432" end="424;440" status="0" certainty="0" cui="C0565128" tui="T060" rank="234" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="lumbar puncture" begin="425" end="440" status="0" certainty="0" cui="C0553794;C0037943;C1548878" tui="T060;T060,T061;T058" rank="797;791;355" code="NO-CODE" sourceType="RCD;NCI;HL7V2.5"/>
+<procedure value="puncture" begin="432" end="440" status="0" certainty="0" cui="C0034117;C0033119;C1881711" tui="T060,T061;T037;T067" rank="797;767;561" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;NCI"/>
+<anatomicalStructure value="lumbar" begin="425" end="431" status="0" certainty="0" cui="C0024090" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="1301">
+<procedure value="mechanical ventilation" begin="444" end="466" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="444" end="454" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="469" end="1151">
+<Sentence sentNo="5" begin="469" end="563" sentText="Answer: Assign the appropriate ICD-10-PCS code for the lumbar puncture as principal procedure.">
+<RelationSet id="1302">
+<procedure value="lumbar puncture" begin="524" end="539" status="0" certainty="0" cui="C0037943;C0553794;C1548878" tui="T060,T061;T060;T058" rank="791;652;355" code="NO-CODE" sourceType="NCI;MDR;HL7V2.5"/>
+<procedure value="puncture" begin="531" end="539" status="0" certainty="0" cui="C0034117;C0033119;C1881711" tui="T060,T061;T037;T067" rank="797;767;561" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;NCI"/>
+<anatomicalStructure value="lumbar" begin="524" end="530" status="0" certainty="0" cui="C0024090" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="564" end="642" sentText="The mechanical ventilation code would be sequenced as an additional procedure.">
+<RelationSet id="1303">
+<modifier value="code;additional" begin="591;621" end="595;631" status="0" certainty="0" cui="C0236999" tui="T185" rank="405" code="NO-CODE" sourceType="DSM4"/>
+<modifier value="code;sequenced" begin="591;605" end="595;614" status="0" certainty="0" cui="C0079941" tui="T028" rank="575" code="NO-CODE" sourceType="NCI"/>
+<modifier value="code;as" begin="591;615" end="595;617" status="0" certainty="0" cui="C0919279" tui="T185" rank="797" code="NO-CODE" sourceType="MTHHH"/>
+<procedure value="mechanical ventilation" begin="568" end="590" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="568" end="578" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="643" end="1022" sentText="The ICD-10-PCS Official Guidelines for Coding and Reporting, Selection of Principal Procedure state, “A diagnostic procedure was performed for the principal diagnosis and a procedure is performed for definitive treatment of a secondary diagnosis: Sequence diagnostic procedure as principal procedure, since the procedure most related to the principal diagnosis takes precedence.”">
+<RelationSet id="1304">
+<procedure value="diagnostic procedure" begin="747" end="767" status="0" certainty="0" cui="C0430022;C1546908" tui="T060;T169" rank="797;355" code="NO-CODE" sourceType="SNOMEDCTUS;HL7V2.5"/>
+<procedure value="procedure" begin="758" end="767" status="0" certainty="0" cui="C0184661;C0025664;C2700391;C1948041;C3274430;C3538935;C3539779;C1546467" tui="T060,T061;T170;T052;T061;T058;T078;T170;T078" rank="792;789;576;575;572;571;571;366" code="NO-CODE" sourceType="MSH;MSH;NCI;NCI;NCI;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1305">
+<modifier value="principal" begin="923" end="932" status="0" certainty="0" cui="C0205225;C0401925" tui="T080;T097" rank="767;765" code="NO-CODE" sourceType="SNMI;RCD"/>
+<procedure value="diagnostic;procedure" begin="899;933" end="909;942" status="0" certainty="0" cui="C0430022;C1546908" tui="T060;T169" rank="797;355" code="NO-CODE" sourceType="SNOMEDCTUS;HL7V2.5"/>
+<procedure value="procedure" begin="933" end="942" status="0" certainty="0" cui="C0184661;C0025664;C2700391;C1948041;C3274430;C3538935;C3539779;C1546467" tui="T060,T061;T170;T052;T061;T058;T078;T170;T078" rank="792;789;576;575;572;571;571;366" code="NO-CODE" sourceType="MSH;MSH;NCI;NCI;NCI;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="1023" end="1150" sentText="In this case, the lumbar puncture is the diagnostic procedure performed for the principal diagnosis of severe acute meningitis.">
+<RelationSet id="1306">
+<procedure value="puncture;diagnostic" begin="1048;1064" end="1056;1074" status="0" certainty="0" cui="C0565128" tui="T060" rank="234" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="lumbar puncture" begin="1041" end="1056" status="0" certainty="0" cui="C0553794;C0037943;C1548878" tui="T060;T060,T061;T058" rank="797;791;355" code="NO-CODE" sourceType="RCD;NCI;HL7V2.5"/>
+<procedure value="puncture" begin="1048" end="1056" status="0" certainty="0" cui="C0034117;C0033119;C1881711" tui="T060,T061;T037;T067" rank="797;767;561" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;NCI"/>
+<anatomicalStructure value="lumbar" begin="1041" end="1047" status="0" certainty="0" cui="C0024090" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="1307">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="acute" begin="1133" end="1138" status="0" certainty="0"/>
+<problem value="meningitis" begin="1139" end="1149" status="0" certainty="0"/>
+</Relation>
+<modifier value="acute" begin="1133" end="1138" status="0" certainty="0" cui="C0205178;C1547229;C1547295" tui="T079;T170;T170" rank="797;355;355" code="NO-CODE" sourceType="RCD;HL7V2.5;HL7V2.5"/>
+<problem value="diagnosis;meningitis" begin="1113;1139" end="1122;1149" status="0" certainty="0" cui="C0025289" tui="T047" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

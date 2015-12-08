@@ -1,0 +1,93 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="573">
+<Paragraph pgNo="1" begin="0" end="356">
+<Sentence sentNo="1" begin="0" end="147" sentText="Question: The patient is a 40-year-old male, who had been experiencing painful, restricted active and passive range of motion of the left shoulder.">
+<RelationSet id="1911">
+<problem value="painful" begin="71" end="78" status="0" certainty="0" cui="C0030193" tui="T184" rank="765" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="1912">
+<modifier value="left" begin="133" end="137" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1913">
+<anatomicalStructure value="left shoulder" begin="133" end="146" status="0" certainty="0" cui="C0524469;C1288640" tui="T029;T029" rank="765;765" code="NO-CODE" sourceType="SNMI;SNOMEDCTUS"/>
+<anatomicalStructure value="shoulder" begin="138" end="146" status="0" certainty="0" cui="C0037004;C1283792;C0869975" tui="T029;T029;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="148" end="204" sentText="He underwent arthroscopic release of the shoulder joint.">
+<RelationSet id="1914">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="shoulder joint" begin="189" end="203" status="0" certainty="0"/>
+<procedure value="arthroscopic release" begin="161" end="181" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="shoulder joint" begin="189" end="203" status="0" certainty="0" cui="C0037009;C1269056" tui="T030;T030" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="shoulder" begin="189" end="197" status="0" certainty="0" cui="C0037004;C1283792;C0869975" tui="T029;T029;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+<anatomicalStructure value="joint" begin="198" end="203" status="0" certainty="0" cui="C0521339;C0022417;C0444497;C0392905;C1269611;C1706309" tui="T169;T030;T082;T022;T030;T074" rank="797;797;767;765;765;575" code="NO-CODE" sourceType="SNMI;MSH;RCD;ICF;RCD;NCI"/>
+<modifier value="arthroscopic" begin="161" end="173" status="0" certainty="0" cui="C0443142" tui="T082" rank="717" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="release;shoulder joint" begin="174;189" end="181;203" status="0" certainty="0" cui="C0370847" tui="T061" rank="271" code="NO-CODE" sourceType="CPT"/>
+<procedure value="arthroscopic;shoulder" begin="161;189" end="173;197" status="0" certainty="0" cui="C0559702" tui="T058" rank="767" code="NO-CODE" sourceType="ICD9CM"/>
+<procedure value="arthroscopic;joint" begin="161;198" end="173;203" status="0" certainty="0" cui="C0003904" tui="T060" rank="795" code="NO-CODE" sourceType="CCS"/>
+<procedure value="release;joint" begin="174;198" end="181;203" status="0" certainty="0" cui="C0864196" tui="T061" rank="295" code="NO-CODE" sourceType="MTHICD9"/>
+<procedure value="release" begin="174" end="181" status="0" certainty="0" cui="C0391871;C1963578;C1283071;C0030685;C0680255" tui="T169;T061;T169;T058;T058" rank="767;767;576;575;472" code="NO-CODE" sourceType="SNM;SNOMEDCTUS;NCI;NCI;AOD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="205" end="299" sentText="The provider documented, “Left frozen shoulder with pathological changes of the rotator cuff.”">
+<RelationSet id="1915">
+<anatomicalStructure value="Left;shoulder" begin="231;243" end="235;251" status="0" certainty="0" cui="C0524469;C1288640" tui="T029;T029" rank="765;765" code="NO-CODE" sourceType="SNMI;SNOMEDCTUS"/>
+<anatomicalStructure value="shoulder" begin="243" end="251" status="0" certainty="0" cui="C0037004;C1283792;C0869975" tui="T029;T029;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="300" end="355" sentText="What are the appropriate diagnosis and procedure codes?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="357" end="572">
+<Sentence sentNo="5" begin="357" end="474" sentText="Answer: Assign code M75.02, Adhesive capsulitis of left shoulder, as the principal diagnosis for the frozen shoulder.">
+<RelationSet id="1915">
+<problem value="5.02, Adhesive capsulitis of left sh" begin="379" end="415" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1916">
+<anatomicalStructure value="shoulder" begin="465" end="473" status="0" certainty="0" cui="C0037004;C1283792;C0869975" tui="T029;T029;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+</RelationSet>
+<RelationSet id="1917">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="Adhesive capsulitis" begin="385" end="404" status="0" certainty="0"/>
+<modifier value="left" begin="408" end="412" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="Adhesive capsulitis" begin="385" end="404" status="0" certainty="0"/>
+<anatomicalStructure value="shoulder" begin="413" end="421" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="Adhesive capsulitis" begin="385" end="404" status="0" certainty="0"/>
+<anatomicalStructure value="shoulder" begin="413" end="421" status="0" certainty="0"/>
+<modifier value="left" begin="408" end="412" status="0" certainty="0"/>
+</Relation>
+<problem value="Adhesive capsulitis;left shoulder" begin="385;408" end="404;421" status="0" certainty="0" cui="C2896360" tui="T047" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="Adhesive capsulitis;shoulder" begin="385;413" end="404;421" status="0" certainty="0" cui="C0311223" tui="T047" rank="767" code="NO-CODE" sourceType="ICD10"/>
+<problem value="Adhesive capsulitis" begin="385" end="404" status="0" certainty="0" cui="C0158300" tui="T047" rank="793" code="NO-CODE" sourceType="MSH"/>
+<problem value="capsulitis;shoulder" begin="394;413" end="404;421" status="0" certainty="0" cui="C0848451" tui="T047" rank="644" code="NO-CODE" sourceType="MDR"/>
+<problem value="capsulitis" begin="394" end="404" status="0" certainty="0" cui="C0263907" tui="T047" rank="767" code="NO-CODE" sourceType="COSTAR"/>
+<anatomicalStructure value="left shoulder" begin="408" end="421" status="0" certainty="0" cui="C0524469;C1288640" tui="T029;T029" rank="765;765" code="NO-CODE" sourceType="SNMI;SNOMEDCTUS"/>
+<anatomicalStructure value="shoulder" begin="413" end="421" status="0" certainty="0" cui="C0037004;C1283792;C0869975" tui="T029;T029;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+<modifier value="left" begin="408" end="412" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="475" end="571" sentText="Assign the following ICD-10-PCS code for the arthroscopic release of the shoulder joint: 0RNK4ZZ">
+<RelationSet id="1918">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="arthroscopic release" begin="520" end="540" status="0" certainty="0"/>
+<anatomicalStructure value="shoulder joint" begin="548" end="562" status="0" certainty="0"/>
+</Relation>
+<modifier value="arthroscopic" begin="520" end="532" status="0" certainty="0" cui="C0443142" tui="T082" rank="717" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="release;shoulder joint" begin="533;548" end="540;562" status="0" certainty="0" cui="C0370847" tui="T061" rank="271" code="NO-CODE" sourceType="CPT"/>
+<procedure value="arthroscopic;shoulder" begin="520;548" end="532;556" status="0" certainty="0" cui="C0559702" tui="T058" rank="767" code="NO-CODE" sourceType="ICD9CM"/>
+<procedure value="arthroscopic;joint" begin="520;557" end="532;562" status="0" certainty="0" cui="C0003904" tui="T060" rank="795" code="NO-CODE" sourceType="CCS"/>
+<procedure value="release;joint" begin="533;557" end="540;562" status="0" certainty="0" cui="C0864196" tui="T061" rank="295" code="NO-CODE" sourceType="MTHICD9"/>
+<procedure value="release" begin="533" end="540" status="0" certainty="0" cui="C0391871;C1963578;C1283071;C0030685;C0680255" tui="T169;T061;T169;T058;T058" rank="767;767;576;575;472" code="NO-CODE" sourceType="SNM;SNOMEDCTUS;NCI;NCI;AOD"/>
+<anatomicalStructure value="shoulder joint" begin="548" end="562" status="0" certainty="0" cui="C0037009;C1269056" tui="T030;T030" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="shoulder" begin="548" end="556" status="0" certainty="0" cui="C0037004;C1283792;C0869975" tui="T029;T029;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+<anatomicalStructure value="joint" begin="557" end="562" status="0" certainty="0" cui="C0521339;C0022417;C0444497;C0392905;C1269611;C1706309" tui="T169;T030;T082;T022;T030;T074" rank="797;797;767;765;765;575" code="NO-CODE" sourceType="SNMI;MSH;RCD;ICF;RCD;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

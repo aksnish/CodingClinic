@@ -1,0 +1,94 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="586">
+<Paragraph pgNo="1" begin="0" end="248">
+<Sentence sentNo="1" begin="0" end="104" sentText="Question: A patient is undergoing right uterine artery embolization due to concern for placenta accreta.">
+<RelationSet id="1013">
+<anatomicalStructure value="placenta accreta" begin="87" end="103" status="0" certainty="1" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1014">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="uterine artery embolization" begin="40" end="67" status="0" certainty="1"/>
+<modifier value="right" begin="34" end="39" status="0" certainty="1"/>
+</Relation>
+<procedure value="uterine artery embolization" begin="40" end="67" status="0" certainty="1" cui="C0729536" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="artery embolization" begin="48" end="67" status="0" certainty="1" cui="C0397760" tui="T061" rank="767" code="NO-CODE" sourceType="RCDAE"/>
+<procedure value="embolization" begin="55" end="67" status="0" certainty="1" cui="C0013931" tui="T061" rank="765" code="NO-CODE" sourceType="RCDAE"/>
+<procedure value="uterine" begin="40" end="47" status="0" certainty="1" cui="C0042149;C1269032;C0496919;C0869889;C1519876" tui="T023;T023;T191;T060;T024" rank="797;765;610;592;575" code="NO-CODE" sourceType="ICD10AM;SNOMEDCTUS;ICD10;MEDCIN;NCI"/>
+<procedure value="artery" begin="48" end="54" status="0" certainty="1" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<anatomicalStructure value="uterine artery" begin="40" end="54" status="0" certainty="1" cui="C0226378;C1280153" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<modifier value="right" begin="34" end="39" status="0" certainty="1" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="105" end="215" sentText="The catheter was placed in the right internal iliac artery and the uterine artery was embolized using Gelfoam.">
+<RelationSet id="1015">
+<medicalDevice value="catheter" begin="109" end="117" status="0" certainty="0" cui="C0085590;C1704454;C0007430;C1546572" tui="T074;T074;T061;T170" rank="795;575;488;355" code="NO-CODE" sourceType="RCD;NCI;ICPC2P;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1016">
+<modifier value="right" begin="136" end="141" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1017">
+<anatomicalStructure value="right internal iliac artery" begin="136" end="163" status="0" certainty="0" cui="C1267354;C0226365" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNM"/>
+<anatomicalStructure value="internal iliac artery" begin="142" end="163" status="0" certainty="0" cui="C1269017;C0226364" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<anatomicalStructure value="iliac artery" begin="151" end="163" status="0" certainty="0" cui="C0020887;C1280172" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="artery" begin="157" end="163" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<anatomicalStructure value="iliac" begin="151" end="156" status="0" certainty="0" cui="C0020889;C1279102" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1018">
+<anatomicalStructure value="uterine artery" begin="172" end="186" status="0" certainty="0" cui="C0226378;C1280153" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="uterine" begin="172" end="179" status="0" certainty="0" cui="C0042149;C1269032;C0496919;C0869889;C1519876" tui="T023;T023;T191;T060;T024" rank="797;765;610;592;575" code="NO-CODE" sourceType="ICD10AM;SNOMEDCTUS;ICD10;MEDCIN;NCI"/>
+<anatomicalStructure value="artery" begin="180" end="186" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="1018">
+<med value="Gelfoam" begin="207" end="214" status="0" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="216" end="247" sentText="Is Gelfoam considered a device?">
+<RelationSet id="1018">
+<med value="Gelfoam" begin="219" end="226" status="0" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="249" end="585">
+<Sentence sentNo="4" begin="249" end="422" sentText="Answer: Gelfoam is used intraluminally to embolize the uterine artery, and is typically cut into pledgets, inserted in a syringe, and injected into the vessel to occlude it.">
+<RelationSet id="1018">
+<anatomicalStructure value="Gelfoam" begin="257" end="264" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1019">
+<anatomicalStructure value="uterine artery" begin="304" end="318" status="0" certainty="0" cui="C0226378;C1280153" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="uterine" begin="304" end="311" status="0" certainty="0" cui="C0042149;C1269032;C0496919;C0869889;C1519876" tui="T023;T023;T191;T060;T024" rank="797;765;610;592;575" code="NO-CODE" sourceType="ICD10AM;SNOMEDCTUS;ICD10;MEDCIN;NCI"/>
+<anatomicalStructure value="artery" begin="312" end="318" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="1020">
+<medicalDevice value="syringe" begin="370" end="377" status="0" certainty="0" cui="C0039142;C0184957;C0039147;C1706072;C1706071;C1561597" tui="T074;T061;T190;T073;T081;T170" rank="797;765;765;575;575;366" code="NO-CODE" sourceType="MSH;RCD;SNMI;NCI;NCI;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1021">
+<procedure value="injected;vessel" begin="383;401" end="391;407" status="0" certainty="0" cui="C0413359" tui="T061" rank="717" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1022">
+<anatomicalStructure value="vessel" begin="401" end="407" status="0" certainty="0" cui="C0042591;C0148346;C0005847;C1511228;C0702235" tui="T029;T118,T121;T023;T024;T109,T121" rank="767;722;701;571;520" code="NO-CODE" sourceType="RCD;MTH;LNC;NCI;PDQ"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="423" end="489" sentText="When used in this way, Gelfoam is coded as an intraluminal device.">
+<RelationSet id="1022">
+<med value="Gelfoam" begin="446" end="453" status="0" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1023">
+<medicalDevice value="device" begin="482" end="488" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="490" end="585" sentText="Assign the following ICD10-PCS code, for the uterine artery embolization using Gelfoam: 04LE3DT">
+<RelationSet id="1024">
+<procedure value="uterine artery embolization" begin="535" end="562" status="0" certainty="0" cui="C0729536" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="artery embolization" begin="543" end="562" status="0" certainty="0" cui="C0397760" tui="T061" rank="767" code="NO-CODE" sourceType="RCDAE"/>
+<procedure value="embolization" begin="550" end="562" status="0" certainty="0" cui="C0013931" tui="T061" rank="765" code="NO-CODE" sourceType="RCDAE"/>
+<procedure value="uterine" begin="535" end="542" status="0" certainty="0" cui="C0042149;C1269032;C0496919;C0869889;C1519876" tui="T023;T023;T191;T060;T024" rank="797;765;610;592;575" code="NO-CODE" sourceType="ICD10AM;SNOMEDCTUS;ICD10;MEDCIN;NCI"/>
+<procedure value="artery" begin="543" end="549" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<anatomicalStructure value="uterine artery" begin="535" end="549" status="0" certainty="0" cui="C0226378;C1280153" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1024">
+<med value="Gelfoam" begin="569" end="576" status="0" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

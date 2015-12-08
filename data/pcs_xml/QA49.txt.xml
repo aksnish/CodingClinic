@@ -1,0 +1,103 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="857">
+<Paragraph pgNo="1" begin="0" end="543">
+<Sentence sentNo="1" begin="0" end="120" sentText="Question: The patient had previously undergone a Mitrofanoff procedure and now presents with Mitrofanoff channel polyps.">
+<RelationSet id="1861">
+<procedure value="Mitrofanoff procedure" begin="49" end="70" status="0" certainty="1" cui="C1168307" tui="T061" rank="644" code="NO-CODE" sourceType="MDR"/>
+<procedure value="procedure" begin="61" end="70" status="0" certainty="1" cui="C0184661;C0025664;C2700391;C1948041;C3274430;C3538935;C3539779;C1546467" tui="T060,T061;T170;T052;T061;T058;T078;T170;T078" rank="792;789;576;575;572;571;571;366" code="NO-CODE" sourceType="MSH;MSH;NCI;NCI;NCI;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1862">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="Mitrofanoff channel" begin="93" end="112" status="0" certainty="0"/>
+<problem value="polyps" begin="113" end="119" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="Mitrofanoff channel" begin="93" end="112" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<problem value="polyps" begin="113" end="119" status="0" certainty="0" cui="C0032584;C1546747" tui="T190;T170" rank="797;355" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="121" end="250" sentText="The polyps were excised via cystourethroscope, and the surgeon documented “three fairly large polyps in the Mitrofanoff channel.”">
+<RelationSet id="1863">
+<problem value="polyps" begin="125" end="131" status="0" certainty="0" cui="C0032584;C1546747" tui="T190;T170" rank="797;355" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1864">
+<medicalDevice value="cystourethroscope" begin="149" end="166" status="0" certainty="0" cui="C0010707;C0180277;C3669151;C3669152" tui="T060;T074;T061;T061" rank="765;686;353;353" code="NO-CODE" sourceType="MDR;UMD;CPT;CPT"/>
+</RelationSet>
+<RelationSet id="1865">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="large" begin="209" end="214" status="0" certainty="0"/>
+<problem value="polyps" begin="215" end="221" status="0" certainty="0"/>
+</Relation>
+<modifier value="large" begin="209" end="214" status="0" certainty="0" cui="C0549177;C0443228;C1704243;C1416798" tui="T081;T081;T081;T028" rank="797;797;765;596" code="NO-CODE" sourceType="RCD;NCI;SNMI;HGNC"/>
+<problem value="polyps" begin="215" end="221" status="0" certainty="0" cui="C0032584;C1546747" tui="T190;T170" rank="797;355" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="251" end="322" sentText="For the procedure, is the body part the appendix or the urinary system?">
+<RelationSet id="1866">
+<anatomicalStructure value="appendix" begin="291" end="299" status="0" certainty="0" cui="C0003617;C1269000;C0496860;C0348899;C0496779;C0869813;C1552860" tui="T023;T023;T191;T191;T191;T061;T078" rank="797;765;610;610;610;373;366" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;ICD10;ICD10;ICD10AM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1867">
+<anatomicalStructure value="part;urinary system" begin="282;307" end="286;321" status="0" certainty="0" cui="C1519832" tui="T023" rank="576" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="323" end="405" sentText="What is the appropriate procedure code for excision of Mitrofanoff channel polyps?">
+<RelationSet id="1868">
+<modifier value="channel" begin="390" end="397" status="0" certainty="0" cui="C0439799;C1706095" tui="T082;T077" rank="797;576" code="NO-CODE" sourceType="RCD;NCI"/>
+<problem value="polyps" begin="398" end="404" status="0" certainty="0" cui="C0032584;C1546747" tui="T190;T170" rank="797;355" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+<procedure value="excision" begin="366" end="374" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="406" end="542" sentText="During a Mitrofanoff procedure, the appendix is used to create a conduit between the skin surface and the urinary bladder (neo-urethra).">
+<RelationSet id="1869">
+<modifier value="During;procedure" begin="406;427" end="412;436" status="0" certainty="0" cui="C0585033" tui="T079" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="Mitrofanoff procedure" begin="415" end="436" status="0" certainty="0" cui="C1168307" tui="T061" rank="644" code="NO-CODE" sourceType="MDR"/>
+<procedure value="procedure" begin="427" end="436" status="0" certainty="0" cui="C0184661;C0025664;C2700391;C1948041;C3274430;C3538935;C3539779;C1546467" tui="T060,T061;T170;T052;T061;T058;T078;T170;T078" rank="792;789;576;575;572;571;571;366" code="NO-CODE" sourceType="MSH;MSH;NCI;NCI;NCI;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1870">
+<anatomicalStructure value="appendix" begin="442" end="450" status="0" certainty="0" cui="C0003617;C1269000;C0496860;C0348899;C0496779;C0869813;C1552860" tui="T023;T023;T191;T191;T191;T061;T078" rank="797;765;610;610;610;373;366" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;ICD10;ICD10;ICD10AM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1871">
+<anatomicalStructure value="skin surface" begin="491" end="503" status="0" certainty="0" cui="C0222084;C1180212" tui="T023;T029" rank="724;692" code="NO-CODE" sourceType="SNM;UWDA"/>
+<anatomicalStructure value="surface" begin="496" end="503" status="0" certainty="0" cui="C0015450;C0205148;C1281591;C0836841;C1423759;C2828055" tui="T029;T082;T023;T029;T028;T028" rank="797;767;765;692;596;575" code="NO-CODE" sourceType="LCH;RCD;SNOMEDCTUS;UWDA;OMIM;NCI"/>
+</RelationSet>
+<RelationSet id="1872">
+<anatomicalStructure value="urinary bladder;neo-urethra" begin="512;529" end="527;540" status="0" certainty="0" cui="C0545903" tui="T023" rank="716" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="urinary bladder" begin="512" end="527" status="0" certainty="0" cui="C0005682;C1511200" tui="T023;T024" rank="797;572" code="NO-CODE" sourceType="LCH;NCI"/>
+<anatomicalStructure value="bladder" begin="520" end="527" status="0" certainty="0" cui="C1281573;C0205058;C0496930;C0154017;C0154091;C0872388" tui="T023;T082;T191;T191;T191;T061" rank="765;703;610;610;610;373" code="NO-CODE" sourceType="SNOMEDCTUS;SNMI;ICD10;ICD10;ICD10;ICD10AM"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="544" end="856">
+<Sentence sentNo="6" begin="544" end="638" sentText="Answer: For the excision of the Mitrofanoff channel polyps, use the body part value “Urethra.”">
+<RelationSet id="1873">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="excision" begin="560" end="568" status="0" certainty="0"/>
+<problem value="polyps" begin="596" end="602" status="0" certainty="0"/>
+<anatomicalStructure value="Mitrofanoff channel" begin="576" end="595" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="excision" begin="560" end="568" status="0" certainty="0"/>
+<anatomicalStructure value="Mitrofanoff channel" begin="576" end="595" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="polyps" begin="596" end="602" status="0" certainty="0"/>
+<anatomicalStructure value="Mitrofanoff channel" begin="576" end="595" status="0" certainty="0"/>
+</Relation>
+<procedure value="excision" begin="560" end="568" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+<problem value="polyps" begin="596" end="602" status="0" certainty="0" cui="C0032584;C1546747" tui="T190;T170" rank="797;355" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+<anatomicalStructure value="Mitrofanoff channel" begin="576" end="595" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="639" end="706" sentText="The appendiceal tissue is now functioning as urethra (neo-urethra).">
+<RelationSet id="1874">
+<anatomicalStructure value="appendiceal" begin="643" end="654" status="0" certainty="0" cui="C0003617;C1269000;C0227334;C0496860;C0348899;C0496779;C0869813;C1552860" tui="T023;T023;T169;T191;T191;T191;T061;T078" rank="797;765;703;610;610;610;373;366" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;SNMI;ICD10;ICD10;ICD10;ICD10AM;HL7V3.0"/>
+<anatomicalStructure value="tissue" begin="655" end="661" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1875">
+<anatomicalStructure value="urethra" begin="684" end="691" status="0" certainty="0" cui="C0041967;C2349082;C1522518" tui="T023;T122;T169" rank="767;575;575" code="NO-CODE" sourceType="MSH;NCI;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="707" end="855" sentText="This is consistent with information previously published in Coding Clinic Second Quarter 2014, page 8. Assign the following ICD-10-PCS code: 0TBD8ZZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

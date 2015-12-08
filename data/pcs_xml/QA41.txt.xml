@@ -1,0 +1,39 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="389">
+<Paragraph pgNo="1" begin="0" end="290">
+<Sentence sentNo="1" begin="0" end="146" sentText="Question: A pregnant patient with a history of fetal loss at six months gestation due to cervical incompetence presents for placement of cerclage.">
+<RelationSet id="1474">
+<anatomicalStructure value="fetal" begin="47" end="52" status="1" certainty="1" cui="C0521457;C0015965;C1305737;C0242291" tui="T169;T018;T017;T024" rank="797;797;765;572" code="NO-CODE" sourceType="SNMI;LCH;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="1475">
+<problem value="cervical incompetence" begin="89" end="110" status="0" certainty="0" cui="C0007871" tui="T046" rank="791" code="NO-CODE" sourceType="CCS"/>
+<problem value="incompetence" begin="98" end="110" status="0" certainty="0" cui="C0231189;C0231190" tui="T046;T169" rank="767;703" code="NO-CODE" sourceType="SNMI;SNMI"/>
+<anatomicalStructure value="cervical" begin="89" end="97" status="0" certainty="0" cui="C0027530;C0205064;C0007874;C1281592;C2137077;C0200040;C1550623;C1546592" tui="T029;T082;T023;T023;T033;T061;T031;T170" rank="797;797;790;765;592;373;366;355" code="NO-CODE" sourceType="CST;RCD;RCD;SNOMEDCTUS;MEDCIN;ICD10AM;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1476">
+<procedure value="placement" begin="124" end="133" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+<procedure value="cerclage" begin="137" end="145" status="0" certainty="0" cui="C1292825" tui="T061" rank="767" code="NO-CODE" sourceType="CCPSS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="147" end="289" sentText="Is the cerclage considered a device? What is the appropriate ICD10-PCS root operation for placement of transvaginal cerclage during pregnancy?">
+<RelationSet id="1477">
+<procedure value="placement;cerclage;pregnancy" begin="237;263;279" end="246;271;288" status="0" certainty="0" cui="C0742026" tui="T061" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="transvaginal cerclage" begin="250" end="271" status="0" certainty="0" cui="C0994592" tui="T061" rank="295" code="NO-CODE" sourceType="MTHICD9"/>
+<procedure value="placement" begin="237" end="246" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+<procedure value="cerclage" begin="263" end="271" status="0" certainty="0" cui="C1292825" tui="T061" rank="767" code="NO-CODE" sourceType="CCPSS"/>
+<anatomicalStructure value="transvaginal" begin="250" end="262" status="0" certainty="0" cui="C0175672;C0042232;C1272941;C1522570" tui="T082;T023;T122;T169" rank="765;703;575;575" code="NO-CODE" sourceType="RCD;NCI;NCI;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="291" end="388">
+<Sentence sentNo="3" begin="291" end="387" sentText="Answer: Assign the following ICD-10-PCS code for the placement of transvaginal cerclage: 0UVC7ZZ">
+<RelationSet id="1478">
+<procedure value="transvaginal cerclage" begin="357" end="378" status="0" certainty="0" cui="C0994592" tui="T061" rank="295" code="NO-CODE" sourceType="MTHICD9"/>
+<procedure value="placement" begin="344" end="353" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+<procedure value="cerclage" begin="370" end="378" status="0" certainty="0" cui="C1292825" tui="T061" rank="767" code="NO-CODE" sourceType="CCPSS"/>
+<anatomicalStructure value="transvaginal" begin="357" end="369" status="0" certainty="0" cui="C0175672;C0042232;C1272941;C1522570" tui="T082;T023;T122;T169" rank="765;703;575;575" code="NO-CODE" sourceType="RCD;NCI;NCI;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

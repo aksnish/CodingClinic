@@ -1,0 +1,2 @@
+Question: A patient underwent a repeat low transverse cesarean section. During the cesarean delivery, vacuum extraction was used to assist with the delivery of the infant. What is the correct ICD-10-PCS qualifier (7th character) at table 10D, for low transverse cesarean section aided with vacuum extraction? 
+Answer: Vacuum assistance used with cesarean delivery is not separately coded. Code only the cesarean delivery. 

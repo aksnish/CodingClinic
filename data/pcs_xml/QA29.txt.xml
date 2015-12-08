@@ -1,0 +1,23 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="512">
+<Paragraph pgNo="1" begin="0" end="216">
+<Sentence sentNo="1" begin="0" end="215" sentText="Question: When the physician documents in his final diagnostic statement “Immunocompromised State” and it is not caused by medication or due to an underlying disease process, should immunocompromised state be coded?">
+<RelationSet id="680">
+<problem value="disease" begin="158" end="165" status="0" certainty="-2" cui="C0012634;C1422572;C1424810;C1416989;C3273340;C3540595;C3273341;C1331418" tui="T047;T028;T028;T028;T028;T028;T116;T041" rank="797;600;596;596;575;575;575;575" code="NO-CODE" sourceType="LCH;HGNC;OMIM;HGNC;NCI;NCI;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="217" end="511">
+<Sentence sentNo="2" begin="217" end="377" sentText="Answer: Yes, assign code D89.9, Disorder involving the immune mechanism, unspecified, if no underlying cause of the immunocompromised state has been identified.">
+<RelationSet id="680">
+<problem value="9.9, Disorder involving the immune mechanism, unspec" begin="244" end="296" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="378" end="510" sentText="This code should only be assigned if no specific disease process or drug has been identified as causing the immunocompromised state.">
+<RelationSet id="681">
+<problem value="disease" begin="427" end="434" status="0" certainty="-3" cui="C0012634;C1422572;C1424810;C1416989;C3273340;C3540595;C3273341;C1331418" tui="T047;T028;T028;T028;T028;T028;T116;T041" rank="797;600;596;596;575;575;575;575" code="NO-CODE" sourceType="LCH;HGNC;OMIM;HGNC;NCI;NCI;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

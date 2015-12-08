@@ -1,0 +1,85 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="780">
+<Paragraph pgNo="1" begin="0" end="486">
+<Sentence sentNo="1" begin="0" end="189" sentText="Question: The BiPAP Ventilatory Support System is a continuous ventilator used for spontaneously breathing patients in critical care or life-supporting applications in the hospital setting.">
+<RelationSet id="608">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="ventilator" begin="63" end="73" status="0" certainty="1"/>
+<procedure value="BiPAP Ventilatory Support System" begin="14" end="46" status="0" certainty="1"/>
+</Relation>
+<medicalDevice value="continuous ventilator" begin="52" end="73" status="0" certainty="1" cui="C0262804" tui="T074" rank="683" code="NO-CODE" sourceType="UMD"/>
+<medicalDevice value="ventilator" begin="63" end="73" status="0" certainty="1" cui="C0087153;C1611144;C1547127" tui="T074;T073;T082" rank="792;750;355" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;HL7V2.5"/>
+<modifier value="Support System" begin="32" end="46" status="0" certainty="1" cui="C0748877" tui="T096" rank="797" code="NO-CODE" sourceType="NCI"/>
+<procedure value="Ventilatory Support;continuous" begin="20;52" end="39;62" status="0" certainty="1" cui="C0841927" tui="T061" rank="373" code="NO-CODE" sourceType="ICD10AM"/>
+<procedure value="Support" begin="32" end="39" status="0" certainty="1" cui="C0344211;C0183683;C1171411;C1521721" tui="T058;T074;T109,T121,T127;T077" rank="767;767;673;576" code="NO-CODE" sourceType="RCD;UMD;CHV;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="190" end="386" sentText="The system may be used for noninvasive treatment (patients are not intubated) of respiratory failure, respiratory insufficiency, and obstructive sleep apnea in patients with spontaneous breathing.">
+<RelationSet id="608">
+<procedure value="intubated" begin="257" end="266" status="0" certainty="-2" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="609">
+<problem value="respiratory failure" begin="271" end="290" status="0" certainty="-2" cui="C1145670" tui="T047" rank="797" code="NO-CODE" sourceType="MEDLINEPLUS"/>
+</RelationSet>
+<RelationSet id="610">
+<problem value="respiratory insufficiency" begin="292" end="317" status="0" certainty="-2" cui="C1145670;C0035229" tui="T047;T046" rank="797;797" code="NO-CODE" sourceType="MEDLINEPLUS;MSH"/>
+</RelationSet>
+<RelationSet id="611">
+<problem value="obstructive sleep apnea" begin="323" end="346" status="0" certainty="-2" cui="C0520679" tui="T047" rank="797" code="NO-CODE" sourceType="RCDAE"/>
+<problem value="sleep apnea" begin="335" end="346" status="0" certainty="-2" cui="C0037315;C3496180" tui="T047;T074" rank="791;739" code="NO-CODE" sourceType="ICD10AE;VANDF"/>
+<problem value="apnea" begin="341" end="346" status="0" certainty="-2" cui="C0003578;C1963065" tui="T046;T033" rank="797;551" code="NO-CODE" sourceType="LCH;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="387" end="485" sentText="What is the appropriate ICD-10-PCS code assignment for the BiPAP S/T-D Ventilatory Support System?">
+<RelationSet id="612">
+<medicalDevice value="BiPAP" begin="446" end="451" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="613">
+<modifier value="Support System" begin="470" end="484" status="0" certainty="0" cui="C0748877" tui="T096" rank="797" code="NO-CODE" sourceType="NCI"/>
+<problem value="T-D" begin="454" end="457" status="0" certainty="0" cui="C0439143;C0439129;C1328653;C0439119;C0439107;C1328650;C1420562;C2825521;C0439228;C0439216;C1551055;C1553026;C1553032;C1704619;C0475455;C1522168;C0040715;C0678223;C0040223;C1532188;C0073187;C1552647" tui="T170;T170;T170;T170;T170;T170;T028;T079;T079;T081;T081;T081;T081;T081;T185;T169;T049;T081;T079;T081;T116,T129;T081" rank="767;767;767;767;767;767;596;572;544;544;544;527;527;519;519;519;519;519;519;519;416;366" code="NO-CODE" sourceType="RCD;RCD;SNOMEDCTUS;RCD;RCD;RCD;NCI;NCI;NCI;NCI;NCI;NCI;NCI;NCI;SNOMEDCTUS;NCI;NCI;NCI;NCI;NCI;LNC;HL7V3.0"/>
+<procedure value="Support" begin="470" end="477" status="0" certainty="0" cui="C0344211;C0183683;C1171411;C1521721" tui="T058;T074;T109,T121,T127;T077" rank="767;767;673;576" code="NO-CODE" sourceType="RCD;UMD;CHV;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="487" end="779">
+<Sentence sentNo="4" begin="487" end="630" sentText="Answer: The BiPAP system is a noninvasive ventilation support system designed to augment a patient’s ability to breathe on a spontaneous basis.">
+<RelationSet id="614">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="BiPAP system" begin="499" end="511" status="0" certainty="0"/>
+<modifier value="noninvasive" begin="517" end="528" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="ventilation support system" begin="529" end="555" status="0" certainty="0"/>
+<modifier value="noninvasive" begin="517" end="528" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="ventilation support system" begin="529" end="555" status="0" certainty="0"/>
+<medicalDevice value="BiPAP system" begin="499" end="511" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="ventilation support system" begin="529" end="555" status="0" certainty="0"/>
+<medicalDevice value="BiPAP system" begin="499" end="511" status="0" certainty="0"/>
+<modifier value="noninvasive" begin="517" end="528" status="0" certainty="0"/>
+</Relation>
+<modifier value="system designed" begin="549" end="564" status="0" certainty="0" cui="C1510581" tui="T170" rank="289" code="NO-CODE" sourceType="PSY"/>
+<modifier value="system;support" begin="505;541" end="511;548" status="0" certainty="0" cui="C0748877" tui="T096" rank="797" code="NO-CODE" sourceType="NCI"/>
+<procedure value="noninvasive ventilation" begin="517" end="540" status="0" certainty="0" cui="C1997883" tui="T061" rank="795" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="support" begin="541" end="548" status="0" certainty="0" cui="C0344211;C0183683;C1171411;C1521721" tui="T058;T074;T109,T121,T127;T077" rank="767;767;673;576" code="NO-CODE" sourceType="RCD;UMD;CHV;NCI"/>
+<medicalDevice value="system;ventilation" begin="505;529" end="511;540" status="0" certainty="0" cui="C0262910" tui="T073" rank="683" code="NO-CODE" sourceType="UMD"/>
+<medicalDevice value="system" begin="505" end="511" status="0" certainty="0" cui="C0449913;C0205373;C1704459;C1553451" tui="T169;T169;T074;T073" rank="797;797;575;366" code="NO-CODE" sourceType="RCD;RCD;NCI;HL7V3.0"/>
+<modifier value="noninvasive" begin="517" end="528" status="0" certainty="0" cui="C0205281;C2986496" tui="T080;T185" rank="797;576" code="NO-CODE" sourceType="SNMI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="631" end="714" sentText="The code assignment depends on the number of hours that the patient receives BiPAP.">
+<RelationSet id="614">
+<medicalDevice value="BiPAP" begin="708" end="713" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="715" end="779" sentText="The ICD-10-PCS codes that describe BiPAP are as follows: 5A09357">
+<RelationSet id="614">
+<medicalDevice value="BiPAP" begin="750" end="755" status="0" certainty="1" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

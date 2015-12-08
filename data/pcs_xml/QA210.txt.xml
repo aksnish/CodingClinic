@@ -1,0 +1,59 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="573">
+<Paragraph pgNo="1" begin="0" end="59">
+<Sentence sentNo="1" begin="0" end="58" sentText="Question: How should a nonhealing surgical wound be coded?">
+<RelationSet id="615">
+<problem value="nonhealing surgical wound" begin="23" end="48" status="0" certainty="1" cui="C0879439;C1305774" tui="T061;T037" rank="797;150" code="NO-CODE" sourceType="CHV;CHV"/>
+<problem value="nonhealing;wound" begin="23;43" end="33;48" status="0" certainty="1" cui="C0043240;C1265679;C0574776" tui="T040;T190;T033" rank="797;150;150" code="NO-CODE" sourceType="MSH;CHV;CHV"/>
+<problem value="surgical wound" begin="34" end="48" status="0" certainty="1" cui="C0332803" tui="T037" rank="797" code="NO-CODE" sourceType="SNM"/>
+<problem value="wound" begin="43" end="48" status="0" certainty="1" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797;C1550680;C1549529;C1547965" tui="T070;T037;T080;T033;T184;T169;T031;T169;T170" rank="795;792;788;767;709;703;366;355;355" code="NO-CODE" sourceType="MSH;MDR;MSH;RCD;MDR;SNMI;HL7V3.0;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="60" end="572">
+<Sentence sentNo="2" begin="60" end="149" sentText="Answer: ICD-10-CM does not provide a specific code to describe nonhealing surgical wound.">
+<RelationSet id="616">
+<problem value="nonhealing surgical wound" begin="123" end="148" status="0" certainty="1" cui="C0879439;C1305774" tui="T061;T037" rank="797;150" code="NO-CODE" sourceType="CHV;CHV"/>
+<problem value="nonhealing;wound" begin="123;143" end="133;148" status="0" certainty="1" cui="C0043240;C1265679;C0574776" tui="T040;T190;T033" rank="797;150;150" code="NO-CODE" sourceType="MSH;CHV;CHV"/>
+<problem value="surgical wound" begin="134" end="148" status="0" certainty="1" cui="C0332803" tui="T037" rank="797" code="NO-CODE" sourceType="SNM"/>
+<problem value="wound" begin="143" end="148" status="0" certainty="1" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797;C1550680;C1549529;C1547965" tui="T070;T037;T080;T033;T184;T169;T031;T169;T170" rank="795;792;788;767;709;703;366;355;355" code="NO-CODE" sourceType="MSH;MDR;MSH;RCD;MDR;SNMI;HL7V3.0;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="150" end="278" sentText="Assign code T81.89X-, Other complications of procedures, not elsewhere classified, for an unspecified nonhealing surgical wound.">
+<RelationSet id="617">
+<problem value="nonhealing surgical wound" begin="252" end="277" status="0" certainty="-2" cui="C0879439;C1305774" tui="T061;T037" rank="797;150" code="NO-CODE" sourceType="CHV;CHV"/>
+<problem value="nonhealing;wound" begin="252;272" end="262;277" status="0" certainty="-2" cui="C0043240;C1265679;C0574776" tui="T040;T190;T033" rank="797;150;150" code="NO-CODE" sourceType="MSH;CHV;CHV"/>
+<problem value="surgical wound" begin="263" end="277" status="0" certainty="-2" cui="C0332803" tui="T037" rank="797" code="NO-CODE" sourceType="SNM"/>
+<problem value="wound" begin="272" end="277" status="0" certainty="-2" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797;C1550680;C1549529;C1547965" tui="T070;T037;T080;T033;T184;T169;T031;T169;T170" rank="795;792;788;767;709;703;366;355;355" code="NO-CODE" sourceType="MSH;MDR;MSH;RCD;MDR;SNMI;HL7V3.0;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="279" end="356" sentText="If a postsurgical wound does not heal due to infection, assign code T81.4XX-,">
+<RelationSet id="618">
+<problem value="postsurgical wound" begin="284" end="302" status="0" certainty="-3" cui="C0332803" tui="T037" rank="797" code="NO-CODE" sourceType="SNM"/>
+<problem value="wound" begin="297" end="302" status="0" certainty="-3" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797;C1550680;C1549529;C1547965" tui="T070;T037;T080;T033;T184;T169;T031;T169;T170" rank="795;792;788;767;709;703;366;355;355" code="NO-CODE" sourceType="MSH;MDR;MSH;RCD;MDR;SNMI;HL7V3.0;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="619">
+<problem value="infection" begin="324" end="333" status="0" certainty="-3" cui="C0009450;C1556682;C1550587" tui="T047;T033;T078" rank="795;551;366" code="NO-CODE" sourceType="LCH;NCI;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="357" end="389" sentText="Infection following a procedure.">
+<RelationSet id="620">
+<problem value="Infection" begin="357" end="366" status="0" certainty="0" cui="C0009450;C1556682;C1550587" tui="T047;T033;T078" rank="795;551;366" code="NO-CODE" sourceType="LCH;NCI;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="390" end="477" sentText="If the wound was closed at one time and is no longer closed, it is coded as disruption.">
+<RelationSet id="621">
+<problem value="wound" begin="397" end="402" status="0" certainty="-3" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797;C1550680;C1549529;C1547965" tui="T070;T037;T080;T033;T184;T169;T031;T169;T170" rank="795;792;788;767;709;703;366;355;355" code="NO-CODE" sourceType="MSH;MDR;MSH;RCD;MDR;SNMI;HL7V3.0;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="478" end="504" sentText="In that case, code T81.3-,">
+</Sentence>
+<Sentence sentNo="8" begin="505" end="571" sentText="Disruption of wound, not elsewhere classified, should be assigned.">
+<RelationSet id="622">
+<problem value="Disruption;wound" begin="505;519" end="515;524" status="0" certainty="0" cui="C0259768" tui="T020" rank="595" code="NO-CODE" sourceType="ICPC2P"/>
+<problem value="wound" begin="519" end="524" status="0" certainty="0" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797;C1550680;C1549529;C1547965" tui="T070;T037;T080;T033;T184;T169;T031;T169;T170" rank="795;792;788;767;709;703;366;355;355" code="NO-CODE" sourceType="MSH;MDR;MSH;RCD;MDR;SNMI;HL7V3.0;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,51 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="444">
+<Paragraph pgNo="1" begin="0" end="237">
+<Sentence sentNo="1" begin="0" end="60" sentText="Question: A nasogastric (NG) tube was inserted for drainage.">
+<RelationSet id="2231">
+<medicalDevice value="nasogastric;NG;tube" begin="12;25;29" end="23;27;33" status="0" certainty="1" cui="C0085678" tui="T074" rank="797" code="NO-CODE" sourceType="RCD"/>
+<medicalDevice value="tube" begin="29" end="33" status="0" certainty="1" cui="C1561954;C0175730;C1704474;C1427122;C1704731;C1704730;C1611794;C1547937" tui="T077;T074;T081;T028;T074;T074;T170;T170" rank="797;767;765;596;575;563;366;355" code="NO-CODE" sourceType="NCI;RCD;NCI;HGNC;NCI;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2232">
+<procedure value="drainage" begin="51" end="59" status="0" certainty="1" cui="C0013103;C0012621;C2926602" tui="T061;T031;T031" rank="795;765;333" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;OMS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="61" end="129" sentText="The next day, tube feedings were ordered using the existing NG tube.">
+<RelationSet id="2233">
+<procedure value="tube feedings" begin="75" end="88" status="0" certainty="0" cui="C0041281;C2945625;C0014327;C0973654;C0785693" tui="T061;T074;T061;T168;T074" rank="793;767;151;151;150" code="NO-CODE" sourceType="MSH;SNM;CHV;CHV;CHV"/>
+<procedure value="feedings" begin="80" end="88" status="0" certainty="0" cui="C0204695;C2987508;C2148613" tui="T058;T052;T058" rank="767;595;592" code="NO-CODE" sourceType="RCD;NCI;MEDCIN"/>
+</RelationSet>
+<RelationSet id="2234">
+<medicalDevice value="NG tube" begin="121" end="128" status="0" certainty="0" cui="C0085678" tui="T074" rank="685" code="NO-CODE" sourceType="NCI"/>
+<medicalDevice value="tube" begin="124" end="128" status="0" certainty="0" cui="C1561954;C0175730;C1704474;C1427122;C1704731;C1704730;C1611794;C1547937" tui="T077;T074;T081;T028;T074;T074;T170;T170" rank="797;767;765;596;575;563;366;355" code="NO-CODE" sourceType="NCI;RCD;NCI;HGNC;NCI;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="130" end="236" sentText="What is the correct root operation(s) for the insertion of a single NG tube used for drainage and feeding?">
+<RelationSet id="2235">
+<procedure value="operation" begin="155" end="164" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="2236">
+<procedure value="drainage" begin="215" end="223" status="0" certainty="0" cui="C0013103;C0012621;C2926602" tui="T061;T031;T031" rank="795;765;333" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;OMS"/>
+</RelationSet>
+<RelationSet id="2237">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="single" begin="191" end="197" status="0" certainty="0"/>
+<medicalDevice value="NG tube" begin="198" end="205" status="0" certainty="0"/>
+</Relation>
+<medicalDevice value="NG tube" begin="198" end="205" status="0" certainty="0" cui="C0085678" tui="T074" rank="685" code="NO-CODE" sourceType="NCI"/>
+<medicalDevice value="tube" begin="201" end="205" status="0" certainty="0" cui="C1561954;C0175730;C1704474;C1427122;C1704731;C1704730;C1611794;C1547937" tui="T077;T074;T081;T028;T074;T074;T170;T170" rank="797;767;765;596;575;563;366;355" code="NO-CODE" sourceType="NCI;RCD;NCI;HGNC;NCI;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="238" end="443">
+<Sentence sentNo="4" begin="238" end="333" sentText="Answer: The placement of a nasogastric tube does not need to be coded in the inpatient setting.">
+<RelationSet id="2238">
+<medicalDevice value="nasogastric tube" begin="265" end="281" status="0" certainty="0" cui="C0085678;C0812428" tui="T074;T061" rank="797;491" code="NO-CODE" sourceType="RCD;CCS"/>
+<medicalDevice value="tube" begin="277" end="281" status="0" certainty="0" cui="C1561954;C0175730;C1704474;C1427122;C1704731;C1704730;C1611794;C1547937" tui="T077;T074;T081;T028;T074;T074;T170;T170" rank="797;767;765;596;575;563;366;355" code="NO-CODE" sourceType="NCI;RCD;NCI;HGNC;NCI;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="334" end="443" sentText="However, for facilities that wish to collect this information, assign the following ICD-10-PCS codes: 0D9670Z">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

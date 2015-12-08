@@ -1,0 +1,112 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="796">
+<Paragraph pgNo="1" begin="0" end="216">
+<Sentence sentNo="1" begin="0" end="79" sentText="Question: The patient developed a nonhealing necrotic ulcer of the right thigh.">
+<RelationSet id="115">
+<modifier value="nonhealing" begin="34" end="44" status="0" certainty="1" cui="C0043240;C0205249" tui="T040;T169" rank="765;233" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="116">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="right" begin="67" end="72" status="0" certainty="0"/>
+<problem value="necrotic ulcer" begin="45" end="59" status="0" certainty="1"/>
+<anatomicalStructure value="thigh" begin="73" end="78" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="necrotic ulcer" begin="45" end="59" status="0" certainty="1"/>
+<anatomicalStructure value="thigh" begin="73" end="78" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="right" begin="67" end="72" status="0" certainty="0"/>
+<problem value="necrotic ulcer" begin="45" end="59" status="0" certainty="1"/>
+</Relation>
+<modifier value="right" begin="67" end="72" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+<problem value="nonhealing;ulcer" begin="34;54" end="44;59" status="0" certainty="1" cui="C0333293;C1265810" tui="T020;T046" rank="797;150" code="NO-CODE" sourceType="SNMI;CHV"/>
+<problem value="ulcer;thigh" begin="54;73" end="59;78" status="0" certainty="1" cui="C0878701" tui="T047" rank="767" code="NO-CODE" sourceType="ICD9CM"/>
+<problem value="ulcer" begin="54" end="59" status="0" certainty="1" cui="C0041582;C1963256;C1550672;C1547940" tui="T046;T033;T170;T170" rank="797;551;366;355" code="NO-CODE" sourceType="RCD;NCI;HL7V3.0;HL7V2.5"/>
+<anatomicalStructure value="right thigh" begin="67" end="78" status="0" certainty="0" cui="C1279548;C0230425" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNM"/>
+<anatomicalStructure value="thigh" begin="73" end="78" status="0" certainty="0" cui="C0039866;C0015811;C1281586" tui="T029;T023;T023" rank="795;767;765" code="NO-CODE" sourceType="LCH;RCD;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="80" end="179" sentText="Using a VersaJet debrider, the physician performed debridement of the skin and subcutaneous tissue.">
+<RelationSet id="116">
+<medicalDevice value="VersaJet debrider" begin="88" end="105" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="117">
+<anatomicalStructure value="subcutaneous tissue" begin="159" end="178" status="0" certainty="0" cui="C0278403;C0222331;C1123023" tui="T024;T024;T022" rank="797;575;472" code="NO-CODE" sourceType="SNMI;NCI;AOD"/>
+<anatomicalStructure value="tissue" begin="172" end="178" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="118">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="skin" begin="150" end="154" status="0" certainty="0"/>
+<procedure value="debridement" begin="131" end="142" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="skin" begin="150" end="154" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<procedure value="debridement;skin" begin="131;150" end="142;154" status="0" certainty="0" cui="C0191342" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="debridement" begin="131" end="142" status="0" certainty="0" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="180" end="215" sentText="How should this procedure be coded?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="217" end="795">
+<Sentence sentNo="4" begin="217" end="350" sentText="Answer: Assign code 0HDHXZZ, Extraction of right upper leg skin, external approach, for the nonexcisional debridement using VersaJet.">
+<RelationSet id="119">
+<modifier value="right" begin="260" end="265" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="120">
+<anatomicalStructure value="right;leg" begin="260;272" end="265;275" status="0" certainty="0" cui="C0230442;C1279605" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="leg skin" begin="272" end="280" status="0" certainty="0" cui="C0222279" tui="T023" rank="765" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="leg" begin="272" end="275" status="0" certainty="0" cui="S1000407;C1140621;C1285009;C1269079;C0023216" tui="t061;T029;T029;T023;T029" rank="800;797;765;765;765" code="NO-CODE" sourceType="EZDI;LCH;SNOMEDCTUS;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="120">
+<med value="VersaJet" begin="341" end="349" status="0" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="351" end="465" sentText="The VersaJet is a device consisting of an ultra high-pressure generator with a console and disposable attachments.">
+<RelationSet id="121">
+<medicalDevice value="generator" begin="413" end="422" status="0" certainty="0" cui="C0237638;C1704445;C1704351;C1704245" tui="T073;T074;T081;T073" rank="576;575;562;562" code="NO-CODE" sourceType="MTH;NCI;NCI;NCI"/>
+<medicalDevice value="ultra" begin="393" end="398" status="0" certainty="0" cui="C0728475" tui="T074" rank="675" code="NO-CODE" sourceType="MMSL"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="466" end="534" sentText="A natural vacuum created by the jet stream removes tissue fragments.">
+</Sentence>
+<Sentence sentNo="7" begin="535" end="720" sentText="The device has specialized features that allow physicians to debride traumatic wounds, chronic wounds, or other soft tissue lesions and aspirate and remove contaminants or other debris.">
+<RelationSet id="122">
+<problem value="traumatic" begin="604" end="613" status="0" certainty="0" cui="C0043250;C0043251;C1510467;C0332663;C3263723;C0548346" tui="T037;T037;T037;T169;T037;T058" rank="792;791;789;767;765;317" code="NO-CODE" sourceType="MDR;ICPC2P;MSH;RCD;SNOMEDCTUS;PCDS"/>
+</RelationSet>
+<RelationSet id="123">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="soft tissue" begin="647" end="658" status="0" certainty="0"/>
+<problem value="lesions" begin="659" end="666" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="other soft tissue" begin="641" end="658" status="0" certainty="0" cui="C0449227" tui="T024" rank="717" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="soft tissue" begin="647" end="658" status="0" certainty="0" cui="C0225317;C1522192" tui="T024;T169" rank="797;572" code="NO-CODE" sourceType="SNM;NCI"/>
+<anatomicalStructure value="tissue" begin="652" end="658" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+<problem value="soft tissue lesions" begin="647" end="666" status="0" certainty="0" cui="C0410013" tui="T046" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="124">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="wounds" begin="630" end="636" status="0" certainty="0"/>
+<modifier value="chronic" begin="622" end="629" status="0" certainty="0"/>
+</Relation>
+<problem value="wounds" begin="630" end="636" status="0" certainty="0" cui="C0043250;C0021501;C0332797;C1550680;C1549529;C1547965" tui="T037;T080;T169;T031;T169;T170" rank="792;788;703;366;355;355" code="NO-CODE" sourceType="MDR;MSH;SNMI;HL7V3.0;HL7V2.5;HL7V2.5"/>
+<modifier value="chronic" begin="622" end="629" status="0" certainty="0" cui="C0205191;C0547045;C1555457;C1547296" tui="T079;T169;T170;T170" rank="797;767;366;355" code="NO-CODE" sourceType="RCD;RCD;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="721" end="794" sentText="Debridement with Versajet debrider is coded as nonexcisional debridement.">
+<RelationSet id="125">
+<procedure value="nonexcisional" begin="768" end="781" status="0" certainty="0" cui="S0000570;C0728940" tui="t061;T061" rank="800;523" code="NO-CODE" sourceType="EZDI;NCI"/>
+<procedure value="debridement" begin="782" end="793" status="0" certainty="0" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="126">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="Versajet debrider" begin="738" end="755" status="0" certainty="0"/>
+<procedure value="Debridement" begin="721" end="732" status="0" certainty="0"/>
+</Relation>
+<medicalDevice value="Versajet debrider" begin="738" end="755" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<procedure value="Debridement" begin="721" end="732" status="0" certainty="0" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

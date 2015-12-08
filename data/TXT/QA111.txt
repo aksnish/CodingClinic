@@ -1,0 +1,2 @@
+Question: The patient is status post tracheostomy and bi-level positive airway pressure (BiPAP) is being delivered via the patient’s T-tube. The patient remained on BiPAP for 48 hours. What is the appropriate ICD10-PCS code when BiPAP is delivered via a tracheostomy? 
+Answer: BiPAP delivered through an endotracheal tube or tracheostomy is coded as mechanical ventilation. Assign ICD-10-PCS code as follows: 5A1945Z

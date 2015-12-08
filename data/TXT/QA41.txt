@@ -1,0 +1,2 @@
+Question: A pregnant patient with a history of fetal loss at six months gestation due to cervical incompetence presents for placement of cerclage. Is the cerclage considered a device? What is the appropriate ICD10-PCS root operation for placement of transvaginal cerclage during pregnancy? 
+Answer: Assign the following ICD-10-PCS code for the placement of transvaginal cerclage: 0UVC7ZZ 

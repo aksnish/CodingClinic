@@ -1,0 +1,2 @@
+Question: A patient was admitted to our facility with acute on chronic systolic heart failure and found to be in cardiogenic shock with acute renal failure and acidosis. The physician documented that the patient had “shock liver” as well. What is the correct diagnosis code for shock liver in ICD–10-CM? 
+Answer: Assign code K72.0-, Acute and subacute hepatic failure, for shock liver. The assignment of the fifth digit would be dependent on the presence or absence  of  coma. 

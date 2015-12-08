@@ -1,0 +1,167 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="971">
+<Paragraph pgNo="1" begin="0" end="397">
+<Sentence sentNo="1" begin="0" end="149" sentText="Question: A patient diagnosed with a head and neck malignancy undergoes wide excision of tongue, bilateral modified neck dissection and tracheostomy.">
+<RelationSet id="2093">
+<anatomicalStructure value="head" begin="37" end="41" status="0" certainty="1" cui="C0205096;C0018670;C1281590;C2348941;C1706305;C1708330;C0876917" tui="T082;T029;T023;T170;T073;T073;T061" rank="797;797;765;576;575;575;373" code="NO-CODE" sourceType="SNMI;CST;SNOMEDCTUS;NCI;NCI;NCI;ICD10AM"/>
+</RelationSet>
+<RelationSet id="2094">
+<procedure value="tracheostomy" begin="136" end="148" status="0" certainty="0" cui="C0040590;C1875833;C1700189" tui="T061;T074;T169" rank="795;739;151" code="NO-CODE" sourceType="MSH;VANDF;CHV"/>
+</RelationSet>
+<RelationSet id="2095">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="neck" begin="46" end="50" status="0" certainty="1"/>
+<problem value="malignancy" begin="51" end="61" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="neck" begin="46" end="50" status="0" certainty="1"/>
+<procedure value="excision" begin="77" end="85" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="excision" begin="77" end="85" status="0" certainty="0"/>
+<anatomicalStructure value="tongue" begin="89" end="95" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="neck" begin="46" end="50" status="0" certainty="1"/>
+<procedure value="excision" begin="77" end="85" status="0" certainty="0"/>
+<anatomicalStructure value="tongue" begin="89" end="95" status="0" certainty="0"/>
+<problem value="malignancy" begin="51" end="61" status="0" certainty="1"/>
+</Relation>
+<anatomicalStructure value="neck" begin="46" end="50" status="0" certainty="1" cui="S0001902;C0027530;C0205064;C0027536;C1281592;C2137077" tui="t061;T029;T082;T054;T023;T033" rank="800;797;797;767;765;592" code="NO-CODE" sourceType="EZDI;CST;RCD;SNM;SNOMEDCTUS;MEDCIN"/>
+<modifier value="wide excision" begin="72" end="85" status="0" certainty="0" cui="S1001719" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="excision;tongue" begin="77;89" end="85;95" status="0" certainty="0" cui="C0017673" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="neck;excision" begin="46;77" end="50;85" status="0" certainty="0" cui="C1293181" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="excision" begin="77" end="85" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+<anatomicalStructure value="tongue" begin="89" end="95" status="0" certainty="0" cui="C0040408;C2349948;C1278913;C0017681;C0153933;C2137027;C0872394" tui="T023;T029;T023;T023;T191;T033;T058" rank="797;767;765;703;610;592;373" code="NO-CODE" sourceType="LCH;NCI;SNOMEDCTUS;SNMI;ICD10;MEDCIN;ICD10AM"/>
+<problem value="malignancy" begin="51" end="61" status="0" certainty="1" cui="C0205282;C1306459;C0006826;C1533592;C0334590" tui="T080;T191;T191;T191;T191" rank="767;765;713;571;571" code="NO-CODE" sourceType="RCD;RCD;AIR;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="2096">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="modified neck dissection" begin="107" end="131" status="0" certainty="0"/>
+<modifier value="bilateral" begin="97" end="106" status="0" certainty="0"/>
+</Relation>
+<modifier value="modified" begin="107" end="115" status="0" certainty="0" cui="C0392747" tui="T169" rank="765" code="NO-CODE" sourceType="SNMI"/>
+<procedure value="neck dissection" begin="116" end="131" status="0" certainty="0" cui="C0398395" tui="T061" rank="795" code="NO-CODE" sourceType="NCI"/>
+<procedure value="dissection" begin="121" end="131" status="0" certainty="0" cui="C0012737" tui="T061" rank="795" code="NO-CODE" sourceType="LCH"/>
+<anatomicalStructure value="neck" begin="116" end="120" status="0" certainty="0" cui="S0001902;C0027530;C0205064;C0027536;C1281592;C2137077" tui="t061;T029;T082;T054;T023;T033" rank="800;797;797;767;765;592" code="NO-CODE" sourceType="EZDI;CST;RCD;SNM;SNOMEDCTUS;MEDCIN"/>
+<modifier value="bilateral" begin="97" end="106" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="150" end="254" sentText="During surgery, he was placed on mechanical ventilation and weaned to a tracheal mask the following day.">
+<RelationSet id="2097">
+<procedure value="surgery" begin="157" end="164" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2098">
+<procedure value="mechanical ventilation" begin="183" end="205" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="183" end="193" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+<RelationSet id="2099">
+<medicalDevice value="mask" begin="231" end="235" status="0" certainty="0" cui="C0024861;C1845191;C1538279;C1555580;C0150112;C0150108" tui="T074;T028;T028;T078;T169;T062" rank="797;600;596;366;311;151" code="NO-CODE" sourceType="MSH;OMIM;HGNC;HL7V3.0;MCM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="255" end="303" sentText="Oxygen was then delivered via the tracheal mask.">
+<RelationSet id="2100">
+<medicalDevice value="mask" begin="298" end="302" status="0" certainty="0" cui="C0024861;C1845191;C1538279;C1555580;C0150112;C0150108" tui="T074;T028;T028;T078;T169;T062" rank="797;600;596;366;311;151" code="NO-CODE" sourceType="MSH;OMIM;HGNC;HL7V3.0;MCM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="304" end="396" sentText="What is the appropriate ICD-10-PCS code assignment for oxygen delivered via a tracheal mask?">
+<RelationSet id="2101">
+<medicalDevice value="oxygen;mask" begin="359;391" end="365;395" status="0" certainty="0" cui="C0181744" tui="T074" rank="767" code="NO-CODE" sourceType="RCD"/>
+<medicalDevice value="mask" begin="391" end="395" status="0" certainty="0" cui="C0024861;C1845191;C1538279;C1555580;C0150112;C0150108" tui="T074;T028;T028;T078;T169;T062" rank="797;600;596;366;311;151" code="NO-CODE" sourceType="MSH;OMIM;HGNC;HL7V3.0;MCM;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="398" end="970">
+<Sentence sentNo="5" begin="398" end="473" sentText="Answer: Oxygen delivered via a tracheal mask is not mechanical ventilation.">
+<RelationSet id="2102">
+<medicalDevice value="Oxygen;mask" begin="406;438" end="412;442" status="0" certainty="0" cui="C0181744" tui="T074" rank="767" code="NO-CODE" sourceType="RCD"/>
+<medicalDevice value="mask" begin="438" end="442" status="0" certainty="0" cui="C0024861;C1845191;C1538279;C1555580;C0150112;C0150108" tui="T074;T028;T028;T078;T169;T062" rank="797;600;596;366;311;151" code="NO-CODE" sourceType="MSH;OMIM;HGNC;HL7V3.0;MCM;CHV"/>
+</RelationSet>
+<RelationSet id="2103">
+<procedure value="mechanical ventilation" begin="450" end="472" status="0" certainty="-2" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="450" end="460" status="0" certainty="-2" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="474" end="520" sentText="It is a method to provide supplemental oxygen.">
+</Sentence>
+<Sentence sentNo="7" begin="521" end="612" sentText="A tracheostomy tube (T-tube) fits inside the stoma and is secured by a harness to the neck.">
+<RelationSet id="2104">
+<anatomicalStructure value="neck" begin="607" end="611" status="0" certainty="0" cui="S0001902;C0027530;C0205064;C0027536;C1281592;C2137077" tui="t061;T029;T082;T054;T023;T033" rank="800;797;797;767;765;592" code="NO-CODE" sourceType="EZDI;CST;RCD;SNM;SNOMEDCTUS;MEDCIN"/>
+</RelationSet>
+<RelationSet id="2105">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="T-tube" begin="542" end="548" status="0" certainty="0"/>
+<anatomicalStructure value="stoma" begin="566" end="571" status="0" certainty="0"/>
+<medicalDevice value="tracheostomy tube" begin="523" end="540" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="T-tube" begin="542" end="548" status="0" certainty="0"/>
+<anatomicalStructure value="stoma" begin="566" end="571" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="tracheostomy tube" begin="523" end="540" status="0" certainty="0"/>
+<anatomicalStructure value="stoma" begin="566" end="571" status="0" certainty="0"/>
+</Relation>
+<medicalDevice value="tracheostomy tube;T-tube" begin="523;542" end="540;548" status="0" certainty="0" cui="C0184160" tui="T074" rank="684" code="NO-CODE" sourceType="UMD"/>
+<medicalDevice value="tracheostomy;T-tube" begin="523;542" end="535;548" status="0" certainty="0" cui="C0184159" tui="T074" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<medicalDevice value="T-tube;stoma" begin="542;566" end="548;571" status="0" certainty="0" cui="C0467287" tui="T074" rank="150" code="NO-CODE" sourceType="CHV"/>
+<medicalDevice value="T-tube" begin="542" end="548" status="0" certainty="0" cui="C1561954;C0439143;C0439119;C0175731;C0175730;C1704474;C1420562;C1427122;C1704731;C1704730;C0439216;C1551055;C1553026;C1704619;C0475455;C1522168;C0040715;C0040223;C1532188;C1552647;C1611794" tui="T077;T170;T170;T074;T074;T081;T028;T028;T074;T074;T081;T081;T081;T081;T185;T169;T049;T079;T081;T081;T170" rank="797;767;767;767;767;765;596;596;575;563;544;544;527;519;519;519;519;519;519;366;366" code="NO-CODE" sourceType="NCI;RCD;RCD;RCD;RCD;NCI;NCI;HGNC;NCI;NCI;NCI;NCI;NCI;NCI;SNOMEDCTUS;NCI;NCI;NCI;NCI;HL7V3.0;HL7V3.0"/>
+<medicalDevice value="tracheostomy" begin="523" end="535" status="0" certainty="0" cui="C0040590;C1875833;C1700189" tui="T061;T074;T169" rank="795;739;151" code="NO-CODE" sourceType="MSH;VANDF;CHV"/>
+<medicalDevice value="tube;T-tube" begin="536;542" end="540;548" status="0" certainty="0" cui="C0175731" tui="T074" rank="684" code="NO-CODE" sourceType="UMD"/>
+<medicalDevice value="tube" begin="536" end="540" status="0" certainty="0" cui="C1704474;C0175730;C1547937" tui="T081;T074;T170" rank="765;686;355" code="NO-CODE" sourceType="SNOMEDCTUS;UMD;HL7V2.5"/>
+<anatomicalStructure value="stoma" begin="566" end="571" status="0" certainty="0" cui="C1955856" tui="T017" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="613" end="679" sentText="The T-tube may be used by some patients in need of oxygen therapy.">
+<RelationSet id="2106">
+<medicalDevice value="T-tube" begin="617" end="623" status="0" certainty="0" cui="C1561954;C0439143;C0439119;C0175731;C0175730;C1704474;C1420562;C1427122;C1704731;C1704730;C0439216;C1551055;C1553026;C1704619;C0475455;C1522168;C0040715;C0040223;C1532188;C1552647;C1611794" tui="T077;T170;T170;T074;T074;T081;T028;T028;T074;T074;T081;T081;T081;T081;T185;T169;T049;T079;T081;T081;T170" rank="797;767;767;767;767;765;596;596;575;563;544;544;527;519;519;519;519;519;519;366;366" code="NO-CODE" sourceType="NCI;RCD;RCD;RCD;RCD;NCI;NCI;HGNC;NCI;NCI;NCI;NCI;NCI;NCI;SNOMEDCTUS;NCI;NCI;NCI;NCI;HL7V3.0;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="680" end="799" sentText="Oxygen can be delivered directly through the tracheostomy via a T-tube or a tracheal mask placed directly to the stoma.">
+<RelationSet id="2107">
+<medicalDevice value="tracheostomy;mask" begin="725;765" end="737;769" status="0" certainty="0" cui="C0181759" tui="T074" rank="686" code="NO-CODE" sourceType="UMD"/>
+<medicalDevice value="T-tube;tracheal" begin="744;756" end="750;764" status="0" certainty="0" cui="C1260970" tui="T074" rank="797" code="NO-CODE" sourceType="RCD"/>
+<medicalDevice value="mask" begin="765" end="769" status="0" certainty="0" cui="C0024861;C1845191;C1538279;C1555580;C0150112;C0150108" tui="T074;T028;T028;T078;T169;T062" rank="797;600;596;366;311;151" code="NO-CODE" sourceType="MSH;OMIM;HGNC;HL7V3.0;MCM;CHV"/>
+</RelationSet>
+<RelationSet id="2108">
+<anatomicalStructure value="stoma" begin="793" end="798" status="0" certainty="0" cui="C1955856" tui="T017" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="2109">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="T-tube" begin="744" end="750" status="0" certainty="1"/>
+<procedure value="tracheostomy" begin="725" end="737" status="0" certainty="1"/>
+</Relation>
+<medicalDevice value="tracheostomy;T-tube" begin="725;744" end="737;750" status="0" certainty="1" cui="C0184159" tui="T074" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<medicalDevice value="T-tube;tracheal" begin="744;756" end="750;764" status="0" certainty="1" cui="C1260970" tui="T074" rank="797" code="NO-CODE" sourceType="RCD"/>
+<medicalDevice value="T-tube" begin="744" end="750" status="0" certainty="1" cui="C1561954;C0439143;C0439119;C0175731;C0175730;C1704474;C1420562;C1427122;C1704731;C1704730;C0439216;C1551055;C1553026;C1704619;C0475455;C1522168;C0040715;C0040223;C1532188;C1552647;C1611794" tui="T077;T170;T170;T074;T074;T081;T028;T028;T074;T074;T081;T081;T081;T081;T185;T169;T049;T079;T081;T081;T170" rank="797;767;767;767;767;765;596;596;575;563;544;544;527;519;519;519;519;519;519;366;366" code="NO-CODE" sourceType="NCI;RCD;RCD;RCD;RCD;NCI;NCI;HGNC;NCI;NCI;NCI;NCI;NCI;NCI;SNOMEDCTUS;NCI;NCI;NCI;NCI;HL7V3.0;HL7V3.0"/>
+<modifier value="tracheostomy via;T-tube" begin="725;744" end="741;750" status="0" certainty="1" cui="C0442463" tui="T082" rank="765" code="NO-CODE" sourceType="RCD"/>
+<modifier value="tracheostomy via" begin="725" end="741" status="0" certainty="1" cui="C0393370" tui="T082" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="tracheostomy" begin="725" end="737" status="0" certainty="1" cui="C0040590;C1875833;C1700189" tui="T061;T074;T169" rank="795;739;151" code="NO-CODE" sourceType="MSH;VANDF;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="800" end="918" sentText="Mechanical ventilation delivered via a tracheal tube directly into the stoma would be coded as mechanical ventilation.">
+<RelationSet id="2110">
+<procedure value="Mechanical ventilation" begin="800" end="822" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="Mechanical" begin="800" end="810" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+<RelationSet id="2111">
+<procedure value="mechanical ventilation" begin="895" end="917" status="0" certainty="1" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="895" end="905" status="0" certainty="1" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+<RelationSet id="2112">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="stoma" begin="871" end="876" status="0" certainty="0"/>
+<medicalDevice value="tracheal tube" begin="839" end="852" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="stoma" begin="871" end="876" status="0" certainty="0" cui="C1955856" tui="T017" rank="767" code="NO-CODE" sourceType="RCD"/>
+<medicalDevice value="ventilation;tube" begin="811;848" end="822;852" status="0" certainty="0" cui="C1317862;C0850121" tui="T074;T074" rank="797;765" code="NO-CODE" sourceType="MTH;SNOMEDCTUS"/>
+<medicalDevice value="tracheal tube" begin="839" end="852" status="0" certainty="0" cui="C1260970" tui="T074" rank="797" code="NO-CODE" sourceType="RCD"/>
+<medicalDevice value="tube;stoma" begin="848;871" end="852;876" status="0" certainty="0" cui="C0467287" tui="T074" rank="150" code="NO-CODE" sourceType="CHV"/>
+<medicalDevice value="tube" begin="848" end="852" status="0" certainty="0" cui="C1561954;C0175730;C1704474;C1427122;C1704731;C1704730;C1611794;C1547937" tui="T077;T074;T081;T028;T074;T074;T170;T170" rank="797;767;765;596;575;563;366;355" code="NO-CODE" sourceType="NCI;RCD;NCI;HGNC;NCI;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="11" begin="919" end="969" sentText="The administration of oxygen is usually not coded.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

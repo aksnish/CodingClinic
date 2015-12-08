@@ -1,0 +1,67 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1843">
+<Paragraph pgNo="1" begin="0" end="354">
+<Sentence sentNo="1" begin="0" end="136" sentText="Question: We are considering developing internal coding guidelines and obtaining medical staff approval to code acute blood loss anemia.">
+<RelationSet id="2227">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="acute" begin="112" end="117" status="0" certainty="0"/>
+<problem value=" blood loss anemia" begin="117" end="135" status="0" certainty="0"/>
+</Relation>
+<modifier value="acute" begin="112" end="117" status="0" certainty="0" cui="C0205178;C1547229;C1547295" tui="T079;T170;T170" rank="797;355;355" code="NO-CODE" sourceType="RCD;HL7V2.5;HL7V2.5"/>
+<problem value="blood loss anemia" begin="118" end="135" status="0" certainty="0" cui="C0154286;C0154298;C0948824" tui="T047;T047;T047" rank="800;765;750" code="NO-CODE" sourceType="CHV;SNMI;RCDAE"/>
+<problem value="acute blood loss" begin="112" end="128" status="0" certainty="0" cui="C0333276" tui="T046" rank="765" code="NO-CODE" sourceType="SNMI"/>
+<problem value="acute;anemia" begin="112;129" end="117;135" status="0" certainty="0" cui="C0740985" tui="T047" rank="644" code="NO-CODE" sourceType="CHV"/>
+<problem value="blood loss" begin="118" end="128" status="0" certainty="0" cui="C3163616;C0019080;C0553700" tui="T033;T046;T201" rank="797;765;711" code="NO-CODE" sourceType="NCI;SNMI;LNC"/>
+<problem value="anemia" begin="129" end="135" status="0" certainty="0" cui="C0002871;C1000483;C0857322" tui="T047;T002;T033" rank="797;751;644" code="NO-CODE" sourceType="CCS;NCBI;MDR"/>
+<anatomicalStructure value="blood" begin="118" end="123" status="0" certainty="0" cui="S0001759;C0005767;C0005768;C0392895;C0333275;C0229664" tui="t061;T024;T031;T098;T080;T031" rank="800;797;797;767;765;576" code="NO-CODE" sourceType="EZDI;LCH;MSH;SNMI;SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="137" end="327" sentText="The guidelines would specify lab values pre and post-surgery, as well as some clinical signs to allow coders to code acute blood loss anemia without the need to have physician documentation.">
+<RelationSet id="2228">
+<procedure value="surgery" begin="190" end="197" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2229">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="blood loss anemia" begin="260" end="277" status="0" certainty="0"/>
+<modifier value="acute" begin="254" end="259" status="0" certainty="0"/>
+</Relation>
+<modifier value="acute" begin="254" end="259" status="0" certainty="0" cui="C0205178;C1547229;C1547295" tui="T079;T170;T170" rank="797;355;355" code="NO-CODE" sourceType="RCD;HL7V2.5;HL7V2.5"/>
+<problem value="acute blood loss anemia" begin="254" end="277" status="0" certainty="0" cui="C0154286;C0154298" tui="T047;T047" rank="800;765" code="NO-CODE" sourceType="CHV;SNMI"/>
+<problem value="blood loss anemia" begin="260" end="277" status="0" certainty="0" cui="C0948824" tui="T047" rank="750" code="NO-CODE" sourceType="RCDAE"/>
+<problem value="acute blood loss" begin="254" end="270" status="0" certainty="0" cui="C0333276" tui="T046" rank="765" code="NO-CODE" sourceType="SNMI"/>
+<problem value="acute;anemia" begin="254;271" end="259;277" status="0" certainty="0" cui="C0740985" tui="T047" rank="644" code="NO-CODE" sourceType="CHV"/>
+<problem value="blood loss" begin="260" end="270" status="0" certainty="0" cui="C3163616;C0019080;C0553700" tui="T033;T046;T201" rank="797;765;711" code="NO-CODE" sourceType="NCI;SNMI;LNC"/>
+<problem value="anemia" begin="271" end="277" status="0" certainty="0" cui="C0002871;C1000483;C0857322" tui="T047;T002;T033" rank="797;751;644" code="NO-CODE" sourceType="CCS;NCBI;MDR"/>
+<anatomicalStructure value="blood" begin="260" end="265" status="0" certainty="0" cui="S0001759;C0005767;C0005768;C0392895;C0333275;C0229664" tui="t061;T024;T031;T098;T080;T031" rank="800;797;797;767;765;576" code="NO-CODE" sourceType="EZDI;LCH;MSH;SNMI;SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="328" end="353" sentText="Would this be acceptable?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="355" end="1842">
+<Sentence sentNo="4" begin="355" end="388" sentText="Answer: No, it is not acceptable.">
+</Sentence>
+<Sentence sentNo="5" begin="389" end="610" sentText="The Official Coding Guideline Section III.B., states: “Abnormal findings (laboratory, x-ray, pathologic, and other diagnostic results) are not coded and reported unless the physician indicates their clinical significance.">
+<RelationSet id="2230">
+<procedure value="x-ray" begin="475" end="480" status="0" certainty="0" cui="C0034571;C0441950;C0043309;C0439122;C1706494;C1306645;C1962945;C1428870;C1419015;C1705107;C2981685;C1704751;C1704750;C0086894;C2314876;C3244296;C0851346" tui="T169;T170;T070;T170;T170;T060;T060;T028;T028;T081;T081;T082;T082;T013;T013;T170;T070" rank="789;767;767;767;767;765;765;587;587;563;540;519;519;475;428;366;150" code="NO-CODE" sourceType="MSH;RCD;SNM;RCD;SNOMEDCTUS;MDR;SNOMEDCTUS;HGNC;HGNC;NCI;NCI;NCI;NCI;CHV;NCBI;HL7V3.0;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="611" end="827" sentText="If the findings are outside the normal range and the physician has ordered other tests to evaluate the condition or prescribed treatment, it is appropriate to ask the physician whether the diagnosis should be added.”">
+</Sentence>
+<Sentence sentNo="7" begin="828" end="902" sentText="Therefore, internal guidelines should not replace physician documentation.">
+</Sentence>
+<Sentence sentNo="8" begin="903" end="1082" sentText="Facilities can work together with their medical staff to develop facility specific coding guidelines, which promote complete  documentation  needed for consistent code assignment.">
+</Sentence>
+<Sentence sentNo="9" begin="1083" end="1230" sentText="Additionally, these guidelines can guide the coding professionals as to when they should query physicians for clarification of their documentation.">
+</Sentence>
+<Sentence sentNo="10" begin="1231" end="1306" sentText="Any guidelines developed must be applied consistently to all records coded.">
+</Sentence>
+<Sentence sentNo="11" begin="1307" end="1431" sentText="An internal facility guideline should not interpret abnormal findings to replace physician documentation or physician query.">
+</Sentence>
+<Sentence sentNo="12" begin="1432" end="1570" sentText="The guideline may provide assistance in determining when a physician query is appropriate, but it may not interpret abnormal test results.">
+</Sentence>
+<Sentence sentNo="13" begin="1571" end="1841" sentText="These facility guidelines must not conflict with the “Official ICD-10-CM Guidelines for Coding and Reporting” developed  by the  Cooperating Parties and, additionally, they should not be developed to replace the physician documentation needed to support code assignment.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

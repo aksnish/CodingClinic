@@ -1,0 +1,178 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="958">
+<Paragraph pgNo="1" begin="0" end="518">
+<Sentence sentNo="1" begin="0" end="231" sentText="Question: A patient diagnosed with open forearm fracture of both bones and closed distal radioulnar joint dislocation underwent open reduction with internal fixation (ORIF) of the forearm bones, and manipulation of the dislocation.">
+<RelationSet id="939">
+<modifier value="internal" begin="148" end="156" status="0" certainty="0" cui="C0205102;C1619620;C1553872" tui="T082;T170;T170" rank="797;366;366" code="NO-CODE" sourceType="RCD;HL7V3.0;HL7V3.0"/>
+<procedure value="internal fixation" begin="148" end="165" status="0" certainty="0" cui="C0016642" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="fixation" begin="157" end="165" status="0" certainty="0" cui="C0185023;C1522662;C0728733" tui="T061;T059;T041" rank="767;576;475" code="NO-CODE" sourceType="RCD;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="940">
+<problem value="dislocation" begin="219" end="230" status="0" certainty="0" cui="C0012691" tui="T037" rank="797" code="NO-CODE" sourceType="ICPC2P"/>
+</RelationSet>
+<RelationSet id="941">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="ORIF" begin="167" end="171" status="0" certainty="0"/>
+<anatomicalStructure value="forearm bones" begin="180" end="193" status="0" certainty="0"/>
+</Relation>
+<procedure value="ORIF" begin="167" end="171" status="0" certainty="0" cui="C0747060" tui="T061" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<anatomicalStructure value="bones" begin="188" end="193" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T022;T023;T031;T170" rank="795;792;790;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="942">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="open forearm fracture" begin="35" end="56" status="0" certainty="1"/>
+<anatomicalStructure value="bones" begin="65" end="70" status="0" certainty="0"/>
+</Relation>
+<problem value="fracture" begin="48" end="56" status="0" certainty="1" cui="C0016658;C1880851;C1963113" tui="T037;T067;T033" rank="797;562;551" code="NO-CODE" sourceType="ICPC2P;NCI;NCI"/>
+<anatomicalStructure value="bones" begin="65" end="70" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T022;T023;T031;T170" rank="795;792;790;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="943">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="radioulnar joint" begin="89" end="105" status="0" certainty="0"/>
+<procedure value="open reduction" begin="128" end="142" status="0" certainty="0"/>
+<problem value="dislocation" begin="106" end="117" status="0" certainty="0"/>
+<modifier value="distal" begin="82" end="88" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="dislocation" begin="106" end="117" status="0" certainty="0"/>
+<modifier value="distal" begin="82" end="88" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="radioulnar joint" begin="89" end="105" status="0" certainty="0"/>
+<problem value="dislocation" begin="106" end="117" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="radioulnar joint" begin="89" end="105" status="0" certainty="0"/>
+<procedure value="open reduction" begin="128" end="142" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="distal radioulnar joint" begin="82" end="105" status="0" certainty="0" cui="C0224608;C0730169" tui="T030;T030" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<anatomicalStructure value="radioulnar joint" begin="89" end="105" status="0" certainty="0" cui="C1456420;C0450209" tui="T030;T030" rank="797;765" code="NO-CODE" sourceType="FMA;RCD"/>
+<anatomicalStructure value="joint" begin="100" end="105" status="0" certainty="0" cui="C0521339;C0022417;C0444497;C0392905;C1269611;C1706309" tui="T169;T030;T082;T022;T030;T074" rank="797;797;767;765;765;575" code="NO-CODE" sourceType="SNMI;MSH;RCD;ICF;RCD;NCI"/>
+<modifier value="open" begin="128" end="132" status="0" certainty="0" cui="C0175566;C1882151;C0547049" tui="T082;T082;T082" rank="797;797;767" code="NO-CODE" sourceType="RCD;NCI;RCD"/>
+<problem value="distal radioulnar joint dislocation;open" begin="82;128" end="117;132" status="0" certainty="0" cui="C0159950" tui="T037" rank="644" code="NO-CODE" sourceType="ICD9CM"/>
+<problem value="dislocation;open" begin="106;128" end="117;132" status="0" certainty="0" cui="C0332781" tui="T037" rank="765" code="NO-CODE" sourceType="SNMI"/>
+<procedure value="distal radioulnar joint dislocation;open reduction" begin="82;128" end="117;142" status="0" certainty="0" cui="C3519055" tui="T061" rank="627" code="NO-CODE" sourceType="CPT"/>
+<procedure value="closed;dislocation;reduction" begin="75;106;133" end="81;117;142" status="0" certainty="0" cui="C0185500;C0498268" tui="T061;T061" rank="797;622" code="NO-CODE" sourceType="SNOMEDCTUS;HCDT"/>
+<procedure value="dislocation;open reduction" begin="106;128" end="117;142" status="0" certainty="0" cui="C0185392;C0700236" tui="T061;T061" rank="797;622" code="NO-CODE" sourceType="SNOMEDCTUS;HCDT"/>
+<procedure value="dislocation;reduction" begin="106;133" end="117;142" status="0" certainty="0" cui="C0559697" tui="T061" rank="767" code="NO-CODE" sourceType="MDR"/>
+<procedure value="open reduction" begin="128" end="142" status="0" certainty="0" cui="C2370853;C0185373" tui="T061;T061" rank="797;151" code="NO-CODE" sourceType="SNM;CHV"/>
+<procedure value="reduction" begin="133" end="142" status="0" certainty="0" cui="C0441610;C0301630;C0392756;C0871877" tui="T061;T070;T080;T078" rank="765;716;575;289" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;NCI;PSY"/>
+<problem value="closed distal radioulnar joint dislocation" begin="75" end="117" status="0" certainty="0" cui="C0159943" tui="T037" rank="644" code="NO-CODE" sourceType="ICD9CM"/>
+<problem value="distal radioulnar joint dislocation" begin="82" end="117" status="0" certainty="0" cui="C0434636" tui="T037" rank="767" code="NO-CODE" sourceType="RCD"/>
+<problem value="distal radioulnar;dislocation" begin="82;106" end="99;117" status="0" certainty="0" cui="C1384682" tui="T037" rank="506" code="NO-CODE" sourceType="ICPC2ICD10ENG"/>
+<problem value="closed;dislocation" begin="75;106" end="81;117" status="0" certainty="0" cui="C0332769" tui="T037" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<problem value="joint dislocation" begin="100" end="117" status="0" certainty="0" cui="C0012691" tui="T037" rank="797" code="NO-CODE" sourceType="ICPC2P"/>
+<modifier value="distal;joint" begin="82;100" end="88;105" status="0" certainty="0" cui="S0002446" tui="t091" rank="800" code="NO-CODE" sourceType="EZDI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="232" end="338" sentText="The provider documented that the wounds over the ulnar shaft were irrigated and debrided down to the bone.">
+<RelationSet id="943">
+<procedure value="irrigated" begin="298" end="307" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="943">
+<procedure value="debrided" begin="312" end="320" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="944">
+<anatomicalStructure value="bone" begin="333" end="337" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="945">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="wounds" begin="265" end="271" status="0" certainty="0"/>
+<anatomicalStructure value="ulnar shaft" begin="281" end="292" status="0" certainty="0"/>
+</Relation>
+<problem value="wounds" begin="265" end="271" status="0" certainty="0" cui="C0043250;C0021501;C0332797;C1550680;C1549529;C1547965" tui="T037;T080;T169;T031;T169;T170" rank="792;788;703;366;355;355" code="NO-CODE" sourceType="MDR;MSH;SNMI;HL7V3.0;HL7V2.5;HL7V2.5"/>
+<anatomicalStructure value="ulnar" begin="281" end="286" status="0" certainty="0" cui="C0442044" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="339" end="397" sentText="The ORIF and dislocation manipulation were then completed.">
+<RelationSet id="946">
+<procedure value="ORIF" begin="343" end="347" status="0" certainty="0" cui="C0747060" tui="T061" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+</RelationSet>
+<RelationSet id="947">
+<problem value="dislocation;completed" begin="352;387" end="363;396" status="0" certainty="0" cui="C0332767" tui="T037" rank="767" code="NO-CODE" sourceType="SNM"/>
+<problem value="dislocation" begin="352" end="363" status="0" certainty="0" cui="C0012691" tui="T037" rank="797" code="NO-CODE" sourceType="ICPC2P"/>
+<procedure value="manipulation" begin="364" end="376" status="0" certainty="0" cui="C0947647;C0185111" tui="T061;T061" rank="767;748" code="NO-CODE" sourceType="RCD;SNM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="398" end="517" sentText="Would it be appropriate to assign a code for the debridement in addition to the code for the ORIF and the manipulation?">
+<RelationSet id="948">
+<procedure value="debridement" begin="447" end="458" status="0" certainty="0" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="949">
+<procedure value="ORIF" begin="491" end="495" status="0" certainty="0" cui="C0747060" tui="T061" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="519" end="957">
+<Sentence sentNo="5" begin="519" end="693" sentText="Answer: Query the physician as to the specific location and reason for the debridement (whether a separate excisional debridement versus cleaning of the open wound was done).">
+<RelationSet id="950">
+<procedure value="debridement" begin="594" end="605" status="0" certainty="-3" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="951">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="excisional debridement" begin="626" end="648" status="0" certainty="-3"/>
+<modifier value="open" begin="672" end="676" status="0" certainty="-3"/>
+<problem value="wound" begin="677" end="682" status="0" certainty="-3"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="excisional debridement" begin="626" end="648" status="0" certainty="-3"/>
+<modifier value="open" begin="672" end="676" status="0" certainty="-3"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="open" begin="672" end="676" status="0" certainty="-3"/>
+<problem value="wound" begin="677" end="682" status="0" certainty="-3"/>
+</Relation>
+<procedure value="debridement;cleaning;wound" begin="637;656;677" end="648;664;682" status="0" certainty="-3" cui="C0455099" tui="T061" rank="234" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="debridement;wound" begin="637;677" end="648;682" status="0" certainty="-3" cui="C0191342" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="debridement" begin="637" end="648" status="0" certainty="-3" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+<procedure value="excisional" begin="626" end="636" status="0" certainty="-3" cui="C0728940" tui="T061" rank="523" code="NO-CODE" sourceType="NCI"/>
+<modifier value="open" begin="672" end="676" status="0" certainty="-3" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<problem value="open wound" begin="672" end="682" status="0" certainty="-3" cui="C0332798;C2116830" tui="T037;T033" rank="797;595" code="NO-CODE" sourceType="SNMI;MEDCIN"/>
+<problem value="wound" begin="677" end="682" status="0" certainty="-3" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797;C1550680;C1549529;C1547965" tui="T070;T037;T080;T033;T184;T169;T031;T169;T170" rank="795;792;788;767;709;703;366;355;355" code="NO-CODE" sourceType="MSH;MDR;MSH;RCD;MDR;SNMI;HL7V3.0;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="694" end="842" sentText="If irrigation and debridement were done to clean the wound as part of the open reduction internal fixation (ORIF), it would not be separately coded.">
+<RelationSet id="952">
+<procedure value="irrigation" begin="697" end="707" status="0" certainty="-3" cui="C0022100;C2314883;C1521919" tui="T061;T044;T169" rank="797;656;575" code="NO-CODE" sourceType="LCH;NDFRT;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="953">
+<procedure value="debridement;clean;wound" begin="712;737;747" end="723;742;752" status="0" certainty="-3" cui="C0455099" tui="T061" rank="234" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="debridement;wound" begin="712;747" end="723;752" status="0" certainty="-3" cui="C0191342" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="debridement" begin="712" end="723" status="0" certainty="-3" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="954">
+<problem value="wound;open" begin="747;768" end="752;772" status="0" certainty="-3" cui="C0332798;C2116830" tui="T037;T033" rank="797;595" code="NO-CODE" sourceType="SNMI;MEDCIN"/>
+<problem value="wound" begin="747" end="752" status="0" certainty="-3" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797;C1550680;C1549529;C1547965" tui="T070;T037;T080;T033;T184;T169;T031;T169;T170" rank="795;792;788;767;709;703;366;355;355" code="NO-CODE" sourceType="MSH;MDR;MSH;RCD;MDR;SNMI;HL7V3.0;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="955">
+<modifier value="internal" begin="783" end="791" status="0" certainty="0" cui="C0205102;C1619620;C1553872" tui="T082;T170;T170" rank="797;366;366" code="NO-CODE" sourceType="RCD;HL7V3.0;HL7V3.0"/>
+<modifier value="open" begin="768" end="772" status="0" certainty="0" cui="C0175566;C1882151;C0547049" tui="T082;T082;T082" rank="797;797;767" code="NO-CODE" sourceType="RCD;NCI;RCD"/>
+<problem value="wound;open" begin="747;768" end="752;772" status="0" certainty="0" cui="C0332798;C2116830" tui="T037;T033" rank="797;595" code="NO-CODE" sourceType="SNMI;MEDCIN"/>
+<procedure value="open reduction internal fixation;ORIF" begin="768;802" end="800;806" status="0" certainty="0" cui="C0747060" tui="T061" rank="151" code="NO-CODE" sourceType="CHV"/>
+<procedure value="open reduction internal fixation" begin="768" end="800" status="0" certainty="0" cui="C1297885" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="open reduction;fixation" begin="768;792" end="782;800" status="0" certainty="0" cui="C0545112" tui="T061" rank="767" code="NO-CODE" sourceType="SNM"/>
+<procedure value="reduction internal" begin="773" end="791" status="0" certainty="0" cui="C0745350" tui="T061" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="internal fixation" begin="783" end="800" status="0" certainty="0" cui="C0016642" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="open reduction" begin="768" end="782" status="0" certainty="0" cui="C2370853;C0185373" tui="T061;T061" rank="797;151" code="NO-CODE" sourceType="SNM;CHV"/>
+<procedure value="reduction" begin="773" end="782" status="0" certainty="0" cui="C0441610;C0301630;C0392756;C0871877" tui="T061;T070;T080;T078" rank="765;716;575;289" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;NCI;PSY"/>
+<procedure value="fixation" begin="792" end="800" status="0" certainty="0" cui="C0185023;C1522662;C0728733" tui="T061;T059;T041" rank="767;576;475" code="NO-CODE" sourceType="RCD;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="956">
+<procedure value="ORIF" begin="802" end="806" status="0" certainty="0" cui="C0747060" tui="T061" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="843" end="956" sentText="For the ORIF of the fractures and manipulation of the dislocation, assign the following ICD-10-PCS codes: 0PSJ04Z">
+<RelationSet id="957">
+<procedure value="ORIF;fractures" begin="851;863" end="855;872" status="0" certainty="0" cui="C0744218" tui="T061" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="ORIF" begin="851" end="855" status="0" certainty="0" cui="C0747060" tui="T061" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+</RelationSet>
+<RelationSet id="958">
+<problem value="fractures" begin="863" end="872" status="0" certainty="0" cui="C0016658;C1880851;C1963113" tui="T037;T067;T033" rank="797;562;551" code="NO-CODE" sourceType="ICPC2P;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="959">
+<problem value="dislocation" begin="897" end="908" status="0" certainty="0" cui="C0012691" tui="T037" rank="797" code="NO-CODE" sourceType="ICPC2P"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

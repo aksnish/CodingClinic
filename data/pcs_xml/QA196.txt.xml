@@ -1,0 +1,18 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="623">
+<Paragraph pgNo="1" begin="0" end="293">
+<Sentence sentNo="1" begin="0" end="93" sentText="Question: We have noticed discrepancies in the documentation of gestational age for newborns.">
+</Sentence>
+<Sentence sentNo="2" begin="94" end="253" sentText="The obstetrician will document the gestational age in the mother’s record and the pediatrician will document a different gestational age in the infant’s chart.">
+</Sentence>
+<Sentence sentNo="3" begin="254" end="292" sentText="Would you please  provide  assistance?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="294" end="622">
+<Sentence sentNo="4" begin="294" end="441" sentText="Answer: For the newborn, assign the appropriate codes for the gestational age based on the attending provider’s (e.g., pediatrician) documentation.">
+</Sentence>
+<Sentence sentNo="5" begin="442" end="621" sentText="Different providers (e.g., obstetrician and pediatrician) may utilize different criteria in determining weeks of gestation for the mother versus the gestational age of the infant.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

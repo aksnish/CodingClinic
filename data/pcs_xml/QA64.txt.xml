@@ -1,0 +1,98 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="448">
+<Paragraph pgNo="1" begin="0" end="281">
+<Sentence sentNo="1" begin="0" end="71" sentText="Question: A patient presents for otoscopy, tympanometry and audiometry.">
+<RelationSet id="875">
+<procedure value="otoscopy" begin="33" end="41" status="0" certainty="1" cui="C0847244" tui="T060" rank="795" code="NO-CODE" sourceType="ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="72" end="212" sentText="The patient is found to have moderate to severe mixed hearing loss in the right ear and moderate sensorineural hearing loss in the left ear.">
+<RelationSet id="876">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="hearing loss" begin="126" end="138" status="0" certainty="1"/>
+<anatomicalStructure value="ear" begin="152" end="155" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="hearing loss" begin="126" end="138" status="0" certainty="1"/>
+<modifier value="right" begin="146" end="151" status="0" certainty="0"/>
+<anatomicalStructure value="ear" begin="152" end="155" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="hearing loss" begin="126" end="138" status="0" certainty="1"/>
+<modifier value="right" begin="146" end="151" status="0" certainty="0"/>
+</Relation>
+<problem value="mixed hearing loss" begin="120" end="138" status="0" certainty="1" cui="C0155552" tui="T047" rank="790" code="NO-CODE" sourceType="COSTAR"/>
+<modifier value="mixed hearing loss;right" begin="120;146" end="138;151" status="0" certainty="0" cui="C2881944" tui="t047" rank="800" code="NO-CODE" sourceType="ICD10CM"/>
+<modifier value="severe;hearing loss;right" begin="113;126;146" end="119;138;151" status="0" certainty="0" cui="C2881958" tui="t047" rank="800" code="NO-CODE" sourceType="ICD10CM"/>
+<modifier value="hearing loss;right" begin="126;146" end="138;151" status="0" certainty="0" cui="C2881962" tui="t047" rank="800" code="NO-CODE" sourceType="ICD10CM"/>
+<modifier value="right" begin="146" end="151" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+<anatomicalStructure value="right ear" begin="146" end="155" status="0" certainty="0" cui="C0229298;C1289033;C2127177" tui="T023;T023;T184" rank="765;765;592" code="NO-CODE" sourceType="SNM;SNOMEDCTUS;MEDCIN"/>
+<anatomicalStructure value="ear" begin="152" end="155" status="0" certainty="0" cui="C0521422;C0013443;C0521421;C1418197;C1414437;C1522191;C1272926;C1550629;C1546608" tui="T082;T023;T023;T028;T028;T169;T122;T031;T170" rank="797;795;765;596;587;575;575;366;355" code="NO-CODE" sourceType="SNMI;MSH;RCD;HGNC;HGNC;SNOMEDCTUS;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="877">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="ear" begin="208" end="211" status="0" certainty="0"/>
+<modifier value="left" begin="203" end="207" status="0" certainty="0"/>
+<problem value="sensorineural hearing loss" begin="169" end="195" status="0" certainty="0"/>
+<modifier value="moderate" begin="160" end="168" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="ear" begin="208" end="211" status="0" certainty="0"/>
+<problem value="sensorineural hearing loss" begin="169" end="195" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="sensorineural hearing loss" begin="169" end="195" status="0" certainty="0"/>
+<modifier value="moderate" begin="160" end="168" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="sensorineural hearing loss" begin="169" end="195" status="0" certainty="0"/>
+<modifier value="left" begin="203" end="207" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="left ear" begin="203" end="211" status="0" certainty="0" cui="C1289055;C0229299;C2127178" tui="T023;T023;T184" rank="765;765;592" code="NO-CODE" sourceType="SNOMEDCTUS;SNM;MEDCIN"/>
+<anatomicalStructure value="ear" begin="208" end="211" status="0" certainty="0" cui="C0521422;C0013443;C0521421;C1418197;C1414437;C1522191;C1272926;C1550629;C1546608" tui="T082;T023;T023;T028;T028;T169;T122;T031;T170" rank="797;795;765;596;587;575;575;366;355" code="NO-CODE" sourceType="SNMI;MSH;RCD;HGNC;HGNC;SNOMEDCTUS;NCI;HL7V3.0;HL7V2.5"/>
+<problem value="sensorineural hearing loss;left ear" begin="169;203" end="195;211" status="0" certainty="0" cui="C2229499" tui="T047" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="sensorineural hearing loss" begin="169" end="195" status="0" certainty="0" cui="C0018784" tui="T047" rank="795" code="NO-CODE" sourceType="NDFRT"/>
+<modifier value="sensorineural hearing loss;left" begin="169;203" end="195;207" status="0" certainty="0" cui="C2881943" tui="t047" rank="800" code="NO-CODE" sourceType="ICD10CM"/>
+<modifier value="hearing loss;left" begin="183;203" end="195;207" status="0" certainty="0" cui="C2881963" tui="t047" rank="800" code="NO-CODE" sourceType="ICD10CM"/>
+<modifier value="left" begin="203" end="207" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+<modifier value="moderate" begin="160" end="168" status="0" certainty="0" cui="C1881878;C0205081;C1553901;C1513374;C0694627;C1547226" tui="T080;T080;T078;T033;T080;T170" rank="797;767;576;572;355;355" code="NO-CODE" sourceType="NCI;RCD;NCI;NCI;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="213" end="280" sentText="What is the appropriate diagnosis code assignment for this patient?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="282" end="447">
+<Sentence sentNo="4" begin="282" end="446" sentText="Answer: Assign code H90.6, Mixed conductive and sensorineural hearing loss, bilateral, for a patient with different types of hearing loss in the right and left ear.">
+<RelationSet id="877">
+<problem value="0.6, Mixed conductive and sensorineural hearing loss, bila" begin="304" end="362" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="878">
+<problem value="sensorineural hearing loss" begin="330" end="356" status="0" certainty="0" cui="C0018784" tui="T047" rank="795" code="NO-CODE" sourceType="NDFRT"/>
+</RelationSet>
+<RelationSet id="878">
+<modifier value="bilateral" begin="358" end="367" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="879">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="ear" begin="442" end="445" status="0" certainty="0"/>
+<problem value="hearing loss" begin="407" end="419" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="hearing loss" begin="407" end="419" status="0" certainty="0"/>
+<modifier value="right" begin="427" end="432" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="ear" begin="442" end="445" status="0" certainty="0"/>
+<problem value="hearing loss" begin="407" end="419" status="0" certainty="0"/>
+<modifier value="right" begin="427" end="432" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="left ear" begin="437" end="445" status="0" certainty="0" cui="C1289055;C0229299;C2127178" tui="T023;T023;T184" rank="765;765;592" code="NO-CODE" sourceType="SNOMEDCTUS;SNM;MEDCIN"/>
+<anatomicalStructure value="ear" begin="442" end="445" status="0" certainty="0" cui="C0521422;C0013443;C0521421;C1418197;C1414437;C1522191;C1272926;C1550629;C1546608" tui="T082;T023;T023;T028;T028;T169;T122;T031;T170" rank="797;795;765;596;587;575;575;366;355" code="NO-CODE" sourceType="SNMI;MSH;RCD;HGNC;HGNC;SNOMEDCTUS;NCI;HL7V3.0;HL7V2.5"/>
+<modifier value="hearing loss;right" begin="407;427" end="419;432" status="0" certainty="0" cui="C2881962" tui="t047" rank="800" code="NO-CODE" sourceType="ICD10CM"/>
+<modifier value="types;right" begin="398;427" end="403;432" status="0" certainty="0" cui="C0562353" tui="T170" rank="767" code="NO-CODE" sourceType="RCD"/>
+<modifier value="right" begin="427" end="432" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

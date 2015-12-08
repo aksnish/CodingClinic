@@ -1,0 +1,70 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="478">
+<Paragraph pgNo="1" begin="0" end="304">
+<Sentence sentNo="1" begin="0" end="169" sentText="Question: A patient was admitted to our facility with acute on chronic systolic heart failure and found to be in cardiogenic shock with acute renal failure and acidosis.">
+<RelationSet id="1337">
+<problem value="chronic systolic heart failure" begin="63" end="93" status="0" certainty="-2" cui="C1135194" tui="T047" rank="800" code="NO-CODE" sourceType="ICD9CM"/>
+<problem value="acute;systolic heart failure" begin="54;71" end="59;93" status="0" certainty="-2" cui="C2732748" tui="T047" rank="800" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="systolic heart failure" begin="71" end="93" status="0" certainty="-2" cui="C1135191" tui="T047" rank="795" code="NO-CODE" sourceType="NDFRT"/>
+<problem value="chronic;heart failure" begin="63;80" end="70;93" status="0" certainty="-2" cui="C0264716" tui="T047" rank="767" code="NO-CODE" sourceType="MDR"/>
+<problem value="acute;heart failure" begin="54;80" end="59;93" status="0" certainty="-2" cui="C0264714" tui="T047" rank="767" code="NO-CODE" sourceType="MDR"/>
+<problem value="chronic;failure" begin="63;86" end="70;93" status="0" certainty="-2" cui="C0231178" tui="T046" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<problem value="heart failure" begin="80" end="93" status="0" certainty="-2" cui="C0018801" tui="T047" rank="797" code="NO-CODE" sourceType="CCS"/>
+<problem value="acute;failure" begin="54;86" end="59;93" status="0" certainty="-2" cui="C0231176" tui="T046" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<problem value="heart" begin="80" end="85" status="0" certainty="-2" cui="C0018787;C1281570;C0153500;C0153957" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="AIR;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+<RelationSet id="1338">
+<problem value="acidosis" begin="160" end="168" status="0" certainty="-2" cui="C0001122;C0220981" tui="T046;T046" rank="797;551" code="NO-CODE" sourceType="MSH;NCI"/>
+</RelationSet>
+<RelationSet id="1339">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value=" renal failure " begin="141" end="156" status="0" certainty="-2"/>
+<modifier value="acute" begin="136" end="141" status="0" certainty="-2"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="cardiogenic shock" begin="113" end="130" status="0" certainty="-2"/>
+<modifier value="acute" begin="136" end="141" status="0" certainty="-2"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value=" renal failure " begin="141" end="156" status="0" certainty="-2"/>
+<problem value="cardiogenic shock" begin="113" end="130" status="0" certainty="-2"/>
+<modifier value="acute" begin="136" end="141" status="0" certainty="-2"/>
+</Relation>
+<problem value="acute renal failure" begin="136" end="155" status="0" certainty="-2" cui="C0022660" tui="T047" rank="797" code="NO-CODE" sourceType="MSH"/>
+<problem value="renal failure" begin="142" end="155" status="0" certainty="-2" cui="C0035078;C1963154" tui="T047;T033" rank="797;551" code="NO-CODE" sourceType="NDFRT;NCI"/>
+<problem value="acute;failure" begin="136;148" end="141;155" status="0" certainty="-2" cui="C0231176" tui="T046" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<problem value="renal" begin="142" end="147" status="0" certainty="-2" cui="C0022646;C1278978;C0496892;C0496927;C1514845;C0869841;C0227665" tui="T023;T023;T191;T191;T024;T061;T023" rank="797;765;610;610;572;373;151" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM;CHV"/>
+<problem value="cardiogenic shock" begin="113" end="130" status="0" certainty="-2" cui="C0036980" tui="T046" rank="795" code="NO-CODE" sourceType="NDFRT"/>
+<problem value="shock" begin="125" end="130" status="0" certainty="-2" cui="C0036974" tui="T046" rank="797" code="NO-CODE" sourceType="CCS"/>
+<modifier value="acute" begin="136" end="141" status="0" certainty="-2" cui="C0205178;C1547229;C1547295" tui="T079;T170;T170" rank="797;355;355" code="NO-CODE" sourceType="RCD;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="170" end="238" sentText="The physician documented that the patient had “shock liver” as well.">
+<RelationSet id="1340">
+<problem value="liver" begin="223" end="228" status="0" certainty="0" cui="C0023884;C0205054;C1278929;C0023899;C0721399;C0496870;C0736268;C2346688;C0872387" tui="T023;T029;T023;T109,T121;T109,T121,T127;T191;T023;T168;T058" rank="797;797;765;739;673;610;572;562;373" code="NO-CODE" sourceType="LCH;SNMI;RCD;MMSL;CHV;ICD10;NCI;NCI;ICD10AM"/>
+<problem value="shock" begin="217" end="222" status="0" certainty="0" cui="C0036974" tui="T046" rank="797" code="NO-CODE" sourceType="CCS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="239" end="303" sentText="What is the correct diagnosis code for shock liver in ICD–10-CM?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="305" end="477">
+<Sentence sentNo="4" begin="305" end="332" sentText="Answer: Assign code K72.0-,">
+</Sentence>
+<Sentence sentNo="5" begin="333" end="385" sentText="Acute and subacute hepatic failure, for shock liver.">
+<RelationSet id="1341">
+<problem value="subacute;failure" begin="343;360" end="351;367" status="0" certainty="-2" cui="C0231176;C0231177" tui="T046;T046" rank="767;767" code="NO-CODE" sourceType="SNMI;SNMI"/>
+</RelationSet>
+<RelationSet id="1342">
+<problem value="shock" begin="373" end="378" status="0" certainty="-2" cui="C0036974" tui="T046" rank="797" code="NO-CODE" sourceType="CCS"/>
+<problem value="liver" begin="379" end="384" status="0" certainty="-2" cui="C0023884;C0205054;C1278929;C0023899;C0721399;C0496870;C0736268;C2346688;C0872387" tui="T023;T029;T023;T109,T121;T109,T121,T127;T191;T023;T168;T058" rank="797;797;765;739;673;610;572;562;373" code="NO-CODE" sourceType="LCH;SNMI;RCD;MMSL;CHV;ICD10;NCI;NCI;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="386" end="476" sentText="The assignment of the fifth digit would be dependent on the presence or absence  of  coma.">
+<RelationSet id="1343">
+<problem value="coma" begin="471" end="475" status="0" certainty="-2" cui="C0009421;C3146279" tui="T047;T004" rank="795;751" code="NO-CODE" sourceType="COSTAR;NCBI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

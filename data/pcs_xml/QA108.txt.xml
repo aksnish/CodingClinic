@@ -1,0 +1,80 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1296">
+<Paragraph pgNo="1" begin="0" end="698">
+<Sentence sentNo="1" begin="0" end="229" sentText="Question: Previously published Coding Clinic advice regarding the counting of mechanical ventilation hours for patients admitted for weaning assumed that the patient was already on mechanical ventilation at the time of admission.">
+<RelationSet id="1308">
+<procedure value="mechanical ventilation" begin="78" end="100" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="78" end="88" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+<RelationSet id="1309">
+<procedure value="mechanical ventilation" begin="181" end="203" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="181" end="191" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="230" end="421" sentText="However, our question relates to patients admitted to a long term care hospital on a T-piece or tracheostomy collar the day of the transfer, but placed on mechanical ventilation that evening.">
+<RelationSet id="1309">
+<medicalDevice value="T-piece" begin="315" end="322" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1310">
+<medicalDevice value="tracheostomy collar" begin="326" end="345" status="0" certainty="0" cui="C1737512" tui="T074" rank="684" code="NO-CODE" sourceType="UMD"/>
+<medicalDevice value="tracheostomy" begin="326" end="338" status="0" certainty="0" cui="C0040590;C1875833;C1700189" tui="T061;T074;T169" rank="795;739;151" code="NO-CODE" sourceType="MSH;VANDF;CHV"/>
+<medicalDevice value="collar" begin="339" end="345" status="0" certainty="0" cui="C0175751;C0180008;C1879305;C2826221" tui="T074;T074;T074;T081" rank="765;739;684;562" code="NO-CODE" sourceType="RCD;VANDF;UMD;NCI"/>
+</RelationSet>
+<RelationSet id="1311">
+<procedure value="mechanical ventilation" begin="385" end="407" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="385" end="395" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="422" end="697" sentText="How are the hours of mechanical ventilation counted? Should we begin counting hours at the start of the admission even though the patient is breathing through the T-piece without mechanical ventilation, or should the hours be counted from the time the patient is on the vent?">
+<RelationSet id="1312">
+<procedure value="mechanical ventilation" begin="443" end="465" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="443" end="453" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+<RelationSet id="1312">
+<medicalDevice value="vent" begin="692" end="696" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1313">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="mechanical ventilation" begin="601" end="623" status="0" certainty="-2"/>
+<medicalDevice value="T-piece" begin="585" end="592" status="0" certainty="0"/>
+</Relation>
+<procedure value="mechanical ventilation" begin="601" end="623" status="0" certainty="-2" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="601" end="611" status="0" certainty="-2" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+<medicalDevice value="T-piece" begin="585" end="592" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="699" end="1295">
+<Sentence sentNo="4" begin="699" end="763" sentText="Answer: You should begin counting at the start of the admission.">
+</Sentence>
+<Sentence sentNo="5" begin="764" end="875" sentText="All of the period of weaning is counted during the process of withdrawing the patient from ventilatory support.">
+</Sentence>
+<Sentence sentNo="6" begin="876" end="1071" sentText="The duration includes the time the patient is on the ventilator, the weaning period and ends when the patient is extubated and the mechanical ventilation is turned off (after the weaning period).">
+<RelationSet id="1314">
+<medicalDevice value="ventilator" begin="929" end="939" status="0" certainty="0" cui="C0087153;C1611144;C1547127" tui="T074;T073;T082" rank="792;750;355" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1314">
+<procedure value="extubated" begin="989" end="998" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1315">
+<procedure value="mechanical ventilation;weaning" begin="1007;1055" end="1029;1062" status="0" certainty="0" cui="C2228926" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="mechanical ventilation" begin="1007" end="1029" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="1007" end="1017" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="1072" end="1157" sentText="The fact that a T-piece is being used during the day does not affect code assignment.">
+<RelationSet id="1315">
+<medicalDevice value="T-piece" begin="1088" end="1095" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="1158" end="1294" sentText="A T-piece (trach-collar) trial involves the patient breathing through a T-piece without ventilatory assistance for a set period of time.">
+<RelationSet id="1315">
+<medicalDevice value="T-piece" begin="1160" end="1167" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1316">
+<medicalDevice value="T-piece" begin="1230" end="1237" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

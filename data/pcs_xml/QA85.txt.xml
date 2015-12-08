@@ -1,0 +1,119 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="882">
+<Paragraph pgNo="1" begin="0" end="314">
+<Sentence sentNo="1" begin="0" end="132" sentText="Question: A patient presents with left frozen shoulder with subacromial impingement, biceps tendonitis, and rotator cuff tendonitis.">
+<RelationSet id="2449">
+<modifier value="left" begin="34" end="38" status="0" certainty="1" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="2450">
+<anatomicalStructure value="left;shoulder" begin="34;46" end="38;54" status="0" certainty="1" cui="C0524469;C1288640" tui="T029;T029" rank="765;765" code="NO-CODE" sourceType="SNMI;SNOMEDCTUS"/>
+<anatomicalStructure value="shoulder" begin="46" end="54" status="0" certainty="1" cui="C0037004;C1283792;C0869975" tui="T029;T029;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+</RelationSet>
+<RelationSet id="2451">
+<anatomicalStructure value="biceps" begin="85" end="91" status="0" certainty="0" cui="C0559499" tui="T023" rank="576" code="NO-CODE" sourceType="LNC"/>
+</RelationSet>
+<RelationSet id="2452">
+<problem value="biceps tendonitis" begin="85" end="102" status="0" certainty="0" cui="C0151434" tui="T047" rank="767" code="NO-CODE" sourceType="RCD"/>
+<problem value="tendonitis" begin="92" end="102" status="0" certainty="0" cui="C0039503" tui="T047" rank="793" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+<RelationSet id="2453">
+<problem value="rotator cuff tendonitis" begin="108" end="131" status="0" certainty="0" cui="C0151448" tui="T047" rank="797" code="NO-CODE" sourceType="AIR"/>
+<problem value="tendonitis" begin="121" end="131" status="0" certainty="0" cui="C0039503" tui="T047" rank="793" code="NO-CODE" sourceType="LCH"/>
+<anatomicalStructure value="rotator cuff" begin="108" end="120" status="0" certainty="0" cui="C0085515" tui="T023" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="rotator" begin="108" end="115" status="0" certainty="0" cui="C1744564;C0448361;C0183065" tui="T023;T023;T073" rank="792;765;683" code="NO-CODE" sourceType="FMA;RCD;UMD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="133" end="260" sentText="He underwent left shoulder manipulation, arthroscopic subacromial decompression, biceps tenotomy, and rotator cuff debridement.">
+<RelationSet id="2454">
+<modifier value="subacromial" begin="187" end="198" status="0" certainty="0" cui="S0002322" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="arthroscopic subacromial decompression" begin="174" end="212" status="0" certainty="0" cui="C0408088" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="subacromial decompression" begin="187" end="212" status="0" certainty="0" cui="C0408159" tui="T061" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="decompression" begin="199" end="212" status="0" certainty="0" cui="C1829459;C0011117;C1965697;C0021153" tui="T061;T067;T169;T061" rank="797;795;765;713" code="NO-CODE" sourceType="SNOMEDCTUS;MSH;RCD;SNM"/>
+<procedure value="arthroscopic" begin="174" end="186" status="0" certainty="0" cui="C0003904;C0443142" tui="T060;T082" rank="795;717" code="NO-CODE" sourceType="CCS;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="2455">
+<anatomicalStructure value="biceps" begin="214" end="220" status="0" certainty="0" cui="C0559499" tui="T023" rank="576" code="NO-CODE" sourceType="LNC"/>
+</RelationSet>
+<RelationSet id="2456">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="debridement" begin="248" end="259" status="0" certainty="0"/>
+<anatomicalStructure value="rotator cuff" begin="235" end="247" status="0" certainty="0"/>
+</Relation>
+<procedure value="debridement" begin="248" end="259" status="0" certainty="0" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+<anatomicalStructure value="rotator cuff" begin="235" end="247" status="0" certainty="0" cui="C0085515" tui="T023" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="rotator" begin="235" end="242" status="0" certainty="0" cui="C1744564;C0448361;C0183065" tui="T023;T023;T073" rank="792;765;683" code="NO-CODE" sourceType="FMA;RCD;UMD"/>
+</RelationSet>
+<RelationSet id="2457">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="shoulder manipulation" begin="151" end="172" status="0" certainty="0"/>
+<modifier value="left" begin="146" end="150" status="0" certainty="0"/>
+</Relation>
+<procedure value="shoulder manipulation" begin="151" end="172" status="0" certainty="0" cui="C0556785" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="manipulation" begin="160" end="172" status="0" certainty="0" cui="C0947647;C0185111" tui="T061;T061" rank="767;748" code="NO-CODE" sourceType="RCD;SNM"/>
+<procedure value="shoulder" begin="151" end="159" status="0" certainty="0" cui="C0037004;C1283792;C0869975" tui="T029;T029;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+<anatomicalStructure value="left shoulder" begin="146" end="159" status="0" certainty="0" cui="C0524469;C1288640" tui="T029;T029" rank="765;765" code="NO-CODE" sourceType="SNMI;SNOMEDCTUS"/>
+<modifier value="left" begin="146" end="150" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="261" end="313" sentText="What are the appropriate ICD-10-PCS procedure codes?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="315" end="881">
+<Sentence sentNo="4" begin="315" end="379" sentText="Answer: The objective of the surgery is to release the shoulder.">
+<RelationSet id="2458">
+<procedure value="surgery;shoulder" begin="344;370" end="351;378" status="0" certainty="0" cui="C0186321" tui="T061" rank="595" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="surgery" begin="344" end="351" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2459">
+<anatomicalStructure value="shoulder" begin="370" end="378" status="0" certainty="0" cui="C0037004;C1283792;C0869975" tui="T029;T029;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="380" end="527" sentText="The root operation “Release” involves cutting and separating, and freeing a body part from constraint to accomplish the objective of the procedure.">
+<RelationSet id="2460">
+<procedure value="operation" begin="389" end="398" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+<procedure value="Release" begin="400" end="407" status="0" certainty="0" cui="C0391871;C1963578;C1283071;C0030685;C0680255" tui="T169;T061;T169;T058;T058" rank="767;767;576;575;472" code="NO-CODE" sourceType="SNM;SNOMEDCTUS;NCI;NCI;AOD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="528" end="689" sentText="Shoulder decompression procedures typically include minor shaving or debridement of the articular surfaces of the joint, performed in order to free up the joint.">
+<RelationSet id="2461">
+<procedure value="decompression procedures" begin="537" end="561" status="0" certainty="0" cui="C1829459" tui="T061" rank="797" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="decompression" begin="537" end="550" status="0" certainty="0" cui="C0011117;C1965697;C0021153" tui="T067;T169;T061" rank="795;765;713" code="NO-CODE" sourceType="MSH;RCD;SNM"/>
+<procedure value="Shoulder" begin="528" end="536" status="0" certainty="0" cui="C0037004;C1283792;C0869975" tui="T029;T029;T061" rank="797;765;626" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+</RelationSet>
+<RelationSet id="2462">
+<anatomicalStructure value="joint" begin="642" end="647" status="0" certainty="-2" cui="C0521339;C0022417;C0444497;C0392905;C1269611;C1706309" tui="T169;T030;T082;T022;T030;T074" rank="797;797;767;765;765;575" code="NO-CODE" sourceType="SNMI;MSH;RCD;ICF;RCD;NCI"/>
+</RelationSet>
+<RelationSet id="2463">
+<anatomicalStructure value="joint" begin="683" end="688" status="0" certainty="0" cui="C0521339;C0022417;C0444497;C0392905;C1269611;C1706309" tui="T169;T030;T082;T022;T030;T074" rank="797;797;767;765;765;575" code="NO-CODE" sourceType="SNMI;MSH;RCD;ICF;RCD;NCI"/>
+</RelationSet>
+<RelationSet id="2464">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="articular surfaces" begin="616" end="634" status="0" certainty="-2"/>
+<procedure value="debridement" begin="597" end="608" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="articular surfaces" begin="616" end="634" status="0" certainty="-2" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<procedure value="debridement" begin="597" end="608" status="0" certainty="0" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="690" end="771" sentText="This is considered integral to the Release procedure and is not coded separately.">
+</Sentence>
+<Sentence sentNo="8" begin="772" end="880" sentText="Assign the following ICD-10-PCS code for the arthroscopic release of the shoulder and biceps tendon: 0RNK4ZZ">
+<RelationSet id="2465">
+<anatomicalStructure value="biceps tendon" begin="858" end="871" status="0" certainty="0" cui="C0448540" tui="T023" rank="750" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="tendon" begin="865" end="871" status="0" certainty="0" cui="C0039508;C1280538" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="biceps" begin="858" end="864" status="0" certainty="0" cui="C0559499" tui="T023" rank="576" code="NO-CODE" sourceType="LNC"/>
+</RelationSet>
+<RelationSet id="2466">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="shoulder" begin="845" end="853" status="0" certainty="0"/>
+<procedure value="arthroscopic release" begin="817" end="837" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="shoulder" begin="845" end="853" status="0" certainty="0" cui="C0037004;C1283792;C0869975" tui="T029;T029;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+<procedure value="arthroscopic;shoulder" begin="817;845" end="829;853" status="0" certainty="0" cui="C0559702" tui="T058" rank="767" code="NO-CODE" sourceType="ICD9CM"/>
+<procedure value="arthroscopic" begin="817" end="829" status="0" certainty="0" cui="C0003904;C0443142" tui="T060;T082" rank="795;717" code="NO-CODE" sourceType="CCS;SNOMEDCTUS"/>
+<procedure value="release" begin="830" end="837" status="0" certainty="0" cui="C0391871;C1963578;C1283071;C0030685;C0680255" tui="T169;T061;T169;T058;T058" rank="767;767;576;575;472" code="NO-CODE" sourceType="SNM;SNOMEDCTUS;NCI;NCI;AOD"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

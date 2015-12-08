@@ -1,0 +1,51 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="865">
+<Paragraph pgNo="1" begin="0" end="138">
+<Sentence sentNo="1" begin="0" end="137" sentText="Question: How should an aspiration via a lumbar drain port be reported? What body part character should we use for the lumbar drain port?">
+<RelationSet id="2497">
+<medicalDevice value="drain" begin="126" end="131" status="0" certainty="0" cui="C0013103;C0180499;C0012621;C1550628;C1546604;C2926602" tui="T061;T074;T031;T167;T170;T031" rank="795;767;765;366;355;333" code="NO-CODE" sourceType="LCH;UMD;SNOMEDCTUS;HL7V3.0;HL7V2.5;OMS"/>
+<medicalDevice value="port" begin="132" end="136" status="0" certainty="0" cui="S0000553;C0452253;C0205054;C1880253;C1706409;C0475311" tui="t061;T168;T029;T077;T074;T073" rank="800;767;767;575;575;472" code="NO-CODE" sourceType="EZDI;RCD;SNMI;NCI;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="2498">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value=" aspiration" begin="23" end="34" status="0" certainty="1"/>
+<medicalDevice value="lumbar drain port" begin="41" end="58" status="0" certainty="1"/>
+</Relation>
+<procedure value="aspiration;drain" begin="24;48" end="34;53" status="0" certainty="1" cui="C0411814" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="aspiration" begin="24" end="34" status="0" certainty="1" cui="C0004056;C0349707;C0700198;C0220787;C1963221;C2827071" tui="T041;T061;T046;T058;T033;T033" rank="790;767;765;711;562;551" code="NO-CODE" sourceType="PSY;RCD;MDR;SNOMEDCTUS;NCI;NCI"/>
+<medicalDevice value="drain" begin="48" end="53" status="0" certainty="1" cui="C0013103;C0180499;C0012621;C1550628;C1546604;C2926602" tui="T061;T074;T031;T167;T170;T031" rank="795;767;765;366;355;333" code="NO-CODE" sourceType="LCH;UMD;SNOMEDCTUS;HL7V3.0;HL7V2.5;OMS"/>
+<medicalDevice value="port" begin="54" end="58" status="0" certainty="1" cui="S0000553;C0452253;C0205054;C1880253;C1706409;C0475311" tui="t061;T168;T029;T077;T074;T073" rank="800;767;767;575;575;472" code="NO-CODE" sourceType="EZDI;RCD;SNMI;NCI;NCI;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="139" end="864">
+<Sentence sentNo="2" begin="139" end="212" sentText="Answer: The body part value for the lumbar port should be “spinal canal.”">
+</Sentence>
+<Sentence sentNo="3" begin="213" end="290" sentText="Aspiration via a lumbar drain port could be either therapeutic or diagnostic.">
+<RelationSet id="2499">
+<medicalDevice value="drain" begin="237" end="242" status="0" certainty="0" cui="C0013103;C0180499;C0012621;C1550628;C1546604;C2926602" tui="T061;T074;T031;T167;T170;T031" rank="795;767;765;366;355;333" code="NO-CODE" sourceType="LCH;UMD;SNOMEDCTUS;HL7V3.0;HL7V2.5;OMS"/>
+<medicalDevice value="port" begin="243" end="247" status="0" certainty="0" cui="S0000553;C0452253;C0205054;C1880253;C1706409;C0475311" tui="t061;T168;T029;T077;T074;T073" rank="800;767;767;575;575;472" code="NO-CODE" sourceType="EZDI;RCD;SNMI;NCI;NCI;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="291" end="402" sentText="The ICD10-PCS code assignment would be dependent on the objective of the procedure (therapeutic or diagnostic).">
+</Sentence>
+<Sentence sentNo="5" begin="403" end="493" sentText="If the procedure is diagnostic use the qualifier “X” and if therapeutic use qualifier “Z.”">
+</Sentence>
+<Sentence sentNo="6" begin="494" end="565" sentText="The “approach” is percutaneous, when the aspiration is done via a port.">
+<RelationSet id="2500">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="port" begin="560" end="564" status="0" certainty="0"/>
+<problem value="aspiration" begin="535" end="545" status="0" certainty="0"/>
+</Relation>
+<medicalDevice value="port" begin="560" end="564" status="0" certainty="0" cui="S0000553;C0452253;C0205054;C1880253;C1706409;C0475311" tui="t061;T168;T029;T077;T074;T073" rank="800;767;767;575;575;472" code="NO-CODE" sourceType="EZDI;RCD;SNMI;NCI;NCI;CHV"/>
+<problem value="aspiration" begin="535" end="545" status="0" certainty="0" cui="C0004056;C0349707;C0700198;C0220787;C1963221;C2827071" tui="T041;T061;T046;T058;T033;T033" rank="790;767;765;711;562;551" code="NO-CODE" sourceType="PSY;RCD;MDR;SNOMEDCTUS;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="566" end="863" sentText="Currently, the ICD-10PCS Official Guidelines for Coding and Reporting indicate the qualifier “X” may only be used for procedures documented as biopsies, but the next version of the guidelines will be revised, so that qualifier “X” may be used whenever the objective of the procedure is diagnostic.">
+<RelationSet id="2501">
+<procedure value="biopsies" begin="709" end="717" status="0" certainty="0" cui="C0005558;C0220797;C1706430;C1546569;C1548825;C3668914" tui="T060;T169;T078;T170;T058;T060" rank="797;788;571;355;355;353" code="NO-CODE" sourceType="MSH;MSH;NCI;HL7V2.5;HL7V2.5;CPT"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

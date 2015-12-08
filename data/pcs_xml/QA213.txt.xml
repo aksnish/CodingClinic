@@ -1,0 +1,72 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="681">
+<Paragraph pgNo="1" begin="0" end="394">
+<Sentence sentNo="1" begin="0" end="150" sentText="Question: The patient suffered lower gastrointestinal bleeding and was treated with endovascular embolization using microcoils to stop the blood flow.">
+<RelationSet id="159">
+<problem value="lower gastrointestinal bleeding" begin="31" end="62" status="0" certainty="1" cui="C0024050" tui="T046" rank="765" code="NO-CODE" sourceType="COSTAR"/>
+<problem value="gastrointestinal bleeding" begin="37" end="62" status="0" certainty="1" cui="C0017181" tui="T046" rank="765" code="NO-CODE" sourceType="CST"/>
+<problem value="bleeding" begin="54" end="62" status="0" certainty="1" cui="C0019080" tui="T046" rank="791" code="NO-CODE" sourceType="ICPC2P"/>
+</RelationSet>
+<RelationSet id="160">
+<procedure value="embolization" begin="97" end="109" status="0" certainty="0" cui="C0013931" tui="T061" rank="765" code="NO-CODE" sourceType="RCDAE"/>
+<anatomicalStructure value="endovascular" begin="84" end="96" status="0" certainty="0" cui="C0524425" tui="T029" rank="703" code="NO-CODE" sourceType="SNMI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="151" end="249" sentText="The bleeding site was found in the proximal left descending colon branch of the left colic artery.">
+<RelationSet id="161">
+<anatomicalStructure value="site" begin="164" end="168" status="0" certainty="0" cui="C0205145;C2945843;C2825164;C1515974;C1546778" tui="T082;T080;T082;T029;T170" rank="797;767;575;575;355" code="NO-CODE" sourceType="RCD;RCD;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="162">
+<modifier value="left" begin="195" end="199" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="163">
+<anatomicalStructure value="descending colon" begin="200" end="216" status="0" certainty="0" cui="C0227389;C0153435;C0496863" tui="T023;T191;T191" rank="797;610;610" code="NO-CODE" sourceType="MTHMST;ICD10;ICD10"/>
+<anatomicalStructure value="colon;left" begin="211;231" end="216;235" status="0" certainty="0" cui="C0227388" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="branch" begin="217" end="223" status="0" certainty="0" cui="C1253959;C2700384;C0205384;C2700383;C1706131;C1881507;C2826234" tui="T023;T082;T082;T002;T097;T104;T170" rank="797;797;767;576;576;575;572" code="NO-CODE" sourceType="NCI;FMA;SNMI;NCI;NCI;NCI;NCI"/>
+<anatomicalStructure value="colon" begin="211" end="216" status="0" certainty="0" cui="C1623185;C0009368;C0684195;C1281569;C2684091;C0496907;C0154061;C1337205;C1446425" tui="T121;T023;T002;T023;T074;T191;T191;T168;T129" rank="797;795;795;765;739;610;610;562;416" code="NO-CODE" sourceType="MMSL;MTHMST;AOD;SNOMEDCTUS;VANDF;ICD10;ICD10;NCI;LNC"/>
+</RelationSet>
+<RelationSet id="164">
+<anatomicalStructure value="left colic artery" begin="231" end="248" status="0" certainty="0" cui="C1280138;C0226318" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<anatomicalStructure value="colic artery" begin="236" end="248" status="0" certainty="0" cui="C0226322;C1267334" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="artery" begin="242" end="248" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="250" end="340" sentText="The main arterial branch to this bleeding site was successfully embolized with microcoils.">
+<RelationSet id="165">
+<anatomicalStructure value="arterial" begin="259" end="267" status="0" certainty="0" cui="C0221464;C0003842;C0226004" tui="T082;T023;T022" rank="797;765;151" code="NO-CODE" sourceType="RCD;MSH;CHV"/>
+<anatomicalStructure value="branch" begin="268" end="274" status="0" certainty="0" cui="C1253959;C2700384;C0205384;C2700383;C1706131;C1881507;C2826234" tui="T023;T082;T082;T002;T097;T104;T170" rank="797;797;767;576;576;575;572" code="NO-CODE" sourceType="NCI;FMA;SNMI;NCI;NCI;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="166">
+<problem value="arterial;bleeding" begin="259;283" end="267;291" status="0" certainty="0" cui="C0340654" tui="T046" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="bleeding" begin="283" end="291" status="0" certainty="0" cui="C0019080" tui="T046" rank="791" code="NO-CODE" sourceType="ICPC2P"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="341" end="393" sentText="What is the appropriate ICD-10-PCS  procedure  code?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="395" end="680">
+<Sentence sentNo="5" begin="395" end="468" sentText="Answer: Microcoils and microbeads are classified as intraluminal devices.">
+</Sentence>
+<Sentence sentNo="6" begin="469" end="557" sentText="The device key entry for “Embolization coils” advises coders to use intraluminal device.">
+<RelationSet id="167">
+<procedure value="Embolization" begin="495" end="507" status="0" certainty="0" cui="C0013931" tui="T061" rank="765" code="NO-CODE" sourceType="RCDAE"/>
+</RelationSet>
+<RelationSet id="168">
+<medicalDevice value="device" begin="550" end="556" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="558" end="679" sentText="Assign ICD-10-PCS code as follows: 04L73DZ Occlusion of left colic artery with intraluminal device, percutaneous approach">
+<RelationSet id="169">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="colic artery" begin="619" end="631" status="0" certainty="0"/>
+<medicalDevice value="intraluminal device" begin="637" end="656" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="left colic artery" begin="614" end="631" status="0" certainty="0" cui="C1280138;C0226318" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<anatomicalStructure value="colic artery" begin="619" end="631" status="0" certainty="0" cui="C0226322;C1267334" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="artery" begin="625" end="631" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<medicalDevice value="device" begin="650" end="656" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

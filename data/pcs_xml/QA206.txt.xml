@@ -1,0 +1,90 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="876">
+<Paragraph pgNo="1" begin="0" end="372">
+<Sentence sentNo="1" begin="0" end="128" sentText="Question: A patient with left lung cancer presents for bronchoscopic placement of fiducial marker to target the left lung tumor.">
+<RelationSet id="458">
+<procedure value="bronchoscopic" begin="55" end="68" status="0" certainty="1" cui="C0006290;C0442419" tui="T060;T082" rank="795;707" code="NO-CODE" sourceType="ICD10AM;SNOMEDCTUS"/>
+<procedure value="placement" begin="69" end="78" status="0" certainty="1" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="459">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value=" tumor" begin="121" end="127" status="0" certainty="0"/>
+<anatomicalStructure value="lung" begin="117" end="121" status="0" certainty="0"/>
+</Relation>
+<problem value="lung tumor" begin="117" end="127" status="0" certainty="0" cui="C0024121" tui="T191" rank="765" code="NO-CODE" sourceType="DXP"/>
+<problem value="tumor" begin="122" end="127" status="0" certainty="0" cui="C0027651;C3273930;C1578706" tui="T191;T033;T170" rank="791;575;355" code="NO-CODE" sourceType="MSH;NCI;HL7V2.5"/>
+<anatomicalStructure value="left lung" begin="112" end="121" status="0" certainty="0" cui="C0225730" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="lung" begin="117" end="121" status="0" certainty="0" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="LCH;AIR;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="460">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value=" cancer" begin="34" end="41" status="0" certainty="1"/>
+<anatomicalStructure value="lung" begin="30" end="34" status="0" certainty="1"/>
+</Relation>
+<problem value="lung cancer" begin="30" end="41" status="0" certainty="1" cui="C0242379;C0684249" tui="T191;T191" rank="793;603" code="NO-CODE" sourceType="MSH;NCI"/>
+<problem value="cancer" begin="35" end="41" status="0" certainty="1" cui="C0006826;C1306459;C0998265;C0260515;C1547140" tui="T191;T191;T204;T033;T091" rank="793;765;751;592;355" code="NO-CODE" sourceType="ICPC2P;SNOMEDCTUS;NCBI;MEDCIN;HL7V2.5"/>
+<anatomicalStructure value="left lung" begin="25" end="34" status="0" certainty="1" cui="C0225730" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="lung" begin="30" end="34" status="0" certainty="1" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="LCH;AIR;SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="129" end="282" sentText="The fiducial marker was placed; the patient was discharged and scheduled for Cyberknife® image guided stereotactic robotic radiosurgery, at a later date.">
+<RelationSet id="461">
+<modifier value="robotic" begin="244" end="251" status="0" certainty="0" cui="C0035785" tui="T090" rank="150" code="NO-CODE" sourceType="CHV"/>
+<procedure value="robotic radiosurgery" begin="244" end="264" status="0" certainty="0" cui="C2729330" tui="T061" rank="349" code="NO-CODE" sourceType="MTHHH"/>
+<procedure value="radiosurgery" begin="252" end="264" status="0" certainty="0" cui="C0085203" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="283" end="371" sentText="What is the correct ICD-10-PCS code for fiducial marker placement for a lung malignancy?">
+<RelationSet id="462">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value=" malignancy" begin="359" end="370" status="0" certainty="0"/>
+<anatomicalStructure value="lung" begin="355" end="359" status="0" certainty="0"/>
+<procedure value="fiducial marker placement " begin="323" end="349" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value=" malignancy" begin="359" end="370" status="0" certainty="0"/>
+<anatomicalStructure value="lung" begin="355" end="359" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="lung" begin="355" end="359" status="0" certainty="0"/>
+<procedure value="fiducial marker placement " begin="323" end="349" status="0" certainty="0"/>
+</Relation>
+<problem value="lung malignancy" begin="355" end="370" status="0" certainty="0" cui="C0242379" tui="T191" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<problem value="malignancy" begin="360" end="370" status="0" certainty="0" cui="C0205282;C1306459;C0006826;C1533592;C0334590" tui="T080;T191;T191;T191;T191" rank="767;765;713;571;571" code="NO-CODE" sourceType="RCD;RCD;AIR;NCI;NCI"/>
+<anatomicalStructure value="lung" begin="355" end="359" status="0" certainty="0" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="LCH;AIR;SNOMEDCTUS;NCI"/>
+<modifier value="fiducial" begin="323" end="331" status="0" certainty="0" cui="C1708056" tui="T080" rank="576" code="NO-CODE" sourceType="NCI"/>
+<procedure value="placement" begin="339" end="348" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="373" end="875">
+<Sentence sentNo="4" begin="373" end="426" sentText="Answer: The radiologic marker placement is not coded.">
+<RelationSet id="463">
+<procedure value="radiologic" begin="385" end="395" status="0" certainty="0" cui="C0205483;C0034599;C1962945;C0807679;C1555923;C1610162;C1552284;C1608525;C1548000;C1548429;C0043299" tui="T169;T091;T060;T060;T097;T170;T097;T170;T170;T078;T060" rank="797;795;489;414;366;366;366;366;355;355;150" code="NO-CODE" sourceType="SNMI;LCH;LNC;LNC;HL7V3.0;HL7V3.0;HL7V3.0;HL7V3.0;HL7V2.5;HL7V2.5;CHV"/>
+<procedure value="placement" begin="403" end="412" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="427" end="511" sentText="According  to  the  ICD-10-PCS Official Guidelines for Coding and Reporting,  B6.1b,">
+</Sentence>
+<Sentence sentNo="6" begin="513" end="708" sentText="“Materials  such as sutures, ligatures, radiological markers and temporary post-operative wound drains are considered integral to the performance of a procedure and  are not  coded  as  devices.”">
+<RelationSet id="464">
+<medicalDevice value="Materials;sutures" begin="514;533" end="523;540" status="0" certainty="1" cui="C0038969;C1705834" tui="T074;T073" rank="795;575" code="NO-CODE" sourceType="MSH;NCI"/>
+</RelationSet>
+<RelationSet id="465">
+<problem value="operative wound" begin="593" end="608" status="0" certainty="0" cui="C0332803" tui="T037" rank="765" code="NO-CODE" sourceType="SNM"/>
+<problem value="wound drains" begin="603" end="615" status="0" certainty="0" cui="C0180503;C0332799" tui="T074;T020" rank="797;767" code="NO-CODE" sourceType="RCD;SNMI"/>
+<problem value="wound" begin="603" end="608" status="0" certainty="0" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797;C1550680;C1549529;C1547965" tui="T070;T037;T080;T033;T184;T169;T031;T169;T170" rank="795;792;788;767;709;703;366;355;355" code="NO-CODE" sourceType="MSH;MDR;MSH;RCD;MDR;SNMI;HL7V3.0;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="709" end="874" sentText="Therefore, code only the inspection of the lung; assign the following ICD-10-PCS codes: 0BJL8ZZ Inspection of left lung, via natural or artificial opening endoscopic">
+<RelationSet id="466">
+<anatomicalStructure value="lung" begin="752" end="756" status="0" certainty="0" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="LCH;AIR;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="467">
+<anatomicalStructure value="left lung" begin="819" end="828" status="0" certainty="0" cui="C0225730" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="lung" begin="824" end="828" status="0" certainty="0" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="LCH;AIR;SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

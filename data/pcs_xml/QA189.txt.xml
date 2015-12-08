@@ -1,0 +1,60 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="527">
+<Paragraph pgNo="1" begin="0" end="326">
+<Sentence sentNo="1" begin="0" end="219" sentText="Question: What is the appropriate body part character when a diagnostic lumbar tap is performed to test for meningitis? When you go to the drainage table (Table 009), there are a couple of options that seem appropriate.">
+<RelationSet id="2086">
+<procedure value="diagnostic lumbar tap" begin="61" end="82" status="0" certainty="0" cui="C0553794" tui="T060" rank="765" code="NO-CODE" sourceType="SNMI"/>
+<procedure value="tap" begin="79" end="82" status="0" certainty="0" cui="S0002554;C0034115;C0084902;C1865183;C1864009;C1417898;C2239905;C1414636;C1419923" tui="t060;T058;T116,T121;T028;T028;T028;T028;T028;T028" rank="800;765;721;600;596;596;596;587;587" code="NO-CODE" sourceType="EZDI;SNMI;MSH;OMIM;HGNC;HGNC;OMIM;HGNC;HGNC"/>
+<anatomicalStructure value="lumbar" begin="72" end="78" status="0" certainty="0" cui="C0024090" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="2087">
+<problem value="meningitis" begin="108" end="118" status="0" certainty="0" cui="C0025289" tui="T047" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="220" end="325" sentText="Should we use body part character “U” for spinal canal or body part character “Y” for lumbar spinal cord?">
+<RelationSet id="2088">
+<anatomicalStructure value="spinal canal" begin="262" end="274" status="0" certainty="0" cui="C0037922" tui="T030" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="spinal" begin="262" end="268" status="0" certainty="0" cui="C0037949;C1267072;C0521329;C1280065" tui="T023;T023;T082;T023" rank="795;765;703;234" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="canal" begin="269" end="274" status="0" certainty="0" cui="C1550227;C0442636" tui="T023;T083" rank="797;767" code="NO-CODE" sourceType="MTH;RCD"/>
+</RelationSet>
+<RelationSet id="2089">
+<anatomicalStructure value="lumbar spinal cord" begin="306" end="324" status="0" certainty="0" cui="C1278838;C0581621" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;PSY"/>
+<anatomicalStructure value="lumbar spinal" begin="306" end="319" status="0" certainty="0" cui="C0024091;C1284112;C1269871" tui="T023;T023;T029" rank="765;765;234" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="spinal cord" begin="313" end="324" status="0" certainty="0" cui="C0037925;C1278836;C0154034;C0153646;C0496938" tui="T023;T023;T191;T191;T191" rank="797;765;610;610;610" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;ICD10;ICD10"/>
+<anatomicalStructure value="spinal" begin="313" end="319" status="0" certainty="0" cui="C0037949;C1267072;C0521329;C1280065" tui="T023;T023;T082;T023" rank="795;765;703;234" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="cord" begin="320" end="324" status="0" certainty="0" cui="C1550235;C1706500;C1552938" tui="T023;T073;T081" rank="576;575;366" code="NO-CODE" sourceType="HL7V2.5;NCI;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="327" end="526">
+<Sentence sentNo="3" begin="327" end="411" sentText="Answer: The body part for lumbar tap/drain is spinal canal, rather than spinal cord.">
+<RelationSet id="2090">
+<anatomicalStructure value="spinal cord" begin="399" end="410" status="0" certainty="0" cui="C0037925;C1278836;C0154034;C0153646;C0496938" tui="T023;T023;T191;T191;T191" rank="797;765;610;610;610" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;ICD10;ICD10"/>
+<anatomicalStructure value="spinal" begin="399" end="405" status="0" certainty="0" cui="C0037949;C1267072;C0521329;C1280065" tui="T023;T023;T082;T023" rank="795;765;703;234" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="cord" begin="406" end="410" status="0" certainty="0" cui="C1550235;C1706500;C1552938" tui="T023;T073;T081" rank="576;575;366" code="NO-CODE" sourceType="HL7V2.5;NCI;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="2091">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="lumbar tap" begin="353" end="363" status="0" certainty="0"/>
+<anatomicalStructure value="spinal canal" begin="373" end="385" status="0" certainty="0"/>
+</Relation>
+<procedure value="tap;spinal" begin="360;373" end="363;379" status="0" certainty="0" cui="C0037943;C0553794" tui="T060,T061;T060" rank="790;750" code="NO-CODE" sourceType="MDR;ICD9CM"/>
+<procedure value="tap" begin="360" end="363" status="0" certainty="0" cui="S0002554;C0034115;C0084902;C1865183;C1864009;C1417898;C2239905;C1414636;C1419923" tui="t060;T058;T116,T121;T028;T028;T028;T028;T028;T028" rank="800;765;721;600;596;596;596;587;587" code="NO-CODE" sourceType="EZDI;SNMI;MSH;OMIM;HGNC;HGNC;OMIM;HGNC;HGNC"/>
+<anatomicalStructure value="lumbar;spinal canal" begin="353;373" end="359;385" status="0" certainty="0" cui="C1281715;C0223491" tui="T030;T030" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNMI"/>
+<anatomicalStructure value="lumbar;spinal" begin="353;373" end="359;379" status="0" certainty="0" cui="C0024091;C1284112;C1269871" tui="T023;T023;T029" rank="765;765;234" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="lumbar" begin="353" end="359" status="0" certainty="0" cui="C0024090" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="spinal canal" begin="373" end="385" status="0" certainty="0" cui="C0037922" tui="T030" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="spinal" begin="373" end="379" status="0" certainty="0" cui="C0037949;C1267072;C0521329;C1280065" tui="T023;T023;T082;T023" rank="795;765;703;234" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="canal" begin="380" end="385" status="0" certainty="0" cui="C0442636;C1550227" tui="T083;T023" rank="767;576" code="NO-CODE" sourceType="RCD;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="412" end="525" sentText="Assign ICD-10-PCS procedure code as follows: 009U3ZX Drainage of spinal canal, percutaneous  approach, diagnostic">
+<RelationSet id="2092">
+<anatomicalStructure value="spinal canal" begin="477" end="489" status="0" certainty="0" cui="C0037922" tui="T030" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="spinal" begin="477" end="483" status="0" certainty="0" cui="C0037949;C1267072;C0521329;C1280065" tui="T023;T023;T082;T023" rank="795;765;703;234" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="canal" begin="484" end="489" status="0" certainty="0" cui="C0442636;C1550227" tui="T083;T023" rank="767;576" code="NO-CODE" sourceType="RCD;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,114 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="828">
+<Paragraph pgNo="1" begin="0" end="410">
+<Sentence sentNo="1" begin="0" end="179" sentText="Question: A 19-year-old patient, status post ileal conduit urinary diversion surgery, developed tortuosity and kinking of the left ureter due to recurrent urinary tract infection.">
+<RelationSet id="711">
+<modifier value="urinary" begin="59" end="66" status="0" certainty="1" cui="C0042037;C0042036;C1524119;C2963137;C1610733;C1547942" tui="T169;T031;T080;T031;T031;T170" rank="797;797;797;691;366;355" code="NO-CODE" sourceType="MSH;LCH;NCI;FMA;HL7V3.0;HL7V2.5"/>
+<procedure value="urinary diversion" begin="59" end="76" status="0" certainty="1" cui="C0042020" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="ileal conduit" begin="45" end="58" status="0" certainty="1" cui="C0348002;C0441253" tui="T061;T020" rank="793;765" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+<procedure value="diversion" begin="67" end="76" status="0" certainty="1" cui="S1000458;C0185033;C0439843;C0743226" tui="t061;T061;T169;T169" rank="800;765;724;491" code="NO-CODE" sourceType="EZDI;SNOMEDCTUS;RCD;CCPSS"/>
+<procedure value="surgery" begin="77" end="84" status="0" certainty="1" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+<anatomicalStructure value="conduit urinary" begin="51" end="66" status="0" certainty="1" cui="C1276374" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="ileal" begin="45" end="50" status="0" certainty="1" cui="C0020885;C1278923;C0153428" tui="T023;T023;T191" rank="797;765;610" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10"/>
+</RelationSet>
+<RelationSet id="712">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="ureter" begin="131" end="137" status="0" certainty="0"/>
+<problem value="urinary tract infection" begin="155" end="178" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="left" begin="126" end="130" status="0" certainty="0"/>
+<problem value="urinary tract infection" begin="155" end="178" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="recurrent" begin="145" end="154" status="0" certainty="0"/>
+<problem value="urinary tract infection" begin="155" end="178" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="recurrent" begin="145" end="154" status="0" certainty="0"/>
+<modifier value="left" begin="126" end="130" status="0" certainty="0"/>
+<anatomicalStructure value="ureter" begin="131" end="137" status="0" certainty="0"/>
+<problem value="urinary tract infection" begin="155" end="178" status="0" certainty="0"/>
+</Relation>
+<modifier value="recurrent" begin="145" end="154" status="0" certainty="0" cui="C2945760" tui="T079" rank="797" code="NO-CODE" sourceType="RCD"/>
+<modifier value="left" begin="126" end="130" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+<anatomicalStructure value="left ureter" begin="126" end="137" status="0" certainty="0" cui="C0227683;C1280905" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="ureter" begin="131" end="137" status="0" certainty="0" cui="C0041951;C1281572;C0154016;C0496928;C1522613;C0869844" tui="T023;T023;T191;T191;T169;T058" rank="797;765;610;610;575;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM"/>
+<problem value="recurrent urinary tract infection" begin="145" end="178" status="0" certainty="0" cui="C0262655;C3532611" tui="T047;T033" rank="797;595" code="NO-CODE" sourceType="COSTAR;MEDCIN"/>
+<problem value="urinary;infection" begin="155;169" end="162;178" status="0" certainty="0" cui="C0042029" tui="T047" rank="797" code="NO-CODE" sourceType="ICPC2P"/>
+<problem value="infection" begin="169" end="178" status="0" certainty="0" cui="C0009450;C1556682;C1550587" tui="T047;T033;T078" rank="795;551;366" code="NO-CODE" sourceType="LCH;NCI;HL7V3.0"/>
+<anatomicalStructure value="urinary tract" begin="155" end="168" status="0" certainty="0" cui="C0042027;C1508753;C1280341" tui="T023;T022;T023" rank="797;530;234" code="NO-CODE" sourceType="MSH;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="tract" begin="163" end="168" status="0" certainty="0" cui="C1185740" tui="T023" rank="692" code="NO-CODE" sourceType="UWDA"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="180" end="221" sentText="At surgery, the left ureter was detached.">
+<RelationSet id="713">
+<procedure value="surgery" begin="183" end="190" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="714">
+<modifier value="left" begin="196" end="200" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="715">
+<anatomicalStructure value="left ureter" begin="196" end="207" status="0" certainty="0" cui="C0227683;C1280905" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="ureter" begin="201" end="207" status="0" certainty="0" cui="C0041951;C1281572;C0154016;C0496928;C1522613;C0869844" tui="T023;T023;T191;T191;T169;T058" rank="797;765;610;610;575;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="222" end="329" sentText="The surgeon straightened out the kinking and tortuosity and reimplanted the ureter at a different location.">
+<RelationSet id="716">
+<anatomicalStructure value="ureter" begin="298" end="304" status="0" certainty="0" cui="C0041951;C1281572;C0154016;C0496928;C1522613;C0869844" tui="T023;T023;T191;T191;T169;T058" rank="797;765;610;610;575;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="330" end="409" sentText="What is the correct root operation and body part for the ureter reimplantation?">
+<RelationSet id="717">
+<procedure value="operation" begin="355" end="364" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+<anatomicalStructure value="root" begin="350" end="354" status="0" certainty="0" cui="S1001239;C1318154;C0242726;C0563017;C0040452;C1705917" tui="t061;T023;T002;T033;T023;T078" rank="800;797;765;765;576;575" code="NO-CODE" sourceType="EZDI;LNC;RCD;RCD;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="718">
+<anatomicalStructure value="ureter" begin="387" end="393" status="0" certainty="0" cui="C0041951;C1281572;C0154016;C0496928;C1522613;C0869844" tui="T023;T023;T191;T191;T169;T058" rank="797;765;610;610;575;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="411" end="827">
+<Sentence sentNo="5" begin="411" end="489" sentText="Answer: This patient is status post urinary diversion using intestinal tissue.">
+<RelationSet id="719">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="urinary diversion" begin="447" end="464" status="0" certainty="0"/>
+<anatomicalStructure value="intestinal tissue" begin="471" end="488" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="intestinal" begin="471" end="481" status="0" certainty="0" cui="C0021853;C1708548" tui="T023;T024" rank="767;572" code="NO-CODE" sourceType="MSH;NCI"/>
+<anatomicalStructure value="tissue" begin="482" end="488" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="490" end="577" sentText="The left ureter has been replaced with the ileum, which is now functioning as a ureter.">
+<RelationSet id="720">
+<modifier value="left" begin="494" end="498" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="721">
+<anatomicalStructure value="left ureter" begin="494" end="505" status="0" certainty="0" cui="C0227683;C1280905" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="ureter" begin="499" end="505" status="0" certainty="0" cui="C0041951;C1281572;C0154016;C0496928;C1522613;C0869844" tui="T023;T023;T191;T191;T169;T058" rank="797;765;610;610;575;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM"/>
+</RelationSet>
+<RelationSet id="722">
+<anatomicalStructure value="ileum" begin="533" end="538" status="0" certainty="0" cui="C0020885;C1278923;C0153428" tui="T023;T023;T191" rank="797;765;610" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10"/>
+</RelationSet>
+<RelationSet id="723">
+<anatomicalStructure value="ureter" begin="570" end="576" status="0" certainty="0" cui="C0041951;C1281572;C0154016;C0496928;C1522613;C0869844" tui="T023;T023;T191;T191;T169;T058" rank="797;765;610;610;575;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="578" end="704" sentText="During surgery, the kinking and tortuosity were straightened out, and the ureter was then reconnected at a different location.">
+<RelationSet id="724">
+<procedure value="surgery" begin="585" end="592" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="725">
+<anatomicalStructure value="ureter" begin="652" end="658" status="0" certainty="0" cui="C0041951;C1281572;C0154016;C0496928;C1522613;C0869844" tui="T023;T023;T191;T191;T169;T058" rank="797;765;610;610;575;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="705" end="818" sentText="“Bypass” is the appropriate root operation because the ureter was rerouted, and a new connection was established.">
+<RelationSet id="726">
+<anatomicalStructure value="ureter" begin="760" end="766" status="0" certainty="0" cui="C0041951;C1281572;C0154016;C0496928;C1522613;C0869844" tui="T023;T023;T191;T191;T169;T058" rank="797;765;610;610;575;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="819" end="826" sentText="0T170ZB">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

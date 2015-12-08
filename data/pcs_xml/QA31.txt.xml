@@ -1,0 +1,38 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="820">
+<Paragraph pgNo="1" begin="0" end="440">
+<Sentence sentNo="1" begin="0" end="305" sentText="Question: What is the correct code assignment, when a patient is admitted for desensitization to a medication? For example, a patient with chronic respiratory conditions is currently symptomatic and recent sputum was found to be growing stenotrophomonas which is sensitive only to minocycline and Bactrim.">
+<RelationSet id="368">
+<problem value="respiratory;symptomatic" begin="147;183" end="158;194" status="0" certainty="0" cui="C0037090" tui="T184" rank="767" code="NO-CODE" sourceType="CCPSS"/>
+<problem value="conditions" begin="159" end="169" status="0" certainty="0" cui="C0348080;C0009647;C1705253;C0012634" tui="T080;T041;T077;T047" rank="797;790;575;530" code="NO-CODE" sourceType="RCD;SNM;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="369">
+<med value="Bactrim" begin="297" end="304" status="0" certainty="0" cui="C0591139" tui="T109,T121" rank="792" code="NO-CODE" sourceType="MMSL"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="306" end="439" sentText="Since the patient has experienced angioedema due to prior exposure to Bactrim, he was admitted for desensitization to the medication.">
+<RelationSet id="370">
+<problem value="angioedema" begin="340" end="350" status="0" certainty="0" cui="C0002994" tui="T046" rank="797" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="371">
+<med value="Bactrim" begin="376" end="383" status="0" certainty="0" cui="C0591139" tui="T109,T121" rank="792" code="NO-CODE" sourceType="MMSL"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="441" end="819">
+<Sentence sentNo="3" begin="441" end="520" sentText="Answer: There is no ICD-10-CM code to reflect an admission for desensitization.">
+</Sentence>
+<Sentence sentNo="4" begin="521" end="818" sentText="Assign the codes for the underlying condition (s) for which the medication requiring desensitization is to be given (in the example, assign the codes for the respiratory condition and the infectious agent that requires Bactrim) followed by status code Z88.2, Allergy status to sulfonamides status.">
+<RelationSet id="372">
+<problem value="condition" begin="691" end="700" status="0" certainty="0" cui="C1701901;C0348080;C0009647;C0336809;C1705253;C0012634;C1963686;C1552514" tui="T080;T080;T041;T073;T077;T047;T169;T073" rank="797;797;790;765;575;530;366;366" code="NO-CODE" sourceType="NCI;RCD;SNM;RCD;NCI;NCI;HL7V3.0;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="373">
+<med value="Bactrim" begin="740" end="747" status="0" certainty="0" cui="C0591139" tui="T109,T121" rank="792" code="NO-CODE" sourceType="MMSL"/>
+</RelationSet>
+<RelationSet id="373">
+<problem value="8.2, Allergy status to sulfonamides s" begin="775" end="812" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

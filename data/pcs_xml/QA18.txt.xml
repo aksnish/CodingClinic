@@ -1,0 +1,88 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="673">
+<Paragraph pgNo="1" begin="0" end="549">
+<Sentence sentNo="1" begin="0" end="126" sentText="Question: A two-month-old with intermittent stridor as a result of a vascular ring presents for division of the vascular ring.">
+<RelationSet id="1203">
+<problem value="vascular ring" begin="69" end="82" status="0" certainty="0" cui="C0221214;C0265888" tui="T019;T019" rank="797;576" code="NO-CODE" sourceType="DXP;NCI"/>
+<anatomicalStructure value="vascular" begin="69" end="77" status="0" certainty="0" cui="C1801960;C0005847;C1558950;C0392759" tui="T080;T023;T033;T169" rank="797;753;551;233" code="NO-CODE" sourceType="SNMI;SNOMEDCTVET;NCI;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1204">
+<anatomicalStructure value="vascular" begin="112" end="120" status="0" certainty="0" cui="C1801960;C0005847;C1558950;C0392759" tui="T080;T023;T033;T169" rank="797;753;551;233" code="NO-CODE" sourceType="SNMI;SNOMEDCTVET;NCI;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1205">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="stridor" begin="44" end="51" status="0" certainty="1"/>
+<modifier value="intermittent" begin="31" end="43" status="0" certainty="1"/>
+</Relation>
+<problem value="stridor" begin="44" end="51" status="0" certainty="1" cui="C0038450" tui="T184" rank="793" code="NO-CODE" sourceType="COSTAR"/>
+<modifier value="intermittent" begin="31" end="43" status="0" certainty="1" cui="C0205267" tui="T079" rank="797" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="127" end="255" sentText="During surgery, a left posterolateral thoracotomy was done, the ligamentum was isolated, and then divided between two silk ties.">
+<RelationSet id="1206">
+<procedure value="surgery" begin="134" end="141" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1206">
+<anatomicalStructure value="ligamentum" begin="191" end="201" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1206">
+<anatomicalStructure value="silk ties" begin="245" end="254" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1207">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="posterolateral thoracotomy" begin="150" end="176" status="0" certainty="0"/>
+<modifier value="left" begin="145" end="149" status="0" certainty="0"/>
+</Relation>
+<modifier value="left" begin="145" end="149" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+<modifier value="posterolateral" begin="150" end="164" status="0" certainty="0" cui="C0332195" tui="T082" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="posterolateral thoracotomy" begin="150" end="176" status="0" certainty="0" cui="C0442951" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="thoracotomy" begin="165" end="176" status="0" certainty="0" cui="C0039991" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="256" end="350" sentText="The ends appeared to spring apart with no other fibrous structures constricting the esophagus.">
+<RelationSet id="1208">
+<anatomicalStructure value="fibrous" begin="304" end="311" status="0" certainty="-2" cui="C0439709;C0225326;C1260603;C1304649" tui="T169;T121;T002;T024" rank="767;764;763;691" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;SNOMEDCTUS;UWDA"/>
+</RelationSet>
+<RelationSet id="1209">
+<anatomicalStructure value="esophagus" begin="340" end="349" status="0" certainty="-2" cui="C0014876;C1278919;C0154059;C0153942;C1516966;C0872395;C0545823" tui="T023;T023;T191;T191;T024;T061;T082" rank="797;765;611;611;572;374;151" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AE;ICD10AE;NCI;ICD10AMAE;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="351" end="512" sentText="The descending aorta was then approximated to the prevertebral fascia using a single Prolene suture, thereby lifting it off the underlying esophagus and trachea.">
+<RelationSet id="1210">
+<anatomicalStructure value="descending aorta" begin="355" end="371" status="0" certainty="0" cui="C0011666;C1305624" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MSH;RCD"/>
+<anatomicalStructure value="aorta" begin="366" end="371" status="0" certainty="0" cui="C0003483;C1278934;C0869784" tui="T023;T023;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+</RelationSet>
+<RelationSet id="1211">
+<anatomicalStructure value="esophagus" begin="490" end="499" status="0" certainty="0" cui="C0014876;C1278919;C0154059;C0153942;C1516966;C0872395;C0545823" tui="T023;T023;T191;T191;T024;T061;T082" rank="797;765;611;611;572;374;151" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AE;ICD10AE;NCI;ICD10AMAE;CHV"/>
+</RelationSet>
+<RelationSet id="1212">
+<anatomicalStructure value="trachea" begin="504" end="511" status="0" certainty="0" cui="C0040578;C2945595;C1278905;C3146235;C0153953;C0154070;C0869708;C0872391;C0040580" tui="T023;T082;T023;T204;T191;T191;T058;T061;T047" rank="797;767;765;751;610;610;592;373;296" code="NO-CODE" sourceType="LCH;RCD;SNOMEDCTUS;NCBI;ICD10;ICD10;MEDCIN;ICD10AM;CST"/>
+</RelationSet>
+<RelationSet id="1213">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="prevertebral fascia" begin="401" end="420" status="0" certainty="0"/>
+<medicalDevice value="Prolene suture" begin="436" end="450" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="prevertebral" begin="401" end="413" status="0" certainty="0" cui="C0549207" tui="T023" rank="703" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="fascia" begin="414" end="420" status="0" certainty="0" cui="C0015641;C1279051" tui="T024;T023" rank="797;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<medicalDevice value="Prolene suture" begin="436" end="450" status="0" certainty="0" cui="C0491217" tui="T074" rank="765" code="NO-CODE" sourceType="RCD"/>
+<medicalDevice value="suture" begin="444" end="450" status="0" certainty="0" cui="C0205368;C0038969;C0009068;C1705834;C1706068;C1546803" tui="T169;T074;T061;T073;T122;T170" rank="797;795;765;575;575;355" code="NO-CODE" sourceType="SNMI;MSH;SNM;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="513" end="548" sentText="How should this procedure be coded?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="550" end="672">
+<Sentence sentNo="6" begin="550" end="626" sentText="Answer: The intent of the procedure is to free up the esophagus and trachea.">
+<RelationSet id="1214">
+<anatomicalStructure value="esophagus" begin="604" end="613" status="0" certainty="0" cui="C0014876;C1278919;C0154059;C0153942;C1516966;C0872395;C0545823" tui="T023;T023;T191;T191;T024;T061;T082" rank="797;765;611;611;572;374;151" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AE;ICD10AE;NCI;ICD10AMAE;CHV"/>
+</RelationSet>
+<RelationSet id="1215">
+<anatomicalStructure value="trachea" begin="618" end="625" status="0" certainty="0" cui="C0040578;C2945595;C1278905;C3146235;C0153953;C0154070;C0869708;C0872391;C0040580" tui="T023;T082;T023;T204;T191;T191;T058;T061;T047" rank="797;767;765;751;610;610;592;373;296" code="NO-CODE" sourceType="LCH;RCD;SNOMEDCTUS;NCBI;ICD10;ICD10;MEDCIN;ICD10AM;CST"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="627" end="672" sentText="Assign the following ICD10-PCS codes: 0DN50ZZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,132 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="839">
+<Paragraph pgNo="1" begin="0" end="376">
+<Sentence sentNo="1" begin="0" end="168" sentText="Question: A 65-year-old patient with basal cell carcinoma of the left lower eyelid and cheek along with orbital involvement presents for radical resection of the tumor.">
+<RelationSet id="2249">
+<anatomicalStructure value="cheek" begin="87" end="92" status="0" certainty="0" cui="C0442010;C0007966;C1279153;C0043539;C1522188;C1540415;C1269549" tui="T082;T029;T023;T023;T169;T029;T023" rank="797;795;765;711;575;523;234" code="NO-CODE" sourceType="RCD;LCH;SNOMEDCTUS;NCI;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="2250">
+<modifier value="radical resection" begin="137" end="154" status="0" certainty="0" cui="S0001979" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<modifier value="radical" begin="137" end="144" status="0" certainty="0" cui="C0439807;C0302912" tui="T080;T104" rank="767;767" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<procedure value="radical resection;tumor" begin="137;162" end="154;167" status="0" certainty="0" cui="C3669375;C3669379;C3669377;C3669376" tui="T061;T061;T061;T061" rank="353;353;353;353" code="NO-CODE" sourceType="CPT;CPT;CPT;CPT"/>
+<procedure value="resection" begin="145" end="154" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="765;151" code="NO-CODE" sourceType="RCD;CHV"/>
+</RelationSet>
+<RelationSet id="2251">
+<problem value="tumor" begin="162" end="167" status="0" certainty="0" cui="C0027651;C3273930;C1578706" tui="T191;T033;T170" rank="791;575;355" code="NO-CODE" sourceType="MSH;NCI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2252">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="eyelid" begin="76" end="82" status="0" certainty="0"/>
+<problem value="basal cell carcinoma" begin="37" end="57" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="eyelid" begin="76" end="82" status="0" certainty="0"/>
+<modifier value="left" begin="65" end="69" status="0" certainty="0"/>
+<problem value="basal cell carcinoma" begin="37" end="57" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="left" begin="65" end="69" status="0" certainty="0"/>
+<problem value="basal cell carcinoma" begin="37" end="57" status="0" certainty="1"/>
+</Relation>
+<anatomicalStructure value="left lower eyelid" begin="65" end="82" status="0" certainty="0" cui="C1289044;C0229260" tui="T029;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNM"/>
+<anatomicalStructure value="lower eyelid" begin="70" end="82" status="0" certainty="0" cui="C0229258" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="eyelid" begin="76" end="82" status="0" certainty="0" cui="C0015426;C1280734;C2239120" tui="T023;T023;T184" rank="795;765;595" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;MEDCIN"/>
+<modifier value="left" begin="65" end="69" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+<problem value="basal cell carcinoma;lower eyelid" begin="37;70" end="57;82" status="0" certainty="1" cui="C2838004;C1304266" tui="t047;T191" rank="800;767" code="NO-CODE" sourceType="ICD10CM;MEDCIN"/>
+<problem value="basal cell carcinoma;eyelid" begin="37;76" end="57;82" status="0" certainty="1" cui="C0339114" tui="T191" rank="767" code="NO-CODE" sourceType="RCD"/>
+<problem value="basal cell carcinoma" begin="37" end="57" status="0" certainty="1" cui="C0007117;C3540686;C2984322;C1547219" tui="T191;T170;T169;T170" rank="797;550;545;355" code="NO-CODE" sourceType="ICPC2P;NCI;NCI;HL7V2.5"/>
+<problem value="carcinoma;eyelid" begin="48;76" end="57;82" status="0" certainty="1" cui="C0920196" tui="T191" rank="644" code="NO-CODE" sourceType="MDR"/>
+<problem value="carcinoma" begin="48" end="57" status="0" certainty="1" cui="C0007097" tui="T191" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="cell carcinoma" begin="43" end="57" status="0" certainty="1" cui="C1518174" tui="T025" rank="575" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="basal cell" begin="37" end="47" status="0" certainty="1" cui="C0596155" tui="T025" rank="797" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="cell" begin="43" end="47" status="0" certainty="1" cui="C0007634;C1269647;C1861886;C1948049;C1704653;C1136359" tui="T025;T025;T028;T082;T074;T073" rank="797;765;596;576;575;575" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;OMIM;NCI;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="169" end="304" sentText="During the procedure, orbital exenteration, involving resections of the left eye, orbital bone, ocular muscle and eyelid, is performed.">
+<RelationSet id="2253">
+<modifier value="orbital" begin="191" end="198" status="0" certainty="0" cui="C0699036;C0684285" tui="T082;T044" rank="767;481" code="NO-CODE" sourceType="RCD;AOD"/>
+<procedure value="orbital exenteration" begin="191" end="211" status="0" certainty="0" cui="C0162661" tui="T061" rank="724" code="NO-CODE" sourceType="SNM"/>
+<procedure value="exenteration" begin="199" end="211" status="0" certainty="0" cui="C0015258" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="2254">
+<modifier value="left" begin="241" end="245" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="2255">
+<anatomicalStructure value="orbital bone" begin="251" end="263" status="0" certainty="0" cui="C0043539" tui="T023" rank="765" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="bone" begin="259" end="263" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2256">
+<anatomicalStructure value="ocular muscle" begin="265" end="278" status="0" certainty="0" cui="C1268995;C0028863;C0935613" tui="T023;T023;T023" rank="765;711;692" code="NO-CODE" sourceType="SNOMEDCTUS;RCD;CHV"/>
+<anatomicalStructure value="ocular" begin="265" end="271" status="0" certainty="0" cui="C0015392;C1280202;C1299003;C0154094;C0042789;C1555959;C1550636;C1546630;C1522230" tui="T023;T023;T169;T191;T040;T170;T031;T170;T082" rank="797;765;703;610;575;366;366;355;233" code="NO-CODE" sourceType="COSTAR;SNOMEDCTUS;NCI;ICD10;NCI;HL7V3.0;HL7V3.0;HL7V2.5;SNOMEDCTUS"/>
+<anatomicalStructure value="muscle" begin="272" end="278" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="2257">
+<anatomicalStructure value="eyelid" begin="283" end="289" status="0" certainty="0" cui="C0015426;C1280734;C2239120" tui="T023;T023;T184" rank="795;765;595" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;MEDCIN"/>
+</RelationSet>
+<RelationSet id="2258">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="eye" begin="246" end="249" status="0" certainty="0"/>
+<procedure value="resections" begin="223" end="233" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="eye" begin="246" end="249" status="0" certainty="0" cui="C0015392;C2347396;C1522230;C1555998;C1555960;C0029144" tui="T023;T122;T082;T097;T097;T090" rank="597;575;575;366;366;150" code="NO-CODE" sourceType="MSH;NCI;SNOMEDCTUS;HL7V3.0;HL7V3.0;CHV"/>
+<procedure value="resections" begin="223" end="233" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="765;151" code="NO-CODE" sourceType="RCD;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="305" end="375" sentText="Should the approach for this procedure be considered open or external?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="377" end="838">
+<Sentence sentNo="4" begin="377" end="436" sentText="Answer: For resection of the eye, the approach is external.">
+<RelationSet id="2259">
+<modifier value="external" begin="427" end="435" status="0" certainty="0" cui="C0205101;C0521134;C1553871" tui="T082;T169;T080" rank="767;575;366" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="2260">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="eye" begin="406" end="409" status="0" certainty="0"/>
+<procedure value="resection" begin="389" end="398" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="eye" begin="406" end="409" status="0" certainty="0" cui="C0015392;C1280202;C1299003;C0154094;C2347396;C0042789;C1522230;C1555998;C1555960;C1550636;C1546630;C0029144" tui="T023;T023;T169;T191;T122;T040;T082;T097;T097;T031;T170;T090" rank="797;765;703;610;575;575;575;366;366;366;355;150" code="NO-CODE" sourceType="COSTAR;SNOMEDCTUS;NCI;ICD10;NCI;NCI;SNOMEDCTUS;HL7V3.0;HL7V3.0;HL7V3.0;HL7V2.5;CHV"/>
+<procedure value="resection;eye" begin="389;406" end="398;409" status="0" certainty="0" cui="C2463401" tui="T061" rank="383" code="NO-CODE" sourceType="ICD10PCS"/>
+<procedure value="resection" begin="389" end="398" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="765;151" code="NO-CODE" sourceType="RCD;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="437" end="570" sentText="Other related procedures are coded as open, since the surgeon cut through skin and other tissues to expose the site of the procedure.">
+<RelationSet id="2260">
+<anatomicalStructure value="skin" begin="511" end="515" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="571" end="734" sentText="The appropriate root operation is “Resection,” because the entire soft tissue contents of the orbit, including the eye, eyelid and extraocular muscle were removed.">
+<RelationSet id="2261">
+<anatomicalStructure value="entire soft tissue;orbit" begin="630;665" end="648;670" status="0" certainty="0" cui="C1284743" tui="T024" rank="797" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="soft tissue;orbit" begin="637;665" end="648;670" status="0" certainty="0" cui="C0229088" tui="T023" rank="797" code="NO-CODE" sourceType="SNMI"/>
+<anatomicalStructure value="soft tissue" begin="637" end="648" status="0" certainty="0" cui="C0225317;C1522192" tui="T024;T169" rank="797;572" code="NO-CODE" sourceType="SNM;NCI"/>
+<anatomicalStructure value="tissue" begin="642" end="648" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2262">
+<anatomicalStructure value="eye" begin="686" end="689" status="0" certainty="0" cui="C0015392;C1280202;C0154094;C2347396;C1522230;C1555998;C1555960;C1550636;C1546630;C0029144" tui="T023;T023;T191;T122;T082;T097;T097;T031;T170;T090" rank="797;765;610;575;575;366;366;366;355;150" code="NO-CODE" sourceType="COSTAR;SNOMEDCTUS;ICD10;NCI;SNOMEDCTUS;HL7V3.0;HL7V3.0;HL7V3.0;HL7V2.5;CHV"/>
+</RelationSet>
+<RelationSet id="2263">
+<anatomicalStructure value="eyelid" begin="691" end="697" status="0" certainty="0" cui="C0015426;C1280734;C2239120" tui="T023;T023;T184" rank="795;765;595" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;MEDCIN"/>
+</RelationSet>
+<RelationSet id="2264">
+<anatomicalStructure value="extraocular muscle" begin="702" end="720" status="0" certainty="0" cui="C0028863;C1268995;C0935613" tui="T023;T023;T023" rank="765;765;692" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;CHV"/>
+<anatomicalStructure value="extraocular" begin="702" end="713" status="0" certainty="0" cui="C1299003;C0241886;C0015392;C0042789" tui="T169;T169;T023;T040" rank="703;576;575;575" code="NO-CODE" sourceType="NCI;DXP;NCI;NCI"/>
+<anatomicalStructure value="muscle" begin="714" end="720" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="735" end="793" sentText="However the entire bony orbit was not completely resected.">
+<RelationSet id="2265">
+<anatomicalStructure value="entire bony orbit" begin="747" end="764" status="0" certainty="0" cui="C0459566" tui="T029" rank="797" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="entire;orbit" begin="747;759" end="753;764" status="0" certainty="0" cui="C1285518;C1278884" tui="T029;T029" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="bony orbit" begin="754" end="764" status="0" certainty="0" cui="C1266926" tui="T023" rank="797" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="orbit" begin="759" end="764" status="0" certainty="0" cui="C0029180;C0699036;C0153626;C3273750" tui="T030;T082;T191;T109,T131" rank="795;767;610;520" code="NO-CODE" sourceType="MSH;RCD;ICD10;NCI"/>
+</RelationSet>
+<RelationSet id="2265">
+<procedure value="resected" begin="784" end="792" status="0" certainty="-2" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="794" end="837" sentText="Assign ICD-10-PCS codes as follows: 08T1XZZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

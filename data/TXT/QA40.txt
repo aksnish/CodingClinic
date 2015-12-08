@@ -1,0 +1,2 @@
+Question: A patient with history of double inlet left ventricle underwent esophageal electrophysiology (EP) study and adenosine challenge to evaluate for arrhythmia. An esophageal catheter was advanced to the level of the atrium, and EP study was performed. What is the correct approach value for the esophageal EP study? 
+Answer: The ICD-10-PCS does not provide a specific transesophageal approach value for measurement of cardiac rhythm. The external approach is the closest available equivalent. Assign the following ICD-10PCS code: 4A02X4Z 

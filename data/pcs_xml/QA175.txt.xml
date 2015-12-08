@@ -1,0 +1,34 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="566">
+<Paragraph pgNo="1" begin="0" end="290">
+<Sentence sentNo="1" begin="0" end="108" sentText="Question: A pregnant patient underwent medical induction of labor with Cervidil dinoprostone vaginal tampon.">
+<RelationSet id="1503">
+<procedure value="tampon" begin="101" end="107" status="0" certainty="0" cui="C0039288;C0579016;C1704612;C1704611;C0332459" tui="T074;T061;T122;T081;T169" rank="797;765;575;575;233" code="NO-CODE" sourceType="RCD;RCD;NCI;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="vaginal" begin="93" end="100" status="0" certainty="0" cui="C0042232;C1272941;C1522570" tui="T023;T122;T169" rank="703;575;575" code="NO-CODE" sourceType="NCI;NCI;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="109" end="168" sentText="The patient had a spontaneous vaginal delivery at 37 weeks.">
+</Sentence>
+<Sentence sentNo="3" begin="169" end="289" sentText="What  is  the correct  ICD-10-PCS  code for medical induction of labor with Cervidil Dinoprostone vaginal tampon insert?">
+<RelationSet id="1504">
+<modifier value="vaginal;insert" begin="267;282" end="274;288" status="0" certainty="0" cui="C1719963;C1554904" tui="T122;T169" rank="767;366" code="NO-CODE" sourceType="SNOMEDCTUS;HL7V3.0"/>
+<procedure value="insert" begin="282" end="288" status="0" certainty="0" cui="C1743766;C1705172;C0441587;C1881217;C0021107;C0813036;C1883719;C1881216;C1512796;C1549539" tui="T074;T169;T058;T081;T061;T074;T169;T122;T045;T169" rank="767;767;765;765;702;660;576;575;575;355" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS;RCD;NCI;SNM;CHV;HL7V3.0;NCI;NCI;HL7V2.5"/>
+<procedure value="tampon" begin="275" end="281" status="0" certainty="0" cui="C0039288;C0579016;C1704612;C1704611;C0332459" tui="T074;T061;T122;T081;T169" rank="797;765;575;575;233" code="NO-CODE" sourceType="RCD;RCD;NCI;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="vaginal" begin="267" end="274" status="0" certainty="0" cui="C0042232;C1272941;C1522570" tui="T023;T122;T169" rank="703;575;575" code="NO-CODE" sourceType="NCI;NCI;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="291" end="565">
+<Sentence sentNo="4" begin="291" end="417" sentText="Answer: Cervidil (dinoprostone/prostaglandin gel insert) is used to ripen and soften the cervix, causing uterine contractions.">
+<RelationSet id="1505">
+<anatomicalStructure value="cervix" begin="380" end="386" status="0" certainty="0" cui="C0007874;C0200040;C1550623;C1546592" tui="T023;T061;T031;T170" rank="790;373;366;355" code="NO-CODE" sourceType="SNM;ICD10AM;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1505">
+<finding value="uterine contractions" begin="396" end="416" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="418" end="564" sentText="Assign ICD-10-PCS code as follows: 3E0P7GC Introduction of other therapeutic substance into female reproductive, via natural or artificial opening">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

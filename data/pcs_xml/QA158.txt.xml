@@ -1,0 +1,84 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="813">
+<Paragraph pgNo="1" begin="0" end="178">
+<Sentence sentNo="1" begin="0" end="177" sentText="Question: When a right colectomy is performed with side-toside functional end-to-end anastomosis, is it appropriate to report an additional code for the side-toside anastomosis?">
+<RelationSet id="555">
+<modifier value="end-to-end" begin="74" end="84" status="0" certainty="0" cui="C0444930;C1366583;C2746065;C0082420;C1704837;C1561490" tui="T082;T028;T079;T116,T129;T028;T169" rank="797;587;576;575;575;366" code="NO-CODE" sourceType="RCD;HGNC;NCI;NCI;NCI;HL7V3.0"/>
+<problem value="functional;anastomosis" begin="63;85" end="73;96" status="0" certainty="0" cui="C1265706" tui="T020" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="side-toside;end-to-end anastomosis" begin="51;74" end="62;96" status="0" certainty="0" cui="C0332857;C0392773" tui="T061;T061" rank="797;797" code="NO-CODE" sourceType="SNM;SNM"/>
+<procedure value="side-toside;anastomosis" begin="51;85" end="62;96" status="0" certainty="0" cui="C0332856" tui="T061" rank="150" code="NO-CODE" sourceType="CHV"/>
+<procedure value="anastomosis" begin="85" end="96" status="0" certainty="0" cui="C0332854;C0332853;C0677554;C0500470" tui="T082;T020;T061;T030" rank="797;797;765;692" code="NO-CODE" sourceType="SNMI;SNM;RCD;UWDA"/>
+</RelationSet>
+<RelationSet id="556">
+<modifier value="side-toside" begin="153" end="164" status="0" certainty="0" cui="C0441987" tui="T082" rank="797" code="NO-CODE" sourceType="RCD"/>
+<procedure value="side-toside anastomosis" begin="153" end="176" status="0" certainty="0" cui="C0332856" tui="T061" rank="150" code="NO-CODE" sourceType="CHV"/>
+<procedure value="anastomosis" begin="165" end="176" status="0" certainty="0" cui="C0332854;C0332853;C0677554;C0500470" tui="T082;T020;T061;T030" rank="797;797;765;692" code="NO-CODE" sourceType="SNMI;SNM;RCD;UWDA"/>
+</RelationSet>
+<RelationSet id="557">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="colectomy" begin="23" end="32" status="0" certainty="1"/>
+<modifier value="right" begin="17" end="22" status="0" certainty="1"/>
+</Relation>
+<modifier value="right" begin="17" end="22" status="0" certainty="1" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+<procedure value="right colectomy" begin="17" end="32" status="0" certainty="1" cui="C0192861" tui="T061" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<procedure value="colectomy" begin="23" end="32" status="0" certainty="1" cui="C0009274;C0728940;C0015252" tui="T061;T061;T061" rank="795;765;150" code="NO-CODE" sourceType="MSH;SNMI;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="179" end="812">
+<Sentence sentNo="2" begin="179" end="263" sentText="Answer: Do not assign a code for the side-to-side functional end-to-end anastomosis.">
+<RelationSet id="558">
+<problem value="functional;anastomosis" begin="229;251" end="239;262" status="0" certainty="-2" cui="C1265706" tui="T020" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="side-to-side;end-to-end anastomosis" begin="216;240" end="228;262" status="0" certainty="-2" cui="C0332857;C0392773;C2987625;C0332856" tui="T061;T061;T061;T061" rank="797;797;576;150" code="NO-CODE" sourceType="SNM;SNM;NCI;CHV"/>
+<procedure value="end-to-end anastomosis" begin="240" end="262" status="0" certainty="-2" cui="C0332855" tui="T061" rank="150" code="NO-CODE" sourceType="CHV"/>
+<procedure value="anastomosis" begin="251" end="262" status="0" certainty="-2" cui="C0332854;C0332853;C0677554;C0500470" tui="T082;T020;T061;T030" rank="797;797;765;692" code="NO-CODE" sourceType="SNMI;SNM;RCD;UWDA"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="264" end="478" sentText="ICD-10-PCS Official Guidelines for Coding and Reporting, Section B3.1b, clarifies that procedural steps necessary to close the operative site, including anastomosis of a tubular body part, are not coded separately.">
+<RelationSet id="559">
+<procedure value="anastomosis" begin="417" end="428" status="0" certainty="0" cui="C0332854;C0332853;C0677554;C0500470" tui="T082;T020;T061;T030" rank="797;797;765;692" code="NO-CODE" sourceType="SNMI;SNM;RCD;UWDA"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="479" end="589" sentText="This guideline would apply regardless of whether the procedure is an end-to-end or a side-to-side anastomosis.">
+<RelationSet id="560">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="anastomosis" begin="577" end="588" status="0" certainty="-3"/>
+<modifier value="side-to-side" begin="564" end="576" status="0" certainty="-3"/>
+</Relation>
+<problem value="anastomosis" begin="577" end="588" status="0" certainty="-3" cui="C0332854;C0332853;C0677554;C0500470" tui="T082;T020;T061;T030" rank="797;797;765;692" code="NO-CODE" sourceType="SNMI;SNM;RCD;UWDA"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="590" end="731" sentText="Additionally, since there is a body part for right colon and the entire right colon was removed, the primary procedure is coded as resection.">
+<RelationSet id="561">
+<modifier value="right" begin="635" end="640" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="562">
+<anatomicalStructure value="right colon" begin="635" end="646" status="0" certainty="0" cui="C1305188" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="colon" begin="641" end="646" status="0" certainty="0" cui="C1623185;C1281569;C0009368;C0684195;C2684091;C0496907;C0154061;C1337205;C1446425" tui="T121;T023;T023;T002;T074;T191;T191;T168;T129" rank="797;797;795;795;739;610;610;562;416" code="NO-CODE" sourceType="MMSL;SNOMEDCTUS;MTHMST;AOD;VANDF;ICD10;ICD10;NCI;LNC"/>
+</RelationSet>
+<RelationSet id="563">
+<modifier value="right" begin="662" end="667" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="564">
+<anatomicalStructure value="entire right colon" begin="655" end="673" status="0" certainty="0" cui="C1284436" tui="T029" rank="797" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="right colon" begin="662" end="673" status="0" certainty="0" cui="C1305188" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="colon" begin="668" end="673" status="0" certainty="0" cui="C1623185;C1281569;C0009368;C0684195;C2684091;C0496907;C0154061;C1337205;C1446425" tui="T121;T023;T023;T002;T074;T191;T191;T168;T129" rank="797;797;795;795;739;610;610;562;416" code="NO-CODE" sourceType="MMSL;SNOMEDCTUS;MTHMST;AOD;VANDF;ICD10;ICD10;NCI;LNC"/>
+</RelationSet>
+<RelationSet id="565">
+<procedure value="resection" begin="721" end="730" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="765;151" code="NO-CODE" sourceType="RCD;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="732" end="812" sentText="For the right colectomy, assign the following ICD-10-PCS procedure code: 0DTF0ZZ">
+<RelationSet id="566">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="colectomy" begin="746" end="755" status="0" certainty="0"/>
+<modifier value="right" begin="740" end="745" status="0" certainty="0"/>
+</Relation>
+<procedure value="right colectomy" begin="740" end="755" status="0" certainty="0" cui="C0192861" tui="T061" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<procedure value="colectomy" begin="746" end="755" status="0" certainty="0" cui="C0009274;C0728940;C0015252" tui="T061;T061;T061" rank="795;765;150" code="NO-CODE" sourceType="MSH;SNMI;CHV"/>
+<modifier value="right" begin="740" end="745" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,164 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1045">
+<Paragraph pgNo="1" begin="0" end="267">
+<Sentence sentNo="1" begin="0" end="97" sentText="Question: The patient had an abdominal aortic aneurysm (AAA), and  underwent endovascular repair.">
+<RelationSet id="1554">
+<problem value="abdominal;aneurysm" begin="29;46" end="38;54" status="0" certainty="1" cui="C0162871" tui="T047" rank="797" code="NO-CODE" sourceType="MSH"/>
+<problem value="aortic aneurysm" begin="39" end="54" status="0" certainty="1" cui="C2883031;C0003486;C2072946;C0340629" tui="t047;T047;T033;T047" rank="800;797;592;295" code="NO-CODE" sourceType="ICD10CM;LCH;MEDCIN;MTHICD9"/>
+<problem value="aneurysm" begin="46" end="54" status="0" certainty="1" cui="C0002940;C0439651" tui="T047;T082" rank="797;767" code="NO-CODE" sourceType="LCH;RCD"/>
+<anatomicalStructure value="abdominal aortic" begin="29" end="45" status="0" certainty="1" cui="C0003484;C1269882;C2228415" tui="T023;T023;T058" rank="795;765;592" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;MEDCIN"/>
+<anatomicalStructure value="aortic" begin="39" end="45" status="0" certainty="1" cui="C0003483;C1278934;C0869784" tui="T023;T023;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+</RelationSet>
+<RelationSet id="1555">
+<problem value="AAA" begin="56" end="59" status="0" certainty="1" cui="C0162871;C0731345;C1364818;C1705543;C0611285;C0003486" tui="T047;T109,T121;T028;T028;T116,T123;T047" rank="765;724;596;575;519;282" code="NO-CODE" sourceType="RCD;RCD;OMIM;NCI;NCI;MEDLINEPLUS"/>
+</RelationSet>
+<RelationSet id="1556">
+<procedure value="repair" begin="90" end="96" status="0" certainty="0" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+<anatomicalStructure value="endovascular" begin="77" end="89" status="0" certainty="0" cui="C0524425" tui="T029" rank="703" code="NO-CODE" sourceType="SNMI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="98" end="198" sentText="A stent graft was introduced via a transfemoral catheter approach and deployed at the target vessel.">
+<RelationSet id="1557">
+<procedure value="graft" begin="106" end="111" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+<procedure value="stent" begin="100" end="105" status="0" certainty="0" cui="C2348535;C0038257;C1705817" tui="T061;T074;T074" rank="797;795;575" code="NO-CODE" sourceType="NCI;MSH;NCI"/>
+</RelationSet>
+<RelationSet id="1558">
+<modifier value="approach" begin="155" end="163" status="0" certainty="0" cui="C0449445;C1292724" tui="T082;T169" rank="797;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<procedure value="catheter" begin="146" end="154" status="0" certainty="0" cui="C0085590;C1704454;C0007430;C1546572" tui="T074;T074;T061;T170" rank="795;575;488;355" code="NO-CODE" sourceType="RCD;NCI;ICPC2P;HL7V2.5"/>
+<anatomicalStructure value="transfemoral" begin="133" end="145" status="0" certainty="0" cui="S1001590;C0015811" tui="t061;T023" rank="800;767" code="NO-CODE" sourceType="EZDI;RCD"/>
+</RelationSet>
+<RelationSet id="1559">
+<anatomicalStructure value="target vessel" begin="184" end="197" status="0" certainty="0" cui="C0449618" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="vessel" begin="191" end="197" status="0" certainty="0" cui="C0042591;C0148346;C0005847;C1511228;C0702235" tui="T029;T118,T121;T023;T024;T109,T121" rank="767;722;701;571;520" code="NO-CODE" sourceType="RCD;MTH;LNC;NCI;PDQ"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="199" end="266" sentText="How should an endovascular repair of an AAA be coded in ICD-10-PCS?">
+<RelationSet id="1560">
+<procedure value="endovascular repair;AAA" begin="213;239" end="232;242" status="0" certainty="0" cui="C0918249" tui="T061" rank="592" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="repair" begin="226" end="232" status="0" certainty="0" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+<anatomicalStructure value="endovascular" begin="213" end="225" status="0" certainty="0" cui="C0524425" tui="T029" rank="703" code="NO-CODE" sourceType="SNMI"/>
+</RelationSet>
+<RelationSet id="1561">
+<problem value="AAA" begin="239" end="242" status="0" certainty="0" cui="C0731345;C1364818;C0162871;C1705543;C0611285;C0003486" tui="T109,T121;T028;T047;T028;T116,T123;T047" rank="724;596;596;575;519;282" code="NO-CODE" sourceType="RCD;OMIM;BI;NCI;NCI;MEDLINEPLUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="268" end="1044">
+<Sentence sentNo="4" begin="268" end="418" sentText="Answer: Endovascular stent grafting involves the placement of a tubular device into the lumen of the vessel, and is designed to restrict the aneurysm.">
+<RelationSet id="1562">
+<anatomicalStructure value="vessel" begin="369" end="375" status="0" certainty="0" cui="C0042591;C0148346;C0005847;C1511228;C0702235" tui="T029;T118,T121;T023;T024;T109,T121" rank="767;722;701;571;520" code="NO-CODE" sourceType="RCD;MTH;LNC;NCI;PDQ"/>
+</RelationSet>
+<RelationSet id="1563">
+<problem value="aneurysm" begin="409" end="417" status="0" certainty="0" cui="C0002940;C0439651" tui="T047;T082" rank="797;767" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="1564">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="Endovascular stent grafting" begin="276" end="303" status="0" certainty="0"/>
+<anatomicalStructure value=" lumen" begin="355" end="361" status="0" certainty="0"/>
+<medicalDevice value=" tubular device" begin="331" end="346" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="Endovascular stent grafting" begin="276" end="303" status="0" certainty="0"/>
+<medicalDevice value=" tubular device" begin="331" end="346" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value=" lumen" begin="355" end="361" status="0" certainty="0"/>
+<medicalDevice value=" tubular device" begin="331" end="346" status="0" certainty="0"/>
+</Relation>
+<procedure value="stent;placement" begin="289;317" end="294;326" status="0" certainty="0" cui="C0522776" tui="T061" rank="767" code="NO-CODE" sourceType="MTHMST"/>
+<procedure value="grafting" begin="295" end="303" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+<procedure value="stent" begin="289" end="294" status="0" certainty="0" cui="C2348535;C0038257;C1705817" tui="T061;T074;T074" rank="797;795;575" code="NO-CODE" sourceType="NCI;MSH;NCI"/>
+<anatomicalStructure value="Endovascular" begin="276" end="288" status="0" certainty="0" cui="C0524425" tui="T029" rank="703" code="NO-CODE" sourceType="SNMI"/>
+<anatomicalStructure value="lumen" begin="356" end="361" status="0" certainty="0" cui="C1301906;C1282864;C0524461;C1551056" tui="T080;T030;T030;T081" rank="797;765;765;576" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS;NCI;NCI"/>
+<medicalDevice value="tubular" begin="332" end="339" status="0" certainty="0" cui="C1561954;C0175730;C0332208;C1704474;C1427122;C1704731;C1704730;C1611794" tui="T077;T074;T082;T081;T028;T074;T074;T170" rank="797;767;767;765;596;575;563;366" code="NO-CODE" sourceType="NCI;RCD;RCD;NCI;HGNC;NCI;NCI;HL7V3.0"/>
+<medicalDevice value="device" begin="340" end="346" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="419" end="551" sentText="After being placed, the stent graft expands, relieving pressure on the aneurysm, and reducing the possibility of aneurysmal rupture.">
+<RelationSet id="1565">
+<procedure value="graft" begin="449" end="454" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+<procedure value="stent" begin="443" end="448" status="0" certainty="0" cui="C2348535;C0038257;C1705817" tui="T061;T074;T074" rank="797;795;575" code="NO-CODE" sourceType="NCI;MSH;NCI"/>
+</RelationSet>
+<RelationSet id="1566">
+<problem value="aneurysm" begin="490" end="498" status="0" certainty="0" cui="C0002940" tui="T047" rank="797" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+<RelationSet id="1567">
+<problem value="rupture" begin="543" end="550" status="0" certainty="1" cui="C3203359;C0443294;C1881712" tui="T037;T169;T067" rank="797;767;561" code="NO-CODE" sourceType="LCH;RCD;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="552" end="753" sentText="In ICD-10-PCS, if the aneurysm is repaired by putting a synthetic graft, stent, or other device in the lumen of the artery, the root operation is “Restriction,” and the device is “Intraluminal device.”">
+<RelationSet id="1568">
+<problem value="aneurysm" begin="574" end="582" status="0" certainty="-3" cui="C0002940;C0439651" tui="T047;T082" rank="797;767" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="1569">
+<modifier value="synthetic" begin="608" end="617" status="0" certainty="-3" cui="C1883254" tui="T052" rank="530" code="NO-CODE" sourceType="NCI"/>
+<procedure value="synthetic graft" begin="608" end="623" status="0" certainty="-3" cui="C0185104" tui="T061" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="graft" begin="618" end="623" status="0" certainty="-3" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+<RelationSet id="1570">
+<medicalDevice value="stent" begin="625" end="630" status="0" certainty="0" cui="C0038257;C2348535;C1705817" tui="T074;T061;T074" rank="797;797;575" code="NO-CODE" sourceType="SNOMEDCTUS;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="1571">
+<anatomicalStructure value="lumen;artery" begin="655;668" end="660;674" status="0" certainty="0" cui="C0225997" tui="T030" rank="767" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="lumen" begin="655" end="660" status="0" certainty="0" cui="C1301906;C1282864;C0524461;C1551056" tui="T080;T030;T030;T081" rank="797;765;765;576" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="1572">
+<anatomicalStructure value="artery" begin="668" end="674" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="1573">
+<anatomicalStructure value="root" begin="680" end="684" status="0" certainty="0" cui="S1001239;C0242726;C0563017;C0040452;C1705917;C1318154" tui="t061;T002;T033;T023;T078;T023" rank="800;765;765;576;575;418" code="NO-CODE" sourceType="EZDI;RCD;RCD;NCI;NCI;LNC"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="754" end="847" sentText="The objective of the abdominal aortic aneurysm repair is to restrict the lumen of the vessel.">
+<RelationSet id="1574">
+<modifier value="abdominal aortic aneurysm" begin="775" end="800" status="0" certainty="0" cui="C0265011" tui="t047" rank="800" code="NO-CODE" sourceType="ICD10CM"/>
+<problem value="abdominal;aneurysm" begin="775;792" end="784;800" status="0" certainty="0" cui="C0162871" tui="T047" rank="797" code="NO-CODE" sourceType="DXP"/>
+<problem value="aortic aneurysm" begin="785" end="800" status="0" certainty="0" cui="C2883031;C0003486;C2072946;C0340629" tui="t047;T047;T033;T047" rank="800;797;592;295" code="NO-CODE" sourceType="ICD10CM;LCH;MEDCIN;MTHICD9"/>
+<problem value="aneurysm" begin="792" end="800" status="0" certainty="0" cui="C0002940;C0439651" tui="T047;T082" rank="797;767" code="NO-CODE" sourceType="LCH;RCD"/>
+<procedure value="abdominal aortic aneurysm repair" begin="775" end="807" status="0" certainty="0" cui="C0741152" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="aortic aneurysm repair" begin="785" end="807" status="0" certainty="0" cui="C0397942;C0521233" tui="T061;T061" rank="797;592" code="NO-CODE" sourceType="MDR;MEDCIN"/>
+<procedure value="abdominal aortic" begin="775" end="791" status="0" certainty="0" cui="C0003484;C1269882;C2228415" tui="T023;T023;T058" rank="795;765;592" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;MEDCIN"/>
+<procedure value="abdominal;repair" begin="775;801" end="784;807" status="0" certainty="0" cui="C1293792" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="aneurysm repair" begin="792" end="807" status="0" certainty="0" cui="C0189661" tui="T061" rank="767" code="NO-CODE" sourceType="MTHICD9"/>
+<procedure value="aortic;repair" begin="785;801" end="791;807" status="0" certainty="0" cui="C0190364" tui="T061" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="repair" begin="801" end="807" status="0" certainty="0" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+<procedure value="aortic" begin="785" end="791" status="0" certainty="0" cui="C0003483;C1278934;C0869784" tui="T023;T023;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+<anatomicalStructure value="abdominal" begin="775" end="784" status="0" certainty="0" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+</RelationSet>
+<RelationSet id="1575">
+<anatomicalStructure value="lumen" begin="827" end="832" status="0" certainty="0" cui="C1301906;C1282864;C0524461;C1551056" tui="T080;T030;T030;T081" rank="797;765;765;576" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="1576">
+<anatomicalStructure value="vessel" begin="840" end="846" status="0" certainty="0" cui="C0042591;C0148346;C0005847;C1511228;C0702235" tui="T029;T118,T121;T023;T024;T109,T121" rank="767;722;701;571;520" code="NO-CODE" sourceType="RCD;MTH;LNC;NCI;PDQ"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="848" end="1043" sentText="Assign the following ICD-10-PCS procedure code for the endovascular repair of the abdominal aortic aneurysm: 04V03DZ Restriction of abdominal aorta with intraluminal device, percutaneous approach">
+<RelationSet id="1577">
+<procedure value="endovascular repair;aortic aneurysm;abdominal" begin="903;940;980" end="922;955;989" status="0" certainty="0" cui="C0918249" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="repair;aneurysm;abdominal aorta" begin="916;947;980" end="922;955;995" status="0" certainty="0" cui="C0741152" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="repair;aortic aneurysm" begin="916;940" end="922;955" status="0" certainty="0" cui="C0397942;C0521233" tui="T061;T061" rank="797;592" code="NO-CODE" sourceType="MDR;MEDCIN"/>
+<procedure value="repair;abdominal" begin="916;930" end="922;939" status="0" certainty="0" cui="C1293792" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="repair;aneurysm" begin="916;947" end="922;955" status="0" certainty="0" cui="C0189661" tui="T061" rank="767" code="NO-CODE" sourceType="MTHICD9"/>
+<procedure value="repair" begin="916" end="922" status="0" certainty="0" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+<anatomicalStructure value="endovascular" begin="903" end="915" status="0" certainty="0" cui="C0524425" tui="T029" rank="703" code="NO-CODE" sourceType="SNMI"/>
+</RelationSet>
+<RelationSet id="1578">
+<problem value="aortic aneurysm;abdominal" begin="940;980" end="955;989" status="0" certainty="0" cui="C0162871" tui="T047" rank="797" code="NO-CODE" sourceType="DXP"/>
+<problem value="aortic aneurysm" begin="940" end="955" status="0" certainty="0" cui="C0003486;C2072946;C0340629" tui="T047;T033;T047" rank="797;592;295" code="NO-CODE" sourceType="LCH;MEDCIN;MTHICD9"/>
+<problem value="aneurysm" begin="947" end="955" status="0" certainty="0" cui="C0002940;C0439651" tui="T047;T082" rank="797;767" code="NO-CODE" sourceType="LCH;RCD"/>
+<anatomicalStructure value="aortic" begin="940" end="946" status="0" certainty="0" cui="C0003483" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="1579">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="intraluminal device" begin="1001" end="1020" status="0" certainty="0"/>
+<anatomicalStructure value="abdominal aorta" begin="980" end="995" status="0" certainty="0"/>
+</Relation>
+<medicalDevice value="device" begin="1014" end="1020" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+<anatomicalStructure value="abdominal aorta" begin="980" end="995" status="0" certainty="0" cui="C0003484;C1269882;C2228415" tui="T023;T023;T058" rank="795;765;592" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;MEDCIN"/>
+<anatomicalStructure value="abdominal" begin="980" end="989" status="0" certainty="0" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+<anatomicalStructure value="aorta" begin="990" end="995" status="0" certainty="0" cui="C0003483;C1278934;C0869784" tui="T023;T023;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

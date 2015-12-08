@@ -1,0 +1,90 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="895">
+<Paragraph pgNo="1" begin="0" end="498">
+<Sentence sentNo="1" begin="0" end="181" sentText="Question: A patient diagnosed with ruptured left-sided transverse-sigmoid sinus dural arteriovenous fistula or malformation (AVM) underwent endovascular Onyx-18 liquid embolization.">
+<RelationSet id="1896">
+<problem value="malformation" begin="111" end="123" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1897">
+<problem value="AVM" begin="125" end="128" status="0" certainty="0" cui="C0279476;C0003857" tui="T061;T019" rank="519;283" code="NO-CODE" sourceType="PDQ;MEDLINEPLUS"/>
+</RelationSet>
+<RelationSet id="1898">
+<anatomicalStructure value="endovascular" begin="140" end="152" status="0" certainty="0" cui="C0524425" tui="T029" rank="703" code="NO-CODE" sourceType="SNMI"/>
+</RelationSet>
+<RelationSet id="1899">
+<procedure value="embolization" begin="168" end="180" status="0" certainty="0" cui="C0013931" tui="T061" rank="765" code="NO-CODE" sourceType="RCDAE"/>
+</RelationSet>
+<RelationSet id="1900">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="transverse-sigmoid sinus dural arteriovenous fistula" begin="55" end="107" status="0" certainty="1"/>
+<modifier value="ruptured" begin="35" end="43" status="0" certainty="1"/>
+</Relation>
+<problem value="dural arteriovenous fistula" begin="80" end="107" status="0" certainty="1" cui="C0752156" tui="T190" rank="792" code="NO-CODE" sourceType="MSH"/>
+<problem value="arteriovenous fistula" begin="86" end="107" status="0" certainty="1" cui="C0003855;C2963140" tui="T190;T033" rank="797;250" code="NO-CODE" sourceType="NDFRT;HCPCS"/>
+<problem value="fistula" begin="100" end="107" status="0" certainty="1" cui="C0016169;C1550639;C1546635;C0595812" tui="T190;T031;T170;T082" rank="795;366;355;233" code="NO-CODE" sourceType="LCH;HL7V3.0;HL7V2.5;SNOMEDCTUS"/>
+<problem value="sinus" begin="74" end="79" status="0" certainty="1" cui="C1305231;C0723346;C0030471;C0423772" tui="T030;T109,T121;T030;T190" rank="692;673;491;234" code="NO-CODE" sourceType="UWDA;MMSL;CST;SNOMEDCTUS"/>
+<anatomicalStructure value="transverse-sigmoid sinus" begin="55" end="79" status="0" certainty="1" cui="C0226864;C0226865;C1269577;C1281038" tui="T030;T030;T030;T030" rank="795;765;765;765" code="NO-CODE" sourceType="RCD;RCD;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="transverse-sigmoid" begin="55" end="73" status="0" certainty="1" cui="C0227391;C0205106;C0446380" tui="T023;T082;T082" rank="791;767;523" code="NO-CODE" sourceType="HL7V2.5;RCD;NCI"/>
+<anatomicalStructure value="sinus dural" begin="74" end="85" status="0" certainty="1" cui="C0010271" tui="T023" rank="767" code="NO-CODE" sourceType="SNM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="182" end="340" sentText="The provider documented satisfactory obliteration of arteriovenous fistula via the primary feeding pedicle off the distal branch of the left vertebral artery.">
+<RelationSet id="1901">
+<problem value="arteriovenous fistula" begin="235" end="256" status="0" certainty="0" cui="C0003855;C2963140" tui="T190;T033" rank="797;250" code="NO-CODE" sourceType="NDFRT;HCPCS"/>
+<problem value="fistula" begin="249" end="256" status="0" certainty="0" cui="C0016169;C1550639;C1546635;C0595812" tui="T190;T031;T170;T082" rank="795;366;355;233" code="NO-CODE" sourceType="LCH;HL7V3.0;HL7V2.5;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1902">
+<modifier value="left" begin="318" end="322" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1903">
+<anatomicalStructure value="branch;vertebral artery" begin="304;323" end="310;339" status="0" certainty="0" cui="C1185372" tui="T023" rank="767" code="NO-CODE" sourceType="FMA"/>
+<anatomicalStructure value="left vertebral artery" begin="318" end="339" status="0" certainty="0" cui="C0226231;C1267316" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="vertebral artery" begin="323" end="339" status="0" certainty="0" cui="C0042559;C1269015" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="vertebral" begin="323" end="332" status="0" certainty="0" cui="C0549207" tui="T023" rank="703" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="artery" begin="333" end="339" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="341" end="497" sentText="What is the correct root operation for the injection of Onyx-18 liquid embolic agent? Is the Onyx-18 liquid embolic agent considered a device in ICD-10-PCS?">
+<RelationSet id="1904">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="correct root" begin="353" end="365" status="0" certainty="0"/>
+<procedure value="injection" begin="384" end="393" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="root" begin="361" end="365" status="0" certainty="0" cui="S1001239;C0242726;C0563017;C0040452;C1705917;C1318154" tui="t061;T002;T033;T023;T078;T023" rank="800;765;765;576;575;418" code="NO-CODE" sourceType="EZDI;RCD;RCD;NCI;NCI;LNC"/>
+<procedure value="injection" begin="384" end="393" status="0" certainty="0" cui="C1828121;C1272883;C1533685;C0021485" tui="T169;T122;T061;T061" rank="795;767;767;151" code="NO-CODE" sourceType="MSH;NCI;ICPC2P;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="499" end="894">
+<Sentence sentNo="4" begin="499" end="610" sentText="Answer: The Onyx-18 was used to totally occlude the AVM between the dural venous sinus and intracranial artery.">
+<RelationSet id="1905">
+<problem value="AVM" begin="551" end="554" status="1" certainty="0" cui="C0279476;C0003857" tui="T061;T019" rank="519;283" code="NO-CODE" sourceType="PDQ;MEDLINEPLUS"/>
+</RelationSet>
+<RelationSet id="1906">
+<problem value="occlude;venous" begin="539;573" end="546;579" status="1" certainty="0" cui="C0241669" tui="T046" rank="767" code="NO-CODE" sourceType="DXP"/>
+<problem value="sinus" begin="580" end="585" status="1" certainty="0" cui="C0016169;C1305231;C0723346;C0030471;C0423772" tui="T190;T030;T109,T121;T030;T190" rank="767;692;673;491;234" code="NO-CODE" sourceType="SNOMEDCTUS;UWDA;MMSL;CST;SNOMEDCTUS"/>
+<anatomicalStructure value="dural venous sinus" begin="567" end="585" status="1" certainty="0" cui="C0010271" tui="T023" rank="795" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="venous sinus" begin="573" end="585" status="1" certainty="0" cui="C1282853;C0226504" tui="T030;T030" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNMI"/>
+<anatomicalStructure value="venous" begin="573" end="579" status="1" certainty="0" cui="C0348013;C0042449" tui="T082;T023" rank="797;523" code="NO-CODE" sourceType="RCD;NCI"/>
+</RelationSet>
+<RelationSet id="1907">
+<anatomicalStructure value="intracranial artery" begin="590" end="609" status="0" certainty="0" cui="C0447028;C1280107" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="intracranial" begin="590" end="602" status="0" certainty="0" cui="C3163632;C0524466;C0037303;C1522213;C0595850" tui="T082;T029;T023;T169;T169" rank="797;797;724;575;233" code="NO-CODE" sourceType="SNOMEDCTUS;SNMI;SNMI;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="artery" begin="603" end="609" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="611" end="782" sentText="The Onyx-18 is coded as a device in this case, because it is applied to the operative site as liquid, and solidifies to occlude the lumen of a tubular body part (the AVM).">
+<RelationSet id="1908">
+<anatomicalStructure value="lumen" begin="743" end="748" status="0" certainty="0" cui="C1301906;C1282864;C0524461;C1551056" tui="T080;T030;T030;T081" rank="797;765;765;576" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="1909">
+<problem value="AVM" begin="777" end="780" status="0" certainty="0" cui="C0279476;C0003857" tui="T061;T019" rank="519;283" code="NO-CODE" sourceType="PDQ;MEDLINEPLUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="783" end="847" sentText="The device value for this use of Onyx-18 is intraluminal device.">
+</Sentence>
+<Sentence sentNo="7" begin="848" end="893" sentText="Assign the following ICD-10-PCS code: 03LG3DZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

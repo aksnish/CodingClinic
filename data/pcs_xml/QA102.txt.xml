@@ -1,0 +1,105 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="537">
+<Paragraph pgNo="1" begin="0" end="337">
+<Sentence sentNo="1" begin="0" end="68" sentText="Question: The patient presents for decompressive lumbar laminectomy.">
+<RelationSet id="2515">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="lumbar laminectomy" begin="49" end="67" status="0" certainty="1"/>
+<modifier value="decompressive" begin="35" end="48" status="0" certainty="1"/>
+</Relation>
+<procedure value="decompressive;laminectomy" begin="35;56" end="48;67" status="0" certainty="1" cui="C1306561" tui="T061" rank="592" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="lumbar laminectomy" begin="49" end="67" status="0" certainty="1" cui="C1112614" tui="T061" rank="644" code="NO-CODE" sourceType="MDR"/>
+<procedure value="laminectomy" begin="56" end="67" status="0" certainty="1" cui="C0022983" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="lumbar" begin="49" end="55" status="0" certainty="1" cui="C0024090" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+<modifier value="decompressive" begin="35" end="48" status="0" certainty="1" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="69" end="230" sentText="The surgeon performed an open complete decompressive laminectomy of L3-L4, as well as superior partial laminectomy of L5, and inferior partial laminectomy of L2.">
+<RelationSet id="2515">
+<modifier value="decompressive" begin="108" end="121" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2516">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="laminectomy" begin="122" end="133" status="0" certainty="0"/>
+<anatomicalStructure value="L3-L4" begin="137" end="142" status="0" certainty="0"/>
+</Relation>
+<procedure value="decompressive laminectomy" begin="108" end="133" status="0" certainty="0" cui="C1306561" tui="T061" rank="592" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="laminectomy" begin="122" end="133" status="0" certainty="0" cui="C0022983" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="L3-L4" begin="137" end="142" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2517">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="L5" begin="187" end="189" status="0" certainty="0"/>
+<modifier value="superior" begin="155" end="163" status="0" certainty="0"/>
+<procedure value="partial laminectomy" begin="164" end="183" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="L5" begin="187" end="189" status="0" certainty="0"/>
+<procedure value="partial laminectomy" begin="164" end="183" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="superior" begin="155" end="163" status="0" certainty="0"/>
+<procedure value="partial laminectomy" begin="164" end="183" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="L5" begin="187" end="189" status="0" certainty="0" cui="C1969618;C1419683;C0223552" tui="T028;T028;T023" rank="600;587;491" code="NO-CODE" sourceType="HGNC;HGNC;CCPSS"/>
+<modifier value="superior" begin="155" end="163" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<problem value="partial" begin="164" end="171" status="0" certainty="0" cui="C0728938;C0449719;C1292711;C0270526;C1709471;C1550516;C1552020" tui="T081;T082;T082;T048;T081;T078;T078" rank="797;797;767;767;575;366;366" code="NO-CODE" sourceType="RCD;RCD;SNMI;MDR;NCI;HL7V3.0;HL7V3.0"/>
+<procedure value="partial laminectomy" begin="164" end="183" status="0" certainty="0" cui="C0442934" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="laminectomy" begin="172" end="183" status="0" certainty="0" cui="C0022983" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="2518">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="L2" begin="227" end="229" status="0" certainty="0"/>
+<procedure value="partial laminectomy" begin="204" end="223" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="inferior" begin="195" end="203" status="0" certainty="0"/>
+<procedure value="partial laminectomy" begin="204" end="223" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="inferior" begin="195" end="203" status="0" certainty="0"/>
+<anatomicalStructure value="L2" begin="227" end="229" status="0" certainty="0"/>
+<procedure value="partial laminectomy" begin="204" end="223" status="0" certainty="0"/>
+</Relation>
+<modifier value="inferior" begin="195" end="203" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<anatomicalStructure value="L2" begin="227" end="229" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<problem value="partial" begin="204" end="211" status="0" certainty="0" cui="C0728938;C0449719;C1292711;C0270526;C1709471;C1550516;C1552020" tui="T081;T082;T082;T048;T081;T078;T078" rank="797;797;767;767;575;366;366" code="NO-CODE" sourceType="RCD;RCD;SNMI;MDR;NCI;HL7V3.0;HL7V3.0"/>
+<procedure value="partial laminectomy" begin="204" end="223" status="0" certainty="0" cui="C0442934" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="laminectomy" begin="212" end="223" status="0" certainty="0" cui="C0022983" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="231" end="336" sentText="What is the appropriate root operation, “Excision” or “Release”? How is this surgery coded in ICD-10-PCS?">
+<RelationSet id="2519">
+<procedure value="Excision;surgery" begin="272;308" end="280;315" status="0" certainty="0" cui="C2958713" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="Excision" begin="272" end="280" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+</RelationSet>
+<RelationSet id="2520">
+<procedure value="surgery" begin="308" end="315" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="338" end="536">
+<Sentence sentNo="4" begin="338" end="434" sentText="Answer: Decompressive laminectomy is done to release pressure and free up the spinal nerve root.">
+<RelationSet id="2520">
+<modifier value="Decompressive" begin="346" end="359" status="0" certainty="-2" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2521">
+<procedure value="Decompressive laminectomy" begin="346" end="371" status="0" certainty="-2" cui="C1306561" tui="T061" rank="592" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="laminectomy" begin="360" end="371" status="0" certainty="-2" cui="C0022983" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="2522">
+<anatomicalStructure value="spinal nerve root" begin="416" end="433" status="0" certainty="0" cui="C0037940;C1278839" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="spinal nerve" begin="416" end="428" status="0" certainty="0" cui="C0037941;C1283788" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="nerve root" begin="423" end="433" status="0" certainty="0" cui="C0228084" tui="T023" rank="765" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="spinal" begin="416" end="422" status="0" certainty="0" cui="C0037949;C1267072;C0521329;C1280065" tui="T023;T023;T082;T023" rank="795;765;703;234" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="nerve" begin="423" end="428" status="0" certainty="0" cui="C0027740;C1280541;C0027769;C0599851;C0027757" tui="T024;T023;T184;T169;T024" rank="797;765;709;576;572" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;RCDSY;CSP;NCI"/>
+<anatomicalStructure value="root" begin="429" end="433" status="0" certainty="0" cui="S1001239;C0242726;C0563017;C0040452;C1705917;C1318154" tui="t061;T002;T033;T023;T078;T023" rank="800;765;765;576;575;418" code="NO-CODE" sourceType="EZDI;RCD;RCD;NCI;NCI;LNC"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="435" end="489" sentText="Therefore the appropriate root operation is “Release.”">
+</Sentence>
+<Sentence sentNo="6" begin="490" end="535" sentText="Assign the following ICD-10-PCS code: 01NB0ZZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

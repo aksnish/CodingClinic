@@ -1,0 +1,2 @@
+Question: A patient diagnosed with blighted ovum underwent vacuum D&C. During the surgery, a curette was placed into the uterine cavity and suction was applied to remove the tissue/products of conception. What are the correct body system (3rd) and body part (4th) values for D & C performed for blighted ovum? 
+Answer: For the extraction of the nonviable, blighted ovum via vacuum D&C, assign ICD-10-PCS code as follows: 10D07Z6

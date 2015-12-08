@@ -1,0 +1,2 @@
+Question: A nasogastric (NG) tube was inserted for drainage. The next day, tube feedings were ordered using the existing NG tube. What is the correct root operation(s) for the insertion of a single NG tube used for drainage and feeding? 
+Answer: The placement of a nasogastric tube does not need to be coded in the inpatient setting. However, for facilities that wish to collect this information, assign the following ICD-10-PCS codes: 0D9670Z

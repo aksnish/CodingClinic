@@ -1,0 +1,2 @@
+Question: The patient is a 40-year-old male, who had been experiencing painful, restricted active and passive range of motion of the left shoulder. He underwent arthroscopic release of the shoulder joint. The provider documented, “Left frozen shoulder with pathological changes of the rotator cuff.” What are the appropriate diagnosis and procedure codes? 
+Answer: Assign code M75.02, Adhesive capsulitis of left shoulder, as the principal diagnosis for the frozen shoulder. Assign the following ICD-10-PCS code for the arthroscopic release of the shoulder joint: 0RNK4ZZ 

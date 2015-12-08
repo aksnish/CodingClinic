@@ -1,0 +1,152 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1217">
+<Paragraph pgNo="1" begin="0" end="509">
+<Sentence sentNo="1" begin="0" end="165" sentText="Question: The patient was admitted to the hospital for surgical treatment of an ascending thoracic aortic and transverse arch aneurysm,  and coronary artery disease.">
+<RelationSet id="2523">
+<anatomicalStructure value="thoracic aortic" begin="90" end="105" status="0" certainty="0" cui="C1522460;C1281571" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="ascending;aortic" begin="80;99" end="89;105" status="0" certainty="0" cui="C0003956;C1269009" tui="T023;T023" rank="792;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="thoracic" begin="90" end="98" status="0" certainty="0" cui="C0817096;C0729233" tui="T029;T047" rank="797;295" code="NO-CODE" sourceType="LCH;MTHICD9"/>
+</RelationSet>
+<RelationSet id="2524">
+<problem value="coronary artery disease" begin="141" end="164" status="0" certainty="0" cui="C1956346;C0010054" tui="T047;T047" rank="797;150" code="NO-CODE" sourceType="MSH;CHV"/>
+<problem value="coronary;disease" begin="141;157" end="149;164" status="0" certainty="0" cui="C0010068" tui="T047" rank="795" code="NO-CODE" sourceType="MEDLINEPLUS"/>
+<problem value="artery disease" begin="150" end="164" status="0" certainty="0" cui="C0852949" tui="T047" rank="242" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="disease" begin="157" end="164" status="0" certainty="0" cui="C0012634;C1422572;C1424810;C1416989;C3273340;C3540595;C3273341;C1331418" tui="T047;T028;T028;T028;T028;T028;T116;T041" rank="797;600;596;596;575;575;575;575" code="NO-CODE" sourceType="LCH;HGNC;OMIM;HGNC;NCI;NCI;NCI;NCI"/>
+<anatomicalStructure value="coronary artery" begin="141" end="156" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="150" end="156" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="2525">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value=" aneurysm" begin="125" end="134" status="0" certainty="0"/>
+<anatomicalStructure value="transverse arch" begin="110" end="125" status="0" certainty="0"/>
+</Relation>
+<problem value="aneurysm" begin="126" end="134" status="0" certainty="0" cui="C0002940;C0439651" tui="T047;T082" rank="797;767" code="NO-CODE" sourceType="LCH;RCD"/>
+<anatomicalStructure value="arch" begin="121" end="125" status="0" certainty="0" cui="C0741204;C1538146;C0230467" tui="T030;T028;T029" rank="797;587;151" code="NO-CODE" sourceType="CCPSS;HGNC;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="166" end="421" sentText="The patient underwent repair of the aneurysm with nonautologous graft with an elephant trunk extension into the descending thoracic aorta, and coronary artery bypass graft (x1) using a right greater saphenous vein graft to the posterior descending artery.">
+<RelationSet id="2526">
+<procedure value="repair;aneurysm" begin="188;202" end="194;210" status="0" certainty="0" cui="C0189661" tui="T061" rank="767" code="NO-CODE" sourceType="MTHICD9"/>
+<procedure value="repair" begin="188" end="194" status="0" certainty="0" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+</RelationSet>
+<RelationSet id="2527">
+<problem value="aneurysm" begin="202" end="210" status="0" certainty="0" cui="C0002940;C0439651" tui="T047;T082" rank="797;767" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="2528">
+<anatomicalStructure value="descending thoracic aorta" begin="278" end="303" status="0" certainty="0" cui="C3163626;C1278935" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="descending;aorta" begin="278;298" end="288;303" status="0" certainty="0" cui="C0011666;C1305624" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MSH;RCD"/>
+<anatomicalStructure value="thoracic aorta" begin="289" end="303" status="0" certainty="0" cui="C1522460;C1281571" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="thoracic" begin="289" end="297" status="0" certainty="0" cui="C0817096;C0729233" tui="T029;T047" rank="797;295" code="NO-CODE" sourceType="LCH;MTHICD9"/>
+<anatomicalStructure value="aorta" begin="298" end="303" status="0" certainty="0" cui="C0003483;C1278934;C0869784" tui="T023;T023;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+</RelationSet>
+<RelationSet id="2529">
+<modifier value="coronary" begin="309" end="317" status="0" certainty="0" cui="C1522318" tui="T082" rank="797" code="NO-CODE" sourceType="NCI"/>
+<procedure value="coronary artery bypass graft;saphenous vein" begin="309;365" end="337;379" status="0" certainty="0" cui="C0396754" tui="T061" rank="724" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="coronary artery bypass graft;using;vein" begin="309;343;375" end="337;348;379" status="0" certainty="0" cui="C3520548" tui="T061" rank="627" code="NO-CODE" sourceType="CPT"/>
+<procedure value="coronary artery bypass graft" begin="309" end="337" status="0" certainty="0" cui="C0010055;C1260596" tui="T061;T074" rank="795;653" code="NO-CODE" sourceType="MSH;SPN"/>
+<procedure value="bypass graft;saphenous vein" begin="325;365" end="337;379" status="0" certainty="0" cui="C2067298" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="bypass graft;using;vein" begin="325;343;375" end="337;348;379" status="0" certainty="0" cui="C2006026" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="bypass graft;saphenous" begin="325;365" end="337;374" status="0" certainty="0" cui="C0748496" tui="T061" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="coronary artery;graft" begin="309;332" end="324;337" status="0" certainty="0" cui="C0440761;C0190213;C0190218" tui="T023;T061;T061" rank="767;271;271" code="NO-CODE" sourceType="RCD;HCPT;HCPT"/>
+<procedure value="artery bypass graft" begin="318" end="337" status="0" certainty="0" cui="C0189695;C0371745;C0337344;C0371755;C0337345" tui="T061;T061;T061;T061;T061" rank="765;253;253;253;253" code="NO-CODE" sourceType="RCD;HCPT;HCPT;HCPT;HCPT"/>
+<procedure value="coronary artery" begin="309" end="324" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<procedure value="bypass graft" begin="325" end="337" status="0" certainty="0" cui="C0185098" tui="T061" rank="767" code="NO-CODE" sourceType="CPT"/>
+<procedure value="graft;using" begin="332;343" end="337;348" status="0" certainty="0" cui="C0449871" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="bypass" begin="325" end="331" status="0" certainty="0" cui="C0741847" tui="T061" rank="765" code="NO-CODE" sourceType="NCI"/>
+<procedure value="artery" begin="318" end="324" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<procedure value="graft" begin="332" end="337" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+<anatomicalStructure value="coronary artery;right" begin="309;351" end="324;356" status="0" certainty="0" cui="C1261316" tui="T023" rank="765" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="graft;saphenous vein" begin="332;365" end="337;379" status="0" certainty="0" cui="C0729538" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="2530">
+<modifier value="vein graft" begin="375" end="385" status="0" certainty="0" cui="S0002683;S0000555" tui="t060;t061" rank="800;800" code="NO-CODE" sourceType="EZDI;EZDI"/>
+<modifier value="saphenous" begin="365" end="374" status="0" certainty="0" cui="S0001179" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="graft" begin="380" end="385" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+<procedure value="vein" begin="375" end="379" status="0" certainty="0" cui="C0348013;C0042449;C1278960;C0398102" tui="T082;T023;T023;T061" rank="797;797;765;373" code="NO-CODE" sourceType="RCD;MSH;SNOMEDCTUS;ICD10AM"/>
+<anatomicalStructure value="greater saphenous vein" begin="357" end="379" status="0" certainty="0" cui="C1278976" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="saphenous vein" begin="365" end="379" status="0" certainty="0" cui="C0036186;C0392907" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MSH;RCD"/>
+<anatomicalStructure value="greater;vein" begin="357;375" end="364;379" status="0" certainty="0" cui="C0729697" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="2531">
+<anatomicalStructure value="posterior descending artery" begin="393" end="420" status="0" certainty="0" cui="C0500492;C0226047" tui="T023;T023" rank="765;691" code="NO-CODE" sourceType="RCD;UWDA"/>
+<anatomicalStructure value="artery" begin="414" end="420" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="2532">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value=" graft" begin="229" end="235" status="0" certainty="0"/>
+<modifier value="nonautologous" begin="216" end="229" status="0" certainty="0"/>
+</Relation>
+<modifier value="nonautologous graft" begin="216" end="235" status="0" certainty="0" cui="C0559189" tui="T122" rank="765" code="NO-CODE" sourceType="SNMI"/>
+<procedure value="graft" begin="230" end="235" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+<modifier value="nonautologous" begin="216" end="229" status="0" certainty="0" cui="C0439859" tui="T080" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="422" end="477" sentText="The patient  was also placed on cardiopulmonary bypass.">
+<RelationSet id="2533">
+<procedure value="cardiopulmonary bypass" begin="454" end="476" status="0" certainty="0" cui="C0007202" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="bypass" begin="470" end="476" status="0" certainty="0" cui="C0741847" tui="T061" rank="765" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="cardiopulmonary" begin="454" end="469" status="0" certainty="0" cui="C0553534;C2709248;C1552297;C0024109" tui="T029;T080;T097;T023" rank="797;767;366;256" code="NO-CODE" sourceType="NOC;AIR;HL7V3.0;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="478" end="508" sentText="How should this case be coded?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="510" end="1216">
+<Sentence sentNo="5" begin="510" end="640" sentText="Answer: In an open aneurysm repair, an incision is made and the  weakened area of the aorta is  removed and replaced with a graft.">
+<RelationSet id="2534">
+<problem value="aneurysm" begin="529" end="537" status="0" certainty="0" cui="C0002940;C0439651" tui="T047;T082" rank="797;767" code="NO-CODE" sourceType="LCH;RCD"/>
+<procedure value="aneurysm repair" begin="529" end="544" status="0" certainty="0" cui="C0189661" tui="T061" rank="767" code="NO-CODE" sourceType="MTHICD9"/>
+<procedure value="open;repair" begin="524;538" end="528;544" status="0" certainty="0" cui="C0441613" tui="T061" rank="711" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="repair" begin="538" end="544" status="0" certainty="0" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+</RelationSet>
+<RelationSet id="2535">
+<procedure value="incision" begin="549" end="557" status="0" certainty="0" cui="C0184898;C2096041" tui="T061;T033" rank="767;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+</RelationSet>
+<RelationSet id="2536">
+<procedure value="graft" begin="634" end="639" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="641" end="720" sentText="The graft is then sewn into place and functions as a replacement of the vessel.">
+<RelationSet id="2537">
+<procedure value="graft" begin="645" end="650" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+<RelationSet id="2538">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value=" vessel" begin="712" end="719" status="0" certainty="0"/>
+<procedure value=" replacement" begin="693" end="705" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="vessel" begin="713" end="719" status="0" certainty="0" cui="C0042591;C0148346;C0005847;C1511228;C0702235" tui="T029;T118,T121;T023;T024;T109,T121" rank="767;722;701;571;520" code="NO-CODE" sourceType="RCD;MTH;LNC;NCI;PDQ"/>
+<procedure value="replacement" begin="694" end="705" status="0" certainty="0" cui="C0559956;C0035139;C1555302" tui="T169;T061;T078" rank="797;765;366" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="721" end="875" sentText="If the aneurysm is repaired by cutting off and removing the affected section of artery and replacing it with a graft, the root operation is “Replacement.”">
+<RelationSet id="2539">
+<problem value="aneurysm" begin="728" end="736" status="0" certainty="-3" cui="C0002940;C0439651" tui="T047;T082" rank="797;767" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="2540">
+<procedure value="graft" begin="832" end="837" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+<RelationSet id="2541">
+<anatomicalStructure value="root" begin="843" end="847" status="0" certainty="0" cui="S1001239;C0242726;C0563017;C0040452;C1705917;C1318154" tui="t061;T002;T033;T023;T078;T023" rank="800;765;765;576;575;418" code="NO-CODE" sourceType="EZDI;RCD;RCD;NCI;NCI;LNC"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="876" end="1215" sentText="Assign the following ICD-10-PCS codes: 02RW0KZ Replacement of thoracic aorta with nonautologous tissue substitute, open approach 021009W Bypass coronary artery, one site from aorta with autologous venous tissue, open approach 06BP0ZZ Excision of right greater saphenous vein, open approach 5A1221Z Performance of cardiac output, continuous">
+<RelationSet id="2542">
+<anatomicalStructure value="thoracic aorta" begin="938" end="952" status="0" certainty="0" cui="C1522460;C1281571" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="thoracic" begin="938" end="946" status="0" certainty="0" cui="C0817096;C0729233" tui="T029;T047" rank="797;295" code="NO-CODE" sourceType="LCH;MTHICD9"/>
+<anatomicalStructure value="aorta" begin="947" end="952" status="0" certainty="0" cui="C0003483;C1278934;C0869784" tui="T023;T023;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+</RelationSet>
+<RelationSet id="2543">
+<anatomicalStructure value="coronary artery" begin="1020" end="1035" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="1029" end="1035" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="2544">
+<anatomicalStructure value="greater saphenous vein" begin="1128" end="1150" status="0" certainty="0" cui="C1278976" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="saphenous vein" begin="1136" end="1150" status="0" certainty="0" cui="C0036186;C0392907" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MSH;RCD"/>
+<anatomicalStructure value="greater;vein" begin="1128;1146" end="1135;1150" status="0" certainty="0" cui="C0729697" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="vein" begin="1146" end="1150" status="0" certainty="0" cui="C0348013;C0042449;C1278960;C0398102" tui="T082;T023;T023;T061" rank="797;797;765;373" code="NO-CODE" sourceType="RCD;MSH;SNOMEDCTUS;ICD10AM"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

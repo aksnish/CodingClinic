@@ -1,0 +1,2 @@
+Question: A patient with coronary artery disease underwent percutaneous coronary intervention. Angioplasty was performed on the right coronary artery (RCA). However, stent insertion was unsuccessful. Should an angioplasty be coded in this case? 
+Answer: Yes, the angioplasty should be coded. Although the vessel was not dilated as much as needed to insert the stent, an angioplasty was performed. Assign the following ICD-10-PCS code for the angioplasty: 02703ZZ

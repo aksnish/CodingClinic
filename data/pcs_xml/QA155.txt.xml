@@ -1,0 +1,106 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="562">
+<Paragraph pgNo="1" begin="0" end="335">
+<Sentence sentNo="1" begin="0" end="142" sentText="Question: A 57-year-old male with low rectal cancer presents for abdominoperineal resection (APR) of the rectum with reconstruction to follow.">
+<RelationSet id="1247">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="rectum" begin="105" end="111" status="0" certainty="0"/>
+<procedure value="abdominoperineal resection" begin="65" end="91" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="rectum" begin="105" end="111" status="0" certainty="0"/>
+<procedure value="reconstruction" begin="117" end="131" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="rectum" begin="105" end="111" status="0" certainty="0"/>
+<procedure value="reconstruction" begin="117" end="131" status="0" certainty="0"/>
+<procedure value="abdominoperineal resection" begin="65" end="91" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="rectum" begin="105" end="111" status="0" certainty="0" cui="C0034896;C1278926;C0154062;C0496867;C0496908;C0869814" tui="T023;T023;T191;T191;T191;T058" rank="797;765;610;610;610;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;ICD10;ICD10AM"/>
+<procedure value="reconstruction" begin="117" end="131" status="0" certainty="0" cui="C0524865;C0020912" tui="T061;T066" rank="765;575" code="NO-CODE" sourceType="RCD;NCI"/>
+<modifier value="abdominoperineal" begin="65" end="81" status="0" certainty="0" cui="C0442411" tui="T082" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="abdominoperineal resection" begin="65" end="91" status="0" certainty="0" cui="C2004459;C0193072" tui="T061;T061" rank="797;151" code="NO-CODE" sourceType="SNM;CHV"/>
+<procedure value="resection;rectum" begin="82;105" end="91;111" status="0" certainty="0" cui="C0193062" tui="T061" rank="767" code="NO-CODE" sourceType="CCS"/>
+<procedure value="resection" begin="82" end="91" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="765;151" code="NO-CODE" sourceType="RCD;CHV"/>
+</RelationSet>
+<RelationSet id="1248">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="low" begin="34" end="37" status="0" certainty="1"/>
+<problem value="rectal cancer" begin="38" end="51" status="0" certainty="1"/>
+</Relation>
+<modifier value="low" begin="34" end="37" status="0" certainty="1" cui="C0205251;C0441994;C0234886;C2003888;C1708760;C2700150;C1550472;C1299352;C1619811;C1611820" tui="T080;T082;T039;T052;T080;T170;T078;T080;T080;T081" rank="797;767;750;576;576;572;366;366;366;366" code="NO-CODE" sourceType="RCD;RCD;SNOMEDCTUS;NCI;NCI;NCI;HL7V3.0;HL7V3.0;HL7V3.0;HL7V3.0"/>
+<problem value="rectal cancer" begin="38" end="51" status="0" certainty="1" cui="C0007113;C0949022" tui="T191;T191" rank="791;595" code="NO-CODE" sourceType="BI;MEDCIN"/>
+<problem value="cancer" begin="45" end="51" status="0" certainty="1" cui="C0006826;C1306459;C0998265;C0260515;C1547140" tui="T191;T191;T204;T033;T091" rank="793;765;751;592;355" code="NO-CODE" sourceType="ICPC2P;SNOMEDCTUS;NCBI;MEDCIN;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="143" end="243" sentText="A cylindrical APR was performed, along with excision of the sigmoid colon and resection of the anus.">
+<RelationSet id="1249">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="excision" begin="187" end="195" status="0" certainty="0"/>
+<anatomicalStructure value="sigmoid colon" begin="203" end="216" status="0" certainty="0"/>
+</Relation>
+<procedure value="excision;sigmoid colon" begin="187;203" end="195;216" status="0" certainty="0" cui="C0192866" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="excision" begin="187" end="195" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+<anatomicalStructure value="sigmoid colon" begin="203" end="216" status="0" certainty="0" cui="S0000762;C0227391;C0496864;C0153436" tui="t061;T023;T191;T191" rank="800;797;610;610" code="NO-CODE" sourceType="EZDI;HL7V2.5;ICD10;ICD10"/>
+<anatomicalStructure value="colon" begin="211" end="216" status="0" certainty="0" cui="C1623185;C0009368;C0684195;C1281569;C2684091;C0496907;C0154061;C1337205;C1446425" tui="T121;T023;T002;T023;T074;T191;T191;T168;T129" rank="797;795;795;765;739;610;610;562;416" code="NO-CODE" sourceType="MMSL;MTHMST;AOD;SNOMEDCTUS;VANDF;ICD10;ICD10;NCI;LNC"/>
+</RelationSet>
+<RelationSet id="1250">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="anus" begin="238" end="242" status="0" certainty="0"/>
+<procedure value="resection" begin="221" end="230" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="anus" begin="238" end="242" status="0" certainty="0" cui="C0003461;C0326040;C1278927;C0870072" tui="T023;T012;T023;T058" rank="797;767;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTVET;SNOMEDCTUS;ICD10AM"/>
+<procedure value="resection" begin="221" end="230" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="765;151" code="NO-CODE" sourceType="RCD;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="244" end="334" sentText="Should the excision of the sigmoid colon and resection of the anus be reported separately?">
+<RelationSet id="1251">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="sigmoid colon" begin="271" end="284" status="0" certainty="0"/>
+<procedure value="excision" begin="255" end="263" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="sigmoid" begin="271" end="278" status="0" certainty="0" cui="C0227391" tui="T023" rank="797" code="NO-CODE" sourceType="MTHMST"/>
+<anatomicalStructure value="colon" begin="279" end="284" status="0" certainty="0" cui="C1623185;C0009368;C0684195;C1281569;C2684091;C0496907;C0154061;C1337205;C1446425" tui="T121;T023;T002;T023;T074;T191;T191;T168;T129" rank="797;795;795;765;739;610;610;562;416" code="NO-CODE" sourceType="MMSL;MTHMST;AOD;SNOMEDCTUS;VANDF;ICD10;ICD10;NCI;LNC"/>
+<procedure value="excision;sigmoid colon" begin="255;271" end="263;284" status="0" certainty="0" cui="C0192866" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="excision" begin="255" end="263" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+</RelationSet>
+<RelationSet id="1252">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="anus" begin="306" end="310" status="0" certainty="0"/>
+<procedure value="resection" begin="289" end="298" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="anus" begin="306" end="310" status="0" certainty="0" cui="C0003461;C0326040;C1278927;C0870072" tui="T023;T012;T023;T058" rank="797;767;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTVET;SNOMEDCTUS;ICD10AM"/>
+<procedure value="resection" begin="289" end="298" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="765;151" code="NO-CODE" sourceType="RCD;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="336" end="561">
+<Sentence sentNo="4" begin="336" end="453" sentText="Answer: Yes, the resections of the rectum and anus as well as the excision of the sigmoid colon are separately coded.">
+<RelationSet id="1253">
+<anatomicalStructure value="rectum" begin="371" end="377" status="0" certainty="0" cui="C0034896;C1278926;C0154062;C0496867;C0496908;C0869814" tui="T023;T023;T191;T191;T191;T058" rank="797;765;610;610;610;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;ICD10;ICD10AM"/>
+</RelationSet>
+<RelationSet id="1254">
+<anatomicalStructure value="anus" begin="382" end="386" status="0" certainty="0" cui="C0003461;C0326040;C1278927;C0870072" tui="T023;T012;T023;T058" rank="797;767;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTVET;SNOMEDCTUS;ICD10AM"/>
+</RelationSet>
+<RelationSet id="1255">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="excision" begin="402" end="410" status="0" certainty="0"/>
+<anatomicalStructure value="sigmoid colon" begin="418" end="431" status="0" certainty="0"/>
+</Relation>
+<procedure value="excision;sigmoid colon" begin="402;418" end="410;431" status="0" certainty="0" cui="C0192866" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="anus;excision" begin="382;402" end="386;410" status="0" certainty="0" cui="C0176872" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="excision" begin="402" end="410" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+<anatomicalStructure value="sigmoid" begin="418" end="425" status="0" certainty="0" cui="C0227391" tui="T023" rank="797" code="NO-CODE" sourceType="MTHMST"/>
+<anatomicalStructure value="colon" begin="426" end="431" status="0" certainty="0" cui="C1623185;C0009368;C0684195;C1281569;C2684091;C0496907;C0154061;C1337205;C1446425" tui="T121;T023;T002;T023;T074;T191;T191;T168;T129" rank="797;795;795;765;739;610;610;562;416" code="NO-CODE" sourceType="MMSL;MTHMST;AOD;SNOMEDCTUS;VANDF;ICD10;ICD10;NCI;LNC"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="454" end="514" sentText="To capture the entire surgery, all three codes are required.">
+<RelationSet id="1256">
+<procedure value="surgery" begin="476" end="483" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="515" end="561" sentText="Assign the following ICD-10-PCS codes: 0DTP0ZZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

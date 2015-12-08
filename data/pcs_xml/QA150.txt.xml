@@ -1,0 +1,88 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="742">
+<Paragraph pgNo="1" begin="0" end="403">
+<Sentence sentNo="1" begin="0" end="109" sentText="Question: A patient with right femoral occlusion and ischemic rest pain underwent bovine patch arterioplasty.">
+<RelationSet id="1648">
+<problem value="ischemic;pain" begin="53;67" end="61;71" status="0" certainty="1" cui="C0745417" tui="T184" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<problem value="rest pain" begin="62" end="71" status="0" certainty="1" cui="C0234253" tui="T184" rank="767" code="NO-CODE" sourceType="RCD"/>
+<problem value="pain" begin="67" end="71" status="0" certainty="1" cui="C0030193;C0234226;C1882272;C1557397;C0242936;C1549543" tui="T184;T169;T033;T033;T073,T093;T169" rank="797;767;551;551;366;355" code="NO-CODE" sourceType="ICPC2P;RCD;NCI;NCI;HL7V3.0;HL7V2.5"/>
+<problem value="rest" begin="62" end="66" status="0" certainty="1" cui="C0035253;C0085631;C1419346;C1512899;C1622890" tui="T056;T184;T028;T025;T044" rank="797;765;596;530;462" code="NO-CODE" sourceType="LCH;MDR;HGNC;NCI;GO"/>
+</RelationSet>
+<RelationSet id="1649">
+<modifier value="bovine" begin="82" end="88" status="0" certainty="0" cui="C3667982;C0007452;C1265545;C1140701" tui="T015;T015;T015;T015" rank="797;797;765;753" code="NO-CODE" sourceType="SNOMEDCTVET;LCH;SNOMEDCTUS;SNOMEDCTVET"/>
+<procedure value="arterioplasty" begin="95" end="108" status="0" certainty="0" cui="C0189660;C2937236" tui="T061;T061" rank="765;150" code="NO-CODE" sourceType="SNM;CHV"/>
+<procedure value="patch" begin="89" end="94" status="0" certainty="0" cui="C0994894;C0205413;C0332461;C0441615;C0991556;C0445403;C1533128;C1305400;C0392769;C1367881;C1707974;C1706366" tui="T074;T080;T033;T061;T074;T122;T122;T074;T049;T116,T192;T122;T081" rank="776;767;765;765;765;765;765;765;702;576;576;575" code="NO-CODE" sourceType="NCI;RCD;SNOMEDCTUS;RCD;SNOMEDCTUS;RCD;SNOMEDCTUS;SNOMEDCTUS;SNM;NCI;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="1650">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="right" begin="25" end="30" status="0" certainty="1"/>
+<problem value="femoral occlusion" begin="31" end="48" status="0" certainty="1"/>
+</Relation>
+<modifier value="right" begin="25" end="30" status="0" certainty="1" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+<problem value="occlusion" begin="39" end="48" status="0" certainty="1" cui="C0441597;C0028778;C1947917;C0011382;C1882137" tui="T169;T046;T169;T042;T067" rank="765;765;702;575;561" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;MDR;NCI;NCI"/>
+<anatomicalStructure value="right femoral" begin="25" end="38" status="0" certainty="1" cui="C1279548;C0230425;C0817319" tui="T023;T023;T023" rank="765;765;692" code="NO-CODE" sourceType="SNOMEDCTUS;SNM;UWDA"/>
+<anatomicalStructure value="femoral" begin="31" end="38" status="0" certainty="1" cui="C0015811;C0039866;C1281586;C1279112" tui="T023;T029;T023;T023" rank="797;795;765;765" code="NO-CODE" sourceType="LCH;LCH;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="110" end="205" sentText="In ICD-10-PCS, the root operation “Supplement” right femoral artery directs the coder to 04UK-.">
+<RelationSet id="1651">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="femoral artery" begin="163" end="177" status="0" certainty="0"/>
+<procedure value="root operation “Supplement" begin="129" end="155" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="femoral artery" begin="163" end="177" status="0" certainty="0"/>
+<modifier value="right" begin="157" end="162" status="0" certainty="0"/>
+<procedure value="root operation “Supplement" begin="129" end="155" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="right" begin="157" end="162" status="0" certainty="0"/>
+<procedure value="root operation “Supplement" begin="129" end="155" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="right femoral artery" begin="157" end="177" status="0" certainty="0" cui="C0226447;C1281566" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="femoral artery" begin="163" end="177" status="0" certainty="0" cui="C0015801;C1280173;C0545729" tui="T023;T023;T082" rank="795;765;150" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;CHV"/>
+<anatomicalStructure value="right femoral" begin="157" end="170" status="0" certainty="0" cui="C1279548;C0230425;C0817319" tui="T023;T023;T023" rank="765;765;692" code="NO-CODE" sourceType="SNOMEDCTUS;SNM;UWDA"/>
+<anatomicalStructure value="femoral" begin="163" end="170" status="0" certainty="0" cui="C0015811;C0039866;C1281586;C1279112" tui="T023;T029;T023;T023" rank="797;795;765;765" code="NO-CODE" sourceType="LCH;LCH;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="artery" begin="171" end="177" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<modifier value="right" begin="157" end="162" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+<procedure value="Supplement" begin="145" end="155" status="0" certainty="0" cui="C2348609;C1947943;C0242297;C0242295;C1549514" tui="T169;T170;T061;T168;T078" rank="797;576;575;575;355" code="NO-CODE" sourceType="NCI;NCI;CHV;NCI;HL7V2.5"/>
+<procedure value="operation" begin="134" end="143" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="206" end="333" sentText="Although bovine patch appears to be graft tissue derived from animal, there is no device character for zooplastic at table 04U.">
+<RelationSet id="1652">
+<med value="bovine patch" begin="215" end="227" status="0" certainty="0" code="NO-CODE" cui="1706366;1305400;392769;205413;332461;441615;1367881;994894;445403;1707974;991556;1533128" tui="T074;T116;T049;T192;T033;T081;T080;T122;T061" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1653">
+<anatomicalStructure value="graft tissue" begin="242" end="254" status="0" certainty="1" cui="C0348047;C0080232" tui="T024;T061" rank="797;791" code="NO-CODE" sourceType="RCD;MSH"/>
+<anatomicalStructure value="tissue;animal" begin="248;268" end="254;274" status="0" certainty="1" cui="C0229982" tui="T024" rank="258" code="NO-CODE" sourceType="CHV"/>
+<anatomicalStructure value="tissue" begin="248" end="254" status="0" certainty="1" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+<anatomicalStructure value="graft" begin="242" end="247" status="0" certainty="1" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="334" end="402" sentText="What is the correct device character for bovine patch arterioplasty?">
+<RelationSet id="1654">
+<modifier value="bovine" begin="375" end="381" status="0" certainty="0" cui="C3667982;C0007452;C1265545;C1140701" tui="T015;T015;T015;T015" rank="797;797;765;753" code="NO-CODE" sourceType="SNOMEDCTVET;LCH;SNOMEDCTUS;SNOMEDCTVET"/>
+<procedure value="arterioplasty" begin="388" end="401" status="0" certainty="0" cui="C0189660;C2937236" tui="T061;T061" rank="765;150" code="NO-CODE" sourceType="SNM;CHV"/>
+<procedure value="patch" begin="382" end="387" status="0" certainty="0" cui="C0994894;C0205413;C0332461;C0441615;C0991556;C0445403;C1533128;C1305400;C0392769;C1367881;C1707974;C1706366" tui="T074;T080;T033;T061;T074;T122;T122;T074;T049;T116,T192;T122;T081" rank="776;767;765;765;765;765;765;765;702;576;576;575" code="NO-CODE" sourceType="NCI;RCD;SNOMEDCTUS;RCD;SNOMEDCTUS;RCD;SNOMEDCTUS;SNOMEDCTUS;SNM;NCI;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="404" end="741">
+<Sentence sentNo="5" begin="404" end="463" sentText="Answer: “Zooplastic” is not a specific option at table 04U.">
+</Sentence>
+<Sentence sentNo="6" begin="464" end="662" sentText="Where the “zooplastic” device value is not available, when graft material is derived from a living or biological basis it is appropriate to use “nonautologous tissue substitute” as the device value.">
+<RelationSet id="1655">
+<medicalDevice value="device" begin="487" end="493" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="663" end="741" sentText="For the bovine patch arterioplasty, assign ICD-10-PCS code as follows: 04UK0KZ">
+<RelationSet id="1656">
+<modifier value="bovine" begin="671" end="677" status="0" certainty="0" cui="C3667982;C0007452;C1265545;C1140701" tui="T015;T015;T015;T015" rank="797;797;765;753" code="NO-CODE" sourceType="SNOMEDCTVET;LCH;SNOMEDCTUS;SNOMEDCTVET"/>
+<procedure value="arterioplasty" begin="684" end="697" status="0" certainty="0" cui="C0189660;C2937236" tui="T061;T061" rank="765;150" code="NO-CODE" sourceType="SNM;CHV"/>
+<procedure value="patch" begin="678" end="683" status="0" certainty="0" cui="C0994894;C0205413;C0332461;C0441615;C0991556;C0445403;C1533128;C1305400;C0392769;C1367881;C1707974;C1706366" tui="T074;T080;T033;T061;T074;T122;T122;T074;T049;T116,T192;T122;T081" rank="776;767;765;765;765;765;765;765;702;576;576;575" code="NO-CODE" sourceType="NCI;RCD;SNOMEDCTUS;RCD;SNOMEDCTUS;RCD;SNOMEDCTUS;SNOMEDCTUS;SNM;NCI;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

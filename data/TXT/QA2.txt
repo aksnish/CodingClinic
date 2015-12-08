@@ -1,0 +1,2 @@
+Question: The physician performed excisional debridement of a coccyx wound down to the fascia and including bone. How should this debridement be coded? 
+Answer: Assign code 0QBS0ZZ, Excision of coccyx, open approach. When multiple layers of the same site are debrided, assign only a code for the deepest layer of debridement. 

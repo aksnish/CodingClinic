@@ -1,0 +1,113 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1168">
+<Paragraph pgNo="1" begin="0" end="679">
+<Sentence sentNo="1" begin="0" end="101" sentText="Question: The patient is a construction worker, who fell 10 feet from scaffolding, striking his head.">
+<RelationSet id="1843">
+<anatomicalStructure value="head" begin="96" end="100" status="0" certainty="0" cui="C0205096;C0018670;C1281590;C2348941;C1706305;C1708330;C0876917" tui="T082;T029;T023;T170;T073;T073;T061" rank="797;797;765;576;575;575;373" code="NO-CODE" sourceType="SNMI;CST;SNOMEDCTUS;NCI;NCI;NCI;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="102" end="220" sentText="He was diagnosed with right subdural hematoma, and emergency craniotomy with evacuation of subdural hematoma was done.">
+<RelationSet id="1844">
+<problem value="emergency" begin="153" end="162" status="0" certainty="0" cui="C2745965;C0175673;C0013956;C1546399;C1552231;C1555975;C1561586;C1546844;C1561585;C1561588;C1561587;C1561589;C1547144;C1561584;C1561583" tui="T046;T079;T067;T078;T097;T097;T078;T170;T078;T078;T078;T078;T091;T078;T078" rank="795;767;576;366;366;366;355;355;355;355;355;355;355;355;355" code="NO-CODE" sourceType="NDFRT;RCD;NCI;HL7V3.0;HL7V3.0;HL7V3.0;HL7V2.5;HL7V2.5;HL7V2.5;HL7V2.5;HL7V2.5;HL7V2.5;HL7V2.5;HL7V2.5;HL7V2.5"/>
+<procedure value="craniotomy" begin="163" end="173" status="0" certainty="0" cui="C0010280" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="1845">
+<problem value="subdural hematoma" begin="193" end="210" status="0" certainty="0" cui="C0018946" tui="T046" rank="797" code="NO-CODE" sourceType="LCH"/>
+<problem value="hematoma" begin="202" end="210" status="0" certainty="0" cui="C0018944;C1962958" tui="T046;T033" rank="797;551" code="NO-CODE" sourceType="MSH;NCI"/>
+<anatomicalStructure value="subdural" begin="193" end="201" status="0" certainty="0" cui="S0002386;C0038541" tui="t061;T030" rank="800;703" code="NO-CODE" sourceType="EZDI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1846">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="subdural hematoma" begin="130" end="147" status="0" certainty="0"/>
+<modifier value="right" begin="124" end="129" status="0" certainty="0"/>
+</Relation>
+<problem value="subdural hematoma" begin="130" end="147" status="0" certainty="0" cui="C0018946" tui="T046" rank="797" code="NO-CODE" sourceType="LCH"/>
+<problem value="hematoma" begin="139" end="147" status="0" certainty="0" cui="C0018944;C1962958" tui="T046;T033" rank="797;551" code="NO-CODE" sourceType="MSH;NCI"/>
+<anatomicalStructure value="subdural" begin="130" end="138" status="0" certainty="0" cui="S0002386;C0038541" tui="t061;T030" rank="800;703" code="NO-CODE" sourceType="EZDI;HL7V2.5"/>
+<modifier value="right" begin="124" end="129" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="221" end="331" sentText="During surgery, a question mark incision was made, subtemporal burr hole was created, and evacuation was done.">
+<RelationSet id="1847">
+<procedure value="surgery" begin="228" end="235" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1848">
+<procedure value="incision" begin="253" end="261" status="0" certainty="1" cui="C0184898;C2096041" tui="T061;T033" rank="767;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+</RelationSet>
+<RelationSet id="1848">
+<anatomicalStructure value="subtemporal burr hole" begin="272" end="293" status="0" certainty="1" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="332" end="423" sentText="A parietal burr hole was then placed and organized subdural hematoma was further evacuated.">
+<RelationSet id="1848">
+<anatomicalStructure value="parietal burr hole" begin="334" end="352" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1849">
+<problem value="organized;hematoma" begin="373;392" end="382;400" status="0" certainty="0" cui="C0333198" tui="T020" rank="767" code="NO-CODE" sourceType="SNM"/>
+<problem value="subdural hematoma" begin="383" end="400" status="0" certainty="0" cui="C0018946" tui="T046" rank="797" code="NO-CODE" sourceType="LCH"/>
+<problem value="hematoma" begin="392" end="400" status="0" certainty="0" cui="C0018944;C1962958" tui="T046;T033" rank="797;551" code="NO-CODE" sourceType="MSH;NCI"/>
+<anatomicalStructure value="subdural" begin="383" end="391" status="0" certainty="0" cui="S0002386;C0038541" tui="t061;T030" rank="800;703" code="NO-CODE" sourceType="EZDI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="424" end="557" sentText="The craniotomy incision was extended to connect the burr holes, and additional blood covering the entire exposed brain was irrigated.">
+<RelationSet id="1850">
+<procedure value="craniotomy" begin="428" end="438" status="0" certainty="0" cui="C0010280" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="incision" begin="439" end="447" status="0" certainty="0" cui="C0184898;C2096041" tui="T061;T033" rank="767;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+</RelationSet>
+<RelationSet id="1851">
+<medicalDevice value="burr" begin="476" end="480" status="0" certainty="0" cui="C0330093;C0700351" tui="T002;T074" rank="767;685" code="NO-CODE" sourceType="SNMI;UMD"/>
+</RelationSet>
+<RelationSet id="1852">
+<anatomicalStructure value="covering;brain" begin="509;537" end="517;542" status="0" certainty="0" cui="C0025285" tui="T023" rank="472" code="NO-CODE" sourceType="CHV"/>
+<anatomicalStructure value="entire;brain" begin="522;537" end="528;542" status="0" certainty="0" cui="C1269537" tui="T023" rank="797" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="brain" begin="537" end="542" status="0" certainty="0" cui="C0006104" tui="T023" rank="797" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="558" end="678" sentText="Is the burr hole coded as an open or percutaneous approach, and should the root operation be “Control” or “Extirpation”?">
+<RelationSet id="1853">
+<medicalDevice value="burr" begin="565" end="569" status="0" certainty="0" cui="C0330093;C0700351" tui="T002;T074" rank="767;685" code="NO-CODE" sourceType="SNMI;UMD"/>
+</RelationSet>
+<RelationSet id="1854">
+<anatomicalStructure value="root" begin="633" end="637" status="0" certainty="0" cui="S1001239;C0242726;C0563017;C0040452;C1705917;C1318154" tui="t061;T002;T033;T023;T078;T023" rank="800;765;765;576;575;418" code="NO-CODE" sourceType="EZDI;RCD;RCD;NCI;NCI;LNC"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="680" end="1167">
+<Sentence sentNo="7" begin="680" end="758" sentText="Answer: The evacuation of the subdural hematoma was done via an open approach.">
+<RelationSet id="1855">
+<problem value="subdural hematoma" begin="710" end="727" status="0" certainty="0" cui="C0018946" tui="T046" rank="797" code="NO-CODE" sourceType="LCH"/>
+<problem value="hematoma" begin="719" end="727" status="0" certainty="0" cui="C0018944;C1962958" tui="T046;T033" rank="797;551" code="NO-CODE" sourceType="MSH;NCI"/>
+<anatomicalStructure value="subdural" begin="710" end="718" status="0" certainty="0" cui="S0002386;C0038541" tui="t061;T030" rank="800;703" code="NO-CODE" sourceType="EZDI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="759" end="923" sentText="In ICD-10-PCS, an “open” approach is defined as cutting through the skin or mucous membrane and any other body layers necessary to expose the site of the procedure.">
+<RelationSet id="1855">
+<anatomicalStructure value="skin" begin="827" end="831" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1856">
+<anatomicalStructure value="mucous membrane" begin="835" end="850" status="0" certainty="0" cui="C0026724;C2230150;C1549524;C0151785" tui="T024;T033;T169;T047" rank="797;592;355;291" code="NO-CODE" sourceType="MSH;MEDCIN;HL7V2.5;CST"/>
+<anatomicalStructure value="membrane" begin="842" end="850" status="0" certainty="0" cui="C0596901;C0025255;C1706182" tui="T026;T024;T073" rank="797;795;575" code="NO-CODE" sourceType="MTH;MSH;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="924" end="1071" sentText="Additionally, it is not appropriate to report the root operation “Control” for evacuation of hematoma because it was caused by trauma in this case.">
+<RelationSet id="1857">
+<modifier value="report;operation" begin="963;979" end="969;988" status="0" certainty="-2" cui="C1269801" tui="T170" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="operation" begin="979" end="988" status="0" certainty="-2" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1858">
+<problem value="hematoma" begin="1017" end="1025" status="0" certainty="0" cui="C0018944;C1962958" tui="T046;T033" rank="797;551" code="NO-CODE" sourceType="MSH;NCI"/>
+</RelationSet>
+<RelationSet id="1859">
+<problem value="trauma" begin="1051" end="1057" status="0" certainty="0" cui="C0043251;C1510467;C3263723;C0043250;C0548346" tui="T037;T037;T037;T037;T058" rank="791;789;765;530;317" code="NO-CODE" sourceType="ICPC2P;MSH;SNOMEDCTUS;NCI;PCDS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="1072" end="1166" sentText="Assign the following ICD-10-PCS code for the open evacuation of the subdural hematoma: 00C40ZZ">
+<RelationSet id="1860">
+<problem value="subdural hematoma" begin="1140" end="1157" status="0" certainty="0" cui="C0018946" tui="T046" rank="797" code="NO-CODE" sourceType="LCH"/>
+<problem value="hematoma" begin="1149" end="1157" status="0" certainty="0" cui="C0018944;C1962958" tui="T046;T033" rank="797;551" code="NO-CODE" sourceType="MSH;NCI"/>
+<anatomicalStructure value="subdural" begin="1140" end="1148" status="0" certainty="0" cui="S0002386;C0038541" tui="t061;T030" rank="800;703" code="NO-CODE" sourceType="EZDI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,2 @@
+Question: What is the ICD-10-PCS procedure code assignment for the intravenous/intramuscular administration of Rh (D) immune (anti-D immune globulin)? 
+Answer: Assign 3E0234Z, Introduction of serum, toxoid and vaccine into muscle, percutaneous approach, for the intramuscular administration of Rh (D) immune (anti-D immune globulin). 

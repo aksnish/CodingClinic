@@ -1,0 +1,55 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="545">
+<Paragraph pgNo="1" begin="0" end="322">
+<Sentence sentNo="1" begin="0" end="165" sentText="Question: A patient with history of double inlet left ventricle underwent esophageal electrophysiology (EP) study and adenosine challenge to evaluate for arrhythmia.">
+<RelationSet id="2308">
+<modifier value="left" begin="49" end="53" status="1" certainty="1" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="2309">
+<med value="adenosine" begin="118" end="127" status="0" certainty="0" cui="C0001443" tui="T114,T121,T124" rank="795" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+<RelationSet id="2310">
+<problem value="arrhythmia" begin="154" end="164" status="0" certainty="-2" cui="C0003811" tui="T046" rank="790" code="NO-CODE" sourceType="ICPC2P"/>
+</RelationSet>
+<RelationSet id="2311">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="ventricle" begin="54" end="63" status="1" certainty="1"/>
+<procedure value="esophageal electrophysiology" begin="74" end="102" status="1" certainty="0"/>
+</Relation>
+<anatomicalStructure value="left ventricle" begin="49" end="63" status="1" certainty="1" cui="S0002663;C0225897;C1269892" tui="t060;T023;T023" rank="800;792;765" code="NO-CODE" sourceType="EZDI;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="ventricle" begin="54" end="63" status="1" certainty="1" cui="C2355627;C1522565;C0018827;C0007799" tui="T023;T082;T023;T030" rank="797;797;765;575" code="NO-CODE" sourceType="FMA;NCI;SNM;NCI"/>
+<modifier value="electrophysiology" begin="85" end="102" status="1" certainty="0" cui="C0031842;C0013865;C0031843" tui="T091;T091;T039" rank="797;795;794" code="NO-CODE" sourceType="LCH;LCH;MSH"/>
+<procedure value="electrophysiology;study" begin="85;108" end="102;113" status="1" certainty="0" cui="C1446476" tui="T060" rank="797" code="NO-CODE" sourceType="MTH"/>
+<procedure value="esophageal" begin="74" end="84" status="1" certainty="0" cui="C1522619;C0014876;C1278919;C0154059;C0153942;C1516966;C0872395;C0545823" tui="T082;T023;T023;T191;T191;T024;T061;T082" rank="797;797;765;611;611;572;374;151" code="NO-CODE" sourceType="SNMI;LCH;SNOMEDCTUS;ICD10AE;ICD10AE;NCI;ICD10AMAE;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="166" end="257" sentText="An esophageal catheter was advanced to the level of the atrium, and EP study was performed.">
+<RelationSet id="2312">
+<medicalDevice value="esophageal catheter" begin="169" end="188" status="0" certainty="0" cui="C0878910" tui="T074" rank="686" code="NO-CODE" sourceType="UMD"/>
+<medicalDevice value="catheter" begin="180" end="188" status="0" certainty="0" cui="C0085590;C1704454;C0007430;C1546572" tui="T074;T074;T061;T170" rank="795;575;488;355" code="NO-CODE" sourceType="RCD;NCI;ICPC2P;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2313">
+<anatomicalStructure value="atrium" begin="222" end="228" status="0" certainty="0" cui="C0018792;C1280619;C0524422" tui="T023;T023;T023" rank="765;765;150" code="NO-CODE" sourceType="CHV;SNOMEDCTUS;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="258" end="321" sentText="What is the correct approach value for the esophageal EP study?">
+<RelationSet id="2314">
+<procedure value="esophageal" begin="301" end="311" status="0" certainty="0" cui="C1522619;C0014876;C1278919;C0154059;C0153942;C1516966;C0872395;C0545823" tui="T082;T023;T023;T191;T191;T024;T061;T082" rank="797;797;765;611;611;572;374;151" code="NO-CODE" sourceType="SNMI;LCH;SNOMEDCTUS;ICD10AE;ICD10AE;NCI;ICD10AMAE;CHV"/>
+<procedure value="study" begin="315" end="320" status="0" certainty="0" cui="C2603343;C0557651;C0008972;C1705923;C1880229;C0947630" tui="T062;T073;T062;T077;T062;T059" rank="797;767;575;575;557;418" code="NO-CODE" sourceType="NCI;RCD;NCI;NCI;NCI;LNC"/>
+<procedure value="EP" begin="312" end="314" status="0" certainty="0" cui="C1366564;C1706321;C0078414;C0280609;C0014508;C0115922;C0032302" tui="T028;T028;T061;T061;T169;T116,T123;T047" rank="600;575;441;441;275;233;233" code="NO-CODE" sourceType="HGNC;NCI;PDQ;PDQ;MSH;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="323" end="544">
+<Sentence sentNo="4" begin="323" end="439" sentText="Answer: The ICD-10-PCS does not provide a specific transesophageal approach value for measurement of cardiac rhythm.">
+<RelationSet id="2314">
+<bodyFunction value="cardiac rhythm" begin="424" end="438" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="440" end="498" sentText="The external approach is the closest available equivalent.">
+</Sentence>
+<Sentence sentNo="6" begin="499" end="543" sentText="Assign the following ICD-10PCS code: 4A02X4Z">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

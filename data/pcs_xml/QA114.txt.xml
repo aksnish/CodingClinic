@@ -1,0 +1,44 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="653">
+<Paragraph pgNo="1" begin="0" end="91">
+<Sentence sentNo="1" begin="0" end="90" sentText="Question: How are the hours counted for a patient on mechanical ventilation only at night?">
+<RelationSet id="56">
+<procedure value="mechanical ventilation" begin="53" end="75" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="53" end="63" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="92" end="652">
+<Sentence sentNo="2" begin="92" end="303" sentText="Answer: If the patient is on mechanical ventilation only at night (e.g. for treatment of sleep apnea), and the patient is not being weaned, count the duration that the patient was actually put on the ventilator.">
+<RelationSet id="57">
+<procedure value="mechanical ventilation" begin="121" end="143" status="0" certainty="-3" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="121" end="131" status="0" certainty="-3" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+<RelationSet id="58">
+<problem value="sleep apnea" begin="181" end="192" status="0" certainty="0" cui="C0037315;C3496180" tui="T047;T074" rank="791;739" code="NO-CODE" sourceType="ICD10AE;VANDF"/>
+<problem value="apnea" begin="187" end="192" status="0" certainty="0" cui="C0003578;C1963065" tui="T046;T033" rank="797;551" code="NO-CODE" sourceType="LCH;NCI"/>
+</RelationSet>
+<RelationSet id="59">
+<medicalDevice value="ventilator" begin="292" end="302" status="0" certainty="0" cui="C0087153;C1611144;C1547127" tui="T074;T073;T082" rank="792;750;355" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="304" end="405" sentText="For each overnight use, assign code 5A1935Z, Respiratory ventilation, less than 24 consecutive hours.">
+<RelationSet id="59">
+<meas value="Respiratory ventilation" begin="349" end="372" status="0" certainty="0" code="NO-CODE">
+</meas>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="406" end="651" sentText="For patients being weaned from intermittent (nocturnal) ventilation, calculate the entire weaning trial, including the time the patient is on the ventilator, the weaning period up until the patient is extubated, and the ventilator is turned off.">
+<RelationSet id="61">
+<medicalDevice value="ventilator" begin="552" end="562" status="0" certainty="0" cui="C0087153;C1611144;C1547127" tui="T074;T073;T082" rank="792;750;355" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="61">
+<procedure value="extubated" begin="607" end="616" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="62">
+<medicalDevice value="ventilator" begin="626" end="636" status="0" certainty="0" cui="C0087153;C1611144;C1547127" tui="T074;T073;T082" rank="792;750;355" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,39 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1303">
+<Paragraph pgNo="1" begin="0" end="707">
+<Sentence sentNo="1" begin="0" end="194" sentText="Question: ICD-10-CM provides two codes for capturing gestational age of 42 weeks or more: Z3A.42, 42 weeks of gestation of pregnancy, and Z3A.49, Greater than 42 weeks of gestation of pregnancy.">
+</Sentence>
+<Sentence sentNo="2" begin="195" end="280" sentText="Clarification is needed when assigning these codes for 42 weeks of gestation or more.">
+</Sentence>
+<Sentence sentNo="3" begin="281" end="359" sentText="When is it appropriate to assign code Z3A.42, 42 weeks gestation of pregnancy?">
+</Sentence>
+<Sentence sentNo="4" begin="360" end="501" sentText="Would it be assigned only if the patient is exactly 42 0/7 weeks? Or should this code be assigned whenever the patient is less than 43 weeks?">
+</Sentence>
+<Sentence sentNo="5" begin="502" end="589" sentText="For example, the patient was admitted at 42 1/7 weeks gestation for induction of labor.">
+</Sentence>
+<Sentence sentNo="6" begin="590" end="628" sentText="The patient delivered at 42 2/7 weeks.">
+</Sentence>
+<Sentence sentNo="7" begin="629" end="699" sentText="What code is assigned to appropriately capture the weeks of gestation?">
+</Sentence>
+<Sentence sentNo="8" begin="700" end="707" sentText="Answer:">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="708" end="1302">
+<Sentence sentNo="9" begin="709" end="761" sentText="Assign code Z3A.42, 42 weeks gestation of pregnancy.">
+</Sentence>
+<Sentence sentNo="10" begin="762" end="826" sentText="Any number of days in week 42 up to 43 weeks is coded as Z3A.42.">
+</Sentence>
+<Sentence sentNo="11" begin="827" end="929" sentText="For 43 weeks or more of pregnancy assign code Z3A.49, Greater than 42 weeks of gestation of pregnancy.">
+</Sentence>
+<Sentence sentNo="12" begin="930" end="1096" sentText="Question: During a routine physical examination of the newborn, the provider noted a possible systolic ejection murmur, and recommended further workup post discharge.">
+</Sentence>
+<Sentence sentNo="13" begin="1097" end="1182" sentText="In ICD-10-CM, under the terms murmur, systolic the coder is directed to endocarditis.">
+<RelationSet id="2405">
+<problem value="endocarditis" begin="1169" end="1181" status="0" certainty="0" cui="C0014118" tui="T047" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="14" begin="1183" end="1301" sentText="What is the appropriate code assignment for a “possible systolic ejection murmur” that occurs in the perinatal period?">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

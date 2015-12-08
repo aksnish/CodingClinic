@@ -1,0 +1,2 @@
+Question: A patient with painful right total knee arthroplasty presents for revision of the arthroplasty. The previous components were removed and new tibial and femoral components were inserted and cemented into place. Should this be coded as a revision or replacement procedure? 
+Answer: Since the components were removed and replaced, this procedure should be coded as a replacement procedure. Additionally, the removal of the previously placed components should be separately reported. For the procedures performed, assign the following ICD-10-PCS codes: 0SRC0J9 

@@ -1,0 +1,95 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1122">
+<Paragraph pgNo="1" begin="0" end="766">
+<Sentence sentNo="1" begin="0" end="180" sentText="Question: The patient has a rib deformity due to severe idiopathic infantile thoracic scoliosis and is status post placement of vertical expandable prosthetic titanium rib (VEPTR).">
+<RelationSet id="731">
+<modifier value="prosthetic" begin="148" end="158" status="0" certainty="0" cui="S0001818;S0000880" tui="t061;t061" rank="800;800" code="NO-CODE" sourceType="EZDI;EZDI"/>
+<procedure value="placement" begin="115" end="124" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="vertical" begin="128" end="136" status="0" certainty="0" cui="C0205128;C0230003;C2697524" tui="T082;T029;T077" rank="797;797;575" code="NO-CODE" sourceType="RCD;SNM;NCI"/>
+<anatomicalStructure value="rib" begin="168" end="171" status="0" certainty="0" cui="C0035561;C1281577" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="732">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="idiopathic infantile thoracic scoliosis" begin="56" end="95" status="0" certainty="0"/>
+<modifier value="severe" begin="49" end="55" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="rib deformity" begin="28" end="41" status="0" certainty="1"/>
+<modifier value="severe" begin="49" end="55" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="rib deformity" begin="28" end="41" status="0" certainty="1"/>
+<problem value="idiopathic infantile thoracic scoliosis" begin="56" end="95" status="0" certainty="0"/>
+<modifier value="severe" begin="49" end="55" status="0" certainty="1"/>
+</Relation>
+<anatomicalStructure value="rib" begin="28" end="31" status="0" certainty="1" cui="C0035561;C1281577" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<problem value="idiopathic infantile;scoliosis" begin="56;86" end="76;95" status="0" certainty="0" cui="C0494956" tui="T047,T190" rank="800" code="NO-CODE" sourceType="ICD10AM"/>
+<problem value="idiopathic;scoliosis" begin="56;86" end="66;95" status="0" certainty="0" cui="C0595995;C0036440" tui="T020;T190" rank="797;293" code="NO-CODE" sourceType="MTHICD9;ICD9CM"/>
+<problem value="thoracic scoliosis" begin="77" end="95" status="0" certainty="0" cui="C1857790" tui="T190" rank="601" code="NO-CODE" sourceType="OMIM"/>
+<problem value="scoliosis" begin="86" end="95" status="0" certainty="0" cui="C0036439;C0700208;C0559260" tui="T190;T020;T019" rank="795;765;765" code="NO-CODE" sourceType="MSH;ICPC2P;RCD"/>
+<problem value="infantile" begin="67" end="76" status="0" certainty="0" cui="C0021270;C2939166;C0175948;C0231330" tui="T100;T080;T047;T079" rank="797;767;767;703" code="NO-CODE" sourceType="MDR;RCD;LCH;SNMI"/>
+<problem value="thoracic" begin="77" end="85" status="0" certainty="0" cui="C0817096;C0729233" tui="T029;T047" rank="797;295" code="NO-CODE" sourceType="LCH;MTHICD9"/>
+<modifier value="severe" begin="49" end="55" status="0" certainty="1" cui="C0205082;C0439793;C1519275;C2983285;C2919019;C1547231;C1547227" tui="T080;T080;T033;T170;T033;T170;T170" rank="767;767;572;571;571;355;355" code="NO-CODE" sourceType="RCD;MTH;NCI;NCI;NCI;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="181" end="237" sentText="The patient is admitted for bilateral VEPTR lengthening.">
+</Sentence>
+<Sentence sentNo="3" begin="238" end="336" sentText="During surgery, the old incisions over the VEPTR lengthening mechanism were used for the approach.">
+<RelationSet id="733">
+<procedure value="surgery" begin="245" end="252" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="337" end="554" sentText="The left and then the right locking mechanisms were exposed; the clips were removed; and the distractor was inserted to extend the VEPTR lengthening mechanism approximately 1 cm on the right and similarly on the left.">
+<RelationSet id="734">
+<medicalDevice value="clips" begin="402" end="407" status="0" certainty="0" cui="C0175722;C1283066;C0185010;C1824746;C1337111;C1824747;C1705205;C1704793;C2827463;C1561603;C0056374" tui="T074;T061;T061;T028;T028;T028;T074;T028;T028;T170;T116,T123" rank="797;797;765;587;587;587;575;575;575;367;233" code="NO-CODE" sourceType="MSH;MTH;SNMI;HGNC;HGNC;HGNC;NCI;NCI;NCI;HL7V2.5;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="555" end="644" sentText="A new locking clip was placed into position and crimped to secure a satisfactory seating.">
+<RelationSet id="735">
+<medicalDevice value="locking" begin="561" end="568" status="0" certainty="0" cui="C0557958;C1704783;C3244297;C1550024" tui="T061;T073;T169;T078" rank="765;575;366;355" code="NO-CODE" sourceType="RCD;NCI;HL7V3.0;HL7V2.5"/>
+<medicalDevice value="clip" begin="569" end="573" status="0" certainty="0" cui="C0175722;C1283066;C0185010;C1824746;C1337111;C1824747;C1705205;C1704793;C2827463;C1561603;C0056374" tui="T074;T061;T061;T028;T028;T028;T074;T028;T028;T170;T116,T123" rank="797;797;765;587;587;587;575;575;575;367;233" code="NO-CODE" sourceType="MSH;MTH;SNMI;HGNC;HGNC;HGNC;NCI;NCI;NCI;HL7V2.5;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="645" end="734" sentText="The patient also had intra-operative evoked potential monitoring done during the surgery.">
+<RelationSet id="736">
+<procedure value="surgery" begin="726" end="733" status="0" certainty="1" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="735" end="765" sentText="How should this case be coded?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="767" end="1121">
+<Sentence sentNo="8" begin="767" end="890" sentText="Answer: Assign code Z45.89, Encounter for adjustment and management of other implanted devices, as the principal diagnosis.">
+<RelationSet id="736">
+<problem value="5.89, Encounter for adjustment and management of other implanted d" begin="789" end="855" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="891" end="1046" sentText="Codes M95.4, Acquired deformity of chest and ribs, and M41.04, Infantile idiopathic scoliosis, thoracic region, should be assigned as additional diagnoses.">
+<RelationSet id="738">
+<anatomicalStructure value="ribs" begin="936" end="940" status="0" certainty="0" cui="C0035561;C1281577" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="739">
+<problem value="Infantile idiopathic scoliosis" begin="954" end="984" status="0" certainty="0" cui="C0494956" tui="T047,T190" rank="800" code="NO-CODE" sourceType="ICD10AM"/>
+<problem value="idiopathic scoliosis" begin="964" end="984" status="0" certainty="0" cui="C0595995;C0036440" tui="T020;T190" rank="797;293" code="NO-CODE" sourceType="MTHICD9;ICD9CM"/>
+<problem value="scoliosis" begin="975" end="984" status="0" certainty="0" cui="C0036439;C0700208;C0559260" tui="T190;T020;T019" rank="795;765;765" code="NO-CODE" sourceType="MSH;ICPC2P;RCD"/>
+<problem value="Infantile" begin="954" end="963" status="0" certainty="0" cui="C0021270;C2939166;C0175948;C0231330" tui="T100;T080;T047;T079" rank="797;767;767;703" code="NO-CODE" sourceType="MDR;RCD;LCH;SNMI"/>
+</RelationSet>
+<RelationSet id="740">
+<anatomicalStructure value="thoracic region" begin="986" end="1001" status="0" certainty="0" cui="C0817096;C1269614;C1456858" tui="T029;T023;T029" rank="797;765;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;RCD"/>
+</RelationSet>
+<RelationSet id="741">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="chest" begin="926" end="931" status="0" certainty="0"/>
+<problem value="Acquired deformity" begin="904" end="922" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="chest" begin="926" end="931" status="0" certainty="0" cui="C1521735;C0817096" tui="T080;T029" rank="797;272" code="NO-CODE" sourceType="NCI;MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="1047" end="1120" sentText="For the surgery, assign the following ICD-10-PCS procedure codes: 0PW104Z">
+<RelationSet id="742">
+<procedure value="surgery" begin="1055" end="1062" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

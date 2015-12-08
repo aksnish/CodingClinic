@@ -1,0 +1,139 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="903">
+<Paragraph pgNo="1" begin="0" end="383">
+<Sentence sentNo="1" begin="0" end="64" sentText="Question: A patient with melena presents for upper GI endoscopy.">
+<RelationSet id="1317">
+<problem value="melena" begin="25" end="31" status="0" certainty="1" cui="C0025222;C3241945;C0474585" tui="T046;T047;T184" rank="797;765;592" code="NO-CODE" sourceType="CCS;SNOMEDCTUS;MEDCIN"/>
+</RelationSet>
+<RelationSet id="1318">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="upper" begin="45" end="50" status="0" certainty="1"/>
+<procedure value="GI endoscopy" begin="51" end="63" status="0" certainty="1"/>
+</Relation>
+<modifier value="upper" begin="45" end="50" status="0" certainty="1" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<modifier value="GI" begin="51" end="53" status="0" certainty="1" cui="C0017187;C1415142;C3539617;C0017540;C0521362;C1551090;C1136206;C1553044" tui="T080;T028;T078;T083;T082;T081;T081;T081" rank="597;596;572;548;530;519;519;519" code="NO-CODE" sourceType="OMIM;OMIM;NCI;NCI;CCPSS;NCI;NCI;NCI"/>
+<procedure value="upper GI endoscopy" begin="45" end="63" status="0" certainty="1" cui="C0079304" tui="T060" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="upper;endoscopy" begin="45;54" end="50;63" status="0" certainty="1" cui="C0017195" tui="T060" rank="530" code="NO-CODE" sourceType="NCI"/>
+<procedure value="endoscopy" begin="54" end="63" status="0" certainty="1" cui="C0014245;C1552424" tui="T060;T073,T093" rank="795;366" code="NO-CODE" sourceType="ICPC2P;HL7V3.0"/>
+<procedure value="upper GI" begin="45" end="53" status="0" certainty="1" cui="C0203057" tui="T060" rank="575" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="65" end="158" sentText="An endoscopy was introduced through the mouth and advanced to the third part of the duodenum.">
+<RelationSet id="1319">
+<procedure value="endoscopy;mouth" begin="68;105" end="77;110" status="0" certainty="0" cui="C0192035" tui="T060" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="endoscopy" begin="68" end="77" status="0" certainty="0" cui="C0014245;C1552424" tui="T060;T073,T093" rank="795;366" code="NO-CODE" sourceType="ICPC2P;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1320">
+<anatomicalStructure value="mouth" begin="105" end="110" status="0" certainty="0" cui="C0442027;C0226896;C0230028;C1267547;C1278910;C1272919;C1527415;C2584309" tui="T082;T030;T029;T029;T029;T122;T169;T040" rank="797;795;765;765;765;575;575;509" code="NO-CODE" sourceType="RCD;LCH;UWDA;SNOMEDCTUS;SNOMEDCTUS;NCI;SNOMEDCTUS;ICF-CY"/>
+</RelationSet>
+<RelationSet id="1321">
+<anatomicalStructure value="third part;duodenum" begin="131;149" end="141;157" status="0" certainty="0" cui="C1280328;C0227302" tui="T029;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<anatomicalStructure value="part;duodenum" begin="137;149" end="141;157" status="0" certainty="0" cui="C0447514" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="duodenum" begin="149" end="157" status="0" certainty="0" cui="C0013303;C1278921;C0496869;C0153426" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="159" end="234" sentText="An area of angiodysplasia was found in the gastric fundus which was oozing.">
+<RelationSet id="1322">
+<problem value="angiodysplasia;gastric" begin="170;202" end="184;209" status="0" certainty="0" cui="C0744273" tui="T047" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="angiodysplasia" begin="170" end="184" status="0" certainty="0" cui="C0085411;C0267370;C0334066" tui="T047;T047;T169" rank="797;765;703" code="NO-CODE" sourceType="MSH;RCD;SNMI"/>
+</RelationSet>
+<RelationSet id="1323">
+<anatomicalStructure value="gastric fundus" begin="202" end="216" status="0" certainty="0" cui="C0017129;C0153420" tui="T023;T191" rank="797;610" code="NO-CODE" sourceType="MSH;ICD10"/>
+<anatomicalStructure value="gastric" begin="202" end="209" status="0" certainty="0" cui="C0038351;C1704242;C1278920;C0496905;C0153943;C0154060;C1517454;C0872393" tui="T023;T080;T023;T191;T191;T191;T024;T061" rank="797;767;765;610;610;610;572;373" code="NO-CODE" sourceType="LCH;RCD;SNOMEDCTUS;ICD10;ICD10;ICD10;NCI;ICD10AM"/>
+<anatomicalStructure value="fundus" begin="210" end="216" status="0" certainty="0" cui="C0740422;C0227817;C0016823;C0227254" tui="T023;T023;T029;T023" rank="797;765;765;234" code="NO-CODE" sourceType="CCPSS;SNOMEDCTUS;MDR;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="235" end="288" sentText="This area was successfully injected with epinephrine.">
+<RelationSet id="1323">
+<procedure value="injected" begin="262" end="270" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1324">
+<med value="epinephrine" begin="276" end="287" status="0" certainty="0" cui="C0014563;C0201998" tui="T109,T121,T124,T125;T059" rank="797;652" code="NO-CODE" sourceType="MMSL;MDR"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="289" end="382" sentText="Should the injection of epinephrine done during an esophagogastroduodenoscopy (EGD) be coded?">
+<RelationSet id="1325">
+<procedure value="injection;epinephrine" begin="300;313" end="309;324" status="0" certainty="0" cui="C0730534" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="injection" begin="300" end="309" status="0" certainty="0" cui="C1828121;C1272883;C1533685;C0021485" tui="T169;T122;T061;T061" rank="795;767;767;151" code="NO-CODE" sourceType="MSH;NCI;ICPC2P;CHV"/>
+</RelationSet>
+<RelationSet id="1326">
+<med value="epinephrine" begin="313" end="324" status="0" certainty="0" cui="C0014563;C0201998" tui="T109,T121,T124,T125;T059" rank="797;652" code="NO-CODE" sourceType="MMSL;MDR"/>
+</RelationSet>
+<RelationSet id="1327">
+<procedure value="esophagogastroduodenoscopy" begin="340" end="366" status="0" certainty="0" cui="C0079304" tui="T060" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="1328">
+<procedure value="EGD" begin="368" end="371" status="0" certainty="0" cui="C0079304" tui="T060" rank="519" code="NO-CODE" sourceType="AOD"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="384" end="902">
+<Sentence sentNo="6" begin="384" end="474" sentText="Answer: The area of oozing in the gastric fundus was treated by the epinephrine injection.">
+<RelationSet id="1329">
+<procedure value="epinephrine injection" begin="452" end="473" status="0" certainty="0" cui="C0730534" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="epinephrine" begin="452" end="463" status="0" certainty="0" cui="C0014563;C0201998" tui="T109,T121,T124,T125;T059" rank="797;652" code="NO-CODE" sourceType="MMSL;MDR"/>
+<procedure value="injection" begin="464" end="473" status="0" certainty="0" cui="C1828121;C1272883;C1533685;C0021485" tui="T169;T122;T061;T061" rank="795;767;767;151" code="NO-CODE" sourceType="MSH;NCI;ICPC2P;CHV"/>
+</RelationSet>
+<RelationSet id="1330">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<finding value="oozing" begin="404" end="410" status="0" certainty="0"/>
+<anatomicalStructure value="gastric fundus" begin="418" end="432" status="0" certainty="0"/>
+</Relation>
+<finding value="oozing" begin="404" end="410" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<anatomicalStructure value="gastric" begin="418" end="425" status="0" certainty="0" cui="C0038351;C1704242;C1278920;C0496905;C0153943;C0154060;C1517454;C0872393" tui="T023;T080;T023;T191;T191;T191;T024;T061" rank="797;767;765;610;610;610;572;373" code="NO-CODE" sourceType="LCH;RCD;SNOMEDCTUS;ICD10;ICD10;ICD10;NCI;ICD10AM"/>
+<anatomicalStructure value="fundus" begin="426" end="432" status="0" certainty="0" cui="C0017129;C0740422;C0227817;C0016823;C0227254" tui="T023;T023;T023;T029;T023" rank="797;797;765;765;234" code="NO-CODE" sourceType="MSH;CCPSS;SNOMEDCTUS;MDR;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="475" end="614" sentText="Normally injections are not coded in the inpatient setting, and substances injected during an operative procedure are not coded separately.">
+<RelationSet id="1331">
+<procedure value="injections" begin="484" end="494" status="0" certainty="0" cui="C1828121;C1533685;C0021485" tui="T169;T061;T061" rank="795;748;150" code="NO-CODE" sourceType="MSH;LCH;CHV"/>
+</RelationSet>
+<RelationSet id="1332">
+<procedure value="substances injected" begin="539" end="558" status="0" certainty="-2" cui="C0559599;C0449894;C0683092" tui="T061;T169;T121" rank="767;767;481" code="NO-CODE" sourceType="RCD;RCD;AOD"/>
+<procedure value="injected;procedure" begin="550;579" end="558;588" status="0" certainty="-2" cui="C1533685;C1828121;C0021485" tui="T061;T169;T061" rank="797;576;353" code="NO-CODE" sourceType="RCD;NCI;CPT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="615" end="800" sentText="However, since the only therapeutic part of the procedure is the injection, the injection procedure can be used to indicate that the procedure was more than just a diagnostic endoscopy.">
+<RelationSet id="1333">
+<modifier value="injection" begin="680" end="689" status="0" certainty="0" cui="C1272883" tui="T122" rank="767" code="NO-CODE" sourceType="NCI"/>
+<procedure value="procedure;injection" begin="663;680" end="672;689" status="0" certainty="0" cui="C1533685;C1828121;C0021485" tui="T061;T169;T061" rank="797;795;353" code="NO-CODE" sourceType="ICPC2P;MSH;CHV"/>
+</RelationSet>
+<RelationSet id="1334">
+<procedure value="procedure" begin="705" end="714" status="0" certainty="0" cui="C0184661;C0025664;C2700391;C1948041;C3274430;C3538935;C3539779;C1546467" tui="T060,T061;T170;T052;T061;T058;T078;T170;T078" rank="792;789;576;575;572;571;571;366" code="NO-CODE" sourceType="MSH;MSH;NCI;NCI;NCI;NCI;NCI;HL7V2.5"/>
+<procedure value="injection" begin="695" end="704" status="0" certainty="0" cui="C1533685;C1828121;C1272883;C0021485" tui="T061;T169;T122;T061" rank="797;795;767;353" code="NO-CODE" sourceType="ICPC2P;MSH;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="1335">
+<procedure value="procedure;diagnostic endoscopy" begin="748;779" end="757;799" status="0" certainty="0" cui="C0497101" tui="T060" rank="797" code="NO-CODE" sourceType="ICPC"/>
+<procedure value="procedure;diagnostic" begin="748;779" end="757;789" status="0" certainty="0" cui="C0430022;C1546908" tui="T060;T169" rank="797;355" code="NO-CODE" sourceType="SNOMEDCTUS;HL7V2.5"/>
+<procedure value="endoscopy" begin="790" end="799" status="0" certainty="0" cui="C0014245;C1552424" tui="T060;T073,T093" rank="795;366" code="NO-CODE" sourceType="ICPC2P;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="801" end="901" sentText="Assign the following ICD-10-PCS codes for the upper GI endoscopy with epinephrine injection: 0DJ08ZZ">
+<RelationSet id="1336">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="upper" begin="847" end="852" status="0" certainty="0"/>
+<procedure value="GI endoscopy" begin="853" end="865" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="epinephrine injection" begin="871" end="892" status="0" certainty="0"/>
+<modifier value="upper" begin="847" end="852" status="0" certainty="0"/>
+<procedure value="GI endoscopy" begin="853" end="865" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="epinephrine injection" begin="871" end="892" status="0" certainty="0"/>
+<modifier value="upper" begin="847" end="852" status="0" certainty="0"/>
+</Relation>
+<procedure value="epinephrine injection" begin="871" end="892" status="0" certainty="0" cui="C0730534" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="epinephrine" begin="871" end="882" status="0" certainty="0" cui="C0014563;C0201998" tui="T109,T121,T124,T125;T059" rank="797;652" code="NO-CODE" sourceType="MMSL;MDR"/>
+<procedure value="injection" begin="883" end="892" status="0" certainty="0" cui="C1828121;C1272883;C1533685;C0021485" tui="T169;T122;T061;T061" rank="795;767;767;151" code="NO-CODE" sourceType="MSH;NCI;ICPC2P;CHV"/>
+<modifier value="upper" begin="847" end="852" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<modifier value="GI" begin="853" end="855" status="0" certainty="0" cui="C0017187;C1415142;C3539617;C0017540;C0521362;C1551090;C1136206;C1553044" tui="T080;T028;T078;T083;T082;T081;T081;T081" rank="597;596;572;548;530;519;519;519" code="NO-CODE" sourceType="OMIM;OMIM;NCI;NCI;CCPSS;NCI;NCI;NCI"/>
+<procedure value="upper GI endoscopy" begin="847" end="865" status="0" certainty="0" cui="C0079304" tui="T060" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="upper;endoscopy" begin="847;856" end="852;865" status="0" certainty="0" cui="C0017195" tui="T060" rank="530" code="NO-CODE" sourceType="NCI"/>
+<procedure value="endoscopy" begin="856" end="865" status="0" certainty="0" cui="C0014245;C1552424" tui="T060;T073,T093" rank="795;366" code="NO-CODE" sourceType="ICPC2P;HL7V3.0"/>
+<procedure value="upper GI" begin="847" end="855" status="0" certainty="0" cui="C0203057" tui="T060" rank="575" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,53 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="885">
+<Paragraph pgNo="1" begin="0" end="511">
+<Sentence sentNo="1" begin="0" end="127" sentText="Question: The physician documents “suspected sepsis” in a preterm newborn and treats the newborn with antibiotics for two days.">
+<RelationSet id="2056">
+<problem value="sepsis;newborn" begin="45;66" end="51;73" status="0" certainty="1" cui="C0456103" tui="T047" rank="506" code="NO-CODE" sourceType="ICPC2ICD10ENG"/>
+<problem value="sepsis" begin="45" end="51" status="0" certainty="1" cui="C0243026;C1090821;C0333534;C0036690" tui="T047;T204;T169;T047" rank="797;751;703;575" code="NO-CODE" sourceType="COSTAR;NCBI;SNMI;NCI"/>
+</RelationSet>
+<RelationSet id="2057">
+<med value="antibiotics" begin="102" end="113" status="0" certainty="0" cui="C0003232" tui="T195" rank="797" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="128" end="184" sentText="The blood cultures are negative and sepsis is ruled out.">
+<RelationSet id="2057">
+<lab value="blood cultures" begin="132" end="146" status="0" certainty="-2" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2059">
+<problem value="sepsis" begin="164" end="170" status="0" certainty="-2" cui="C0243026;C1090821;C0333534;C0036690" tui="T047;T204;T169;T047" rank="797;751;703;575" code="NO-CODE" sourceType="COSTAR;NCBI;SNMI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="185" end="226" sentText="The mother is without infectious disease.">
+<RelationSet id="2060">
+<problem value="infectious" begin="207" end="217" status="2" certainty="-2" cui="C0009450;C1550587" tui="T047;T078" rank="791;366" code="NO-CODE" sourceType="MSH;HL7V3.0"/>
+<problem value="disease" begin="218" end="225" status="2" certainty="-2" cui="C0012634;C1422572;C1424810;C1416989;C3273340;C3540595;C3273341;C1331418" tui="T047;T028;T028;T028;T028;T028;T116;T041" rank="797;600;596;596;575;575;575;575" code="NO-CODE" sourceType="LCH;HGNC;OMIM;HGNC;NCI;NCI;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="227" end="367" sentText="ICD-9-CM instructs the use of a code from category V29 Observation and evaluation of newborns and infants for suspected condition not found.">
+</Sentence>
+<Sentence sentNo="5" begin="368" end="510" sentText="What is the correct code in ICD-10-CM to capture a suspected infection in a newborn, ruled out, with a mother who does not have the infection?">
+<RelationSet id="2061">
+<problem value="infection" begin="429" end="438" status="0" certainty="1" cui="C0009450;C1556682;C1550587" tui="T047;T033;T078" rank="795;551;366" code="NO-CODE" sourceType="LCH;NCI;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="2062">
+<problem value="infection" begin="500" end="509" status="0" certainty="-2" cui="C0009450;C1556682;C1550587" tui="T047;T033;T078" rank="795;551;366" code="NO-CODE" sourceType="LCH;NCI;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="512" end="884">
+<Sentence sentNo="6" begin="512" end="672" sentText="Answer: There is no code in ICD-10-CM that accurately reflects a suspected condition in a newborn, ruled out, when the mother does not have a related condition.">
+</Sentence>
+<Sentence sentNo="7" begin="673" end="883" sentText="Therefore, assign code P00.2, Newborn (suspected to be) affected by maternal infectious and parasitic diseases, when the physician has documented “suspected sepsis” in a newborn which is subsequently ruled out.">
+<RelationSet id="2063">
+<problem value="parasitic diseases" begin="765" end="783" status="0" certainty="1" cui="C0030499;C0747256" tui="T047;T047" rank="797;765" code="NO-CODE" sourceType="MSH;SNM"/>
+<problem value="diseases" begin="775" end="783" status="0" certainty="1" cui="C0012634" tui="T047" rank="797" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+<RelationSet id="2064">
+<problem value="sepsis;newborn" begin="830;843" end="836;850" status="0" certainty="1" cui="C0456103" tui="T047" rank="506" code="NO-CODE" sourceType="ICPC2ICD10ENG"/>
+<problem value="sepsis" begin="830" end="836" status="0" certainty="1" cui="C0243026;C1090821;C0333534;C0036690" tui="T047;T204;T169;T047" rank="797;751;703;575" code="NO-CODE" sourceType="COSTAR;NCBI;SNMI;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

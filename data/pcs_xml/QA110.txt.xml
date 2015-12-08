@@ -1,0 +1,72 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="581">
+<Paragraph pgNo="1" begin="0" end="425">
+<Sentence sentNo="1" begin="0" end="207" sentText="Question: A patient is admitted to a long-term care hospital from an acute care facility with persistent respiratory failure following traumatic quadriplegia after being involved in a motor vehicle accident.">
+<RelationSet id="2219">
+<problem value="motor vehicle accident" begin="184" end="206" status="0" certainty="-2" cui="C2939181;C1553508;C0000932" tui="T051;T170;T037" rank="797;366;150" code="NO-CODE" sourceType="COSTAR;HL7V3.0;CHV"/>
+<problem value="accident" begin="198" end="206" status="0" certainty="-2" cui="C0000924;C0521129;C1961149;C2046386;C1546397" tui="T037;T169;T067;T033;T078" rank="797;797;767;592;355" code="NO-CODE" sourceType="ICPC2P;SNMI;SNOMEDCTUS;MEDCIN;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2220">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="traumatic" begin="135" end="144" status="0" certainty="-2"/>
+<problem value="respiratory failure" begin="105" end="124" status="0" certainty="-2"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="persistent" begin="94" end="104" status="0" certainty="0"/>
+<problem value="respiratory failure" begin="105" end="124" status="0" certainty="-2"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="traumatic" begin="135" end="144" status="0" certainty="-2"/>
+<problem value="quadriplegia" begin="145" end="157" status="0" certainty="-2"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="traumatic" begin="135" end="144" status="0" certainty="-2"/>
+<problem value="quadriplegia" begin="145" end="157" status="0" certainty="-2"/>
+<modifier value="persistent" begin="94" end="104" status="0" certainty="0"/>
+<problem value="respiratory failure" begin="105" end="124" status="0" certainty="-2"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="quadriplegia" begin="145" end="157" status="0" certainty="-2"/>
+<modifier value="persistent" begin="94" end="104" status="0" certainty="0"/>
+</Relation>
+<problem value="quadriplegia" begin="145" end="157" status="0" certainty="-2" cui="C0034372" tui="T047" rank="797" code="NO-CODE" sourceType="COSTAR"/>
+<modifier value="persistent" begin="94" end="104" status="0" certainty="0" cui="C0205322;C0750508" tui="T079;T078" rank="750;490" code="NO-CODE" sourceType="RCD;CCPSS"/>
+<problem value="respiratory failure" begin="105" end="124" status="0" certainty="-2" cui="C1145670" tui="T047" rank="797" code="NO-CODE" sourceType="MEDLINEPLUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="208" end="305" sentText="The patient is being maintained on continuous positive airway pressure [CPAP] via a tracheostomy.">
+<RelationSet id="2221">
+<modifier value="via;tracheostomy" begin="286;292" end="289;304" status="0" certainty="1" cui="C0393370" tui="T082" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="tracheostomy" begin="292" end="304" status="0" certainty="1" cui="C0040590;C1875833;C1700189" tui="T061;T074;T169" rank="795;739;151" code="NO-CODE" sourceType="MSH;VANDF;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="306" end="424" sentText="Since the patient is receiving CPAP for 45 hours via his tracheostomy would this be considered mechanical ventilation?">
+<RelationSet id="2222">
+<procedure value="CPAP" begin="337" end="341" status="0" certainty="0" cui="C0199451;C1424863" tui="T061;T028" rank="644;596" code="NO-CODE" sourceType="RCD;HGNC"/>
+</RelationSet>
+<RelationSet id="2223">
+<modifier value="via;tracheostomy" begin="355;363" end="358;375" status="0" certainty="0" cui="C0393370" tui="T082" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="tracheostomy" begin="363" end="375" status="0" certainty="0" cui="C0040590;C1875833;C1700189" tui="T061;T074;T169" rank="795;739;151" code="NO-CODE" sourceType="MSH;VANDF;CHV"/>
+</RelationSet>
+<RelationSet id="2224">
+<procedure value="mechanical ventilation" begin="401" end="423" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="401" end="411" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="426" end="580">
+<Sentence sentNo="4" begin="426" end="534" sentText="Answer: Continuous positive airway pressure delivered via a tracheostomy is coded as mechanical ventilation.">
+<RelationSet id="2225">
+<modifier value="via;tracheostomy" begin="480;486" end="483;498" status="0" certainty="1" cui="C0393370" tui="T082" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="tracheostomy" begin="486" end="498" status="0" certainty="1" cui="C0040590;C1875833;C1700189" tui="T061;T074;T169" rank="795;739;151" code="NO-CODE" sourceType="MSH;VANDF;CHV"/>
+</RelationSet>
+<RelationSet id="2226">
+<procedure value="mechanical ventilation" begin="511" end="533" status="0" certainty="1" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="511" end="521" status="0" certainty="1" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="535" end="580" sentText="Assign the following ICD-10-PCS code: 5A1945Z">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

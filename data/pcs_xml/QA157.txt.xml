@@ -1,0 +1,56 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="395">
+<Paragraph pgNo="1" begin="0" end="167">
+<Sentence sentNo="1" begin="0" end="135" sentText="Question: The above patient also had colostomy creation at the same time that the lower anterior resection of the rectum was performed.">
+<RelationSet id="139">
+<procedure value="colostomy" begin="37" end="46" status="0" certainty="1" cui="C0029473;C0009410;C0009411;C0595852" tui="T061;T061;T061;T169" rank="795;795;271;233" code="NO-CODE" sourceType="MEDLINEPLUS;MSH;HCPT;SNOMEDCTUS"/>
+<procedure value="creation" begin="47" end="55" status="0" certainty="1" cui="C1706214;C0441513" tui="T052;T061" rank="797;765" code="NO-CODE" sourceType="NCI;RCD"/>
+</RelationSet>
+<RelationSet id="140">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="rectum" begin="114" end="120" status="0" certainty="0"/>
+<procedure value="resection" begin="97" end="106" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="rectum" begin="114" end="120" status="0" certainty="0"/>
+<procedure value="resection" begin="97" end="106" status="0" certainty="0"/>
+<modifier value="anterior" begin="88" end="96" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="resection" begin="97" end="106" status="0" certainty="0"/>
+<modifier value="anterior" begin="88" end="96" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="rectum" begin="114" end="120" status="0" certainty="0" cui="C0034896;C1278926;C0154062;C0496867;C0496908;C0869814" tui="T023;T023;T191;T191;T191;T058" rank="797;765;610;610;610;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;ICD10;ICD10AM"/>
+<procedure value="lower anterior resection;rectum" begin="82;114" end="106;120" status="0" certainty="0" cui="C1282272" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="anterior resection;rectum" begin="88;114" end="106;120" status="0" certainty="0" cui="C0193083" tui="T061" rank="767" code="NO-CODE" sourceType="ICD10AM"/>
+<procedure value="resection;rectum" begin="97;114" end="106;120" status="0" certainty="0" cui="C0193062" tui="T061" rank="767" code="NO-CODE" sourceType="CCS"/>
+<procedure value="resection" begin="97" end="106" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="765;151" code="NO-CODE" sourceType="RCD;CHV"/>
+<modifier value="anterior" begin="88" end="96" status="0" certainty="0" cui="C0205094" tui="T169" rank="797" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="136" end="166" sentText="Should the colostomy be coded?">
+<RelationSet id="141">
+<procedure value="colostomy" begin="147" end="156" status="0" certainty="0" cui="C0029473;C0009410;C0009411;C0595852;C0481493" tui="T061;T061;T061;T169;T033" rank="795;795;271;233;151" code="NO-CODE" sourceType="MEDLINEPLUS;MSH;HCPT;SNOMEDCTUS;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="168" end="394">
+<Sentence sentNo="3" begin="168" end="234" sentText="Answer: Yes, creation of the colostomy should be separately coded.">
+<RelationSet id="142">
+<procedure value="colostomy" begin="197" end="206" status="0" certainty="0" cui="C0029473;C0009410;C0009411;C0595852;C0481493" tui="T061;T061;T061;T169;T033" rank="795;795;271;233;151" code="NO-CODE" sourceType="MEDLINEPLUS;MSH;HCPT;SNOMEDCTUS;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="235" end="346" sentText="In this case the sigmoid colon was bypassed to skin, and is appropriately coded to the root operation “Bypass.”">
+<RelationSet id="143">
+<anatomicalStructure value="sigmoid colon" begin="252" end="265" status="0" certainty="0" cui="S0000762;C0227391;C0496864;C0153436" tui="t061;T023;T191;T191" rank="800;797;610;610" code="NO-CODE" sourceType="EZDI;HL7V2.5;ICD10;ICD10"/>
+<anatomicalStructure value="colon" begin="260" end="265" status="0" certainty="0" cui="C1623185;C0009368;C0684195;C1281569;C2684091;C0496907;C0154061;C1337205;C1446425" tui="T121;T023;T002;T023;T074;T191;T191;T168;T129" rank="797;795;795;765;739;610;610;562;416" code="NO-CODE" sourceType="MMSL;MTHMST;AOD;SNOMEDCTUS;VANDF;ICD10;ICD10;NCI;LNC"/>
+</RelationSet>
+<RelationSet id="143">
+<anatomicalStructure value="skin" begin="282" end="286" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="347" end="393" sentText="Assign the ICD-10-PCS code as follows: 0D1N0Z4">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

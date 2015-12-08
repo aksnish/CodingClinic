@@ -1,0 +1,166 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1240">
+<Paragraph pgNo="1" begin="0" end="339">
+<Sentence sentNo="1" begin="0" end="161" sentText="Question: A five-month-old with sagittal synostosis (craniosynostosis of the sagittal suture) presents for cranial vault reconstruction with orbital advancement.">
+<RelationSet id="760">
+<problem value="sagittal;craniosynostosis" begin="32;53" end="40;69" status="0" certainty="1" cui="C0432123" tui="T019" rank="765" code="NO-CODE" sourceType="RCD"/>
+<problem value="synostosis;sagittal" begin="41;77" end="51;85" status="0" certainty="1" cui="C0265534" tui="T019" rank="790" code="NO-CODE" sourceType="SNMI"/>
+<problem value="synostosis" begin="41" end="51" status="0" certainty="1" cui="C0391889;C0039093" tui="T030;T019" rank="797;795" code="NO-CODE" sourceType="SNM;MSH"/>
+<anatomicalStructure value="sagittal" begin="32" end="40" status="0" certainty="1" cui="C0205129;C0935598" tui="T082;T029" rank="797;575" code="NO-CODE" sourceType="SNMI;NCI"/>
+</RelationSet>
+<RelationSet id="761">
+<procedure value="reconstruction" begin="121" end="135" status="0" certainty="0" cui="C0524865;C0020912" tui="T061;T066" rank="765;575" code="NO-CODE" sourceType="RCD;NCI"/>
+<anatomicalStructure value="cranial" begin="107" end="114" status="0" certainty="0" cui="C3163632;C0037303;C1279062" tui="T082;T023;T023" rank="797;791;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="762">
+<modifier value="advancement" begin="149" end="160" status="0" certainty="0" cui="C0441478" tui="T169" rank="765" code="NO-CODE" sourceType="RCD"/>
+<modifier value="orbital" begin="141" end="148" status="0" certainty="0" cui="C0699036;C0684285" tui="T082;T044" rank="767;481" code="NO-CODE" sourceType="RCD;AOD"/>
+</RelationSet>
+<RelationSet id="763">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="craniosynostosis" begin="53" end="69" status="0" certainty="1"/>
+<medicalDevice value="sagittal suture" begin="77" end="92" status="0" certainty="1"/>
+</Relation>
+<problem value="craniosynostosis" begin="53" end="69" status="0" certainty="1" cui="C0010278;C1442871" tui="T019,T047;T028" rank="797;591" code="NO-CODE" sourceType="ICD10;HGNC"/>
+<medicalDevice value="suture" begin="86" end="92" status="0" certainty="1" cui="C0205368;C0038969;C0009068;C1705834;C1706068;C1546803" tui="T169;T074;T061;T073;T122;T170" rank="797;795;765;575;575;355" code="NO-CODE" sourceType="SNMI;MSH;SNM;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="162" end="261" sentText="The frontal bone was removed, reshaped and then utilized to reconstruct the deformity of the skull.">
+<RelationSet id="764">
+<anatomicalStructure value="frontal bone" begin="166" end="178" status="0" certainty="0" cui="C0016732;C1279052" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="frontal" begin="166" end="173" status="0" certainty="0" cui="C0016540;C0205123" tui="T029;T082" rank="797;765" code="NO-CODE" sourceType="MSH;RCD"/>
+<anatomicalStructure value="bone" begin="174" end="178" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="765">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="deformity" begin="238" end="247" status="0" certainty="0"/>
+<anatomicalStructure value="skull" begin="255" end="260" status="0" certainty="0"/>
+</Relation>
+<problem value="deformity" begin="238" end="247" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<anatomicalStructure value="skull" begin="255" end="260" status="0" certainty="0" cui="C0037303" tui="T023" rank="795" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="262" end="338" sentText="What is the appropriate root operation for the cranial vault reconstruction?">
+<RelationSet id="766">
+<procedure value="reconstruction" begin="323" end="337" status="0" certainty="0" cui="C0524865;C0020912" tui="T061;T066" rank="765;575" code="NO-CODE" sourceType="RCD;NCI"/>
+<anatomicalStructure value="cranial" begin="309" end="316" status="0" certainty="0" cui="C3163632;C0037303;C1279062" tui="T082;T023;T023" rank="797;791;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="340" end="1239">
+<Sentence sentNo="4" begin="340" end="412" sentText="Answer: Sagittal synostosis is the most common type of craniosynostosis.">
+<RelationSet id="767">
+<problem value="Sagittal synostosis" begin="348" end="367" status="0" certainty="0" cui="C0265534" tui="T019" rank="790" code="NO-CODE" sourceType="SNMI"/>
+<problem value="synostosis" begin="357" end="367" status="0" certainty="0" cui="C0391889;C0039093" tui="T030;T019" rank="797;795" code="NO-CODE" sourceType="SNM;MSH"/>
+<anatomicalStructure value="Sagittal" begin="348" end="356" status="0" certainty="0" cui="C0205129;C0935598" tui="T082;T029" rank="797;575" code="NO-CODE" sourceType="SNMI;NCI"/>
+</RelationSet>
+<RelationSet id="768">
+<problem value="craniosynostosis" begin="395" end="411" status="0" certainty="0" cui="C0010278;C1442871" tui="T019,T047;T028" rank="797;591" code="NO-CODE" sourceType="ICD10;HGNC"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="413" end="569" sentText="The condition occurs when the sagittal suture closes prematurely, and restricts the transverse growth of the skull, causing abnormal skull shape and length.">
+<RelationSet id="769">
+<medicalDevice value="suture" begin="452" end="458" status="0" certainty="0" cui="C0205368;C0038969;C0009068;C1705834;C1706068;C1546803" tui="T169;T074;T061;T073;T122;T170" rank="797;795;765;575;575;355" code="NO-CODE" sourceType="SNMI;MSH;SNM;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="770">
+<anatomicalStructure value="skull" begin="522" end="527" status="0" certainty="0" cui="C0037303" tui="T023" rank="795" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+<RelationSet id="771">
+<modifier value="abnormal" begin="537" end="545" status="0" certainty="0" cui="C0205161;C1704258;C2699333;C1550458" tui="T080;T033;T170;T078" rank="797;797;572;366" code="NO-CODE" sourceType="RCD;NCI;NCI;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="772">
+<anatomicalStructure value="skull" begin="546" end="551" status="0" certainty="0" cui="C0037303" tui="T023" rank="795" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="570" end="739" sentText="Cranial vault reconstruction also referred to as cranial vault reshaping remodels by repositioning the bones of the skull in order to enlarge the space within the vault.">
+<RelationSet id="773">
+<procedure value="reconstruction" begin="584" end="598" status="0" certainty="0" cui="C0524865;C0020912" tui="T061;T066" rank="765;575" code="NO-CODE" sourceType="RCD;NCI"/>
+<anatomicalStructure value="Cranial" begin="570" end="577" status="0" certainty="0" cui="C3163632;C0037303;C1279062" tui="T082;T023;T023" rank="797;791;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="774">
+<procedure value="cranial;reshaping" begin="619;633" end="626;642" status="0" certainty="0" cui="C1997681" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="cranial" begin="619" end="626" status="0" certainty="0" cui="C3163632;C0037303;C1279062" tui="T082;T023;T023" rank="797;791;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="775">
+<anatomicalStructure value="bones;skull" begin="673;686" end="678;691" status="0" certainty="0" cui="C1266918;C0037303" tui="T023;T023" rank="765;692" code="NO-CODE" sourceType="SNOMEDCTUS;UWDA"/>
+<anatomicalStructure value="bones" begin="673" end="678" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T022;T023;T031;T170" rank="795;792;790;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="776">
+<anatomicalStructure value="bones;skull" begin="673;686" end="678;691" status="0" certainty="0" cui="C1266918" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="skull" begin="686" end="691" status="0" certainty="0" cui="C0037303" tui="T023" rank="795" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+<RelationSet id="776">
+<anatomicalStructure value="vault" begin="733" end="738" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="740" end="861" sentText="The intent of the surgery is to relieve pressure, allowing room for the brain to grow, and a more natural appearing head.">
+<RelationSet id="777">
+<procedure value="surgery" begin="758" end="765" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="778">
+<anatomicalStructure value="brain" begin="812" end="817" status="0" certainty="0" cui="C0006104;C1269537" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="779">
+<anatomicalStructure value="head" begin="856" end="860" status="0" certainty="1" cui="C0205096;C0018670;C1281590;C2348941;C1706305;C1708330;C0876917" tui="T082;T029;T023;T170;T073;T073;T061" rank="797;797;765;576;575;575;373" code="NO-CODE" sourceType="SNMI;CST;SNOMEDCTUS;NCI;NCI;NCI;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="862" end="1060" sentText="During surgery, an incision is done over the top of the head from ear to ear; the skull is removed; bone is dissected from the brain; and cuts are made in the bones of the skull to reshape the head.">
+<RelationSet id="780">
+<procedure value="surgery" begin="869" end="876" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="781">
+<procedure value="incision" begin="881" end="889" status="0" certainty="0" cui="C0184898;C2096041" tui="T061;T033" rank="767;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+</RelationSet>
+<RelationSet id="782">
+<anatomicalStructure value="top;head" begin="907;918" end="910;922" status="0" certainty="0" cui="C0230003" tui="T029" rank="765" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="head" begin="918" end="922" status="0" certainty="0" cui="C0205096;C0018670;C1281590;C2348941;C1706305;C1708330;C0876917" tui="T082;T029;T023;T170;T073;T073;T061" rank="797;797;765;576;575;575;373" code="NO-CODE" sourceType="SNMI;CST;SNOMEDCTUS;NCI;NCI;NCI;ICD10AM"/>
+</RelationSet>
+<RelationSet id="783">
+<anatomicalStructure value="ear" begin="928" end="931" status="0" certainty="0" cui="C0521422;C0013443;C0521421;C1418197;C1414437;C1522191;C1272926;C1550629;C1546608" tui="T082;T023;T023;T028;T028;T169;T122;T031;T170" rank="797;795;765;596;587;575;575;366;355" code="NO-CODE" sourceType="SNMI;MSH;RCD;HGNC;HGNC;SNOMEDCTUS;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="784">
+<anatomicalStructure value="ear" begin="935" end="938" status="0" certainty="0" cui="C0521422;C0013443;C0521421;C1418197;C1414437;C1522191;C1272926;C1550629;C1546608" tui="T082;T023;T023;T028;T028;T169;T122;T031;T170" rank="797;795;765;596;587;575;575;366;355" code="NO-CODE" sourceType="SNMI;MSH;RCD;HGNC;HGNC;SNOMEDCTUS;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="785">
+<anatomicalStructure value="skull" begin="944" end="949" status="0" certainty="0" cui="C0037303" tui="T023" rank="795" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+<RelationSet id="785">
+<anatomicalStructure value="bone" begin="962" end="966" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="785">
+<procedure value="dissected" begin="970" end="979" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="786">
+<anatomicalStructure value="brain" begin="989" end="994" status="0" certainty="0" cui="C0006104;C1269537" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="787">
+<anatomicalStructure value="bones;skull" begin="1021;1034" end="1026;1039" status="0" certainty="0" cui="C1266918;C0037303" tui="T023;T023" rank="765;692" code="NO-CODE" sourceType="SNOMEDCTUS;UWDA"/>
+<anatomicalStructure value="bones;head" begin="1021;1055" end="1026;1059" status="0" certainty="0" cui="C0545595" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="bones" begin="1021" end="1026" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T022;T023;T031;T170" rank="795;792;790;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="788">
+<anatomicalStructure value="bones;skull" begin="1021;1034" end="1026;1039" status="0" certainty="0" cui="C1266918" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="skull" begin="1034" end="1039" status="0" certainty="0" cui="C0037303" tui="T023" rank="795" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+<RelationSet id="789">
+<anatomicalStructure value="head" begin="1055" end="1059" status="0" certainty="0" cui="C0205096;C0018670;C1281590;C2348941;C1706305;C1708330;C0876917" tui="T082;T029;T023;T170;T073;T073;T061" rank="797;797;765;576;575;575;373" code="NO-CODE" sourceType="SNMI;CST;SNOMEDCTUS;NCI;NCI;NCI;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="1061" end="1156" sentText="The bone is then put back in place, and may be held together with absorbable plates or sutures.">
+<RelationSet id="790">
+<anatomicalStructure value="bone" begin="1065" end="1069" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="791">
+<medicalDevice value="absorbable;sutures" begin="1127;1148" end="1137;1155" status="0" certainty="-1" cui="C0461643" tui="T074" rank="767" code="NO-CODE" sourceType="RCD"/>
+<medicalDevice value="sutures" begin="1148" end="1155" status="0" certainty="-1" cui="C0205368;C0038969;C0009068;C1705834;C1706068;C1546803" tui="T169;T074;T061;T073;T122;T170" rank="797;795;765;575;575;355" code="NO-CODE" sourceType="SNMI;MSH;SNM;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="1157" end="1239" sentText="For the cranial vault reconstruction, assign the following ICD-10PCS code: 0NS00ZZ">
+<RelationSet id="792">
+<procedure value="reconstruction" begin="1179" end="1193" status="0" certainty="0" cui="C0524865;C0020912" tui="T061;T066" rank="765;575" code="NO-CODE" sourceType="RCD;NCI"/>
+<anatomicalStructure value="cranial" begin="1165" end="1172" status="0" certainty="0" cui="C3163632;C0037303;C1279062" tui="T082;T023;T023" rank="797;791;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

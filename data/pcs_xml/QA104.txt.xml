@@ -1,0 +1,46 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="349">
+<Paragraph pgNo="1" begin="0" end="231">
+<Sentence sentNo="1" begin="0" end="131" sentText="Question: A patient was admitted in acute respiratory failure, and was intubated and placed on mechanical ventilation for 23 hours.">
+<RelationSet id="1256">
+<procedure value="intubated" begin="71" end="80" status="0" certainty="-2" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1257">
+<procedure value="mechanical ventilation" begin="95" end="117" status="0" certainty="-2" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="95" end="105" status="0" certainty="-2" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+<RelationSet id="1258">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="respiratory failure" begin="42" end="61" status="0" certainty="-2"/>
+<modifier value="acute" begin="36" end="41" status="0" certainty="1"/>
+</Relation>
+<problem value="acute respiratory failure" begin="36" end="61" status="0" certainty="-2" cui="C0264490" tui="T047" rank="797" code="NO-CODE" sourceType="ICD10"/>
+<problem value="respiratory failure" begin="42" end="61" status="0" certainty="-2" cui="C1145670" tui="T047" rank="797" code="NO-CODE" sourceType="MEDLINEPLUS"/>
+<problem value="acute;failure" begin="36;54" end="41;61" status="0" certainty="-2" cui="C0231176" tui="T046" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<modifier value="acute" begin="36" end="41" status="0" certainty="1" cui="C0205178;C1547229;C1547295" tui="T079;T170;T170" rank="797;355;355" code="NO-CODE" sourceType="RCD;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="132" end="230" sentText="Should the endotracheal (ET) intubation be separately coded along with the mechanical ventilation?">
+<RelationSet id="1259">
+<procedure value="endotracheal;intubation" begin="143;161" end="155;171" status="0" certainty="0" cui="C0021932" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="intubation" begin="161" end="171" status="0" certainty="0" cui="C0021925" tui="T061" rank="795" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+<RelationSet id="1260">
+<procedure value="mechanical ventilation" begin="207" end="229" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="207" end="217" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="232" end="348">
+<Sentence sentNo="3" begin="232" end="348" sentText="Answer: Yes, in this case, code both the mechanical ventilation and the insertion of the ET tube as follows: 5A1935Z">
+<RelationSet id="1261">
+<procedure value="mechanical ventilation" begin="273" end="295" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="273" end="283" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+<RelationSet id="1262">
+<medicalDevice value="tube" begin="324" end="328" status="0" certainty="0" cui="C1561954;C0175730;C1704474;C1427122;C1704731;C1704730;C1611794;C1547937" tui="T077;T074;T081;T028;T074;T074;T170;T170" rank="797;767;765;596;575;563;366;355" code="NO-CODE" sourceType="NCI;RCD;NCI;HGNC;NCI;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,113 @@
+<project name="CodingClinicLucene" default="compile" basedir=".">
+
+<!-- ===================== Property Definitions =========================== -->
+
+  <property file="build.properties"/>
+  <property file="${user.home}/build.properties"/>
+
+<!-- ==================== File and Directory Names ======================== -->
+	
+  <property name="app.name"       value="codingcliniclucene"/>
+  <property name="app.path"       value="/${app.name}"/>
+  <property name="app.version"    value="1.0-dev"/>
+  <property name="src.home"       value="${basedir}/src"/>
+  <property name="lib.home"       value="${basedir}/lib"/>
+  <property name="codingcliniclucene.jar"       value="${basedir}/jar"/> 
+  <property name="codingcliniclucene.classes"       value="${basedir}/classes"/>
+ 	
+<!--  ==================== Compilation Control Options ==================== -->
+
+  <property name="compile.debug"       value="true"/>
+  <property name="compile.deprecation" value="false"/>
+  <property name="compile.optimize"    value="true"/>
+
+<!-- ==================== Compilation Classpath =========================== -->
+
+  <path id="compile.classpath">
+    
+   <fileset dir="${lib.home}">
+      <include name="*.jar"/>
+    </fileset>
+  	
+  </path>
+
+<!-- ==================== Clean Target ==================================== -->
+
+  <target name="clean" description="Delete old build and hadoop directories">
+  	<delete  dir="${codingcliniclucene.classes}"/>
+  	<delete  dir="${codingcliniclucene.jar}"/>
+    <delete  file="${lib.home}/${app.name}.jar"/>
+  </target>
+
+<!-- ==================== Compile Target ================================== -->
+
+  <target name="compile" depends="clean, prepare" description="Compile Java sources">
+    <!-- Compile Java classes as necessary -->
+    	
+  		<javac srcdir="${src.home}/" destdir="${codingcliniclucene.classes}" debug="${compile.debug}" deprecation="${compile.deprecation}" optimize="${compile.optimize}">
+  			<classpath refid="compile.classpath" />
+  		</javac>
+  	
+  		<!-- Copy application resources -->
+        <jar jarfile="${lib.home}/${app.name}.jar" basedir="${codingcliniclucene.classes}"/>
+
+		<!-- Create one jar with all jar files -->
+        <!--<zip destfile="${resqu.jar}/project.jar">
+                <zipgroupfileset dir="${lib.home}" includes="*.jar"/>
+        </zip>-->
+
+  </target>
+	
+<!-- ==================== Prepare Target ================================== -->
+
+  <target name="prepare">
+    <!-- Create build directories as needed -->
+  	<mkdir  dir="${codingcliniclucene.jar}"/>
+  	<mkdir  dir="${codingcliniclucene.classes}"/>
+  </target>
+
+<!-- ================= Run Target ==================================== -->
+
+  <target name="run" depends="clean, compile" description="Runs the application">
+    <java classname="${run.class}" fork="yes">
+      
+       <classpath>
+      	<fileset dir="${lib.home}">
+      		<include name="**/*.jar"/>
+    	</fileset>
+
+       	<pathelement path="${codingcliniclucene.classes}" />
+       	
+      </classpath>
+    </java>
+  </target>
+
+	<target name="lucence-driver" description="run Indexer">
+            <antcall target="run-class">
+                    <param name="class.name" value="drivers.LuceneIndexerDriver" />
+            </antcall>
+    </target>
+			
+			<target name="run-class" description="run given class">
+
+                <property name="class.name" value="" />
+
+                <java classname="${class.name}" fork="yes">
+
+ 		       	<jvmarg value="-Xms1024m" />
+                <jvmarg value="-Xmx4096m" />
+               	<!--<jvmarg value="-Xmx16388m" />-->
+                <!--<jvmarg value="-Xmx65552m" />-->
+                	
+                        <classpath>
+                                <fileset dir="${lib.home}">
+                                        <include name="**/*.jar" />
+                                </fileset>
+                        	
+                        	<pathelement path="${codeingcliniclucene.classes}" />
+
+                        </classpath>
+                </java>
+        </target>
+
+</project>

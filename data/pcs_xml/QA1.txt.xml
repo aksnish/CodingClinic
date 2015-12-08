@@ -1,0 +1,54 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="326">
+<Paragraph pgNo="1" begin="0" end="189">
+<Sentence sentNo="1" begin="0" end="141" sentText="Question: On the wound care progress note the physician documented that an excisional debridement of the skin of the buttock was carried out.">
+<RelationSet id="1794">
+<problem value="wound" begin="17" end="22" status="0" certainty="1" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797;C1550680;C1549529;C1547965" tui="T070;T037;T080;T033;T184;T169;T031;T169;T170" rank="795;792;788;767;709;703;366;355;355" code="NO-CODE" sourceType="MSH;MDR;MSH;RCD;MDR;SNMI;HL7V3.0;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1795">
+<anatomicalStructure value="skin;buttock" begin="105;117" end="109;124" status="0" certainty="0" cui="C0222165;C1279002" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="buttock" begin="117" end="124" status="0" certainty="0" cui="C0006497;C0454729" tui="T029;T083" rank="797;767" code="NO-CODE" sourceType="MSH;RCD"/>
+</RelationSet>
+<RelationSet id="1796">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="excisional debridement" begin="75" end="97" status="0" certainty="0"/>
+<anatomicalStructure value="skin" begin="105" end="109" status="0" certainty="0"/>
+</Relation>
+<procedure value="debridement;skin;buttock" begin="86;105;117" end="97;109;124" status="0" certainty="0" cui="C2191424" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="debridement;skin" begin="86;105" end="97;109" status="0" certainty="0" cui="C0191342" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="debridement" begin="86" end="97" status="0" certainty="0" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+<procedure value="excisional" begin="75" end="85" status="0" certainty="0" cui="C0728940" tui="T061" rank="523" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="142" end="188" sentText="Would this be coded as excisional debridement?">
+<RelationSet id="1797">
+<procedure value="debridement" begin="176" end="187" status="0" certainty="0" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+<procedure value="excisional" begin="165" end="175" status="0" certainty="0" cui="C0728940" tui="T061" rank="523" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="190" end="325">
+<Sentence sentNo="3" begin="190" end="324" sentText="Answer: Yes, assign code 0HB8XZZ, Excision of buttock skin, external approach, for the excisional debridement of skin of the buttocks.">
+<RelationSet id="1798">
+<problem value="skin" begin="244" end="248" status="0" certainty="0" cui="C1123023;C0221912;C1278993;C0221928;C0496955;C1522447;C0444099;C1546781" tui="T022;T082;T022;T080;T191;T169;T031;T170" rank="797;797;765;703;610;575;366;355" code="NO-CODE" sourceType="LCH;SNMI;SNOMEDCTUS;NCI;ICD10;NCI;HL7V3.0;HL7V2.5"/>
+<procedure value="Excision;skin" begin="224;244" end="232;248" status="0" certainty="0" cui="C2697304" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="Excision" begin="224" end="232" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+</RelationSet>
+<RelationSet id="1799">
+<anatomicalStructure value="skin;buttocks" begin="303;315" end="307;323" status="0" certainty="0" cui="C0222165;C1279002" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="buttocks" begin="315" end="323" status="0" certainty="0" cui="C0006497;C0454729" tui="T029;T083" rank="797;767" code="NO-CODE" sourceType="MSH;RCD"/>
+</RelationSet>
+<RelationSet id="1800">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="excisional debridement" begin="277" end="299" status="0" certainty="0"/>
+<anatomicalStructure value="skin" begin="303" end="307" status="0" certainty="0"/>
+</Relation>
+<procedure value="debridement;skin;buttocks" begin="288;303;315" end="299;307;323" status="0" certainty="0" cui="C2191424" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="debridement;skin" begin="288;303" end="299;307" status="0" certainty="0" cui="C0191342" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="debridement" begin="288" end="299" status="0" certainty="0" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+<procedure value="excisional" begin="277" end="287" status="0" certainty="0" cui="C0728940" tui="T061" rank="523" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

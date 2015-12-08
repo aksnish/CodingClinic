@@ -1,0 +1,78 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1378">
+<Paragraph pgNo="1" begin="0" end="273">
+<Sentence sentNo="1" begin="0" end="164" sentText="Question: A premature newborn requires mechanical ventilation for respiratory distress syndrome and therapeutic lumbar puncture for relief of intracranial pressure.">
+<RelationSet id="1963">
+<procedure value="mechanical ventilation" begin="39" end="61" status="0" certainty="1" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="39" end="49" status="0" certainty="1" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+<RelationSet id="1964">
+<problem value="respiratory distress syndrome" begin="66" end="95" status="0" certainty="1" cui="C1704437;C0035220" tui="T047;T047" rank="797;151" code="NO-CODE" sourceType="NCI;CHV"/>
+<problem value="respiratory distress" begin="66" end="86" status="0" certainty="1" cui="C0476273" tui="T184" rank="797" code="NO-CODE" sourceType="CST"/>
+<problem value="syndrome" begin="87" end="95" status="0" certainty="1" cui="C0039082;C1558916" tui="T047;T033" rank="797;551" code="NO-CODE" sourceType="LCH;NCI"/>
+<problem value="distress" begin="78" end="86" status="0" certainty="1" cui="C0231303;C0700361;C0231304" tui="T041;T048;T169" rank="797;765;703" code="NO-CODE" sourceType="MDR;NOC;SNMI"/>
+</RelationSet>
+<RelationSet id="1965">
+<procedure value="therapeutic lumbar puncture" begin="100" end="127" status="0" certainty="0" cui="C0196309" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="lumbar puncture" begin="112" end="127" status="0" certainty="0" cui="C0037943;C0553794;C1548878" tui="T060,T061;T060;T058" rank="791;652;355" code="NO-CODE" sourceType="NCI;MDR;HL7V2.5"/>
+<procedure value="puncture" begin="119" end="127" status="0" certainty="0" cui="C0034117;C0033119;C1881711" tui="T060,T061;T037;T067" rank="795;767;561" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;NCI"/>
+<anatomicalStructure value="lumbar" begin="112" end="118" status="0" certainty="0" cui="C0024090" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="1966">
+<anatomicalStructure value="intracranial" begin="142" end="154" status="0" certainty="0" cui="C3163632;C0524466;C0037303;C1522213;C0595850" tui="T082;T029;T023;T169;T169" rank="797;797;724;575;233" code="NO-CODE" sourceType="SNOMEDCTUS;SNMI;SNMI;NCI;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="165" end="272" sentText="Which of the two procedures is the principal procedure, mechanical ventilation or therapeutic CSF drainage?">
+<RelationSet id="1967">
+<procedure value="mechanical ventilation" begin="221" end="243" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="221" end="231" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+<RelationSet id="1968">
+<procedure value="therapeutic" begin="247" end="258" status="0" certainty="0" cui="C0302350;C0039796;C0723712;C1547427" tui="T169;T061;T109,T121;T170" rank="797;795;673;355" code="NO-CODE" sourceType="RCD;MSH;CHV;HL7V2.5"/>
+<procedure value="drainage" begin="263" end="271" status="0" certainty="0" cui="C0013103;C0012621;C2926602" tui="T061;T031;T031" rank="795;765;333" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;OMS"/>
+<procedure value="CSF" begin="259" end="262" status="0" certainty="0" cui="C0007806;C0079460;C0009392;C3540512;C0376561;C0007807" tui="T031;T116,T129;T116,T123;T061;T116,T121,T129;T169" rank="701;575;575;519;519;274" code="NO-CODE" sourceType="CSP;NCI;CSP;NCI;NCI;MSH"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="274" end="1377">
+<Sentence sentNo="3" begin="274" end="397" sentText="Answer: In this case, there were no procedures (definitive or non-definitive treatment) related to the principal diagnosis.">
+</Sentence>
+<Sentence sentNo="4" begin="398" end="588" sentText="The Z-code describing live birth is sequenced as the principal diagnosis, and codes for increased intracranial pressure and respiratory distress syndrome are assigned as secondary diagnoses.">
+<RelationSet id="1969">
+<problem value="respiratory distress syndrome" begin="522" end="551" status="0" certainty="0" cui="C1704437;C0035220" tui="T047;T047" rank="797;151" code="NO-CODE" sourceType="NCI;CHV"/>
+<problem value="respiratory distress" begin="522" end="542" status="0" certainty="0" cui="C0476273" tui="T184" rank="797" code="NO-CODE" sourceType="CST"/>
+<problem value="distress" begin="534" end="542" status="0" certainty="0" cui="C0231303;C0700361;C0231304" tui="T041;T048;T169" rank="797;765;703" code="NO-CODE" sourceType="MDR;NOC;SNMI"/>
+<problem value="syndrome" begin="543" end="551" status="0" certainty="0" cui="C0039082;C1558916" tui="T047;T033" rank="797;551" code="NO-CODE" sourceType="LCH;NCI"/>
+</RelationSet>
+<RelationSet id="1970">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="increased" begin="486" end="495" status="0" certainty="0"/>
+<problem value="intracranial pressure" begin="496" end="517" status="0" certainty="0"/>
+</Relation>
+<modifier value="increased;pressure" begin="486;509" end="495;517" status="0" certainty="0" cui="C0520818;C0677038;C1881187;C0231298" tui="T169;T067;T067;T169" rank="797;767;562;233" code="NO-CODE" sourceType="SNMI;RCD;NCI;SNOMEDCTUS"/>
+<modifier value="increased" begin="486" end="495" status="0" certainty="0" cui="C0205217;C0442805;C0442808" tui="T081;T169;T169" rank="797;797;767" code="NO-CODE" sourceType="RCD;NCI;RCD"/>
+<problem value="increased intracranial pressure" begin="486" end="517" status="0" certainty="0" cui="C0151740" tui="T047" rank="790" code="NO-CODE" sourceType="CCPSS"/>
+<anatomicalStructure value="intracranial" begin="496" end="508" status="0" certainty="0" cui="C3163632;C0524466;C0037303;C1522213;C0595850" tui="T082;T029;T023;T169;T169" rank="797;797;724;575;233" code="NO-CODE" sourceType="SNOMEDCTUS;SNMI;SNMI;NCI;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="589" end="700" sentText="Both the mechanical ventilation and the therapeutic lumbar puncture were performed for the secondary diagnoses.">
+<RelationSet id="1971">
+<procedure value="mechanical ventilation" begin="598" end="620" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="598" end="608" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+<RelationSet id="1972">
+<procedure value="therapeutic lumbar puncture" begin="629" end="656" status="0" certainty="0" cui="C0196309" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="lumbar puncture" begin="641" end="656" status="0" certainty="0" cui="C0037943;C0553794;C1548878" tui="T060,T061;T060;T058" rank="791;652;355" code="NO-CODE" sourceType="NCI;MDR;HL7V2.5"/>
+<procedure value="puncture" begin="648" end="656" status="0" certainty="0" cui="C0034117;C0033119;C1881711" tui="T060,T061;T037;T067" rank="795;767;561" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;NCI"/>
+<anatomicalStructure value="lumbar" begin="641" end="647" status="0" certainty="0" cui="C0024090" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="701" end="774" sentText="Select the most significant procedure addressing the secondary diagnoses.">
+</Sentence>
+<Sentence sentNo="7" begin="775" end="888" sentText="When the documentation is unclear regarding which is the most significant, query the physician for clarification.">
+</Sentence>
+<Sentence sentNo="8" begin="889" end="1376" sentText="The ICD-10-PCS Official Guidelines for Coding and Reporting, Selection of Principal Procedure state, “No procedures are performed that are related to principal diagnosis; procedures performed for definitive treatment and diagnostic procedures were performed for secondary diagnosis: Sequence procedure performed for definitive treatment of secondary diagnosis as principal procedure, since there are no procedures (definitive or non-definitive treatment) related to principal diagnosis.”">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

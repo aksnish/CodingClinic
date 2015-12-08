@@ -1,0 +1,43 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="850">
+<Paragraph pgNo="1" begin="0" end="673">
+<Sentence sentNo="1" begin="0" end="83" sentText="Question: ICD-10-CM provides codes to identify the Glasgow coma scale  (GCS) score.">
+<RelationSet id="915">
+<problem value="coma" begin="59" end="63" status="0" certainty="1" cui="C0009421;C3146279" tui="T047;T004" rank="795;751" code="NO-CODE" sourceType="COSTAR;NCBI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="84" end="226" sentText="When the patient presents with a traumatic brain injury (TBI), these codes are used in conjunction with the specific codes describing the TBI.">
+<RelationSet id="916">
+<problem value="traumatic brain injury" begin="117" end="139" status="0" certainty="0" cui="C0876926" tui="T037" rank="797" code="NO-CODE" sourceType="MSH"/>
+<problem value="traumatic;injury" begin="117;133" end="126;139" status="0" certainty="0" cui="C0043251;C0043250;C0740686" tui="T037;T037;T037" rank="791;536;150" code="NO-CODE" sourceType="ICPC2P;NCI;CHV"/>
+<problem value="brain injury" begin="127" end="139" status="0" certainty="0" cui="C0270611" tui="T037" rank="797" code="NO-CODE" sourceType="MSH"/>
+<problem value="injury" begin="133" end="139" status="0" certainty="0" cui="C3263723;C1510467;C3263722" tui="T037;T037;T037" rank="797;794;765" code="NO-CODE" sourceType="ICPC2P;MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="brain" begin="127" end="132" status="0" certainty="0" cui="C0006104;C1269537" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="227" end="505" sentText="If the emergency medical technician (EMT) documents the patient’s initial GCS score in the field, can the EMT’s documentation be used? Coders  are concerned  that there is no official advice or guideline that allows use of nonphysician documentation for the Glasgow coma scores.">
+<RelationSet id="917">
+<modifier value="EMT" begin="333" end="336" status="0" certainty="1" cui="C0013963;C1367389;C1420138;C1706224;C0215474;C1523298" tui="T097;T028;T028;T028;T116,T126,T129;T043" rank="765;596;587;575;575;575" code="NO-CODE" sourceType="NCI;HGNC;HGNC;NCI;NCI;GO"/>
+<problem value="s" begin="337" end="338" status="0" certainty="1" cui="C0439118;C1704767;C0560033;C0457385;C0565930;C1415374;C1420041;C2825524;C0039101;C1551054;C3273373;C0221135;C0086981" tui="T170;T170;T081;T079;T081;T028;T028;T079;T191;T081;T083;T116,T129;T047" rank="767;767;767;767;765;596;587;572;571;544;522;416;313" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;RCD;NCI;SNOMEDCTUS;HGNC;HGNC;NCI;NCI;NCI;NCI;LNC;DXP"/>
+<procedure value="documentation" begin="339" end="352" status="0" certainty="1" cui="C0920316;C0175636" tui="T170;T058" rank="797;345" code="NO-CODE" sourceType="LCH;NIC"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="506" end="581" sentText="These  scores  are typically documented by personnel other than physicians.">
+</Sentence>
+<Sentence sentNo="5" begin="582" end="670" sentText="What documentation can be used for determining the  ICD-10-CM  Glasgow coma  score code?">
+<RelationSet id="918">
+<problem value="coma" begin="653" end="657" status="0" certainty="1" cui="C0009421;C3146279" tui="T047;T004" rank="795;751" code="NO-CODE" sourceType="COSTAR;NCBI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="670" end="672" sentText="  ">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="674" end="849">
+<Sentence sentNo="7" begin="674" end="848" sentText="Answer: It would be appropriate to use the pre-hospital report containing the EMT’s documentation, and other nonphysician documentation to determine the Glasgow  coma  score.">
+<RelationSet id="919">
+<problem value="coma" begin="836" end="840" status="0" certainty="0" cui="C0009421;C3146279" tui="T047;T004" rank="795;751" code="NO-CODE" sourceType="COSTAR;NCBI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

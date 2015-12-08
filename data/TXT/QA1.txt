@@ -1,0 +1,2 @@
+Question: On the wound care progress note the physician documented that an excisional debridement of the skin of the buttock was carried out. Would this be coded as excisional debridement? 
+Answer: Yes, assign code 0HB8XZZ, Excision of buttock skin, external approach, for the excisional debridement of skin of the buttocks. 

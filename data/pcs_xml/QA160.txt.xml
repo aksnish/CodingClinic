@@ -1,0 +1,105 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="593">
+<Paragraph pgNo="1" begin="0" end="339">
+<Sentence sentNo="1" begin="0" end="115" sentText="Question: By definition, a second degree perineal laceration involves rupture or tearing of the perineal muscle(s).">
+<RelationSet id="1639">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="perineal laceration involves rupture" begin="41" end="77" status="0" certainty="1"/>
+<modifier value="second degree" begin="27" end="40" status="0" certainty="1"/>
+</Relation>
+<modifier value="second degree" begin="27" end="40" status="0" certainty="1" cui="C0556960;C0443298" tui="T081;T080" rank="767;767" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<modifier value="degree" begin="34" end="40" status="0" certainty="1" cui="C0449286;C2348088;C0441889;C0542560;C1561545" tui="T081;T081;T080;T170;T081" rank="767;575;575;575;366" code="NO-CODE" sourceType="RCD;NCI;NCI;NCI;HL7V3.0"/>
+<problem value="second degree perineal laceration" begin="27" end="60" status="0" certainty="1" cui="C0269870" tui="T037" rank="767" code="NO-CODE" sourceType="CCS"/>
+<problem value="perineal laceration" begin="41" end="60" status="0" certainty="1" cui="C0240713" tui="T037" rank="767" code="NO-CODE" sourceType="DXP"/>
+<problem value="rupture;muscle" begin="70;105" end="77;111" status="0" certainty="1" cui="C0149732" tui="T037" rank="767" code="NO-CODE" sourceType="COSTAR"/>
+<problem value="laceration" begin="50" end="60" status="0" certainty="1" cui="C0043246" tui="T037" rank="797" code="NO-CODE" sourceType="ICPC2P"/>
+<problem value="rupture" begin="70" end="77" status="0" certainty="1" cui="C3203359;C0443294;C1881712" tui="T037;T169;T067" rank="797;767;561" code="NO-CODE" sourceType="LCH;RCD;NCI"/>
+<anatomicalStructure value="perineal" begin="41" end="49" status="0" certainty="1" cui="C0031066;C1280088" tui="T029;T029" rank="795;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1640">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="tearing" begin="81" end="88" status="0" certainty="0"/>
+<anatomicalStructure value="perineal muscle" begin="96" end="111" status="0" certainty="0"/>
+</Relation>
+<problem value="tearing;perineal muscle" begin="81;96" end="88;111" status="0" certainty="0" cui="C0269870" tui="T037" rank="234" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="tearing;perineal" begin="81;96" end="88;104" status="0" certainty="0" cui="C0240713" tui="T037" rank="765" code="NO-CODE" sourceType="RCD"/>
+<problem value="tearing;muscle" begin="81;105" end="88;111" status="0" certainty="0" cui="C0149732" tui="T037" rank="765" code="NO-CODE" sourceType="RCD"/>
+<problem value="tearing" begin="81" end="88" status="0" certainty="0" cui="C0039409;C0152227;C0043246;C0423153;C1704633;C1611838;C1547924;C3203359" tui="T031;T047;T037;T033;T082;T031;T170;T037" rank="795;765;765;713;575;366;355;150" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;RCD;OMIM;NCI;HL7V3.0;HL7V2.5;CHV"/>
+<anatomicalStructure value="perineal muscle" begin="96" end="111" status="0" certainty="0" cui="C1280285;C0224382" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<anatomicalStructure value="perineal" begin="96" end="104" status="0" certainty="0" cui="C0031066;C1280088" tui="T029;T029" rank="795;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+<anatomicalStructure value="muscle" begin="105" end="111" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="116" end="338" sentText="Would physician documentation stating, “Second degree perineal laceration repair” be sufficient to justify assigning an ICD-10-PCS repair code (0KQM0ZZ)? Or, is it required that the documentation specify “perineal muscle”?">
+<RelationSet id="1641">
+<modifier value="ICD-10-PCS;code" begin="236;254" end="246;258" status="0" certainty="0" cui="C1136256" tui="T170" rank="793" code="NO-CODE" sourceType="MSH"/>
+<procedure value="ICD-10-PCS" begin="236" end="246" status="0" certainty="0" cui="C1137110;C0205456;C0470215;C0870733;C0162589;C1882368;C1550747;C2499019" tui="T170;T081;T170;T170;T074;T059;T079;T170" rank="793;767;724;572;530;519;519;8" code="NO-CODE" sourceType="NCI;NCI;RCD;LNC;NCI;NCI;HL7V3.0;SRC"/>
+<procedure value="repair" begin="247" end="253" status="0" certainty="0" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+</RelationSet>
+<RelationSet id="1642">
+<anatomicalStructure value="perineal muscle" begin="321" end="336" status="0" certainty="0" cui="C1280285;C0224382" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<anatomicalStructure value="perineal" begin="321" end="329" status="0" certainty="0" cui="C0031066;C1280088" tui="T029;T029" rank="795;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+<anatomicalStructure value="muscle" begin="330" end="336" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="1643">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="perineal laceration repair" begin="170" end="196" status="0" certainty="0"/>
+<modifier value="Second degree" begin="156" end="169" status="0" certainty="0"/>
+</Relation>
+<modifier value="Second degree" begin="156" end="169" status="0" certainty="0" cui="C0556960;C0443298" tui="T081;T080" rank="767;767" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<modifier value="degree" begin="163" end="169" status="0" certainty="0" cui="C0449286;C2348088;C0441889;C0542560;C1561545" tui="T081;T081;T080;T170;T081" rank="767;575;575;575;366" code="NO-CODE" sourceType="RCD;NCI;NCI;NCI;HL7V3.0"/>
+<problem value="Second degree perineal laceration" begin="156" end="189" status="0" certainty="0" cui="C0269870" tui="T037" rank="767" code="NO-CODE" sourceType="CCS"/>
+<problem value="perineal laceration" begin="170" end="189" status="0" certainty="0" cui="C0240713" tui="T037" rank="767" code="NO-CODE" sourceType="DXP"/>
+<problem value="laceration" begin="179" end="189" status="0" certainty="0" cui="C0043246" tui="T037" rank="797" code="NO-CODE" sourceType="ICPC2P"/>
+<procedure value="laceration repair" begin="179" end="196" status="0" certainty="0" cui="C3701948" tui="T061" rank="353" code="NO-CODE" sourceType="CPT"/>
+<procedure value="perineal;repair" begin="170;190" end="178;196" status="0" certainty="0" cui="C0404427;C0372559" tui="T061;T061" rank="627;271" code="NO-CODE" sourceType="MTHICD9;CPT"/>
+<procedure value="repair" begin="190" end="196" status="0" certainty="0" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+<anatomicalStructure value="perineal" begin="170" end="178" status="0" certainty="0" cui="C0031066;C1280088" tui="T029;T029" rank="795;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="340" end="592">
+<Sentence sentNo="3" begin="340" end="525" sentText="Answer: A second degree perineal laceration equates to laceration of the perineal muscle, so documentation of a second degree laceration is sufficient to code repair of perineal muscle.">
+<RelationSet id="1644">
+<anatomicalStructure value="perineal muscle" begin="509" end="524" status="0" certainty="0" cui="C1280285;C0224382" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<anatomicalStructure value="perineal" begin="509" end="517" status="0" certainty="0" cui="C0031066;C1280088" tui="T029;T029" rank="795;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+<anatomicalStructure value="muscle" begin="518" end="524" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="1645">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="perineal muscle" begin="413" end="428" status="0" certainty="0"/>
+<problem value="laceration" begin="395" end="405" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="perineal muscle" begin="413" end="428" status="0" certainty="0" cui="C1280285;C0224382" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<anatomicalStructure value="perineal" begin="413" end="421" status="0" certainty="0" cui="C0031066;C1280088" tui="T029;T029" rank="795;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+<anatomicalStructure value="muscle" begin="422" end="428" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+<problem value="second degree perineal;laceration" begin="350;395" end="372;405" status="0" certainty="0" cui="C0269870" tui="T037" rank="767" code="NO-CODE" sourceType="CCS"/>
+<problem value="perineal;laceration" begin="364;395" end="372;405" status="0" certainty="0" cui="C0240713" tui="T037" rank="767" code="NO-CODE" sourceType="DXP"/>
+<problem value="laceration;muscle" begin="395;422" end="405;428" status="0" certainty="0" cui="C1998242" tui="T037" rank="765" code="NO-CODE" sourceType="RCD"/>
+<problem value="laceration" begin="395" end="405" status="0" certainty="0" cui="C0043246" tui="T037" rank="797" code="NO-CODE" sourceType="ICPC2P"/>
+</RelationSet>
+<RelationSet id="1646">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="laceration" begin="466" end="476" status="0" certainty="0"/>
+<modifier value="second degree" begin="452" end="465" status="0" certainty="0"/>
+</Relation>
+<modifier value="second degree" begin="452" end="465" status="0" certainty="0" cui="C0556960;C0443298" tui="T081;T080" rank="767;767" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<modifier value="degree" begin="459" end="465" status="0" certainty="0" cui="C0449286;C2348088;C0441889;C0542560;C1561545" tui="T081;T081;T080;T170;T081" rank="767;575;575;575;366" code="NO-CODE" sourceType="RCD;NCI;NCI;NCI;HL7V3.0"/>
+<problem value="laceration" begin="466" end="476" status="0" certainty="0" cui="C0043246" tui="T037" rank="797" code="NO-CODE" sourceType="ICPC2P"/>
+</RelationSet>
+<RelationSet id="1647">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="perineal laceration" begin="364" end="383" status="0" certainty="0"/>
+<modifier value="second degree" begin="350" end="363" status="0" certainty="0"/>
+</Relation>
+<problem value="laceration" begin="373" end="383" status="0" certainty="0" cui="C0043246" tui="T037" rank="797" code="NO-CODE" sourceType="ICPC2P"/>
+<anatomicalStructure value="perineal" begin="364" end="372" status="0" certainty="0" cui="C0031066;C1280088" tui="T029;T029" rank="795;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+<modifier value="second degree" begin="350" end="363" status="0" certainty="0" cui="C0556960;C0443298" tui="T081;T080" rank="767;767" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<modifier value="degree" begin="357" end="363" status="0" certainty="0" cui="C0449286;C2348088;C0441889;C0542560;C1561545" tui="T081;T081;T080;T170;T081" rank="767;575;575;575;366" code="NO-CODE" sourceType="RCD;NCI;NCI;NCI;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="526" end="591" sentText="It is not required that the physician document “perineum muscle.”">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

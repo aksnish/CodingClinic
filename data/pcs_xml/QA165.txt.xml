@@ -1,0 +1,98 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1152">
+<Paragraph pgNo="1" begin="0" end="468">
+<Sentence sentNo="1" begin="0" end="135" sentText="Question: We are requesting that the Coding Clinic Editorial Advisory Board revisit advice published about non-Candida albicans sepsis.">
+<RelationSet id="1739">
+<problem value="sepsis" begin="128" end="134" status="0" certainty="0" cui="C0243026;C1090821;C0333534;C0036690" tui="T047;T204;T169;T047" rank="797;751;703;575" code="NO-CODE" sourceType="COSTAR;NCBI;SNMI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="136" end="286" sentText="The Alphabetic Index under the term “Sepsis, candida,” directs to code B37.7, Candidal sepsis, as the code assignment is not Candida species specific.">
+<RelationSet id="1740">
+<problem value="Sepsis" begin="173" end="179" status="0" certainty="0" cui="C0243026;C1090821;C0333534;C0036690" tui="T047;T204;T169;T047" rank="797;751;703;575" code="NO-CODE" sourceType="COSTAR;NCBI;SNMI;NCI"/>
+</RelationSet>
+<RelationSet id="1740">
+<problem value="7.7, Candidal s" begin="209" end="224" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1741">
+<problem value="sepsis" begin="223" end="229" status="0" certainty="0" cui="C0243026;C1090821;C0333534;C0036690" tui="T047;T204;T169;T047" rank="797;751;703;575" code="NO-CODE" sourceType="COSTAR;NCBI;SNMI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="287" end="380" sentText="There are multiple species of Candida other than albicans, such as tropicalis, glabrata, etc.">
+<RelationSet id="1742">
+<problem value="Candida" begin="317" end="324" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1742">
+<med value="glabrata" begin="366" end="374" status="0" certainty="1" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="381" end="467" sentText="Please explain why code B48.8, Other specified mycoses, was assigned instead of B37.7.">
+<RelationSet id="1742">
+<problem value="8.8, Other specified my" begin="407" end="430" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1743">
+<problem value="Other specified mycoses" begin="412" end="435" status="0" certainty="0" cui="C0343847" tui="T047" rank="717" code="NO-CODE" sourceType="ICD10"/>
+<problem value="Other;mycoses" begin="412;428" end="417;435" status="0" certainty="0" cui="C0343846" tui="T047" rank="717" code="NO-CODE" sourceType="CCS"/>
+<problem value="mycoses" begin="428" end="435" status="0" certainty="0" cui="C0026946" tui="T047" rank="797" code="NO-CODE" sourceType="SNM"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="469" end="1151">
+<Sentence sentNo="5" begin="469" end="624" sentText="Answer: Coding Clinic, Second Quarter 2014, page 13, advised the assignment of code B48.8, Other specified mycoses, for sepsis due to non-Candida albicans.">
+<RelationSet id="1743">
+<problem value="8.8, Other specified my" begin="555" end="578" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1744">
+<problem value="sepsis" begin="589" end="595" status="0" certainty="0" cui="C0243026;C1090821;C0333534;C0036690" tui="T047;T204;T169;T047" rank="797;751;703;575" code="NO-CODE" sourceType="COSTAR;NCBI;SNMI;NCI"/>
+</RelationSet>
+<RelationSet id="1744">
+<problem value="Candida albicans" begin="607" end="623" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="625" end="735" sentText="This code assignment was based on the health record documentation which was unclear as to the causal organism.">
+</Sentence>
+<Sentence sentNo="7" begin="736" end="822" sentText="Since the documentation is unclear, the physician should be queried for clarification.">
+</Sentence>
+<Sentence sentNo="8" begin="823" end="982" sentText="Non-candida albicans sepsis may refer to either sepsis of Candida, but not Albicans type or it may refer to an organism that is not of the Candida type at all.">
+<RelationSet id="1745">
+<problem value="sepsis" begin="844" end="850" status="0" certainty="0" cui="C0243026;C1090821;C0333534;C0036690" tui="T047;T204;T169;T047" rank="797;751;703;575" code="NO-CODE" sourceType="COSTAR;NCBI;SNMI;NCI"/>
+</RelationSet>
+<RelationSet id="1746">
+<problem value="sepsis" begin="871" end="877" status="0" certainty="0" cui="C0243026;C1090821;C0333534;C0036690" tui="T047;T204;T169;T047" rank="797;751;703;575" code="NO-CODE" sourceType="COSTAR;NCBI;SNMI;NCI"/>
+</RelationSet>
+<RelationSet id="1746">
+<problem value="Candida" begin="881" end="888" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1746">
+<problem value="Candida" begin="962" end="969" status="0" certainty="-2" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="983" end="1060" sentText="If Candida sepsis of any type is present, assign code B37.7, Candidal sepsis.">
+<RelationSet id="1747">
+<problem value="sepsis" begin="994" end="1000" status="0" certainty="-3" cui="C0243026;C1090821;C0333534;C0036690" tui="T047;T204;T169;T047" rank="797;751;703;575" code="NO-CODE" sourceType="COSTAR;NCBI;SNMI;NCI"/>
+</RelationSet>
+<RelationSet id="1748">
+<modifier value="present" begin="1016" end="1023" status="0" certainty="-3" cui="C0150312;C0449450;C0750528" tui="T081;T078;T078" rank="797;797;490" code="NO-CODE" sourceType="RCD;NCI;CCPSS"/>
+</RelationSet>
+<RelationSet id="1748">
+<problem value="7.7, Candidal s" begin="1039" end="1054" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1749">
+<problem value="sepsis" begin="1053" end="1059" status="0" certainty="0" cui="C0243026;C1090821;C0333534;C0036690" tui="T047;T204;T169;T047" rank="797;751;703;575" code="NO-CODE" sourceType="COSTAR;NCBI;SNMI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="1061" end="1150" sentText="If the causal organism is not Candida at all, assign code B48.8, Other specified mycoses.">
+<RelationSet id="1749">
+<problem value="Candida" begin="1091" end="1098" status="0" certainty="-3" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1749">
+<problem value="8.8, Other specified my" begin="1121" end="1144" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1750">
+<problem value="Other specified mycoses" begin="1126" end="1149" status="0" certainty="-2" cui="C0343847" tui="T047" rank="717" code="NO-CODE" sourceType="ICD10"/>
+<problem value="Other;mycoses" begin="1126;1142" end="1131;1149" status="0" certainty="-2" cui="C0343846" tui="T047" rank="717" code="NO-CODE" sourceType="CCS"/>
+<problem value="mycoses" begin="1142" end="1149" status="0" certainty="-2" cui="C0026946" tui="T047" rank="797" code="NO-CODE" sourceType="SNM"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

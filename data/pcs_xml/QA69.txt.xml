@@ -1,0 +1,96 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="605">
+<Paragraph pgNo="1" begin="0" end="296">
+<Sentence sentNo="1" begin="0" end="109" sentText="Question: The patient sustained a fall and ruptured the right patellar tendon and the left quadriceps tendon.">
+<RelationSet id="1506">
+<modifier value="right" begin="56" end="61" status="0" certainty="1" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1507">
+<anatomicalStructure value="patellar tendon" begin="62" end="77" status="0" certainty="0" cui="C0206332;C1827621" tui="T023;T023" rank="791;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="tendon" begin="71" end="77" status="0" certainty="0" cui="C0039508;C1280538" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1508">
+<modifier value="left" begin="86" end="90" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1509">
+<anatomicalStructure value="quadriceps tendon" begin="91" end="108" status="0" certainty="0" cui="C0224941" tui="T023" rank="765" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="quadriceps" begin="91" end="101" status="0" certainty="0" cui="C0224440" tui="T023" rank="691" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="tendon" begin="102" end="108" status="0" certainty="0" cui="C0039508;C1280538" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="110" end="226" sentText="He had open repair with allograft of right patellar tendon and open repair with allograft of left quadriceps tendon.">
+<RelationSet id="1510">
+<modifier value="open" begin="117" end="121" status="1" certainty="0" cui="C0175566;C1882151;C0547049" tui="T082;T082;T082" rank="797;797;767" code="NO-CODE" sourceType="RCD;NCI;RCD"/>
+<procedure value="open repair" begin="117" end="128" status="1" certainty="0" cui="C0441613" tui="T061" rank="711" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="repair" begin="122" end="128" status="1" certainty="0" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+</RelationSet>
+<RelationSet id="1511">
+<modifier value="open" begin="173" end="177" status="0" certainty="0" cui="C0175566;C1882151;C0547049" tui="T082;T082;T082" rank="797;797;767" code="NO-CODE" sourceType="RCD;NCI;RCD"/>
+<procedure value="open repair" begin="173" end="184" status="0" certainty="0" cui="C0441613" tui="T061" rank="711" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="repair" begin="178" end="184" status="0" certainty="0" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+</RelationSet>
+<RelationSet id="1512">
+<modifier value="left" begin="203" end="207" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1513">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="quadriceps tendon" begin="208" end="225" status="0" certainty="0"/>
+<procedure value="allograft" begin="190" end="199" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="quadriceps tendon" begin="208" end="225" status="0" certainty="0" cui="C0224941" tui="T023" rank="765" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="quadriceps" begin="208" end="218" status="0" certainty="0" cui="C0224440" tui="T023" rank="691" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="tendon" begin="219" end="225" status="0" certainty="0" cui="C0039508;C1280538" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<procedure value="allograft" begin="190" end="199" status="0" certainty="0" cui="C0450127;C0040739;C1546537" tui="T122;T061;T170" rank="795;790;355" code="NO-CODE" sourceType="RCD;ICD10AM;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1514">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="patellar tendon" begin="153" end="168" status="1" certainty="0"/>
+<procedure value="allograft" begin="134" end="143" status="1" certainty="0"/>
+<modifier value="right" begin="147" end="152" status="1" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="allograft" begin="134" end="143" status="1" certainty="0"/>
+<modifier value="right" begin="147" end="152" status="1" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="patellar tendon" begin="153" end="168" status="1" certainty="0"/>
+<procedure value="allograft" begin="134" end="143" status="1" certainty="0"/>
+</Relation>
+<anatomicalStructure value="patellar tendon" begin="153" end="168" status="1" certainty="0" cui="C0206332;C1827621" tui="T023;T023" rank="791;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="tendon" begin="162" end="168" status="1" certainty="0" cui="C0039508;C1280538" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<procedure value="allograft" begin="134" end="143" status="1" certainty="0" cui="C0450127;C0040739;C1546537" tui="T122;T061;T170" rank="795;790;355" code="NO-CODE" sourceType="RCD;ICD10AM;HL7V2.5"/>
+<modifier value="right" begin="147" end="152" status="1" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="227" end="295" sentText="Is the root operation for these procedures “supplement” or “repair?”">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="297" end="604">
+<Sentence sentNo="4" begin="297" end="382" sentText="Answer: The surgical objective is to stabilize the knee in order to restore function.">
+<RelationSet id="1515">
+<anatomicalStructure value="knee" begin="348" end="352" status="0" certainty="0" cui="C0022742;C1963703;C1283838;C0022745" tui="T023;T029;T029;T030" rank="797;765;765;575" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="383" end="469" sentText="The defects in the patellar and quadriceps tendons are being augmented with allograft.">
+<RelationSet id="1515">
+<anatomicalStructure value="patellar" begin="402" end="410" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1516">
+<anatomicalStructure value="quadriceps tendons" begin="415" end="433" status="0" certainty="0" cui="C0224941" tui="T023" rank="765" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="quadriceps" begin="415" end="425" status="0" certainty="0" cui="C0224440" tui="T023" rank="691" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="tendons" begin="426" end="433" status="0" certainty="0" cui="C0039508;C1280538" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1517">
+<procedure value="allograft" begin="459" end="468" status="0" certainty="0" cui="C0450127;C0040739;C1546537" tui="T122;T061;T170" rank="795;790;355" code="NO-CODE" sourceType="RCD;ICD10AM;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="470" end="556" sentText="The tendons are not being replaced, so the appropriate root operation is “Supplement.”">
+<RelationSet id="1518">
+<anatomicalStructure value="tendons" begin="474" end="481" status="0" certainty="0" cui="C0039508;C1280538" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="557" end="603" sentText="Assign the following ICD-10-PCS codes: 0LUQ0KZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

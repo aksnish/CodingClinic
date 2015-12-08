@@ -1,0 +1,61 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="672">
+<Paragraph pgNo="1" begin="0" end="348">
+<Sentence sentNo="1" begin="0" end="148" sentText="Question: The patient presented with a subdural hematoma, which was successfully treated by placement of a subdural evacuation portal system (SEPS).">
+<RelationSet id="215">
+<problem value="subdural hematoma" begin="39" end="56" status="0" certainty="1" cui="C0018946" tui="T046" rank="797" code="NO-CODE" sourceType="LCH"/>
+<problem value="hematoma" begin="48" end="56" status="0" certainty="1" cui="C0018944;C1962958" tui="T046;T033" rank="797;551" code="NO-CODE" sourceType="MSH;NCI"/>
+<anatomicalStructure value="subdural" begin="39" end="47" status="0" certainty="1" cui="S0002386;C0038541" tui="t061;T030" rank="800;703" code="NO-CODE" sourceType="EZDI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="216">
+<procedure value="placement" begin="92" end="101" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="217">
+<procedure value="subdural evacuation" begin="107" end="126" status="0" certainty="0" cui="C0749094" tui="T061" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="evacuation" begin="116" end="126" status="0" certainty="0" cui="C1282573" tui="T061" rank="765" code="NO-CODE" sourceType="LCH"/>
+<anatomicalStructure value="portal system" begin="127" end="140" status="0" certainty="0" cui="S1001192;C0032717;C0226727" tui="t061;T023;T022" rank="800;797;575" code="NO-CODE" sourceType="EZDI;MSH;NCI"/>
+<anatomicalStructure value="subdural" begin="107" end="115" status="0" certainty="0" cui="S0002386;C0038541" tui="t061;T030" rank="800;703" code="NO-CODE" sourceType="EZDI;HL7V2.5"/>
+<anatomicalStructure value="portal" begin="127" end="133" status="0" certainty="0" cui="C0205054" tui="T029" rank="767" code="NO-CODE" sourceType="SNMI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="149" end="272" sentText="During the placement of the drainage device, a burr hole was created and the SEPS drain bolt was then anchored in the bone.">
+<RelationSet id="218">
+<modifier value="drainage" begin="177" end="185" status="0" certainty="0" cui="C0012621" tui="T031" rank="150" code="NO-CODE" sourceType="CHV"/>
+<procedure value="placement;device" begin="160;186" end="169;192" status="0" certainty="0" cui="C0021107" tui="T061" rank="724" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="placement" begin="160" end="169" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="219">
+<medicalDevice value="burr" begin="196" end="200" status="0" certainty="0" cui="C0330093;C0700351" tui="T002;T074" rank="767;685" code="NO-CODE" sourceType="SNMI;UMD"/>
+</RelationSet>
+<RelationSet id="220">
+<procedure value="drain" begin="231" end="236" status="0" certainty="0" cui="C0013103;C0180499;C0012621;C1550628;C1546604;C2926602" tui="T061;T074;T031;T167;T170;T031" rank="795;767;765;366;355;333" code="NO-CODE" sourceType="LCH;UMD;SNOMEDCTUS;HL7V3.0;HL7V2.5;OMS"/>
+</RelationSet>
+<RelationSet id="221">
+<anatomicalStructure value="bone" begin="267" end="271" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="273" end="347" sentText="In ICD-10-PCS, what would be the approach value, “percutaneous” or “open?”">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="349" end="671">
+<Sentence sentNo="4" begin="349" end="488" sentText="Answer: The “percutaneous” approach is more appropriate since entry into the skull was done via puncture in order to reach the target area.">
+<RelationSet id="222">
+<anatomicalStructure value="skull" begin="426" end="431" status="0" certainty="0" cui="C0037303" tui="T023" rank="795" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+<RelationSet id="222">
+<medicalDevice value="puncture" begin="445" end="453" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="489" end="599" sentText="An “open” approach is not reported since the surgical site was not exposed by cutting through the body layers.">
+<RelationSet id="223">
+<anatomicalStructure value="site" begin="543" end="547" status="0" certainty="-2" cui="C0205145;C2945843;C2825164;C1515974;C1546778" tui="T082;T080;T082;T029;T170" rank="797;767;575;575;355" code="NO-CODE" sourceType="RCD;RCD;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="600" end="671" sentText="Assign the following ICD-10-PCS code for placement of the SEPS: 009430Z">
+<RelationSet id="224">
+<procedure value="placement" begin="641" end="650" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

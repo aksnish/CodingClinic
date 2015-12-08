@@ -1,0 +1,154 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1673">
+<Paragraph pgNo="1" begin="0" end="713">
+<Sentence sentNo="1" begin="0" end="84" sentText="Question: The patient is an 83-year-old male who presented with cervical myelopathy.">
+<RelationSet id="2267">
+<problem value="cervical myelopathy" begin="64" end="83" status="0" certainty="0" cui="C0838574;C0149645" tui="t047;T047" rank="800;767" code="NO-CODE" sourceType="ICD10CM;COSTAR"/>
+<problem value="myelopathy" begin="73" end="83" status="0" certainty="0" cui="C0037928;C0005956" tui="T047;T047" rank="791;150" code="NO-CODE" sourceType="CCPSS;CHV"/>
+<anatomicalStructure value="cervical" begin="64" end="72" status="0" certainty="0" cui="C0027530;C0205064;C0007874;C1281592;C2137077;C0200040;C1550623;C1546592" tui="T029;T082;T023;T023;T033;T061;T031;T170" rank="797;797;790;765;592;373;366;355" code="NO-CODE" sourceType="CST;RCD;RCD;SNOMEDCTUS;MEDCIN;ICD10AM;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="85" end="174" sentText="He elected to proceed with decompressive cervical laminectomy to release the spinal cord.">
+<RelationSet id="2268">
+<procedure value="cervical laminectomy;spinal" begin="126;162" end="146;168" status="0" certainty="0" cui="C0742208" tui="T061" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="decompressive;laminectomy" begin="112;135" end="125;146" status="0" certainty="0" cui="C1306561" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="cervical laminectomy" begin="126" end="146" status="0" certainty="0" cui="C2919897" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="laminectomy;spinal" begin="135;162" end="146;168" status="0" certainty="0" cui="C0022983" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="cervical" begin="126" end="134" status="0" certainty="0" cui="C0027530;C0205064;C0007874;C1281592;C2137077;C0200040;C1550623;C1546592" tui="T029;T082;T023;T023;T033;T061;T031;T170" rank="797;797;790;765;592;373;366;355" code="NO-CODE" sourceType="CST;RCD;RCD;SNOMEDCTUS;MEDCIN;ICD10AM;HL7V3.0;HL7V2.5"/>
+<anatomicalStructure value="cervical;spinal cord" begin="126;162" end="134;173" status="0" certainty="0" cui="C0581619;C1278837" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="cervical;spinal" begin="126;162" end="134;168" status="0" certainty="0" cui="C0728985;C1284110" tui="T023;T023" rank="797;234" code="NO-CODE" sourceType="AIR;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="2269">
+<anatomicalStructure value="spinal cord" begin="162" end="173" status="0" certainty="0" cui="C0037925;C1278836;C0154034;C0153646;C0496938" tui="T023;T023;T191;T191;T191" rank="797;765;610;610;610" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;ICD10;ICD10"/>
+<anatomicalStructure value="spinal" begin="162" end="168" status="0" certainty="0" cui="C0037949;C1267072;C0521329;C1280065" tui="T023;T023;T082;T023" rank="795;765;703;234" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="cord" begin="169" end="173" status="0" certainty="0" cui="C1550235;C1706500;C1552938" tui="T023;T073;T081" rank="576;575;366" code="NO-CODE" sourceType="HL7V2.5;NCI;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="175" end="283" sentText="The surgeon performed an open total decompressive laminectomy of C3, C4, C5 and partial decompression of C6.">
+<RelationSet id="2269">
+<anatomicalStructure value="C4" begin="244" end="246" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2270">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="C6" begin="280" end="282" status="0" certainty="0"/>
+<procedure value="partial decompression" begin="255" end="276" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="C6" begin="280" end="282" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<problem value="partial" begin="255" end="262" status="0" certainty="0" cui="C0728938;C0449719;C1292711;C0270526;C1709471;C1550516;C1552020" tui="T081;T082;T082;T048;T081;T078;T078" rank="797;797;767;767;575;366;366" code="NO-CODE" sourceType="RCD;RCD;SNMI;MDR;NCI;HL7V3.0;HL7V3.0"/>
+<procedure value="decompression" begin="263" end="276" status="0" certainty="0" cui="C1829459;C0011117;C1965697;C0021153" tui="T061;T067;T169;T061" rank="797;795;765;713" code="NO-CODE" sourceType="SNOMEDCTUS;MSH;RCD;SNM"/>
+</RelationSet>
+<RelationSet id="2271">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="total decompressive laminectomy" begin="205" end="236" status="0" certainty="0"/>
+<anatomicalStructure value="C3" begin="240" end="242" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="open" begin="200" end="204" status="0" certainty="0"/>
+<procedure value="total decompressive laminectomy" begin="205" end="236" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="open" begin="200" end="204" status="0" certainty="0"/>
+<procedure value="total decompressive laminectomy" begin="205" end="236" status="0" certainty="0"/>
+<anatomicalStructure value="C3" begin="240" end="242" status="0" certainty="0"/>
+</Relation>
+<modifier value="open" begin="200" end="204" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<modifier value="total" begin="205" end="210" status="0" certainty="0" cui="C0439810" tui="T080" rank="797" code="NO-CODE" sourceType="RCD"/>
+<procedure value="decompressive laminectomy" begin="211" end="236" status="0" certainty="0" cui="C1306561" tui="T061" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<procedure value="total;laminectomy" begin="205;225" end="210;236" status="0" certainty="0" cui="C0442935" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="laminectomy" begin="225" end="236" status="0" certainty="0" cui="C0022983" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="C3" begin="240" end="242" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="284" end="403" sentText="Would it be appropriate to count each vertebra separately, (i.e., C3, C4, C5, and C6) and report four ICD-10-PCS codes?">
+<RelationSet id="2271">
+<anatomicalStructure value="C3" begin="350" end="352" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2271">
+<anatomicalStructure value="C4" begin="354" end="356" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2271">
+<anatomicalStructure value="C6" begin="366" end="368" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="404" end="712" sentText="Or, is it appropriate to count each vertebral level decompressed, such as C3-4, C4-5, and C5C6? ICD-10- PCS Guideline B3.2 states, “During the same operative episode, multiple procedures are coded if: The same root operation is repeated at different body sites that are included in the same body part value.”">
+<RelationSet id="2271">
+<anatomicalStructure value="C3" begin="478" end="480" status="0" certainty="1" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2271">
+<anatomicalStructure value="C4" begin="484" end="486" status="0" certainty="1" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2272">
+<anatomicalStructure value="body sites" begin="654" end="664" status="0" certainty="-3" cui="C1545955;C2945842" tui="T029;T082" rank="797;151" code="NO-CODE" sourceType="LNC;CHV"/>
+<anatomicalStructure value="sites" begin="659" end="664" status="0" certainty="-3" cui="C0205145;C2945843;C2825164;C1515974;C1546778" tui="T082;T080;T082;T029;T170" rank="797;767;575;575;355" code="NO-CODE" sourceType="RCD;RCD;NCI;NCI;HL7V2.5"/>
+<anatomicalStructure value="body" begin="654" end="658" status="0" certainty="-3" cui="S1000390;C1268086;C1551342;C0242821" tui="t061;T017;T078;T016" rank="800;753;575;151" code="NO-CODE" sourceType="EZDI;NCI;NCI;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="714" end="1672">
+<Sentence sentNo="6" begin="714" end="863" sentText="Answer: The laminectomy procedure to release the spinal cord is coded only once because the cervical spinal cord is classified as a single body part.">
+<RelationSet id="2273">
+<procedure value="procedure;spinal cord" begin="738;763" end="747;774" status="0" certainty="0" cui="C2608059" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="laminectomy;spinal" begin="726;763" end="737;769" status="0" certainty="0" cui="C0022983" tui="T061" rank="795" code="NO-CODE" sourceType="CCS"/>
+<procedure value="procedure;release" begin="738;751" end="747;758" status="0" certainty="0" cui="C1963578" tui="T061" rank="797" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="procedure;spinal" begin="738;763" end="747;769" status="0" certainty="0" cui="C1279973" tui="T061" rank="626" code="NO-CODE" sourceType="CHV"/>
+<procedure value="procedure" begin="738" end="747" status="0" certainty="0" cui="C0184661;C0025664;C2700391;C1948041;C3274430;C3538935;C3539779;C1546467" tui="T060,T061;T170;T052;T061;T058;T078;T170;T078" rank="792;789;576;575;572;571;571;366" code="NO-CODE" sourceType="MSH;MSH;NCI;NCI;NCI;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2274">
+<anatomicalStructure value="spinal cord" begin="763" end="774" status="0" certainty="0" cui="C0037925;C1278836;C0154034;C0153646;C0496938" tui="T023;T023;T191;T191;T191" rank="797;765;610;610;610" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;ICD10;ICD10"/>
+<anatomicalStructure value="spinal" begin="763" end="769" status="0" certainty="0" cui="C0037949;C1267072;C0521329;C1280065" tui="T023;T023;T082;T023" rank="795;765;703;234" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="cord" begin="770" end="774" status="0" certainty="0" cui="C1550235;C1706500;C1552938" tui="T023;T073;T081" rank="576;575;366" code="NO-CODE" sourceType="HL7V2.5;NCI;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="2275">
+<anatomicalStructure value="cervical spinal cord" begin="806" end="826" status="0" certainty="0" cui="C0581619;C1278837" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="cervical spinal" begin="806" end="821" status="0" certainty="0" cui="C0728985;C1284110" tui="T023;T023" rank="797;234" code="NO-CODE" sourceType="AIR;SNOMEDCTUS"/>
+<anatomicalStructure value="cord;body part" begin="822;853" end="826;862" status="0" certainty="0" cui="C1550235" tui="T023" rank="797" code="NO-CODE" sourceType="MTH"/>
+<anatomicalStructure value="spinal cord" begin="815" end="826" status="0" certainty="0" cui="C0037925;C1278836;C0154034;C0153646;C0496938" tui="T023;T023;T191;T191;T191" rank="797;765;610;610;610" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;ICD10;ICD10"/>
+<anatomicalStructure value="cervical" begin="806" end="814" status="0" certainty="0" cui="C0027530;C0205064;C0007874;C1281592;C2137077;C0200040;C1550623;C1546592" tui="T029;T082;T023;T023;T033;T061;T031;T170" rank="797;797;790;765;592;373;366;355" code="NO-CODE" sourceType="CST;RCD;RCD;SNOMEDCTUS;MEDCIN;ICD10AM;HL7V3.0;HL7V2.5"/>
+<anatomicalStructure value="spinal" begin="815" end="821" status="0" certainty="0" cui="C0037949;C1267072;C0521329;C1280065" tui="T023;T023;T082;T023" rank="795;765;703;234" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="864" end="1064" sentText="By convention, the vertebral level (C3, C4, and so on) is used to identify a specific area along the spinal cord, but each designation is not considered a separate and distinct body part anatomically.">
+<RelationSet id="2276">
+<anatomicalStructure value="vertebral level" begin="883" end="898" status="0" certainty="0" cui="C0446409" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="vertebral" begin="883" end="892" status="0" certainty="0" cui="C0549207" tui="T023" rank="703" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="level;C3" begin="893;900" end="898;902" status="0" certainty="0" cui="C0446413" tui="T029" rank="692" code="NO-CODE" sourceType="UWDA"/>
+</RelationSet>
+<RelationSet id="2277">
+<anatomicalStructure value="C4" begin="904" end="906" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2278">
+<anatomicalStructure value="spinal cord" begin="965" end="976" status="0" certainty="0" cui="C0037925;C1278836;C0154034;C0153646;C0496938" tui="T023;T023;T191;T191;T191" rank="797;765;610;610;610" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;ICD10;ICD10"/>
+<anatomicalStructure value="spinal" begin="965" end="971" status="0" certainty="0" cui="C0037949;C1267072;C0521329;C1280065" tui="T023;T023;T082;T023" rank="795;765;703;234" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="cord" begin="972" end="976" status="0" certainty="0" cui="C1550235;C1706500;C1552938" tui="T023;T073;T081" rank="576;575;366" code="NO-CODE" sourceType="HL7V2.5;NCI;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="1065" end="1304" sentText="The current version of the ICD-10-PCS guideline B3.2b states, “During the same operative episode, multiple procedures are coded if: The same root operation is repeated at different body parts that are included in the same body part value.”">
+</Sentence>
+<Sentence sentNo="9" begin="1305" end="1433" sentText="The guideline uses two separate and distinct muscles in the upper leg as an example of the correct application of the guideline.">
+<RelationSet id="2279">
+<anatomicalStructure value="muscles;leg" begin="1350;1371" end="1357;1374" status="0" certainty="0" cui="C0224456" tui="T023" rank="765" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="muscles" begin="1350" end="1357" status="0" certainty="0" cui="C0026845" tui="T024" rank="797" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+<RelationSet id="2280">
+<modifier value="upper leg" begin="1365" end="1374" status="0" certainty="0" cui="S0000222" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+</RelationSet>
+<RelationSet id="2281">
+<anatomicalStructure value="leg" begin="1371" end="1374" status="0" certainty="0" cui="S1000407;C1140621;C1285009;C1269079;C0023216" tui="t061;T029;T029;T023;T029" rank="800;797;765;765;765" code="NO-CODE" sourceType="EZDI;LCH;SNOMEDCTUS;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="1434" end="1625" sentText="The vertebral level designations of the cervical spinal cord do not constitute separate and distinct body parts anatomically, therefore the multiple procedures guideline B3.2b does not apply.">
+<RelationSet id="2282">
+<anatomicalStructure value="vertebral level;cervical" begin="1438;1474" end="1453;1482" status="0" certainty="0" cui="C0446410" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="cervical spinal cord" begin="1474" end="1494" status="0" certainty="0" cui="C0581619;C1278837" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="cervical spinal" begin="1474" end="1489" status="0" certainty="0" cui="C0728985;C1284110" tui="T023;T023" rank="797;234" code="NO-CODE" sourceType="AIR;SNOMEDCTUS"/>
+<anatomicalStructure value="spinal cord" begin="1483" end="1494" status="0" certainty="0" cui="C0037925;C1278836;C0154034;C0153646;C0496938" tui="T023;T023;T191;T191;T191" rank="797;765;610;610;610" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;ICD10;ICD10"/>
+<anatomicalStructure value="cervical" begin="1474" end="1482" status="0" certainty="0" cui="C0027530;C0205064;C0007874;C1281592;C2137077;C0200040;C1550623;C1546592" tui="T029;T082;T023;T023;T033;T061;T031;T170" rank="797;797;790;765;592;373;366;355" code="NO-CODE" sourceType="CST;RCD;RCD;SNOMEDCTUS;MEDCIN;ICD10AM;HL7V3.0;HL7V2.5"/>
+<anatomicalStructure value="spinal" begin="1483" end="1489" status="0" certainty="0" cui="C0037949;C1267072;C0521329;C1280065" tui="T023;T023;T082;T023" rank="795;765;703;234" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="cord" begin="1490" end="1494" status="0" certainty="0" cui="C1550235;C1706500;C1552938" tui="T023;T073;T081" rank="576;575;366" code="NO-CODE" sourceType="HL7V2.5;NCI;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="11" begin="1626" end="1671" sentText="Assign the following ICD-10-PCS code: 00NW0ZZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

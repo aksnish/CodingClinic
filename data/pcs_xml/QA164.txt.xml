@@ -1,0 +1,37 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="410">
+<Paragraph pgNo="1" begin="0" end="166">
+<Sentence sentNo="1" begin="0" end="165" sentText="Question: What is the appropriate ICD-10-PCS code, when a combination of drugs is administered during a single injection (e.g., corticosteroid and local anesthetic)?">
+<RelationSet id="1447">
+<procedure value="injection" begin="111" end="120" status="0" certainty="0" cui="C1828121;C1272883;C1533685;C0021485" tui="T169;T122;T061;T061" rank="795;767;767;151" code="NO-CODE" sourceType="MSH;NCI;ICPC2P;CHV"/>
+</RelationSet>
+<RelationSet id="1448">
+<med value="corticosteroid" begin="128" end="142" status="0" certainty="0" cui="C0001617;C3540727;C3539185;C3540726;C3540725;C3536709" tui="T110,T121,T125;T110,T121;T110,T121;T110,T121;T110,T121;T121" rank="791;742;742;742;742;656" code="NO-CODE" sourceType="RCD;ATC;ATC;ATC;ATC;NDFRT"/>
+</RelationSet>
+<RelationSet id="1449">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="local" begin="147" end="152" status="0" certainty="0"/>
+<procedure value="anesthetic" begin="153" end="163" status="0" certainty="0"/>
+</Relation>
+<modifier value="local" begin="147" end="152" status="0" certainty="0" cui="C1517927;C0205276;C1947913;C1550012" tui="T082;T082;T082;T078" rank="797;797;575;366" code="NO-CODE" sourceType="NCI;RCD;NCI;HL7V2.5"/>
+<procedure value="local anesthetic" begin="147" end="163" status="0" certainty="0" cui="C0002921;C0002934;C3540696;C3541403;C3540789;C2930407;C3536836;C0473977;C0452211" tui="T061;T121;T121;T121;T121;T042;T121;T037;T037" rank="797;797;742;742;742;656;656;611;611" code="NO-CODE" sourceType="MDR;SNM;ATC;ATC;ATC;NDFRT;NDFRT;ICD10AMAE;CST"/>
+<procedure value="anesthetic" begin="153" end="163" status="0" certainty="0" cui="C0002932;C0002903;C0002930;C0278134;C2219802;C1546907" tui="T121;T061;T091;T184;T033;T169" rank="797;795;767;765;592;355" code="NO-CODE" sourceType="SNM;LCH;SNOMEDCTUS;SNMI;MEDCIN;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="167" end="409">
+<Sentence sentNo="2" begin="167" end="334" sentText="Answer: If two substances are combined into a single injection, and the facility desires to collect this information, the introduction of both substances may be coded.">
+<RelationSet id="1450">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="injection" begin="220" end="229" status="0" certainty="-3"/>
+<modifier value="single" begin="213" end="219" status="0" certainty="-3"/>
+</Relation>
+<procedure value="substances;injection" begin="182;220" end="192;229" status="0" certainty="-3" cui="C0559599" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="injection" begin="220" end="229" status="0" certainty="-3" cui="C1828121;C1272883;C1533685;C0021485" tui="T169;T122;T061;T061" rank="795;767;767;151" code="NO-CODE" sourceType="MSH;NCI;ICPC2P;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="335" end="408" sentText="The administration of substances can be found in section 3 of ICD-10-PCS.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

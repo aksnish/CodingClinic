@@ -1,0 +1,108 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1723">
+<Paragraph pgNo="1" begin="0" end="698">
+<Sentence sentNo="1" begin="0" end="122" sentText="Question: A 69-year-old man with recurrent incisional hernia is admitted to undergo an incisional herniorrhaphy with mesh.">
+<RelationSet id="483">
+<problem value="recurrent incisional hernia" begin="33" end="60" status="0" certainty="1" cui="C2048746" tui="T020" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="incisional hernia" begin="43" end="60" status="0" certainty="1" cui="C0267716;C0156145" tui="T020;T020" rank="797;293" code="NO-CODE" sourceType="SNM;ICD9CM"/>
+<problem value="recurrent;hernia" begin="33;54" end="42;60" status="0" certainty="1" cui="C0281961" tui="T020" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="hernia" begin="54" end="60" status="0" certainty="1" cui="C0019270" tui="T190" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="484">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="incisional herniorrhaphy " begin="87" end="112" status="0" certainty="0"/>
+<medicalDevice value="mesh" begin="117" end="121" status="0" certainty="0"/>
+</Relation>
+<problem value="recurrent;hernia;incisional" begin="33;54;87" end="42;60;97" status="0" certainty="0" cui="C2048746" tui="T020" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="hernia;incisional" begin="54;87" end="60;97" status="0" certainty="0" cui="C0267716;C0156145" tui="T020;T020" rank="797;293" code="NO-CODE" sourceType="SNM;ICD9CM"/>
+<procedure value="incisional herniorrhaphy" begin="87" end="111" status="0" certainty="0" cui="C0342971" tui="T061" rank="765" code="NO-CODE" sourceType="MDR"/>
+<procedure value="herniorrhaphy" begin="98" end="111" status="0" certainty="0" cui="C0019328" tui="T061" rank="795" code="NO-CODE" sourceType="SNM"/>
+<procedure value="incisional" begin="87" end="97" status="0" certainty="0" cui="C0184898" tui="T061" rank="523" code="NO-CODE" sourceType="NCI"/>
+<medicalDevice value="mesh" begin="117" end="121" status="0" certainty="0" cui="C0181805;C1552983;C1135584" tui="T074;T081;T170" rank="767;576;366" code="NO-CODE" sourceType="RCD;NCI;SRC"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="123" end="212" sentText="An incision was made in the midline and carried through the skin and subcutaneous tissue.">
+<RelationSet id="484">
+<anatomicalStructure value="skin" begin="183" end="187" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="485">
+<anatomicalStructure value="subcutaneous tissue" begin="192" end="211" status="0" certainty="0" cui="C0278403;C0222331;C1123023" tui="T024;T024;T022" rank="797;575;472" code="NO-CODE" sourceType="SNMI;NCI;AOD"/>
+<anatomicalStructure value="tissue" begin="205" end="211" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="213" end="249" sentText="A large hernia sac was  encountered.">
+<RelationSet id="486">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value=" hernia" begin="220" end="227" status="0" certainty="0"/>
+<modifier value="large" begin="215" end="220" status="0" certainty="0"/>
+</Relation>
+<modifier value="large" begin="215" end="220" status="0" certainty="0" cui="C0549177;C0443228;C1704243;C1416798" tui="T081;T081;T081;T028" rank="797;797;765;596" code="NO-CODE" sourceType="RCD;NCI;SNMI;HGNC"/>
+<problem value="hernia sac" begin="221" end="231" status="0" certainty="0" cui="C0333062" tui="T190" rank="767" code="NO-CODE" sourceType="SNM"/>
+<problem value="hernia" begin="221" end="227" status="0" certainty="0" cui="C0019270" tui="T190" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="251" end="362" sentText="The fascia was dissected off both the right and left of the midline and the hernia sac was divided and removed.">
+<RelationSet id="486">
+<procedure value="dissected" begin="266" end="275" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="487">
+<problem value="hernia sac" begin="327" end="337" status="0" certainty="0" cui="C0333062" tui="T190" rank="767" code="NO-CODE" sourceType="SNM"/>
+<problem value="hernia" begin="327" end="333" status="0" certainty="0" cui="C0019270" tui="T190" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="363" end="510" sentText="The surgeon documented within the operative report that the patient had some adhesions of the omentum and abdominal wall, which were freed as well.">
+<RelationSet id="488">
+<anatomicalStructure value="omentum" begin="457" end="464" status="0" certainty="0" cui="C0028977" tui="T023" rank="797" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+<RelationSet id="489">
+<anatomicalStructure value="abdominal wall" begin="469" end="483" status="0" certainty="0" cui="C0836916;C1269041" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="abdominal" begin="469" end="478" status="0" certainty="0" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="511" end="593" sentText="There was no separate documentation of the clinical significance of the adhesions.">
+</Sentence>
+<Sentence sentNo="7" begin="594" end="697" sentText="Is it appropriate to assign a diagnosis code for adhesions and a procedure code for lysis in this case?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="699" end="1722">
+<Sentence sentNo="8" begin="699" end="932" sentText="Answer: No, do not assign codes for the adhesions of the omentum and abdominal wall nor the adhesiolysis, since there was no indication of their clinical significance documented by the surgeon within the body of the operative report.">
+<RelationSet id="490">
+<anatomicalStructure value="omentum" begin="756" end="763" status="0" certainty="-2" cui="C0028977" tui="T023" rank="797" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+<RelationSet id="491">
+<anatomicalStructure value="abdominal wall" begin="768" end="782" status="0" certainty="-2" cui="C0836916;C1269041" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="abdominal" begin="768" end="777" status="0" certainty="-2" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="933" end="1160" sentText="According to the ICD10-PCS Official Coding Guidelines, B3.1b, “Procedural  steps  necessary to reach the operative site and close the operative site, including anastomosis of a tubular body part, are also not coded separately.”">
+<RelationSet id="492">
+<procedure value="anastomosis" begin="1093" end="1104" status="0" certainty="0" cui="C0332854;C0332853;C0677554;C0500470" tui="T082;T020;T061;T030" rank="797;797;765;692" code="NO-CODE" sourceType="SNMI;SNM;RCD;UWDA"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="1161" end="1283" sentText="Coders should not  code adhesions and lysis thereof, based solely on mention of adhesions or lysis in an operative report.">
+</Sentence>
+<Sentence sentNo="11" begin="1284" end="1410" sentText="Determination as to whether the adhesions and the lysis are significant enough to code and report must be made by the surgeon.">
+</Sentence>
+<Sentence sentNo="12" begin="1411" end="1641" sentText="Documentation of clinical significance by the surgeon may include, but is not limited to, the following language: numerous adhesions requiring a long time to lyse, extensive adhesions involving tedious lysis, extensive lysis, etc.">
+<RelationSet id="493">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="adhesions" begin="1534" end="1543" status="0" certainty="-2"/>
+<modifier value="numerous" begin="1525" end="1533" status="0" certainty="-2"/>
+</Relation>
+<problem value="adhesions" begin="1534" end="1543" status="0" certainty="-2" cui="C0001511;C0175633" tui="T046;T070" rank="767;576" code="NO-CODE" sourceType="LCH;NCI"/>
+<modifier value="numerous" begin="1525" end="1533" status="0" certainty="-2" cui="C0439064" tui="T081" rank="797" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="494">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="extensive" begin="1575" end="1584" status="0" certainty="0"/>
+<problem value="adhesions" begin="1585" end="1594" status="0" certainty="0"/>
+</Relation>
+<modifier value="extensive" begin="1575" end="1584" status="0" certainty="0" cui="C0439795;C0205231" tui="T080;T080" rank="767;767" code="NO-CODE" sourceType="RCD;RCD"/>
+<problem value="adhesions" begin="1585" end="1594" status="0" certainty="0" cui="C0001511;C0175633" tui="T046;T070" rank="767;576" code="NO-CODE" sourceType="LCH;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="13" begin="1642" end="1721" sentText="If uncertainty exists regarding clinical significance, then query the provider.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

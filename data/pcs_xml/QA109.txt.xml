@@ -1,0 +1,68 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1275">
+<Paragraph pgNo="1" begin="0" end="866">
+<Sentence sentNo="1" begin="0" end="138" sentText="Question: A patient, who had suffered acute respiratory failure, is admitted to the long term care hospital (LTCH) for ventilator weaning.">
+<RelationSet id="623">
+<procedure value="ventilator weaning" begin="119" end="137" status="0" certainty="0" cui="C1112479" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="624">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="acute" begin="38" end="43" status="0" certainty="1"/>
+<problem value="respiratory failure" begin="44" end="63" status="0" certainty="-2"/>
+</Relation>
+<modifier value="acute" begin="38" end="43" status="0" certainty="1" cui="C0205178;C1547229;C1547295" tui="T079;T170;T170" rank="797;355;355" code="NO-CODE" sourceType="RCD;HL7V2.5;HL7V2.5"/>
+<problem value="acute respiratory failure" begin="38" end="63" status="0" certainty="-2" cui="C0264490" tui="T047" rank="797" code="NO-CODE" sourceType="ICD10"/>
+<problem value="respiratory failure" begin="44" end="63" status="0" certainty="-2" cui="C1145670" tui="T047" rank="797" code="NO-CODE" sourceType="MEDLINEPLUS"/>
+<problem value="acute;failure" begin="38;56" end="43;63" status="0" certainty="-2" cui="C0231176" tui="T046" rank="767" code="NO-CODE" sourceType="SNMI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="139" end="196" sentText="On day one, the weaning trial was stopped after 12 hours.">
+</Sentence>
+<Sentence sentNo="3" begin="197" end="259" sentText="On day two, the weaning trial was discontinued after 16 hours.">
+</Sentence>
+<Sentence sentNo="4" begin="260" end="327" sentText="The patient tolerated a weaning trial of 18 hours on the third day.">
+</Sentence>
+<Sentence sentNo="5" begin="328" end="440" sentText="By day four, the patient had several more hours of monitored weaning and was breathing spontaneously on his own.">
+<RelationSet id="624">
+<bodyFunction value="breathing" begin="405" end="414" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="441" end="514" sentText="On day five, the ventilator was turned off and the patient was extubated.">
+<RelationSet id="625">
+<medicalDevice value="ventilator" begin="458" end="468" status="0" certainty="0" cui="C0087153;C1611144;C1547127" tui="T074;T073;T082" rank="792;750;355" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="625">
+<procedure value="extubated" begin="504" end="513" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="515" end="661" sentText="According to clinical protocol at our facility, a patient is not “officially” weaned until he has been totally off of the ventilator for 72 hours.">
+<RelationSet id="626">
+<medicalDevice value="ventilator" begin="637" end="647" status="0" certainty="0" cui="C0087153;C1611144;C1547127" tui="T074;T073;T082" rank="792;750;355" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="662" end="750" sentText="After the patient successfully completes the weaning trial, he is continually evaluated.">
+</Sentence>
+<Sentence sentNo="9" begin="751" end="865" sentText="Can we count the additional 72 hours as vent time, since evaluation and monitoring is part of the weaning process?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="867" end="1274">
+<Sentence sentNo="10" begin="867" end="1015" sentText="Answer: Assign ICD-10-PCS code 5A1955Z, Respiratory ventilation, greater than 96 consecutive hours, since the ventilator was turned off on day five.">
+<RelationSet id="627">
+<meas value="Respiratory ventilation" begin="907" end="930" status="0" certainty="0" code="NO-CODE">
+</meas>
+</RelationSet>
+<RelationSet id="628">
+<medicalDevice value="ventilator" begin="977" end="987" status="0" certainty="0" cui="C0087153;C1611144;C1547127" tui="T074;T073;T082" rank="792;750;355" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="11" begin="1016" end="1178" sentText="After the mechanical ventilator is turned off, it is inappropriate to continue to count ventilation hours, even though the patient is continually being evaluated.">
+<RelationSet id="629">
+<medicalDevice value="mechanical ventilator" begin="1026" end="1047" status="0" certainty="0" cui="C0042497" tui="T074" rank="797" code="NO-CODE" sourceType="MSH"/>
+<medicalDevice value="ventilator" begin="1037" end="1047" status="0" certainty="0" cui="C0087153;C1611144;C1547127" tui="T074;T073;T082" rank="792;750;355" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="12" begin="1179" end="1273" sentText="The additional 72 hours that the patient is evaluated is not included in the ventilation time.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

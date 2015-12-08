@@ -1,0 +1,223 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1629">
+<Paragraph pgNo="1" begin="0" end="826">
+<Sentence sentNo="1" begin="0" end="193" sentText="Question: The patient is a 65-year-old male with a history of chronic peripheral artery disease (PAD), who had previously undergone right femoral-popliteal bypass grafting using saphenous vein.">
+<RelationSet id="2346">
+<problem value="PAD" begin="97" end="100" status="0" certainty="0" cui="C0182158;C0332568;C0441601;C1882271;C2347441;C1425478;C1425244;C1706364;C3540603;C1704436" tui="T074;T191;T169;T081;T122;T028;T028;T073;T028;T047" rank="797;767;767;765;739;596;587;575;575;519" code="NO-CODE" sourceType="UMD;SNM;RCD;SNOMEDCTUS;NCI;HGNC;HGNC;NCI;NCI;MEDLINEPLUS"/>
+</RelationSet>
+<RelationSet id="2347">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="femoral-popliteal bypass grafting" begin="138" end="171" status="0" certainty="0"/>
+<anatomicalStructure value="saphenous vein" begin="178" end="192" status="0" certainty="0"/>
+</Relation>
+<modifier value="femoral-popliteal;grafting" begin="138;163" end="155;171" status="0" certainty="0" cui="C1546749" tui="T170" rank="355" code="NO-CODE" sourceType="HL7V2.5"/>
+<modifier value="grafting;vein" begin="163;188" end="171;192" status="0" certainty="0" cui="S0002683;S0000555" tui="t060;t061" rank="800;800" code="NO-CODE" sourceType="EZDI;EZDI"/>
+<procedure value="femoral-popliteal bypass grafting;vein" begin="138;188" end="171;192" status="0" certainty="0" cui="C0730038" tui="T061" rank="629" code="NO-CODE" sourceType="CPT"/>
+<procedure value="bypass grafting;saphenous vein" begin="156;178" end="171;192" status="0" certainty="0" cui="C2067298" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="femoral-popliteal bypass;vein" begin="138;188" end="162;192" status="0" certainty="0" cui="C0843443" tui="T061" rank="608" code="NO-CODE" sourceType="ICD10AM"/>
+<procedure value="bypass grafting using;vein" begin="156;188" end="177;192" status="0" certainty="0" cui="C2006026" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="femoral-popliteal bypass" begin="138" end="162" status="0" certainty="0" cui="C0190932;C0863743;C0743860" tui="T061;T061;T061" rank="491;295;150" code="NO-CODE" sourceType="CCPSS;MTHICD9;CHV"/>
+<procedure value="bypass grafting;saphenous" begin="156;178" end="171;187" status="0" certainty="0" cui="C0748496" tui="T061" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="bypass grafting;vein" begin="156;188" end="171;192" status="0" certainty="0" cui="C0398147" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="bypass grafting" begin="156" end="171" status="0" certainty="0" cui="C0185098" tui="T061" rank="767" code="NO-CODE" sourceType="CPT"/>
+<procedure value="grafting using" begin="163" end="177" status="0" certainty="0" cui="C0449871" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="grafting" begin="163" end="171" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+<procedure value="bypass" begin="156" end="162" status="0" certainty="0" cui="C0741847" tui="T061" rank="765" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="grafting;saphenous vein" begin="163;178" end="171;192" status="0" certainty="0" cui="C0729538" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="femoral-popliteal" begin="138" end="155" status="0" certainty="0" cui="S0002331;C0442037;C0015811" tui="t061;T029;T023" rank="800;767;767" code="NO-CODE" sourceType="EZDI;RCD;RCD"/>
+<anatomicalStructure value="saphenous vein" begin="178" end="192" status="0" certainty="0" cui="C0036186;C0392907" tui="T023;T023" rank="797;151" code="NO-CODE" sourceType="MSH;CHV"/>
+<anatomicalStructure value="vein" begin="188" end="192" status="0" certainty="0" cui="C0348013;C0042449;C1278960;C0398102" tui="T082;T023;T023;T061" rank="797;797;765;373" code="NO-CODE" sourceType="RCD;MSH;SNOMEDCTUS;ICD10AM"/>
+</RelationSet>
+<RelationSet id="2348">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="chronic" begin="62" end="69" status="0" certainty="0"/>
+<problem value=" peripheral artery disease" begin="69" end="95" status="0" certainty="0"/>
+</Relation>
+<modifier value="chronic" begin="62" end="69" status="0" certainty="0" cui="C0205191;C0547045;C1555457;C1547296" tui="T079;T169;T170;T170" rank="797;767;366;355" code="NO-CODE" sourceType="RCD;RCD;HL7V3.0;HL7V2.5"/>
+<problem value="peripheral artery disease" begin="70" end="95" status="0" certainty="0" cui="C1704436" tui="T047" rank="790" code="NO-CODE" sourceType="MSH"/>
+<problem value="artery disease" begin="81" end="95" status="0" certainty="0" cui="C0852949" tui="T047" rank="242" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="chronic;disease" begin="62;88" end="69;95" status="0" certainty="0" cui="C0008679" tui="T047" rank="797" code="NO-CODE" sourceType="LCH"/>
+<problem value="disease" begin="88" end="95" status="0" certainty="0" cui="C0012634;C1422572;C1424810;C1416989;C3273340;C3540595;C3273341;C1331418" tui="T047;T028;T028;T028;T028;T028;T116;T041" rank="797;600;596;596;575;575;575;575" code="NO-CODE" sourceType="LCH;HGNC;OMIM;HGNC;NCI;NCI;NCI;NCI"/>
+<anatomicalStructure value="peripheral artery" begin="70" end="87" status="0" certainty="0" cui="C0489868" tui="T023" rank="416" code="NO-CODE" sourceType="LNC"/>
+<anatomicalStructure value="artery" begin="81" end="87" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="194" end="370" sentText="One year after the bypass procedure, the patient presented with a totally occluded graft and underwent recanalization of the graft with balloon angioplasty and stent placement.">
+<RelationSet id="2349">
+<modifier value="after;procedure" begin="203;220" end="208;229" status="0" certainty="0" cui="C0580203" tui="T079" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="procedure" begin="220" end="229" status="0" certainty="0" cui="C0184661;C0025664;C2700391;C1948041;C3274430;C3538935;C3539779;C1546467" tui="T060,T061;T170;T052;T061;T058;T078;T170;T078" rank="792;789;576;575;572;571;571;366" code="NO-CODE" sourceType="MSH;MSH;NCI;NCI;NCI;NCI;NCI;HL7V2.5"/>
+<procedure value="bypass" begin="213" end="219" status="0" certainty="0" cui="C0741847" tui="T061" rank="765" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+<RelationSet id="2350">
+<procedure value="graft" begin="277" end="282" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+<RelationSet id="2351">
+<procedure value="graft" begin="319" end="324" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+<RelationSet id="2352">
+<procedure value="balloon angioplasty" begin="330" end="349" status="0" certainty="0" cui="C0002996;C0002997" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="MSH;CHV"/>
+<procedure value="angioplasty" begin="338" end="349" status="0" certainty="0" cui="C0162577;C1548817" tui="T061;T058" rank="797;355" code="NO-CODE" sourceType="MDR;HL7V2.5"/>
+<procedure value="balloon" begin="330" end="337" status="0" certainty="0" cui="C0336867;C0441144;C1704777;C0004704" tui="T073;T074;T074;T061" rank="765;724;575;286" code="NO-CODE" sourceType="SNM;RCD;NCI;MTHMST"/>
+</RelationSet>
+<RelationSet id="2353">
+<procedure value="stent placement" begin="354" end="369" status="0" certainty="0" cui="C0522776" tui="T061" rank="767" code="NO-CODE" sourceType="MTHMST"/>
+<procedure value="placement" begin="360" end="369" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+<procedure value="stent" begin="354" end="359" status="0" certainty="0" cui="C2348535;C0038257;C1705817" tui="T061;T074;T074" rank="797;795;575" code="NO-CODE" sourceType="NCI;MSH;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="371" end="432" sentText="He now presents with acute pain in the right lower extremity.">
+<RelationSet id="2354">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="acute" begin="392" end="397" status="0" certainty="0"/>
+<problem value="pain" begin="398" end="402" status="0" certainty="0"/>
+<anatomicalStructure value="extremity" begin="422" end="431" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="pain" begin="398" end="402" status="0" certainty="0"/>
+<anatomicalStructure value="extremity" begin="422" end="431" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="acute" begin="392" end="397" status="0" certainty="0"/>
+<problem value="pain" begin="398" end="402" status="0" certainty="0"/>
+</Relation>
+<modifier value="acute" begin="392" end="397" status="0" certainty="0" cui="C0205178;C1547229;C1547295" tui="T079;T170;T170" rank="797;355;355" code="NO-CODE" sourceType="RCD;HL7V2.5;HL7V2.5"/>
+<problem value="pain;lower extremity" begin="398;416" end="402;431" status="0" certainty="0" cui="C0239376" tui="T184" rank="644" code="NO-CODE" sourceType="MDR"/>
+<problem value="pain;extremity" begin="398;422" end="402;431" status="0" certainty="0" cui="C0030196" tui="T184" rank="652" code="NO-CODE" sourceType="DXP"/>
+<problem value="acute pain" begin="392" end="402" status="0" certainty="0" cui="C0184567" tui="T184" rank="795" code="NO-CODE" sourceType="ICNP"/>
+<problem value="pain" begin="398" end="402" status="0" certainty="0" cui="C0030193;C0234226;C1882272;C1557397;C0242936;C1549543" tui="T184;T169;T033;T033;T073,T093;T169" rank="797;767;551;551;366;355" code="NO-CODE" sourceType="ICPC2P;RCD;NCI;NCI;HL7V3.0;HL7V2.5"/>
+<anatomicalStructure value="right lower extremity" begin="410" end="431" status="0" certainty="0" cui="C0230415" tui="T023" rank="797" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="lower extremity" begin="416" end="431" status="0" certainty="0" cui="C0023216" tui="T029" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="extremity" begin="422" end="431" status="0" certainty="0" cui="C0015385;C0439746;C0278454" tui="T023;T082;T023" rank="795;767;151" code="NO-CODE" sourceType="MSH;RCD;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="433" end="535" sentText="CT angiography demonstrated a pseudoaneurysm from rupture of the right femoral popliteal bypass graft.">
+<RelationSet id="2355">
+<procedure value="CT angiography" begin="433" end="447" status="0" certainty="0" cui="C1536105" tui="T060" rank="767" code="NO-CODE" sourceType="MDR"/>
+<procedure value="angiography" begin="436" end="447" status="0" certainty="0" cui="C0002978" tui="T060" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="CT" begin="433" end="435" status="0" certainty="0" cui="C1367551;C2183251;C1418396;C1705783;C3540513;C0040405;C0007673;C0009778;C0009244;C0010377;C0079164" tui="T028;T060;T028;T028;T028;T060;T083;T083;T061;T116,T126,T131;T080" rank="596;592;587;575;575;571;548;519;519;441;275" code="NO-CODE" sourceType="OMIM;MEDCIN;HGNC;NCI;NCI;NCI;NCI;NCI;NCI;PDQ;MSH"/>
+</RelationSet>
+<RelationSet id="2356">
+<problem value="pseudoaneurysm;rupture" begin="463;483" end="477;490" status="0" certainty="0" cui="C0162869" tui="T047" rank="795" code="NO-CODE" sourceType="NDFRT"/>
+<problem value="pseudoaneurysm" begin="463" end="477" status="0" certainty="0" cui="C0002940;C1510412;C0162868" tui="T047;T046;T046" rank="797;797;151" code="NO-CODE" sourceType="MDR;MDR;CHV"/>
+</RelationSet>
+<RelationSet id="2357">
+<modifier value="femoral popliteal" begin="504" end="521" status="0" certainty="0" cui="S0002331" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<modifier value="popliteal;graft" begin="512;529" end="521;534" status="0" certainty="0" cui="C1546749" tui="T170" rank="355" code="NO-CODE" sourceType="HL7V2.5"/>
+<procedure value="femoral popliteal bypass" begin="504" end="528" status="0" certainty="0" cui="C0190932" tui="T061" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="popliteal bypass graft" begin="512" end="534" status="0" certainty="0" cui="C0863743" tui="T061" rank="295" code="NO-CODE" sourceType="MTHICD9"/>
+<procedure value="femoral;bypass" begin="504;522" end="511;528" status="0" certainty="0" cui="C0743860" tui="T061" rank="150" code="NO-CODE" sourceType="CHV"/>
+<procedure value="bypass graft" begin="522" end="534" status="0" certainty="0" cui="C0185098" tui="T061" rank="767" code="NO-CODE" sourceType="CPT"/>
+<procedure value="bypass" begin="522" end="528" status="0" certainty="0" cui="C0741847" tui="T061" rank="765" code="NO-CODE" sourceType="NCI"/>
+<procedure value="graft" begin="529" end="534" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+<anatomicalStructure value="right femoral" begin="498" end="511" status="0" certainty="0" cui="C1279548;C0230425;C0817319" tui="T023;T023;T023" rank="765;765;692" code="NO-CODE" sourceType="SNOMEDCTUS;SNM;UWDA"/>
+<anatomicalStructure value="popliteal" begin="512" end="521" status="0" certainty="0" cui="C0442037;C1269914;C0224457" tui="T029;T023;T023" rank="767;765;724" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;UWDA"/>
+<anatomicalStructure value="femoral" begin="504" end="511" status="0" certainty="0" cui="C0015811;C0039866;C1281586;C1279112" tui="T023;T029;T023;T023" rank="797;795;765;765" code="NO-CODE" sourceType="LCH;LCH;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="536" end="578" sentText="The patient underwent endovascular repair.">
+<RelationSet id="2358">
+<procedure value="repair" begin="571" end="577" status="0" certainty="0" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+<anatomicalStructure value="endovascular" begin="558" end="570" status="0" certainty="0" cui="C0524425" tui="T029" rank="703" code="NO-CODE" sourceType="SNMI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="579" end="768" sentText="During the procedure, the rupture at the site of the previous bypass was repaired, and a stent graft was deployed inside the existing saphenous vein graft at the site of the pseudoaneurysm.">
+<RelationSet id="2359">
+<procedure value="stent" begin="668" end="673" status="0" certainty="0" cui="C2348535;C0038257;C1705817" tui="T061;T074;T074" rank="797;795;575" code="NO-CODE" sourceType="NCI;MSH;NCI"/>
+<procedure value="graft" begin="674" end="679" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+<RelationSet id="2360">
+<modifier value="vein graft" begin="723" end="733" status="0" certainty="0" cui="S0002683;S0000555" tui="t060;t061" rank="800;800" code="NO-CODE" sourceType="EZDI;EZDI"/>
+<modifier value="saphenous" begin="713" end="722" status="0" certainty="0" cui="S0001179" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<problem value="vein;pseudoaneurysm" begin="723;753" end="727;767" status="0" certainty="0" cui="C0340776;C0948017" tui="T190;T047,T190" rank="767;652" code="NO-CODE" sourceType="RCD;MDR"/>
+<procedure value="graft" begin="728" end="733" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+<procedure value="vein" begin="723" end="727" status="0" certainty="0" cui="C0348013;C0042449;C1278960;C0398102" tui="T082;T023;T023;T061" rank="797;797;765;373" code="NO-CODE" sourceType="RCD;MSH;SNOMEDCTUS;ICD10AM"/>
+<anatomicalStructure value="saphenous vein graft" begin="713" end="733" status="0" certainty="0" cui="C0729538" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="saphenous vein" begin="713" end="727" status="0" certainty="0" cui="C0036186;C0392907" tui="T023;T023" rank="797;151" code="NO-CODE" sourceType="MSH;CHV"/>
+<anatomicalStructure value="vein;site" begin="723;741" end="727;745" status="0" certainty="0" cui="C0449616" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="2361">
+<problem value="pseudoaneurysm" begin="753" end="767" status="0" certainty="0" cui="C0002940;C1510412;C0162868" tui="T047;T046;T046" rank="797;797;151" code="NO-CODE" sourceType="MDR;MDR;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="769" end="825" sentText="What  is the correct ICD-10-PCS code for this procedure?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="827" end="1628">
+<Sentence sentNo="8" begin="827" end="904" sentText="Answer: The pseudoaneurysm was a complication of the previously placed graft.">
+</Sentence>
+<Sentence sentNo="9" begin="905" end="1029" sentText="At surgery, a stent graft was deployed inside of the existing graft to reinforce it and  prevent  recurrence of the rupture.">
+<RelationSet id="2362">
+<procedure value="surgery" begin="908" end="915" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2363">
+<procedure value="graft" begin="925" end="930" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+<procedure value="stent" begin="919" end="924" status="0" certainty="0" cui="C2348535;C0038257;C1705817" tui="T061;T074;T074" rank="797;795;575" code="NO-CODE" sourceType="NCI;MSH;NCI"/>
+</RelationSet>
+<RelationSet id="2364">
+<procedure value="graft" begin="967" end="972" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="1030" end="1089" sentText="Two codes would be used to capture this operative scenario.">
+</Sentence>
+<Sentence sentNo="11" begin="1090" end="1199" sentText="The root operation “revision” captures the fact that the previously placed saphenous vein graft was repaired.">
+<RelationSet id="2365">
+<procedure value="operation;revision" begin="1099;1110" end="1108;1118" status="0" certainty="0" cui="C0558347" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="operation" begin="1099" end="1108" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+<procedure value="revision" begin="1110" end="1118" status="0" certainty="0" cui="C0439617;C0439616;C1527075" tui="T079;T079;T061" rank="797;767;576" code="NO-CODE" sourceType="RCD;RCD;NCI"/>
+</RelationSet>
+<RelationSet id="2366">
+<modifier value="vein graft" begin="1175" end="1185" status="0" certainty="0" cui="S0002683;S0000555" tui="t060;t061" rank="800;800" code="NO-CODE" sourceType="EZDI;EZDI"/>
+<modifier value="saphenous" begin="1165" end="1174" status="0" certainty="0" cui="S0001179" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="vein graft;repaired" begin="1175;1190" end="1185;1198" status="0" certainty="0" cui="C0191142" tui="T061" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<procedure value="vein;repaired" begin="1175;1190" end="1179;1198" status="0" certainty="0" cui="C0191140" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="graft" begin="1180" end="1185" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+<procedure value="vein" begin="1175" end="1179" status="0" certainty="0" cui="C0348013;C0042449;C1278960;C0398102" tui="T082;T023;T023;T061" rank="797;797;765;373" code="NO-CODE" sourceType="RCD;MSH;SNOMEDCTUS;ICD10AM"/>
+<anatomicalStructure value="saphenous vein graft" begin="1165" end="1185" status="0" certainty="0" cui="C0729538" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="saphenous vein" begin="1165" end="1179" status="0" certainty="0" cui="C0036186;C0392907" tui="T023;T023" rank="797;151" code="NO-CODE" sourceType="MSH;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="12" begin="1200" end="1344" sentText="The root operation “supplement” captures the fact that a stent graft was placed inside the existing graft to reinforce the previous bypass site.">
+<RelationSet id="2367">
+<procedure value="operation" begin="1209" end="1218" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="2368">
+<procedure value="graft" begin="1263" end="1268" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+<procedure value="stent" begin="1257" end="1262" status="0" certainty="0" cui="C2348535;C0038257;C1705817" tui="T061;T074;T074" rank="797;795;575" code="NO-CODE" sourceType="NCI;MSH;NCI"/>
+</RelationSet>
+<RelationSet id="2369">
+<procedure value="graft" begin="1300" end="1305" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="13" begin="1345" end="1627" sentText="Assign the following ICD-10-PCS code for the endovascular repair of pseudoaneurysm using a stent graft: 04WY37Z Revision of autologous tissue substitute in lower artery, percutaneous  approach 04UK3JZ Supplement right femoral artery with synthetic substitute, percutaneous  approach">
+<RelationSet id="2370">
+<procedure value="repair;pseudoaneurysm" begin="1403;1413" end="1409;1427" status="0" certainty="0" cui="C0189661;C0748037" tui="T061;T061" rank="767;767" code="NO-CODE" sourceType="CCPSS;CCPSS"/>
+<procedure value="repair" begin="1403" end="1409" status="0" certainty="0" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+<anatomicalStructure value="endovascular" begin="1390" end="1402" status="0" certainty="0" cui="C0524425" tui="T029" rank="703" code="NO-CODE" sourceType="SNMI"/>
+</RelationSet>
+<RelationSet id="2371">
+<anatomicalStructure value="autologous;artery" begin="1469;1507" end="1479;1513" status="0" certainty="0" cui="C0440762" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="artery" begin="1507" end="1513" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="2372">
+<modifier value="right" begin="1557" end="1562" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="2373">
+<anatomicalStructure value="right femoral artery" begin="1557" end="1577" status="0" certainty="0" cui="C0226447;C1281566" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="femoral artery" begin="1563" end="1577" status="0" certainty="0" cui="C0015801;C1280173;C0545729" tui="T023;T023;T082" rank="795;765;150" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;CHV"/>
+<anatomicalStructure value="right femoral" begin="1557" end="1570" status="0" certainty="0" cui="C1279548;C0230425;C0817319" tui="T023;T023;T023" rank="765;765;692" code="NO-CODE" sourceType="SNOMEDCTUS;SNM;UWDA"/>
+<anatomicalStructure value="femoral" begin="1563" end="1570" status="0" certainty="0" cui="C0015811;C0039866;C1281586;C1279112" tui="T023;T029;T023;T023" rank="797;795;765;765" code="NO-CODE" sourceType="LCH;LCH;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="artery" begin="1571" end="1577" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="2374">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="stent" begin="1436" end="1441" status="0" certainty="0"/>
+<problem value="pseudoaneurysm" begin="1413" end="1427" status="0" certainty="0"/>
+</Relation>
+<problem value="pseudoaneurysm" begin="1413" end="1427" status="0" certainty="0" cui="C0002940;C1510412;C0162868" tui="T047;T046;T046" rank="797;797;151" code="NO-CODE" sourceType="MDR;MDR;CHV"/>
+<medicalDevice value="stent graft" begin="1436" end="1447" status="0" certainty="0" cui="C1322796" tui="T074" rank="686" code="NO-CODE" sourceType="UMD"/>
+<medicalDevice value="stent" begin="1436" end="1441" status="0" certainty="0" cui="C2348535;C0038257;C1705817" tui="T061;T074;T074" rank="797;795;575" code="NO-CODE" sourceType="NCI;MSH;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

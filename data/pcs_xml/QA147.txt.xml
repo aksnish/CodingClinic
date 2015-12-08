@@ -1,0 +1,110 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1164">
+<Paragraph pgNo="1" begin="0" end="574">
+<Sentence sentNo="1" begin="0" end="86" sentText="Question: A patient with retinal detachment of the left eye underwent surgical repair.">
+<RelationSet id="1">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="left" begin="51" end="55" status="0" certainty="1"/>
+<problem value="retinal detachment" begin="25" end="43" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="retinal detachment" begin="25" end="43" status="0" certainty="1"/>
+<anatomicalStructure value="eye" begin="56" end="59" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="surgical repair" begin="70" end="85" status="0" certainty="0"/>
+<modifier value="left" begin="51" end="55" status="0" certainty="1"/>
+<anatomicalStructure value="eye" begin="56" end="59" status="0" certainty="1"/>
+<problem value="retinal detachment" begin="25" end="43" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="surgical repair" begin="70" end="85" status="0" certainty="0"/>
+<anatomicalStructure value="eye" begin="56" end="59" status="0" certainty="1"/>
+</Relation>
+<procedure value="retinal detachment;left eye;repair" begin="25;51;79" end="43;59;85" status="0" certainty="0" cui="C2092743" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="surgical repair" begin="70" end="85" status="0" certainty="0" cui="C0374711" tui="T061" rank="797" code="NO-CODE" sourceType="RCD"/>
+<procedure value="eye;surgical" begin="56;70" end="59;78" status="0" certainty="0" cui="C1705869;C0038901" tui="T091;T061" rank="767;595" code="NO-CODE" sourceType="SNOMEDCTUS;AOD"/>
+<procedure value="eye;repair" begin="56;79" end="59;85" status="0" certainty="0" cui="C0395089" tui="T061" rank="767" code="NO-CODE" sourceType="ICPC2P"/>
+<procedure value="surgical" begin="70" end="78" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C1552276;C0582175;C1555455;C1552386;C1547138" tui="T169;T091;T058;T078;T097;T097;T078;T097;T078" rank="794;791;767;571;366;366;366;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V3.0;HL7V3.0;HL7V3.0;HL7V2.5"/>
+<procedure value="repair" begin="79" end="85" status="0" certainty="0" cui="C0205340;C0554245;C0043240;C1705181" tui="T169;T097;T040;T058" rank="767;767;702;576" code="NO-CODE" sourceType="SNMI;RCD;SNM;NCI"/>
+<modifier value="left" begin="51" end="55" status="0" certainty="1" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+<problem value="retinal detachment" begin="25" end="43" status="0" certainty="1" cui="C0035305;C1963229" tui="T020;T033" rank="797;551" code="NO-CODE" sourceType="MSH;NCI"/>
+<problem value="detachment" begin="33" end="43" status="0" certainty="1" cui="C0595950;C0541879" tui="T046;T041" rank="716;644" code="NO-CODE" sourceType="SNM;MDR"/>
+<anatomicalStructure value="left eye" begin="51" end="59" status="0" certainty="1" cui="C0229090;C2141124" tui="T023;T060" rank="765;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+<anatomicalStructure value="eye" begin="56" end="59" status="0" certainty="1" cui="C0015392;C1280202;C1299003;C0154094;C2347396;C0042789;C1522230;C1555998;C1555960;C1550636;C1546630;C0029144" tui="T023;T023;T169;T191;T122;T040;T082;T097;T097;T031;T170;T090" rank="797;765;703;610;575;575;575;366;366;366;355;150" code="NO-CODE" sourceType="COSTAR;SNOMEDCTUS;NCI;ICD10;NCI;NCI;SNOMEDCTUS;HL7V3.0;HL7V3.0;HL7V3.0;HL7V2.5;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="87" end="251" sentText="Provider documentation states that a core vitrectomy was done, followed by 360 degrees peripheral vitreous base dissection, and thorough vitrectomy for 360 degrees.">
+<RelationSet id="2">
+<procedure value="vitrectomy" begin="129" end="139" status="0" certainty="1" cui="C0042903" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="4">
+<procedure value="vitrectomy" begin="224" end="234" status="0" certainty="0" cui="C0042903" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="252" end="454" sentText="Once the retinal tear was identified, partial air-fluid exchange was performed, photocoagulation/endolaser was placed surrounding the retinal tear, and air was replaced with 20% sulfur hexafluoride gas.">
+<RelationSet id="5">
+<problem value="retinal tear" begin="261" end="273" status="0" certainty="0" cui="C0035321" tui="T047,T190" rank="791" code="NO-CODE" sourceType="MSH"/>
+<problem value="tear" begin="269" end="273" status="0" certainty="0" cui="C1550271;C0039409;C0152227;C0043246;C0424109;C0423153;C1704633;C1611838;C1547924;C3203359" tui="T080;T031;T047;T037;T033;T033;T082;T031;T170;T037" rank="797;795;765;765;765;713;575;366;355;150" code="NO-CODE" sourceType="LNC;MSH;SNOMEDCTUS;RCD;RCD;OMIM;NCI;HL7V3.0;HL7V2.5;CHV"/>
+</RelationSet>
+<RelationSet id="6">
+<procedure value="photocoagulation/endolaser" begin="332" end="358" status="0" certainty="0" cui="C1690989" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="photocoagulation" begin="332" end="348" status="0" certainty="0" cui="C0023694;C0441509;C0427579;C0005790;C0005778;C1880113;C1556326;C1328010;C1328723;C1561952" tui="T061;T061;T034;T059;T042;T067;T033;T061;T039;T058" rank="791;767;765;711;575;561;551;530;464;366" code="NO-CODE" sourceType="RCD;MTHMST;LCH;LNC;NCI;NCI;NCI;NCI;GO;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="6">
+<anatomicalStructure value="endolaser" begin="349" end="358" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="7">
+<problem value="retinal tear" begin="386" end="398" status="0" certainty="0" cui="C0035321" tui="T047,T190" rank="791" code="NO-CODE" sourceType="MSH"/>
+<problem value="tear" begin="394" end="398" status="0" certainty="0" cui="C1550271;C0039409;C0152227;C0043246;C0424109;C0423153;C1704633;C1611838;C1547924;C3203359" tui="T080;T031;T047;T037;T033;T033;T082;T031;T170;T037" rank="797;795;765;765;765;713;575;366;355;150" code="NO-CODE" sourceType="LNC;MSH;SNOMEDCTUS;RCD;RCD;OMIM;NCI;HL7V3.0;HL7V2.5;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="455" end="573" sentText="What is/are the appropriate root operation(s) for the vitrectomy and air replacement with 20% sulfur hexafluoride gas?">
+<RelationSet id="8">
+<procedure value="vitrectomy" begin="509" end="519" status="0" certainty="0" cui="C0042903" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="9">
+<procedure value="replacement" begin="528" end="539" status="0" certainty="0" cui="C0559956;C0035139;C1555302" tui="T169;T061;T078" rank="797;765;366" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="575" end="1163">
+<Sentence sentNo="5" begin="575" end="694" sentText="Answer: In this case, the root operation is “Excision,” because the entire vitreous is not removed during a vitrectomy.">
+<RelationSet id="10">
+<procedure value="vitrectomy" begin="683" end="693" status="0" certainty="-2" cui="C0042903" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="11">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="root" begin="601" end="605" status="0" certainty="0"/>
+<procedure value="Excision" begin="620" end="628" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="root" begin="601" end="605" status="0" certainty="0" cui="S1001239;C0242726;C0563017;C0040452;C1705917;C1318154" tui="t061;T002;T033;T023;T078;T023" rank="800;765;765;576;575;418" code="NO-CODE" sourceType="EZDI;RCD;RCD;NCI;NCI;LNC"/>
+<procedure value="Excision" begin="620" end="628" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="695" end="825" sentText="Do not code the instillation of oil, air or fluid into the vitreous following vitrectomy, because it is integral to the procedure.">
+<RelationSet id="12">
+<procedure value="vitrectomy" begin="773" end="783" status="0" certainty="0" cui="C0042903" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="826" end="953" sentText="The substance instilled functions like packing inside the eye: it holds the retina and other structures in the proper position.">
+<RelationSet id="13">
+<anatomicalStructure value="eye;retina" begin="884;902" end="887;908" status="0" certainty="0" cui="C0459649;C0229201" tui="T023;T023" rank="572;150" code="NO-CODE" sourceType="NCI;CHV"/>
+<anatomicalStructure value="eye" begin="884" end="887" status="0" certainty="0" cui="C0015392;C1280202;C1299003;C0154094;C2347396;C0042789;C1522230;C1555998;C1555960;C1550636;C1546630;C0029144" tui="T023;T023;T169;T191;T122;T040;T082;T097;T097;T031;T170;T090" rank="797;765;703;610;575;575;575;366;366;366;355;150" code="NO-CODE" sourceType="COSTAR;SNOMEDCTUS;NCI;ICD10;NCI;NCI;SNOMEDCTUS;HL7V3.0;HL7V3.0;HL7V3.0;HL7V2.5;CHV"/>
+</RelationSet>
+<RelationSet id="14">
+<anatomicalStructure value="retina" begin="902" end="908" status="0" certainty="0" cui="C0040845;C0035298;C0035331;C1278894;C0154027;C0024622" tui="T109,T121,T127;T023;T109,T121,T127;T023;T191;T191" rank="797;797;791;765;610;610" code="NO-CODE" sourceType="MSH;LCH;MSH;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="954" end="1020" sentText="The oil, air or fluid does not replace or supplement the vitreous.">
+</Sentence>
+<Sentence sentNo="9" begin="1021" end="1098" sentText="The body secretes fluid that over time fills the void left by the vitrectomy.">
+<RelationSet id="15">
+<procedure value="vitrectomy" begin="1087" end="1097" status="0" certainty="0" cui="C0042903" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="1099" end="1163" sentText="Assign the following ICD-10-PCS code for the vitrectomy: 08B53ZZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,66 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="3571">
+<Paragraph pgNo="1" begin="0" end="210">
+<Sentence sentNo="1" begin="0" end="209" sentText="Question: Can you clarify whether advice on documentation issues that do not appear to be specifically tied to a particular coding system (ICD-9-CM nor ICD-10CM/PCS) are still valid for ICD-10-CM or ICD-10PCS?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="211" end="3570">
+<Sentence sentNo="2" begin="211" end="373" sentText="Answer: Coding Clinic advice regarding documentation issues over the years  has focused on what documentation can be used and was not specific to a coding system.">
+</Sentence>
+<Sentence sentNo="3" begin="374" end="449" sentText="For clarification purposes, the following information is being republished.">
+</Sentence>
+<Sentence sentNo="4" begin="450" end="668" sentText=" Provider Documentation Code assignment may be based on other physician (i.e., consultants, residents, anesthesiologist, etc.) documentation as long as there is no conflicting information from the attending physician.">
+</Sentence>
+<Sentence sentNo="5" begin="669" end="866" sentText="Medical record documentation from any physician involved in the care and treatment of the patient, including documentation by consulting physicians, is appropriate for the basis of code assignment.">
+</Sentence>
+<Sentence sentNo="6" begin="867" end="1102" sentText="The issue of whether a resident’s documentation needs to be confirmed by the attending physician is best addressed by the hospital’s internal policies, medical staff bylaws, and/or any other applicable local/state/ federal regulations.">
+</Sentence>
+<Sentence sentNo="7" begin="1103" end="1267" sentText="Documentation is not limited to the face sheet, discharge summary, progress notes, history and physical, or other report designed to capture diagnostic information.">
+</Sentence>
+<Sentence sentNo="8" begin="1268" end="1312" sentText="This advice refers only to inpatient coding.">
+</Sentence>
+<Sentence sentNo="9" begin="1313" end="1444" sentText="It is appropriate to use the completed cancer staging form for coding purposes when it is authenticated by the attending physician.">
+<RelationSet id="936">
+<problem value="cancer" begin="1352" end="1358" status="0" certainty="0" cui="C0006826;C1306459;C0998265;C0260515;C1547140" tui="T191;T191;T204;T033;T091" rank="793;765;751;592;355" code="NO-CODE" sourceType="ICPC2P;SNOMEDCTUS;NCBI;MEDCIN;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="1445" end="1774" sentText="It would be appropriate to use the health record documentation of other providers, such as nurse practitioners and physician assistants as the basis for code assignment to report new diagnoses, if they are considered legally accountable for establishing a diagnosis within the regulations governing the provider and the facility.">
+</Sentence>
+<Sentence sentNo="11" begin="1775" end="1909" sentText="The Official Guidelines for Coding and Reporting define a provider as the individual legally accountable for establishing a diagnosis.">
+</Sentence>
+<Sentence sentNo="12" begin="1910" end="2053" sentText="It is appropriate to assign a procedure code based on documentation by a nonphysician professional when that professional provides the service.">
+</Sentence>
+<Sentence sentNo="13" begin="2054" end="2114" sentText="This may be the only evidence that the service was provided.">
+</Sentence>
+<Sentence sentNo="14" begin="2115" end="2306" sentText="For example, infusions may be carried out by a nurse, mechanical ventilation may be provided by a respiratory therapist, or a drug may be ordered by the physician and administered by a nurse.">
+<RelationSet id="937">
+<procedure value="mechanical ventilation" begin="2169" end="2191" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="2169" end="2179" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="15" begin="2307" end="2411" sentText="Please note this only applies to procedure coding where there is documentation to substantiate the code.">
+</Sentence>
+<Sentence sentNo="16" begin="2412" end="2459" sentText="This advice does not apply to diagnosis coding.">
+</Sentence>
+<Sentence sentNo="17" begin="2460" end="2589" sentText=" Coding on the Basis of Up or Down Arrows It is not appropriate for the coder to report a diagnosis based on up and down arrows.">
+</Sentence>
+<Sentence sentNo="18" begin="2590" end="2668" sentText="Diagnosing a patient’s condition is solely the responsibility of the provider.">
+</Sentence>
+<Sentence sentNo="19" begin="2669" end="2761" sentText="Up and down arrows can have variable interpretations and do not necessarily mean “abnormal.”">
+</Sentence>
+<Sentence sentNo="20" begin="2762" end="2843" sentText="They could simply be indicating change (including improvement) over past results.">
+</Sentence>
+<Sentence sentNo="21" begin="2844" end="3008" sentText="Therefore the provider should be queried regarding the meaning of the arrows and request that the appropriate documentation of a condition or diagnosis be provided.">
+</Sentence>
+<Sentence sentNo="22" begin="3009" end="3267" sentText="This information is consistent with the coding guideline on abnormal findings which states: “abnormal findings (laboratory, x-ray, pathologic, and other diagnostic results) are not coded and reported unless the provider indicates their clinical significance.">
+<RelationSet id="938">
+<procedure value="x-ray" begin="3133" end="3138" status="0" certainty="0" cui="C0034571;C0441950;C0043309;C0439122;C1706494;C1306645;C1962945;C1428870;C1419015;C1705107;C2981685;C1704751;C1704750;C0086894;C2314876;C3244296;C0851346" tui="T169;T170;T070;T170;T170;T060;T060;T028;T028;T081;T081;T082;T082;T013;T013;T170;T070" rank="789;767;767;767;767;765;765;587;587;563;540;519;519;475;428;366;150" code="NO-CODE" sourceType="MSH;RCD;SNM;RCD;SNOMEDCTUS;MDR;SNOMEDCTUS;HGNC;HGNC;NCI;NCI;NCI;NCI;CHV;NCBI;HL7V3.0;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="23" begin="3268" end="3499" sentText="If the findings are outside the normal range and the attending provider has ordered other tests to evaluate the condition or prescribed treatment, it is appropriate to ask the provider whether the abnormal finding should be added.”">
+</Sentence>
+<Sentence sentNo="24" begin="3500" end="3569" sentText="The same advice applies for both inpatient and outpatient admissions.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

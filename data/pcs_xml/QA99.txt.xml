@@ -1,0 +1,158 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1239">
+<Paragraph pgNo="1" begin="0" end="358">
+<Sentence sentNo="1" begin="0" end="144" sentText="Question: A patient with recurrent spontaneous pneumothorax presents for right talc pleurodesis via video-assisted thoracoscopic surgery (VATS).">
+<RelationSet id="88">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="spontaneous" begin="35" end="46" status="0" certainty="1"/>
+<problem value="pneumothorax" begin="47" end="59" status="0" certainty="1"/>
+</Relation>
+<modifier value="spontaneous" begin="35" end="46" status="0" certainty="1" cui="C0205359" tui="T169" rank="767" code="NO-CODE" sourceType="RCD"/>
+<problem value="spontaneous pneumothorax" begin="35" end="59" status="0" certainty="1" cui="C0149781" tui="T047" rank="797" code="NO-CODE" sourceType="COSTAR"/>
+<problem value="pneumothorax" begin="47" end="59" status="0" certainty="1" cui="C0032326;C1963215" tui="T047;T033" rank="797;551" code="NO-CODE" sourceType="ICD10;NCI"/>
+</RelationSet>
+<RelationSet id="89">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="video-assisted thoracoscopic surgery" begin="100" end="136" status="0" certainty="0"/>
+<modifier value="right" begin="73" end="78" status="0" certainty="1"/>
+<procedure value="talc pleurodesis" begin="79" end="95" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="right" begin="73" end="78" status="0" certainty="1"/>
+<procedure value="talc pleurodesis" begin="79" end="95" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="video-assisted thoracoscopic surgery" begin="100" end="136" status="0" certainty="0"/>
+<modifier value="right" begin="73" end="78" status="0" certainty="1"/>
+</Relation>
+<procedure value="video-assisted thoracoscopic surgery" begin="100" end="136" status="0" certainty="0" cui="C0752151" tui="T061" rank="790" code="NO-CODE" sourceType="MSH"/>
+<procedure value="video-assisted thoracoscopic" begin="100" end="128" status="0" certainty="0" cui="C2923055" tui="T060" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="pleurodesis;thoracoscopic" begin="84;115" end="95;128" status="0" certainty="0" cui="C0371463" tui="T061" rank="797" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="thoracoscopic surgery" begin="115" end="136" status="0" certainty="0" cui="C0751551" tui="T061" rank="790" code="NO-CODE" sourceType="PDQ"/>
+<procedure value="video-assisted;surgery" begin="100;129" end="114;136" status="0" certainty="0" cui="C0677965" tui="T061" rank="795" code="NO-CODE" sourceType="NCI"/>
+<procedure value="thoracoscopic" begin="115" end="128" status="0" certainty="0" cui="C0039989;C0442425;C2367167;C1880308" tui="T060,T061;T082;T061;T060" rank="797;717;592;234" code="NO-CODE" sourceType="ICD10AM;SNOMEDCTUS;MEDCIN;SNOMEDCTUS"/>
+<procedure value="surgery" begin="129" end="136" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+<modifier value="right" begin="73" end="78" status="0" certainty="1" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+<procedure value="talc pleurodesis" begin="79" end="95" status="0" certainty="0" cui="C0405997" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="pleurodesis" begin="84" end="95" status="0" certainty="0" cui="C0189557" tui="T061" rank="795" code="NO-CODE" sourceType="ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="145" end="281" sentText="A right-sided thoracoscopy was performed, and followed by placement of an additional port with injection of talc within the right chest.">
+<RelationSet id="90">
+<modifier value="right-sided" begin="147" end="158" status="0" certainty="0" cui="C0444532;C0205090;C0497685" tui="T082;T082;T082" rank="797;765;250" code="NO-CODE" sourceType="RCD;RCD;HCPCS"/>
+<modifier value="sided" begin="153" end="158" status="0" certainty="0" cui="C0441987;C0457012" tui="T082;T082" rank="797;797" code="NO-CODE" sourceType="RCD;RCD"/>
+<procedure value="thoracoscopy" begin="159" end="171" status="0" certainty="0" cui="C0039989;C2367167;C1880308" tui="T060,T061;T061;T060" rank="797;592;234" code="NO-CODE" sourceType="MSH;MEDCIN;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="91">
+<modifier value="right" begin="269" end="274" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="92">
+<anatomicalStructure value="chest" begin="275" end="280" status="0" certainty="0" cui="C0817096;C1521735;C0729233" tui="T029;T080;T047" rank="797;797;295" code="NO-CODE" sourceType="LCH;NCI;MTHICD9"/>
+</RelationSet>
+<RelationSet id="93">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="port" begin="230" end="234" status="0" certainty="0"/>
+<procedure value="injection" begin="240" end="249" status="0" certainty="0"/>
+<procedure value="placement" begin="203" end="212" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="port" begin="230" end="234" status="0" certainty="0"/>
+<procedure value="injection" begin="240" end="249" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="port" begin="230" end="234" status="0" certainty="0"/>
+<procedure value="placement" begin="203" end="212" status="0" certainty="0"/>
+</Relation>
+<medicalDevice value="port" begin="230" end="234" status="0" certainty="0" cui="S0000553;C0452253;C0205054;C1880253;C1706409;C0475311" tui="t061;T168;T029;T077;T074;T073" rank="800;767;767;575;575;472" code="NO-CODE" sourceType="EZDI;RCD;SNMI;NCI;NCI;CHV"/>
+<procedure value="injection" begin="240" end="249" status="0" certainty="0" cui="C1828121;C1272883;C1533685;C0021485" tui="T169;T122;T061;T061" rank="795;767;767;151" code="NO-CODE" sourceType="MSH;NCI;ICPC2P;CHV"/>
+<procedure value="placement" begin="203" end="212" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="282" end="317" sentText="How should this procedure be coded?">
+</Sentence>
+<Sentence sentNo="4" begin="318" end="357" sentText="What is the appropriate approach value?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="359" end="1238">
+<Sentence sentNo="5" begin="359" end="530" sentText="Answer: In this case the chemical agent talc, commonly placed in the pleural cavity during pleurodesis, is being injected and “Introduction” is the correct root operation.">
+<RelationSet id="93">
+<procedure value="injected" begin="472" end="480" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="94">
+<procedure value="operation" begin="520" end="529" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="95">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="pleurodesis" begin="450" end="461" status="0" certainty="0"/>
+<anatomicalStructure value="pleural cavity" begin="428" end="442" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="pleural cavity" begin="428" end="442" status="0" certainty="0" cui="C0178802" tui="T029" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="cavity" begin="436" end="442" status="0" certainty="0" cui="C1510420;C0333343;C0011334" tui="T190;T030;T047" rank="767;691;399" code="NO-CODE" sourceType="SNMI;UWDA;MEDLINEPLUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="531" end="632" sentText="The root operation “Destruction” is not appropriate because the pleura itself is not being destroyed.">
+<RelationSet id="96">
+<procedure value="Destruction" begin="551" end="562" status="0" certainty="0" cui="C1261381;C1948029" tui="T061;T052" rank="765;576" code="NO-CODE" sourceType="ICPC2P;NCI"/>
+<procedure value="operation" begin="540" end="549" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="97">
+<anatomicalStructure value="pleura" begin="595" end="601" status="0" certainty="0" cui="C1522720;C0032225;C1279036;C0496914;C0153494" tui="T082;T023;T023;T191;T191" rank="797;797;765;610;610" code="NO-CODE" sourceType="SNOMEDCTUS;CST;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="633" end="815" sentText="Instead, the talc is injected to cause adhesions to form between the exterior of the pleura and the chest wall in order to seal the abnormal air space (pneumothorax) that has formed.">
+<RelationSet id="97">
+<procedure value="injected" begin="654" end="662" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="98">
+<problem value="adhesions" begin="672" end="681" status="0" certainty="0" cui="C0001511;C0175633" tui="T046;T070" rank="767;576" code="NO-CODE" sourceType="LCH;NCI"/>
+</RelationSet>
+<RelationSet id="99">
+<anatomicalStructure value="pleura" begin="718" end="724" status="0" certainty="0" cui="C1522720;C0032225;C1279036;C0496914;C0153494" tui="T082;T023;T023;T191;T191" rank="797;797;765;610;610" code="NO-CODE" sourceType="SNOMEDCTUS;CST;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+<RelationSet id="100">
+<anatomicalStructure value="chest wall" begin="733" end="743" status="0" certainty="0" cui="C0205076;C1279035" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="chest" begin="733" end="738" status="0" certainty="0" cui="C0817096;C1521735;C0729233" tui="T029;T080;T047" rank="797;797;295" code="NO-CODE" sourceType="LCH;NCI;MTHICD9"/>
+</RelationSet>
+<RelationSet id="101">
+<problem value="pneumothorax" begin="785" end="797" status="0" certainty="0" cui="C0032326;C1963215" tui="T047;T033" rank="797;551" code="NO-CODE" sourceType="ICD10;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="816" end="986" sentText="The approach “percutaneous endoscopic” is not available in table 3E0 (Introduction) for the pleural cavity body part, and the closest equivalent is percutaneous approach.">
+<RelationSet id="102">
+<anatomicalStructure value="pleural cavity body" begin="908" end="927" status="0" certainty="-2" cui="C0178802" tui="T029" rank="797" code="NO-CODE" sourceType="CSP"/>
+<anatomicalStructure value="pleural;part" begin="908;928" end="915;932" status="0" certainty="-2" cui="C1268108" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="cavity body" begin="916" end="927" status="0" certainty="-2" cui="C0333343;C1283893;C1704768" tui="T030;T030;T169" rank="797;765;692" code="NO-CODE" sourceType="UWDA;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="body part" begin="923" end="932" status="0" certainty="-2" cui="C0229962" tui="T023" rank="797" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="body" begin="923" end="927" status="0" certainty="-2" cui="S1000390;C1268086;C1551342;C0242821" tui="t061;T017;T078;T016" rank="800;753;575;151" code="NO-CODE" sourceType="EZDI;NCI;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="103">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="endoscopic”" begin="843" end="854" status="0" certainty="0"/>
+<modifier value="percutaneous" begin="830" end="842" status="0" certainty="0"/>
+</Relation>
+<medicalDevice value="endoscopic" begin="843" end="853" status="0" certainty="0" cui="C0014245;C0442418;C1552424" tui="T060;T082;T073,T093" rank="795;711;366" code="NO-CODE" sourceType="ICPC2P;SNOMEDCTUS;HL7V3.0"/>
+<modifier value="percutaneous" begin="830" end="842" status="0" certainty="0" cui="C0522523;C0221912;C1522243;C1522447" tui="T082;T082;T169;T169" rank="797;797;575;575" code="NO-CODE" sourceType="RCD;SNMI;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="987" end="1143" sentText="Since the endoscopic component of the procedure is not captured by the approach value, also report a code for inspection of the pleura for the thoracoscopy.">
+<RelationSet id="104">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="pleura" begin="1115" end="1121" status="0" certainty="0"/>
+<procedure value="thoracoscopy" begin="1130" end="1142" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="pleura" begin="1115" end="1121" status="0" certainty="0" cui="C1522720;C0032225;C1279036;C0496914;C0153494" tui="T082;T023;T023;T191;T191" rank="797;797;765;610;610" code="NO-CODE" sourceType="SNOMEDCTUS;CST;SNOMEDCTUS;ICD10;ICD10"/>
+<procedure value="thoracoscopy" begin="1130" end="1142" status="0" certainty="0" cui="C0039989;C2367167;C1880308" tui="T060,T061;T061;T060" rank="797;592;234" code="NO-CODE" sourceType="MSH;MEDCIN;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="1144" end="1238" sentText="Assign the following ICD-10-PCS codes for the thoracoscopic assisted talc pleurodesis: 3E0L3GC">
+<RelationSet id="105">
+<procedure value="thoracoscopic;pleurodesis" begin="1190;1218" end="1203;1229" status="0" certainty="0" cui="C0371463" tui="T061" rank="797" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="talc pleurodesis" begin="1213" end="1229" status="0" certainty="0" cui="C0405997" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="thoracoscopic" begin="1190" end="1203" status="0" certainty="0" cui="C0039989;C0442425;C2367167;C1880308" tui="T060,T061;T082;T061;T060" rank="797;717;592;234" code="NO-CODE" sourceType="ICD10AM;SNOMEDCTUS;MEDCIN;SNOMEDCTUS"/>
+<procedure value="pleurodesis" begin="1218" end="1229" status="0" certainty="0" cui="C0189557" tui="T061" rank="795" code="NO-CODE" sourceType="ICD10AM"/>
+<procedure value="assisted" begin="1204" end="1212" status="0" certainty="0" cui="C0557034;C1269765;C0018896;C1515950" tui="T058;T033;T054;T093" rank="767;767;767;519" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

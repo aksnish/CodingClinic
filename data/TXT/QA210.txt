@@ -1,0 +1,2 @@
+Question: How should a nonhealing surgical wound be coded? 
+Answer: ICD-10-CM does not provide a specific code to describe nonhealing surgical wound. Assign code T81.89X-, Other complications of procedures, not elsewhere classified, for an unspecified nonhealing surgical wound. If a postsurgical wound does not heal due to infection, assign code T81.4XX-, Infection following a procedure. If the wound was closed at one time and is no longer closed, it is coded as disruption. In that case, code T81.3-, Disruption of wound, not elsewhere classified, should be assigned. 

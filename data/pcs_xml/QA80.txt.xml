@@ -1,0 +1,40 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="994">
+<Paragraph pgNo="1" begin="0" end="297">
+<Sentence sentNo="1" begin="0" end="296" sentText="Question: Can individual Glasgow coma score (GCS) codes be assigned based on documented numeric values rather than the description of the codes (e.g., eyes open to pain, best verbal response, etc.)? When reporting the GCS, can a total score be calculated if only individual scores are documented?">
+<RelationSet id="582">
+<anatomicalStructure value="eyes" begin="151" end="155" status="0" certainty="-2" cui="C0015392;C1280202;C0154094;C1550636;C1546630;C1522230" tui="T023;T023;T191;T031;T170;T082" rank="797;765;610;366;355;233" code="NO-CODE" sourceType="COSTAR;SNOMEDCTUS;ICD10;HL7V3.0;HL7V2.5;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="583">
+<problem value="eyes;pain" begin="151;164" end="155;168" status="0" certainty="0" cui="C0151827;C1959630" tui="T184;T033" rank="797;551" code="NO-CODE" sourceType="CCPSS;NCI"/>
+<problem value="pain" begin="164" end="168" status="0" certainty="0" cui="C0030193;C0234226;C1882272;C1557397;C0242936;C1549543" tui="T184;T169;T033;T033;T073,T093;T169" rank="797;767;551;551;366;355" code="NO-CODE" sourceType="ICPC2P;RCD;NCI;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="298" end="993">
+<Sentence sentNo="2" begin="298" end="509" sentText="Answer: Yes, if the provider’s documentation clearly shows that the ratings are specific scores or numeric values for the Glasgow scale, it would be appropriate to report codes from categories R40.21-, R40.22and">
+</Sentence>
+<Sentence sentNo="3" begin="510" end="518" sentText="R40.23-.">
+</Sentence>
+<Sentence sentNo="4" begin="519" end="632" sentText="These codes are used only when the individual score(s) or numeric values are documented within the health record.">
+</Sentence>
+<Sentence sentNo="5" begin="633" end="734" sentText="Do not assign code R40.24-, Glasgow coma scale, total score, if the individual scores are documented.">
+<RelationSet id="584">
+<problem value="coma" begin="669" end="673" status="0" certainty="-3" cui="C0009421;C3146279" tui="T047;T004" rank="795;751" code="NO-CODE" sourceType="COSTAR;NCBI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="735" end="883" sentText="Assign code R40.24-, Glasgow coma scale, total score, when only the total score is documented in the medical record and not the individual score(s).">
+<RelationSet id="585">
+<problem value="coma" begin="764" end="768" status="0" certainty="0" cui="C0009421;C3146279" tui="T047;T004" rank="795;751" code="NO-CODE" sourceType="COSTAR;NCBI"/>
+</RelationSet>
+<RelationSet id="585">
+<lab value="total score" begin="776" end="787" status="0" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="884" end="940" sentText="The 7th character indicates when the scale was recorded.">
+</Sentence>
+<Sentence sentNo="8" begin="941" end="992" sentText="The 7th character should match for all three codes.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,47 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="619">
+<Paragraph pgNo="1" begin="0" end="81">
+<Sentence sentNo="1" begin="0" end="80" sentText="Question: How would a diagnosis of “postoperative seroma” be coded in ICD-10-CM?">
+<RelationSet id="2428">
+<problem value="postoperative seroma" begin="36" end="56" status="0" certainty="1" cui="C1998103" tui="T046" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="seroma" begin="50" end="56" status="0" certainty="1" cui="C0262627;C1963233" tui="T046;T033" rank="797;551" code="NO-CODE" sourceType="COSTAR;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="82" end="618">
+<Sentence sentNo="2" begin="82" end="212" sentText="Answer: Currently, ICD-10-CM’s Index to diseases, directs the  coder  to see  “hematoma” when  the  term “seroma”  is  referenced.">
+<RelationSet id="2429">
+<problem value="hematoma" begin="161" end="169" status="0" certainty="0" cui="C0018944;C1962958" tui="T046;T033" rank="797;551" code="NO-CODE" sourceType="MSH;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="214" end="326" sentText="The  specific  code assignment for postoperative seroma would depend on the body system involved in the surgery.">
+<RelationSet id="2430">
+<problem value="postoperative seroma" begin="249" end="269" status="0" certainty="0" cui="C1998103" tui="T046" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="seroma" begin="263" end="269" status="0" certainty="0" cui="C0262627;C1963233" tui="T046;T033" rank="797;551" code="NO-CODE" sourceType="COSTAR;NCI"/>
+</RelationSet>
+<RelationSet id="2431">
+<procedure value="surgery" begin="318" end="325" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="327" end="368" sentText="For example, codes in subcategory I97.6-,">
+</Sentence>
+<Sentence sentNo="5" begin="369" end="617" sentText="Postprocedural hemorrhage and hematoma  of a circulatory system organ or structure following a procedure,  are assigned based on  whether the seroma occurred following a cardiac bypass, cardiac catheterization or other circulatory system procedure.">
+<RelationSet id="2432">
+<problem value="hematoma" begin="399" end="407" status="0" certainty="0" cui="C0018944;C1962958" tui="T046;T033" rank="797;551" code="NO-CODE" sourceType="MSH;NCI"/>
+</RelationSet>
+<RelationSet id="2432">
+<anatomicalStructure value="seroma " begin="511" end="518" status="0" certainty="-3" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2433">
+<procedure value="bypass" begin="547" end="553" status="0" certainty="-3" cui="C0741847" tui="T061" rank="765" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="cardiac" begin="539" end="546" status="0" certainty="-3" cui="C0018787;C1522601" tui="T023;T082" rank="703;576" code="NO-CODE" sourceType="NCI;NCI"/>
+</RelationSet>
+<RelationSet id="2434">
+<procedure value="cardiac catheterization" begin="555" end="578" status="0" certainty="-3" cui="C0018795;C0261588;C1547981;C1548828" tui="T060,T061;T037;T170;T058" rank="797;610;355;355" code="NO-CODE" sourceType="NCI;ICD10;HL7V2.5;HL7V2.5"/>
+<procedure value="catheterization" begin="563" end="578" status="0" certainty="-3" cui="C0007430" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="cardiac" begin="555" end="562" status="0" certainty="-3" cui="C0018787;C1522601" tui="T023;T082" rank="703;576" code="NO-CODE" sourceType="NCI;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

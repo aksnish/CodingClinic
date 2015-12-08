@@ -1,0 +1,132 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="808">
+<Paragraph pgNo="1" begin="0" end="295">
+<Sentence sentNo="1" begin="0" end="171" sentText="Question: A patient had one long mid-to-distal lesion in the left anterior descending (LAD) coronary artery, which was treated percutaneously with two drug-eluting stents.">
+<RelationSet id="839">
+<anatomicalStructure value="to-distal;left anterior descending;artery" begin="37;61;101" end="46;85;107" status="0" certainty="0" cui="C3541347" tui="T023" rank="797" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="anterior descending;coronary artery" begin="66;92" end="85;107" status="0" certainty="0" cui="C1510906" tui="T023" rank="576" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="left anterior descending;LAD;artery" begin="61;87;101" end="85;90;107" status="0" certainty="0" cui="C1321506" tui="T023" rank="765" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="mid;left anterior descending;artery" begin="33;61;101" end="36;85;107" status="0" certainty="0" cui="C3640698" tui="T023" rank="576" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="left anterior descending;artery" begin="61;101" end="85;107" status="0" certainty="0" cui="C0226032" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="left;coronary artery" begin="61;92" end="65;107" status="0" certainty="0" cui="C1261082" tui="T023" rank="765" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="coronary artery" begin="92" end="107" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="101" end="107" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="840">
+<medicalDevice value="drug-eluting stents" begin="151" end="170" status="0" certainty="0" cui="C1322815" tui="T074" rank="795" code="NO-CODE" sourceType="MSH"/>
+<medicalDevice value="stents" begin="164" end="170" status="0" certainty="0" cui="C2348535;C0038257;C1705817" tui="T061;T074;T074" rank="797;795;575" code="NO-CODE" sourceType="NCI;MSH;NCI"/>
+</RelationSet>
+<RelationSet id="841">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="left anterior descending" begin="61" end="85" status="0" certainty="0"/>
+<problem value="lesion" begin="47" end="53" status="0" certainty="1"/>
+<modifier value="to-distal" begin="37" end="46" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="left anterior descending" begin="61" end="85" status="0" certainty="0"/>
+<problem value="lesion" begin="47" end="53" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="lesion" begin="47" end="53" status="0" certainty="1"/>
+<modifier value="to-distal" begin="37" end="46" status="0" certainty="1"/>
+</Relation>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="172" end="294" sentText="What is the appropriate body part value for coronary artery sites(s)? Is this considered one or two coronary artery sites?">
+<RelationSet id="842">
+<anatomicalStructure value="coronary artery" begin="216" end="231" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="225" end="231" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<anatomicalStructure value="sites" begin="232" end="237" status="0" certainty="0" cui="C0205145;C2945843;C2825164;C1515974;C1546778" tui="T082;T080;T082;T029;T170" rank="797;767;575;575;355" code="NO-CODE" sourceType="RCD;RCD;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="843">
+<anatomicalStructure value="coronary artery" begin="272" end="287" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="281" end="287" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<anatomicalStructure value="sites" begin="288" end="293" status="0" certainty="0" cui="C0205145;C2945843;C2825164;C1515974;C1546778" tui="T082;T080;T082;T029;T170" rank="797;767;575;575;355" code="NO-CODE" sourceType="RCD;RCD;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="296" end="807">
+<Sentence sentNo="3" begin="296" end="424" sentText="Answer: Assign code 027034Z, Dilation of coronary artery, one site with drug-eluting intraluminal device, percutaneous approach.">
+<RelationSet id="844">
+<medicalDevice value="device" begin="394" end="400" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="845">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="Dilation" begin="325" end="333" status="0" certainty="0"/>
+<anatomicalStructure value="coronary artery" begin="337" end="352" status="0" certainty="0"/>
+</Relation>
+<problem value="Dilation" begin="325" end="333" status="0" certainty="0" cui="C0012359;C0700124;C0393293" tui="T046;T169;T061" rank="765;575;286" code="NO-CODE" sourceType="SNM;NCI;MTHMST"/>
+<anatomicalStructure value="coronary artery" begin="337" end="352" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="346" end="352" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="425" end="475" sentText="This is considered one coronary artery site (LAD).">
+<RelationSet id="846">
+<anatomicalStructure value="coronary artery" begin="448" end="463" status="0" certainty="1" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="457" end="463" status="0" certainty="1" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<anatomicalStructure value="site" begin="464" end="468" status="0" certainty="1" cui="C0205145;C2945843;C2825164;C1515974;C1546778" tui="T082;T080;T082;T029;T170" rank="797;767;575;575;355" code="NO-CODE" sourceType="RCD;RCD;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="846">
+<anatomicalStructure value="LAD" begin="470" end="473" status="0" certainty="1" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="476" end="806" sentText="Multiple stents used to treat a single coronary artery lesion are identified with the device value intraluminal device or drug-eluting intraluminal device, when multiple stents classified to the same device value are used to treat a single coronary artery lesion, that information is not currently captured in the ICD-10-PCS code.">
+<RelationSet id="847">
+<medicalDevice value="device" begin="624" end="630" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="848">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="single" begin="508" end="514" status="1" certainty="0"/>
+<problem value="lesion" begin="531" end="537" status="1" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="coronary artery" begin="515" end="530" status="1" certainty="0"/>
+<modifier value="single" begin="508" end="514" status="1" certainty="0"/>
+<problem value="lesion" begin="531" end="537" status="1" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="coronary artery" begin="515" end="530" status="1" certainty="0"/>
+<problem value="lesion" begin="531" end="537" status="1" certainty="0"/>
+</Relation>
+<anatomicalStructure value="coronary artery" begin="515" end="530" status="1" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="524" end="530" status="1" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="849">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="stents" begin="485" end="491" status="0" certainty="0"/>
+<modifier value="Multiple" begin="476" end="484" status="0" certainty="0"/>
+</Relation>
+<medicalDevice value="stents;coronary artery" begin="485;515" end="491;530" status="0" certainty="0" cui="C1272587;C0687568" tui="T033;T074" rank="767;685" code="NO-CODE" sourceType="SNOMEDCTUS;UMD"/>
+<medicalDevice value="stents" begin="485" end="491" status="0" certainty="0" cui="C2348535;C0038257;C1705817" tui="T061;T074;T074" rank="797;795;575" code="NO-CODE" sourceType="NCI;MSH;NCI"/>
+<modifier value="Multiple" begin="476" end="484" status="0" certainty="0" cui="C0449822;C1719797;C0439064;C2911648" tui="T081;T169;T081;T081" rank="767;767;767;576" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;RCD;NCI"/>
+</RelationSet>
+<RelationSet id="850">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="multiple" begin="637" end="645" status="0" certainty="0"/>
+<medicalDevice value="stents" begin="646" end="652" status="0" certainty="0"/>
+</Relation>
+<modifier value="multiple" begin="637" end="645" status="0" certainty="0" cui="C0449822;C1719797;C0439064;C2911648" tui="T081;T169;T081;T081" rank="767;767;767;576" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;RCD;NCI"/>
+<medicalDevice value="stents;device" begin="646;676" end="652;682" status="0" certainty="0" cui="C0038257" tui="T074" rank="797" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<medicalDevice value="stents" begin="646" end="652" status="0" certainty="0" cui="C2348535;C1705817" tui="T061;T074" rank="797;575" code="NO-CODE" sourceType="NCI;NCI"/>
+</RelationSet>
+<RelationSet id="851">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="lesion" begin="732" end="738" status="1" certainty="0"/>
+<modifier value="single" begin="709" end="715" status="1" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="lesion" begin="732" end="738" status="1" certainty="0"/>
+<anatomicalStructure value="coronary artery" begin="716" end="731" status="1" certainty="0"/>
+<modifier value="single" begin="709" end="715" status="1" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="lesion" begin="732" end="738" status="1" certainty="0"/>
+<anatomicalStructure value="coronary artery" begin="716" end="731" status="1" certainty="0"/>
+</Relation>
+<anatomicalStructure value="coronary artery" begin="716" end="731" status="1" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="725" end="731" status="1" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,2 @@
+Question: The Index entry for Alcohol, withdrawal, leads to code F10.239, Alcohol dependence with withdrawal. However, only alcohol abuse is documented by the physician. In ICD-10-CM, how is alcohol abuse with alcohol withdrawal coded? 
+Answer: In ICD-10-CM, alcohol withdrawal is categorized as alcohol dependence, by default. The classification provides a combination code for alcohol dependence with alcohol withdrawal. Therefore query the provider for clarification, when alcohol abuse and alcohol withdrawal are both documented in the health record. 

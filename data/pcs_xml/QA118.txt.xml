@@ -1,0 +1,94 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1102">
+<Paragraph pgNo="1" begin="0" end="456">
+<Sentence sentNo="1" begin="0" end="146" sentText="Question: A patient admitted with severe sepsis is treated with intravenous (IV) antibiotics and is placed on mechanical ventilation for 40 hours.">
+<RelationSet id="189">
+<med value="antibiotics" begin="81" end="92" status="0" certainty="0" cui="C0003232" tui="T195" rank="797" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="190">
+<procedure value="mechanical ventilation" begin="110" end="132" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="110" end="120" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+<RelationSet id="191">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="sepsis" begin="41" end="47" status="0" certainty="1"/>
+<modifier value="severe" begin="34" end="40" status="0" certainty="1"/>
+</Relation>
+<modifier value="severe" begin="34" end="40" status="0" certainty="1" cui="C0205082;C0439793;C1519275;C2983285;C2919019;C1547231;C1547227" tui="T080;T080;T033;T170;T033;T170;T170" rank="767;767;572;571;571;355;355" code="NO-CODE" sourceType="RCD;MTH;NCI;NCI;NCI;HL7V2.5;HL7V2.5"/>
+<problem value="severe sepsis" begin="34" end="47" status="0" certainty="1" cui="C1719672" tui="T047" rank="797" code="NO-CODE" sourceType="MSH"/>
+<problem value="sepsis" begin="41" end="47" status="0" certainty="1" cui="C0243026;C1090821;C0333534;C0036690" tui="T047;T204;T169;T047" rank="797;751;703;575" code="NO-CODE" sourceType="COSTAR;NCBI;SNMI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="147" end="302" sentText="The documentation states that the patient has no underlying respiratory condition, and the respiratory decompensation is due to the severity of the sepsis.">
+<RelationSet id="192">
+<problem value="condition" begin="219" end="228" status="0" certainty="-2" cui="C1701901;C0348080;C0009647;C0336809;C1705253;C0012634;C1963686;C1552514" tui="T080;T080;T041;T073;T077;T047;T169;T073" rank="797;797;790;765;575;530;366;366" code="NO-CODE" sourceType="NCI;RCD;SNM;RCD;NCI;NCI;HL7V3.0;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="194">
+<problem value="sepsis" begin="295" end="301" status="0" certainty="0" cui="C0243026;C1090821;C0333534;C0036690" tui="T047;T204;T169;T047" rank="797;751;703;575" code="NO-CODE" sourceType="COSTAR;NCBI;SNMI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="303" end="455" sentText="Which of the two procedures is the principal procedure, insertion of central venous catheter for IV antibiotic administration or mechanical ventilation?">
+<RelationSet id="195">
+<procedure value="mechanical ventilation" begin="432" end="454" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="432" end="442" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+<RelationSet id="196">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="central venous catheter" begin="372" end="395" status="0" certainty="0"/>
+<med value="IV antibiotic" begin="400" end="413" status="0" certainty="0" code="NO-CODE" cui="3232" tui="T195" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</Relation>
+<medicalDevice value="central venous catheter" begin="372" end="395" status="0" certainty="0" cui="C1145640" tui="T074" rank="795" code="NO-CODE" sourceType="MSH"/>
+<medicalDevice value="insertion;catheter" begin="359;387" end="368;395" status="0" certainty="0" cui="C1874748" tui="T074" rank="797" code="NO-CODE" sourceType="MTH"/>
+<medicalDevice value="venous catheter" begin="380" end="395" status="0" certainty="0" cui="C0745442" tui="T074" rank="767" code="NO-CODE" sourceType="UMD"/>
+<medicalDevice value="catheter" begin="387" end="395" status="0" certainty="0" cui="C0085590;C0007430;C1704454;C1546572" tui="T074;T061;T074;T170" rank="795;765;575;355" code="NO-CODE" sourceType="RCD;RCD;NCI;HL7V2.5"/>
+<med value="antibiotic" begin="403" end="413" status="0" certainty="0" cui="C0003232" tui="T195" rank="797" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="457" end="1101">
+<Sentence sentNo="4" begin="457" end="559" sentText="Answer: Sequence the code for the insertion of the central venous catheter as the principal procedure.">
+<RelationSet id="197">
+<medicalDevice value="central venous catheter" begin="508" end="531" status="0" certainty="0" cui="C1145640" tui="T074" rank="795" code="NO-CODE" sourceType="MSH"/>
+<medicalDevice value="insertion;catheter" begin="491;523" end="500;531" status="0" certainty="0" cui="C1874748;C0007430" tui="T074;T061" rank="797;765" code="NO-CODE" sourceType="VANDF;RCD"/>
+<medicalDevice value="venous catheter" begin="516" end="531" status="0" certainty="0" cui="C0745442" tui="T074" rank="767" code="NO-CODE" sourceType="UMD"/>
+<medicalDevice value="catheter" begin="523" end="531" status="0" certainty="0" cui="C0085590;C1704454;C1546572" tui="T074;T074;T170" rank="795;575;355" code="NO-CODE" sourceType="RCD;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="560" end="626" sentText="Assign the mechanical ventilation code as an additional procedure.">
+<RelationSet id="198">
+<procedure value="mechanical ventilation" begin="571" end="593" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="571" end="581" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="627" end="709" sentText="The catheter was inserted to administer IV antibiotics to treat the severe sepsis.">
+<RelationSet id="199">
+<medicalDevice value="catheter;IV" begin="631;667" end="639;669" status="0" certainty="0" cui="C0179768;C0745442" tui="T074;T074" rank="765;738" code="NO-CODE" sourceType="CHV;NDDF"/>
+<medicalDevice value="catheter" begin="631" end="639" status="0" certainty="0" cui="C0085590;C1704454;C0007430;C1546572" tui="T074;T074;T061;T170" rank="795;575;488;355" code="NO-CODE" sourceType="RCD;NCI;ICPC2P;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="200">
+<med value="antibiotics" begin="670" end="681" status="0" certainty="0" cui="C0003232" tui="T195" rank="797" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="201">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="severe" begin="695" end="701" status="0" certainty="0"/>
+<problem value="sepsis" begin="702" end="708" status="0" certainty="0"/>
+</Relation>
+<modifier value="severe" begin="695" end="701" status="0" certainty="0" cui="C0205082;C0439793;C1519275;C2983285;C2919019;C1547231;C1547227" tui="T080;T080;T033;T170;T033;T170;T170" rank="767;767;572;571;571;355;355" code="NO-CODE" sourceType="RCD;MTH;NCI;NCI;NCI;HL7V2.5;HL7V2.5"/>
+<problem value="severe sepsis" begin="695" end="708" status="0" certainty="0" cui="C1719672" tui="T047" rank="797" code="NO-CODE" sourceType="MSH"/>
+<problem value="sepsis" begin="702" end="708" status="0" certainty="0" cui="C0243026;C1090821;C0333534;C0036690" tui="T047;T204;T169;T047" rank="797;751;703;575" code="NO-CODE" sourceType="COSTAR;NCBI;SNMI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="710" end="785" sentText="The mechanical ventilation was required to treat the respiratory condition.">
+<RelationSet id="202">
+<procedure value="mechanical ventilation" begin="714" end="736" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="714" end="724" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+<RelationSet id="203">
+<problem value="condition" begin="775" end="784" status="0" certainty="0" cui="C1701901;C0348080;C0009647;C0336809;C1705253;C0012634;C1963686;C1552514" tui="T080;T080;T041;T073;T077;T047;T169;T073" rank="797;797;790;765;575;530;366;366" code="NO-CODE" sourceType="NCI;RCD;SNM;RCD;NCI;NCI;HL7V3.0;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="786" end="1100" sentText="The ICD-10-PCS Official Guidelines for Coding and Reporting, Selection of Principal Procedure state, “Procedure performed for definitive treatment of both principal diagnosis and secondary diagnosis: Sequence procedure performed for definitive treatment most related to principal diagnosis as principal procedure.”">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,120 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1099">
+<Paragraph pgNo="1" begin="0" end="733">
+<Sentence sentNo="1" begin="0" end="121" sentText="Question: A patient status post implantation of dual chamber permanent pacemaker presents due to atrial lead dislocation.">
+<RelationSet id="2545">
+<modifier value="permanent" begin="61" end="70" status="0" certainty="1" cui="C0205355;C1549637;C1548538" tui="T079;T078;T078" rank="797;355;355" code="NO-CODE" sourceType="RCD;HL7V2.5;HL7V2.5"/>
+<modifier value="dual" begin="48" end="52" status="0" certainty="1" cui="C1554184;C0870453" tui="T170;T078" rank="366;289" code="NO-CODE" sourceType="HL7V3.0;PSY"/>
+<procedure value="dual chamber;pacemaker" begin="48;71" end="60;80" status="0" certainty="1" cui="C2016254;C2911683" tui="T060;T074" rank="595;576" code="NO-CODE" sourceType="MEDCIN;NCI"/>
+<procedure value="implantation" begin="32" end="44" status="0" certainty="1" cui="C3244302;C0021107;C0029976;C1692876" tui="T169;T061;T040;T169" rank="797;767;716;366" code="NO-CODE" sourceType="HL7V3.0;RCD;SNM;HL7V3.0"/>
+<procedure value="pacemaker" begin="71" end="80" status="0" certainty="1" cui="C0810633;C3275122;C0030163;C1546728" tui="T074;T061;T074;T170" rank="686;572;530;355" code="NO-CODE" sourceType="UMD;NCI;COSTAR;HL7V2.5"/>
+<anatomicalStructure value="chamber" begin="53" end="60" status="0" certainty="1" cui="C0935616;C0179874" tui="T023;T074" rank="688;686" code="NO-CODE" sourceType="UWDA;UMD"/>
+</RelationSet>
+<RelationSet id="2546">
+<problem value="dislocation" begin="109" end="120" status="0" certainty="0" cui="C0012691" tui="T037" rank="797" code="NO-CODE" sourceType="ICPC2P"/>
+<anatomicalStructure value="atrial" begin="97" end="103" status="0" certainty="0" cui="C0018792;C1280619" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="CHV;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="122" end="233" sentText="The patient is brought to the operating room to have the previously placed right atrial electrode repositioned.">
+<RelationSet id="2547">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="right" begin="197" end="202" status="0" certainty="0"/>
+<medicalDevice value="atrial electrode" begin="203" end="219" status="0" certainty="0"/>
+</Relation>
+<modifier value="right" begin="197" end="202" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+<medicalDevice value="electrode" begin="210" end="219" status="0" certainty="0" cui="C0013812;C1705652;C1550631;C1546616" tui="T074;T074;T031;T170" rank="797;575;366;355" code="NO-CODE" sourceType="MSH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="234" end="362" sentText="The incision for the old pacemaker implantation site was infiltrated all the way down to the fascia and the incision was opened.">
+<RelationSet id="2548">
+<procedure value="incision" begin="238" end="246" status="0" certainty="0" cui="C0184898;C2096041" tui="T061;T033" rank="767;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+</RelationSet>
+<RelationSet id="2549">
+<modifier value="implantation site" begin="269" end="286" status="0" certainty="0" cui="C0230992" tui="T082" rank="767" code="NO-CODE" sourceType="RCD"/>
+<modifier value="pacemaker;site" begin="259;282" end="268;286" status="0" certainty="0" cui="C0449692" tui="T082" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="implantation" begin="269" end="281" status="0" certainty="0" cui="C3244302;C0021107;C0029976;C1692876" tui="T169;T061;T040;T169" rank="797;767;716;366" code="NO-CODE" sourceType="HL7V3.0;RCD;SNM;HL7V3.0"/>
+<procedure value="pacemaker" begin="259" end="268" status="0" certainty="0" cui="C0810633;C3275122;C0030163;C1546728" tui="T074;T061;T074;T170" rank="686;572;530;355" code="NO-CODE" sourceType="UMD;NCI;COSTAR;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2550">
+<anatomicalStructure value="fascia" begin="327" end="333" status="0" certainty="0" cui="C0015641;C1279051" tui="T024;T023" rank="797;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="363" end="443" sentText="The atrial lead was disconnected and the atrial lead was freed up from its cuff.">
+<RelationSet id="2551">
+<medicalDevice value="atrial lead" begin="367" end="378" status="0" certainty="0" cui="C2825198" tui="T074" rank="576" code="NO-CODE" sourceType="NCI"/>
+<medicalDevice value="lead" begin="374" end="378" status="0" certainty="0" cui="C0023175;C1522538;C2242140;C0181586;C0524167;C0332152;C1704733;C3275067;C2348269;C1708698;C1442948" tui="T131,T196;T169;T121;T074;T059;T079;T074;T061;T196;T073;T121,T197" rank="797;797;774;686;644;575;575;572;558;519;150" code="NO-CODE" sourceType="LCH;MTH;RXNORM;UMD;CPT;NCI;NCI;NCI;NCI;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="2552">
+<medicalDevice value="atrial lead" begin="404" end="415" status="0" certainty="0" cui="C2825198" tui="T074" rank="576" code="NO-CODE" sourceType="NCI"/>
+<medicalDevice value="lead" begin="411" end="415" status="0" certainty="0" cui="C0023175;C1522538;C2242140;C0181586;C0524167;C0332152;C1704733;C3275067;C2348269;C1708698;C1442948" tui="T131,T196;T169;T121;T074;T059;T079;T074;T061;T196;T073;T121,T197" rank="797;797;774;686;644;575;575;572;558;519;150" code="NO-CODE" sourceType="LCH;MTH;RXNORM;UMD;CPT;NCI;NCI;NCI;NCI;NCI;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="444" end="577" sentText="A guidewire was inserted into the atrial lead and the lead was unscrewed and then positioned in the lateral wall of the right atrium.">
+<RelationSet id="2553">
+<medicalDevice value="guidewire" begin="446" end="455" status="0" certainty="0" cui="C0181089;C1708264" tui="T074;T073" rank="685;575" code="NO-CODE" sourceType="UMD;NCI"/>
+</RelationSet>
+<RelationSet id="2554">
+<medicalDevice value="atrial lead" begin="478" end="489" status="0" certainty="0" cui="C2825198" tui="T074" rank="576" code="NO-CODE" sourceType="NCI"/>
+<medicalDevice value="lead" begin="485" end="489" status="0" certainty="0" cui="C0023175;C1522538;C2242140;C0181586;C0524167;C0332152;C1704733;C3275067;C2348269;C1708698;C1442948" tui="T131,T196;T169;T121;T074;T059;T079;T074;T061;T196;T073;T121,T197" rank="797;797;774;686;644;575;575;572;558;519;150" code="NO-CODE" sourceType="LCH;MTH;RXNORM;UMD;CPT;NCI;NCI;NCI;NCI;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="2555">
+<medicalDevice value="lead" begin="498" end="502" status="0" certainty="0" cui="C0023175;C1522538;C2242140;C0181586;C0524167;C0332152;C1704733;C3275067;C2348269;C1708698;C1442948" tui="T131,T196;T169;T121;T074;T059;T079;T074;T061;T196;T073;T121,T197" rank="797;797;774;686;644;575;575;572;558;519;150" code="NO-CODE" sourceType="LCH;MTH;RXNORM;UMD;CPT;NCI;NCI;NCI;NCI;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="2556">
+<modifier value="right" begin="564" end="569" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="2557">
+<anatomicalStructure value="right atrium" begin="564" end="576" status="0" certainty="0" cui="C0225844;C1269890" tui="T023;T023" rank="792;765" code="NO-CODE" sourceType="NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="atrium" begin="570" end="576" status="0" certainty="0" cui="C0018792;C1280619;C0524422" tui="T023;T023;T023" rank="765;765;150" code="NO-CODE" sourceType="CHV;SNOMEDCTUS;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="578" end="651" sentText="The atrial lead was then resecured to the pectoralis major muscle fascia.">
+<RelationSet id="2558">
+<medicalDevice value="atrial lead" begin="582" end="593" status="0" certainty="0" cui="C2825198" tui="T074" rank="576" code="NO-CODE" sourceType="NCI"/>
+<medicalDevice value="lead" begin="589" end="593" status="0" certainty="0" cui="C0023175;C1522538;C2242140;C0181586;C0524167;C0332152;C1704733;C3275067;C2348269;C1708698;C1442948" tui="T131,T196;T169;T121;T074;T059;T079;T074;T061;T196;T073;T121,T197" rank="797;797;774;686;644;575;575;572;558;519;150" code="NO-CODE" sourceType="LCH;MTH;RXNORM;UMD;CPT;NCI;NCI;NCI;NCI;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="2559">
+<anatomicalStructure value="pectoralis major muscle" begin="620" end="643" status="0" certainty="0" cui="C0585574" tui="T023" rank="765" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="pectoralis major" begin="620" end="636" status="0" certainty="0" cui="C0224340" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="muscle fascia" begin="637" end="650" status="0" certainty="0" cui="C0815393" tui="T023" rank="692" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="pectoralis" begin="620" end="630" status="0" certainty="0" cui="C0030747;C1510663" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MSH;RCD"/>
+<anatomicalStructure value="fascia" begin="644" end="650" status="0" certainty="0" cui="C0015641;C1279051" tui="T024;T023" rank="797;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="muscle" begin="637" end="643" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="652" end="732" sentText="What is the appropriate approach value for the repositioning of the atrial lead?">
+<RelationSet id="2560">
+<medicalDevice value="atrial lead" begin="720" end="731" status="0" certainty="0" cui="C2825198" tui="T074" rank="576" code="NO-CODE" sourceType="NCI"/>
+<medicalDevice value="lead" begin="727" end="731" status="0" certainty="0" cui="C0023175;C1522538;C2242140;C0181586;C0524167;C0332152;C1704733;C3275067;C2348269;C1708698;C1442948" tui="T131,T196;T169;T121;T074;T059;T079;T074;T061;T196;T073;T121,T197" rank="797;797;774;686;644;575;575;572;558;519;150" code="NO-CODE" sourceType="LCH;MTH;RXNORM;UMD;CPT;NCI;NCI;NCI;NCI;NCI;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="734" end="1098">
+<Sentence sentNo="8" begin="734" end="927" sentText="Answer: Although the pacemaker implantation site where the lead was attached to the generator was visualized directly, the cardiac lead itself was repositioned percutaneously using a guidewire.">
+<RelationSet id="2561">
+<modifier value="implantation site" begin="765" end="782" status="0" certainty="0" cui="C0230992" tui="T082" rank="767" code="NO-CODE" sourceType="RCD"/>
+<modifier value="pacemaker;site" begin="755;778" end="764;782" status="0" certainty="0" cui="C0449692" tui="T082" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="implantation" begin="765" end="777" status="0" certainty="0" cui="C3244302;C0021107;C0029976;C1692876" tui="T169;T061;T040;T169" rank="797;767;716;366" code="NO-CODE" sourceType="HL7V3.0;RCD;SNM;HL7V3.0"/>
+<procedure value="pacemaker" begin="755" end="764" status="0" certainty="0" cui="C0810633;C3275122;C0030163;C1546728" tui="T074;T061;T074;T170" rank="686;572;530;355" code="NO-CODE" sourceType="UMD;NCI;COSTAR;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2562">
+<medicalDevice value="pacemaker;lead" begin="755;793" end="764;797" status="0" certainty="0" cui="C1283151" tui="T074" rank="686" code="NO-CODE" sourceType="UMD"/>
+<medicalDevice value="lead" begin="793" end="797" status="0" certainty="0" cui="C0023175;C1522538;C2242140;C0181586;C0524167;C0332152;C1704733;C3275067;C2348269;C1708698;C1442948" tui="T131,T196;T169;T121;T074;T059;T079;T074;T061;T196;T073;T121,T197" rank="797;797;774;686;644;575;575;572;558;519;150" code="NO-CODE" sourceType="LCH;MTH;RXNORM;UMD;CPT;NCI;NCI;NCI;NCI;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="2563">
+<medicalDevice value="lead" begin="865" end="869" status="0" certainty="0" cui="C0023175;C1522538;C2242140;C0181586;C0524167;C0332152;C1704733;C3275067;C2348269;C1708698;C1442948" tui="T131,T196;T169;T121;T074;T059;T079;T074;T061;T196;T073;T121,T197" rank="797;797;774;686;644;575;575;572;558;519;150" code="NO-CODE" sourceType="LCH;MTH;RXNORM;UMD;CPT;NCI;NCI;NCI;NCI;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="2564">
+<medicalDevice value="guidewire" begin="917" end="926" status="0" certainty="0" cui="C0181089;C1708264" tui="T074;T073" rank="685;575" code="NO-CODE" sourceType="UMD;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="928" end="1052" sentText="The heart is the site of the procedure, and the site of the procedure was not exposed as ICD-10-PCS defines “Open approach.”">
+<RelationSet id="2565">
+<anatomicalStructure value="heart" begin="932" end="937" status="0" certainty="0" cui="C0018787;C1281570;C0153500;C0153957" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="AIR;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="1053" end="1098" sentText="Assign the following ICD-10-PCS code: 02WA3MZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

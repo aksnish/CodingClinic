@@ -1,0 +1,76 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1433">
+<Paragraph pgNo="1" begin="0" end="782">
+<Sentence sentNo="1" begin="0" end="134" sentText="Question: The patient is an 11-year-old male with neuromuscular thoracolumbar scoliosis, who is status post insertion of growing rods.">
+<RelationSet id="1824">
+<problem value="neuromuscular thoracolumbar scoliosis" begin="50" end="87" status="0" certainty="1" cui="C0838357" tui="T047,T190" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="thoracolumbar scoliosis" begin="64" end="87" status="0" certainty="1" cui="C0749379" tui="T047" rank="601" code="NO-CODE" sourceType="CCPSS"/>
+<problem value="neuromuscular;scoliosis" begin="50;78" end="63;87" status="0" certainty="1" cui="C0410698" tui="T047,T190" rank="767" code="NO-CODE" sourceType="ICD10"/>
+<problem value="scoliosis" begin="78" end="87" status="0" certainty="1" cui="C0036439;C0700208;C0559260" tui="T190;T020;T019" rank="795;765;765" code="NO-CODE" sourceType="MSH;ICPC2P;RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="135" end="281" sentText="He had previously undergone lengthening of the growing rods on two occasions, and now presents for bilateral open lengthening of the growing rods.">
+</Sentence>
+<Sentence sentNo="3" begin="282" end="425" sentText="The surgeon loosened the set screws and using a rod holder and distractor, both sides of the thoracic spine were lengthened approximately 1 cm.">
+<RelationSet id="1825">
+<medicalDevice value="screws" begin="311" end="317" status="0" certainty="0" cui="C0301559;C0005975;C0441634;C1704683" tui="T074;T074;T169;T074" rank="797;765;711;575" code="NO-CODE" sourceType="SNM;RCD;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="1826">
+<medicalDevice value="holder" begin="334" end="340" status="0" certainty="0" cui="C1551377;C1555310;C1706054" tui="T073;T078;T074" rank="797;576;575" code="NO-CODE" sourceType="UMD;HL7V3.0;NCI"/>
+<medicalDevice value="rod" begin="330" end="333" status="0" certainty="0" cui="C1563018;C1424852;C1947942;C0206427;C1705186;C2347970;C2347971;C1552915" tui="T007;T028;T082;T025;T074;T081;T081;T081" rank="753;596;576;576;575;541;541;366" code="NO-CODE" sourceType="SNOMEDCTVET;HGNC;NCI;MTH;NCI;NCI;NCI;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1827">
+<anatomicalStructure value="thoracic spine" begin="375" end="389" status="0" certainty="0" cui="C0581269;C1269870" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="sides;thoracic" begin="362;375" end="367;383" status="0" certainty="0" cui="C0446472" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="thoracic" begin="375" end="383" status="0" certainty="0" cui="C0817096;C0729233" tui="T029;T047" rank="797;295" code="NO-CODE" sourceType="LCH;MTHICD9"/>
+<anatomicalStructure value="spine" begin="384" end="389" status="0" certainty="0" cui="C0037949;C1267072;C1280065" tui="T023;T023;T023" rank="795;765;234" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="426" end="725" sentText="We are considering several possibilities for the principal diagnosis code: Z45.89, Encounter for adjustment and management of other implanted devices; Z47.82, Encounter for orthopedic aftercare following scoliosis surgery; and Z46.89, Encounter for fitting and adjustment of other specified devices.">
+<RelationSet id="1827">
+<problem value="5.89, Encounter for adjustment and management of other implanted d" begin="503" end="569" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1829">
+<problem value="scoliosis" begin="630" end="639" status="0" certainty="0" cui="C0036439;C0700208;C0559260" tui="T190;T020;T019" rank="795;765;765" code="NO-CODE" sourceType="MSH;ICPC2P;RCD"/>
+<procedure value="orthopedic aftercare following scoliosis surgery" begin="599" end="647" status="0" certainty="0" cui="C3647164" tui="T058" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="aftercare following;surgery" begin="610;640" end="629;647" status="0" certainty="0" cui="C2243054" tui="T058" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="scoliosis surgery" begin="630" end="647" status="0" certainty="0" cui="C0854477" tui="T061" rank="652" code="NO-CODE" sourceType="MDR"/>
+<procedure value="surgery" begin="640" end="647" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="726" end="781" sentText="What are the appropriate diagnosis and procedure codes?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="783" end="1432">
+<Sentence sentNo="6" begin="783" end="906" sentText="Answer: Assign code Z45.89, Encounter for adjustment and management of other implanted devices, as the principal diagnosis.">
+<RelationSet id="1829">
+<problem value="5.89, Encounter for adjustment and management of other implanted d" begin="805" end="871" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="907" end="1013" sentText="Code M41.45, Neuromuscular scoliosis, thoracolumbar region, should be assigned as an additional diagnosis.">
+<RelationSet id="1830">
+<problem value="1.45, Neuromuscular scoliosis, thoracolumbar " begin="914" end="959" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1831">
+<problem value="Neuromuscular scoliosis" begin="920" end="943" status="0" certainty="0" cui="C0410698" tui="T047,T190" rank="767" code="NO-CODE" sourceType="ICD10"/>
+<problem value="scoliosis" begin="934" end="943" status="0" certainty="0" cui="C0036439;C0700208;C0559260" tui="T190;T020;T019" rank="795;765;765" code="NO-CODE" sourceType="MSH;ICPC2P;RCD"/>
+</RelationSet>
+<RelationSet id="1832">
+<anatomicalStructure value="thoracolumbar region" begin="945" end="965" status="0" certainty="0" cui="C2985204" tui="T029" rank="576" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="1014" end="1121" sentText="If documented, assign also a code for the underlying condition responsible for the neuromuscular scoliosis.">
+<RelationSet id="1833">
+<problem value="neuromuscular scoliosis" begin="1097" end="1120" status="0" certainty="0" cui="C0410698" tui="T047,T190" rank="767" code="NO-CODE" sourceType="ICD10"/>
+<problem value="scoliosis" begin="1111" end="1120" status="0" certainty="0" cui="C0036439;C0700208;C0559260" tui="T190;T020;T019" rank="795;765;765" code="NO-CODE" sourceType="MSH;ICPC2P;RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="1122" end="1215" sentText="This procedure is consistent with the ICD-10-PCS definition of the root operation “Revision.”">
+</Sentence>
+<Sentence sentNo="10" begin="1216" end="1330" sentText="The child has grown, the device is now malpositioned, and needs to be moved because its functioning is suboptimal.">
+</Sentence>
+<Sentence sentNo="11" begin="1331" end="1431" sentText="Assign the following ICD-10-PCS code for the bilateral open lengthening of the growing rods: 0PW404Z">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

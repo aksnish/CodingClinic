@@ -1,0 +1,118 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1073">
+<Paragraph pgNo="1" begin="0" end="729">
+<Sentence sentNo="1" begin="0" end="218" sentText="Question: A patient diagnosed with right obturator nerve entrapment with sciatic neuropathy was taken to the operating room for neuroplasty of the sciatic nerve and partial denervation of the obturator internus muscle.">
+<RelationSet id="525">
+<anatomicalStructure value="obturator internus muscle" begin="192" end="217" status="0" certainty="0" cui="C1518529" tui="T023" rank="576" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="obturator internus" begin="192" end="210" status="0" certainty="0" cui="C0224422;C1305047" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="obturator;muscle" begin="192;211" end="201;217" status="0" certainty="0" cui="C1280287;C0224421" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<anatomicalStructure value="obturator" begin="192" end="201" status="0" certainty="0" cui="C0182021;C0223670" tui="T074;T030" rank="797;575" code="NO-CODE" sourceType="UMD;NCI"/>
+<anatomicalStructure value="muscle" begin="211" end="217" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="526">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="obturator nerve entrapment" begin="41" end="67" status="0" certainty="1"/>
+<modifier value="right" begin="35" end="40" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="sciatic neuropathy" begin="73" end="91" status="0" certainty="0"/>
+<problem value="obturator nerve entrapment" begin="41" end="67" status="0" certainty="1"/>
+<modifier value="right" begin="35" end="40" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="sciatic neuropathy" begin="73" end="91" status="0" certainty="0"/>
+<modifier value="right" begin="35" end="40" status="0" certainty="1"/>
+</Relation>
+<problem value="sciatic neuropathy" begin="73" end="91" status="0" certainty="0" cui="C0149940" tui="T047" rank="795" code="NO-CODE" sourceType="DXP"/>
+<problem value="neuropathy" begin="81" end="91" status="0" certainty="0" cui="C0442874" tui="T047" rank="797" code="NO-CODE" sourceType="ICPC2P"/>
+<modifier value="right" begin="35" end="40" status="0" certainty="1" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+<problem value="nerve entrapment" begin="51" end="67" status="0" certainty="1" cui="C0917811" tui="T047" rank="797" code="NO-CODE" sourceType="MSH"/>
+<problem value="nerve" begin="51" end="56" status="0" certainty="1" cui="C0027740;C1280541;C0027769;C0599851;C0027757" tui="T024;T023;T184;T169;T024" rank="797;765;709;576;572" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;RCDSY;CSP;NCI"/>
+<anatomicalStructure value="obturator nerve" begin="41" end="56" status="0" certainty="1" cui="C0028783;C1278853" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="527">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="neuroplasty" begin="128" end="139" status="0" certainty="0"/>
+<anatomicalStructure value="sciatic nerve" begin="147" end="160" status="0" certainty="0"/>
+</Relation>
+<procedure value="neuroplasty;sciatic nerve" begin="128;147" end="139;160" status="0" certainty="0" cui="C2067031" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="neuroplasty" begin="128" end="139" status="0" certainty="0" cui="C0196775" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="sciatic nerve" begin="147" end="160" status="0" certainty="0" cui="C0036394;C1278851" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="nerve" begin="155" end="160" status="0" certainty="0" cui="C0027740;C1280541;C0027769;C0599851;C0027757" tui="T024;T023;T184;T169;T024" rank="797;765;709;576;572" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;RCDSY;CSP;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="219" end="277" sentText="The patient’s previous incision was utilized and extended.">
+<RelationSet id="528">
+<problem value="previous incision" begin="233" end="250" status="0" certainty="0" cui="C1285499" tui="T020" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="incision" begin="242" end="250" status="0" certainty="0" cui="C0184898;C2096041" tui="T061;T033" rank="767;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="278" end="373" sentText="Upon entry, the sciatic nerve, obturator internus nerve, and pudendal nerves were all released.">
+<RelationSet id="528">
+<anatomicalStructure value="sciatic nerve" begin="294" end="307" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="529">
+<problem value="nerve" begin="328" end="333" status="0" certainty="0" cui="C0599851;C0027769" tui="T169;T184" rank="576;399" code="NO-CODE" sourceType="CSP;MDR"/>
+<anatomicalStructure value="obturator internus" begin="309" end="327" status="0" certainty="0" cui="C0224422;C1305047" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="530">
+<anatomicalStructure value="pudendal nerves" begin="339" end="354" status="0" certainty="0" cui="C0228959;C1278858" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="pudendal" begin="339" end="347" status="0" certainty="0" cui="S1001220;C0738643" tui="t061;T023" rank="800;692" code="NO-CODE" sourceType="EZDI;UWDA"/>
+<anatomicalStructure value="nerves" begin="348" end="354" status="0" certainty="0" cui="C0027740;C1280541;C0027769;C0027757" tui="T024;T023;T184;T024" rank="797;765;709;572" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;RCDSY;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="374" end="540" sentText="The obturator internus muscle was injected with saline containing botulinum type A, and partial lysis of innervation of the obturator internus muscle was carried out.">
+<RelationSet id="531">
+<anatomicalStructure value="obturator internus muscle" begin="378" end="403" status="0" certainty="0" cui="C1518529" tui="T023" rank="576" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="obturator internus" begin="378" end="396" status="0" certainty="0" cui="C0224422;C1305047" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="obturator;muscle" begin="378;397" end="387;403" status="0" certainty="0" cui="C1280287;C0224421" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<anatomicalStructure value="obturator" begin="378" end="387" status="0" certainty="0" cui="C0182021;C0223670" tui="T074;T030" rank="797;575" code="NO-CODE" sourceType="UMD;NCI"/>
+<anatomicalStructure value="muscle" begin="397" end="403" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="532">
+<procedure value="muscle;injected" begin="397;408" end="403;416" status="0" certainty="0" cui="C0565407" tui="T061" rank="627" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="533">
+<anatomicalStructure value="obturator internus muscle" begin="498" end="523" status="0" certainty="0" cui="C1518529" tui="T023" rank="576" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="obturator internus" begin="498" end="516" status="0" certainty="0" cui="C0224422;C1305047" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="obturator;muscle" begin="498;517" end="507;523" status="0" certainty="0" cui="C1280287;C0224421" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<anatomicalStructure value="obturator" begin="498" end="507" status="0" certainty="0" cui="C0182021;C0223670" tui="T074;T030" rank="797;575" code="NO-CODE" sourceType="UMD;NCI"/>
+<anatomicalStructure value="muscle" begin="517" end="523" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="541" end="631" sentText="Seprafilm® was placed as an adhesiolytic agent on all dissected nerve and muscle surfaces.">
+<RelationSet id="534">
+<modifier value="dissected" begin="595" end="604" status="0" certainty="0" cui="C0205239" tui="T169" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<anatomicalStructure value="nerve" begin="605" end="610" status="0" certainty="0" cui="C0027740;C1280541;C0027769;C0599851;C0027757" tui="T024;T023;T184;T169;T024" rank="797;765;709;576;572" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;RCDSY;CSP;NCI"/>
+</RelationSet>
+<RelationSet id="535">
+<anatomicalStructure value="muscle" begin="615" end="621" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="632" end="728" sentText="What is the correct approach value for placement of Seprafilm® on the nerve and muscle surfaces?">
+<RelationSet id="536">
+<procedure value="placement" begin="671" end="680" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="537">
+<anatomicalStructure value="nerve" begin="702" end="707" status="0" certainty="0" cui="C0027740;C1280541;C0027769;C0599851;C0027757" tui="T024;T023;T184;T169;T024" rank="797;765;709;576;572" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;RCDSY;CSP;NCI"/>
+</RelationSet>
+<RelationSet id="538">
+<anatomicalStructure value="muscle" begin="712" end="718" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="730" end="1072">
+<Sentence sentNo="7" begin="730" end="890" sentText="Answer: The placement of the adhesion barrier during surgery is not coded separately, because it is a surgical supply, and integral to the definitive procedure.">
+<RelationSet id="539">
+<problem value="adhesion" begin="759" end="767" status="0" certainty="0" cui="C0001511;C0175633" tui="T046;T070" rank="767;576" code="NO-CODE" sourceType="LCH;NCI"/>
+<procedure value="placement" begin="742" end="751" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="540">
+<procedure value="surgery" begin="783" end="790" status="0" certainty="0" cui="C0543467" tui="T058" rank="150" code="NO-CODE" sourceType="CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="891" end="1071" sentText="If facilities wish to track the use of adhesion barrier during surgical procedures, the codes are located in table 3E0 and are applied to a limited selection of anatomical regions.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

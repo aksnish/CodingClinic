@@ -1,0 +1,82 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1244">
+<Paragraph pgNo="1" begin="0" end="454">
+<Sentence sentNo="1" begin="0" end="85" sentText="Question: A patient presents for robotic-assisted laparoscopic radical prostatectomy.">
+<RelationSet id="2477">
+<modifier value="radical" begin="63" end="70" status="0" certainty="1" cui="C0439807;C0302912" tui="T080;T104" rank="767;767" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<procedure value="robotic-assisted;prostatectomy" begin="33;71" end="49;84" status="0" certainty="1" cui="C2922133" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="laparoscopic;prostatectomy" begin="50;71" end="62;84" status="0" certainty="1" cui="C2986522" tui="T061" rank="576" code="NO-CODE" sourceType="NCI"/>
+<procedure value="radical prostatectomy" begin="63" end="84" status="0" certainty="1" cui="C0194810" tui="T061" rank="767" code="NO-CODE" sourceType="ICD10AM"/>
+<procedure value="prostatectomy" begin="71" end="84" status="0" certainty="1" cui="C0033573" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="laparoscopic" begin="50" end="62" status="0" certainty="1" cui="C0031150;C0393360;C1883297" tui="T060;T082;T061" rank="800;717;592" code="NO-CODE" sourceType="CCS;SNOMEDCTUS;MEDCIN"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="86" end="218" sentText="During the procedure partial removal of the bilateral vas deferens was accomplished and the bilateral seminal vesicles were removed.">
+<RelationSet id="2477">
+<modifier value="bilateral" begin="178" end="187" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2478">
+<anatomicalStructure value="seminal vesicles" begin="188" end="204" status="0" certainty="0" cui="C0036628;C1278984" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="vesicles" begin="196" end="204" status="0" certainty="0" cui="C1622418;C0333262" tui="T026;T020" rank="797;767" code="NO-CODE" sourceType="NCI;CST"/>
+</RelationSet>
+<RelationSet id="2479">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="vas deferens" begin="140" end="152" status="0" certainty="0"/>
+<modifier value="bilateral" begin="130" end="139" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="bilateral vas deferens" begin="130" end="152" status="0" certainty="0" cui="C0459090" tui="T023" rank="765" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="partial;vas deferens" begin="107;140" end="114;152" status="0" certainty="0" cui="C1285126" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="vas deferens" begin="140" end="152" status="0" certainty="0" cui="C0042360;C1280344" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="vas" begin="140" end="143" status="0" certainty="0" cui="C1425720;C0042559;C0042815;C0042427;C0042753;C0041735;C0042291;C1611840" tui="T028;T023;T060;T083;T083;T092;T109,T121;T170" rank="596;575;575;522;519;519;441;366" code="NO-CODE" sourceType="HGNC;NCI;NCI;NCI;NCI;NCI;PDQ;HL7V3.0"/>
+<modifier value="partial;bilateral" begin="107;130" end="114;139" status="0" certainty="0" cui="S1000867;C0442055" tui="t061;T082" rank="800;767" code="NO-CODE" sourceType="EZDI;RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="219" end="453" sentText="Does a radical prostatectomy include resection of the vas deferens and seminal vesicles or should these procedures be coded separately? What are the appropriate code assignments for robotic-assisted laparoscopic radical prostatectomy?">
+<RelationSet id="2480">
+<modifier value="radical;resection" begin="226;256" end="233;265" status="0" certainty="0" cui="S0001979" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<modifier value="radical" begin="226" end="233" status="0" certainty="0" cui="C0439807;C0302912" tui="T080;T104" rank="767;767" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<procedure value="radical prostatectomy" begin="226" end="247" status="0" certainty="0" cui="C0194810" tui="T061" rank="767" code="NO-CODE" sourceType="ICD10AM"/>
+<procedure value="prostatectomy" begin="234" end="247" status="0" certainty="0" cui="C0033573" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="2481">
+<procedure value="resection" begin="256" end="265" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="765;151" code="NO-CODE" sourceType="RCD;CHV"/>
+</RelationSet>
+<RelationSet id="2482">
+<anatomicalStructure value="vas deferens" begin="273" end="285" status="0" certainty="0" cui="C0042360;C1280344" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="vas" begin="273" end="276" status="0" certainty="0" cui="C1425720;C0042559;C0042815;C0042427;C0042753;C0041735;C0042291;C1611840" tui="T028;T023;T060;T083;T083;T092;T109,T121;T170" rank="596;575;575;522;519;519;441;366" code="NO-CODE" sourceType="HGNC;NCI;NCI;NCI;NCI;NCI;PDQ;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="2483">
+<anatomicalStructure value="seminal vesicles" begin="290" end="306" status="0" certainty="0" cui="C0036628;C1278984" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="vesicles" begin="298" end="306" status="0" certainty="0" cui="C1622418;C0333262" tui="T026;T020" rank="797;767" code="NO-CODE" sourceType="NCI;CST"/>
+</RelationSet>
+<RelationSet id="2484">
+<modifier value="radical" begin="431" end="438" status="0" certainty="0" cui="C0439807;C0302912" tui="T080;T104" rank="767;767" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<procedure value="robotic-assisted;prostatectomy" begin="401;439" end="417;452" status="0" certainty="0" cui="C2922133" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="laparoscopic;prostatectomy" begin="418;439" end="430;452" status="0" certainty="0" cui="C2986522" tui="T061" rank="576" code="NO-CODE" sourceType="NCI"/>
+<procedure value="radical prostatectomy" begin="431" end="452" status="0" certainty="0" cui="C0194810" tui="T061" rank="767" code="NO-CODE" sourceType="ICD10AM"/>
+<procedure value="prostatectomy" begin="439" end="452" status="0" certainty="0" cui="C0033573" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="laparoscopic" begin="418" end="430" status="0" certainty="0" cui="C0031150;C0393360;C1883297" tui="T060;T082;T061" rank="800;717;592" code="NO-CODE" sourceType="CCS;SNOMEDCTUS;MEDCIN"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="455" end="1243">
+<Sentence sentNo="4" begin="455" end="621" sentText="Answer: Radical procedures can have different meanings depending on the procedure, and the term “radical” is not always reliable information for coding the procedure.">
+</Sentence>
+<Sentence sentNo="5" begin="622" end="700" sentText="The coder should instead be guided by the information in the operative report.">
+</Sentence>
+<Sentence sentNo="6" begin="701" end="838" sentText="In ICD-10-PCS, code separately the organs or structures that were actually removed and for which there is a distinctly defined body part.">
+</Sentence>
+<Sentence sentNo="7" begin="839" end="1074" sentText="The ICD-10-PCS guideline B3.2a states if during the same operative session the same root operation is repeated at different body sites that are defined by distinct values of the body part character, multiple procedures should be coded.">
+<RelationSet id="2485">
+<anatomicalStructure value="body sites" begin="963" end="973" status="0" certainty="0" cui="C1545955;C2945842" tui="T029;T082" rank="797;151" code="NO-CODE" sourceType="LNC;CHV"/>
+<anatomicalStructure value="sites" begin="968" end="973" status="0" certainty="0" cui="C0205145;C2945843;C2825164;C1515974;C1546778" tui="T082;T080;T082;T029;T170" rank="797;767;575;575;355" code="NO-CODE" sourceType="RCD;RCD;NCI;NCI;HL7V2.5"/>
+<anatomicalStructure value="body" begin="963" end="967" status="0" certainty="0" cui="S1000390;C1268086;C1551342;C0242821" tui="t061;T017;T078;T016" rank="800;753;575;151" code="NO-CODE" sourceType="EZDI;NCI;NCI;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="1075" end="1122" sentText="The robotic assistance may be coded if desired.">
+</Sentence>
+<Sentence sentNo="9" begin="1123" end="1243" sentText="For this case, based on the documentation in the submitted operative report, assign ICD-10-PCS codes as follows: 0VT04ZZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

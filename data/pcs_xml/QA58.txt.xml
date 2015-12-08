@@ -1,0 +1,107 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="703">
+<Paragraph pgNo="1" begin="0" end="402">
+<Sentence sentNo="1" begin="0" end="283" sentText="Question: The patient had multiple drug-eluting stents placed percutaneously in three distinct lesions occurring in three separate coronary arteries: the first diagonal (D1) branch of the left anterior descending (LAD), the left circumflex (LCX), and the right coronary artery (RCA).">
+<RelationSet id="1687">
+<anatomicalStructure value="coronary arteries" begin="131" end="148" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1688">
+<anatomicalStructure value="branch" begin="174" end="180" status="0" certainty="0" cui="C1253959;C2700384;C0205384;C2700383;C1706131;C1881507;C2826234" tui="T023;T082;T082;T002;T097;T104;T170" rank="797;797;767;576;576;575;572" code="NO-CODE" sourceType="NCI;FMA;SNMI;NCI;NCI;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="1688">
+<anatomicalStructure value="left anterior descending" begin="188" end="212" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1688">
+<anatomicalStructure value="LAD" begin="214" end="217" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1689">
+<modifier value="left" begin="224" end="228" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1689">
+<anatomicalStructure value="circumflex" begin="229" end="239" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1689">
+<anatomicalStructure value="LCX" begin="241" end="244" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1690">
+<modifier value="right" begin="255" end="260" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1691">
+<anatomicalStructure value="right coronary artery;RCA" begin="255;278" end="276;281" status="0" certainty="0" cui="C0226042" tui="T023" rank="765" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="right coronary artery" begin="255" end="276" status="0" certainty="0" cui="C1261316" tui="T023" rank="765" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="coronary artery" begin="261" end="276" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="270" end="276" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="1693">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="lesions" begin="95" end="102" status="0" certainty="0"/>
+<modifier value="distinct" begin="86" end="94" status="0" certainty="0"/>
+</Relation>
+<modifier value="distinct" begin="86" end="94" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1694">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="drug-eluting stents" begin="35" end="54" status="0" certainty="1"/>
+<modifier value="multiple" begin="26" end="34" status="0" certainty="1"/>
+</Relation>
+<medicalDevice value="drug-eluting stents" begin="35" end="54" status="0" certainty="1" cui="C1322815" tui="T074" rank="795" code="NO-CODE" sourceType="MSH"/>
+<medicalDevice value="stents" begin="48" end="54" status="0" certainty="1" cui="C2348535;C0038257;C1705817" tui="T061;T074;T074" rank="797;795;575" code="NO-CODE" sourceType="NCI;MSH;NCI"/>
+<modifier value="multiple" begin="26" end="34" status="0" certainty="1" cui="C0449822;C1719797;C0439064;C2911648" tui="T081;T169;T081;T081" rank="767;767;767;576" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;RCD;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="284" end="401" sentText="What is the appropriate body part value for coronary artery sites(s)? Is this considered three coronary artery sites?">
+<RelationSet id="1695">
+<anatomicalStructure value="coronary artery" begin="328" end="343" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="337" end="343" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<anatomicalStructure value="sites" begin="344" end="349" status="0" certainty="0" cui="C0205145;C2945843;C2825164;C1515974;C1546778" tui="T082;T080;T082;T029;T170" rank="797;767;575;575;355" code="NO-CODE" sourceType="RCD;RCD;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1696">
+<anatomicalStructure value="coronary artery" begin="379" end="394" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="388" end="394" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<anatomicalStructure value="sites" begin="395" end="400" status="0" certainty="0" cui="C0205145;C2945843;C2825164;C1515974;C1546778" tui="T082;T080;T082;T029;T170" rank="797;767;575;575;355" code="NO-CODE" sourceType="RCD;RCD;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="403" end="702">
+<Sentence sentNo="3" begin="403" end="457" sentText="Answer: Yes, three coronary artery sites were treated.">
+<RelationSet id="1697">
+<anatomicalStructure value="coronary artery" begin="422" end="437" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="431" end="437" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<anatomicalStructure value="sites" begin="438" end="443" status="0" certainty="0" cui="C0205145;C2945843;C2825164;C1515974;C1546778" tui="T082;T080;T082;T029;T170" rank="797;767;575;575;355" code="NO-CODE" sourceType="RCD;RCD;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="458" end="701" sentText="Assign code 027234Z, Dilation of coronary artery, three sites, with drug-eluting intraluminal device, percutaneous approach, for the treatment of three coronary artery sites, the LAD, the LCX, and the RCA with insertion of drug-eluting stents.">
+<RelationSet id="1698">
+<medicalDevice value="device" begin="552" end="558" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1699">
+<anatomicalStructure value="coronary artery" begin="610" end="625" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="619" end="625" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<anatomicalStructure value="sites" begin="626" end="631" status="0" certainty="0" cui="C0205145;C2945843;C2825164;C1515974;C1546778" tui="T082;T080;T082;T029;T170" rank="797;767;575;575;355" code="NO-CODE" sourceType="RCD;RCD;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1699">
+<anatomicalStructure value="LAD" begin="637" end="640" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1699">
+<anatomicalStructure value="LCX" begin="646" end="649" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1699">
+<anatomicalStructure value="RCA" begin="659" end="662" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1700">
+<medicalDevice value="drug-eluting stents" begin="681" end="700" status="0" certainty="0" cui="C1322815" tui="T074" rank="795" code="NO-CODE" sourceType="MSH"/>
+<medicalDevice value="stents" begin="694" end="700" status="0" certainty="0" cui="C2348535;C0038257;C1705817" tui="T061;T074;T074" rank="797;795;575" code="NO-CODE" sourceType="NCI;MSH;NCI"/>
+</RelationSet>
+<RelationSet id="1701">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="Dilation" begin="479" end="487" status="0" certainty="0"/>
+<anatomicalStructure value="coronary artery" begin="491" end="506" status="0" certainty="0"/>
+</Relation>
+<problem value="Dilation" begin="479" end="487" status="0" certainty="0" cui="C0012359;C0700124;C0393293" tui="T046;T169;T061" rank="765;575;286" code="NO-CODE" sourceType="SNM;NCI;MTHMST"/>
+<anatomicalStructure value="coronary artery" begin="491" end="506" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="500" end="506" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

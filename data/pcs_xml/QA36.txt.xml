@@ -1,0 +1,129 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="815">
+<Paragraph pgNo="1" begin="0" end="508">
+<Sentence sentNo="1" begin="0" end="236" sentText="Question: A patient with left thumb osteoarthritis at the left carpometacarpal and scaphotrapezoid-trapezial joints is admitted for trapeziectomy with ligament reconstruction and tendon interposition arthroplasty with internal fixation.">
+<RelationSet id="1486">
+<anatomicalStructure value="left thumb" begin="25" end="35" status="0" certainty="1" cui="C0935603" tui="T023" rank="692" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="thumb" begin="30" end="35" status="0" certainty="1" cui="C0040067;C1269613" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1487">
+<procedure value="trapeziectomy" begin="132" end="145" status="0" certainty="0" cui="C0407613" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="1488">
+<procedure value="ligament reconstruction" begin="151" end="174" status="0" certainty="0" cui="C0547071" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="reconstruction" begin="160" end="174" status="0" certainty="0" cui="C0524865;C0020912" tui="T061;T066" rank="765;575" code="NO-CODE" sourceType="RCD;NCI"/>
+<anatomicalStructure value="ligament" begin="151" end="159" status="0" certainty="0" cui="C0023685;C1269080;C0521342" tui="T024;T023;T029" rank="797;765;703" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;SNMI"/>
+</RelationSet>
+<RelationSet id="1489">
+<modifier value="interposition" begin="186" end="199" status="0" certainty="0" cui="S1000108;C1550045;C0733755;C2347268;C1551389" tui="t061;T078;T082;T170;T170" rank="800;797;767;572;366" code="NO-CODE" sourceType="EZDI;HL7V2.5;RCD;NCI;HL7V3.0"/>
+<procedure value="interposition arthroplasty" begin="186" end="212" status="0" certainty="0" cui="C0442927" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="arthroplasty" begin="200" end="212" status="0" certainty="0" cui="C0003893;C0700235" tui="T061;T061" rank="797;622" code="NO-CODE" sourceType="MSH;HCDT"/>
+<anatomicalStructure value="tendon" begin="179" end="185" status="0" certainty="0" cui="C0039508;C1280538" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1490">
+<modifier value="internal" begin="218" end="226" status="0" certainty="0" cui="C0205102;C1619620;C1553872" tui="T082;T170;T170" rank="797;366;366" code="NO-CODE" sourceType="RCD;HL7V3.0;HL7V3.0"/>
+<procedure value="internal fixation" begin="218" end="235" status="0" certainty="0" cui="C0016642" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="fixation" begin="227" end="235" status="0" certainty="0" cui="C0185023;C1522662;C0728733" tui="T061;T059;T041" rank="767;576;475" code="NO-CODE" sourceType="RCD;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="1491">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="left" begin="58" end="62" status="0" certainty="1"/>
+<problem value="osteoarthritis" begin="36" end="50" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="left" begin="25" end="29" status="0" certainty="1"/>
+<problem value="osteoarthritis" begin="36" end="50" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="osteoarthritis" begin="36" end="50" status="0" certainty="1"/>
+<anatomicalStructure value="carpometacarpal" begin="63" end="78" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="scaphotrapezoid-trapezial joints" begin="83" end="115" status="0" certainty="0"/>
+<modifier value="left" begin="58" end="62" status="0" certainty="1"/>
+<modifier value="left" begin="25" end="29" status="0" certainty="1"/>
+<problem value="osteoarthritis" begin="36" end="50" status="0" certainty="1"/>
+<anatomicalStructure value="carpometacarpal" begin="63" end="78" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="scaphotrapezoid-trapezial joints" begin="83" end="115" status="0" certainty="0"/>
+<problem value="osteoarthritis" begin="36" end="50" status="0" certainty="1"/>
+</Relation>
+<anatomicalStructure value="joints" begin="109" end="115" status="0" certainty="0" cui="C0022417;C0444497;C0392905;C1269611;C1706309" tui="T030;T082;T022;T030;T074" rank="797;767;765;765;575" code="NO-CODE" sourceType="MSH;RCD;ICF;RCD;NCI"/>
+<modifier value="left" begin="58" end="62" status="0" certainty="1" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+<modifier value="left" begin="25" end="29" status="0" certainty="1" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+<problem value="thumb osteoarthritis" begin="30" end="50" status="0" certainty="1" cui="C0409935" tui="T047" rank="644" code="NO-CODE" sourceType="CHV"/>
+<problem value="osteoarthritis" begin="36" end="50" status="0" certainty="1" cui="C0029408" tui="T047" rank="795" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="carpometacarpal" begin="63" end="78" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="237" end="427" sentText="During the procedure, the entire trapezium was removed; the abductor pollicis longus tendon was harvested from the forearm and secured to the second metacarpal and the flexor carpi radialis.">
+<RelationSet id="1492">
+<anatomicalStructure value="trapezium" begin="270" end="279" status="0" certainty="0" cui="C0223736;C3463935;C1036856" tui="T023;T204;T204" rank="765;751;751" code="NO-CODE" sourceType="SNM;NCBI;NCBI"/>
+</RelationSet>
+<RelationSet id="1493">
+<anatomicalStructure value="abductor pollicis longus tendon" begin="297" end="328" status="0" certainty="0" cui="C0448580" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="abductor pollicis longus" begin="297" end="321" status="0" certainty="0" cui="C1305003;C0224278" tui="T023;T023" rank="765;724" code="NO-CODE" sourceType="SNOMEDCTUS;UWDA"/>
+<anatomicalStructure value="tendon" begin="322" end="328" status="0" certainty="0" cui="C0039508;C1280538" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1493">
+<anatomicalStructure value="forearm" begin="352" end="359" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1494">
+<modifier value="to;second" begin="372;379" end="374;385" status="0" certainty="0" cui="C0175668" tui="T079" rank="797" code="NO-CODE" sourceType="SNMI"/>
+</RelationSet>
+<RelationSet id="1495">
+<anatomicalStructure value="second metacarpal" begin="379" end="396" status="0" certainty="0" cui="C0223758" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="metacarpal" begin="386" end="396" status="0" certainty="0" cui="C0025526;C1269064" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1496">
+<anatomicalStructure value="flexor carpi radialis" begin="405" end="426" status="0" certainty="0" cui="C0224252" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="carpi" begin="412" end="417" status="0" certainty="0" cui="C0043262;C1283836" tui="T029;T029" rank="765;765" code="NO-CODE" sourceType="FMA;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="428" end="507" sentText="Are separate codes assigned for the trapeziectomy and harvesting of the tendon?">
+<RelationSet id="1497">
+<procedure value="trapeziectomy" begin="464" end="477" status="0" certainty="0" cui="C0407613" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="1498">
+<anatomicalStructure value="tendon" begin="500" end="506" status="0" certainty="0" cui="C0039508;C1280538" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="509" end="814">
+<Sentence sentNo="4" begin="509" end="740" sentText="Answer: In addition to a code for the arthroplasty, separate codes are assigned for the resection of the trapezium and the excision of the abductor pollicis longus tendon that was used as the tissue supplement for the arthroplasty.">
+<RelationSet id="1499">
+<procedure value="arthroplasty" begin="547" end="559" status="0" certainty="0" cui="C0003893;C0700235" tui="T061;T061" rank="797;622" code="NO-CODE" sourceType="MSH;HCDT"/>
+</RelationSet>
+<RelationSet id="1500">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="arthroplasty" begin="727" end="739" status="0" certainty="0"/>
+<anatomicalStructure value="tissue" begin="701" end="707" status="0" certainty="0"/>
+</Relation>
+<procedure value="arthroplasty" begin="727" end="739" status="0" certainty="0" cui="C0003893;C0700235" tui="T061;T061" rank="797;622" code="NO-CODE" sourceType="MSH;HCDT"/>
+<anatomicalStructure value="tissue" begin="701" end="707" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1501">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="abductor pollicis longus tendon" begin="648" end="679" status="0" certainty="0"/>
+<procedure value="excision" begin="632" end="640" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="abductor pollicis longus tendon" begin="648" end="679" status="0" certainty="0" cui="C0448580" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="abductor pollicis longus" begin="648" end="672" status="0" certainty="0" cui="C1305003;C0224278" tui="T023;T023" rank="765;724" code="NO-CODE" sourceType="SNOMEDCTUS;UWDA"/>
+<anatomicalStructure value="tendon" begin="673" end="679" status="0" certainty="0" cui="C0039508;C1280538" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<procedure value="excision" begin="632" end="640" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+</RelationSet>
+<RelationSet id="1502">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="resection" begin="597" end="606" status="0" certainty="0"/>
+<anatomicalStructure value="trapezium" begin="614" end="623" status="0" certainty="0"/>
+</Relation>
+<procedure value="resection" begin="597" end="606" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="765;151" code="NO-CODE" sourceType="RCD;CHV"/>
+<anatomicalStructure value="trapezium" begin="614" end="623" status="0" certainty="0" cui="C0223736;C3463935;C1036856" tui="T023;T204;T204" rank="765;751;751" code="NO-CODE" sourceType="SNM;NCBI;NCBI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="741" end="813" sentText="For the procedures performed assign ICD-10-PCS codes as follows: 0PTN0ZZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

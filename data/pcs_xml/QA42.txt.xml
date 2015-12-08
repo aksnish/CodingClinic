@@ -1,0 +1,45 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="378">
+<Paragraph pgNo="1" begin="0" end="272">
+<Sentence sentNo="1" begin="0" end="157" sentText="Question: The patient’s pregnancy was complicated due to cervical incompetence, and she underwent placement of cervical cerclage during the second trimester.">
+<RelationSet id="727">
+<problem value="cervical incompetence" begin="57" end="78" status="0" certainty="1" cui="C0007871" tui="T046" rank="791" code="NO-CODE" sourceType="CCS"/>
+<problem value="pregnancy;cervical" begin="24;57" end="33;65" status="0" certainty="1" cui="C0269285" tui="T047" rank="767" code="NO-CODE" sourceType="RCD"/>
+<problem value="incompetence" begin="66" end="78" status="0" certainty="1" cui="C0231189;C0231190" tui="T046;T169" rank="767;703" code="NO-CODE" sourceType="SNMI;SNMI"/>
+<anatomicalStructure value="cervical" begin="57" end="65" status="0" certainty="1" cui="C0027530;C0205064;C0007874;C1281592;C2137077;C0200040;C1550623;C1546592" tui="T029;T082;T023;T023;T033;T061;T031;T170" rank="797;797;790;765;592;373;366;355" code="NO-CODE" sourceType="CST;RCD;RCD;SNOMEDCTUS;MEDCIN;ICD10AM;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="728">
+<procedure value="cervical cerclage" begin="111" end="128" status="0" certainty="0" cui="C0195681" tui="T061" rank="797" code="NO-CODE" sourceType="RCD"/>
+<procedure value="placement" begin="98" end="107" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+<procedure value="cervical" begin="111" end="119" status="0" certainty="0" cui="C0027530;C0205064;C0007874;C1281592;C2137077;C0200040;C1550623;C1546592" tui="T029;T082;T023;T023;T033;T061;T031;T170" rank="797;797;790;765;592;373;366;355" code="NO-CODE" sourceType="CST;RCD;RCD;SNOMEDCTUS;MEDCIN;ICD10AM;HL7V3.0;HL7V2.5"/>
+<procedure value="cerclage" begin="120" end="128" status="0" certainty="0" cui="C1292825" tui="T061" rank="767" code="NO-CODE" sourceType="CCPSS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="158" end="245" sentText="After a completely normal delivery, she underwent transvaginal removal of the cerclage.">
+<RelationSet id="729">
+<procedure value="transvaginal;cerclage" begin="208;236" end="220;244" status="0" certainty="1" cui="C0994592" tui="T061" rank="295" code="NO-CODE" sourceType="MTHICD9"/>
+<procedure value="cerclage" begin="236" end="244" status="0" certainty="1" cui="C1292825" tui="T061" rank="767" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="removal" begin="221" end="228" status="0" certainty="1" cui="C0015252;C0728940;C1883720;C1548394;C3244314;C0849355" tui="T061;T061;T052;T170;T169;T080" rank="767;716;576;366;366;151" code="NO-CODE" sourceType="RCD;NCI;ICPC2P;HL7V3.0;HL7V3.0;CHV"/>
+<anatomicalStructure value="transvaginal" begin="208" end="220" status="0" certainty="1" cui="C0175672;C0042232;C1272941;C1522570" tui="T082;T023;T122;T169" rank="765;703;575;575" code="NO-CODE" sourceType="RCD;NCI;NCI;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="246" end="271" sentText="How is the removal coded?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="273" end="377">
+<Sentence sentNo="4" begin="273" end="376" sentText="Answer: Assign the following ICD-10-PCS code for the transvaginal removal of cervical cerclage: 0UCC7ZZ">
+<RelationSet id="730">
+<procedure value="removal;cervical cerclage" begin="339;350" end="346;367" status="0" certainty="0" cui="C0948932;C0195341" tui="T061;T061" rank="644;595" code="NO-CODE" sourceType="MDR;ICD9CM"/>
+<procedure value="transvaginal;cerclage" begin="326;359" end="338;367" status="0" certainty="0" cui="C0994592" tui="T061" rank="295" code="NO-CODE" sourceType="MTHICD9"/>
+<procedure value="cervical cerclage" begin="350" end="367" status="0" certainty="0" cui="C0195681" tui="T061" rank="797" code="NO-CODE" sourceType="RCD"/>
+<procedure value="removal;cervical" begin="339;350" end="346;358" status="0" certainty="0" cui="C0195331" tui="T061" rank="626" code="NO-CODE" sourceType="CPT"/>
+<procedure value="cerclage" begin="359" end="367" status="0" certainty="0" cui="C1292825" tui="T061" rank="767" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="cervical" begin="350" end="358" status="0" certainty="0" cui="C0027530;C0205064;C0007874;C1281592;C2137077;C0200040;C1550623;C1546592" tui="T029;T082;T023;T023;T033;T061;T031;T170" rank="797;797;790;765;592;373;366;355" code="NO-CODE" sourceType="CST;RCD;RCD;SNOMEDCTUS;MEDCIN;ICD10AM;HL7V3.0;HL7V2.5"/>
+<procedure value="removal" begin="339" end="346" status="0" certainty="0" cui="C0015252;C0728940;C1883720;C1548394;C3244314;C0849355" tui="T061;T061;T052;T170;T169;T080" rank="767;716;576;366;366;151" code="NO-CODE" sourceType="RCD;NCI;ICPC2P;HL7V3.0;HL7V3.0;CHV"/>
+<anatomicalStructure value="transvaginal;cervical" begin="326;350" end="338;358" status="0" certainty="0" cui="C0458855" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="transvaginal" begin="326" end="338" status="0" certainty="0" cui="C0175672;C0042232;C1272941;C1522570" tui="T082;T023;T122;T169" rank="765;703;575;575" code="NO-CODE" sourceType="RCD;NCI;NCI;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

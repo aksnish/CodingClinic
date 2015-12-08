@@ -1,0 +1,158 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1070">
+<Paragraph pgNo="1" begin="0" end="804">
+<Sentence sentNo="1" begin="0" end="73" sentText="Question: A four-year-old child has history of truncus arteriosus repair.">
+<RelationSet id="1608">
+<problem value="truncus arteriosus" begin="47" end="65" status="1" certainty="1" cui="C0041206;C1305909;C3463907;C0041207" tui="T018;T018;T028;T019" rank="797;765;598;575" code="NO-CODE" sourceType="MSH;RCD;OMIM;NCI"/>
+<procedure value="truncus arteriosus repair" begin="47" end="72" status="1" certainty="1" cui="C0397484" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="repair" begin="66" end="72" status="1" certainty="1" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+<anatomicalStructure value="truncus" begin="47" end="54" status="1" certainty="1" cui="C0460005;C2700369" tui="T029;T002" rank="691;575" code="NO-CODE" sourceType="UWDA;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="74" end="250" sentText="He is currently being seen to replace a previously placed pulmonary artery conduit allograft that has become heavily calcified and to treat bilateral pulmonary artery stenosis.">
+<RelationSet id="1609">
+<anatomicalStructure value="pulmonary;allograft" begin="132;157" end="141;166" status="0" certainty="0" cui="C1720523" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="pulmonary artery" begin="132" end="148" status="0" certainty="0" cui="C0034052;C1269026;C0545747" tui="T023;T023;T023" rank="795;765;150" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;CHV"/>
+<anatomicalStructure value="pulmonary" begin="132" end="141" status="0" certainty="0" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="MSH;AIR;SNOMEDCTUS;NCI"/>
+<anatomicalStructure value="artery" begin="142" end="148" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="1610">
+<modifier value="heavily" begin="183" end="190" status="0" certainty="0" cui="C0439539" tui="T080" rank="765" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="1610">
+<problem value="calcified" begin="191" end="200" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1611">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="bilateral" begin="214" end="223" status="0" certainty="0"/>
+<problem value="pulmonary artery stenosis" begin="224" end="249" status="0" certainty="0"/>
+</Relation>
+<modifier value="bilateral" begin="214" end="223" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<problem value="pulmonary artery stenosis" begin="224" end="249" status="0" certainty="0" cui="C0238397;C0265911" tui="T190;T019,T047" rank="797;724" code="NO-CODE" sourceType="DXP;RCD"/>
+<problem value="pulmonary;stenosis" begin="224;241" end="233;249" status="0" certainty="0" cui="C1956257;C0034089" tui="T047;T047,T190" rank="797;151" code="NO-CODE" sourceType="MSH;CHV"/>
+<problem value="artery stenosis" begin="234" end="249" status="0" certainty="0" cui="C0038449" tui="T047" rank="765" code="NO-CODE" sourceType="RCD"/>
+<problem value="stenosis" begin="241" end="249" status="0" certainty="0" cui="C1261287;C0009814;C2632116;C0678234;C0333181;C0947637" tui="T190;T046;T204;T080;T169;T046" rank="797;767;751;724;703;286" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCBI;RCD;SNMI;SNOMEDCTUS"/>
+<anatomicalStructure value="pulmonary artery" begin="224" end="240" status="0" certainty="0" cui="C0034052;C1269026;C0545747" tui="T023;T023;T023" rank="795;765;150" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;CHV"/>
+<anatomicalStructure value="pulmonary" begin="224" end="233" status="0" certainty="0" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="MSH;AIR;SNOMEDCTUS;NCI"/>
+<anatomicalStructure value="artery" begin="234" end="240" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="251" end="360" sentText="Both the left and right pulmonary arteries were spatulated and augmented with a patch of pulmonary allograft.">
+<RelationSet id="1612">
+<modifier value="right" begin="269" end="274" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1613">
+<anatomicalStructure value="right pulmonary arteries" begin="269" end="293" status="0" certainty="0" cui="C0226054;C1267272;C1269884" tui="T023;T023;T023" rank="797;765;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="pulmonary arteries" begin="275" end="293" status="0" certainty="0" cui="C0034052;C1269026;C0545747" tui="T023;T023;T023" rank="795;765;150" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;CHV"/>
+<anatomicalStructure value="right pulmonary" begin="269" end="284" status="0" certainty="0" cui="C0225706" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="pulmonary" begin="275" end="284" status="0" certainty="0" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="MSH;AIR;SNOMEDCTUS;NCI"/>
+<anatomicalStructure value="arteries" begin="285" end="293" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="1614">
+<anatomicalStructure value="pulmonary allograft" begin="340" end="359" status="0" certainty="0" cui="C1720523" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="pulmonary" begin="340" end="349" status="0" certainty="0" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="MSH;AIR;SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="361" end="410" sentText="A stent was placed in the right pulmonary artery.">
+<RelationSet id="1615">
+<medicalDevice value="stent" begin="363" end="368" status="0" certainty="0" cui="C2348535;C0038257;C1705817" tui="T061;T074;T074" rank="797;795;575" code="NO-CODE" sourceType="NCI;MSH;NCI"/>
+</RelationSet>
+<RelationSet id="1616">
+<modifier value="right" begin="387" end="392" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1617">
+<anatomicalStructure value="right pulmonary artery" begin="387" end="409" status="0" certainty="0" cui="C0226054;C1267272;C1269884" tui="T023;T023;T023" rank="797;765;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="pulmonary artery" begin="393" end="409" status="0" certainty="0" cui="C0034052;C1269026;C0545747" tui="T023;T023;T023" rank="795;765;150" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;CHV"/>
+<anatomicalStructure value="right pulmonary" begin="387" end="402" status="0" certainty="0" cui="C0225706" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="pulmonary" begin="393" end="402" status="0" certainty="0" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="MSH;AIR;SNOMEDCTUS;NCI"/>
+<anatomicalStructure value="artery" begin="403" end="409" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="411" end="501" sentText="A pulmonary allograft was cut and sewn to the confluence of the branch pulmonary arteries.">
+<RelationSet id="1618">
+<anatomicalStructure value="pulmonary allograft" begin="413" end="432" status="0" certainty="0" cui="C1720523" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="pulmonary" begin="413" end="422" status="0" certainty="0" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="MSH;AIR;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="1619">
+<anatomicalStructure value="branch pulmonary arteries" begin="475" end="500" status="0" certainty="0" cui="C1282007" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="pulmonary arteries" begin="482" end="500" status="0" certainty="0" cui="C0034052;C1269026;C0545747" tui="T023;T023;T023" rank="795;765;150" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;CHV"/>
+<anatomicalStructure value="pulmonary" begin="482" end="491" status="0" certainty="0" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="MSH;AIR;SNOMEDCTUS;NCI"/>
+<anatomicalStructure value="arteries" begin="492" end="500" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<anatomicalStructure value="branch" begin="475" end="481" status="0" certainty="0" cui="C1253959;C2700384;C0205384;C2700383;C1706131;C1881507;C2826234" tui="T023;T082;T082;T002;T097;T104;T170" rank="797;797;767;576;576;575;572" code="NO-CODE" sourceType="NCI;FMA;SNMI;NCI;NCI;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="502" end="580" sentText="The proximal allograft was sewn into the outflow tract of the right ventricle.">
+<RelationSet id="1620">
+<modifier value="right" begin="564" end="569" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1621">
+<anatomicalStructure value="outflow tract;right ventricle" begin="543;564" end="556;579" status="0" certainty="0" cui="C0225892;C1305586;C1280177" tui="T030;T023;T023" rank="765;765;234" code="NO-CODE" sourceType="SNMI;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="outflow tract;ventricle" begin="543;570" end="556;579" status="0" certainty="0" cui="C0507070" tui="T030" rank="691" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="outflow;right ventricle" begin="543;564" end="550;579" status="0" certainty="0" cui="C0455844;C0503994" tui="T033;T030" rank="767;691" code="NO-CODE" sourceType="RCD;UWDA"/>
+<anatomicalStructure value="right ventricle" begin="564" end="579" status="0" certainty="0" cui="S0002671;C0225883;C1269891" tui="t060;T023;T023" rank="800;792;765" code="NO-CODE" sourceType="EZDI;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="ventricle" begin="570" end="579" status="0" certainty="0" cui="C2355627;C1522565;C0018827;C0007799" tui="T023;T082;T023;T030" rank="797;797;765;575" code="NO-CODE" sourceType="FMA;NCI;SNM;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="581" end="803" sentText="Should the pulmonary stent and patch augmentation be coded separately or are they inherent to the right ventricle to pulmonary artery conduit replacement? What are the appropriate ICD10-PCS procedure codes for the surgery?">
+<RelationSet id="1622">
+<medicalDevice value="stent" begin="602" end="607" status="0" certainty="0" cui="C2348535;C0038257;C1705817" tui="T061;T074;T074" rank="797;795;575" code="NO-CODE" sourceType="NCI;MSH;NCI"/>
+</RelationSet>
+<RelationSet id="1623">
+<procedure value="augmentation" begin="618" end="630" status="0" certainty="0" cui="C1293122;C0332509" tui="T061;T033" rank="765;233" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<procedure value="patch" begin="612" end="617" status="0" certainty="0" cui="C0994894;C0205413;C0332461;C0441615;C0991556;C0445403;C1533128;C1305400;C0392769;C1367881;C1707974;C1706366" tui="T074;T080;T033;T061;T074;T122;T122;T074;T049;T116,T192;T122;T081" rank="776;767;765;765;765;765;765;765;702;576;576;575" code="NO-CODE" sourceType="NCI;RCD;SNOMEDCTUS;RCD;SNOMEDCTUS;RCD;SNOMEDCTUS;SNOMEDCTUS;SNM;NCI;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="1624">
+<procedure value="surgery" begin="795" end="802" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1625">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="ventricle" begin="685" end="694" status="0" certainty="0"/>
+<procedure value="pulmonary artery conduit replacement" begin="698" end="734" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="right" begin="679" end="684" status="0" certainty="0"/>
+<procedure value="pulmonary artery conduit replacement" begin="698" end="734" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="ventricle" begin="685" end="694" status="0" certainty="0"/>
+<modifier value="right" begin="679" end="684" status="0" certainty="0"/>
+<procedure value="pulmonary artery conduit replacement" begin="698" end="734" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="right ventricle" begin="679" end="694" status="0" certainty="0" cui="S0002671;C0225883;C1269891" tui="t060;T023;T023" rank="800;792;765" code="NO-CODE" sourceType="EZDI;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="ventricle" begin="685" end="694" status="0" certainty="0" cui="C2355627;C1522565;C0018827;C0007799" tui="T023;T082;T023;T030" rank="797;797;765;575" code="NO-CODE" sourceType="FMA;NCI;SNM;NCI"/>
+<modifier value="right" begin="679" end="684" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+<procedure value="conduit replacement" begin="715" end="734" status="0" certainty="0" cui="C0397386" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="replacement" begin="723" end="734" status="0" certainty="0" cui="C0559956;C0035139;C1555302" tui="T169;T061;T078" rank="797;765;366" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;HL7V3.0"/>
+<procedure value="artery" begin="708" end="714" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<anatomicalStructure value="right;pulmonary artery" begin="679;698" end="684;714" status="0" certainty="0" cui="C0226054;C1267272;C1269884" tui="T023;T023;T023" rank="797;765;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="pulmonary artery" begin="698" end="714" status="0" certainty="0" cui="C0034052;C1269026;C0545747" tui="T023;T023;T023" rank="795;765;150" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;CHV"/>
+<anatomicalStructure value="right;pulmonary" begin="679;698" end="684;707" status="0" certainty="0" cui="C0225706" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="pulmonary" begin="698" end="707" status="0" certainty="0" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="MSH;AIR;SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="805" end="1069">
+<Sentence sentNo="8" begin="805" end="1005" sentText="Answer: The stent placement and patch augmentations are separately coded, since the procedural objectives are distinct from the replacement of the previously placed pulmonary artery conduit allograft.">
+<RelationSet id="1626">
+<procedure value="stent placement" begin="817" end="832" status="0" certainty="0" cui="C0522776" tui="T061" rank="767" code="NO-CODE" sourceType="MTHMST"/>
+<procedure value="placement" begin="823" end="832" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+<procedure value="stent" begin="817" end="822" status="0" certainty="0" cui="C2348535;C0038257;C1705817" tui="T061;T074;T074" rank="797;795;575" code="NO-CODE" sourceType="NCI;MSH;NCI"/>
+</RelationSet>
+<RelationSet id="1626">
+<finding value="patch augmentations" begin="837" end="856" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1627">
+<anatomicalStructure value="pulmonary;allograft" begin="970;995" end="979;1004" status="0" certainty="0" cui="C1720523" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="pulmonary artery" begin="970" end="986" status="0" certainty="0" cui="C0034052;C1269026;C0545747" tui="T023;T023;T023" rank="795;765;150" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;CHV"/>
+<anatomicalStructure value="pulmonary" begin="970" end="979" status="0" certainty="0" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="MSH;AIR;SNOMEDCTUS;NCI"/>
+<anatomicalStructure value="artery" begin="980" end="986" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="1006" end="1068" sentText="Assign the following ICD-10-PCS codes for the surgery: 021K0KP">
+<RelationSet id="1628">
+<procedure value="surgery" begin="1052" end="1059" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

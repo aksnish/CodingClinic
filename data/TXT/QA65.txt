@@ -1,0 +1,2 @@
+Question: A patient presents for an audiogram and is found to have bilateral high frequency sensorineural hearing loss, as well as left-sided conductive hearing loss. What is the appropriate diagnosis code assignment for this patient? 
+Answer: Assign code H90.6, Mixed conductive and sensorineural hearing loss, bilateral, for a patient with different types of hearing loss in the right and left ear. 

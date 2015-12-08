@@ -1,0 +1,46 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1905">
+<Paragraph pgNo="1" begin="0" end="1234">
+<Sentence sentNo="1" begin="0" end="256" sentText="Question: One of the examples on the use of the 7th character published in the First Quarter 2015 issue of Coding Clinic page 8 indicated that “the activity code is not assigned again as activity codes are used only at the initial encounter for treatment.”">
+</Sentence>
+<Sentence sentNo="2" begin="257" end="343" sentText="We understand that this is consistent with the Official Coding Guideline I.C.20.a.8.c.">
+</Sentence>
+<Sentence sentNo="3" begin="344" end="564" sentText="However, there is also guideline I.C.20.a.2 which states “…assignment of the 7th character for external cause should match the 7th character of the code assigned for the associated injury or condition for the encounter.”">
+<RelationSet id="1548">
+<problem value="injury" begin="525" end="531" status="0" certainty="0" cui="C1510467;C3263723;C3263722" tui="T037;T037;T037" rank="794;793;765" code="NO-CODE" sourceType="MSH;ICPC2P;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="565" end="822" sentText="Why wasn’t the activity code assigned for the example in the First Quarter 2015, such as the patient who presents to the emergency department (ED) after an injury playing lacrosse and then follows up with the local orthopedist for treatment of the fracture?">
+<RelationSet id="1549">
+<problem value="injury" begin="721" end="727" status="0" certainty="0" cui="C1510467;C3263723;C3263722" tui="T037;T037;T037" rank="794;793;765" code="NO-CODE" sourceType="MSH;ICPC2P;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1550">
+<problem value="fracture" begin="813" end="821" status="0" certainty="0" cui="C0016658;C1880851;C1963113" tui="T037;T067;T033" rank="797;562;551" code="NO-CODE" sourceType="ICPC2P;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="823" end="1055" sentText="In that example, the patient was still receiving active treatment with the local orthopedist and the 7th character “A, initial encounter” was assigned to the injury code, but the activity code was only assigned for the ED encounter.">
+<RelationSet id="1551">
+<problem value="injury" begin="981" end="987" status="0" certainty="0" cui="C1510467;C3263723;C3263722" tui="T037;T037;T037" rank="794;793;765" code="NO-CODE" sourceType="MSH;ICPC2P;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="1056" end="1233" sentText="Does “initial encounter” in the context of the 7th character for injury codes have a different meaning from “initial encounter” as used in the application of the activity codes?">
+<RelationSet id="1552">
+<problem value="injury" begin="1121" end="1127" status="0" certainty="0" cui="C1510467;C3263723;C3263722" tui="T037;T037;T037" rank="794;793;765" code="NO-CODE" sourceType="MSH;ICPC2P;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="1235" end="1904">
+<Sentence sentNo="7" begin="1235" end="1291" sentText="Answer: Yes, “initial encounter” has different meanings.">
+</Sentence>
+<Sentence sentNo="8" begin="1292" end="1410" sentText="The 7th character for initial encounter is assigned while the patient is receiving active treatment for the condition.">
+</Sentence>
+<Sentence sentNo="9" begin="1411" end="1643" sentText="As shown in the example in question, the 7th character “A” for initial encounter was assigned for the ED visit, as well as for the visit to the orthopedist because the patient was still receiving active treatment during both visits.">
+</Sentence>
+<Sentence sentNo="10" begin="1644" end="1903" sentText="However, in the context of external cause codes, activity codes can only be used once for the first time the patient is seen for this problem, and it does not need to correlate to the assignment of the 7th character for “initial encounter” in the injury code.">
+<RelationSet id="1553">
+<problem value="injury" begin="1891" end="1897" status="0" certainty="0" cui="C1510467;C3263723;C3263722" tui="T037;T037;T037" rank="794;793;765" code="NO-CODE" sourceType="MSH;ICPC2P;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

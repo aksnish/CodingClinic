@@ -1,0 +1,154 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="898">
+<Paragraph pgNo="1" begin="0" end="431">
+<Sentence sentNo="1" begin="0" end="115" sentText="Question: An ambulatory 15-year-old patient presented with complaints of hip pain secondary to dislocated left hip.">
+<RelationSet id="38">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="pain" begin="77" end="81" status="0" certainty="1"/>
+<anatomicalStructure value="hip" begin="111" end="114" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="dislocated" begin="95" end="105" status="0" certainty="1"/>
+<anatomicalStructure value="hip" begin="111" end="114" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="pain" begin="77" end="81" status="0" certainty="1"/>
+<anatomicalStructure value="hip" begin="73" end="76" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="pain" begin="77" end="81" status="0" certainty="1"/>
+<problem value="dislocated" begin="95" end="105" status="0" certainty="1"/>
+<anatomicalStructure value="hip" begin="73" end="76" status="0" certainty="1"/>
+<modifier value="left" begin="106" end="110" status="0" certainty="1"/>
+<anatomicalStructure value="hip" begin="111" end="114" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="pain" begin="77" end="81" status="0" certainty="1"/>
+<modifier value="left" begin="106" end="110" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="hip" begin="73" end="76" status="0" certainty="1"/>
+<problem value="dislocated" begin="95" end="105" status="0" certainty="1"/>
+</Relation>
+<problem value="pain;left hip" begin="77;106" end="81;114" status="0" certainty="1" cui="C2141922" tui="T184" rank="592" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="hip pain" begin="73" end="81" status="0" certainty="1" cui="C0019559" tui="T184" rank="767" code="NO-CODE" sourceType="COSTAR"/>
+<problem value="pain" begin="77" end="81" status="0" certainty="1" cui="C0030193;C0234226;C1882272;C1557397;C0242936;C1549543" tui="T184;T169;T033;T033;T073,T093;T169" rank="797;767;551;551;366;355" code="NO-CODE" sourceType="ICPC2P;RCD;NCI;NCI;HL7V3.0;HL7V2.5"/>
+<problem value="hip;dislocated" begin="73;95" end="76;105" status="0" certainty="1" cui="C2981151;C0019554" tui="T037;T190" rank="765;711" code="NO-CODE" sourceType="SNOMEDCTUS;COSTAR"/>
+<anatomicalStructure value="hip;left" begin="73;106" end="76;110" status="0" certainty="1" cui="C0524471;C1268234;C0517668;C2945669" tui="T029;T029;T033;T033" rank="765;765;328;150" code="NO-CODE" sourceType="SNMI;SNOMEDCTUS;NOC;CHV"/>
+<anatomicalStructure value="hip" begin="73" end="76" status="0" certainty="1" cui="C0019552;C1423009;C1335638;C1337104;C1538823;C0529134;C1430701;C3538851;C1704840;C0022122;C1709823" tui="T023;T028;T028;T028;T028;T116,T123;T116,T123;T028;T028;T023;T028" rank="795;600;596;596;587;575;575;575;575;575;575" code="NO-CODE" sourceType="SNM;HGNC;HGNC;HGNC;HGNC;NCI;NCI;NCI;NCI;HL7V2.5;NCI"/>
+<modifier value="left" begin="106" end="110" status="0" certainty="1" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+<anatomicalStructure value="left hip" begin="106" end="114" status="0" certainty="1" cui="C0524471;C1268234;C0517668;C2945669" tui="T029;T029;T033;T033" rank="765;765;328;150" code="NO-CODE" sourceType="SNMI;SNOMEDCTUS;NOC;CHV"/>
+<anatomicalStructure value="hip" begin="111" end="114" status="0" certainty="1" cui="C0019552;C1423009;C1335638;C1337104;C1538823;C0529134;C1430701;C3538851;C1704840;C0022122;C1709823" tui="T023;T028;T028;T028;T028;T116,T123;T116,T123;T028;T028;T023;T028" rank="795;600;596;596;587;575;575;575;575;575;575" code="NO-CODE" sourceType="SNM;HGNC;HGNC;HGNC;HGNC;NCI;NCI;NCI;NCI;HL7V2.5;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="116" end="158" sentText="She underwent left femoral head resection.">
+<RelationSet id="39">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="left" begin="130" end="134" status="0" certainty="0"/>
+<procedure value="femoral head resection" begin="135" end="157" status="0" certainty="0"/>
+</Relation>
+<modifier value="left" begin="130" end="134" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+<procedure value="resection" begin="148" end="157" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="765;151" code="NO-CODE" sourceType="RCD;CHV"/>
+<procedure value="head" begin="143" end="147" status="0" certainty="0" cui="C0205096;C0018670;C1281590;C2348941;C1706305;C1708330;C0876917" tui="T082;T029;T023;T170;T073;T073;T061" rank="797;797;765;576;575;575;373" code="NO-CODE" sourceType="SNMI;CST;SNOMEDCTUS;NCI;NCI;NCI;ICD10AM"/>
+<anatomicalStructure value="femoral head" begin="135" end="147" status="0" certainty="0" cui="C0015813" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="left femoral" begin="130" end="142" status="0" certainty="0" cui="C0230426;C1279549;C0817320" tui="T023;T023;T023" rank="765;765;692" code="NO-CODE" sourceType="SNM;SNOMEDCTUS;UWDA"/>
+<anatomicalStructure value="femoral" begin="135" end="142" status="0" certainty="0" cui="C0015811;C0039866;C1281586;C1279112" tui="T023;T029;T023;T023" rank="797;795;765;765" code="NO-CODE" sourceType="LCH;LCH;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="159" end="227" sentText="In this case, the left femoral head and proximal femur were excised.">
+<RelationSet id="40">
+<modifier value="left" begin="177" end="181" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="41">
+<anatomicalStructure value="left femoral" begin="177" end="189" status="0" certainty="0" cui="C0230426;C1279549" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="femoral head" begin="182" end="194" status="0" certainty="0" cui="C0015813" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="femoral" begin="182" end="189" status="0" certainty="0" cui="C0039866;C0015811;C1281586" tui="T029;T023;T023" rank="795;767;765" code="NO-CODE" sourceType="LCH;RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="head" begin="190" end="194" status="0" certainty="0" cui="C0205096;C0018670;C1281590;C2348941;C1706305;C1708330;C0876917" tui="T082;T029;T023;T170;T073;T073;T061" rank="797;797;765;576;575;575;373" code="NO-CODE" sourceType="SNMI;CST;SNOMEDCTUS;NCI;NCI;NCI;ICD10AM"/>
+</RelationSet>
+<RelationSet id="42">
+<anatomicalStructure value="proximal femur" begin="199" end="213" status="0" certainty="0" cui="C0448190" tui="T029" rank="765" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="femur" begin="208" end="213" status="0" certainty="0" cui="C0015811;C1279112" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="228" end="310" sentText="Per the ICD-10-PCS body part key, femoral head refers coders to use “upper femur.”">
+<RelationSet id="43">
+<anatomicalStructure value="femoral head" begin="262" end="274" status="0" certainty="0" cui="C0015813" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="femoral;upper" begin="262;297" end="269;302" status="0" certainty="0" cui="C0446559" tui="T029" rank="765" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="femoral" begin="262" end="269" status="0" certainty="0" cui="C0015811;C0039866;C1281586;C1279112" tui="T023;T029;T023;T023" rank="797;795;765;765" code="NO-CODE" sourceType="LCH;LCH;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="head" begin="270" end="274" status="0" certainty="0" cui="C0205096;C0018670;C1281590;C2348941;C1706305;C1708330;C0876917" tui="T082;T029;T023;T170;T073;T073;T061" rank="797;797;765;576;575;575;373" code="NO-CODE" sourceType="SNMI;CST;SNOMEDCTUS;NCI;NCI;NCI;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="311" end="430" sentText="Should the root operation be excision or resection? What components are considered part of the “upper femur” body part?">
+<RelationSet id="44">
+<procedure value="root;resection" begin="322;352" end="326;361" status="0" certainty="0" cui="C0003571" tui="T061" rank="575" code="NO-CODE" sourceType="NCI"/>
+<procedure value="operation" begin="327" end="336" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+<procedure value="excision" begin="340" end="348" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+</RelationSet>
+<RelationSet id="45">
+<procedure value="resection" begin="352" end="361" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="765;151" code="NO-CODE" sourceType="RCD;CHV"/>
+</RelationSet>
+<RelationSet id="46">
+<anatomicalStructure value="part;femur" begin="394;413" end="398;418" status="0" certainty="1" cui="C1268097" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="femur;body" begin="413;420" end="418;424" status="0" certainty="1" cui="C0588193" tui="T023" rank="691" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="femur" begin="413" end="418" status="0" certainty="1" cui="C0015811;C1279112" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="432" end="897">
+<Sentence sentNo="6" begin="432" end="579" sentText="Answer: The excision of the femoral head and proximal femur equates to upper femur, and therefore, the root operation resection should be reported.">
+<RelationSet id="46">
+<modifier value="proximal" begin="477" end="485" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="47">
+<anatomicalStructure value="proximal femur" begin="477" end="491" status="0" certainty="0" cui="C0448190" tui="T029" rank="765" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="femur" begin="486" end="491" status="0" certainty="0" cui="C0015811;C1279112" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="47">
+<modifier value="upper" begin="503" end="508" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="48">
+<anatomicalStructure value="proximal;femur" begin="477;509" end="485;514" status="0" certainty="0" cui="C0448190" tui="T029" rank="765" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="femur" begin="509" end="514" status="0" certainty="0" cui="C0015811;C1279112" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="49">
+<modifier value="operation;reported" begin="540;570" end="549;578" status="0" certainty="0" cui="C1269801" tui="T170" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="root;resection" begin="535;550" end="539;559" status="0" certainty="0" cui="C0003571" tui="T061" rank="575" code="NO-CODE" sourceType="NCI"/>
+<procedure value="resection" begin="550" end="559" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="765;151" code="NO-CODE" sourceType="RCD;CHV"/>
+<procedure value="operation" begin="540" end="549" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="50">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="femoral head" begin="460" end="472" status="0" certainty="0"/>
+<procedure value="excision" begin="444" end="452" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="femoral head" begin="460" end="472" status="0" certainty="0" cui="C0015813" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="femoral" begin="460" end="467" status="0" certainty="0" cui="C0039866;C0015811;C1281586" tui="T029;T023;T023" rank="795;767;765" code="NO-CODE" sourceType="LCH;RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="head" begin="468" end="472" status="0" certainty="0" cui="C0205096;C0018670;C1281590;C2348941;C1706305;C1708330;C0876917" tui="T082;T029;T023;T170;T073;T073;T061" rank="797;797;765;576;575;575;373" code="NO-CODE" sourceType="SNMI;CST;SNOMEDCTUS;NCI;NCI;NCI;ICD10AM"/>
+<procedure value="excision" begin="444" end="452" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="580" end="709" sentText="According to the operative report, the femur was divided in the subtrochanteric region (below the greater and lesser trochanter).">
+<RelationSet id="51">
+<anatomicalStructure value="femur" begin="619" end="624" status="0" certainty="0" cui="C0015811;C1279112" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="52">
+<anatomicalStructure value="subtrochanteric region" begin="644" end="666" status="0" certainty="0" cui="C0448192" tui="T029" rank="765" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="53">
+<anatomicalStructure value="lesser trochanter" begin="690" end="707" status="0" certainty="0" cui="C1279115;C0223866" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<anatomicalStructure value="trochanter" begin="697" end="707" status="0" certainty="0" cui="S0000859;C0162370" tui="t061;T023" rank="800;793" code="NO-CODE" sourceType="EZDI;FMA"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="710" end="824" sentText="This region is the border between the upper femur and the shaft, and therefore the entire upper femur was cut out.">
+<RelationSet id="54">
+<anatomicalStructure value="femur" begin="754" end="759" status="0" certainty="0" cui="C0015811;C1279112" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="55">
+<anatomicalStructure value="femur" begin="806" end="811" status="0" certainty="0" cui="C1279112;C0015811" tui="T023;T023" rank="797;797" code="NO-CODE" sourceType="SNOMEDCTUS;LCH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="825" end="897" sentText="Assign the following ICD10-PCS code for the procedure performed: 0QT70ZZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

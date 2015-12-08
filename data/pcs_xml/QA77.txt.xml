@@ -1,0 +1,138 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1422">
+<Paragraph pgNo="1" begin="0" end="780">
+<Sentence sentNo="1" begin="0" end="140" sentText="Question: When assigning the ICD-10-CM code for heart failure, based on the Index, only code I50.9, Heart failure, unspecified, is reported.">
+<RelationSet id="586">
+<problem value="heart failure" begin="48" end="61" status="0" certainty="-2" cui="C0018801" tui="T047" rank="797" code="NO-CODE" sourceType="CCS"/>
+<problem value="heart" begin="48" end="53" status="0" certainty="-2" cui="C0018787;C1281570;C0153500;C0153957" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="AIR;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+<RelationSet id="586">
+<med value="Index" begin="76" end="81" status="0" certainty="-2" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="586">
+<problem value="0.9, Heart failure, unspec" begin="95" end="121" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="587">
+<problem value="Heart failure" begin="100" end="113" status="0" certainty="-2" cui="C0018801" tui="T047" rank="797" code="NO-CODE" sourceType="CCS"/>
+<problem value="Heart" begin="100" end="105" status="0" certainty="-2" cui="C0018787;C1281570;C0153500;C0153957" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="AIR;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="141" end="303" sentText="There are no instructions in the Index or Tabular at category I50, Heart failure, to assign code J91.8, Pleural effusion in other conditions classified elsewhere.">
+<RelationSet id="588">
+<problem value="Heart failure" begin="208" end="221" status="0" certainty="-2" cui="C0018801" tui="T047" rank="797" code="NO-CODE" sourceType="CCS"/>
+<problem value="Heart" begin="208" end="213" status="0" certainty="-2" cui="C0018787;C1281570;C0153500;C0153957" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="AIR;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+<RelationSet id="589">
+<problem value="Pleural effusion;other conditions classified elsewhere" begin="245;265" end="261;302" status="0" certainty="-2" cui="C2887490" tui="T047" rank="402" code="NO-CODE" sourceType="ICD10CM"/>
+<problem value="Pleural effusion;conditions classified elsewhere" begin="245;271" end="261;302" status="0" certainty="-2" cui="C0348707" tui="T047" rank="719" code="NO-CODE" sourceType="ICD10"/>
+<problem value="Pleural;other conditions" begin="245;265" end="252;281" status="0" certainty="-2" cui="C0494688" tui="T047" rank="397" code="NO-CODE" sourceType="ICD10"/>
+<problem value="Pleural effusion;other" begin="245;265" end="261;270" status="0" certainty="-2" cui="C0340003" tui="T047" rank="717" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="Pleural effusion" begin="245" end="261" status="0" certainty="-2" cui="C0032227;C1253943;C2073625" tui="T047;T031;T033" rank="795;688;592" code="NO-CODE" sourceType="LCH;UWDA;MEDCIN"/>
+<problem value="effusion" begin="253" end="261" status="0" certainty="-2" cui="C0013687;C2317432;C1546613" tui="T046;T031;T170" rank="797;767;355" code="NO-CODE" sourceType="SNM;SNOMEDCTUS;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="304" end="438" sentText="However there is an Excludes2 note at category J91, for pleural effusion in heart failure (I50) that indicates a code may be assigned.">
+<RelationSet id="590">
+<problem value="pleural effusion" begin="360" end="376" status="0" certainty="-2" cui="C0032227;C1253943;C2073625" tui="T047;T031;T033" rank="795;688;592" code="NO-CODE" sourceType="LCH;UWDA;MEDCIN"/>
+<problem value="heart failure" begin="380" end="393" status="0" certainty="-2" cui="C0018801" tui="T047" rank="797" code="NO-CODE" sourceType="CCS"/>
+<problem value="effusion" begin="368" end="376" status="0" certainty="-2" cui="C0013687;C2317432;C1546613" tui="T046;T031;T170" rank="797;767;355" code="NO-CODE" sourceType="SNM;SNOMEDCTUS;HL7V2.5"/>
+<problem value="heart" begin="380" end="385" status="0" certainty="-2" cui="C0018787;C1281570;C0153500;C0153957" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="AIR;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="439" end="647" sentText="Coding Clinic has previously advised that pleural effusion in congestive heart failure (CHF) is ordinarily minimal and not specifically addressed other than by more aggressive treatment of the underlying CHF.">
+<RelationSet id="591">
+<problem value="pleural effusion" begin="481" end="497" status="0" certainty="0" cui="C0032227;C1253943;C2073625" tui="T047;T031;T033" rank="795;688;592" code="NO-CODE" sourceType="LCH;UWDA;MEDCIN"/>
+<problem value="effusion" begin="489" end="497" status="0" certainty="0" cui="C0013687;C2317432;C1546613" tui="T046;T031;T170" rank="797;767;355" code="NO-CODE" sourceType="SNM;SNOMEDCTUS;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="592">
+<problem value="congestive heart failure" begin="501" end="525" status="0" certainty="-2" cui="C0018802" tui="T047" rank="797" code="NO-CODE" sourceType="AIR"/>
+<problem value="heart failure" begin="512" end="525" status="0" certainty="-2" cui="C0018801" tui="T047" rank="797" code="NO-CODE" sourceType="CCS"/>
+<problem value="heart" begin="512" end="517" status="0" certainty="-2" cui="C0018787;C1281570;C0153500;C0153957" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="AIR;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+<RelationSet id="593">
+<problem value="congestive heart failure;CHF" begin="501;527" end="525;530" status="0" certainty="-2" cui="C0018802" tui="T047" rank="765" code="NO-CODE" sourceType="CSP"/>
+</RelationSet>
+<RelationSet id="594">
+<problem value="CHF" begin="643" end="646" status="0" certainty="0" cui="C0018802" tui="T047" rank="519" code="NO-CODE" sourceType="CSP"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="648" end="779" sentText="Is it appropriate to assign code J91.8, for pleural effusion due to CHF? How is pleural effusion in congestive heart failure coded?">
+<RelationSet id="595">
+<problem value="pleural;due to;effusion;congestive heart failure" begin="692;709;736;748" end="699;715;744;772" status="0" certainty="0" cui="C0264546" tui="T047" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<problem value="pleural effusion" begin="692" end="708" status="0" certainty="0" cui="C0032227;C1253943;C2073625" tui="T047;T031;T033" rank="795;688;592" code="NO-CODE" sourceType="LCH;UWDA;MEDCIN"/>
+<problem value="effusion" begin="700" end="708" status="0" certainty="0" cui="C0013687;C2317432;C1546613" tui="T046;T031;T170" rank="797;767;355" code="NO-CODE" sourceType="SNM;SNOMEDCTUS;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="596">
+<problem value="CHF;congestive heart failure" begin="716;748" end="719;772" status="0" certainty="0" cui="C0018802" tui="T047" rank="765" code="NO-CODE" sourceType="CSP"/>
+</RelationSet>
+<RelationSet id="597">
+<problem value="pleural effusion" begin="728" end="744" status="0" certainty="0" cui="C0032227;C1253943;C2073625" tui="T047;T031;T033" rank="795;688;592" code="NO-CODE" sourceType="LCH;UWDA;MEDCIN"/>
+<problem value="effusion" begin="736" end="744" status="0" certainty="0" cui="C0013687;C2317432;C1546613" tui="T046;T031;T170" rank="797;767;355" code="NO-CODE" sourceType="SNM;SNOMEDCTUS;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="598">
+<problem value="pleural;due to;effusion;congestive heart failure" begin="692;709;736;748" end="699;715;744;772" status="0" certainty="-2" cui="C0264546" tui="T047" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<problem value="CHF;congestive heart failure" begin="716;748" end="719;772" status="0" certainty="-2" cui="C0018802" tui="T047" rank="797" code="NO-CODE" sourceType="AIR"/>
+<problem value="heart failure" begin="759" end="772" status="0" certainty="-2" cui="C0018801" tui="T047" rank="797" code="NO-CODE" sourceType="CCS"/>
+<problem value="heart" begin="759" end="764" status="0" certainty="-2" cui="C0018787;C1281570;C0153500;C0153957" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="AIR;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="781" end="1421">
+<Sentence sentNo="6" begin="781" end="951" sentText="Answer: Code J91.8, Pleural effusion in other conditions classified elsewhere, is assigned as a secondary code only if the condition is specifically evaluated or treated.">
+<RelationSet id="598">
+<problem value="1.8, Pleural effusion in other conditions classified else" begin="796" end="853" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="599">
+<problem value="Pleural effusion;other" begin="801;821" end="817;826" status="0" certainty="0" cui="C0340003" tui="T047" rank="717" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="Pleural effusion" begin="801" end="817" status="0" certainty="0" cui="C0032227;C1253943;C2073625" tui="T047;T031;T033" rank="795;688;592" code="NO-CODE" sourceType="LCH;UWDA;MEDCIN"/>
+<problem value="effusion" begin="809" end="817" status="0" certainty="0" cui="C0013687;C2317432;C1546613" tui="T046;T031;T170" rank="797;767;355" code="NO-CODE" sourceType="SNM;SNOMEDCTUS;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="952" end="1048" sentText="Pleural effusion is commonly seen with congestive heart failure with or without pulmonary edema.">
+<RelationSet id="600">
+<problem value="Pleural effusion" begin="952" end="968" status="0" certainty="0" cui="C0032227;C1253943;C2073625" tui="T047;T031;T033" rank="795;688;592" code="NO-CODE" sourceType="LCH;UWDA;MEDCIN"/>
+<problem value="effusion" begin="960" end="968" status="0" certainty="0" cui="C0013687;C2317432;C1546613" tui="T046;T031;T170" rank="797;767;355" code="NO-CODE" sourceType="SNM;SNOMEDCTUS;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="601">
+<problem value="congestive heart failure" begin="991" end="1015" status="0" certainty="-2" cui="C0018802" tui="T047" rank="797" code="NO-CODE" sourceType="AIR"/>
+<problem value="heart failure" begin="1002" end="1015" status="0" certainty="-2" cui="C0018801" tui="T047" rank="797" code="NO-CODE" sourceType="CCS"/>
+<problem value="heart" begin="1002" end="1007" status="0" certainty="-2" cui="C0018787;C1281570;C0153500;C0153957" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="AIR;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+<RelationSet id="602">
+<problem value="pulmonary edema" begin="1032" end="1047" status="0" certainty="-2" cui="C0034063" tui="T047" rank="797" code="NO-CODE" sourceType="NDFRT"/>
+<problem value="edema" begin="1042" end="1047" status="0" certainty="-2" cui="C0013604" tui="T046" rank="797" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="pulmonary" begin="1032" end="1041" status="0" certainty="-2" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="MSH;AIR;SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="1049" end="1209" sentText="Ordinarily the pleural effusion is minimal and is not specifically addressed other than by more aggressive treatment of the underlying congestive heart failure.">
+<RelationSet id="603">
+<problem value="pleural effusion" begin="1064" end="1080" status="0" certainty="0" cui="C0032227;C1253943;C2073625" tui="T047;T031;T033" rank="795;688;592" code="NO-CODE" sourceType="LCH;UWDA;MEDCIN"/>
+<problem value="effusion" begin="1072" end="1080" status="0" certainty="0" cui="C0013687;C2317432;C1546613" tui="T046;T031;T170" rank="797;767;355" code="NO-CODE" sourceType="SNM;SNOMEDCTUS;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="604">
+<problem value="congestive heart failure" begin="1184" end="1208" status="0" certainty="-2" cui="C0018802" tui="T047" rank="797" code="NO-CODE" sourceType="AIR"/>
+<problem value="heart failure" begin="1195" end="1208" status="0" certainty="-2" cui="C0018801" tui="T047" rank="797" code="NO-CODE" sourceType="CCS"/>
+<problem value="heart" begin="1195" end="1200" status="0" certainty="-2" cui="C0018787;C1281570;C0153500;C0153957" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="AIR;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="1210" end="1251" sentText="In this situation it should not be coded.">
+</Sentence>
+<Sentence sentNo="10" begin="1252" end="1420" sentText="However, it is acceptable to report pleural effusion (J91.8) as an additional diagnosis if the condition requires either therapeutic intervention or diagnostic testing.">
+<RelationSet id="605">
+<problem value="pleural effusion" begin="1288" end="1304" status="0" certainty="-3" cui="C0032227;C1253943;C2073625" tui="T047;T031;T033" rank="795;688;592" code="NO-CODE" sourceType="LCH;UWDA;MEDCIN"/>
+<problem value="effusion" begin="1296" end="1304" status="0" certainty="-3" cui="C0013687;C2317432;C1546613" tui="T046;T031;T170" rank="797;767;355" code="NO-CODE" sourceType="SNM;SNOMEDCTUS;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="606">
+<procedure value="therapeutic intervention" begin="1373" end="1397" status="0" certainty="-3" cui="C0808232;C0087111" tui="T061;T061" rank="797;575" code="NO-CODE" sourceType="ICD10AM;NCI"/>
+<procedure value="intervention;diagnostic" begin="1385;1401" end="1397;1411" status="0" certainty="-3" cui="C0869923" tui="T060" rank="373" code="NO-CODE" sourceType="ICD10AM"/>
+<procedure value="intervention" begin="1385" end="1397" status="0" certainty="-3" cui="C2183254;C1273869;C1948041;C3274035;C3542921;C0886296" tui="T033;T058;T061;T062;T185;T058" rank="592;586;575;572;572;151" code="NO-CODE" sourceType="MEDCIN;LNC;NCI;NCI;NCI;CHV"/>
+<procedure value="therapeutic" begin="1373" end="1384" status="0" certainty="-3" cui="C0302350;C0039796;C0723712;C1547427" tui="T169;T061;T109,T121;T170" rank="797;795;673;355" code="NO-CODE" sourceType="RCD;MSH;CHV;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="607">
+<procedure value="diagnostic testing" begin="1401" end="1419" status="0" certainty="-3" cui="C0086143;C1263440;C2364357;C0430022" tui="T060;T074;T169;T060" rank="797;676;586;575" code="NO-CODE" sourceType="MSH;CHV;ICNP;NCI"/>
+<procedure value="testing" begin="1412" end="1419" status="0" certainty="-3" cui="C0039593;C0392366;C2239224;C0022885;C1704435;C2826273;C0683443" tui="T169;T170;T058;T059;T081;T170;T060" rank="797;767;595;575;575;572;472" code="NO-CODE" sourceType="LCH;RCD;MEDCIN;NCI;NCI;NCI;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

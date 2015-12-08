@@ -1,0 +1,101 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="936">
+<Paragraph pgNo="1" begin="0" end="492">
+<Sentence sentNo="1" begin="0" end="97" sentText="Question: This same patient underwent repair of the femoroacetabular impingement and labral tear.">
+<RelationSet id="1930">
+<procedure value="repair" begin="38" end="44" status="0" certainty="1" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+</RelationSet>
+<RelationSet id="1931">
+<problem value="tear" begin="92" end="96" status="0" certainty="0" cui="C1550271;C0039409;C0152227;C0043246;C0424109;C0423153;C1704633;C1611838;C1547924;C3203359" tui="T080;T031;T047;T037;T033;T033;T082;T031;T170;T037" rank="797;795;765;765;765;713;575;366;355;150" code="NO-CODE" sourceType="LNC;MSH;SNOMEDCTUS;RCD;RCD;OMIM;NCI;HL7V3.0;HL7V2.5;CHV"/>
+<anatomicalStructure value="labral" begin="85" end="91" status="0" certainty="0" cui="S0002494;C1185781" tui="t091;T023" rank="800;692" code="NO-CODE" sourceType="EZDI;UWDA"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="98" end="220" sentText="An arthroscopy was initiated and an intraportal capsulotomy and synovectomy was performed along with shaving of the femur.">
+<RelationSet id="1932">
+<procedure value="arthroscopy" begin="101" end="112" status="0" certainty="0" cui="C0003904" tui="T060" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="1933">
+<procedure value="capsulotomy" begin="146" end="157" status="0" certainty="0" cui="C3701588" tui="T061" rank="353" code="NO-CODE" sourceType="CPT"/>
+<anatomicalStructure value="intraportal" begin="134" end="145" status="0" certainty="0" cui="C0205054" tui="T029" rank="767" code="NO-CODE" sourceType="SNMI"/>
+</RelationSet>
+<RelationSet id="1934">
+<procedure value="synovectomy" begin="162" end="173" status="0" certainty="0" cui="C0185304;C0498272;C1283021" tui="T061;T061;T061" rank="797;622;353" code="NO-CODE" sourceType="MDR;HCDT;CPT"/>
+</RelationSet>
+<RelationSet id="1935">
+<anatomicalStructure value="femur" begin="214" end="219" status="0" certainty="0" cui="C0015811;C1279112" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="221" end="393" sentText="The labral refixation was performed by placing two anchors and passing noneverting labral stitches to anatomically reduce, directly opposing the labrum to the prepared rim.">
+<RelationSet id="1936">
+<modifier value="labral" begin="225" end="231" status="0" certainty="0" cui="S0002494" tui="t091" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="refixation" begin="232" end="242" status="0" certainty="0" cui="C0185042" tui="T061" rank="767" code="NO-CODE" sourceType="SNMI"/>
+</RelationSet>
+<RelationSet id="1937">
+<anatomicalStructure value="labrum" begin="366" end="372" status="0" certainty="0" cui="C1185781" tui="T023" rank="692" code="NO-CODE" sourceType="UWDA"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="394" end="491" sentText="What are the appropriate root operations for the left labral refixation and left hip osteoplasty?">
+<RelationSet id="1938">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="labral refixation" begin="448" end="465" status="0" certainty="0"/>
+<modifier value="left" begin="443" end="447" status="0" certainty="0"/>
+</Relation>
+<modifier value="left" begin="443" end="447" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+<procedure value="refixation" begin="455" end="465" status="0" certainty="0" cui="C0185042" tui="T061" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<anatomicalStructure value="labral" begin="448" end="454" status="0" certainty="0" cui="S0002494;C1185781" tui="t091;T023" rank="800;692" code="NO-CODE" sourceType="EZDI;UWDA"/>
+</RelationSet>
+<RelationSet id="1939">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="osteoplasty" begin="479" end="490" status="0" certainty="0"/>
+<modifier value="left" begin="470" end="474" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="osteoplasty" begin="479" end="490" status="0" certainty="0"/>
+<anatomicalStructure value="hip" begin="475" end="478" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="osteoplasty" begin="479" end="490" status="0" certainty="0"/>
+<anatomicalStructure value="hip" begin="475" end="478" status="0" certainty="0"/>
+<modifier value="left" begin="470" end="474" status="0" certainty="0"/>
+</Relation>
+<procedure value="osteoplasty" begin="479" end="490" status="0" certainty="0" cui="C0185364" tui="T061" rank="767" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="left hip" begin="470" end="478" status="0" certainty="0" cui="C0524471;C1268234;C0517668;C2945669" tui="T029;T029;T033;T033" rank="765;765;328;150" code="NO-CODE" sourceType="SNMI;SNOMEDCTUS;NOC;CHV"/>
+<anatomicalStructure value="hip" begin="475" end="478" status="0" certainty="0" cui="C0019552;C1423009;C1335638;C1337104;C1538823;C0529134;C1430701;C3538851;C1704840;C0022122;C1709823" tui="T023;T028;T028;T028;T028;T116,T123;T116,T123;T028;T028;T023;T028" rank="795;600;596;596;587;575;575;575;575;575;575" code="NO-CODE" sourceType="SNM;HGNC;HGNC;HGNC;HGNC;NCI;NCI;NCI;NCI;HL7V2.5;NCI"/>
+<modifier value="left" begin="470" end="474" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="493" end="935">
+<Sentence sentNo="5" begin="493" end="661" sentText="Answer: The labral refixation and osteoplasty were done to restore the structure and function of the hip joint, and therefore, repair is the appropriate root operation.">
+<RelationSet id="1940">
+<procedure value="osteoplasty" begin="527" end="538" status="0" certainty="0" cui="C0185364" tui="T061" rank="767" code="NO-CODE" sourceType="SNM"/>
+</RelationSet>
+<RelationSet id="1941">
+<anatomicalStructure value="hip joint" begin="594" end="603" status="0" certainty="0" cui="C0019558;C1279144" tui="T030;T030" rank="797;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="joint" begin="598" end="603" status="0" certainty="0" cui="C0521339;C0022417;C0444497;C0392905;C1269611;C1706309" tui="T169;T030;T082;T022;T030;T074" rank="797;797;767;765;765;575" code="NO-CODE" sourceType="SNMI;MSH;RCD;ICF;RCD;NCI"/>
+<anatomicalStructure value="hip" begin="594" end="597" status="0" certainty="0" cui="C0019552;C1423009;C1335638;C1337104;C1538823;C0529134;C1430701;C3538851;C1704840;C0022122;C1709823" tui="T023;T028;T028;T028;T028;T116,T123;T116,T123;T028;T028;T023;T028" rank="795;600;596;596;587;575;575;575;575;575;575" code="NO-CODE" sourceType="SNM;HGNC;HGNC;HGNC;HGNC;NCI;NCI;NCI;NCI;HL7V2.5;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="662" end="780" sentText="The femoral shaving is coded separately because it is a procedure performed on the femur rather than on the hip joint.">
+<RelationSet id="1942">
+<anatomicalStructure value="femur" begin="745" end="750" status="0" certainty="0" cui="C0015811;C1279112" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1943">
+<anatomicalStructure value="hip joint" begin="770" end="779" status="0" certainty="-2" cui="C0019558;C1279144" tui="T030;T030" rank="797;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="joint" begin="774" end="779" status="0" certainty="-2" cui="C0521339;C0022417;C0444497;C0392905;C1269611;C1706309" tui="T169;T030;T082;T022;T030;T074" rank="797;797;767;765;765;575" code="NO-CODE" sourceType="SNMI;MSH;RCD;ICF;RCD;NCI"/>
+<anatomicalStructure value="hip" begin="770" end="773" status="0" certainty="-2" cui="C0019552;C1423009;C1335638;C1337104;C1538823;C0529134;C1430701;C3538851;C1704840;C0022122;C1709823" tui="T023;T028;T028;T028;T028;T116,T123;T116,T123;T028;T028;T023;T028" rank="795;600;596;596;587;575;575;575;575;575;575" code="NO-CODE" sourceType="SNM;HGNC;HGNC;HGNC;HGNC;NCI;NCI;NCI;NCI;HL7V2.5;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="781" end="886" sentText="The capsulotomy and synovectomy were performed to access the procedure site and are not coded separately.">
+<RelationSet id="1944">
+<procedure value="capsulotomy" begin="785" end="796" status="0" certainty="0" cui="C3701588" tui="T061" rank="353" code="NO-CODE" sourceType="CPT"/>
+</RelationSet>
+<RelationSet id="1945">
+<procedure value="synovectomy" begin="801" end="812" status="0" certainty="0" cui="C0185304;C0498272;C1283021" tui="T061;T061;T061" rank="797;622;353" code="NO-CODE" sourceType="MDR;HCDT;CPT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="887" end="934" sentText="Assign the ICD-10-PCS codes as follows: 0SQB4ZZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

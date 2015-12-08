@@ -1,0 +1,78 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="733">
+<Paragraph pgNo="1" begin="0" end="323">
+<Sentence sentNo="1" begin="0" end="110" sentText="Question: A patient with a chronic subdural hematoma of the right hemisphere underwent drainage via burr hole.">
+<RelationSet id="495">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="drainage" begin="87" end="95" status="0" certainty="0"/>
+<medicalDevice value="burr hole" begin="100" end="109" status="0" certainty="0"/>
+</Relation>
+<procedure value="drainage" begin="87" end="95" status="0" certainty="0" cui="C0013103;C0012621;C2926602" tui="T061;T031;T031" rank="795;765;333" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;OMS"/>
+<medicalDevice value="burr" begin="100" end="104" status="0" certainty="0" cui="C0330093;C0700351" tui="T002;T074" rank="767;685" code="NO-CODE" sourceType="SNMI;UMD"/>
+</RelationSet>
+<RelationSet id="496">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="chronic" begin="27" end="34" status="0" certainty="1"/>
+<problem value="subdural hematoma" begin="35" end="52" status="0" certainty="1"/>
+</Relation>
+<modifier value="chronic" begin="27" end="34" status="0" certainty="1" cui="C0205191;C0547045;C1555457;C1547296" tui="T079;T169;T170;T170" rank="797;767;366;355" code="NO-CODE" sourceType="RCD;RCD;HL7V3.0;HL7V2.5"/>
+<problem value="chronic subdural hematoma" begin="27" end="52" status="0" certainty="1" cui="C0749095" tui="T046" rank="795" code="NO-CODE" sourceType="CCPSS"/>
+<problem value="subdural hematoma" begin="35" end="52" status="0" certainty="1" cui="C0018946" tui="T046" rank="797" code="NO-CODE" sourceType="LCH"/>
+<problem value="hematoma" begin="44" end="52" status="0" certainty="1" cui="C0018944;C1962958" tui="T046;T033" rank="797;551" code="NO-CODE" sourceType="MSH;NCI"/>
+<anatomicalStructure value="subdural" begin="35" end="43" status="0" certainty="1" cui="S0002386;C0038541" tui="t061;T030" rank="800;703" code="NO-CODE" sourceType="EZDI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="111" end="215" sentText="The liquefied portion of the hematoma was drained, and a drainage device was left in the subdural space.">
+<RelationSet id="497">
+<problem value="hematoma" begin="140" end="148" status="0" certainty="0" cui="C0018944;C1962958" tui="T046;T033" rank="797;551" code="NO-CODE" sourceType="MSH;NCI"/>
+</RelationSet>
+<RelationSet id="497">
+<procedure value="drained" begin="153" end="160" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="498">
+<medicalDevice value="device;space" begin="177;209" end="183;214" status="0" certainty="0" cui="C0221874;C0475914" tui="T074;T074" rank="797;711" code="NO-CODE" sourceType="MTH;RCD"/>
+<medicalDevice value="device" begin="177" end="183" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="499">
+<anatomicalStructure value="subdural" begin="200" end="208" status="0" certainty="0" cui="S0002386;C0038541" tui="t061;T030" rank="800;797" code="NO-CODE" sourceType="EZDI;MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="216" end="322" sentText="What is the appropriate approach value for this procedure? How should this surgery be coded in ICD-10-PCS?">
+<RelationSet id="500">
+<procedure value="surgery" begin="291" end="298" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="324" end="732">
+<Sentence sentNo="4" begin="324" end="426" sentText="Answer: A burr hole is a small hole that is drilled through the skull to assess a targeted local area.">
+<RelationSet id="501">
+<medicalDevice value="burr" begin="334" end="338" status="0" certainty="0" cui="C0330093;C0700351" tui="T002;T074" rank="767;685" code="NO-CODE" sourceType="SNMI;UMD"/>
+</RelationSet>
+<RelationSet id="502">
+<anatomicalStructure value="skull" begin="388" end="393" status="0" certainty="0" cui="C0037303" tui="T023" rank="795" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="427" end="480" sentText="In this case, the correct approach is “percutaneous.”">
+</Sentence>
+<Sentence sentNo="6" begin="481" end="685" sentText="The ICD-10PCS defines “percutaneous” as entry, by puncture or minor incision, of instrumentation through the skin or mucous membrane and any other body layers necessary to reach the site of the procedure.">
+<RelationSet id="502">
+<anatomicalStructure value="skin" begin="590" end="594" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="503">
+<anatomicalStructure value="mucous membrane" begin="598" end="613" status="0" certainty="0" cui="C0026724;C2230150;C1549524;C0151785" tui="T024;T033;T169;T047" rank="797;592;355;291" code="NO-CODE" sourceType="MSH;MEDCIN;HL7V2.5;CST"/>
+<anatomicalStructure value="membrane" begin="605" end="613" status="0" certainty="0" cui="C0596901;C0025255;C1706182" tui="T026;T024;T073" rank="797;795;575" code="NO-CODE" sourceType="MTH;MSH;NCI"/>
+</RelationSet>
+<RelationSet id="504">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="incision" begin="549" end="557" status="0" certainty="0"/>
+<modifier value="minor" begin="543" end="548" status="0" certainty="0"/>
+</Relation>
+<procedure value="incision" begin="549" end="557" status="0" certainty="0" cui="C0184898;C2096041" tui="T061;T033" rank="767;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+<modifier value="minor" begin="543" end="548" status="0" certainty="0" cui="C0026193;C0205165;C1417837;C3272493;C0700321" tui="T098;T080;T028;T028;T081" rank="795;767;596;575;242" code="NO-CODE" sourceType="MSH;RCD;HGNC;NCI;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="686" end="731" sentText="Assign the following ICD-10-PCS code: 009430Z">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

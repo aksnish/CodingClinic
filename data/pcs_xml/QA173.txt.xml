@@ -1,0 +1,128 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1174">
+<Paragraph pgNo="1" begin="0" end="481">
+<Sentence sentNo="1" begin="0" end="145" sentText="Question: A patient is admitted for surgical treatment of herniated nucleus pulposus C7-T1 with impingement on the nerve root, and radiculopathy.">
+<RelationSet id="2125">
+<problem value="herniated nucleus pulposus" begin="58" end="84" status="0" certainty="1" cui="C0678212" tui="T037" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="herniated" begin="58" end="67" status="0" certainty="1" cui="S0000801;C0019270" tui="t061;T190" rank="800;765" code="NO-CODE" sourceType="EZDI;CCPSS"/>
+<anatomicalStructure value="nucleus pulposus C7-T1" begin="68" end="90" status="0" certainty="1" cui="C0223188" tui="T023" rank="765" code="NO-CODE" sourceType="SNMI"/>
+<anatomicalStructure value="nucleus pulposus" begin="68" end="84" status="0" certainty="1" cui="C1185714" tui="T023" rank="692" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="nucleus" begin="68" end="75" status="0" certainty="1" cui="C0007610" tui="T026" rank="767" code="NO-CODE" sourceType="SNM"/>
+</RelationSet>
+<RelationSet id="2126">
+<anatomicalStructure value="nerve root" begin="115" end="125" status="0" certainty="0" cui="C0228084" tui="T023" rank="765" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="nerve" begin="115" end="120" status="0" certainty="0" cui="C0027740;C1280541;C0027769;C0599851;C0027757" tui="T024;T023;T184;T169;T024" rank="797;765;709;576;572" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;RCDSY;CSP;NCI"/>
+<anatomicalStructure value="root" begin="121" end="125" status="0" certainty="0" cui="S1001239;C0242726;C0563017;C0040452;C1705917;C1318154" tui="t061;T002;T033;T023;T078;T023" rank="800;765;765;576;575;418" code="NO-CODE" sourceType="EZDI;RCD;RCD;NCI;NCI;LNC"/>
+</RelationSet>
+<RelationSet id="2127">
+<problem value="radiculopathy" begin="131" end="144" status="0" certainty="0" cui="C0700594" tui="T047" rank="797" code="NO-CODE" sourceType="COSTAR"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="146" end="366" sentText="She underwent anterior cervical-thoracic spinal fusion, anterior approach, using interbody cage packed with demineralized bone matrix and autograft, and placement of plate and screw instrumentation with total discectomy.">
+<RelationSet id="2128">
+<procedure value="placement;plate" begin="299;312" end="308;317" status="0" certainty="0" cui="C0747629" tui="T061" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="placement" begin="299" end="308" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+<procedure value="plate" begin="312" end="317" status="0" certainty="0" cui="C0005971;C0407295;C1139930;C3537155" tui="T074;T061;T074;T073" rank="765;765;686;575" code="NO-CODE" sourceType="RCD;RCD;UMD;NCI"/>
+</RelationSet>
+<RelationSet id="2130">
+<modifier value="total" begin="349" end="354" status="0" certainty="0" cui="C0439810" tui="T080" rank="797" code="NO-CODE" sourceType="RCD"/>
+<procedure value="discectomy" begin="355" end="365" status="0" certainty="0" cui="C0206078" tui="T061" rank="791" code="NO-CODE" sourceType="MDR"/>
+</RelationSet>
+<RelationSet id="2131">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="spinal fusion" begin="187" end="200" status="0" certainty="0"/>
+<modifier value="anterior" begin="160" end="168" status="0" certainty="0"/>
+</Relation>
+<procedure value="anterior cervical-thoracic spinal fusion" begin="160" end="200" status="0" certainty="0" cui="C0742204" tui="T061" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="cervical-thoracic spinal fusion" begin="169" end="200" status="0" certainty="0" cui="C0186010;C0582026" tui="T061;T061" rank="765;765" code="NO-CODE" sourceType="COSTAR;RCD"/>
+<procedure value="spinal fusion" begin="187" end="200" status="0" certainty="0" cui="C3278509;C0037935;C1410847" tui="T033;T061;T047,T190" rank="797;795;506" code="NO-CODE" sourceType="OMIM;MSH;ICD10CM"/>
+<procedure value="fusion" begin="194" end="200" status="0" certainty="0" cui="C0332466;C1293131" tui="T169;T061" rank="767;767" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="cervical-thoracic spinal" begin="169" end="193" status="0" certainty="0" cui="C0728985;C0581269;C1269870;C1284110" tui="T023;T023;T023;T023" rank="797;765;765;234" code="NO-CODE" sourceType="AIR;RCD;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="spinal" begin="187" end="193" status="0" certainty="0" cui="C0037949;C1267072;C0521329;C1280065" tui="T023;T023;T082;T023" rank="795;765;703;234" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+<modifier value="anterior" begin="160" end="168" status="0" certainty="0" cui="C0205094" tui="T169" rank="797" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="2132">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="demineralized bone matrix " begin="254" end="280" status="0" certainty="0"/>
+<medicalDevice value=" interbody cage" begin="226" end="241" status="0" certainty="0"/>
+</Relation>
+<modifier value="demineralized bone matrix" begin="254" end="279" status="0" certainty="0" cui="C1832069" tui="T122" rank="581" code="NO-CODE" sourceType="PDQ"/>
+<anatomicalStructure value="bone matrix" begin="268" end="279" status="0" certainty="0" cui="C0005962" tui="T024" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="bone" begin="268" end="272" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+<medicalDevice value="cage" begin="237" end="241" status="0" certainty="0" cui="C0337189;C0441239;C1426669" tui="T073;T074;T028" rank="767;765;587" code="NO-CODE" sourceType="SNOMEDCTUS;RCD;HGNC"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="367" end="480" sentText="What is the correct ICD-10-PCS code for the spinal fusion? Should the complete discectomy  be  coded  separately?">
+<RelationSet id="2133">
+<procedure value="spinal fusion" begin="411" end="424" status="0" certainty="0" cui="C3278509;C0037935;C1410847" tui="T033;T061;T047,T190" rank="797;795;506" code="NO-CODE" sourceType="OMIM;MSH;ICD10CM"/>
+<procedure value="fusion" begin="418" end="424" status="0" certainty="0" cui="C0332466;C1293131" tui="T169;T061" rank="767;767" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="spinal" begin="411" end="417" status="0" certainty="0" cui="C0037949;C1267072;C0521329;C1280065" tui="T023;T023;T082;T023" rank="795;765;703;234" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="2134">
+<procedure value="discectomy" begin="446" end="456" status="0" certainty="0" cui="C0206078" tui="T061" rank="791" code="NO-CODE" sourceType="MDR"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="482" end="1173">
+<Sentence sentNo="4" begin="482" end="547" sentText="Answer: In this case, the provider documented “total discectomy.”">
+</Sentence>
+<Sentence sentNo="5" begin="548" end="585" sentText="Therefore it is coded as a resection.">
+<RelationSet id="2135">
+<procedure value="resection" begin="575" end="584" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="765;151" code="NO-CODE" sourceType="RCD;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="586" end="1016" sentText="Assign ICD-10-PCS procedure codes as follows: 0RG40A0 Fusion of cervicothoracic vertebral joint with interbody fusion device, anterior approach, anterior column, open approach, for fusion of C7-T1 0RT50ZZ Resection  of  cervicothoracic vertebral disc, open approach, for the total discectomy Spinal fusion using an interbody cage containing demineralized bone matrix and autograft is coded to the device “Interbody Fusion Device.”">
+<RelationSet id="2136">
+<procedure value="fusion" begin="767" end="773" status="0" certainty="0" cui="C0332466;C1293131" tui="T169;T061" rank="767;767" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="2137">
+<anatomicalStructure value="vertebral" begin="822" end="831" status="0" certainty="0" cui="C0549207" tui="T023" rank="703" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+<RelationSet id="2138">
+<modifier value="total" begin="861" end="866" status="0" certainty="0" cui="C0439810" tui="T080" rank="797" code="NO-CODE" sourceType="RCD"/>
+<problem value="total;Spinal" begin="861;878" end="866;884" status="0" certainty="0" cui="C0456677" tui="T037" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="Spinal fusion" begin="878" end="891" status="0" certainty="0" cui="C3278509;C0037935;C1410847" tui="T033;T061;T047,T190" rank="797;795;506" code="NO-CODE" sourceType="OMIM;MSH;ICD10CM"/>
+<procedure value="discectomy" begin="867" end="877" status="0" certainty="0" cui="C0206078" tui="T061" rank="791" code="NO-CODE" sourceType="MDR"/>
+<procedure value="fusion" begin="885" end="891" status="0" certainty="0" cui="C0332466;C1293131" tui="T169;T061" rank="767;767" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="Spinal" begin="878" end="884" status="0" certainty="0" cui="C0037949;C1267072;C0521329;C1280065" tui="T023;T023;T082;T023" rank="795;765;703;234" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="2139">
+<anatomicalStructure value="interbody" begin="901" end="910" status="0" certainty="0" cui="S0000335;C1268086;C1551342;C0242821" tui="t061;T017;T078;T016" rank="800;753;575;151" code="NO-CODE" sourceType="EZDI;NCI;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="2140">
+<modifier value="demineralized bone matrix" begin="927" end="952" status="0" certainty="0" cui="C1832069" tui="T122" rank="581" code="NO-CODE" sourceType="PDQ"/>
+<anatomicalStructure value="bone matrix" begin="941" end="952" status="0" certainty="0" cui="C0005962" tui="T024" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="bone" begin="941" end="945" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2141">
+<procedure value="Fusion" begin="1001" end="1007" status="0" certainty="0" cui="C0332466;C1293131" tui="T169;T061" rank="767;767" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="autograft;Interbody" begin="957;991" end="966;1000" status="0" certainty="0" cui="C0448966" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="Interbody" begin="991" end="1000" status="0" certainty="0" cui="S0000335;C1268086;C1551342;C0242821" tui="t061;T017;T078;T016" rank="800;753;575;151" code="NO-CODE" sourceType="EZDI;NCI;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="2142">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="interbody fusion device" begin="687" end="710" status="0" certainty="0"/>
+<anatomicalStructure value="vertebral joint" begin="666" end="681" status="0" certainty="0"/>
+</Relation>
+<procedure value="fusion" begin="697" end="703" status="0" certainty="0" cui="C0332466;C1293131" tui="T169;T061" rank="767;767" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="interbody" begin="687" end="696" status="0" certainty="0" cui="S0000335;C1268086;C1551342;C0242821" tui="t061;T017;T078;T016" rank="800;753;575;151" code="NO-CODE" sourceType="EZDI;NCI;NCI;CHV"/>
+<anatomicalStructure value="vertebral joint" begin="666" end="681" status="0" certainty="0" cui="C1182940" tui="T030" rank="691" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="vertebral" begin="666" end="675" status="0" certainty="0" cui="C0549207" tui="T023" rank="703" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="joint" begin="676" end="681" status="0" certainty="0" cui="C0521339;C0022417;C0444497;C0392905;C1269611;C1706309" tui="T169;T030;T082;T022;T030;T074" rank="797;797;767;765;765;575" code="NO-CODE" sourceType="SNMI;MSH;RCD;ICF;RCD;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="1017" end="1172" sentText="Additionally, the fixation instrumentation (i.e., rods, plates, screws, etc.) is included in the fusion root operation, and no additional code is assigned.">
+<RelationSet id="2143">
+<procedure value="fixation" begin="1035" end="1043" status="0" certainty="0" cui="C0185023;C1522662;C0728733" tui="T061;T059;T041" rank="767;576;475" code="NO-CODE" sourceType="RCD;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="2144">
+<medicalDevice value="screws" begin="1081" end="1087" status="0" certainty="0" cui="C0301559;C0005975;C0441634;C1704683" tui="T074;T074;T169;T074" rank="797;765;711;575" code="NO-CODE" sourceType="SNM;RCD;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="2145">
+<procedure value="operation" begin="1126" end="1135" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+<procedure value="fusion" begin="1114" end="1120" status="0" certainty="0" cui="C0332466;C1293131" tui="T169;T061" rank="767;767" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

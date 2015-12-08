@@ -1,0 +1,247 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1817">
+<Paragraph pgNo="1" begin="0" end="723">
+<Sentence sentNo="1" begin="0" end="258" sentText="Question: A patient diagnosed with Moyamoya disease with narrowing and obstruction of the internal carotid artery and leptomeningeal anastomotic vessels underwent right hemispheric pial synangiosis from the superficial temporal artery to the cerebral cortex.">
+<RelationSet id="1032">
+<problem value="Moyamoya disease" begin="35" end="51" status="0" certainty="1" cui="C0026654" tui="T047" rank="797" code="NO-CODE" sourceType="MSH"/>
+<problem value="disease" begin="44" end="51" status="0" certainty="1" cui="C0012634;C1422572;C1424810;C1416989;C3273340;C3540595;C3273341;C1331418" tui="T047;T028;T028;T028;T028;T028;T116;T041" rank="797;600;596;596;575;575;575;575" code="NO-CODE" sourceType="LCH;HGNC;OMIM;HGNC;NCI;NCI;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="1034">
+<anatomicalStructure value="temporal;cortex" begin="219;251" end="227;257" status="0" certainty="0" cui="C0039485" tui="T023" rank="695" code="NO-CODE" sourceType="CSP"/>
+<anatomicalStructure value="artery;cerebral" begin="228;242" end="234;250" status="0" certainty="0" cui="C0007770;C1278936" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="cerebral" begin="242" end="250" status="0" certainty="0" cui="C0242202;C1280654;C0006104;C0228174;C1707523" tui="T023;T023;T023;T023;T024" rank="797;765;703;575;571" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;SNMI;NCI;NCI"/>
+<anatomicalStructure value="cortex" begin="251" end="257" status="0" certainty="0" cui="C0007776;C1176472;C2700441" tui="T023;T023;T002" rank="797;692;575" code="NO-CODE" sourceType="MTH;UWDA;NCI"/>
+</RelationSet>
+<RelationSet id="1035">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="superficial" begin="207" end="218" status="0" certainty="0"/>
+<problem value="hemispheric pial synangiosis" begin="169" end="197" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="superficial" begin="207" end="218" status="0" certainty="0"/>
+<modifier value="right" begin="163" end="168" status="0" certainty="0"/>
+<anatomicalStructure value="temporal artery" begin="219" end="234" status="0" certainty="0"/>
+<problem value="hemispheric pial synangiosis" begin="169" end="197" status="0" certainty="0"/>
+<anatomicalStructure value="leptomeningeal anastomotic vessels" begin="118" end="152" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="right" begin="163" end="168" status="0" certainty="0"/>
+<problem value="hemispheric pial synangiosis" begin="169" end="197" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="temporal artery" begin="219" end="234" status="0" certainty="0"/>
+<problem value="hemispheric pial synangiosis" begin="169" end="197" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="hemispheric pial synangiosis" begin="169" end="197" status="0" certainty="0"/>
+<anatomicalStructure value="leptomeningeal anastomotic vessels" begin="118" end="152" status="0" certainty="0"/>
+</Relation>
+<modifier value="right" begin="163" end="168" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+<modifier value="superficial" begin="207" end="218" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<anatomicalStructure value="superficial temporal artery" begin="207" end="234" status="0" certainty="0" cui="C1278942;C0226130" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<anatomicalStructure value="temporal artery" begin="219" end="234" status="0" certainty="0" cui="C0039482;C2228487" tui="T023;T058" rank="797;592" code="NO-CODE" sourceType="MSH;MEDCIN"/>
+<anatomicalStructure value="artery" begin="228" end="234" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<anatomicalStructure value="leptomeningeal" begin="118" end="132" status="0" certainty="0" cui="C0521401;C0228126" tui="T029;T023" rank="797;530" code="NO-CODE" sourceType="SNMI;NCI"/>
+<anatomicalStructure value="vessels" begin="145" end="152" status="0" certainty="0" cui="C0042591;C0148346;C0005847;C1511228" tui="T029;T118,T121;T023;T024" rank="767;722;701;571" code="NO-CODE" sourceType="RCD;MTH;LNC;NCI"/>
+</RelationSet>
+<RelationSet id="1036">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="internal carotid artery" begin="90" end="113" status="0" certainty="0"/>
+<problem value="obstruction" begin="71" end="82" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="internal carotid artery" begin="90" end="113" status="0" certainty="0" cui="C0007276" tui="T023" rank="795" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="internal carotid" begin="90" end="106" status="0" certainty="0" cui="C0741978" tui="T023" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<anatomicalStructure value="carotid artery" begin="99" end="113" status="0" certainty="0" cui="C0007272;C0162859" tui="T023;T023" rank="797;691" code="NO-CODE" sourceType="LCH;UWDA"/>
+<anatomicalStructure value="carotid" begin="99" end="106" status="0" certainty="0" cui="C0741968" tui="T023" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<anatomicalStructure value="artery" begin="107" end="113" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<problem value="obstruction;carotid artery" begin="71;99" end="82;113" status="0" certainty="0" cui="C0265101" tui="T190" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<problem value="obstruction;artery" begin="71;107" end="82;113" status="0" certainty="0" cui="C0264995" tui="T046" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="obstruction" begin="71" end="82" status="0" certainty="0" cui="C0028778;C1882136" tui="T046;T067" rank="797;561" code="NO-CODE" sourceType="RCD;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="259" end="334" sentText="At surgery, the scalp was opened, exposing the superficial temporal artery.">
+<RelationSet id="1037">
+<procedure value="surgery" begin="262" end="269" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1038">
+<anatomicalStructure value="scalp" begin="275" end="280" status="0" certainty="0" cui="C0036270;C1278997" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1038">
+<modifier value="superficial" begin="306" end="317" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1039">
+<anatomicalStructure value="superficial temporal artery" begin="306" end="333" status="0" certainty="0" cui="C1278942;C0226130" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<anatomicalStructure value="temporal artery" begin="318" end="333" status="0" certainty="0" cui="C0039482;C2228487" tui="T023;T058" rank="797;592" code="NO-CODE" sourceType="MSH;MEDCIN"/>
+<anatomicalStructure value="artery" begin="327" end="333" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="335" end="362" sentText="Two burr holes were placed.">
+<RelationSet id="1040">
+<medicalDevice value="burr" begin="339" end="343" status="0" certainty="0" cui="C0330093;C0700351" tui="T002;T074" rank="767;685" code="NO-CODE" sourceType="SNMI;UMD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="363" end="528" sentText="The cranium was then positioned higher than its natural anatomic position using plates and screws, to allow sufficient room for the superficial temporal artery cuff.">
+<RelationSet id="1041">
+<anatomicalStructure value="cranium" begin="367" end="374" status="0" certainty="0" cui="C0037303;C1279062;C1690093" tui="T023;T023;T204" rank="791;765;430" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;NCBI"/>
+</RelationSet>
+<RelationSet id="1042">
+<medicalDevice value="plates" begin="443" end="449" status="0" certainty="0" cui="C0005971;C0407295;C1139930;C3537155" tui="T074;T061;T074;T073" rank="765;765;686;575" code="NO-CODE" sourceType="RCD;RCD;UMD;NCI"/>
+</RelationSet>
+<RelationSet id="1043">
+<medicalDevice value="screws" begin="454" end="460" status="0" certainty="0" cui="C0301559;C0005975;C0441634;C1704683" tui="T074;T074;T169;T074" rank="797;765;711;575" code="NO-CODE" sourceType="SNM;RCD;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="1043">
+<modifier value="superficial" begin="495" end="506" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1044">
+<anatomicalStructure value="superficial temporal artery" begin="495" end="522" status="0" certainty="0" cui="C1278942;C0226130" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<anatomicalStructure value="temporal artery" begin="507" end="522" status="0" certainty="0" cui="C0039482;C2228487" tui="T023;T058" rank="797;592" code="NO-CODE" sourceType="MSH;MEDCIN"/>
+<anatomicalStructure value="artery" begin="516" end="522" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="529" end="613" sentText="A cuff of the superficial temporal artery was sutured in situ with a cuff of tissue.">
+<RelationSet id="1044">
+<modifier value="superficial" begin="543" end="554" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1045">
+<anatomicalStructure value="superficial temporal artery" begin="543" end="570" status="0" certainty="0" cui="C1278942;C0226130" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<anatomicalStructure value="temporal artery" begin="555" end="570" status="0" certainty="0" cui="C0039482;C2228487" tui="T023;T058" rank="797;592" code="NO-CODE" sourceType="MSH;MEDCIN"/>
+<anatomicalStructure value="artery" begin="564" end="570" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="1046">
+<anatomicalStructure value="tissue" begin="606" end="612" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="614" end="669" sentText="The artery was then sutured to the cortex of the brain.">
+<RelationSet id="1047">
+<anatomicalStructure value="artery" begin="618" end="624" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="1048">
+<procedure value="artery;sutured" begin="618;634" end="624;641" status="0" certainty="0" cui="C0398053" tui="T061" rank="765" code="NO-CODE" sourceType="SNMI"/>
+</RelationSet>
+<RelationSet id="1049">
+<anatomicalStructure value="cortex" begin="649" end="655" status="0" certainty="0" cui="C1176472;C0007776;C2700441" tui="T023;T023;T002" rank="692;575;575" code="NO-CODE" sourceType="UWDA;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="1050">
+<anatomicalStructure value="brain" begin="663" end="668" status="0" certainty="0" cui="C0006104;C1269537" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="670" end="722" sentText="What is the correct root operation for this surgery?">
+<RelationSet id="1051">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="surgery" begin="714" end="721" status="0" certainty="0"/>
+<anatomicalStructure value="correct root" begin="682" end="694" status="0" certainty="0"/>
+</Relation>
+<procedure value="surgery" begin="714" end="721" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+<anatomicalStructure value="root" begin="690" end="694" status="0" certainty="0" cui="S1001239;C0242726;C0563017;C0040452;C1705917;C1318154" tui="t061;T002;T033;T023;T078;T023" rank="800;765;765;576;575;418" code="NO-CODE" sourceType="EZDI;RCD;RCD;NCI;NCI;LNC"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="724" end="1816">
+<Sentence sentNo="8" begin="724" end="826" sentText="Answer: In this procedure, the objective is to reposition the cranium to its normal anatomic position.">
+<RelationSet id="1052">
+<anatomicalStructure value="cranium" begin="786" end="793" status="0" certainty="0" cui="C0037303;C1279062;C1690093" tui="T023;T023;T204" rank="791;765;430" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;NCBI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="827" end="1034" sentText="The superficial temporal artery is relocated to the surface of the brain and laid directly on the cerebral cortex in the expectation that it will eventually grow new arteries and thereby increase blood flow.">
+<RelationSet id="1052">
+<modifier value="superficial" begin="831" end="842" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1052">
+<anatomicalStructure value="temporal artery" begin="843" end="858" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1053">
+<anatomicalStructure value="surface;brain" begin="879;894" end="886;899" status="0" certainty="0" cui="C1283379" tui="T029" rank="767" code="NO-CODE" sourceType="FMA"/>
+<anatomicalStructure value="brain" begin="894" end="899" status="0" certainty="0" cui="C0006104;C1269537" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1054">
+<anatomicalStructure value="cerebral" begin="925" end="933" status="0" certainty="0" cui="C0242202;C1280654;C0006104;C0228174;C1707523" tui="T023;T023;T023;T023;T024" rank="797;765;703;575;572" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;SNMI;NCI;NCI"/>
+<anatomicalStructure value="cortex" begin="934" end="940" status="0" certainty="0" cui="C0007776;C1176472;C2700441" tui="T023;T023;T002" rank="797;692;575" code="NO-CODE" sourceType="MTH;UWDA;NCI"/>
+</RelationSet>
+<RelationSet id="1055">
+<anatomicalStructure value="arteries" begin="993" end="1001" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="1056">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<finding value="blood flow" begin="1023" end="1033" status="0" certainty="0"/>
+<modifier value="increase" begin="1014" end="1022" status="0" certainty="0"/>
+</Relation>
+<finding value="blood flow" begin="1023" end="1033" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<modifier value="increase" begin="1014" end="1022" status="0" certainty="0" cui="C0205217;C0442805;C0442808;C1517378" tui="T081;T169;T169;T081" rank="797;797;767;576" code="NO-CODE" sourceType="RCD;NCI;RCD;LNC"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="1035" end="1110" sentText="It is considered “indirect re-vascularization” rather than a direct bypass.">
+<RelationSet id="1057">
+<procedure value="bypass" begin="1103" end="1109" status="0" certainty="-2" cui="C0741847" tui="T061" rank="765" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="11" begin="1111" end="1338" sentText="The superficial temporal artery is not opened anywhere along its length, and no arterial anastomoses are performed between the superficial temporal artery and any “downstream” artery to provide immediate rerouting of the blood.">
+<RelationSet id="1057">
+<modifier value="superficial" begin="1115" end="1126" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1058">
+<anatomicalStructure value="superficial temporal artery" begin="1115" end="1142" status="0" certainty="0" cui="C1278942;C0226130" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<anatomicalStructure value="temporal artery" begin="1127" end="1142" status="0" certainty="0" cui="C0039482;C2228487" tui="T023;T058" rank="797;592" code="NO-CODE" sourceType="MSH;MEDCIN"/>
+<anatomicalStructure value="artery" begin="1136" end="1142" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="1059">
+<anatomicalStructure value="arterial anastomoses" begin="1191" end="1211" status="0" certainty="-2" cui="C0449634;C0398035" tui="T030;T061" rank="797;767" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="anastomoses" begin="1200" end="1211" status="0" certainty="-2" cui="C0332853;C0677554;C0500470" tui="T020;T061;T030" rank="797;765;692" code="NO-CODE" sourceType="SNM;RCD;UWDA"/>
+<anatomicalStructure value="arterial" begin="1191" end="1199" status="0" certainty="-2" cui="C0221464;C0003842" tui="T082;T023" rank="797;523" code="NO-CODE" sourceType="RCD;NCI"/>
+</RelationSet>
+<RelationSet id="1059">
+<modifier value="superficial" begin="1238" end="1249" status="0" certainty="-2" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1060">
+<anatomicalStructure value="superficial temporal artery" begin="1238" end="1265" status="0" certainty="-2" cui="C1278942;C0226130" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<anatomicalStructure value="temporal artery" begin="1250" end="1265" status="0" certainty="-2" cui="C0039482;C2228487" tui="T023;T058" rank="797;592" code="NO-CODE" sourceType="MSH;MEDCIN"/>
+<anatomicalStructure value="artery" begin="1259" end="1265" status="0" certainty="-2" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="12" begin="1339" end="1401" sentText="Therefore the root operation is Reposition rather than Bypass.">
+<RelationSet id="1061">
+<anatomicalStructure value="root" begin="1353" end="1357" status="0" certainty="0" cui="S1001239;C0242726;C0563017;C0040452;C1705917;C1318154" tui="t061;T002;T033;T023;T078;T023" rank="800;765;765;576;575;418" code="NO-CODE" sourceType="EZDI;RCD;RCD;NCI;NCI;LNC"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="13" begin="1402" end="1577" sentText="As for the temporal bone flap, it has been repositioned up and over the intact temporal artery to allow it “entrance and exit” in its new position on the surface of the brain.">
+<RelationSet id="1062">
+<anatomicalStructure value="temporal bone" begin="1413" end="1426" status="0" certainty="0" cui="C0039484;C1279054" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="bone flap" begin="1422" end="1431" status="0" certainty="0" cui="C1266913;C1562423;C1563046" tui="T024;T024;T024" rank="797;765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="flap" begin="1427" end="1431" status="0" certainty="0" cui="C0038925;C1412362" tui="T023;T028" rank="767;596" code="NO-CODE" sourceType="RCD;HGNC"/>
+<anatomicalStructure value="bone" begin="1422" end="1426" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1063">
+<modifier value="intact" begin="1474" end="1480" status="0" certainty="0" cui="C0205266;C1554187" tui="T080;T078" rank="797;366" code="NO-CODE" sourceType="RCD;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1064">
+<anatomicalStructure value="temporal artery" begin="1481" end="1496" status="0" certainty="0" cui="C0039482;C2228487" tui="T023;T058" rank="797;592" code="NO-CODE" sourceType="MSH;MEDCIN"/>
+<anatomicalStructure value="artery" begin="1490" end="1496" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="1065">
+<anatomicalStructure value="surface;brain" begin="1556;1571" end="1563;1576" status="0" certainty="0" cui="C1283379" tui="T029" rank="767" code="NO-CODE" sourceType="FMA"/>
+<anatomicalStructure value="brain" begin="1571" end="1576" status="0" certainty="0" cui="C0006104;C1269537" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="14" begin="1578" end="1742" sentText="The bone flap is repositioned in a “proud” position (up higher than it was) using plates in order to allow sufficient room for the superficial temporal artery cuff.">
+<RelationSet id="1066">
+<anatomicalStructure value="bone flap" begin="1582" end="1591" status="0" certainty="0" cui="C1266913;C1562423;C1563046" tui="T024;T024;T024" rank="797;765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="flap" begin="1587" end="1591" status="0" certainty="0" cui="C0038925;C1412362" tui="T023;T028" rank="767;596" code="NO-CODE" sourceType="RCD;HGNC"/>
+<anatomicalStructure value="bone" begin="1582" end="1586" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1067">
+<medicalDevice value="plates" begin="1660" end="1666" status="0" certainty="0" cui="C0005971;C0407295;C1139930;C3537155" tui="T074;T061;T074;T073" rank="765;765;686;575" code="NO-CODE" sourceType="RCD;RCD;UMD;NCI"/>
+</RelationSet>
+<RelationSet id="1067">
+<modifier value="superficial" begin="1709" end="1720" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1068">
+<anatomicalStructure value="superficial temporal artery" begin="1709" end="1736" status="0" certainty="0" cui="C1278942;C0226130" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<anatomicalStructure value="temporal artery" begin="1721" end="1736" status="0" certainty="0" cui="C0039482;C2228487" tui="T023;T058" rank="797;592" code="NO-CODE" sourceType="MSH;MEDCIN"/>
+<anatomicalStructure value="artery" begin="1730" end="1736" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="15" begin="1743" end="1815" sentText="For the procedures performed assign ICD-10-PCS codes as follows: 03SS0ZZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

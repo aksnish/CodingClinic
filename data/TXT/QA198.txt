@@ -1,0 +1,2 @@
+Question: The  Official ICD-10-CM Guidelines for Coding and Reporting in the chapter on the perinatal period state, “For coding and reporting purposes the perinatal period is defined as before birth through the 28th day following birth.” Therefore, does this mean that the perinatal period ends on the 29th day of life, making the day of birth equal 0 days? 
+Answer: Yes, the perinatal periods ends on the 29th day of life because the day of birth is counted as “0 days.” For international comparisons, the World Health Organization (WHO) considers the day of birth, day zero. 

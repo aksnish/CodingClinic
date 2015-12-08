@@ -1,0 +1,85 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1179">
+<Paragraph pgNo="1" begin="0" end="508">
+<Sentence sentNo="1" begin="0" end="147" sentText="Question: The patient is admitted with an acute ischemic cerebral vascular accident, and is started on tissue plasminogen activator (tPA) infusion.">
+<RelationSet id="2390">
+<procedure value="infusion" begin="138" end="146" status="0" certainty="0" cui="C0574032;C1827465" tui="T061;T169" rank="767;366" code="NO-CODE" sourceType="MDR;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="2391">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="acute" begin="42" end="47" status="0" certainty="1"/>
+<problem value="ischemic cerebral vascular accident" begin="48" end="83" status="0" certainty="1"/>
+</Relation>
+<modifier value="acute" begin="42" end="47" status="0" certainty="1" cui="C0205178;C1547229;C1547295" tui="T079;T170;T170" rank="797;355;355" code="NO-CODE" sourceType="RCD;HL7V2.5;HL7V2.5"/>
+<problem value="cerebral vascular accident" begin="57" end="83" status="0" certainty="1" cui="C0038454" tui="T047" rank="472" code="NO-CODE" sourceType="DXP"/>
+<problem value="accident" begin="75" end="83" status="0" certainty="1" cui="C0000924;C0521129;C1961149;C2046386;C1546397" tui="T037;T169;T067;T033;T078" rank="797;797;767;592;355" code="NO-CODE" sourceType="ICPC2P;SNMI;SNOMEDCTUS;MEDCIN;HL7V2.5"/>
+<anatomicalStructure value="vascular" begin="66" end="74" status="0" certainty="1" cui="C1801960;C0005847;C1558950;C0392759" tui="T080;T023;T033;T169" rank="797;753;551;233" code="NO-CODE" sourceType="SNMI;SNOMEDCTVET;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="cerebral" begin="57" end="65" status="0" certainty="1" cui="C0242202;C1280654;C0006104;C0228174;C1707523" tui="T023;T023;T023;T023;T024" rank="797;765;703;575;571" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;SNMI;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="148" end="224" sentText="Four hours after admission the patient suffers a second, massive infarction.">
+<RelationSet id="2392">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="massive" begin="205" end="212" status="0" certainty="0"/>
+<problem value="infarction" begin="213" end="223" status="0" certainty="0"/>
+</Relation>
+<modifier value="massive" begin="205" end="212" status="0" certainty="0" cui="C0522501" tui="T080" rank="797" code="NO-CODE" sourceType="SNMI"/>
+<problem value="infarction" begin="213" end="223" status="0" certainty="0" cui="C0021308" tui="T046" rank="797" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="225" end="331" sentText="Cardiopulmonary resuscitation is successfully carried out and the patient required mechanical ventilation.">
+<RelationSet id="2393">
+<procedure value="Cardiopulmonary resuscitation" begin="225" end="254" status="0" certainty="0" cui="C0007203;C0199468" tui="T061;T061" rank="797;767" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<procedure value="resuscitation" begin="241" end="254" status="0" certainty="0" cui="C0035273" tui="T061" rank="795" code="NO-CODE" sourceType="LCH"/>
+<anatomicalStructure value="Cardiopulmonary" begin="225" end="240" status="0" certainty="0" cui="C0553534;C2709248;C1552297;C0024109" tui="T029;T080;T097;T023" rank="797;767;366;256" code="NO-CODE" sourceType="NOC;AIR;HL7V3.0;CHV"/>
+</RelationSet>
+<RelationSet id="2394">
+<procedure value="mechanical ventilation" begin="308" end="330" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="308" end="318" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="332" end="399" sentText="He expires two days later without any improvement in his condition.">
+</Sentence>
+<Sentence sentNo="5" begin="400" end="507" sentText="Which of the two procedures is the principal procedure, infusion of thrombolytic or mechanical ventilation?">
+<RelationSet id="2395">
+<procedure value="infusion" begin="456" end="464" status="0" certainty="0" cui="C0574032;C1827465" tui="T061;T169" rank="797;366" code="NO-CODE" sourceType="MDR;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="2397">
+<procedure value="mechanical ventilation" begin="484" end="506" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="484" end="494" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="509" end="1178">
+<Sentence sentNo="6" begin="509" end="569" sentText="Answer: Code the infusion of tPA as the principal procedure.">
+<RelationSet id="2398">
+<procedure value="infusion" begin="526" end="534" status="0" certainty="0" cui="C0574032;C1827465" tui="T061;T169" rank="797;366" code="NO-CODE" sourceType="MDR;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="570" end="673" sentText="Assign codes for the mechanical ventilation and cardiopulmonary resuscitation as additional procedures.">
+<RelationSet id="2399">
+<procedure value="mechanical ventilation" begin="591" end="613" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="591" end="601" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+<RelationSet id="2400">
+<procedure value="cardiopulmonary resuscitation" begin="618" end="647" status="0" certainty="0" cui="C0007203;C0199468" tui="T061;T061" rank="797;767" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<procedure value="cardiopulmonary;procedures" begin="618;662" end="633;672" status="0" certainty="0" cui="C1292960" tui="T060,T061" rank="353" code="NO-CODE" sourceType="CPT"/>
+<procedure value="resuscitation;procedures" begin="634;662" end="647;672" status="0" certainty="0" cui="C0035273" tui="T061" rank="797" code="NO-CODE" sourceType="MTH"/>
+<anatomicalStructure value="cardiopulmonary" begin="618" end="633" status="0" certainty="0" cui="C0553534;C2709248;C1552297;C0024109" tui="T029;T080;T097;T023" rank="797;767;366;256" code="NO-CODE" sourceType="NOC;AIR;HL7V3.0;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="674" end="988" sentText="The ICD-10-PCS Official Guidelines for Coding and Reporting, Selection of Principal Procedure state, “Procedure performed for definitive treatment of both principal diagnosis and secondary diagnosis: Sequence procedure performed for definitive treatment most related to principal diagnosis as principal procedure.”">
+</Sentence>
+<Sentence sentNo="9" begin="989" end="1177" sentText="In this instance, the thrombolytic therapy was directed at the principal diagnosis of cerebrovascular accident, and therefore the tPA administration is selected as the principal procedure.">
+<RelationSet id="2401">
+<procedure value="thrombolytic therapy" begin="1011" end="1031" status="0" certainty="0" cui="C0040044" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="therapy" begin="1024" end="1031" status="0" certainty="0" cui="C0039798;C0087111;C1363945" tui="T169;T061;T033" rank="794;767;575" code="NO-CODE" sourceType="MSH;CSP;NCI"/>
+</RelationSet>
+<RelationSet id="2402">
+<problem value="cerebrovascular accident" begin="1075" end="1099" status="0" certainty="0" cui="C0038454" tui="T047" rank="797" code="NO-CODE" sourceType="ICPC2P"/>
+<problem value="accident" begin="1091" end="1099" status="0" certainty="0" cui="C0000924;C0521129;C1961149;C2046386;C1546397" tui="T037;T169;T067;T033;T078" rank="797;797;767;592;355" code="NO-CODE" sourceType="ICPC2P;SNMI;SNOMEDCTUS;MEDCIN;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

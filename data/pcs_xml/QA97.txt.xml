@@ -1,0 +1,73 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="622">
+<Paragraph pgNo="1" begin="0" end="407">
+<Sentence sentNo="1" begin="0" end="186" sentText="Question: The patient has an open abdomen (abdominal compartment syndrome) and comes in for an exploratory laparotomy, abdominal washout, and initiation of dialysate infusion of abdomen.">
+<RelationSet id="1282">
+<modifier value="open" begin="29" end="33" status="0" certainty="1" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1283">
+<anatomicalStructure value="abdomen" begin="34" end="41" status="0" certainty="1" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+</RelationSet>
+<RelationSet id="1284">
+<problem value="abdominal compartment syndrome" begin="43" end="73" status="0" certainty="1" cui="C1142110" tui="T047" rank="793" code="NO-CODE" sourceType="MSH"/>
+<problem value="compartment syndrome" begin="53" end="73" status="0" certainty="1" cui="C0009492" tui="T047" rank="797" code="NO-CODE" sourceType="ICPC2P"/>
+<problem value="abdomen;syndrome" begin="34;65" end="41;73" status="0" certainty="1" cui="C0007570" tui="T047" rank="765" code="NO-CODE" sourceType="RCDAE"/>
+<problem value="syndrome" begin="65" end="73" status="0" certainty="1" cui="C0039082;C1558916" tui="T047;T033" rank="797;551" code="NO-CODE" sourceType="LCH;NCI"/>
+<anatomicalStructure value="compartment" begin="53" end="64" status="0" certainty="1" cui="C1185625;C2986730" tui="T030;T082" rank="692;575" code="NO-CODE" sourceType="UWDA;NCI"/>
+<anatomicalStructure value="abdominal" begin="43" end="52" status="0" certainty="1" cui="C0000726" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="1285">
+<modifier value="exploratory" begin="95" end="106" status="0" certainty="0" cui="S0000631" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="exploratory laparotomy" begin="95" end="117" status="0" certainty="0" cui="C0085704" tui="T060" rank="797" code="NO-CODE" sourceType="CCS"/>
+<procedure value="laparotomy" begin="107" end="117" status="0" certainty="0" cui="C0023038" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="1286">
+<modifier value="washout" begin="129" end="136" status="0" certainty="0" cui="C1710661;C2986829" tui="T079;T169" rank="575;575" code="NO-CODE" sourceType="NCI;NCI"/>
+<anatomicalStructure value="abdominal" begin="119" end="128" status="0" certainty="0" cui="C0000726" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="1287">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="dialysate infusion" begin="156" end="174" status="0" certainty="0"/>
+<anatomicalStructure value="abdomen" begin="178" end="185" status="0" certainty="0"/>
+</Relation>
+<procedure value="dialysate" begin="156" end="165" status="0" certainty="0" cui="C0011947;C2242978;C1546599" tui="T121;T061;T170" rank="790;592;355" code="NO-CODE" sourceType="MSH;MEDCIN;HL7V2.5"/>
+<procedure value="infusion" begin="166" end="174" status="0" certainty="0" cui="C0574032;C1827465" tui="T061;T169" rank="767;366" code="NO-CODE" sourceType="MDR;HL7V3.0"/>
+<anatomicalStructure value="abdomen" begin="178" end="185" status="0" certainty="0" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="187" end="345" sentText="After these procedures are performed, Ioban™ (an antimicrobial surgical incise drape) is used to temporarily cover the organs until the abdomen can be closed.">
+<RelationSet id="1288">
+<procedure value="surgical incise" begin="250" end="265" status="0" certainty="0" cui="C0184898;C3543005;C0332803;C2081230" tui="T061;T020;T037;T033" rank="767;765;753;592" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;SNOMEDCTVET;MEDCIN"/>
+<procedure value="surgical" begin="250" end="258" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C1552276;C0582175;C1555455;C1552386;C1547138" tui="T169;T091;T058;T078;T097;T097;T078;T097;T078" rank="794;791;767;571;366;366;366;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V3.0;HL7V3.0;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1289">
+<anatomicalStructure value="abdomen" begin="323" end="330" status="0" certainty="0" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="346" end="406" sentText="Is the Ioban™ coded as a “supplement” of the abdominal wall?">
+<RelationSet id="1290">
+<anatomicalStructure value="abdominal wall" begin="391" end="405" status="0" certainty="0" cui="C0836916;C1269041" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="abdominal" begin="391" end="400" status="0" certainty="0" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="408" end="621">
+<Sentence sentNo="4" begin="408" end="469" sentText="Answer: Do not assign a code for the placement of the Ioban™.">
+<RelationSet id="1291">
+<procedure value="placement" begin="445" end="454" status="0" certainty="-2" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="470" end="565" sentText="The Ioban™ was placed to provide a barrier to prevent bacteria from entering the surgical site.">
+<RelationSet id="1292">
+<anatomicalStructure value="site" begin="560" end="564" status="0" certainty="0" cui="C0205145;C2945843;C2825164;C1515974;C1546778" tui="T082;T080;T082;T029;T170" rank="797;767;575;575;355" code="NO-CODE" sourceType="RCD;RCD;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="566" end="620" sentText="It was not used as a supplement of the abdominal wall.">
+<RelationSet id="1293">
+<anatomicalStructure value="abdominal wall" begin="605" end="619" status="0" certainty="-2" cui="C0836916;C1269041" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="abdominal" begin="605" end="614" status="0" certainty="-2" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

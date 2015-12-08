@@ -1,0 +1,117 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="875">
+<Paragraph pgNo="1" begin="0" end="371">
+<Sentence sentNo="1" begin="0" end="163" sentText="Question: The patient has a history of transitional cell carcinoma of the bladder and kidney and was found to have a calcified polyp within his ileal loop conduit.">
+<RelationSet id="690">
+<problem value="polyp" begin="127" end="132" status="0" certainty="0" cui="C0032584;C1546747" tui="T190;T170" rank="797;355" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="691">
+<procedure value="ileal;conduit" begin="144;155" end="149;162" status="0" certainty="0" cui="C0348002;C0441253" tui="T061;T020" rank="793;765" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+<anatomicalStructure value="ileal" begin="144" end="149" status="0" certainty="0" cui="C0020885;C1278923;C0153428" tui="T023;T023;T191" rank="797;765;610" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10"/>
+</RelationSet>
+<RelationSet id="692">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value=" cell carcinoma" begin="51" end="66" status="0" certainty="1"/>
+<anatomicalStructure value="bladder" begin="74" end="81" status="0" certainty="0"/>
+</Relation>
+<problem value="transitional cell carcinoma;bladder" begin="39;74" end="66;81" status="0" certainty="1" cui="C0005684;C0279680" tui="t047;T191" rank="800;797" code="NO-CODE" sourceType="ICD10CM;RCD"/>
+<problem value="transitional;carcinoma" begin="39;57" end="51;66" status="0" certainty="1" cui="C0007138" tui="T191" rank="797" code="NO-CODE" sourceType="MDR"/>
+<problem value="carcinoma;bladder" begin="57;74" end="66;81" status="0" certainty="1" cui="C0699885" tui="T191" rank="797" code="NO-CODE" sourceType="MTH"/>
+<problem value="carcinoma" begin="57" end="66" status="0" certainty="1" cui="C0007097" tui="T191" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="transitional cell;bladder" begin="39;74" end="56;81" status="0" certainty="1" cui="C0227599" tui="T025" rank="691" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="transitional cell" begin="39" end="56" status="0" certainty="1" cui="C0225340" tui="T025" rank="765" code="NO-CODE" sourceType="SNMI"/>
+<anatomicalStructure value="cell carcinoma" begin="52" end="66" status="0" certainty="1" cui="C1518174" tui="T025" rank="575" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="cell" begin="52" end="56" status="0" certainty="1" cui="C0007634;C1269647;C1861886;C1948049;C1704653;C1136359" tui="T025;T025;T028;T082;T074;T073" rank="797;765;596;576;575;575" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;OMIM;NCI;NCI;NCI"/>
+<anatomicalStructure value="transitional cell;bladder" begin="39;74" end="56;81" status="0" certainty="0" cui="C0227599" tui="T025" rank="691" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="bladder" begin="74" end="81" status="0" certainty="0" cui="C0005682;C1281573;C0205058;C0496930;C0154017;C0154091;C1511200;C0872388" tui="T023;T023;T082;T191;T191;T191;T024;T061" rank="791;765;703;610;610;610;571;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;SNMI;ICD10;ICD10;ICD10;NCI;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="164" end="304" sentText="The patient underwent ileoscopy of right ileal loop urinary diversion and excision of the polyp with cauterization at the base of the polyp.">
+<RelationSet id="693">
+<procedure value="ileoscopy" begin="186" end="195" status="0" certainty="0" cui="C0192700" tui="T060" rank="765" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="694">
+<modifier value="urinary" begin="216" end="223" status="0" certainty="0" cui="C0042037;C0042036;C1524119;C2963137;C1610733;C1547942" tui="T169;T031;T080;T031;T031;T170" rank="797;797;797;691;366;355" code="NO-CODE" sourceType="MSH;LCH;NCI;FMA;HL7V3.0;HL7V2.5"/>
+<procedure value="urinary diversion" begin="216" end="233" status="0" certainty="0" cui="C0042020" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="diversion" begin="224" end="233" status="0" certainty="0" cui="S1000458;C0185033;C0439843;C0743226" tui="t061;T061;T169;T169" rank="800;765;724;491" code="NO-CODE" sourceType="EZDI;SNOMEDCTUS;RCD;CCPSS"/>
+<anatomicalStructure value="ileal" begin="205" end="210" status="0" certainty="0" cui="C0020885;C1278923;C0153428" tui="T023;T023;T191" rank="797;765;610" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10"/>
+</RelationSet>
+<RelationSet id="695">
+<procedure value="excision" begin="238" end="246" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+</RelationSet>
+<RelationSet id="696">
+<problem value="polyp" begin="254" end="259" status="0" certainty="0" cui="C0032584;C1546747" tui="T190;T170" rank="797;355" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="697">
+<procedure value="cauterization" begin="265" end="278" status="0" certainty="0" cui="C0007471" tui="T061" rank="790" code="NO-CODE" sourceType="RCDAE"/>
+</RelationSet>
+<RelationSet id="698">
+<problem value="polyp" begin="298" end="303" status="0" certainty="0" cui="C0032584;C1546747" tui="T190;T170" rank="797;355" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="305" end="370" sentText="What are the appropriate ICD-10-PCS  procedure  code assignments?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="372" end="874">
+<Sentence sentNo="4" begin="372" end="482" sentText="Answer: In the previous surgery, the small bowel was used to form a neobladder (ileal loop urinary diversion).">
+<RelationSet id="699">
+<modifier value="previous surgery" begin="387" end="403" status="0" certainty="0" cui="S0000844" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="surgery" begin="396" end="403" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="700">
+<modifier value="small" begin="409" end="414" status="0" certainty="0" cui="C0700321;C0547044;C2700395" tui="T081;T080;T081" rank="797;797;797" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="701">
+<anatomicalStructure value="small bowel" begin="409" end="420" status="0" certainty="0" cui="C0021852;C1519375" tui="T023;T024" rank="765;571" code="NO-CODE" sourceType="SNM;NCI"/>
+<anatomicalStructure value="bowel" begin="415" end="420" status="0" certainty="0" cui="C0021853" tui="T023" rank="765" code="NO-CODE" sourceType="SNM"/>
+</RelationSet>
+<RelationSet id="701">
+<medicalDevice value=" neobladder" begin="439" end="450" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="702">
+<problem value="ileal" begin="452" end="457" status="0" certainty="0" cui="C0020885;C1278923;C0153428" tui="T023;T023;T191" rank="797;765;610" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10"/>
+<anatomicalStructure value="neobladder;urinary" begin="440;463" end="450;470" status="0" certainty="0" cui="C0005682;C1511200" tui="T023;T024" rank="797;572" code="NO-CODE" sourceType="SNM;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="483" end="547" sentText="The small intestine is now functioning as an artificial bladder.">
+<RelationSet id="703">
+<modifier value="small" begin="487" end="492" status="0" certainty="0" cui="C0700321;C0547044;C2700395" tui="T081;T080;T081" rank="797;797;797" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="704">
+<anatomicalStructure value="small intestine" begin="487" end="502" status="0" certainty="0" cui="C0021852;C1268998;C0496906;C1519375" tui="T023;T023;T191;T024" rank="797;765;610;572" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10;NCI"/>
+<anatomicalStructure value="intestine" begin="493" end="502" status="0" certainty="0" cui="C0021853;C1708548" tui="T023;T024" rank="797;572" code="NO-CODE" sourceType="MSH;NCI"/>
+</RelationSet>
+<RelationSet id="705">
+<problem value="bladder" begin="539" end="546" status="0" certainty="0" cui="C0005682;C1281573;C0205058;C0496930;C0154017;C0154091;C1511200;C0872388" tui="T023;T023;T082;T191;T191;T191;T024;T061" rank="791;765;703;610;610;610;571;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;SNMI;ICD10;ICD10;ICD10;NCI;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="548" end="682" sentText="The current surgery was performed on what is now serving as an artificial bladder; therefore the bladder is the site of the procedure.">
+<RelationSet id="706">
+<procedure value="surgery" begin="560" end="567" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="707">
+<anatomicalStructure value="bladder" begin="622" end="629" status="0" certainty="0" cui="C0005682;C1281573;C0205058;C0496930;C0154017;C0154091;C1511200;C0872388" tui="T023;T023;T082;T191;T191;T191;T024;T061" rank="791;765;703;610;610;610;571;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;SNMI;ICD10;ICD10;ICD10;NCI;ICD10AM"/>
+</RelationSet>
+<RelationSet id="708">
+<anatomicalStructure value="bladder" begin="645" end="652" status="0" certainty="0" cui="C0005682;C1281573;C0205058;C0496930;C0154017;C0154091;C1511200;C0872388" tui="T023;T023;T082;T191;T191;T191;T024;T061" rank="791;765;703;610;610;610;571;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;SNMI;ICD10;ICD10;ICD10;NCI;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="683" end="766" sentText="When assigning the ICD-10-PCS procedure code, bladder is the appropriate body part.">
+<RelationSet id="709">
+<anatomicalStructure value="bladder;part" begin="729;761" end="736;765" status="0" certainty="0" cui="C1268128" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="bladder" begin="729" end="736" status="0" certainty="0" cui="C0005682;C1281573;C0205058;C0496930;C0154017;C0154091;C1511200;C0872388" tui="T023;T023;T082;T191;T191;T191;T024;T061" rank="791;765;703;610;610;610;571;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;SNMI;ICD10;ICD10;ICD10;NCI;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="767" end="873" sentText="Assign ICD-10PCS code as follows: 0TBB8ZZ Excision of bladder via natural or artificial opening endoscopic">
+<RelationSet id="710">
+<procedure value="Excision;bladder via natural;artificial opening endoscopic" begin="809;821;844" end="817;840;873" status="0" certainty="0" cui="C2445789" tui="T061" rank="387" code="NO-CODE" sourceType="ICD10PCS"/>
+<procedure value="Excision;bladder via natural;artificial opening" begin="809;821;844" end="817;840;862" status="0" certainty="0" cui="C2445787" tui="T061" rank="387" code="NO-CODE" sourceType="ICD10PCS"/>
+<procedure value="Excision;bladder;opening" begin="809;821;855" end="817;828;862" status="0" certainty="0" cui="C0565434" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="Excision;bladder" begin="809;821" end="817;828" status="0" certainty="0" cui="C0010651" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="Excision" begin="809" end="817" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+<procedure value="bladder" begin="821" end="828" status="0" certainty="0" cui="C0005682;C1281573;C0205058;C0496930;C0154017;C0154091;C1511200;C0872388" tui="T023;T023;T082;T191;T191;T191;T024;T061" rank="791;765;703;610;610;610;571;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;SNMI;ICD10;ICD10;ICD10;NCI;ICD10AM"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

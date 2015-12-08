@@ -1,0 +1,93 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="421">
+<Paragraph pgNo="1" begin="0" end="419">
+<Sentence sentNo="1" begin="0" end="99" sentText="Question: A patient is admitted to undergo a right frontal craniotomy for resection of brain tumor.">
+<RelationSet id="1238">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="resection" begin="74" end="83" status="0" certainty="0"/>
+<anatomicalStructure value="brain" begin="87" end="92" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="right" begin="45" end="50" status="0" certainty="1"/>
+<procedure value="resection" begin="74" end="83" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="frontal craniotomy" begin="51" end="69" status="0" certainty="1"/>
+<modifier value="right" begin="45" end="50" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="brain" begin="87" end="92" status="0" certainty="0"/>
+<problem value="tumor" begin="93" end="98" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="frontal craniotomy" begin="51" end="69" status="0" certainty="1"/>
+<modifier value="right" begin="45" end="50" status="0" certainty="1"/>
+<procedure value="resection" begin="74" end="83" status="0" certainty="0"/>
+<anatomicalStructure value="brain" begin="87" end="92" status="0" certainty="0"/>
+<problem value="tumor" begin="93" end="98" status="0" certainty="0"/>
+</Relation>
+<modifier value="right" begin="45" end="50" status="0" certainty="1" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+<procedure value="frontal craniotomy" begin="51" end="69" status="0" certainty="1" cui="C0742899" tui="T061" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="craniotomy" begin="59" end="69" status="0" certainty="1" cui="C0010280" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="frontal" begin="51" end="58" status="0" certainty="1" cui="C0016540;C0205123" tui="T029;T082" rank="797;765" code="NO-CODE" sourceType="MSH;RCD"/>
+<procedure value="resection;brain" begin="74;87" end="83;92" status="0" certainty="0" cui="C0195960" tui="T061" rank="765" code="NO-CODE" sourceType="SNMI"/>
+<procedure value="resection" begin="74" end="83" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="765;151" code="NO-CODE" sourceType="RCD;CHV"/>
+<anatomicalStructure value="brain" begin="87" end="92" status="0" certainty="0" cui="C0006104;C1269537" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+<problem value="brain tumor" begin="87" end="98" status="0" certainty="0" cui="C0006118" tui="T191" rank="791" code="NO-CODE" sourceType="COSTAR"/>
+<problem value="tumor" begin="93" end="98" status="0" certainty="0" cui="C0027651;C3273930;C1578706" tui="T191;T033;T170" rank="791;575;355" code="NO-CODE" sourceType="MSH;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="100" end="212" sentText="The previous incision was reopened and then the dura was opened circumferentially overlying the recurrent tumor.">
+<RelationSet id="1239">
+<problem value="previous incision" begin="104" end="121" status="0" certainty="0" cui="C1285499" tui="T020" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="incision" begin="113" end="121" status="0" certainty="0" cui="C0184898;C2096041" tui="T061;T033" rank="767;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+</RelationSet>
+<RelationSet id="1240">
+<anatomicalStructure value="dura" begin="148" end="152" status="0" certainty="0" cui="C0013313" tui="T023" rank="575" code="NO-CODE" sourceType="HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1241">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="tumor" begin="206" end="211" status="0" certainty="0"/>
+<modifier value="recurrent" begin="196" end="205" status="0" certainty="0"/>
+</Relation>
+<problem value="recurrent tumor" begin="196" end="211" status="0" certainty="0" cui="C0521158" tui="T191" rank="797" code="NO-CODE" sourceType="SNMI"/>
+<problem value="tumor" begin="206" end="211" status="0" certainty="0" cui="C0027651;C3273930;C1578706" tui="T191;T033;T170" rank="791;575;355" code="NO-CODE" sourceType="MSH;NCI;HL7V2.5"/>
+<modifier value="recurrent" begin="196" end="205" status="0" certainty="0" cui="C2945760" tui="T079" rank="797" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="213" end="263" sentText="A gross total resection was subsequently achieved.">
+<RelationSet id="1242">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="gross" begin="215" end="220" status="0" certainty="0"/>
+<procedure value="total resection" begin="221" end="236" status="0" certainty="0"/>
+</Relation>
+<modifier value="gross" begin="215" end="220" status="0" certainty="0" cui="C0439806" tui="T080" rank="767" code="NO-CODE" sourceType="RCD"/>
+<modifier value="total" begin="221" end="226" status="0" certainty="0" cui="C0439810" tui="T080" rank="797" code="NO-CODE" sourceType="RCD"/>
+<procedure value="total resection" begin="221" end="236" status="0" certainty="0" cui="C0015250" tui="T061" rank="575" code="NO-CODE" sourceType="NCI"/>
+<procedure value="resection" begin="227" end="236" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="765;151" code="NO-CODE" sourceType="RCD;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="264" end="380" sentText="Immediately following the resection of the tumor, 8 Gliadel chemotherapy wafers were placed in the resection cavity.">
+<RelationSet id="1243">
+<procedure value="resection" begin="290" end="299" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="765;151" code="NO-CODE" sourceType="RCD;CHV"/>
+</RelationSet>
+<RelationSet id="1244">
+<problem value="tumor" begin="307" end="312" status="0" certainty="0" cui="C0027651;C3273930;C1578706" tui="T191;T033;T170" rank="791;575;355" code="NO-CODE" sourceType="MSH;NCI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1245">
+<modifier value="chemotherapy wafers" begin="324" end="343" status="0" certainty="0" cui="S1001703" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="chemotherapy" begin="324" end="336" status="0" certainty="0" cui="C3665472;C0013217;C0392920" tui="T061;T061;T061" rank="791;789;765" code="NO-CODE" sourceType="MSH;MSH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1246">
+<problem value="resection cavity" begin="363" end="379" status="0" certainty="0" cui="C1515091" tui="T020" rank="575" code="NO-CODE" sourceType="NCI"/>
+<problem value="cavity" begin="373" end="379" status="0" certainty="0" cui="C1510420;C0333343;C0011334" tui="T190;T030;T047" rank="767;691;399" code="NO-CODE" sourceType="SNMI;UWDA;MEDLINEPLUS"/>
+<procedure value="resection" begin="363" end="372" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="765;151" code="NO-CODE" sourceType="RCD;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="381" end="419" sentText="How should the procedures be coded? 34">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="420" end="420">
+</Paragraph>
+</Section>
+</ezNLP>

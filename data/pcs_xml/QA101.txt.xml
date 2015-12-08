@@ -1,0 +1,70 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1084">
+<Paragraph pgNo="1" begin="0" end="586">
+<Sentence sentNo="1" begin="0" end="202" sentText="Question: In Coding Clinic, Fourth Quarter 2013, pages 116117, information was published about the device character for the insertion of a totally implantable central venous access device (port-a-cath).">
+<RelationSet id="127">
+<medicalDevice value="implantable;venous access;port-a-cath" begin="147;167;189" end="158;180;200" status="0" certainty="0" cui="C1275732" tui="T074" rank="797" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<medicalDevice value="venous access" begin="167" end="180" status="0" certainty="0" cui="C0750164" tui="T074" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<medicalDevice value="device" begin="181" end="187" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="128">
+<medicalDevice value="port-a-cath" begin="189" end="200" status="0" certainty="0" cui="C3495140;C0452253;C1706281;C1442985;C1706280;C1880253;C1706409;C1522424;C0457243;C0439234;C0935727;C1553039;C0560170;C0560271;C0475311;C0348042;C0007430;C1706282;C1442986" tui="T074;T168;T170;T185;T170;T077;T074;T015;T081;T079;T074;T081;T081;T081;T073;T129;T061;T170;T185" rank="797;767;767;767;767;575;575;547;544;540;530;527;519;519;472;416;277;233;233" code="NO-CODE" sourceType="MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;SNOMEDCTUS;NCI;NCI;NCI;NCI;NCI;CHV;NCI;NCI;NCI;CHV;LNC;MSH;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="203" end="277" sentText="Although we agree with the device value, the approach value is inaccurate.">
+</Sentence>
+<Sentence sentNo="3" begin="278" end="345" sentText="The approach value for placement of a port-a-cath should be “Open.”">
+<RelationSet id="129">
+<medicalDevice value="port-a-cath" begin="316" end="327" status="0" certainty="0" cui="C3495140;C0452253;C1706281;C1442985;C1706280;C1880253;C1706409;C1522424;C0457243;C0439234;C0935727;C1553039;C0560170;C0560271;C0475311;C0348042;C0007430;C1706282;C1442986" tui="T074;T168;T170;T185;T170;T077;T074;T015;T081;T079;T074;T081;T081;T081;T073;T129;T061;T170;T185" rank="797;767;767;767;767;575;575;547;544;540;530;527;519;519;472;416;277;233;233" code="NO-CODE" sourceType="MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;SNOMEDCTUS;NCI;NCI;NCI;NCI;NCI;CHV;NCI;NCI;NCI;CHV;LNC;MSH;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="346" end="496" sentText="Furthermore, a port-a-cath is a two-part device, and requires two ICD-10-PCS codes, for the insertions of the catheter as well as the infusion device.">
+<RelationSet id="130">
+<medicalDevice value="port-a-cath" begin="361" end="372" status="0" certainty="0" cui="C0452253;C1880253;C1706409;C0475311;C0007430" tui="T168;T077;T074;T073;T061" rank="767;575;575;472;277" code="NO-CODE" sourceType="RCD;NCI;NCI;CHV;MSH"/>
+</RelationSet>
+<RelationSet id="131">
+<medicalDevice value="device" begin="387" end="393" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="132">
+<medicalDevice value="insertions;catheter" begin="438;456" end="448;464" status="0" certainty="0" cui="C1874748" tui="T074" rank="797" code="NO-CODE" sourceType="MTH"/>
+<medicalDevice value="catheter;infusion" begin="456;480" end="464;488" status="0" certainty="0" cui="C0492262" tui="T074" rank="683" code="NO-CODE" sourceType="UMD"/>
+<medicalDevice value="catheter;device" begin="456;489" end="464;495" status="0" certainty="0" cui="C0085590" tui="T074" rank="797" code="NO-CODE" sourceType="MTH"/>
+<medicalDevice value="catheter" begin="456" end="464" status="0" certainty="0" cui="C0007430;C1704454;C1546572" tui="T061;T074;T170" rank="765;575;355" code="NO-CODE" sourceType="RCD;NCI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="133">
+<procedure value="infusion" begin="480" end="488" status="0" certainty="0" cui="C0574032;C1827465" tui="T061;T169" rank="767;366" code="NO-CODE" sourceType="MDR;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="497" end="585" sentText="We are asking that the Coding Clinic Editorial Advisory Board (EAB) revisit this advice.">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="587" end="1083">
+<Sentence sentNo="6" begin="587" end="616" sentText="Answer: Yes, you are correct.">
+</Sentence>
+<Sentence sentNo="7" begin="617" end="819" sentText="In the published example, a subcutaneous pocket was created under direct visualization in order to place the vascular access port, and therefore the approach is “open” for that portion of the procedure.">
+<RelationSet id="134">
+<modifier value="direct visualization" begin="683" end="703" status="0" certainty="0" cui="S0002118" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+</RelationSet>
+<RelationSet id="135">
+<modifier value="access" begin="735" end="741" status="0" certainty="0" cui="C0444454;C1554204" tui="T082;T078" rank="797;366" code="NO-CODE" sourceType="RCD;HL7V3.0"/>
+<anatomicalStructure value="vascular" begin="726" end="734" status="0" certainty="0" cui="C1801960;C0005847;C1558950;C0392759" tui="T080;T023;T033;T169" rank="797;753;551;233" code="NO-CODE" sourceType="SNMI;SNOMEDCTVET;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="port" begin="742" end="746" status="0" certainty="0" cui="S0000553;C0452253;C0205054;C1880253;C1706409;C0475311" tui="t061;T168;T029;T077;T074;T073" rank="800;767;767;575;575;472" code="NO-CODE" sourceType="EZDI;RCD;SNMI;NCI;NCI;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="820" end="984" sentText="In addition, a totally implantable central venous access device is a twopart device; therefore two ICD-10-PCS codes are required to capture insertion of the device.">
+<RelationSet id="136">
+<medicalDevice value="venous access" begin="863" end="876" status="0" certainty="0" cui="C0750164" tui="T074" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<medicalDevice value="device" begin="877" end="883" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="137">
+<medicalDevice value="device" begin="897" end="903" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="985" end="1082" sentText="Assign the following ICD-10-PCS codes for placement of this type of venous access device: 02HV33Z">
+<RelationSet id="138">
+<procedure value="placement" begin="1027" end="1036" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

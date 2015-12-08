@@ -1,0 +1,61 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="697">
+<Paragraph pgNo="1" begin="0" end="328">
+<Sentence sentNo="1" begin="0" end="188" sentText="Question: The patient presented to the hospital for treatment of subarachnoid hemorrhage and communicating hydrocephalus, and underwent placement of right frontal ventriculostomy catheter.">
+<RelationSet id="967">
+<problem value="subarachnoid hemorrhage" begin="65" end="88" status="0" certainty="0" cui="C0038525" tui="T047" rank="795" code="NO-CODE" sourceType="NDFRT"/>
+<problem value="hemorrhage" begin="78" end="88" status="0" certainty="0" cui="C0019080" tui="T046" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="subarachnoid" begin="65" end="77" status="0" certainty="0" cui="C0003707;C1515008" tui="T023;T169" rank="795;575" code="NO-CODE" sourceType="SNM;NCI"/>
+</RelationSet>
+<RelationSet id="968">
+<problem value="communicating hydrocephalus" begin="93" end="120" status="0" certainty="0" cui="C0009451" tui="T047" rank="793" code="NO-CODE" sourceType="NCI"/>
+<problem value="hydrocephalus" begin="107" end="120" status="0" certainty="0" cui="C0020255;C1963137" tui="T047;T033" rank="797;639" code="NO-CODE" sourceType="SNM;NCI"/>
+</RelationSet>
+<RelationSet id="969">
+<modifier value="right" begin="149" end="154" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+<procedure value="ventriculostomy" begin="163" end="178" status="0" certainty="0" cui="C0042517" tui="T061" rank="795" code="NO-CODE" sourceType="ICD10AM"/>
+<procedure value="placement" begin="136" end="145" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+<procedure value="catheter" begin="179" end="187" status="0" certainty="0" cui="C0085590;C1704454;C0007430;C1546572" tui="T074;T074;T061;T170" rank="795;575;488;355" code="NO-CODE" sourceType="RCD;NCI;ICPC2P;HL7V2.5"/>
+<anatomicalStructure value="frontal" begin="155" end="162" status="0" certainty="0" cui="C0016540;C0205123" tui="T029;T082" rank="797;765" code="NO-CODE" sourceType="MSH;RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="189" end="327" sentText="Since the burr hole was created in order to place the catheter, in ICD-10-PCS would this be coded as an “open” or “percutaneous” approach?">
+<RelationSet id="970">
+<medicalDevice value="burr" begin="199" end="203" status="0" certainty="0" cui="C0330093;C0700351" tui="T002;T074" rank="767;685" code="NO-CODE" sourceType="SNMI;UMD"/>
+</RelationSet>
+<RelationSet id="971">
+<medicalDevice value="catheter" begin="243" end="251" status="0" certainty="0" cui="C0085590;C1704454;C0007430;C1546572" tui="T074;T074;T061;T170" rank="795;575;488;355" code="NO-CODE" sourceType="RCD;NCI;ICPC2P;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="329" end="696">
+<Sentence sentNo="3" begin="329" end="398" sentText="Answer: As previously stated, the correct approach is “percutaneous.”">
+</Sentence>
+<Sentence sentNo="4" begin="399" end="604" sentText="The ICD-10-PCS defines “percutaneous” as entry, by puncture or minor incision, of instrumentation through the skin or mucous membrane and any other body layers necessary to reach the site of the procedure.">
+<RelationSet id="971">
+<anatomicalStructure value="skin" begin="509" end="513" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="972">
+<anatomicalStructure value="mucous membrane" begin="517" end="532" status="0" certainty="0" cui="C0026724;C2230150;C1549524;C0151785" tui="T024;T033;T169;T047" rank="797;592;355;291" code="NO-CODE" sourceType="MSH;MEDCIN;HL7V2.5;CST"/>
+<anatomicalStructure value="membrane" begin="524" end="532" status="0" certainty="0" cui="C0596901;C0025255;C1706182" tui="T026;T024;T073" rank="797;795;575" code="NO-CODE" sourceType="MTH;MSH;NCI"/>
+</RelationSet>
+<RelationSet id="973">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="incision" begin="468" end="476" status="0" certainty="0"/>
+<modifier value="minor" begin="462" end="467" status="0" certainty="0"/>
+</Relation>
+<procedure value="incision" begin="468" end="476" status="0" certainty="0" cui="C0184898;C2096041" tui="T061;T033" rank="767;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+<modifier value="minor" begin="462" end="467" status="0" certainty="0" cui="C0026193;C0205165;C1417837;C3272493;C0700321" tui="T098;T080;T028;T028;T081" rank="795;767;596;575;242" code="NO-CODE" sourceType="MSH;RCD;HGNC;NCI;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="605" end="696" sentText="Assign the following ICD-10-PCS code for placement of the ventriculostomy catheter: 009630Z">
+<RelationSet id="974">
+<procedure value="placement;catheter" begin="646;679" end="655;687" status="0" certainty="0" cui="C0883301" tui="T061" rank="652" code="NO-CODE" sourceType="MDR"/>
+<procedure value="ventriculostomy" begin="663" end="678" status="0" certainty="0" cui="C0042517" tui="T061" rank="795" code="NO-CODE" sourceType="ICD10AM"/>
+<procedure value="placement" begin="646" end="655" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+<procedure value="catheter" begin="679" end="687" status="0" certainty="0" cui="C0085590;C1704454;C0007430;C1546572" tui="T074;T074;T061;T170" rank="795;575;488;355" code="NO-CODE" sourceType="RCD;NCI;ICPC2P;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

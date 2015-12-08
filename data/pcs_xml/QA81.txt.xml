@@ -1,0 +1,59 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="568">
+<Paragraph pgNo="1" begin="0" end="281">
+<Sentence sentNo="1" begin="0" end="105" sentText="Question: A patient with painful right total knee arthroplasty presents for revision of the arthroplasty.">
+<RelationSet id="672">
+<problem value="painful;knee" begin="25;45" end="32;49" status="0" certainty="1" cui="C0231749" tui="T184" rank="644" code="NO-CODE" sourceType="MDR"/>
+<problem value="painful" begin="25" end="32" status="0" certainty="1" cui="C0030193" tui="T184" rank="765" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="673">
+<procedure value="arthroplasty" begin="92" end="104" status="0" certainty="0" cui="C0003893;C0700235" tui="T061;T061" rank="797;622" code="NO-CODE" sourceType="MSH;HCDT"/>
+</RelationSet>
+<RelationSet id="674">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="total knee arthroplasty" begin="39" end="62" status="0" certainty="1"/>
+<modifier value="right" begin="33" end="38" status="0" certainty="1"/>
+</Relation>
+<modifier value="right" begin="33" end="38" status="0" certainty="1" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+<modifier value="total" begin="39" end="44" status="0" certainty="1" cui="C0439810" tui="T080" rank="797" code="NO-CODE" sourceType="RCD"/>
+<procedure value="total knee arthroplasty" begin="39" end="62" status="0" certainty="1" cui="C0371178" tui="T061" rank="765" code="NO-CODE" sourceType="CPT"/>
+<procedure value="knee arthroplasty" begin="45" end="62" status="0" certainty="1" cui="C0086511" tui="T061" rank="767" code="NO-CODE" sourceType="COSTAR"/>
+<procedure value="arthroplasty" begin="50" end="62" status="0" certainty="1" cui="C0003893;C0700235" tui="T061;T061" rank="797;622" code="NO-CODE" sourceType="MSH;HCDT"/>
+<procedure value="right;knee" begin="33;45" end="38;49" status="0" certainty="1" cui="C0230431;C1279571;C0517665;C2945672" tui="T023;T023;T058;T058" rank="765;765;328;150" code="NO-CODE" sourceType="SNM;SNOMEDCTUS;NOC;CHV"/>
+<anatomicalStructure value="knee" begin="45" end="49" status="0" certainty="1" cui="C0022742;C1963703;C1283838;C0022745" tui="T023;T029;T029;T030" rank="797;765;765;575" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="106" end="219" sentText="The previous components were removed and new tibial and femoral components were inserted and cemented into place.">
+<RelationSet id="674">
+<problem value="tibial" begin="151" end="157" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="675">
+<anatomicalStructure value="femoral" begin="162" end="169" status="0" certainty="0" cui="C0015811;C0039866;C1281586;C1279112" tui="T023;T029;T023;T023" rank="797;795;765;765" code="NO-CODE" sourceType="LCH;LCH;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="220" end="280" sentText="Should this be coded as a revision or replacement procedure?">
+<RelationSet id="676">
+<modifier value="coded;procedure" begin="235;270" end="240;279" status="0" certainty="0" cui="C1550373" tui="T170" rank="354" code="NO-CODE" sourceType="HL7V2.5"/>
+<modifier value="replacement" begin="258" end="269" status="0" certainty="0" cui="C0559956;C1555302" tui="T169;T078" rank="797;366" code="NO-CODE" sourceType="RCD;HL7V3.0"/>
+<procedure value="replacement procedure" begin="258" end="279" status="0" certainty="0" cui="C0035139" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="revision;procedure" begin="246;270" end="254;279" status="0" certainty="0" cui="C1527075;C0558347" tui="T061;T061" rank="797;766" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<procedure value="procedure" begin="270" end="279" status="0" certainty="0" cui="C0184661;C0025664;C2700391;C1948041;C3274430;C3538935;C3539779;C1546467" tui="T060,T061;T170;T052;T061;T058;T078;T170;T078" rank="792;789;576;575;572;571;571;366" code="NO-CODE" sourceType="MSH;MSH;NCI;NCI;NCI;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="282" end="567">
+<Sentence sentNo="4" begin="282" end="396" sentText="Answer: Since the components were removed and replaced, this procedure should be coded as a replacement procedure.">
+<RelationSet id="677">
+<modifier value="coded;procedure" begin="363;386" end="368;395" status="0" certainty="1" cui="C1550373" tui="T170" rank="354" code="NO-CODE" sourceType="HL7V2.5"/>
+<modifier value="replacement" begin="374" end="385" status="0" certainty="1" cui="C0559956;C1555302" tui="T169;T078" rank="797;366" code="NO-CODE" sourceType="RCD;HL7V3.0"/>
+<procedure value="replacement procedure" begin="374" end="395" status="0" certainty="1" cui="C0035139" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="procedure" begin="386" end="395" status="0" certainty="1" cui="C0184661;C0025664;C2700391;C1948041;C3274430;C3538935;C3539779;C1546467" tui="T060,T061;T170;T052;T061;T058;T078;T170;T078" rank="792;789;576;575;572;571;571;366" code="NO-CODE" sourceType="MSH;MSH;NCI;NCI;NCI;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="397" end="489" sentText="Additionally, the removal of the previously placed components should be separately reported.">
+</Sentence>
+<Sentence sentNo="6" begin="490" end="566" sentText="For the procedures performed, assign the following ICD-10-PCS codes: 0SRC0J9">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

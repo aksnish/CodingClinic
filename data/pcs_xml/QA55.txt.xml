@@ -1,0 +1,78 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="651">
+<Paragraph pgNo="1" begin="0" end="458">
+<Sentence sentNo="1" begin="0" end="94" sentText="Question: The patient had previously undergone open reduction internal fixation of a fracture.">
+<RelationSet id="1678">
+<modifier value="internal" begin="62" end="70" status="0" certainty="1" cui="C0205102;C1619620;C1553872" tui="T082;T170;T170" rank="797;366;366" code="NO-CODE" sourceType="RCD;HL7V3.0;HL7V3.0"/>
+<modifier value="open" begin="47" end="51" status="0" certainty="1" cui="C0175566;C1882151;C0547049" tui="T082;T082;T082" rank="797;797;767" code="NO-CODE" sourceType="RCD;NCI;RCD"/>
+<procedure value="open reduction internal fixation;fracture" begin="47;85" end="79;93" status="0" certainty="1" cui="C1297885" tui="T061" rank="767" code="NO-CODE" sourceType="MDR"/>
+<procedure value="open reduction;fixation;fracture" begin="47;71;85" end="61;79;93" status="0" certainty="1" cui="C0559689" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="internal fixation;fracture" begin="62;85" end="79;93" status="0" certainty="1" cui="C0016642" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="open reduction;fracture" begin="47;85" end="61;93" status="0" certainty="1" cui="C0185373;C1293154" tui="T061;T061" rank="797;767" code="NO-CODE" sourceType="MDR;SNOMEDCTUS"/>
+<procedure value="open reduction;fixation" begin="47;71" end="61;79" status="0" certainty="1" cui="C0545112" tui="T061" rank="767" code="NO-CODE" sourceType="SNM"/>
+<procedure value="reduction internal" begin="52" end="70" status="0" certainty="1" cui="C0745350" tui="T061" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="reduction;fracture" begin="52;85" end="61;93" status="0" certainty="1" cui="C1112432" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="fixation;fracture" begin="71;85" end="79;93" status="0" certainty="1" cui="C0016641" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="open reduction" begin="47" end="61" status="0" certainty="1" cui="C2370853" tui="T061" rank="797" code="NO-CODE" sourceType="SNM"/>
+<procedure value="reduction" begin="52" end="61" status="0" certainty="1" cui="C0441610;C0301630;C0392756;C0871877" tui="T061;T070;T080;T078" rank="765;716;575;289" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;NCI;PSY"/>
+<procedure value="fixation" begin="71" end="79" status="0" certainty="1" cui="C0185023;C1522662;C0728733" tui="T061;T059;T041" rank="767;576;475" code="NO-CODE" sourceType="RCD;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="1679">
+<problem value="fracture" begin="85" end="93" status="0" certainty="0" cui="C0016658;C1880851;C1963113" tui="T037;T067;T033" rank="797;562;551" code="NO-CODE" sourceType="ICPC2P;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="95" end="180" sentText="Three days post-discharge the patient is readmitted due to pain at the fracture site.">
+<RelationSet id="1680">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="fracture site" begin="166" end="179" status="0" certainty="0"/>
+<problem value="pain" begin="154" end="158" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="site" begin="175" end="179" status="0" certainty="0" cui="C0205145;C2945843;C2825164;C1515974;C1546778" tui="T082;T080;T082;T029;T170" rank="797;767;575;575;355" code="NO-CODE" sourceType="RCD;RCD;NCI;NCI;HL7V2.5"/>
+<problem value="pain" begin="154" end="158" status="0" certainty="0" cui="C0030193;C0234226;C1882272;C1557397;C0242936;C1549543" tui="T184;T169;T033;T033;T073,T093;T169" rank="797;767;551;551;366;355" code="NO-CODE" sourceType="ICPC2P;RCD;NCI;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="181" end="231" sentText="An x-ray noted improper alignment of the fracture.">
+<RelationSet id="1681">
+<procedure value="x-ray" begin="184" end="189" status="0" certainty="0" cui="C0034571;C0441950;C0043309;C0439122;C1706494;C1306645;C1962945;C1428870;C1419015;C1705107;C2981685;C1704751;C1704750;C0086894;C2314876;C3244296;C0851346" tui="T169;T170;T070;T170;T170;T060;T060;T028;T028;T081;T081;T082;T082;T013;T013;T170;T070" rank="789;767;767;767;767;765;765;587;587;563;540;519;519;475;428;366;150" code="NO-CODE" sourceType="MSH;RCD;SNM;RCD;SNOMEDCTUS;MDR;SNOMEDCTUS;HGNC;HGNC;NCI;NCI;NCI;NCI;CHV;NCBI;HL7V3.0;CHV"/>
+</RelationSet>
+<RelationSet id="1682">
+<problem value="fracture" begin="222" end="230" status="0" certainty="0" cui="C0016658;C1880851;C1963113" tui="T037;T067;T033" rank="797;562;551" code="NO-CODE" sourceType="ICPC2P;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="232" end="324" sentText="The internal fixation pins were revised to provide additional reinforcement to the fracture.">
+<RelationSet id="1683">
+<modifier value="internal" begin="236" end="244" status="0" certainty="0" cui="C0205102;C1619620;C1553872" tui="T082;T170;T170" rank="797;366;366" code="NO-CODE" sourceType="RCD;HL7V3.0;HL7V3.0"/>
+<procedure value="internal fixation;revised" begin="236;264" end="253;271" status="0" certainty="0" cui="C0856398" tui="T061" rank="644" code="NO-CODE" sourceType="MDR"/>
+<procedure value="internal fixation" begin="236" end="253" status="0" certainty="0" cui="C0016642" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="fixation" begin="245" end="253" status="0" certainty="0" cui="C0185023;C1522662;C0728733" tui="T061;T059;T041" rank="767;576;475" code="NO-CODE" sourceType="RCD;NCI;CHV"/>
+<procedure value="pins" begin="254" end="258" status="0" certainty="0" cui="C0021885;C0175718;C1168556;C1825012;C1428865;C1704584;C0282612" tui="T061;T074;T074;T028;T028;T074;T191" rank="765;765;686;596;587;575;530" code="NO-CODE" sourceType="SNMI;RCD;UMD;HGNC;HGNC;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="1684">
+<problem value="fracture" begin="315" end="323" status="0" certainty="0" cui="C0016658;C1880851;C1963113" tui="T037;T067;T033" rank="797;562;551" code="NO-CODE" sourceType="ICPC2P;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="325" end="457" sentText="Is improper alignment of the fracture synonymous with nonunion? Would this be coded as an initial encounter or subsequent encounter?">
+<RelationSet id="1685">
+<problem value="fracture" begin="354" end="362" status="0" certainty="0" cui="C0016658;C1880851;C1963113" tui="T037;T067;T033" rank="797;562;551" code="NO-CODE" sourceType="ICPC2P;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="459" end="650">
+<Sentence sentNo="6" begin="459" end="529" sentText="Answer: The patient presented with improper alignment of the fracture.">
+<RelationSet id="1686">
+<problem value="fracture" begin="520" end="528" status="0" certainty="0" cui="C0016658;C1880851;C1963113" tui="T037;T067;T033" rank="797;562;551" code="NO-CODE" sourceType="ICPC2P;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="530" end="568" sentText="It was not a nonunion of the fracture.">
+<RelationSet id="1687">
+<problem value="nonunion;fracture" begin="543;559" end="551;567" status="0" certainty="-2" cui="C0016665" tui="T046" rank="767" code="NO-CODE" sourceType="MDR"/>
+<problem value="fracture" begin="559" end="567" status="0" certainty="-2" cui="C0016658;C1880851;C1963113" tui="T037;T067;T033" rank="797;562;551" code="NO-CODE" sourceType="ICPC2P;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="569" end="647" sentText="This is still active treatment, so assign 7th character “A” initial encounter.">
+</Sentence>
+<Sentence sentNo="9" begin="648" end="649" sentText=" ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

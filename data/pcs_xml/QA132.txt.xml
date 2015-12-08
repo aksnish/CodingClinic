@@ -1,0 +1,92 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="769">
+<Paragraph pgNo="1" begin="0" end="386">
+<Sentence sentNo="1" begin="0" end="93" sentText="Question: A patient was admitted for right hip hemiarthroplasty due to femoral neck fracture.">
+<RelationSet id="257">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="right" begin="37" end="42" status="0" certainty="1"/>
+<problem value="femoral neck fracture" begin="71" end="92" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="hip hemiarthroplasty" begin="43" end="63" status="0" certainty="1"/>
+<modifier value="right" begin="37" end="42" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="femoral neck fracture" begin="71" end="92" status="0" certainty="0"/>
+<procedure value="hip hemiarthroplasty" begin="43" end="63" status="0" certainty="1"/>
+<modifier value="right" begin="37" end="42" status="0" certainty="1"/>
+</Relation>
+<procedure value="hip hemiarthroplasty" begin="43" end="63" status="0" certainty="1" cui="C0186193;C1112760" tui="T061;T061" rank="765;644" code="NO-CODE" sourceType="MDR;MDR"/>
+<procedure value="hemiarthroplasty" begin="47" end="63" status="0" certainty="1" cui="C0003893;C0744743;C0700235" tui="T061;T061;T061" rank="797;795;622" code="NO-CODE" sourceType="CCS;CCPSS;HCDT"/>
+<procedure value="right hip" begin="37" end="46" status="0" certainty="1" cui="C0524470;C1268233;C0517667;C2945670" tui="T029;T029;T058;T058" rank="765;765;328;150" code="NO-CODE" sourceType="SNMI;SNOMEDCTUS;NOC;CHV"/>
+<anatomicalStructure value="hip" begin="43" end="46" status="0" certainty="1" cui="C0019552;C1423009;C1335638;C1337104;C1538823;C0529134;C1430701;C3538851;C1704840;C0022122;C1709823" tui="T023;T028;T028;T028;T028;T116,T123;T116,T123;T028;T028;T023;T028" rank="795;600;596;596;587;575;575;575;575;575;575" code="NO-CODE" sourceType="SNM;HGNC;HGNC;HGNC;HGNC;NCI;NCI;NCI;NCI;HL7V2.5;NCI"/>
+<modifier value="right;femoral;fracture" begin="37;71;84" end="42;78;92" status="0" certainty="1" cui="C2900746;C2896751;C2900990;C2900725" tui="t047;t047;t047;t047" rank="800;800;800;800" code="NO-CODE" sourceType="ICD10CM;ICD10CM;ICD10CM;ICD10CM"/>
+<modifier value="right" begin="37" end="42" status="0" certainty="1" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+<problem value="femoral neck fracture" begin="71" end="92" status="0" certainty="0" cui="C0015806" tui="T037" rank="795" code="NO-CODE" sourceType="NDFRT"/>
+<problem value="femoral;fracture" begin="71;84" end="78;92" status="0" certainty="0" cui="C0015802" tui="T037" rank="795" code="NO-CODE" sourceType="COSTAR"/>
+<problem value="neck fracture" begin="79" end="92" status="0" certainty="0" cui="C0262414" tui="T037" rank="765" code="NO-CODE" sourceType="ICD10"/>
+<problem value="fracture" begin="84" end="92" status="0" certainty="0" cui="C0016658;C1880851;C1963113" tui="T037;T067;T033" rank="797;562;551" code="NO-CODE" sourceType="ICPC2P;NCI;NCI"/>
+<anatomicalStructure value="right;femoral" begin="37;71" end="42;78" status="0" certainty="0" cui="C1279548;C0230425;C0817319" tui="T023;T023;T023" rank="765;765;692" code="NO-CODE" sourceType="SNOMEDCTUS;SNM;UWDA"/>
+<anatomicalStructure value="femoral neck" begin="71" end="83" status="0" certainty="0" cui="C0015815" tui="T023" rank="795" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="femoral" begin="71" end="78" status="0" certainty="0" cui="C0015811;C0039866;C1281586;C1279112" tui="T023;T029;T023;T023" rank="797;795;765;765" code="NO-CODE" sourceType="LCH;LCH;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="neck" begin="79" end="83" status="0" certainty="0" cui="S0001902;C0027530;C0205064;C0027536;C1281592;C2137077" tui="t061;T029;T082;T054;T023;T033" rank="800;797;797;767;765;592" code="NO-CODE" sourceType="EZDI;CST;RCD;SNM;SNOMEDCTUS;MEDCIN"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="94" end="206" sentText="While in the post-anesthesia care unit, postoperative radiographs revealed a loose cement fragment in the joint.">
+<RelationSet id="258">
+<procedure value="anesthesia" begin="112" end="122" status="0" certainty="0" cui="C0002903;C0278134;C2219802;C1546907" tui="T061;T184;T033;T169" rank="795;765;592;355" code="NO-CODE" sourceType="LCH;SNMI;MEDCIN;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="259">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="joint" begin="200" end="205" status="0" certainty="0"/>
+<problem value="loose cement fragment" begin="171" end="192" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="joint" begin="200" end="205" status="0" certainty="0" cui="C0521339;C0022417;C0444497;C0392905;C1269611;C1706309" tui="T169;T030;T082;T022;T030;T074" rank="797;797;767;765;765;575" code="NO-CODE" sourceType="SNMI;MSH;RCD;ICF;RCD;NCI"/>
+<problem value="fragment" begin="184" end="192" status="0" certainty="0" cui="C1708096;C0392767;C0486805;C0332255;C0332472;C0185061;C1881708;C1547179" tui="T080;T169;T031;T169;T190;T061;T067;T078" rank="797;797;797;767;767;711;561;355" code="NO-CODE" sourceType="NCI;SNMI;LNC;SNMI;SNOMEDCTUS;RCD;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="207" end="294" sentText="The patient was returned to surgery for exploration and removal of the cement fragment.">
+<RelationSet id="260">
+<procedure value="surgery" begin="235" end="242" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="261">
+<procedure value="fragment" begin="285" end="293" status="0" certainty="0" cui="C1708096;C0392767;C0486805;C0332255;C0332472;C0185061;C1881708;C1547179" tui="T080;T169;T031;T169;T190;T061;T067;T078" rank="797;797;797;767;767;711;561;355" code="NO-CODE" sourceType="NCI;SNMI;LNC;SNMI;SNOMEDCTUS;RCD;NCI;HL7V2.5"/>
+<procedure value="removal" begin="263" end="270" status="0" certainty="0" cui="C0015252;C0728940;C1883720;C1548394;C3244314;C0849355" tui="T061;T061;T052;T170;T169;T080" rank="767;716;576;366;366;151" code="NO-CODE" sourceType="RCD;NCI;ICPC2P;HL7V3.0;HL7V3.0;CHV"/>
+<procedure value="cement" begin="278" end="284" status="0" certainty="0" cui="C0007656;C1704479;C0441496;C0303744;C0011343;C1706094" tui="T061;T122;T061;T073;T023;T122" rank="795;776;765;724;692;575" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;RCD;SNOMEDCTUS;UWDA;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="295" end="385" sentText="What is the ICD-10-CM code assignment for the retained loose bone cement of the right hip?">
+<RelationSet id="262">
+<anatomicalStructure value="bone;hip" begin="356;381" end="360;384" status="0" certainty="0" cui="C0030786" tui="T023" rank="797" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="cement" begin="361" end="367" status="0" certainty="0" cui="C0007656;C1704479;C0441496;C0303744;C0011343;C1706094" tui="T061;T122;T061;T073;T023;T122" rank="795;776;765;724;692;575" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;RCD;SNOMEDCTUS;UWDA;NCI"/>
+<anatomicalStructure value="bone" begin="356" end="360" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="263">
+<modifier value="right" begin="375" end="380" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="264">
+<anatomicalStructure value="right hip" begin="375" end="384" status="0" certainty="0" cui="C0524470;C1268233;C0517667;C2945670" tui="T029;T029;T058;T058" rank="765;765;328;150" code="NO-CODE" sourceType="SNMI;SNOMEDCTUS;NOC;CHV"/>
+<anatomicalStructure value="hip" begin="381" end="384" status="0" certainty="0" cui="C0019552;C1423009;C1335638;C1337104;C1538823;C0529134;C1430701;C3538851;C1704840;C0022122;C1709823" tui="T023;T028;T028;T028;T028;T116,T123;T116,T123;T028;T028;T023;T028" rank="795;600;596;596;587;575;575;575;575;575;575" code="NO-CODE" sourceType="SNM;HGNC;HGNC;HGNC;HGNC;NCI;NCI;NCI;NCI;HL7V2.5;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="387" end="768">
+<Sentence sentNo="5" begin="387" end="526" sentText="Answer: Assign code T81.590A, Other complication of foreign body accidentally left in body following surgical operation, Initial encounter.">
+<RelationSet id="265">
+<modifier value="operation" begin="497" end="506" status="0" certainty="0" cui="C3241922;C1880161;C3244306;C3244305" tui="T052;T066;T170;T169" rank="576;575;366;366" code="NO-CODE" sourceType="NCI;NCI;HL7V3.0;HL7V3.0"/>
+<procedure value="surgical" begin="488" end="496" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C1552276;C0582175;C1555455;C1552386;C1547138" tui="T169;T091;T058;T078;T097;T097;T078;T097;T078" rank="794;791;767;571;366;366;366;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V3.0;HL7V3.0;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="527" end="634" sentText="In ICD-10-CM, the accidental retention of a foreign body following surgery is classified as a complication.">
+<RelationSet id="266">
+<anatomicalStructure value="body" begin="579" end="583" status="0" certainty="0" cui="S1000390;C1268086;C1551342;C0242821" tui="t061;T017;T078;T016" rank="800;753;575;151" code="NO-CODE" sourceType="EZDI;NCI;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="267">
+<procedure value="surgery" begin="594" end="601" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="635" end="767" sentText="Even though there was no immediate problem resulting from the retained cement in this case, it is reported with a complication code.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

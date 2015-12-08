@@ -1,0 +1,12 @@
+README
+
+pg1404.txt - text of the federalist papers as downloaded from:
+ http://www.gutenberg.org/cache/epub/1404/pg1404.txt
+
+PROJECT_GUTENBERG_LICENSE.txt - licence (exceprted from end of text file)
+
+munge_fedpapers.sh - shell script that creates sub-directory called "texts"
+ and populates it with the individual papers, 1 per file, filename is "paper_XX.txt"
+
+
+

@@ -1,0 +1,69 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="402">
+<Paragraph pgNo="1" begin="0" end="235">
+<Sentence sentNo="1" begin="0" end="166" sentText="Question: A patient presents for an audiogram and is found to have bilateral high frequency sensorineural hearing loss, as well as left-sided conductive hearing loss.">
+<RelationSet id="1186">
+<procedure value="audiogram" begin="36" end="45" status="0" certainty="1" cui="C0018786" tui="T060" rank="767" code="NO-CODE" sourceType="MDR"/>
+</RelationSet>
+<RelationSet id="1187">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="frequency sensorineural hearing loss" begin="82" end="118" status="0" certainty="1"/>
+<modifier value="high" begin="77" end="81" status="0" certainty="1"/>
+</Relation>
+<problem value="found;bilateral;sensorineural hearing loss" begin="53;67;92" end="58;76;118" status="0" certainty="1" cui="C0452138" tui="T047" rank="800" code="NO-CODE" sourceType="ICD10"/>
+<problem value="sensorineural hearing loss" begin="92" end="118" status="0" certainty="1" cui="C0018784" tui="T047" rank="795" code="NO-CODE" sourceType="NDFRT"/>
+<problem value="high frequency;hearing loss" begin="77;106" end="91;118" status="0" certainty="1" cui="C0018780" tui="T047" rank="795" code="NO-CODE" sourceType="MSH"/>
+<problem value="found;bilateral;hearing loss" begin="53;67;106" end="58;76;118" status="0" certainty="1" cui="C0018775" tui="T047" rank="795" code="NO-CODE" sourceType="NDFRT"/>
+<modifier value="bilateral high frequency sensorineural hearing loss" begin="67" end="118" status="0" certainty="1" cui="C0452138" tui="t047" rank="800" code="NO-CODE" sourceType="ICD10CM"/>
+<modifier value="high frequency sensorineural hearing loss" begin="77" end="118" status="0" certainty="1" cui="C1691779" tui="t047" rank="800" code="NO-CODE" sourceType="ICD10CM"/>
+<modifier value="high frequency" begin="77" end="91" status="0" certainty="1" cui="C0205212" tui="T079" rank="767" code="NO-CODE" sourceType="RCD"/>
+<modifier value="high" begin="77" end="81" status="0" certainty="1" cui="C1522410;C0205250;C2700149;C1299351;C1561957;C1561958" tui="T080;T080;T170;T080;T081;T078" rank="797;797;572;366;366;366" code="NO-CODE" sourceType="NCI;RCD;NCI;HL7V3.0;HL7V3.0;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1188">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="sided" begin="136" end="141" status="0" certainty="0"/>
+<problem value="conductive hearing loss" begin="142" end="165" status="0" certainty="0"/>
+</Relation>
+<modifier value="sided" begin="136" end="141" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<problem value="left;conductive hearing loss" begin="131;142" end="135;165" status="0" certainty="0" cui="C2881941;C2107100" tui="t047;T047" rank="800;767" code="NO-CODE" sourceType="ICD10CM;SNOMEDCTUS"/>
+<problem value="conductive hearing loss" begin="142" end="165" status="0" certainty="0" cui="C0018777" tui="T047" rank="797" code="NO-CODE" sourceType="NDFRT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="167" end="234" sentText="What is the appropriate diagnosis code assignment for this patient?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="236" end="401">
+<Sentence sentNo="3" begin="236" end="400" sentText="Answer: Assign code H90.6, Mixed conductive and sensorineural hearing loss, bilateral, for a patient with different types of hearing loss in the right and left ear.">
+<RelationSet id="1188">
+<problem value="0.6, Mixed conductive and sensorineural hearing loss, bila" begin="258" end="316" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1189">
+<problem value="sensorineural hearing loss" begin="284" end="310" status="0" certainty="0" cui="C0018784" tui="T047" rank="795" code="NO-CODE" sourceType="NDFRT"/>
+</RelationSet>
+<RelationSet id="1189">
+<modifier value="bilateral" begin="312" end="321" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1190">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="hearing loss" begin="361" end="373" status="0" certainty="0"/>
+<anatomicalStructure value="ear" begin="396" end="399" status="0" certainty="0"/>
+<modifier value="right" begin="381" end="386" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="hearing loss" begin="361" end="373" status="0" certainty="0"/>
+<anatomicalStructure value="ear" begin="396" end="399" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="hearing loss" begin="361" end="373" status="0" certainty="0"/>
+<modifier value="right" begin="381" end="386" status="0" certainty="0"/>
+</Relation>
+<modifier value="hearing loss;right" begin="361;381" end="373;386" status="0" certainty="0" cui="C2881962" tui="t047" rank="800" code="NO-CODE" sourceType="ICD10CM"/>
+<modifier value="types;right" begin="352;381" end="357;386" status="0" certainty="0" cui="C0562353" tui="T170" rank="767" code="NO-CODE" sourceType="RCD"/>
+<modifier value="right" begin="381" end="386" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+<anatomicalStructure value="left ear" begin="391" end="399" status="0" certainty="0" cui="C1289055;C0229299;C2127178" tui="T023;T023;T184" rank="765;765;592" code="NO-CODE" sourceType="SNOMEDCTUS;SNM;MEDCIN"/>
+<anatomicalStructure value="ear" begin="396" end="399" status="0" certainty="0" cui="C0521422;C0013443;C0521421;C1418197;C1414437;C1522191;C1272926;C1550629;C1546608" tui="T082;T023;T023;T028;T028;T169;T122;T031;T170" rank="797;795;765;596;587;575;575;366;355" code="NO-CODE" sourceType="SNMI;MSH;RCD;HGNC;HGNC;SNOMEDCTUS;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,93 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1053">
+<Paragraph pgNo="1" begin="0" end="134">
+<Sentence sentNo="1" begin="0" end="133" sentText="Question: What is the correct ICD-10-PCS code for bilateral cystourethroscopic Deflux injection to treat vesicoureteral reflux (VUR)?">
+<RelationSet id="793">
+<modifier value="vesicoureteral" begin="105" end="119" status="0" certainty="0" cui="S1001686" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+</RelationSet>
+<RelationSet id="794">
+<problem value="vesicoureteral reflux" begin="105" end="126" status="0" certainty="0" cui="C0042580" tui="T047" rank="790" code="NO-CODE" sourceType="COSTAR"/>
+<problem value="reflux" begin="120" end="126" status="0" certainty="0" cui="C0232483;C1882919;C0017168" tui="T046;T067;T047" rank="797;561;530" code="NO-CODE" sourceType="CHV;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="795">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="bilateral" begin="50" end="59" status="0" certainty="1"/>
+<procedure value="cystourethroscopic Deflux injection" begin="60" end="95" status="0" certainty="1"/>
+</Relation>
+<modifier value="bilateral" begin="50" end="59" status="0" certainty="1" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<procedure value="cystourethroscopic;treat" begin="60;99" end="78;104" status="0" certainty="1" cui="C0010707" tui="T060" rank="765" code="NO-CODE" sourceType="MDR"/>
+<procedure value="cystourethroscopic" begin="60" end="78" status="0" certainty="1" cui="S0001895;C3669151;C3669152" tui="t061;T061;T061" rank="800;353;353" code="NO-CODE" sourceType="EZDI;CPT;CPT"/>
+<procedure value="injection" begin="86" end="95" status="0" certainty="1" cui="C1828121;C1272883;C1533685;C0021485" tui="T169;T122;T061;T061" rank="795;767;767;151" code="NO-CODE" sourceType="MSH;NCI;ICPC2P;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="135" end="1052">
+<Sentence sentNo="2" begin="135" end="219" sentText="Answer: Deflux injection is an endoscopic treatment for vesicoureteral reflux (VUR).">
+<RelationSet id="796">
+<procedure value="injection" begin="150" end="159" status="0" certainty="0" cui="C1828121;C1272883;C1533685;C0021485" tui="T169;T122;T061;T061" rank="795;767;767;151" code="NO-CODE" sourceType="MSH;NCI;ICPC2P;CHV"/>
+</RelationSet>
+<RelationSet id="797">
+<modifier value="endoscopic treatment" begin="166" end="186" status="0" certainty="0" cui="S0000455" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="endoscopic" begin="166" end="176" status="0" certainty="0" cui="C0014245;C0442418;C1552424" tui="T060;T082;T073,T093" rank="795;711;366" code="NO-CODE" sourceType="ICPC2P;SNOMEDCTUS;HL7V3.0"/>
+<procedure value="treatment" begin="177" end="186" status="0" certainty="0" cui="C0087111;C0039798;C1522326;C1705169;C1533734;C3161471;C3538994" tui="T061;T169;T169;T077;T061;T062;T062" rank="792;789;575;575;575;572;572" code="NO-CODE" sourceType="NCI;HL7V3.0;NCI;NCI;NCI;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="798">
+<problem value="vesicoureteral reflux;VUR" begin="191;214" end="212;217" status="0" certainty="0" cui="C0042580" tui="T047" rank="790" code="NO-CODE" sourceType="COSTAR"/>
+<problem value="reflux" begin="206" end="212" status="0" certainty="0" cui="C0232483;C1882919;C0017168" tui="T046;T067;T047" rank="797;561;530" code="NO-CODE" sourceType="CHV;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="220" end="351" sentText="During surgery, a bulking agent (i.e., Deflux) is injected into the lining of the bladder where the ureter enters into the bladder.">
+<RelationSet id="799">
+<procedure value="surgery" begin="227" end="234" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="801">
+<procedure value="injected;bladder" begin="270;302" end="278;309" status="0" certainty="0" cui="C1293624" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="802">
+<anatomicalStructure value="bladder" begin="302" end="309" status="0" certainty="0" cui="C0005682;C1281573;C0205058;C0496930;C0154017;C0154091;C1511200;C0872388" tui="T023;T023;T082;T191;T191;T191;T024;T061" rank="791;765;703;610;610;610;571;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;SNMI;ICD10;ICD10;ICD10;NCI;ICD10AM"/>
+</RelationSet>
+<RelationSet id="803">
+<anatomicalStructure value="ureter" begin="320" end="326" status="0" certainty="0" cui="C0041951;C1281572;C0154016;C0496928;C1522613;C0869844" tui="T023;T023;T191;T191;T169;T058" rank="797;765;610;610;575;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM"/>
+</RelationSet>
+<RelationSet id="804">
+<anatomicalStructure value="bladder" begin="343" end="350" status="0" certainty="0" cui="C0005682;C1281573;C0205058;C0496930;C0154017;C0154091;C1511200;C0872388" tui="T023;T023;T082;T191;T191;T191;T024;T061" rank="791;765;703;610;610;610;571;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;SNMI;ICD10;ICD10;ICD10;NCI;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="352" end="465" sentText="The injected agent breaks down over time, but there is a permanent bulge of tissue which serves as the new valve.">
+<RelationSet id="805">
+<anatomicalStructure value="tissue" begin="428" end="434" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="466" end="606" sentText="The urine can still pass from the ureter into the bladder, but because of the new valve, the urine cannot freely flow back into the ureters.">
+<RelationSet id="806">
+<anatomicalStructure value="ureter" begin="500" end="506" status="0" certainty="0" cui="C0041951;C1522613" tui="T023;T169" rank="767;575" code="NO-CODE" sourceType="RCD;NCI"/>
+</RelationSet>
+<RelationSet id="807">
+<anatomicalStructure value="bladder" begin="516" end="523" status="0" certainty="0" cui="C0005682;C1281573;C0205058;C0496930;C0154017;C0154091;C1511200;C0872388" tui="T023;T023;T082;T191;T191;T191;T024;T061" rank="791;765;703;610;610;610;571;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;SNMI;ICD10;ICD10;ICD10;NCI;ICD10AM"/>
+</RelationSet>
+<RelationSet id="808">
+<anatomicalStructure value="ureters" begin="598" end="605" status="0" certainty="-2" cui="C0041951;C1281572;C0154016;C0496928;C1522613;C0869844" tui="T023;T023;T191;T191;T169;T058" rank="797;765;610;610;563;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="607" end="761" sentText="Normally these types of injections are not coded in the inpatient setting, and substances injected during an operative procedure are not coded separately.">
+<RelationSet id="809">
+<procedure value="injections" begin="631" end="641" status="0" certainty="0" cui="C1828121;C1533685;C0021485" tui="T169;T061;T061" rank="795;748;150" code="NO-CODE" sourceType="MSH;LCH;CHV"/>
+</RelationSet>
+<RelationSet id="810">
+<procedure value="substances injected" begin="686" end="705" status="0" certainty="-2" cui="C0559599;C0449894;C0683092" tui="T061;T169;T121" rank="767;767;481" code="NO-CODE" sourceType="RCD;RCD;AOD"/>
+<procedure value="injected;procedure" begin="697;726" end="705;735" status="0" certainty="-2" cui="C1533685;C1828121;C0021485" tui="T061;T169;T061" rank="797;576;353" code="NO-CODE" sourceType="RCD;NCI;CPT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="762" end="884" sentText="The objective of the procedure is to restrict an abnormally wide opening, and the correct root operation is “Restriction.”">
+</Sentence>
+<Sentence sentNo="8" begin="885" end="1004" sentText="Therefore the Deflux injection is considered part of the procedure, and is not considered a device for coding purposes.">
+<RelationSet id="811">
+<modifier value="injection" begin="906" end="915" status="0" certainty="0" cui="C1272883" tui="T122" rank="767" code="NO-CODE" sourceType="NCI"/>
+<procedure value="injection;procedure" begin="906;942" end="915;951" status="0" certainty="0" cui="C1533685;C1828121;C0021485" tui="T061;T169;T061" rank="797;795;353" code="NO-CODE" sourceType="ICPC2P;MSH;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="1005" end="1051" sentText="Assign the following ICD-10-PCS codes: 0TV68ZZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

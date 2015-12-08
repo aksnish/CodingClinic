@@ -1,0 +1,2 @@
+Question: The patient presents for decompressive lumbar laminectomy. The surgeon performed an open complete decompressive laminectomy of L3-L4, as well as superior partial laminectomy of L5, and inferior partial laminectomy of L2. What is the appropriate root operation, “Excision” or “Release”? How is this surgery coded in ICD-10-PCS? 
+Answer: Decompressive laminectomy is done to release pressure and free up the spinal nerve root. Therefore the appropriate root operation is “Release.” Assign the following ICD-10-PCS code: 01NB0ZZ 

@@ -1,0 +1,111 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="901">
+<Paragraph pgNo="1" begin="0" end="267">
+<Sentence sentNo="1" begin="0" end="80" sentText="Question: A patient with angina was seen for percutaneous coronary intervention.">
+<RelationSet id="899">
+<problem value="angina" begin="25" end="31" status="0" certainty="1" cui="C0002962;C2024883" tui="T184;T033" rank="765;592" code="NO-CODE" sourceType="CCPSS;MEDCIN"/>
+</RelationSet>
+<RelationSet id="900">
+<modifier value="percutaneous" begin="45" end="57" status="0" certainty="1" cui="C0522523;C0221912;C1522243;C1522447" tui="T082;T082;T169;T169" rank="797;797;575;575" code="NO-CODE" sourceType="RCD;SNMI;NCI;NCI"/>
+<modifier value="coronary" begin="58" end="66" status="0" certainty="1" cui="C1522318" tui="T082" rank="797" code="NO-CODE" sourceType="NCI"/>
+<procedure value="percutaneous coronary intervention" begin="45" end="79" status="0" certainty="1" cui="C1532338" tui="T061" rank="797" code="NO-CODE" sourceType="MDR"/>
+<procedure value="intervention" begin="67" end="79" status="0" certainty="1" cui="C2183254;C1273869;C1948041;C3274035;C3542921;C0886296" tui="T033;T058;T061;T062;T185;T058" rank="592;586;575;572;572;151" code="NO-CODE" sourceType="MEDCIN;LNC;NCI;NCI;NCI;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="81" end="194" sentText="The procedure was aborted after several unsuccessful attempts to cross an occlusion at the right coronary artery.">
+<RelationSet id="901">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="right" begin="172" end="177" status="0" certainty="0"/>
+<problem value="occlusion" begin="155" end="164" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="coronary artery" begin="178" end="193" status="0" certainty="0"/>
+<modifier value="right" begin="172" end="177" status="0" certainty="0"/>
+<problem value="occlusion" begin="155" end="164" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="coronary artery" begin="178" end="193" status="0" certainty="0"/>
+<problem value="occlusion" begin="155" end="164" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="right coronary artery" begin="172" end="193" status="0" certainty="0" cui="C1261316" tui="T023" rank="765" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="coronary artery" begin="178" end="193" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="187" end="193" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<modifier value="right" begin="172" end="177" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+<problem value="occlusion;right coronary artery" begin="155;172" end="164;193" status="0" certainty="0" cui="C1290385" tui="T047" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="occlusion;coronary" begin="155;178" end="164;186" status="0" certainty="0" cui="C0151814" tui="T047" rank="795" code="NO-CODE" sourceType="CST"/>
+<problem value="occlusion;artery" begin="155;187" end="164;193" status="0" certainty="0" cui="C0264995" tui="T046" rank="767" code="NO-CODE" sourceType="CHV"/>
+<problem value="occlusion" begin="155" end="164" status="0" certainty="0" cui="C0441597;C0028778;C1947917;C0011382;C1882137" tui="T169;T046;T169;T042;T067" rank="765;765;702;575;561" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;MDR;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="195" end="231" sentText="The coronary vessel was not dilated.">
+<RelationSet id="902">
+<anatomicalStructure value="coronary vessel" begin="199" end="214" status="0" certainty="0" cui="C0010075" tui="T023" rank="795" code="NO-CODE" sourceType="PSY"/>
+<anatomicalStructure value="vessel" begin="208" end="214" status="0" certainty="0" cui="C0042591;C0148346;C0005847;C1511228;C0702235" tui="T029;T118,T121;T023;T024;T109,T121" rank="767;722;701;571;520" code="NO-CODE" sourceType="RCD;MTH;LNC;NCI;PDQ"/>
+</RelationSet>
+<RelationSet id="902">
+<finding value="dilated" begin="223" end="230" status="0" certainty="-2" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="232" end="266" sentText="How should the procedure be coded?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="268" end="900">
+<Sentence sentNo="5" begin="268" end="537" sentText="Answer: Per the ICD-10-PCS Official Guidelines for Coding and Reporting for discontinued procedures B3.3, “If a procedure is discontinued before any other root operation is performed, code the root operation Inspection for the body part or anatomical region inspected.”">
+<RelationSet id="903">
+<procedure value="operation" begin="428" end="437" status="0" certainty="-3" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="904">
+<modifier value="Inspection" begin="476" end="486" status="0" certainty="0" cui="C0199219" tui="T169" rank="767" code="NO-CODE" sourceType="LCH"/>
+<procedure value="operation" begin="466" end="475" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+<anatomicalStructure value="root" begin="461" end="465" status="0" certainty="0" cui="S1001239;C1318154;C0242726;C0563017;C0040452;C1705917" tui="t061;T023;T002;T033;T023;T078" rank="800;797;765;765;576;575" code="NO-CODE" sourceType="EZDI;LNC;RCD;RCD;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="538" end="682" sentText="The correct body part value is “Heart” rather than “Great Vessels,” because the coronary arteries are the arteries that supply the heart muscle.">
+<RelationSet id="905">
+<anatomicalStructure value="coronary;arteries" begin="618;644" end="626;652" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="arteries" begin="627" end="635" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="906">
+<anatomicalStructure value="arteries;muscle" begin="644;675" end="652;681" status="0" certainty="0" cui="C0226002" tui="T023" rank="765" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="arteries" begin="644" end="652" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="907">
+<anatomicalStructure value="heart muscle" begin="669" end="681" status="0" certainty="0" cui="C0027061" tui="T024" rank="791" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="muscle" begin="675" end="681" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+<anatomicalStructure value="heart" begin="669" end="674" status="0" certainty="0" cui="C0018787;C1281570;C0153500;C0153957" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="AIR;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="683" end="787" sentText="The great vessels are the large arteries and veins that attach to the atria and ventricles of the heart.">
+<RelationSet id="908">
+<anatomicalStructure value="great vessels" begin="687" end="700" status="0" certainty="0" cui="C1282845;C0225991" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;LNC"/>
+<anatomicalStructure value="vessels;large" begin="693;709" end="700;714" status="0" certainty="0" cui="C0225990" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="vessels" begin="693" end="700" status="0" certainty="0" cui="C0042591;C0148346;C0005847;C1511228" tui="T029;T118,T121;T023;T024" rank="767;722;701;571" code="NO-CODE" sourceType="RCD;MTH;LNC;NCI"/>
+</RelationSet>
+<RelationSet id="909">
+<modifier value="large" begin="709" end="714" status="0" certainty="0" cui="C0549177;C0443228;C1704243;C1416798" tui="T081;T081;T081;T028" rank="797;797;765;596" code="NO-CODE" sourceType="RCD;NCI;SNMI;HGNC"/>
+</RelationSet>
+<RelationSet id="910">
+<anatomicalStructure value="large arteries" begin="709" end="723" status="0" certainty="0" cui="C1282824;C0226003;C0226008" tui="T023;T023;T023" rank="765;765;150" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS;CHV"/>
+<anatomicalStructure value="arteries" begin="715" end="723" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="911">
+<anatomicalStructure value="veins" begin="728" end="733" status="0" certainty="0" cui="C0042449;C1278960;C0398102" tui="T023;T023;T061" rank="797;765;373" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10AM"/>
+</RelationSet>
+<RelationSet id="912">
+<anatomicalStructure value="atria" begin="753" end="758" status="0" certainty="0" cui="C0018792;C1280619;C0524422" tui="T023;T023;T023" rank="797;765;150" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;CHV"/>
+</RelationSet>
+<RelationSet id="913">
+<anatomicalStructure value="ventricles;heart" begin="763;781" end="773;786" status="0" certainty="0" cui="C0018827;C0869737" tui="T023;T061" rank="797;373" code="NO-CODE" sourceType="MSH;ICD10AM"/>
+<anatomicalStructure value="ventricles" begin="763" end="773" status="0" certainty="0" cui="C2355627;C0007799" tui="T023;T030" rank="797;575" code="NO-CODE" sourceType="FMA;NCI"/>
+</RelationSet>
+<RelationSet id="914">
+<anatomicalStructure value="heart" begin="781" end="786" status="0" certainty="0" cui="C0018787;C1281570;C0153500;C0153957" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="AIR;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="788" end="854" sentText="In this case, “dilation” is not coded, since it was not performed.">
+</Sentence>
+<Sentence sentNo="9" begin="855" end="900" sentText="Assign the following ICD-10-PCS code: 02JA3ZZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

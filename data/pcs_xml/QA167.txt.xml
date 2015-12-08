@@ -1,0 +1,44 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="298">
+<Paragraph pgNo="1" begin="0" end="103">
+<Sentence sentNo="1" begin="0" end="102" sentText="Question: What is the appropriate code assignment for acute inflammatory demyelinating polyneuropathy?">
+<RelationSet id="2303">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="inflammatory demyelinating polyneuropathy" begin="60" end="101" status="0" certainty="1"/>
+<modifier value="acute" begin="54" end="59" status="0" certainty="1"/>
+</Relation>
+<modifier value="acute" begin="54" end="59" status="0" certainty="1" cui="C0205178;C1547229;C1547295" tui="T079;T170;T170" rank="797;355;355" code="NO-CODE" sourceType="RCD;HL7V2.5;HL7V2.5"/>
+<problem value="acute inflammatory demyelinating polyneuropathy" begin="54" end="101" status="0" certainty="1" cui="C2875304;C0018378;C3542501" tui="t047;T047;T047" rank="800;791;767" code="NO-CODE" sourceType="ICD10CM;RCD;SNOMEDCTUS"/>
+<problem value="demyelinating polyneuropathy" begin="73" end="101" status="0" certainty="1" cui="C0270922" tui="T047" rank="765" code="NO-CODE" sourceType="CHV"/>
+<problem value="inflammatory;polyneuropathy" begin="60;87" end="72;101" status="0" certainty="1" cui="C0270933;C0032541;C0477402" tui="T047;T047;T047" rank="767;765;595" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10"/>
+<problem value="polyneuropathy" begin="87" end="101" status="0" certainty="1" cui="C0442874;C0152025" tui="T047;T047" rank="797;797" code="NO-CODE" sourceType="ICPC2P;COSTAR"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="104" end="297">
+<Sentence sentNo="2" begin="104" end="208" sentText="Answer: Assign code G61.0, Guillain-Barre syndrome, for acute inflammatory demyelinating polyneuropathy.">
+<RelationSet id="2304">
+<problem value="Guillain-Barre syndrome" begin="131" end="154" status="0" certainty="0" cui="C0018378" tui="T047" rank="797" code="NO-CODE" sourceType="MSH"/>
+<problem value="syndrome" begin="146" end="154" status="0" certainty="0" cui="C0039082;C1558916" tui="T047;T033" rank="797;551" code="NO-CODE" sourceType="LCH;NCI"/>
+</RelationSet>
+<RelationSet id="2305">
+<problem value="acute inflammatory demyelinating polyneuropathy" begin="160" end="207" status="0" certainty="0" cui="C2875304;C3542501" tui="t047;T047" rank="800;767" code="NO-CODE" sourceType="ICD10CM;SNOMEDCTUS"/>
+<problem value="acute inflammatory;polyneuropathy" begin="160;193" end="178;207" status="0" certainty="0" cui="C0018378" tui="T047" rank="791" code="NO-CODE" sourceType="RCD"/>
+<problem value="demyelinating polyneuropathy" begin="179" end="207" status="0" certainty="0" cui="C0270922" tui="T047" rank="765" code="NO-CODE" sourceType="CHV"/>
+<problem value="inflammatory;polyneuropathy" begin="166;193" end="178;207" status="0" certainty="0" cui="C0270933;C0032541;C0477402" tui="T047;T047;T047" rank="767;765;595" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10"/>
+<problem value="polyneuropathy" begin="193" end="207" status="0" certainty="0" cui="C0442874;C0152025" tui="T047;T047" rank="797;797" code="NO-CODE" sourceType="ICPC2P;COSTAR"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="209" end="296" sentText="As noted in the Tabular List, code G61.0 includes acute (post-) infective polyneuritis.">
+<RelationSet id="2306">
+<modifier value="acute" begin="259" end="264" status="0" certainty="0" cui="C0205178;C1547229;C1547295" tui="T079;T170;T170" rank="797;355;355" code="NO-CODE" sourceType="RCD;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2307">
+<problem value="acute;post;infective polyneuritis" begin="259;266;273" end="264;270;295" status="0" certainty="0" cui="C2875304" tui="T047" rank="296" code="NO-CODE" sourceType="ICD10CM"/>
+<problem value="acute;infective polyneuritis" begin="259;273" end="264;295" status="0" certainty="0" cui="C0018378" tui="T047" rank="767" code="NO-CODE" sourceType="MDR"/>
+<problem value="polyneuritis" begin="283" end="295" status="0" certainty="0" cui="C0027813;C0032541" tui="T047;T047" rank="797;793" code="NO-CODE" sourceType="COSTAR;MSH"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

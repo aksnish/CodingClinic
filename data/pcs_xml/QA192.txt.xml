@@ -1,0 +1,105 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1129">
+<Paragraph pgNo="1" begin="0" end="494">
+<Sentence sentNo="1" begin="0" end="135" sentText="Question: The patient has a history of abdominal aortic aneurysm (AAA) that was previously repaired using an endovascular graft system.">
+<RelationSet id="1762">
+<problem value="abdominal aortic aneurysm" begin="39" end="64" status="0" certainty="1" cui="C0265011;C0162871" tui="t047;T047" rank="800;797" code="NO-CODE" sourceType="ICD10CM;DXP"/>
+<problem value="aortic aneurysm" begin="49" end="64" status="0" certainty="1" cui="C2883031;C0003486;C2072946;C0340629" tui="t047;T047;T033;T047" rank="800;797;592;295" code="NO-CODE" sourceType="ICD10CM;LCH;MEDCIN;MTHICD9"/>
+<problem value="aneurysm" begin="56" end="64" status="0" certainty="1" cui="C0002940;C0439651" tui="T047;T082" rank="797;767" code="NO-CODE" sourceType="LCH;RCD"/>
+<anatomicalStructure value="abdominal aortic" begin="39" end="55" status="0" certainty="1" cui="C0003484;C1269882;C2228415" tui="T023;T023;T058" rank="795;765;592" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;MEDCIN"/>
+<anatomicalStructure value="aortic" begin="49" end="55" status="0" certainty="1" cui="C0003483;C1278934;C0869784" tui="T023;T023;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+</RelationSet>
+<RelationSet id="1763">
+<problem value="AAA" begin="66" end="69" status="0" certainty="0" cui="C0162871;C0731345;C1364818;C1705543;C0611285;C0003486" tui="T047;T109,T121;T028;T028;T116,T123;T047" rank="765;724;596;575;519;282" code="NO-CODE" sourceType="RCD;RCD;OMIM;NCI;NCI;MEDLINEPLUS"/>
+</RelationSet>
+<RelationSet id="1764">
+<procedure value="abdominal aortic aneurysm;repaired;endovascular graft" begin="39;91;109" end="64;99;127" status="0" certainty="0" cui="C0994552" tui="T061" rank="295" code="NO-CODE" sourceType="MTHICD9"/>
+<procedure value="abdominal aortic aneurysm;repaired;graft" begin="39;91;122" end="64;99;127" status="0" certainty="0" cui="C0190410" tui="T061" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<procedure value="AAA;repaired;endovascular" begin="66;91;109" end="69;99;121" status="0" certainty="0" cui="C0918249" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="using;graft" begin="100;122" end="105;127" status="0" certainty="0" cui="C0449871" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="graft" begin="122" end="127" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+<anatomicalStructure value="endovascular" begin="109" end="121" status="0" certainty="0" cui="C0524425" tui="T029" rank="703" code="NO-CODE" sourceType="SNMI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="137" end="219" sentText="He had developed a type 1 endoleak and was admitted to the hospital for treatment.">
+</Sentence>
+<Sentence sentNo="3" begin="220" end="347" sentText="During surgery, the proximal aortic neck was angulated and the fixation zone under the left renal artery was found to be short.">
+<RelationSet id="1765">
+<procedure value="surgery" begin="227" end="234" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1766">
+<anatomicalStructure value="aortic" begin="249" end="255" status="0" certainty="0" cui="C0003483;C1278934;C0869784" tui="T023;T023;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+<anatomicalStructure value="neck" begin="256" end="260" status="0" certainty="0" cui="S0001902;C0027530;C0205064;C0027536;C1281592;C2137077" tui="t061;T029;T082;T054;T023;T033" rank="800;797;797;767;765;592" code="NO-CODE" sourceType="EZDI;CST;RCD;SNM;SNOMEDCTUS;MEDCIN"/>
+</RelationSet>
+<RelationSet id="1767">
+<modifier value="left" begin="307" end="311" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1768">
+<anatomicalStructure value="left renal artery" begin="307" end="324" status="0" certainty="0" cui="C1267337;C0226333" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNM"/>
+<anatomicalStructure value="renal artery" begin="312" end="324" status="0" certainty="0" cui="C0035065;C1278951;C0884045" tui="T023;T023;T023" rank="795;765;416" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;LNC"/>
+<anatomicalStructure value="left renal" begin="307" end="317" status="0" certainty="0" cui="C0227614" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="artery" begin="318" end="324" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<anatomicalStructure value="renal" begin="312" end="317" status="0" certainty="0" cui="C0022646;C1278978;C0496892;C0496927;C1514845;C0869841;C0227665" tui="T023;T023;T191;T191;T024;T061;T023" rank="797;765;610;610;572;373;151" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="348" end="412" sentText="The surgeon used an endostaple device to attach the stent graft.">
+<RelationSet id="1769">
+<medicalDevice value="device;stent" begin="379;400" end="385;405" status="0" certainty="0" cui="C0038257" tui="T074" rank="797" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<medicalDevice value="device" begin="379" end="385" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1770">
+<procedure value="graft" begin="406" end="411" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+<procedure value="stent" begin="400" end="405" status="0" certainty="0" cui="C0038257;C2348535;C1705817" tui="T074;T061;T074" rank="797;797;575" code="NO-CODE" sourceType="SNOMEDCTUS;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="413" end="493" sentText="What is the correct ICD-10-PCS code for this endovascular repair of an endoleak?">
+<RelationSet id="1771">
+<procedure value="repair" begin="471" end="477" status="0" certainty="0" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+<anatomicalStructure value="endovascular" begin="458" end="470" status="0" certainty="0" cui="C0524425" tui="T029" rank="703" code="NO-CODE" sourceType="SNMI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="495" end="1128">
+<Sentence sentNo="6" begin="495" end="555" sentText="Answer: In this case, the graft is not functioning properly.">
+<RelationSet id="1772">
+<procedure value="graft" begin="521" end="526" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="556" end="668" sentText="Endostaples were used to secure the position of the distal migrated endograft, which caused the type 1 endoleak.">
+</Sentence>
+<Sentence sentNo="8" begin="669" end="721" sentText="The objective of the surgery is to correct the leak.">
+<RelationSet id="1773">
+<procedure value="surgery" begin="690" end="697" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1774">
+<problem value="leak" begin="716" end="720" status="0" certainty="0" cui="C0332234;C0015376;C1881366" tui="T169;T046;T067" rank="797;765;562" code="NO-CODE" sourceType="RCD;SNM;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="722" end="846" sentText="The appropriate root operation is “Revision,” since the endostaple device was used to reattach the stent  graft (endograft).">
+<RelationSet id="1775">
+<medicalDevice value="device;stent" begin="789;821" end="795;826" status="0" certainty="0" cui="C0038257" tui="T074" rank="797" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<medicalDevice value="device" begin="789" end="795" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1776">
+<procedure value="used;graft" begin="800;828" end="804;833" status="0" certainty="0" cui="C0449871" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="stent" begin="821" end="826" status="0" certainty="0" cui="C0038257;C2348535;C1705817" tui="T074;T061;T074" rank="797;797;575" code="NO-CODE" sourceType="SNOMEDCTUS;NCI;NCI"/>
+<procedure value="graft" begin="828" end="833" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="847" end="1009" sentText="In ICD-10-PCS, stent grafts are considered Intraluminal devices; however staples are considered supplies integral to the procedure, and are not coded as a device.">
+<RelationSet id="1777">
+<procedure value="grafts" begin="868" end="874" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+<procedure value="stent" begin="862" end="867" status="0" certainty="0" cui="C2348535;C0038257;C1705817" tui="T061;T074;T074" rank="797;795;575" code="NO-CODE" sourceType="NCI;MSH;NCI"/>
+</RelationSet>
+<RelationSet id="1778">
+<medicalDevice value="device" begin="1002" end="1008" status="0" certainty="-2" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="11" begin="1010" end="1127" sentText="Assign the following ICD-10-PCS code: 04WY3DZ Revision of intraluminal device in lower artery, percutaneous  approach">
+<RelationSet id="1779">
+<medicalDevice value="device" begin="1081" end="1087" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

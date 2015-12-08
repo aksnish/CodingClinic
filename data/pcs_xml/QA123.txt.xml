@@ -1,0 +1,64 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="756">
+<Paragraph pgNo="1" begin="0" end="515">
+<Sentence sentNo="1" begin="0" end="174" sentText="Question: A 30-year-old woman diagnosed with Rh-D alloimmunization (sensitization), who is gravida 2, para 1, was admitted to the hospital at 37 weeks for induction of labor.">
+<RelationSet id="647">
+<problem value="Rh-D;sensitization" begin="45;68" end="49;81" status="0" certainty="1" cui="C0035405" tui="T046" rank="792" code="NO-CODE" sourceType="MSH"/>
+<problem value="alloimmunization" begin="50" end="66" status="0" certainty="1" cui="C0948201" tui="T047" rank="644" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+<RelationSet id="647">
+<finding value="gravida 2" begin="91" end="100" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="647">
+<finding value="para 1" begin="102" end="108" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="175" end="234" sentText="Her first pregnancy had resulted in a spontaneous abortion.">
+<RelationSet id="648">
+<problem value="spontaneous abortion" begin="213" end="233" status="0" certainty="0" cui="C0000786" tui="T046" rank="797" code="NO-CODE" sourceType="NDFRT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="235" end="337" sentText="She had received immune globulin (Rh D) as prophylaxis at that time, as well as during this pregnancy.">
+<RelationSet id="649">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<med value="prophylaxis" begin="278" end="289" status="1" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+<problem value="Rh D" begin="269" end="273" status="1" certainty="0"/>
+</Relation>
+<med value="prophylaxis" begin="278" end="289" status="1" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="650">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<lab value="globulin" begin="259" end="267" status="1" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+<modifier value="immune" begin="252" end="258" status="1" certainty="0"/>
+</Relation>
+<lab value="globulin" begin="259" end="267" status="1" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+<modifier value="immune globulin;Rh;time" begin="252;269;298" end="267;271;302" status="1" certainty="0" cui="C3534346" tui="T079" rank="416" code="NO-CODE" sourceType="LNC"/>
+<modifier value="immune globulin;Rh D" begin="252;269" end="267;273" status="1" certainty="0" cui="C0073188" tui="T116,T121,T129" rank="791" code="NO-CODE" sourceType="NDFRT"/>
+<modifier value="immune;Rh" begin="252;269" end="258;271" status="1" certainty="0" cui="S1001309" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<modifier value="immune" begin="252" end="258" status="1" certainty="0" cui="C0439662;C0020964" tui="T169;T039" rank="797;795" code="NO-CODE" sourceType="RCD;LCH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="338" end="483" sentText="Labor was induced by intravenous oxytocin into a peripheral vein, and the patient had a normal spontaneous vaginal delivery of a liveborn infant.">
+<RelationSet id="651">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="peripheral vein" begin="387" end="402" status="0" certainty="0"/>
+<med value="intravenous oxytocin" begin="359" end="379" status="0" certainty="0" code="NO-CODE" cui="1704206;1418208;523809;30095" tui="T125;T116;T028;T059;T121" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</Relation>
+<anatomicalStructure value="vein" begin="398" end="402" status="0" certainty="0" cui="C0348013;C0042449;C1278960;C0398102" tui="T082;T023;T023;T061" rank="797;797;765;373" code="NO-CODE" sourceType="RCD;MSH;SNOMEDCTUS;ICD10AM"/>
+<med value="oxytocin" begin="371" end="379" status="0" certainty="0" cui="C0030095;C0523809;C1418208;C1704206" tui="T116,T121,T125;T059;T028;T116,T121,T125" rank="797;652;603;575" code="NO-CODE" sourceType="LCH;MDR;HGNC;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="484" end="514" sentText="How should this case be coded?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="516" end="755">
+<Sentence sentNo="6" begin="516" end="663" sentText="Answer: Assign code O36.0130, Maternal care for anti-D [Rh] antibodies, third trimester, not applicable or unspecified, as the principal diagnosis.">
+<RelationSet id="651">
+<lab value="antibodies" begin="576" end="586" status="0" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="664" end="754" sentText="Assign also codes Z37.0, Single livebirth, and Z3A.37, 37 weeks of gestation of pregnancy.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

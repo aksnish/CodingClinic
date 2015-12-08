@@ -1,0 +1,2 @@
+Question: A patient with diabetes mellitus was admitted when she was found to be lethargic. Her blood sugar readings were low. Discharge diagnosis was documented as acute encephalopathy secondary to hypoglycemia. What are the diagnosis code assignments for encephalopathy due to hypoglycemia in a diabetic patient? 
+Answer: Assign code E11.649, Type 2 diabetes mellitus with hypoglycemia without coma, as the principal diagnosis. Assign also code G93.41, Metabolic encephalopathy, as an additional diagnosis. 

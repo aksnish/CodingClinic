@@ -1,0 +1,2 @@
+Question: A 57-year-old male with low rectal cancer presents for abdominoperineal resection (APR) of the rectum with reconstruction to follow. A cylindrical APR was performed, along with excision of the sigmoid colon and resection of the anus. Should the excision of the sigmoid colon and resection of the anus be reported separately? 
+Answer: Yes, the resections of the rectum and anus as well as the excision of the sigmoid colon are separately coded. To capture the entire surgery, all three codes are required. Assign the following ICD-10-PCS codes: 0DTP0ZZ

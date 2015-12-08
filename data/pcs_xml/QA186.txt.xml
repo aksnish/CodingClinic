@@ -1,0 +1,59 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="612">
+<Paragraph pgNo="1" begin="0" end="288">
+<Sentence sentNo="1" begin="0" end="167" sentText="Question: A patient underwent exploratory laparotomy with lysis of adhesions and colostomy with removal of polyp of the ascending colon and repair of umbilical hernia.">
+<RelationSet id="1919">
+<modifier value="exploratory" begin="30" end="41" status="0" certainty="1" cui="S0000631" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="exploratory laparotomy" begin="30" end="52" status="0" certainty="1" cui="C0085704" tui="T060" rank="797" code="NO-CODE" sourceType="CCS"/>
+<procedure value="laparotomy" begin="42" end="52" status="0" certainty="1" cui="C0023038" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="1920">
+<problem value="adhesions" begin="67" end="76" status="0" certainty="1" cui="C0001511;C0175633" tui="T046;T070" rank="767;576" code="NO-CODE" sourceType="LCH;NCI"/>
+<problem value="lysis" begin="58" end="63" status="0" certainty="1" cui="C0439680;C0024348;C1536403" tui="T080;T046;T043" rank="797;797;530" code="NO-CODE" sourceType="RCD;SNM;GO"/>
+<procedure value="lysis;adhesions" begin="58;67" end="63;76" status="0" certainty="1" cui="C0012826" tui="T061" rank="767" code="NO-CODE" sourceType="SNM"/>
+</RelationSet>
+<RelationSet id="1921">
+<procedure value="colostomy" begin="81" end="90" status="0" certainty="0" cui="C0029473;C0009410;C0009411;C0595852;C0481493" tui="T061;T061;T061;T169;T033" rank="795;795;271;233;151" code="NO-CODE" sourceType="MEDLINEPLUS;MSH;HCPT;SNOMEDCTUS;CHV"/>
+</RelationSet>
+<RelationSet id="1922">
+<problem value="polyp;colon" begin="107;130" end="112;135" status="0" certainty="0" cui="C0009376;C2911243" tui="T190;T033" rank="797;295" code="NO-CODE" sourceType="COSTAR;MTHICD9"/>
+<problem value="polyp" begin="107" end="112" status="0" certainty="0" cui="C0032584;C1546747" tui="T190;T170" rank="797;355" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1923">
+<anatomicalStructure value="ascending colon" begin="120" end="135" status="0" certainty="0" cui="C0227375;C0496861;C0153439" tui="T023;T191;T191" rank="797;610;610" code="NO-CODE" sourceType="MTHMST;ICD10;ICD10"/>
+<anatomicalStructure value="colon" begin="130" end="135" status="0" certainty="0" cui="C1623185;C0009368;C0684195;C1281569;C2684091;C0496907;C0154061;C1337205;C1446425" tui="T121;T023;T002;T023;T074;T191;T191;T168;T129" rank="797;795;795;765;739;610;610;562;416" code="NO-CODE" sourceType="MMSL;MTHMST;AOD;SNOMEDCTUS;VANDF;ICD10;ICD10;NCI;LNC"/>
+</RelationSet>
+<RelationSet id="1924">
+<problem value="umbilical hernia" begin="150" end="166" status="0" certainty="0" cui="C0019322;C1306503;C0041636" tui="T190;T019;T020" rank="797;795;293" code="NO-CODE" sourceType="MEDLINEPLUS;NDFRT;ICD9CM"/>
+<problem value="hernia" begin="160" end="166" status="0" certainty="0" cui="C0019270" tui="T190" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="umbilical" begin="150" end="159" status="0" certainty="0" cui="C0041638;C1280744;C1040830" tui="T023;T023;T002" rank="795;765;751" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;NCBI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="168" end="237" sentText="The lysis of adhesions was undertaken carefully without any problems.">
+<RelationSet id="1925">
+<problem value="adhesions" begin="181" end="190" status="0" certainty="0" cui="C0001511;C0175633" tui="T046;T070" rank="767;576" code="NO-CODE" sourceType="LCH;NCI"/>
+<problem value="lysis" begin="172" end="177" status="0" certainty="0" cui="C0439680;C0024348;C1536403" tui="T080;T046;T043" rank="797;797;530" code="NO-CODE" sourceType="RCD;SNM;GO"/>
+<procedure value="lysis;adhesions" begin="172;181" end="177;190" status="0" certainty="0" cui="C0012826" tui="T061" rank="767" code="NO-CODE" sourceType="SNM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="238" end="287" sentText="Can the lysis of adhesions  be coded  separately?">
+<RelationSet id="1926">
+<problem value="adhesions" begin="255" end="264" status="0" certainty="1" cui="C0001511;C0175633" tui="T046;T070" rank="767;576" code="NO-CODE" sourceType="LCH;NCI"/>
+<problem value="lysis" begin="246" end="251" status="0" certainty="1" cui="C0439680;C0024348;C1536403" tui="T080;T046;T043" rank="797;797;530" code="NO-CODE" sourceType="RCD;SNM;GO"/>
+<procedure value="lysis;adhesions" begin="246;255" end="251;264" status="0" certainty="1" cui="C0012826" tui="T061" rank="767" code="NO-CODE" sourceType="SNM"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="289" end="611">
+<Sentence sentNo="4" begin="289" end="397" sentText="Answer: No, do not assign a diagnosis code for the adhesions or a procedure code for the lysis of adhesions.">
+<RelationSet id="1927">
+<problem value="adhesions" begin="387" end="396" status="0" certainty="0" cui="C0001511;C0175633" tui="T046;T070" rank="767;576" code="NO-CODE" sourceType="LCH;NCI"/>
+<problem value="lysis" begin="378" end="383" status="0" certainty="0" cui="C0439680;C0024348;C1536403" tui="T080;T046;T043" rank="797;797;530" code="NO-CODE" sourceType="RCD;SNM;GO"/>
+<procedure value="lysis;adhesions" begin="378;387" end="383;396" status="0" certainty="0" cui="C0012826" tui="T061" rank="767" code="NO-CODE" sourceType="SNM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="398" end="610" sentText="There was no indication of the clinical significance documented by the surgeon within the body of the operative report, nor was there documentation of increased difficulty when performing the operative procedure.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

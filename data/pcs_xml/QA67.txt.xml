@@ -1,0 +1,203 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1345">
+<Paragraph pgNo="1" begin="0" end="823">
+<Sentence sentNo="1" begin="0" end="85" sentText="Question: A patient presents to the Emergency Department (ED) with severe flank pain.">
+<RelationSet id="2407">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="flank" begin="74" end="79" status="0" certainty="0"/>
+<modifier value="severe" begin="67" end="73" status="0" certainty="0"/>
+<problem value="pain" begin="80" end="84" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="severe" begin="67" end="73" status="0" certainty="0"/>
+<problem value="pain" begin="80" end="84" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="flank" begin="74" end="79" status="0" certainty="0"/>
+<problem value="pain" begin="80" end="84" status="0" certainty="0"/>
+</Relation>
+<modifier value="severe" begin="67" end="73" status="0" certainty="0" cui="C0205082;C0439793;C1519275;C2983285;C2919019;C1547231;C1547227" tui="T080;T080;T033;T170;T033;T170;T170" rank="767;767;572;571;571;355;355" code="NO-CODE" sourceType="RCD;MTH;NCI;NCI;NCI;HL7V2.5;HL7V2.5"/>
+<anatomicalStructure value="flank" begin="74" end="79" status="0" certainty="0" cui="C0230171" tui="T029" rank="765" code="NO-CODE" sourceType="RCD"/>
+<problem value="severe flank pain" begin="67" end="84" status="0" certainty="0" cui="C2233590" tui="T184" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="severe;pain" begin="67;80" end="73;84" status="0" certainty="0" cui="C0278140" tui="T184" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<problem value="flank pain" begin="74" end="84" status="0" certainty="0" cui="C0016199" tui="T184" rank="797" code="NO-CODE" sourceType="CCPSS"/>
+<problem value="pain" begin="80" end="84" status="0" certainty="0" cui="C0030193;C0234226;C1882272;C1557397;C0242936;C1549543" tui="T184;T169;T033;T033;T073,T093;T169" rank="797;767;551;551;366;355" code="NO-CODE" sourceType="ICPC2P;RCD;NCI;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="86" end="216" sentText="Radiologic studies demonstrated a staghorn stone of the left kidney and a left ureter stone without obstruction or hydronephrosis.">
+<RelationSet id="2408">
+<problem value="hydronephrosis" begin="201" end="215" status="0" certainty="-2" cui="C0020295;C0027720" tui="T047;T047" rank="795;795" code="NO-CODE" sourceType="MSH;COSTAR"/>
+</RelationSet>
+<RelationSet id="2409">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="kidney" begin="147" end="153" status="0" certainty="0"/>
+<problem value="staghorn stone" begin="120" end="134" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="left" begin="142" end="146" status="0" certainty="0"/>
+<problem value="staghorn stone" begin="120" end="134" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="kidney" begin="147" end="153" status="0" certainty="0"/>
+<modifier value="left" begin="142" end="146" status="0" certainty="0"/>
+<problem value="staghorn stone" begin="120" end="134" status="0" certainty="0"/>
+</Relation>
+<modifier value="left" begin="142" end="146" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+<anatomicalStructure value="left kidney" begin="142" end="153" status="0" certainty="0" cui="C0227614" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="kidney" begin="147" end="153" status="0" certainty="0" cui="C0022646;C1278978;C0496892;C0496927;C1514845;C0869841;C0227665" tui="T023;T023;T191;T191;T024;T061;T023" rank="797;765;610;610;572;373;151" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM;CHV"/>
+<problem value="stone;kidney" begin="129;147" end="134;153" status="0" certainty="0" cui="C0022650;C1458136;C0392525;C1546798" tui="T047;T031;T047;T170" rank="791;767;592;355" code="NO-CODE" sourceType="COSTAR;SNOMEDCTUS;MEDCIN;HL7V2.5"/>
+<problem value="stone" begin="129" end="134" status="0" certainty="0" cui="C0456824;C0443312;C0006736;C0439220" tui="T037;T080;T031;T081" rank="765;765;765;724" code="NO-CODE" sourceType="RCD;RCD;RCD;RCD"/>
+</RelationSet>
+<RelationSet id="2410">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="ureter stone" begin="165" end="177" status="0" certainty="0"/>
+<modifier value="left" begin="160" end="164" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="ureter stone" begin="165" end="177" status="0" certainty="0"/>
+<modifier value="left" begin="160" end="164" status="0" certainty="0"/>
+<problem value="obstruction" begin="186" end="197" status="0" certainty="-2"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="left" begin="160" end="164" status="0" certainty="0"/>
+<problem value="obstruction" begin="186" end="197" status="0" certainty="-2"/>
+</Relation>
+<modifier value="left" begin="160" end="164" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+<problem value="ureter stone" begin="165" end="177" status="0" certainty="0" cui="C2603345;C0041952;C1456865" tui="T031;T047;T047" rank="767;767;750" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS;SNMI"/>
+<problem value="ureter" begin="165" end="171" status="0" certainty="0" cui="C0041951;C1281572;C0154016;C0496928;C1522613;C0869844" tui="T023;T023;T191;T191;T169;T058" rank="797;765;610;610;575;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM"/>
+<problem value="stone" begin="172" end="177" status="0" certainty="0" cui="C0456824;C0443312;C0006736;C0439220" tui="T037;T080;T031;T081" rank="765;765;765;724" code="NO-CODE" sourceType="RCD;RCD;RCD;RCD"/>
+<anatomicalStructure value="left ureter" begin="160" end="171" status="0" certainty="0" cui="C0227683;C1280905" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<problem value="obstruction" begin="186" end="197" status="0" certainty="-2" cui="C0028778;C1882136" tui="T046;T067" rank="797;561" code="NO-CODE" sourceType="RCD;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="217" end="345" sentText="The patient was admitted, and underwent extracorporeal shock wave lithotripsy (ESWL) of the left kidney and left ureter calculi.">
+<RelationSet id="2411">
+<modifier value="extracorporeal shock wave" begin="257" end="282" status="0" certainty="0" cui="S0002245" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<modifier value="extracorporeal" begin="257" end="271" status="0" certainty="0" cui="S1000390;C0442087;C1522201" tui="t061;T082;T169" rank="800;797;575" code="NO-CODE" sourceType="EZDI;RCD;NCI"/>
+<modifier value="shock wave" begin="272" end="282" status="0" certainty="0" cui="S0001677" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<problem value="shock" begin="272" end="277" status="0" certainty="0" cui="C0036974" tui="T046" rank="797" code="NO-CODE" sourceType="CCS"/>
+<procedure value="extracorporeal shock wave lithotripsy" begin="257" end="294" status="0" certainty="0" cui="C0015359;C0401265" tui="T061;T061" rank="644;629" code="NO-CODE" sourceType="CSP;CPT"/>
+<procedure value="lithotripsy;kidney" begin="283;314" end="294;320" status="0" certainty="0" cui="C0558629" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="lithotripsy" begin="283" end="294" status="0" certainty="0" cui="C0023878;C1552429" tui="T061;T073,T093" rank="797;366" code="NO-CODE" sourceType="RCD;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="2412">
+<modifier value="left" begin="309" end="313" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="2413">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="kidney" begin="314" end="320" status="0" certainty="0"/>
+<procedure value="ESWL" begin="296" end="300" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="left kidney" begin="309" end="320" status="0" certainty="0" cui="C0227614" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="kidney" begin="314" end="320" status="0" certainty="0" cui="C0022646;C1278978;C0496892;C0496927;C1514845;C0869841;C0227665" tui="T023;T023;T191;T191;T024;T061;T023" rank="797;765;610;610;572;373;151" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM;CHV"/>
+<procedure value="extracorporeal shock wave lithotripsy;ESWL" begin="257;296" end="294;300" status="0" certainty="0" cui="C0015359" tui="T061" rank="711" code="NO-CODE" sourceType="MSH"/>
+<procedure value="ESWL;kidney" begin="296;314" end="300;320" status="0" certainty="0" cui="C0401265" tui="T061" rank="765" code="NO-CODE" sourceType="SNMI"/>
+</RelationSet>
+<RelationSet id="2414">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="ureter calculi" begin="330" end="344" status="0" certainty="0"/>
+<modifier value="left" begin="325" end="329" status="0" certainty="0"/>
+</Relation>
+<modifier value="left" begin="325" end="329" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+<problem value="ureter calculi" begin="330" end="344" status="0" certainty="0" cui="C1456865;C0041952" tui="T047;T047" rank="797;765" code="NO-CODE" sourceType="MDR;SNOMEDCTUS"/>
+<problem value="ureter" begin="330" end="336" status="0" certainty="0" cui="C0041951;C1281572;C0154016;C0496928;C1522613;C0869844" tui="T023;T023;T191;T191;T169;T058" rank="797;765;610;610;575;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM"/>
+<anatomicalStructure value="left ureter" begin="325" end="336" status="0" certainty="0" cui="C0227683;C1280905" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="346" end="450" sentText="Stone fragments were removed from both sites endoscopically via basket, and a ureteral stent was placed.">
+<RelationSet id="2414">
+<finding value="Stone fragments" begin="346" end="361" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2415">
+<medicalDevice value="ureteral stent" begin="424" end="438" status="0" certainty="0" cui="C0183518" tui="T074" rank="686" code="NO-CODE" sourceType="UMD"/>
+<medicalDevice value="stent" begin="433" end="438" status="0" certainty="0" cui="C2348535;C0038257;C1705817" tui="T061;T074;T074" rank="797;795;575" code="NO-CODE" sourceType="NCI;MSH;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="451" end="506" sentText="What are the appropriate diagnosis and procedure codes?">
+</Sentence>
+<Sentence sentNo="6" begin="507" end="564" sentText="The same patient returned to the hospital one week later.">
+</Sentence>
+<Sentence sentNo="7" begin="565" end="628" sentText="A fragmented portion of the left stone had not passed in urine.">
+<RelationSet id="2416">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="stone" begin="598" end="603" status="0" certainty="0"/>
+<modifier value="left" begin="593" end="597" status="0" certainty="0"/>
+</Relation>
+<problem value="stone" begin="598" end="603" status="0" certainty="0" cui="C0456824;C0443312;C0006736;C0439220" tui="T037;T080;T031;T081" rank="765;765;765;724" code="NO-CODE" sourceType="RCD;RCD;RCD;RCD"/>
+<modifier value="left" begin="593" end="597" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="629" end="668" sentText="It is now in the bladder, causing pain.">
+<RelationSet id="2417">
+<anatomicalStructure value="bladder" begin="646" end="653" status="0" certainty="0" cui="C0005682;C1281573;C0205058;C0496930;C0154017;C0154091;C1511200;C0872388" tui="T023;T023;T082;T191;T191;T191;T024;T061" rank="791;765;703;610;610;610;571;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;SNMI;ICD10;ICD10;ICD10;NCI;ICD10AM"/>
+</RelationSet>
+<RelationSet id="2418">
+<problem value="pain" begin="663" end="667" status="0" certainty="0" cui="C0030193;C0234226;C1882272;C1557397;C0242936;C1549543" tui="T184;T169;T033;T033;T073,T093;T169" rank="797;767;551;551;366;355" code="NO-CODE" sourceType="ICPC2P;RCD;NCI;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="669" end="796" sentText="The bladder stone was fragmented using extracorporeal shock wave lithotripsy (ESWL), and was removed endoscopically via basket.">
+<RelationSet id="2419">
+<problem value="bladder stone" begin="673" end="686" status="0" certainty="0" cui="C0005683;C2712342" tui="T047;T031" rank="790;767" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<problem value="bladder" begin="673" end="680" status="0" certainty="0" cui="C0005682;C1281573;C0205058;C0496930;C0154017;C0154091;C1511200;C0872388" tui="T023;T023;T082;T191;T191;T191;T024;T061" rank="791;765;703;610;610;610;571;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;SNMI;ICD10;ICD10;ICD10;NCI;ICD10AM"/>
+<problem value="stone" begin="681" end="686" status="0" certainty="0" cui="C0456824;C0443312;C0006736;C0439220" tui="T037;T080;T031;T081" rank="765;765;765;724" code="NO-CODE" sourceType="RCD;RCD;RCD;RCD"/>
+</RelationSet>
+<RelationSet id="2420">
+<modifier value="extracorporeal shock wave" begin="708" end="733" status="0" certainty="0" cui="S0002245" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<modifier value="extracorporeal" begin="708" end="722" status="0" certainty="0" cui="S1000390;C0442087;C1522201" tui="t061;T082;T169" rank="800;797;575" code="NO-CODE" sourceType="EZDI;RCD;NCI"/>
+<modifier value="shock wave" begin="723" end="733" status="0" certainty="0" cui="S0001677" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<problem value="shock" begin="723" end="728" status="0" certainty="0" cui="C0036974" tui="T046" rank="797" code="NO-CODE" sourceType="CCS"/>
+<procedure value="using extracorporeal shock wave lithotripsy" begin="702" end="745" status="0" certainty="0" cui="C3522667" tui="T061" rank="627" code="NO-CODE" sourceType="CPT"/>
+<procedure value="extracorporeal shock wave lithotripsy;ESWL" begin="708;747" end="745;751" status="0" certainty="0" cui="C0015359" tui="T061" rank="644" code="NO-CODE" sourceType="CSP"/>
+<procedure value="extracorporeal shock wave lithotripsy" begin="708" end="745" status="0" certainty="0" cui="C0401265" tui="T061" rank="629" code="NO-CODE" sourceType="CPT"/>
+<procedure value="lithotripsy" begin="734" end="745" status="0" certainty="0" cui="C0023878;C1552429" tui="T061;T073,T093" rank="797;366" code="NO-CODE" sourceType="RCD;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="2421">
+<procedure value="ESWL" begin="747" end="751" status="0" certainty="0" cui="C0015359" tui="T061" rank="711" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="797" end="822" sentText="How should this be coded?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="824" end="1344">
+<Sentence sentNo="11" begin="824" end="947" sentText="Answer: For the first admission, assign code N20.2, Calculus of kidney with calculus of ureter, as the principal diagnosis.">
+<RelationSet id="2421">
+<problem value="0.2, Calculus of kidney with calculus of u" begin="871" end="913" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2422">
+<problem value="calculus;ureter" begin="900;912" end="908;918" status="0" certainty="0" cui="C1456865;C0041952" tui="T047;T047" rank="797;765" code="NO-CODE" sourceType="MDR;SNOMEDCTUS"/>
+<problem value="ureter" begin="912" end="918" status="0" certainty="0" cui="C0041951;C1281572;C0154016;C0496928;C1522613;C0869844" tui="T023;T023;T191;T191;T169;T058" rank="797;765;610;610;575;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM"/>
+</RelationSet>
+<RelationSet id="2423">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="Calculus" begin="876" end="884" status="0" certainty="0"/>
+<anatomicalStructure value="kidney" begin="888" end="894" status="0" certainty="0"/>
+</Relation>
+<problem value="Calculus;kidney" begin="876;888" end="884;894" status="0" certainty="0" cui="C0022650;C0392525" tui="T047;T047" rank="797;592" code="NO-CODE" sourceType="MDR;MEDCIN"/>
+<anatomicalStructure value="kidney" begin="888" end="894" status="0" certainty="0" cui="C0022646;C1278978;C0496892;C0496927;C1514845;C0869841;C0227665" tui="T023;T023;T191;T191;T024;T061;T023" rank="797;765;610;610;572;373;151" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="12" begin="948" end="1130" sentText="Unlike the previous case, where a calculus was moved from one site to another during treatment, here calculi were at two different body sites, and both were treated with extirpation.">
+<RelationSet id="2423">
+<problem value="calculus" begin="982" end="990" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="13" begin="1131" end="1172" sentText="Therefore both procedure sites are coded.">
+</Sentence>
+<Sentence sentNo="14" begin="1173" end="1344" sentText="For the first admission, assign the following ICD-10-PCS codes for the fragmentation and removal of the kidney and ureter calculi with placement of ureteral stent: 0TC18ZZ">
+<RelationSet id="2425">
+<anatomicalStructure value="kidney" begin="1277" end="1283" status="0" certainty="0" cui="C0022646;C1278978;C0496892;C0496927;C1514845;C0869841;C0227665" tui="T023;T023;T191;T191;T024;T061;T023" rank="797;765;610;610;572;373;151" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="2426">
+<problem value="ureter calculi" begin="1288" end="1302" status="0" certainty="0" cui="C1456865;C0041952" tui="T047;T047" rank="797;765" code="NO-CODE" sourceType="MDR;SNOMEDCTUS"/>
+<problem value="ureter" begin="1288" end="1294" status="0" certainty="0" cui="C0041951;C1281572;C0154016;C0496928;C1522613;C0869844" tui="T023;T023;T191;T191;T169;T058" rank="797;765;610;610;563;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM"/>
+</RelationSet>
+<RelationSet id="2427">
+<modifier value="ureteral" begin="1321" end="1329" status="0" certainty="0" cui="C1522613" tui="T169" rank="575" code="NO-CODE" sourceType="NCI"/>
+<procedure value="placement;stent" begin="1308;1330" end="1317;1335" status="0" certainty="0" cui="C0522776" tui="T061" rank="767" code="NO-CODE" sourceType="MTHMST"/>
+<procedure value="placement" begin="1308" end="1317" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+<procedure value="stent" begin="1330" end="1335" status="0" certainty="0" cui="C2348535;C0038257;C1705817" tui="T061;T074;T074" rank="797;795;575" code="NO-CODE" sourceType="NCI;MSH;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

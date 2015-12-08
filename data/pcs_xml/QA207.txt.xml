@@ -1,0 +1,196 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1405">
+<Paragraph pgNo="1" begin="0" end="454">
+<Sentence sentNo="1" begin="0" end="80" sentText="Question: A patient presented to the hospital with a large right perihilar mass.">
+</Sentence>
+<Sentence sentNo="2" begin="81" end="250" sentText="She was not a surgical candidate, and had fiducial marker placement and endoscopic transbronchial needle aspiration biopsy of the right lung and surrounding lymph nodes.">
+<RelationSet id="1877">
+<modifier value="fiducial" begin="123" end="131" status="0" certainty="-2" cui="C1708056" tui="T080" rank="576" code="NO-CODE" sourceType="NCI"/>
+<procedure value="placement" begin="139" end="148" status="0" certainty="-2" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1878">
+<anatomicalStructure value="lymph nodes" begin="238" end="249" status="0" certainty="0" cui="C0024204;C1269047;C0154054;C0440747" tui="T023;T023;T191;T024" rank="797;765;610;572" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10;NCI"/>
+<anatomicalStructure value="nodes" begin="244" end="249" status="0" certainty="0" cui="C2700445;C0746922;C2697524;C1706163" tui="T002;T023;T077;T077" rank="576;576;575;575" code="NO-CODE" sourceType="NCI;CCPSS;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="1879">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="lung" begin="217" end="221" status="0" certainty="0"/>
+<procedure value="endoscopic transbronchial needle aspiration biopsy" begin="153" end="203" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="lung" begin="217" end="221" status="0" certainty="0"/>
+<modifier value="right" begin="211" end="216" status="0" certainty="0"/>
+<procedure value="endoscopic transbronchial needle aspiration biopsy" begin="153" end="203" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="right" begin="211" end="216" status="0" certainty="0"/>
+<procedure value="endoscopic transbronchial needle aspiration biopsy" begin="153" end="203" status="0" certainty="0"/>
+</Relation>
+<modifier value="right" begin="211" end="216" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+<anatomicalStructure value="right lung" begin="211" end="221" status="0" certainty="0" cui="C0225706" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="lung" begin="217" end="221" status="0" certainty="0" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="LCH;AIR;SNOMEDCTUS;NCI"/>
+<modifier value="transbronchial needle aspiration biopsy" begin="164" end="203" status="0" certainty="0" cui="S0001960" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="endoscopic transbronchial" begin="153" end="178" status="0" certainty="0" cui="C0006290" tui="T060" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="transbronchial;aspiration" begin="164;186" end="178;196" status="0" certainty="0" cui="C0919791" tui="T060" rank="652" code="NO-CODE" sourceType="MDR"/>
+<procedure value="transbronchial;biopsy;lung" begin="164;197;217" end="178;203;221" status="0" certainty="0" cui="C0863477" tui="T060" rank="644" code="NO-CODE" sourceType="MTHICD9"/>
+<procedure value="transbronchial;biopsy" begin="164;197" end="178;203" status="0" certainty="0" cui="C0740463" tui="T060" rank="644" code="NO-CODE" sourceType="MDR"/>
+<procedure value="aspiration biopsy" begin="186" end="203" status="0" certainty="0" cui="C0936232;C1510483" tui="T060;T060" rank="793;765" code="NO-CODE" sourceType="MSH;CHV"/>
+<procedure value="needle aspiration" begin="179" end="196" status="0" certainty="0" cui="C0181959;C2243017" tui="T074;T061" rank="797;592" code="NO-CODE" sourceType="MTH;MEDCIN"/>
+<procedure value="needle;biopsy;lung" begin="179;197;217" end="185;203;221" status="0" certainty="0" cui="C0585528;C1322742;C1548888" tui="T060;T074;T058" rank="797;684;355" code="NO-CODE" sourceType="RCD;UMD;HL7V2.5"/>
+<procedure value="needle;biopsy" begin="179;197" end="185;203" status="0" certainty="0" cui="C0181960;C0005560;C1548887" tui="T074;T060;T058" rank="797;795;355" code="NO-CODE" sourceType="UMD;MSH;HL7V2.5"/>
+<procedure value="aspiration" begin="186" end="196" status="0" certainty="0" cui="C0700198;C0004056;C0349707;C0220787;C1963221;C2827071" tui="T046;T041;T061;T058;T033;T033" rank="797;790;767;711;562;551" code="NO-CODE" sourceType="MDR;PSY;RCD;SNOMEDCTUS;NCI;NCI"/>
+<procedure value="endoscopic" begin="153" end="163" status="0" certainty="0" cui="C0014245;C0442418;C1552424" tui="T060;T082;T073,T093" rank="795;711;366" code="NO-CODE" sourceType="ICPC2P;SNOMEDCTUS;HL7V3.0"/>
+<procedure value="biopsy;lung" begin="197;217" end="203;221" status="0" certainty="0" cui="C0189485" tui="T060" rank="767" code="NO-CODE" sourceType="ICD10AM"/>
+<procedure value="biopsy" begin="197" end="203" status="0" certainty="0" cui="C0005558;C0220797;C1706430;C1546569;C1548825;C3668914" tui="T060;T169;T078;T170;T058;T060" rank="797;788;571;355;355;353" code="NO-CODE" sourceType="MSH;MSH;NCI;HL7V2.5;HL7V2.5;CPT"/>
+<procedure value="needle" begin="179" end="185" status="0" certainty="0" cui="C0027551;C0398296;C0398266;C0007431;C1704318;C1882041;C1546717" tui="T074;T061;T058;T061;T074;T082;T170" rank="795;765;711;711;575;575;355" code="NO-CODE" sourceType="MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;NCI;NCI;HL7V2.5"/>
+<anatomicalStructure value="transbronchial" begin="164" end="178" status="0" certainty="0" cui="C0205039;C0442342;C0719022;C1550618;C1546565" tui="T023;T082;T109,T121;T031;T170" rank="797;765;673;366;355" code="NO-CODE" sourceType="RCD;RCD;CHV;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="251" end="453" sentText="What are the correct  ICD-10-PCS  procedure  code  assignments for fluoroscopic guided fiducial marker placement and endoscopic transbronchial needle aspiration biopsy of the right lung and lymph nodes?">
+<RelationSet id="1880">
+<modifier value="fiducial" begin="338" end="346" status="0" certainty="0" cui="C1708056" tui="T080" rank="576" code="NO-CODE" sourceType="NCI"/>
+<procedure value="fluoroscopic" begin="318" end="330" status="0" certainty="0" cui="C0016356" tui="T060" rank="800" code="NO-CODE" sourceType="ICD10AM"/>
+<procedure value="placement" begin="354" end="363" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1881">
+<modifier value="transbronchial needle aspiration biopsy" begin="379" end="418" status="0" certainty="0" cui="S0001960" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="endoscopic transbronchial" begin="368" end="393" status="0" certainty="0" cui="C0006290" tui="T060" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="transbronchial;aspiration" begin="379;401" end="393;411" status="0" certainty="0" cui="C0919791" tui="T060" rank="652" code="NO-CODE" sourceType="MDR"/>
+<procedure value="transbronchial;biopsy;lung" begin="379;412;432" end="393;418;436" status="0" certainty="0" cui="C0863477" tui="T060" rank="644" code="NO-CODE" sourceType="MTHICD9"/>
+<procedure value="transbronchial;biopsy" begin="379;412" end="393;418" status="0" certainty="0" cui="C0740463" tui="T060" rank="644" code="NO-CODE" sourceType="MDR"/>
+<procedure value="aspiration biopsy" begin="401" end="418" status="0" certainty="0" cui="C0936232;C1510483" tui="T060;T060" rank="793;765" code="NO-CODE" sourceType="MSH;CHV"/>
+<procedure value="needle aspiration" begin="394" end="411" status="0" certainty="0" cui="C0181959;C2243017" tui="T074;T061" rank="797;592" code="NO-CODE" sourceType="MTH;MEDCIN"/>
+<procedure value="needle;biopsy;lung" begin="394;412;432" end="400;418;436" status="0" certainty="0" cui="C0585528;C1322742;C1548888" tui="T060;T074;T058" rank="797;684;355" code="NO-CODE" sourceType="RCD;UMD;HL7V2.5"/>
+<procedure value="needle;biopsy" begin="394;412" end="400;418" status="0" certainty="0" cui="C0181960;C0005560;C1548887" tui="T074;T060;T058" rank="797;795;355" code="NO-CODE" sourceType="UMD;MSH;HL7V2.5"/>
+<procedure value="endoscopic" begin="368" end="378" status="0" certainty="0" cui="C0014245;C0442418;C1552424" tui="T060;T082;T073,T093" rank="795;711;366" code="NO-CODE" sourceType="ICPC2P;SNOMEDCTUS;HL7V3.0"/>
+<procedure value="biopsy;lung" begin="412;432" end="418;436" status="0" certainty="0" cui="C0189485" tui="T060" rank="767" code="NO-CODE" sourceType="ICD10AM"/>
+<procedure value="aspiration" begin="401" end="411" status="0" certainty="0" cui="C0700198;C0004056;C0349707;C0220787;C1963221;C2827071" tui="T046;T041;T061;T058;T033;T033" rank="797;790;767;711;562;551" code="NO-CODE" sourceType="MDR;PSY;RCD;SNOMEDCTUS;NCI;NCI"/>
+<procedure value="needle" begin="394" end="400" status="0" certainty="0" cui="C0027551;C0398296;C0398266;C0007431;C1704318;C1882041;C1546717" tui="T074;T061;T058;T061;T074;T082;T170" rank="795;765;711;711;575;575;355" code="NO-CODE" sourceType="MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;NCI;NCI;HL7V2.5"/>
+<procedure value="biopsy" begin="412" end="418" status="0" certainty="0" cui="C0005558;C0220797;C1706430;C1546569;C1548825;C3668914" tui="T060;T169;T078;T170;T058;T060" rank="797;788;571;355;355;353" code="NO-CODE" sourceType="MSH;MSH;NCI;HL7V2.5;HL7V2.5;CPT"/>
+<anatomicalStructure value="transbronchial" begin="379" end="393" status="0" certainty="0" cui="C0205039;C0442342;C0719022;C1550618;C1546565" tui="T023;T082;T109,T121;T031;T170" rank="797;765;673;366;355" code="NO-CODE" sourceType="RCD;RCD;CHV;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1882">
+<anatomicalStructure value="right lung" begin="426" end="436" status="0" certainty="0" cui="C0225706" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="lung" begin="432" end="436" status="0" certainty="0" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="LCH;AIR;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="1883">
+<anatomicalStructure value="lymph nodes" begin="441" end="452" status="0" certainty="0" cui="C0024204;C1269047;C0154054;C0440747" tui="T023;T023;T191;T024" rank="797;765;610;572" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10;NCI"/>
+<anatomicalStructure value="nodes" begin="447" end="452" status="0" certainty="0" cui="C2700445;C0746922;C2697524;C1706163" tui="T002;T023;T077;T077" rank="576;576;575;575" code="NO-CODE" sourceType="NCI;CCPSS;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="455" end="1404">
+<Sentence sentNo="4" begin="455" end="508" sentText="Answer: The radiologic marker placement is not coded.">
+<RelationSet id="1884">
+<procedure value="radiologic" begin="467" end="477" status="0" certainty="0" cui="C0205483;C0034599;C1962945;C0807679;C1555923;C1610162;C1552284;C1608525;C1548000;C1548429;C0043299" tui="T169;T091;T060;T060;T097;T170;T097;T170;T170;T078;T060" rank="797;795;489;414;366;366;366;366;355;355;150" code="NO-CODE" sourceType="SNMI;LCH;LNC;LNC;HL7V3.0;HL7V3.0;HL7V3.0;HL7V3.0;HL7V2.5;HL7V2.5;CHV"/>
+<procedure value="placement" begin="485" end="494" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="509" end="592" sentText="According  to  the  ICD-10-PCS Official Guidelines for Coding and Reporting, B6.1b,">
+</Sentence>
+<Sentence sentNo="6" begin="594" end="785" sentText="“Materials  such as sutures, ligatures, radiological markers and temporary postoperative wound drains are considered integral to the performance of a procedure and are not  coded as devices.”">
+<RelationSet id="1885">
+<medicalDevice value="Materials;sutures" begin="595;614" end="604;621" status="0" certainty="1" cui="C0038969;C1705834" tui="T074;T073" rank="795;575" code="NO-CODE" sourceType="MSH;NCI"/>
+</RelationSet>
+<RelationSet id="1886">
+<problem value="postoperative wound" begin="669" end="688" status="0" certainty="1" cui="C0332803" tui="T037" rank="765" code="NO-CODE" sourceType="SNM"/>
+<problem value="wound drains" begin="683" end="695" status="0" certainty="1" cui="C0180503;C0332799" tui="T074;T020" rank="797;767" code="NO-CODE" sourceType="RCD;SNMI"/>
+<problem value="wound" begin="683" end="688" status="0" certainty="1" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797;C1550680;C1549529;C1547965" tui="T070;T037;T080;T033;T184;T169;T031;T169;T170" rank="795;792;788;767;709;703;366;355;355" code="NO-CODE" sourceType="MSH;MDR;MSH;RCD;MDR;SNMI;HL7V3.0;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="786" end="1116" sentText="Assign the following ICD-10-PCS codes: 0BBK8ZX Excision of right lung, via natural or artificial opening endoscopic, diagnostic (transbronchial lung biopsy) 07B74ZX Excision of thorax lymphatic, percutaneous  endoscopic approach, diagnostic The appropriate root operation for transbronchial needle aspiration biopsy is “Excision.”">
+<RelationSet id="1887">
+<anatomicalStructure value="right lung" begin="845" end="855" status="0" certainty="0" cui="C0225706" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="lung" begin="851" end="855" status="0" certainty="0" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="LCH;AIR;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="1888">
+<modifier value="diagnostic;lung" begin="903;930" end="913;934" status="0" certainty="0" cui="C1552338;C1552324" tui="T170;T170" rank="366;366" code="NO-CODE" sourceType="HL7V3.0;HL7V3.0"/>
+<procedure value="transbronchial lung biopsy" begin="915" end="941" status="0" certainty="0" cui="C0863477" tui="T060" rank="644" code="NO-CODE" sourceType="MTHICD9"/>
+<procedure value="transbronchial;biopsy" begin="915;935" end="929;941" status="0" certainty="0" cui="C0740463" tui="T060" rank="644" code="NO-CODE" sourceType="MDR"/>
+<procedure value="biopsy;Excision" begin="935;951" end="941;959" status="0" certainty="0" cui="C0184921;C1547504" tui="T060;T170" rank="797;355" code="NO-CODE" sourceType="SNM;HL7V2.5"/>
+<procedure value="lung;Excision" begin="930;951" end="934;959" status="0" certainty="0" cui="C0396565" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="biopsy;thorax" begin="935;963" end="941;969" status="0" certainty="0" cui="C0198350" tui="T060" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="lung biopsy" begin="930" end="941" status="0" certainty="0" cui="C0189485" tui="T060" rank="767" code="NO-CODE" sourceType="ICD10AM"/>
+<procedure value="biopsy" begin="935" end="941" status="0" certainty="0" cui="C0005558;C0220797;C1706430;C1546569;C1548825;C3668914" tui="T060;T169;T078;T170;T058;T060" rank="797;788;571;355;355;353" code="NO-CODE" sourceType="MSH;MSH;NCI;HL7V2.5;HL7V2.5;CPT"/>
+<anatomicalStructure value="transbronchial" begin="915" end="929" status="0" certainty="0" cui="C0205039;C0442342;C0719022;C1550618;C1546565" tui="T023;T082;T109,T121;T031;T170" rank="797;765;673;366;355" code="NO-CODE" sourceType="RCD;RCD;CHV;HL7V3.0;HL7V2.5"/>
+<anatomicalStructure value="lung" begin="930" end="934" status="0" certainty="0" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="LCH;AIR;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="1889">
+<problem value="lymphatic" begin="970" end="979" status="0" certainty="0" cui="C1522604;C0024202;C0524631;C0229889;C0024235;C1557119" tui="T080;T031;T047;T023;T022;T033" rank="797;797;793;765;575;551" code="NO-CODE" sourceType="NCI;LCH;MSH;SNM;NCI;NCI"/>
+<procedure value="Excision;lymphatic" begin="951;970" end="959;979" status="0" certainty="0" cui="C0565005" tui="T061" rank="717" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="Excision;thorax" begin="951;963" end="959;969" status="0" certainty="0" cui="C1293769" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="Excision" begin="951" end="959" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+<anatomicalStructure value="thorax lymphatic" begin="963" end="979" status="0" certainty="0" cui="C0229912;C1279489" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="thorax" begin="963" end="969" status="0" certainty="0" cui="C0817096;C1269614;C0153661" tui="T029;T023;T191" rank="795;765;610" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10"/>
+</RelationSet>
+<RelationSet id="1890">
+<modifier value="endoscopic approach" begin="995" end="1014" status="0" certainty="0" cui="C0442418" tui="T082" rank="724" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<modifier value="percutaneous" begin="981" end="993" status="0" certainty="0" cui="C0522523;C0221912;C1522243;C1522447" tui="T082;T082;T169;T169" rank="797;797;575;575" code="NO-CODE" sourceType="RCD;SNMI;NCI;NCI"/>
+<modifier value="approach" begin="1006" end="1014" status="0" certainty="0" cui="C0449445;C1292724" tui="T082;T169" rank="797;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<procedure value="endoscopic" begin="995" end="1005" status="0" certainty="0" cui="C0014245;C1552424" tui="T060;T073,T093" rank="795;366" code="NO-CODE" sourceType="ICPC2P;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1891">
+<modifier value="transbronchial needle aspiration biopsy" begin="1062" end="1101" status="0" certainty="0" cui="S0001960" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="transbronchial;aspiration" begin="1062;1084" end="1076;1094" status="0" certainty="0" cui="C0919791" tui="T060" rank="652" code="NO-CODE" sourceType="MDR"/>
+<procedure value="transbronchial;biopsy" begin="1062;1095" end="1076;1101" status="0" certainty="0" cui="C0740463" tui="T060" rank="644" code="NO-CODE" sourceType="MDR"/>
+<procedure value="aspiration biopsy" begin="1084" end="1101" status="0" certainty="0" cui="C1510483" tui="T060" rank="765" code="NO-CODE" sourceType="CHV"/>
+<procedure value="needle aspiration" begin="1077" end="1094" status="0" certainty="0" cui="C0181959;C2243017" tui="T074;T061" rank="797;592" code="NO-CODE" sourceType="MTH;MEDCIN"/>
+<procedure value="needle;biopsy" begin="1077;1095" end="1083;1101" status="0" certainty="0" cui="C0181960;C0005560;C0936232;C1548887" tui="T074;T060;T060;T058" rank="797;795;793;355" code="NO-CODE" sourceType="UMD;MSH;MSH;HL7V2.5"/>
+<procedure value="aspiration" begin="1084" end="1094" status="0" certainty="0" cui="C0004056;C0349707;C0700198;C0220787;C1963221;C2827071" tui="T041;T061;T046;T058;T033;T033" rank="790;767;765;711;562;551" code="NO-CODE" sourceType="PSY;RCD;MDR;SNOMEDCTUS;NCI;NCI"/>
+<procedure value="needle" begin="1077" end="1083" status="0" certainty="0" cui="C0027551;C0398296;C0398266;C0007431;C1704318;C1882041;C1546717" tui="T074;T061;T058;T061;T074;T082;T170" rank="795;765;711;711;575;575;355" code="NO-CODE" sourceType="MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;NCI;NCI;HL7V2.5"/>
+<procedure value="biopsy" begin="1095" end="1101" status="0" certainty="0" cui="C0005558;C0220797;C1706430;C1546569;C1548825;C3668914" tui="T060;T169;T078;T170;T058;T060" rank="797;788;571;355;355;353" code="NO-CODE" sourceType="MSH;MSH;NCI;HL7V2.5;HL7V2.5;CPT"/>
+<anatomicalStructure value="transbronchial" begin="1062" end="1076" status="0" certainty="0" cui="C0205039;C0442342;C0719022;C1550618;C1546565" tui="T023;T082;T109,T121;T031;T170" rank="797;765;673;366;355" code="NO-CODE" sourceType="RCD;RCD;CHV;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="1117" end="1246" sentText="Fine needle aspiration involves placing a needle through tissue, suction is then applied, and the tissue is aspirated for biopsy.">
+<RelationSet id="1892">
+<procedure value="biopsy" begin="1239" end="1245" status="0" certainty="0" cui="C0005558;C0220797;C1706430;C1546569;C1548825;C3668914" tui="T060;T169;T078;T170;T058;T060" rank="797;788;571;355;355;353" code="NO-CODE" sourceType="MSH;MSH;NCI;HL7V2.5;HL7V2.5;CPT"/>
+</RelationSet>
+<RelationSet id="1893">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value=" tissue" begin="1214" end="1221" status="0" certainty="0"/>
+<procedure value="aspirated" begin="1225" end="1234" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="tissue" begin="1215" end="1221" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+<procedure value="aspirated" begin="1225" end="1234" status="0" certainty="0" cui="C1999255;C0370199;C0700198;C1546543" tui="T060,T061;T031;T046;T170" rank="797;765;703;355" code="NO-CODE" sourceType="MTH;NCI;SNMI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1894">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="Fine needle aspiration" begin="1117" end="1139" status="0" certainty="0"/>
+<anatomicalStructure value=" tissue" begin="1173" end="1180" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value=" needle" begin="1158" end="1165" status="0" certainty="0"/>
+<procedure value="Fine needle aspiration" begin="1117" end="1139" status="0" certainty="0"/>
+<anatomicalStructure value=" tissue" begin="1173" end="1180" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value=" needle" begin="1158" end="1165" status="0" certainty="0"/>
+<anatomicalStructure value=" tissue" begin="1173" end="1180" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value=" needle" begin="1158" end="1165" status="0" certainty="0"/>
+<procedure value="Fine needle aspiration" begin="1117" end="1139" status="0" certainty="0"/>
+</Relation>
+<medicalDevice value="aspiration;needle" begin="1129;1159" end="1139;1165" status="0" certainty="0" cui="C0181959;C2243017" tui="T074;T061" rank="797;592" code="NO-CODE" sourceType="MTH;MEDCIN"/>
+<medicalDevice value="needle" begin="1159" end="1165" status="0" certainty="0" cui="C0027551;C0398296;C0398266;C0007431;C1704318;C1882041;C1546717" tui="T074;T061;T058;T061;T074;T082;T170" rank="795;765;711;711;575;575;355" code="NO-CODE" sourceType="MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;NCI;NCI;HL7V2.5"/>
+<modifier value="Fine" begin="1117" end="1121" status="0" certainty="0" cui="C0205232;C0687757" tui="T080;T089" rank="767;481" code="NO-CODE" sourceType="RCD;CHV"/>
+<procedure value="Fine needle aspiration" begin="1117" end="1139" status="0" certainty="0" cui="C1510483" tui="T060" rank="790" code="NO-CODE" sourceType="CSP"/>
+<procedure value="aspiration;needle" begin="1129;1159" end="1139;1165" status="0" certainty="0" cui="C0181959;C2243017" tui="T074;T061" rank="797;592" code="NO-CODE" sourceType="MTH;MEDCIN"/>
+<procedure value="aspiration" begin="1129" end="1139" status="0" certainty="0" cui="C0004056;C0349707;C0700198;C0220787;C1963221;C2827071" tui="T041;T061;T046;T058;T033;T033" rank="790;767;765;711;562;551" code="NO-CODE" sourceType="PSY;RCD;MDR;SNOMEDCTUS;NCI;NCI"/>
+<procedure value="needle" begin="1122" end="1128" status="0" certainty="0" cui="C0027551;C0398296;C0398266;C0007431;C1704318;C1882041;C1546717" tui="T074;T061;T058;T061;T074;T082;T170" rank="795;765;711;711;575;575;355" code="NO-CODE" sourceType="MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;NCI;NCI;HL7V2.5"/>
+<anatomicalStructure value="tissue" begin="1174" end="1180" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="1247" end="1403" sentText="The root operation drainage is used when fluid or gas is removed, for diagnostic or therapeutic purposes (i.e., collection of fluid or drainage of abscess).">
+<RelationSet id="1895">
+<procedure value="operation" begin="1256" end="1265" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+<procedure value="drainage" begin="1266" end="1274" status="0" certainty="0" cui="C0013103;C0012621;C2926602" tui="T061;T031;T031" rank="795;765;333" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;OMS"/>
+</RelationSet>
+<RelationSet id="1896">
+<problem value="abscess" begin="1394" end="1401" status="0" certainty="0" cui="C0000833;C0549483;C1546533" tui="T047;T046;T170" rank="797;576;355" code="NO-CODE" sourceType="ICPC2P;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

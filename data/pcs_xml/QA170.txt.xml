@@ -1,0 +1,56 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1024">
+<Paragraph pgNo="1" begin="0" end="294">
+<Sentence sentNo="1" begin="0" end="157" sentText="Question: A patient diagnosed with left buccal intraoral lymphatic malformation, underwent excision of the lesion, and grafting with Oasis® acellular matrix.">
+<RelationSet id="1394">
+<problem value="lymphatic" begin="57" end="66" status="0" certainty="1" cui="C1522604;C0024202;C0524631;C0229889;C0024235;C1557119" tui="T080;T031;T047;T023;T022;T033" rank="797;797;793;765;575;551" code="NO-CODE" sourceType="NCI;LCH;MSH;SNM;NCI;NCI"/>
+<anatomicalStructure value="intraoral" begin="47" end="56" status="0" certainty="1" cui="C0442027;C0442119;C1272919;C1527415;C0226896" tui="T082;T082;T122;T169;T030" rank="797;765;575;575;523" code="NO-CODE" sourceType="RCD;RCD;NCI;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="1395">
+<procedure value="excision;lesion" begin="91;107" end="99;113" status="0" certainty="0" cui="C0948553" tui="T061" rank="652" code="NO-CODE" sourceType="MDR"/>
+<procedure value="excision" begin="91" end="99" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+</RelationSet>
+<RelationSet id="1397">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value=" grafting" begin="118" end="127" status="0" certainty="0"/>
+<anatomicalStructure value="matrix" begin="150" end="156" status="0" certainty="0"/>
+</Relation>
+<procedure value="grafting" begin="119" end="127" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+<anatomicalStructure value="acellular matrix" begin="140" end="156" status="0" certainty="0" cui="C0010853" tui="T026" rank="575" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="158" end="293" sentText="In ICD-10-PCS, is the appropriate device character “synthetic substitute” or “nonautologous tissue substitute,” for this type of graft?">
+<RelationSet id="1398">
+<modifier value="type;graft" begin="279;287" end="283;292" status="0" certainty="0" cui="C0449494" tui="T170" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="graft" begin="287" end="292" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="295" end="1023">
+<Sentence sentNo="3" begin="295" end="366" sentText="Answer: In this example the Oasis® acellular matrix is porcine derived.">
+</Sentence>
+<Sentence sentNo="4" begin="367" end="482" sentText="Therefore it is a non-autologous tissue substitute and is captured in ICD-10-PCS by the device sixth character “K.”">
+<RelationSet id="1399">
+<anatomicalStructure value="tissue" begin="400" end="406" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="483" end="642" sentText="If the material used is derived from a living or biologic basis, it should be coded as “nonautologous tissue substitute;” otherwise it is considered synthetic.">
+</Sentence>
+<Sentence sentNo="6" begin="643" end="764" sentText="If living or biologic material is mixed with synthetic material, it should be coded as “nonautologous tissue substitute.”">
+</Sentence>
+<Sentence sentNo="7" begin="765" end="847" sentText="If two separate products are used, (synthetic and biologic), code both separately.">
+</Sentence>
+<Sentence sentNo="8" begin="848" end="1022" sentText="Assign the following ICD-10-PCS code for the graft using Oasis® acellular matrix: 0CR4XKZ Replacement of buccal mucosa with nonautologous tissue substitute, external approach">
+<RelationSet id="1400">
+<procedure value="graft using" begin="893" end="904" status="0" certainty="0" cui="C0449871" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="graft" begin="893" end="898" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+<RelationSet id="1401">
+<anatomicalStructure value="buccal mucosa" begin="953" end="966" status="0" certainty="0" cui="C1578559;C1280540;C0153373;C0026639" tui="T023;T024;T191;T023" rank="797;765;610;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10;CHV"/>
+<anatomicalStructure value="mucosa" begin="960" end="966" status="0" certainty="0" cui="C0026724;C1561514" tui="T024;T170" rank="791;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+<anatomicalStructure value="buccal" begin="953" end="959" status="0" certainty="0" cui="C0442010;C0007966;C1279153;C1522188;C1540415" tui="T082;T029;T023;T169;T029" rank="797;795;765;575;523" code="NO-CODE" sourceType="RCD;LCH;SNOMEDCTUS;SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

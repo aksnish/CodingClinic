@@ -1,0 +1,55 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="530">
+<Paragraph pgNo="1" begin="0" end="232">
+<Sentence sentNo="1" begin="0" end="66" sentText="Question: The patient was admitted with gastrointestinal bleeding.">
+<RelationSet id="683">
+<problem value="gastrointestinal bleeding" begin="40" end="65" status="0" certainty="1" cui="C0017181" tui="T046" rank="765" code="NO-CODE" sourceType="CST"/>
+<problem value="bleeding" begin="57" end="65" status="0" certainty="1" cui="C0019080" tui="T046" rank="791" code="NO-CODE" sourceType="ICPC2P"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="67" end="178" sentText="The provider performed microbead embolization to the inferior mesenteric artery, to totally occlude the artery.">
+<RelationSet id="684">
+<procedure value="embolization;inferior mesenteric artery" begin="100;120" end="112;146" status="0" certainty="0" cui="C0577769" tui="T061" rank="767" code="NO-CODE" sourceType="RCDAE"/>
+<procedure value="embolization;artery" begin="100;140" end="112;146" status="0" certainty="0" cui="C0397760" tui="T061" rank="767" code="NO-CODE" sourceType="RCDAE"/>
+<procedure value="embolization" begin="100" end="112" status="0" certainty="0" cui="C0013931" tui="T061" rank="765" code="NO-CODE" sourceType="RCDAE"/>
+</RelationSet>
+<RelationSet id="685">
+<anatomicalStructure value="inferior mesenteric artery" begin="120" end="146" status="0" certainty="0" cui="C0162860;C1269016" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="mesenteric artery" begin="129" end="146" status="0" certainty="0" cui="C0025465" tui="T023" rank="797" code="NO-CODE" sourceType="LCH"/>
+<anatomicalStructure value="mesenteric" begin="129" end="139" status="0" certainty="0" cui="C0025474" tui="T029" rank="797" code="NO-CODE" sourceType="LCH"/>
+<anatomicalStructure value="artery" begin="140" end="146" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="686">
+<anatomicalStructure value="artery" begin="171" end="177" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="179" end="231" sentText="What is the appropriate ICD-10-PCS  procedure  code?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="233" end="529">
+<Sentence sentNo="4" begin="233" end="306" sentText="Answer: Microcoils and microbeads are classified as intraluminal devices.">
+</Sentence>
+<Sentence sentNo="5" begin="307" end="395" sentText="The device key entry for “Embolization coils” advises coders to use intraluminal device.">
+<RelationSet id="687">
+<procedure value="Embolization" begin="333" end="345" status="0" certainty="0" cui="C0013931" tui="T061" rank="765" code="NO-CODE" sourceType="RCDAE"/>
+</RelationSet>
+<RelationSet id="688">
+<medicalDevice value="device" begin="388" end="394" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="396" end="528" sentText="Assign ICD-10-PCS code as follows: 04LB3DZ Occlusion of inferior mesenteric artery with intraluminal device, percutaneous  approach.">
+<RelationSet id="689">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="intraluminal device" begin="484" end="503" status="0" certainty="0"/>
+<anatomicalStructure value="mesenteric artery" begin="461" end="478" status="0" certainty="0"/>
+</Relation>
+<medicalDevice value="device" begin="497" end="503" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+<anatomicalStructure value="inferior mesenteric artery" begin="452" end="478" status="0" certainty="0" cui="C0162860;C1269016" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="mesenteric artery" begin="461" end="478" status="0" certainty="0" cui="C0025465" tui="T023" rank="797" code="NO-CODE" sourceType="LCH"/>
+<anatomicalStructure value="mesenteric" begin="461" end="471" status="0" certainty="0" cui="C0025474" tui="T029" rank="797" code="NO-CODE" sourceType="LCH"/>
+<anatomicalStructure value="artery" begin="472" end="478" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

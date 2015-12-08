@@ -1,0 +1,105 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="942">
+<Paragraph pgNo="1" begin="0" end="618">
+<Sentence sentNo="1" begin="0" end="163" sentText="Question: A patient presents for treatment of diabetic vitreous hemorrhage, tractional retinal detachment, and proliferative diabetic retinopathy of the right eye.">
+<RelationSet id="1834">
+<problem value="diabetic vitreous hemorrhage" begin="46" end="74" status="0" certainty="1" cui="C0730283" tui="T047" rank="767" code="NO-CODE" sourceType="RCDAE"/>
+<problem value="vitreous hemorrhage" begin="55" end="74" status="0" certainty="1" cui="C0042909;C1963280" tui="T046;T033" rank="797;551" code="NO-CODE" sourceType="NDFRT;NCI"/>
+<problem value="hemorrhage" begin="64" end="74" status="0" certainty="1" cui="C0019080" tui="T046" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="1834">
+<modifier value="tractional" begin="76" end="86" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1835">
+<problem value="retinal detachment" begin="87" end="105" status="0" certainty="0" cui="C0035305;C1963229" tui="T020;T033" rank="797;551" code="NO-CODE" sourceType="MSH;NCI"/>
+<problem value="detachment" begin="95" end="105" status="0" certainty="0" cui="C0595950;C0541879" tui="T046;T041" rank="716;644" code="NO-CODE" sourceType="SNM;MDR"/>
+</RelationSet>
+<RelationSet id="1836">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="eye" begin="159" end="162" status="0" certainty="0"/>
+<problem value="diabetic retinopathy" begin="125" end="145" status="0" certainty="0"/>
+<modifier value="right" begin="153" end="158" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="eye" begin="159" end="162" status="0" certainty="0"/>
+<problem value="diabetic retinopathy" begin="125" end="145" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="diabetic retinopathy" begin="125" end="145" status="0" certainty="0"/>
+<modifier value="right" begin="153" end="158" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="right eye" begin="153" end="162" status="0" certainty="0" cui="C0229089;C2177784" tui="T029;T060" rank="797;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+<anatomicalStructure value="eye" begin="159" end="162" status="0" certainty="0" cui="C0015392;C1280202;C1299003;C0154094;C2347396;C0042789;C1522230;C1555998;C1555960;C1550636;C1546630;C0029144" tui="T023;T023;T169;T191;T122;T040;T082;T097;T097;T031;T170;T090" rank="797;765;703;610;575;575;575;366;366;366;355;150" code="NO-CODE" sourceType="COSTAR;SNOMEDCTUS;NCI;ICD10;NCI;NCI;SNOMEDCTUS;HL7V3.0;HL7V3.0;HL7V3.0;HL7V2.5;CHV"/>
+<problem value="proliferative diabetic retinopathy;right eye" begin="111;153" end="145;162" status="0" certainty="0" cui="C2114783" tui="T047" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="proliferative diabetic retinopathy" begin="111" end="145" status="0" certainty="0" cui="C0154830" tui="T047" rank="797" code="NO-CODE" sourceType="MDR"/>
+<problem value="proliferative;retinopathy;right eye" begin="111;134;153" end="124;145;162" status="0" certainty="0" cui="C2187312" tui="T047" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="proliferative;retinopathy" begin="111;134" end="124;145" status="0" certainty="0" cui="C0339467" tui="T047" rank="767" code="NO-CODE" sourceType="MDR"/>
+<problem value="diabetic retinopathy" begin="125" end="145" status="0" certainty="0" cui="C0011884" tui="T047" rank="797" code="NO-CODE" sourceType="SNM"/>
+<problem value="retinopathy" begin="134" end="145" status="0" certainty="0" cui="C0035309;C1962966" tui="T047;T033" rank="767;551" code="NO-CODE" sourceType="ICPC;NCI"/>
+<modifier value="right" begin="153" end="158" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="164" end="419" sentText="The provider documented that a posterior pars plana vitrectomy was done, followed by opening of a subhyaloid hemorrhage covering the entire posterior pole, removal of traction from the paramacular region, and removal of hemorrhage from the posterior pole.">
+<RelationSet id="1837">
+<problem value="subhyaloid hemorrhage" begin="262" end="283" status="0" certainty="0" cui="C0271048" tui="T046" rank="767" code="NO-CODE" sourceType="COSTAR"/>
+<problem value="hemorrhage" begin="273" end="283" status="0" certainty="0" cui="C0019080" tui="T046" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="1838">
+<procedure value="removal;traction" begin="320;331" end="327;339" status="0" certainty="0" cui="C0204867" tui="T061" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<procedure value="traction" begin="331" end="339" status="0" certainty="0" cui="C0040597" tui="T061" rank="795" code="NO-CODE" sourceType="MDR"/>
+<procedure value="removal" begin="320" end="327" status="0" certainty="0" cui="C0015252;C0728940;C1883720;C1548394;C3244314;C0849355" tui="T061;T061;T052;T170;T169;T080" rank="767;716;576;366;366;151" code="NO-CODE" sourceType="RCD;NCI;ICPC2P;HL7V3.0;HL7V3.0;CHV"/>
+</RelationSet>
+<RelationSet id="1838">
+<anatomicalStructure value="paramacular region" begin="349" end="367" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1839">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="hemorrhage" begin="384" end="394" status="0" certainty="0"/>
+<modifier value="posterior" begin="404" end="413" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="pole" begin="414" end="418" status="0" certainty="0"/>
+<problem value="hemorrhage" begin="384" end="394" status="0" certainty="0"/>
+<modifier value="posterior" begin="404" end="413" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="pole" begin="414" end="418" status="0" certainty="0"/>
+<problem value="hemorrhage" begin="384" end="394" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="pole" begin="414" end="418" status="0" certainty="0" cui="C0337815;C0935623;C1418729" tui="T098;T029;T028" rank="767;688;596" code="NO-CODE" sourceType="SNMI;UWDA;HGNC"/>
+<problem value="hemorrhage" begin="384" end="394" status="0" certainty="0" cui="C0019080" tui="T046" rank="797" code="NO-CODE" sourceType="MSH"/>
+<modifier value="posterior" begin="404" end="413" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1840">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="pars plana vitrectomy" begin="205" end="226" status="0" certainty="0"/>
+<modifier value="posterior" begin="195" end="204" status="0" certainty="0"/>
+</Relation>
+<modifier value="posterior" begin="195" end="204" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<modifier value="pars" begin="205" end="209" status="0" certainty="0" cui="C1417826;C1414437;C1514229;C1705885;C0032405" tui="T028;T028;T081;T028;T116,T126" rank="600;596;575;575;256" code="NO-CODE" sourceType="OMIM;HGNC;NCI;NCI;CSP"/>
+<procedure value="pars plana vitrectomy" begin="205" end="226" status="0" certainty="0" cui="C0563537" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="vitrectomy" begin="216" end="226" status="0" certainty="0" cui="C0042903" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="pars plana" begin="205" end="215" status="0" certainty="0" cui="C0229167" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="420" end="479" sentText="However, the instillation of oil or gas was not documented.">
+</Sentence>
+<Sentence sentNo="4" begin="480" end="617" sentText="What is the appropriate root operation for the vitrectomy, when there is no documentation that the vitreous was replaced with oil or gas?">
+<RelationSet id="1841">
+<procedure value="vitrectomy" begin="527" end="537" status="0" certainty="0" cui="C0042903" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="619" end="941">
+<Sentence sentNo="5" begin="619" end="773" sentText="Answer: Although instillation of oil, air, or fluid was not specifically documented, it is necessary to replace the vitreous with one of these substances.">
+</Sentence>
+<Sentence sentNo="6" begin="774" end="876" sentText="However, do not code the instillation separately as it is inherent to the performance of a vitrectomy.">
+<RelationSet id="1842">
+<procedure value="vitrectomy" begin="865" end="875" status="0" certainty="0" cui="C0042903" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="877" end="941" sentText="Assign the following ICD-10-PCS code for the vitrectomy: 08B43ZZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

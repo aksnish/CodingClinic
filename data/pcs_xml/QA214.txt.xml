@@ -1,0 +1,26 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="705">
+<Paragraph pgNo="1" begin="0" end="289">
+<Sentence sentNo="1" begin="0" end="110" sentText="Question: Working at a psychiatric hospital, we often come across the diagnosis  of “complicated bereavement.”">
+</Sentence>
+<Sentence sentNo="2" begin="111" end="288" sentText="What is the correct code for “complicated bereavement” when there is  no mention of adjustment reaction/disorder? What code is assigned, if the death was not of a family member?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="290" end="704">
+<Sentence sentNo="3" begin="290" end="393" sentText="Answer: Assign code F43.21, Adjustment disorder with depressed  mood,  for  “complicated  bereavement.”">
+<RelationSet id="332">
+<problem value="depressed;mood" begin="343;354" end="352;358" status="0" certainty="0" cui="C0344315;C0011570" tui="T033;T048" rank="797;795" code="NO-CODE" sourceType="NOC;AIR"/>
+<problem value="depressed" begin="343" end="352" status="0" certainty="0" cui="C0460137;C0011581;C1579931;C0549249;C1999266" tui="T169;T048;T184;T033;T033" rank="765;765;595;572;551" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;MEDCIN;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="394" end="458" sentText="Complicated bereavement/grief is described  as a grief reaction.">
+</Sentence>
+<Sentence sentNo="5" begin="459" end="548" sentText="The fact that the death was not of a family member does not affect this  code assignment.">
+</Sentence>
+<Sentence sentNo="6" begin="549" end="560" sentText="Code Z63.4,">
+</Sentence>
+<Sentence sentNo="7" begin="561" end="703" sentText="Disappearance and death of family member, is  assigned when the diagnostic statement lists only “Bereavement” and it involves a family member.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

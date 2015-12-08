@@ -1,0 +1,140 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1040">
+<Paragraph pgNo="1" begin="0" end="757">
+<Sentence sentNo="1" begin="0" end="134" sentText="Question: A patient with metastatic bone cancer of the left hip is admitted to undergo acetabular reconstruction with hip replacement.">
+<RelationSet id="235">
+<procedure value="reconstruction" begin="98" end="112" status="0" certainty="0" cui="C0524865;C0020912" tui="T061;T066" rank="765;575" code="NO-CODE" sourceType="RCD;NCI"/>
+<anatomicalStructure value="acetabular" begin="87" end="97" status="0" certainty="0" cui="S0002374;C0000962;C1279100" tui="t061;T023;T023" rank="800;795;765" code="NO-CODE" sourceType="EZDI;RCD;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="236">
+<procedure value="hip replacement" begin="118" end="133" status="0" certainty="0" cui="C0392806" tui="T061" rank="765" code="NO-CODE" sourceType="MDR"/>
+<procedure value="replacement" begin="122" end="133" status="0" certainty="0" cui="C0559956;C0035139;C1555302" tui="T169;T061;T078" rank="797;765;366" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;HL7V3.0"/>
+<anatomicalStructure value="hip" begin="118" end="121" status="0" certainty="0" cui="C0019552;C1423009;C1335638;C1337104;C1538823;C0529134;C1430701;C3538851;C1704840;C0022122;C1709823" tui="T023;T028;T028;T028;T028;T116,T123;T116,T123;T028;T028;T023;T028" rank="795;600;596;596;587;575;575;575;575;575;575" code="NO-CODE" sourceType="SNM;HGNC;HGNC;HGNC;HGNC;NCI;NCI;NCI;NCI;HL7V2.5;NCI"/>
+</RelationSet>
+<RelationSet id="237">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="hip" begin="60" end="63" status="0" certainty="0"/>
+<problem value="metastatic bone cancer" begin="25" end="47" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="hip" begin="60" end="63" status="0" certainty="0"/>
+<modifier value="left" begin="55" end="59" status="0" certainty="1"/>
+<problem value="metastatic bone cancer" begin="25" end="47" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="left" begin="55" end="59" status="0" certainty="1"/>
+<problem value="metastatic bone cancer" begin="25" end="47" status="0" certainty="1"/>
+</Relation>
+<anatomicalStructure value="left hip" begin="55" end="63" status="0" certainty="0" cui="C0524471;C1268234;C0517668;C2945669" tui="T029;T029;T033;T033" rank="765;765;328;150" code="NO-CODE" sourceType="SNMI;SNOMEDCTUS;NOC;CHV"/>
+<anatomicalStructure value="bone;hip" begin="36;60" end="40;63" status="0" certainty="0" cui="C0030786" tui="T023" rank="797" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="hip" begin="60" end="63" status="0" certainty="0" cui="C0019552;C1423009;C1335638;C1337104;C1538823;C0529134;C1430701;C3538851;C1704840;C0022122;C1709823" tui="T023;T028;T028;T028;T028;T116,T123;T116,T123;T028;T028;T023;T028" rank="795;600;596;596;587;575;575;575;575;575;575" code="NO-CODE" sourceType="SNM;HGNC;HGNC;HGNC;HGNC;NCI;NCI;NCI;NCI;HL7V2.5;NCI"/>
+<modifier value="left" begin="55" end="59" status="0" certainty="1" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+<problem value="metastatic bone cancer;to" begin="25;76" end="47;78" status="0" certainty="1" cui="C0153690" tui="T191" rank="652" code="NO-CODE" sourceType="PDQ"/>
+<problem value="metastatic;cancer" begin="25;41" end="35;47" status="0" certainty="1" cui="C2939419;C2939420;C0346957;C0027627" tui="T191;T191;T191;T191" rank="765;592;151;150" code="NO-CODE" sourceType="RCD;PDQ;CHV;CHV"/>
+<problem value="bone cancer" begin="36" end="47" status="0" certainty="1" cui="C0279530;C0585442" tui="T191;T191" rank="793;151" code="NO-CODE" sourceType="MEDCIN;CHV"/>
+<problem value="cancer" begin="41" end="47" status="0" certainty="1" cui="C0006826;C1306459;C0998265;C0260515;C1547140" tui="T191;T191;T204;T033;T091" rank="793;765;751;592;355" code="NO-CODE" sourceType="ICPC2P;SNOMEDCTUS;NCBI;MEDCIN;HL7V2.5"/>
+<anatomicalStructure value="bone;hip" begin="36;60" end="40;63" status="0" certainty="1" cui="C0030786" tui="T023" rank="797" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="bone" begin="36" end="40" status="0" certainty="1" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="135" end="260" sentText="At surgery the proximal femur was prepared using sequential reamers and broaches to accept the cemented Stryker femoral stem.">
+<RelationSet id="238">
+<procedure value="surgery" begin="138" end="145" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="239">
+<anatomicalStructure value="femur" begin="159" end="164" status="0" certainty="0" cui="C0015811" tui="T023" rank="272" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="240">
+<medicalDevice value="cemented" begin="230" end="238" status="0" certainty="0" cui="C1704479;C0441496;C0303744;C0011343;C1706094" tui="T122;T061;T073;T023;T122" rank="776;765;724;692;575" code="NO-CODE" sourceType="SNOMEDCTUS;RCD;SNOMEDCTUS;UWDA;NCI"/>
+<medicalDevice value="stem" begin="255" end="259" status="0" certainty="0" cui="C0162731;C1186763;C0262879;C0242767" tui="T059;T023;T074;T002" rank="791;688;685;576" code="NO-CODE" sourceType="CSP;CHV;UMD;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="261" end="363" sentText="The acetabulum was prepared and a 60 gap cage was placed and multiple screws were placed for fixation.">
+<RelationSet id="241">
+<anatomicalStructure value="acetabulum" begin="265" end="275" status="0" certainty="0" cui="C0000962;C1279100" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="242">
+<medicalDevice value="cage" begin="302" end="306" status="0" certainty="0" cui="C0337189;C0441239;C1426669" tui="T073;T074;T028" rank="767;765;587" code="NO-CODE" sourceType="SNOMEDCTUS;RCD;HGNC"/>
+</RelationSet>
+<RelationSet id="243">
+<medicalDevice value="screws" begin="331" end="337" status="0" certainty="0" cui="C0301559;C0005975;C0441634;C1704683" tui="T074;T074;T169;T074" rank="797;765;711;575" code="NO-CODE" sourceType="SNM;RCD;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="244">
+<procedure value="fixation" begin="354" end="362" status="0" certainty="0" cui="C0185023;C1522662;C0728733" tui="T061;T059;T041" rank="767;576;475" code="NO-CODE" sourceType="RCD;NCI;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="364" end="471" sentText="Bone cement was used to fill the lesion and around the screws and to cement the tripolar acetabular insert.">
+<RelationSet id="245">
+<anatomicalStructure value="cement" begin="369" end="375" status="0" certainty="0" cui="C0007656;C1704479;C0441496;C0303744;C0011343;C1706094" tui="T061;T122;T061;T073;T023;T122" rank="795;776;765;724;692;575" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;RCD;SNOMEDCTUS;UWDA;NCI"/>
+<anatomicalStructure value="Bone" begin="364" end="368" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="246">
+<problem value="Bone;lesion" begin="364;397" end="368;403" status="1" certainty="0" cui="C0238792" tui="T047" rank="755" code="NO-CODE" sourceType="MDR"/>
+</RelationSet>
+<RelationSet id="247">
+<medicalDevice value="screws" begin="419" end="425" status="1" certainty="0" cui="C0301559;C0005975;C0441634;C1704683" tui="T074;T074;T169;T074" rank="797;765;711;575" code="NO-CODE" sourceType="SNM;RCD;SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="472" end="526" sentText="The Stryker femoral stem was also cemented into place.">
+<RelationSet id="248">
+<medicalDevice value="stem" begin="492" end="496" status="0" certainty="0" cui="C0162731;C1186763;C0262879;C0242767" tui="T059;T023;T074;T002" rank="791;688;685;576" code="NO-CODE" sourceType="CSP;CHV;UMD;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="527" end="605" sentText="The neural head was impacted into the femur and the hip was carefully reduced.">
+<RelationSet id="249">
+<anatomicalStructure value="head;femur" begin="538;565" end="542;570" status="0" certainty="0" cui="C0015813" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="neural" begin="531" end="537" status="0" certainty="0" cui="C0027740;C1280541;C0599851;C0027757" tui="T024;T023;T169;T024" rank="797;765;576;572" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;CSP;NCI"/>
+<anatomicalStructure value="head" begin="538" end="542" status="0" certainty="0" cui="C0205096;C0018670;C1281590;C2348941;C1706305;C1708330;C0876917" tui="T082;T029;T023;T170;T073;T073;T061" rank="797;797;765;576;575;575;373" code="NO-CODE" sourceType="SNMI;CST;SNOMEDCTUS;NCI;NCI;NCI;ICD10AM"/>
+</RelationSet>
+<RelationSet id="250">
+<anatomicalStructure value="femur" begin="565" end="570" status="0" certainty="0" cui="C0015811;C1279112" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="251">
+<anatomicalStructure value="hip" begin="579" end="582" status="0" certainty="0" cui="C0019552;C1423009;C1335638;C1337104;C1538823;C0529134;C1430701;C3538851;C1704840;C0022122;C1709823" tui="T023;T028;T028;T028;T028;T116,T123;T116,T123;T028;T028;T023;T028" rank="795;600;596;596;587;575;575;575;575;575;575" code="NO-CODE" sourceType="SNM;HGNC;HGNC;HGNC;HGNC;NCI;NCI;NCI;NCI;HL7V2.5;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="606" end="756" sentText="What is/are the appropriate ICD-10-PCS code(s) for acetabular reconstruction and a total hip arthroplasty performed during the same operative episode?">
+<RelationSet id="252">
+<procedure value="reconstruction" begin="668" end="682" status="0" certainty="0" cui="C0524865;C0020912" tui="T061;T066" rank="765;575" code="NO-CODE" sourceType="RCD;NCI"/>
+<anatomicalStructure value="acetabular" begin="657" end="667" status="0" certainty="0" cui="S0002374;C0000962;C1279100" tui="t061;T023;T023" rank="800;795;765" code="NO-CODE" sourceType="EZDI;RCD;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="253">
+<modifier value="total" begin="689" end="694" status="0" certainty="0" cui="C0439810" tui="T080" rank="797" code="NO-CODE" sourceType="RCD"/>
+<procedure value="total hip arthroplasty" begin="689" end="711" status="0" certainty="0" cui="C0040508;C0186258;C0371106" tui="T061;T061;T061" rank="491;271;271" code="NO-CODE" sourceType="COSTAR;CPT;CPT"/>
+<procedure value="hip arthroplasty" begin="695" end="711" status="0" certainty="0" cui="C0186193" tui="T061" rank="765" code="NO-CODE" sourceType="MDR"/>
+<procedure value="arthroplasty" begin="699" end="711" status="0" certainty="0" cui="C0003893;C0700235" tui="T061;T061" rank="797;622" code="NO-CODE" sourceType="MSH;HCDT"/>
+<anatomicalStructure value="hip" begin="695" end="698" status="0" certainty="0" cui="C0019552;C1423009;C1335638;C1337104;C1538823;C0529134;C1430701;C3538851;C1704840;C0022122;C1709823" tui="T023;T028;T028;T028;T028;T116,T123;T116,T123;T028;T028;T023;T028" rank="795;600;596;596;587;575;575;575;575;575;575" code="NO-CODE" sourceType="SNM;HGNC;HGNC;HGNC;HGNC;NCI;NCI;NCI;NCI;HL7V2.5;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="758" end="1039">
+<Sentence sentNo="8" begin="758" end="928" sentText="Answer: Due to the significant bone loss additional support (acetabular reconstruction) was needed in order to support the hip socket prior to the total hip arthroplasty.">
+<RelationSet id="254">
+<problem value="bone loss" begin="789" end="798" status="0" certainty="-2" cui="C0029453" tui="T046" rank="652" code="NO-CODE" sourceType="CSP"/>
+<anatomicalStructure value="bone" begin="789" end="793" status="0" certainty="-2" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="255">
+<procedure value="reconstruction" begin="830" end="844" status="0" certainty="-2" cui="C0524865;C0020912" tui="T061;T066" rank="765;575" code="NO-CODE" sourceType="RCD;NCI"/>
+<anatomicalStructure value="acetabular" begin="819" end="829" status="0" certainty="-2" cui="S0002374;C0000962;C1279100" tui="t061;T023;T023" rank="800;795;765" code="NO-CODE" sourceType="EZDI;RCD;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="256">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="total hip arthroplasty" begin="905" end="927" status="0" certainty="0"/>
+<anatomicalStructure value="hip socket" begin="881" end="891" status="0" certainty="0"/>
+</Relation>
+<modifier value="total" begin="905" end="910" status="0" certainty="0" cui="C0439810" tui="T080" rank="797" code="NO-CODE" sourceType="RCD"/>
+<procedure value="hip;total;arthroplasty" begin="881;905;915" end="884;910;927" status="0" certainty="0" cui="C0040508;C0186258;C0371106" tui="T061;T061;T061" rank="491;271;271" code="NO-CODE" sourceType="COSTAR;CPT;CPT"/>
+<procedure value="hip arthroplasty" begin="911" end="927" status="0" certainty="0" cui="C0186193" tui="T061" rank="765" code="NO-CODE" sourceType="MDR"/>
+<procedure value="arthroplasty" begin="915" end="927" status="0" certainty="0" cui="C0003893;C0700235" tui="T061;T061" rank="797;622" code="NO-CODE" sourceType="MSH;HCDT"/>
+<anatomicalStructure value="hip" begin="911" end="914" status="0" certainty="0" cui="C0019552;C1423009;C1335638;C1337104;C1538823;C0529134;C1430701;C3538851;C1704840;C0022122;C1709823" tui="T023;T028;T028;T028;T028;T116,T123;T116,T123;T028;T028;T023;T028" rank="795;600;596;596;587;575;575;575;575;575;575" code="NO-CODE" sourceType="SNM;HGNC;HGNC;HGNC;HGNC;NCI;NCI;NCI;NCI;HL7V2.5;NCI"/>
+<anatomicalStructure value="socket" begin="885" end="891" status="0" certainty="0" cui="C0224517;C1706137" tui="T030;T074" rank="691;575" code="NO-CODE" sourceType="UWDA;NCI"/>
+<anatomicalStructure value="hip" begin="881" end="884" status="0" certainty="0" cui="C0019552;C1423009;C1335638;C1337104;C1538823;C0529134;C1430701;C3538851;C1704840;C0022122;C1709823" tui="T023;T028;T028;T028;T028;T116,T123;T116,T123;T028;T028;T023;T028" rank="795;600;596;596;587;575;575;575;575;575;575" code="NO-CODE" sourceType="SNM;HGNC;HGNC;HGNC;HGNC;NCI;NCI;NCI;NCI;HL7V2.5;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="929" end="994" sentText="Two codes are required to fully capture the procedures performed.">
+</Sentence>
+<Sentence sentNo="10" begin="995" end="1038" sentText="Assign ICD-10-PCS codes as follows: 0SRB0J9">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

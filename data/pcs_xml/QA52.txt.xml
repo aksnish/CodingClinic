@@ -1,0 +1,65 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="780">
+<Paragraph pgNo="1" begin="0" end="389">
+<Sentence sentNo="1" begin="0" end="147" sentText="Question: An 84-year-old patient was admitted to our longterm care hospital (LTCH) for posttraumatic subarachnoid hemorrhage and subdural hematoma.">
+<RelationSet id="1731">
+<problem value="posttraumatic subarachnoid hemorrhage" begin="87" end="124" status="0" certainty="0" cui="C0475073" tui="T037" rank="795" code="NO-CODE" sourceType="ICD10AE"/>
+<problem value="posttraumatic;hemorrhage" begin="87;114" end="100;124" status="0" certainty="0" cui="C0040797" tui="T037" rank="767" code="NO-CODE" sourceType="MDR"/>
+<problem value="subarachnoid hemorrhage" begin="101" end="124" status="0" certainty="0" cui="C0038525" tui="T047" rank="795" code="NO-CODE" sourceType="NDFRT"/>
+<problem value="hemorrhage" begin="114" end="124" status="0" certainty="0" cui="C0019080" tui="T046" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="subarachnoid" begin="101" end="113" status="0" certainty="0" cui="C0003707;C1515008" tui="T023;T169" rank="795;575" code="NO-CODE" sourceType="SNM;NCI"/>
+</RelationSet>
+<RelationSet id="1732">
+<problem value="subdural hematoma" begin="129" end="146" status="0" certainty="0" cui="C0018946" tui="T046" rank="797" code="NO-CODE" sourceType="MDR"/>
+<problem value="hematoma" begin="138" end="146" status="0" certainty="0" cui="C0018944;C1962958" tui="T046;T033" rank="797;551" code="NO-CODE" sourceType="MSH;NCI"/>
+<anatomicalStructure value="subdural" begin="129" end="137" status="0" certainty="0" cui="S0002386;C0038541" tui="t061;T030" rank="800;703" code="NO-CODE" sourceType="EZDI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="148" end="330" sentText="She was treated medically at an acute care facility and was then transferred to our facility for continuation of the same treatment she had been receiving at the acute care facility.">
+</Sentence>
+<Sentence sentNo="3" begin="331" end="388" sentText="What is the appropriate 7th character for this encounter?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="390" end="779">
+<Sentence sentNo="4" begin="390" end="653" sentText="Answer: Assign codes S06.5X0A, Traumatic subdural hemorrhage without loss of consciousness, initial encounter, and S06.6X0A, Traumatic subarachnoid hemorrhage without loss of consciousness, initial encounter, for the subdural hematoma and subarachnoid hemorrhage.">
+<RelationSet id="1732">
+<problem value="6.5X0A, Traumatic subdural hemorrhage without loss of consciousness, initial e" begin="413" end="491" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1735">
+<problem value="subdural hematoma" begin="607" end="624" status="0" certainty="-2" cui="C0018946" tui="T046" rank="797" code="NO-CODE" sourceType="MDR"/>
+<problem value="hematoma" begin="616" end="624" status="0" certainty="-2" cui="C0018944;C1962958" tui="T046;T033" rank="797;551" code="NO-CODE" sourceType="MSH;NCI"/>
+<anatomicalStructure value="subdural" begin="607" end="615" status="0" certainty="-2" cui="S0002386;C0038541" tui="t061;T030" rank="800;703" code="NO-CODE" sourceType="EZDI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1736">
+<problem value="subarachnoid hemorrhage" begin="629" end="652" status="0" certainty="0" cui="C0038525" tui="T047" rank="795" code="NO-CODE" sourceType="NDFRT"/>
+<problem value="hemorrhage" begin="642" end="652" status="0" certainty="0" cui="C0019080" tui="T046" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="subarachnoid" begin="629" end="641" status="0" certainty="0" cui="C0003707;C1515008" tui="T023;T169" rank="795;575" code="NO-CODE" sourceType="SNM;NCI"/>
+</RelationSet>
+<RelationSet id="1737">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="subdural hemorrhage" begin="431" end="450" status="0" certainty="0"/>
+<modifier value="Traumatic" begin="421" end="430" status="0" certainty="0"/>
+</Relation>
+<problem value="Traumatic subdural hemorrhage" begin="421" end="450" status="0" certainty="0" cui="C2832469;C1367166" tui="T037;T037" rank="800;767" code="NO-CODE" sourceType="ICD10CM;ICD10AE"/>
+<problem value="subdural hemorrhage" begin="431" end="450" status="0" certainty="0" cui="C0018946" tui="T046" rank="791" code="NO-CODE" sourceType="MDR"/>
+<problem value="Traumatic;hemorrhage" begin="421;440" end="430;450" status="0" certainty="0" cui="C0040797" tui="T037" rank="767" code="NO-CODE" sourceType="MDR"/>
+<problem value="hemorrhage" begin="440" end="450" status="0" certainty="0" cui="C0019080" tui="T046" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="subdural" begin="431" end="439" status="0" certainty="0" cui="S0002386;C0038541" tui="t061;T030" rank="800;703" code="NO-CODE" sourceType="EZDI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1738">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="subarachnoid hemorrhage" begin="525" end="548" status="0" certainty="0"/>
+<modifier value="Traumatic" begin="515" end="524" status="0" certainty="-2"/>
+</Relation>
+<problem value="Traumatic subarachnoid hemorrhage" begin="515" end="548" status="0" certainty="0" cui="C0475073" tui="T037" rank="795" code="NO-CODE" sourceType="ICD10AE"/>
+<problem value="subarachnoid hemorrhage" begin="525" end="548" status="0" certainty="0" cui="C0038525" tui="T047" rank="795" code="NO-CODE" sourceType="NDFRT"/>
+<problem value="Traumatic;hemorrhage" begin="515;538" end="524;548" status="0" certainty="0" cui="C0040797" tui="T037" rank="767" code="NO-CODE" sourceType="MDR"/>
+<problem value="hemorrhage" begin="538" end="548" status="0" certainty="0" cui="C0019080" tui="T046" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="subarachnoid" begin="525" end="537" status="0" certainty="0" cui="C0003707;C1515008" tui="T023;T169" rank="795;575" code="NO-CODE" sourceType="SNM;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="654" end="778" sentText="Although the patient was treated at the previous facility, the patient was transferred for continuation of active treatment.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,2 @@
+Question: What is the appropriate body part character when a diagnostic lumbar tap is performed to test for meningitis? When you go to the drainage table (Table 009), there are a couple of options that seem appropriate. Should we use body part character “U” for spinal canal or body part character “Y” for lumbar spinal cord? 
+Answer: The body part for lumbar tap/drain is spinal canal, rather than spinal cord. Assign ICD-10-PCS procedure code as follows: 009U3ZX Drainage of spinal canal, percutaneous  approach, diagnostic 

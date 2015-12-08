@@ -1,0 +1,21 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="889">
+<Paragraph pgNo="1" begin="0" end="265">
+<Sentence sentNo="1" begin="0" end="131" sentText="Question: We understand that there are no plans to translate all previous issues  of Coding Clinic for ICD-9-CM into ICD-10-CM/PCS.">
+</Sentence>
+<Sentence sentNo="2" begin="132" end="264" sentText="However, we are wondering if we can use the clinical information published in Coding Clinic for ICD-9-CM  when  coding  with ICD-10?">
+<RelationSet id="1976">
+<medicalDevice value="ICD" begin="257" end="260" status="0" certainty="0" cui="C0870733;C0162589;C1550747" tui="T170;T074;T079" rank="572;530;519" code="NO-CODE" sourceType="LNC;NCI;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="266" end="888">
+<Sentence sentNo="3" begin="266" end="606" sentText="Answer: Clinical information previously published in Coding Clinic whether for ICD-9-CM or ICD-10-CM/PCS does not constitute clinical criteria for establishing a diagnosis, substitute for the provider’s clinical judgment, or eliminate the need for provider documentation regarding the clinical significance of a patient’s medical condition.">
+</Sentence>
+<Sentence sentNo="4" begin="607" end="732" sentText="It may still be useful to understand clinical clues regarding signs or symptoms that may be integral (or not) to a condition.">
+</Sentence>
+<Sentence sentNo="5" begin="733" end="887" sentText="However, care should  be exercised as ICD-10-CM  has new combination codes as well as instructional notes that may or may not be consistent with ICD-9-CM.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

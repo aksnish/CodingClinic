@@ -1,0 +1,73 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="606">
+<Paragraph pgNo="1" begin="0" end="409">
+<Sentence sentNo="1" begin="0" end="61" sentText="Question: A 22-year-old female presents for cerclage removal.">
+<RelationSet id="1099">
+<procedure value="cerclage" begin="44" end="52" status="0" certainty="1" cui="C1292825" tui="T061" rank="767" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="removal" begin="53" end="60" status="0" certainty="1" cui="C0015252;C0728940;C1883720;C1548394;C3244314;C0849355" tui="T061;T061;T052;T170;T169;T080" rank="767;716;576;366;366;151" code="NO-CODE" sourceType="RCD;NCI;ICPC2P;HL7V3.0;HL7V3.0;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="62" end="186" sentText="She has a history of cerclage placement due to cervical incompetence, and is status post cesarean delivery seven months ago.">
+<RelationSet id="1100">
+<procedure value="cerclage;cervical" begin="83;109" end="91;117" status="1" certainty="0" cui="C0195681" tui="T061" rank="797" code="NO-CODE" sourceType="RCD"/>
+<procedure value="placement" begin="92" end="101" status="1" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+<procedure value="cerclage" begin="83" end="91" status="1" certainty="0" cui="C1292825" tui="T061" rank="767" code="NO-CODE" sourceType="CCPSS"/>
+</RelationSet>
+<RelationSet id="1101">
+<problem value="cervical incompetence" begin="109" end="130" status="1" certainty="0" cui="C0007871" tui="T046" rank="791" code="NO-CODE" sourceType="CCS"/>
+<problem value="incompetence" begin="118" end="130" status="1" certainty="0" cui="C0231189;C0231190" tui="T046;T169" rank="767;703" code="NO-CODE" sourceType="SNMI;SNMI"/>
+<anatomicalStructure value="cervical" begin="109" end="117" status="1" certainty="0" cui="C0027530;C0205064;C0007874;C1281592;C2137077;C0200040;C1550623;C1546592" tui="T029;T082;T023;T023;T033;T061;T031;T170" rank="797;797;790;765;592;373;366;355" code="NO-CODE" sourceType="CST;RCD;RCD;SNOMEDCTUS;MEDCIN;ICD10AM;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1102">
+<modifier value="cesarean" begin="151" end="159" status="0" certainty="0" cui="S0000253" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="cesarean delivery" begin="151" end="168" status="0" certainty="0" cui="C1384674;C0007876;C0195605;C0195625" tui="T033;T061;T061;T061" rank="765;627;271;271" code="NO-CODE" sourceType="SNOMEDCTUS;CPT;HCPT;HCPT"/>
+<procedure value="delivery" begin="160" end="168" status="0" certainty="0" cui="C0011209;C2053584;C1705822;C0559563" tui="T061;T033;T052;T033" rank="765;595;575;506" code="NO-CODE" sourceType="ICD10;MEDCIN;NCI;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="187" end="274" sentText="Cerclage removal was attempted at the time of labor and delivery, but was unsuccessful.">
+<RelationSet id="1103">
+<procedure value="Cerclage" begin="187" end="195" status="0" certainty="0" cui="C1292825" tui="T061" rank="767" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="removal" begin="196" end="203" status="0" certainty="0" cui="C0015252;C0728940;C1883720;C1548394;C3244314;C0849355" tui="T061;T061;T052;T170;T169;T080" rank="767;716;576;366;366;151" code="NO-CODE" sourceType="RCD;NCI;ICPC2P;HL7V3.0;HL7V3.0;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="275" end="339" sentText="At surgery, she underwent hysteroscopic removal of the cerclage.">
+<RelationSet id="1104">
+<procedure value="surgery" begin="278" end="285" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1105">
+<procedure value="hysteroscopic" begin="301" end="314" status="0" certainty="0" cui="C0020710;C0442422" tui="T060;T080" rank="795;717" code="NO-CODE" sourceType="ICPC2P;SNOMEDCTUS"/>
+<procedure value="cerclage" begin="330" end="338" status="0" certainty="0" cui="C1292825" tui="T061" rank="767" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="removal" begin="315" end="322" status="0" certainty="0" cui="C0015252;C0728940;C1883720;C1548394;C3244314;C0849355" tui="T061;T061;T052;T170;T169;T080" rank="767;716;576;366;366;151" code="NO-CODE" sourceType="RCD;NCI;ICPC2P;HL7V3.0;HL7V3.0;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="340" end="408" sentText="What is the appropriate ICD-10-PCS code for removal of the cerclage?">
+<RelationSet id="1106">
+<procedure value="cerclage" begin="399" end="407" status="0" certainty="0" cui="C1292825" tui="T061" rank="767" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="removal" begin="384" end="391" status="0" certainty="0" cui="C0015252;C0728940;C1883720;C1548394;C3244314;C0849355" tui="T061;T061;T052;T170;T169;T080" rank="767;716;576;366;366;151" code="NO-CODE" sourceType="RCD;NCI;ICPC2P;HL7V3.0;HL7V3.0;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="410" end="605">
+<Sentence sentNo="6" begin="410" end="455" sentText="Answer: A cerclage is a suture, not a device.">
+<RelationSet id="1107">
+<medicalDevice value="suture" begin="434" end="440" status="0" certainty="0" cui="C0205368;C0038969;C0009068;C1705834;C1706068;C1546803" tui="T169;T074;T061;T073;T122;T170" rank="797;795;765;575;575;355" code="NO-CODE" sourceType="SNMI;MSH;SNM;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="456" end="504" sentText="The appropriate root operation is “Extirpation.”">
+</Sentence>
+<Sentence sentNo="8" begin="505" end="604" sentText="Assign the following ICD-10-PCS code for the removal of cervical cerclage via hysteroscopy: 0UCC8ZZ">
+<RelationSet id="1108">
+<procedure value="removal;cervical cerclage" begin="550;561" end="557;578" status="0" certainty="0" cui="C0948932;C0195341" tui="T061;T061" rank="644;595" code="NO-CODE" sourceType="MDR;ICD9CM"/>
+<procedure value="cervical cerclage" begin="561" end="578" status="0" certainty="0" cui="C0195681" tui="T061" rank="797" code="NO-CODE" sourceType="RCD"/>
+<procedure value="removal;cervical" begin="550;561" end="557;569" status="0" certainty="0" cui="C0195331" tui="T061" rank="626" code="NO-CODE" sourceType="CPT"/>
+<procedure value="cervical" begin="561" end="569" status="0" certainty="0" cui="C0027530;C0205064;C0007874;C1281592;C2137077;C0200040;C1550623;C1546592" tui="T029;T082;T023;T023;T033;T061;T031;T170" rank="797;797;790;765;592;373;366;355" code="NO-CODE" sourceType="CST;RCD;RCD;SNOMEDCTUS;MEDCIN;ICD10AM;HL7V3.0;HL7V2.5"/>
+<procedure value="cerclage" begin="570" end="578" status="0" certainty="0" cui="C1292825" tui="T061" rank="767" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="removal" begin="550" end="557" status="0" certainty="0" cui="C0015252;C0728940;C1883720;C1548394;C3244314;C0849355" tui="T061;T061;T052;T170;T169;T080" rank="767;716;576;366;366;151" code="NO-CODE" sourceType="RCD;NCI;ICPC2P;HL7V3.0;HL7V3.0;CHV"/>
+</RelationSet>
+<RelationSet id="1109">
+<procedure value="hysteroscopy" begin="583" end="595" status="0" certainty="0" cui="C0020710" tui="T060" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

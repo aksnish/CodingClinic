@@ -1,0 +1,161 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="832">
+<Paragraph pgNo="1" begin="0" end="286">
+<Sentence sentNo="1" begin="0" end="97" sentText="Question: The patient was diagnosed with acute liver injury as well as acute hepatitis, nonviral.">
+<RelationSet id="541">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="acute" begin="41" end="46" status="0" certainty="1"/>
+<problem value="liver injury" begin="47" end="59" status="0" certainty="1"/>
+</Relation>
+<modifier value="acute" begin="41" end="46" status="0" certainty="1" cui="C0205178;C1547229;C1547295" tui="T079;T170;T170" rank="797;355;355" code="NO-CODE" sourceType="RCD;HL7V2.5;HL7V2.5"/>
+<problem value="liver injury" begin="47" end="59" status="0" certainty="1" cui="C0160390" tui="T037" rank="767" code="NO-CODE" sourceType="DXP"/>
+<problem value="injury" begin="53" end="59" status="0" certainty="1" cui="C1510467;C3263723;C3263722" tui="T037;T037;T037" rank="794;793;765" code="NO-CODE" sourceType="MSH;ICPC2P;SNOMEDCTUS"/>
+<problem value="liver" begin="47" end="52" status="0" certainty="1" cui="C0023884;C0205054;C1278929;C0023899;C0721399;C0496870;C0736268;C2346688;C0872387" tui="T023;T029;T023;T109,T121;T109,T121,T127;T191;T023;T168;T058" rank="797;797;765;739;673;610;572;562;373" code="NO-CODE" sourceType="LCH;SNMI;RCD;MMSL;CHV;ICD10;NCI;NCI;ICD10AM"/>
+</RelationSet>
+<RelationSet id="542">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="hepatitis" begin="77" end="86" status="0" certainty="0"/>
+<modifier value="acute" begin="71" end="76" status="0" certainty="0"/>
+</Relation>
+<modifier value="acute" begin="71" end="76" status="0" certainty="0" cui="C0205178;C1547229;C1547295" tui="T079;T170;T170" rank="797;355;355" code="NO-CODE" sourceType="RCD;HL7V2.5;HL7V2.5"/>
+<problem value="acute;as;hepatitis" begin="41;60;77" end="46;62;86" status="0" certainty="0" cui="C0276434" tui="T047" rank="765" code="NO-CODE" sourceType="ICD10"/>
+<problem value="acute hepatitis" begin="71" end="86" status="0" certainty="0" cui="C0267797" tui="T047" rank="767" code="NO-CODE" sourceType="RCD"/>
+<problem value="hepatitis" begin="77" end="86" status="0" certainty="0" cui="C0019158;C0019159;C0795623" tui="T047;T047;T121,T129" rank="797;797;739" code="NO-CODE" sourceType="MSH;ICPC2P;NDFRT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="98" end="111" sentText="Code S36.119,">
+</Sentence>
+<Sentence sentNo="3" begin="112" end="232" sentText="Unspecified injury of liver, does not seem to apply since there was no documentation of a traumatic injury to the liver.">
+<RelationSet id="543">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="Unspecified injury" begin="112" end="130" status="0" certainty="0"/>
+<anatomicalStructure value="liver" begin="134" end="139" status="0" certainty="0"/>
+</Relation>
+<problem value="Unspecified;liver" begin="112;134" end="123;139" status="0" certainty="0" cui="C0345904" tui="T191" rank="610" code="NO-CODE" sourceType="ICD10"/>
+<problem value="injury;liver" begin="124;134" end="130;139" status="0" certainty="0" cui="C0160390" tui="T037" rank="767" code="NO-CODE" sourceType="DXP"/>
+<problem value="injury" begin="124" end="130" status="0" certainty="0" cui="C1510467;C3263723;C3263722" tui="T037;T037;T037" rank="794;793;765" code="NO-CODE" sourceType="MSH;ICPC2P;SNOMEDCTUS"/>
+<anatomicalStructure value="liver" begin="134" end="139" status="0" certainty="0" cui="C0023884;C0205054;C1278929;C0023899;C0721399;C0496870;C0736268;C2346688;C0872387" tui="T023;T029;T023;T109,T121;T109,T121,T127;T191;T023;T168;T058" rank="797;797;765;739;673;610;572;562;373" code="NO-CODE" sourceType="LCH;SNMI;RCD;MMSL;CHV;ICD10;NCI;NCI;ICD10AM"/>
+</RelationSet>
+<RelationSet id="544">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="liver" begin="226" end="231" status="0" certainty="-2"/>
+<problem value="traumatic injury" begin="202" end="218" status="0" certainty="-2"/>
+</Relation>
+<anatomicalStructure value="liver" begin="226" end="231" status="0" certainty="-2" cui="C0023884;C0205054;C1278929;C0023899;C0721399;C0496870;C0736268;C2346688;C0872387" tui="T023;T029;T023;T109,T121;T109,T121,T127;T191;T023;T168;T058" rank="797;797;765;739;673;610;572;562;373" code="NO-CODE" sourceType="LCH;SNMI;RCD;MMSL;CHV;ICD10;NCI;NCI;ICD10AM"/>
+<problem value="traumatic injury" begin="202" end="218" status="0" certainty="-2" cui="C3263723;C0043251;C0043250;C0740686" tui="T037;T037;T037;T037" rank="797;791;536;150" code="NO-CODE" sourceType="ICPC2P;ICPC2P;NCI;CHV"/>
+<problem value="injury to;liver" begin="212;226" end="221;231" status="0" certainty="-2" cui="C0160390" tui="T037" rank="767" code="NO-CODE" sourceType="DXP"/>
+<problem value="traumatic" begin="202" end="211" status="0" certainty="-2" cui="C1510467;C0332663;C0548346" tui="T037;T169;T058" rank="794;767;317" code="NO-CODE" sourceType="MSH;RCD;PCDS"/>
+<problem value="injury" begin="212" end="218" status="0" certainty="-2" cui="C3263722" tui="T037" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="233" end="285" sentText="How should nontraumatic acute liver injury be coded?">
+<RelationSet id="545">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="liver injury" begin="263" end="275" status="0" certainty="0"/>
+<modifier value="acute" begin="257" end="262" status="0" certainty="0"/>
+</Relation>
+<problem value="nontraumatic;injury" begin="244;269" end="256;275" status="0" certainty="0" cui="C0043250;C0043251" tui="T037;T037" rank="536;150" code="NO-CODE" sourceType="NCI;CHV"/>
+<problem value="liver injury" begin="263" end="275" status="0" certainty="0" cui="C0160390" tui="T037" rank="767" code="NO-CODE" sourceType="DXP"/>
+<problem value="injury" begin="269" end="275" status="0" certainty="0" cui="C3263723;C1510467;C3263722" tui="T037;T037;T037" rank="797;794;765" code="NO-CODE" sourceType="ICPC2P;MSH;SNOMEDCTUS"/>
+<problem value="liver" begin="263" end="268" status="0" certainty="0" cui="C0023884;C0205054;C1278929;C0023899;C0721399;C0496870;C0736268;C2346688;C0872387" tui="T023;T029;T023;T109,T121;T109,T121,T127;T191;T023;T168;T058" rank="797;797;765;739;673;610;572;562;373" code="NO-CODE" sourceType="LCH;SNMI;RCD;MMSL;CHV;ICD10;NCI;NCI;ICD10AM"/>
+<modifier value="acute" begin="257" end="262" status="0" certainty="0" cui="C0205178;C1547229;C1547295" tui="T079;T170;T170" rank="797;355;355" code="NO-CODE" sourceType="RCD;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="287" end="831">
+<Sentence sentNo="5" begin="287" end="348" sentText="Answer: Code the exact nature of the liver problem, if known.">
+<RelationSet id="546">
+<problem value="liver" begin="324" end="329" status="0" certainty="-3" cui="C0023884;C0205054;C1278929;C0023899;C0721399;C0496870;C0736268;C2346688;C0872387" tui="T023;T029;T023;T109,T121;T109,T121,T127;T191;T023;T168;T058" rank="797;797;765;739;673;610;572;562;373" code="NO-CODE" sourceType="LCH;SNMI;RCD;MMSL;CHV;ICD10;NCI;NCI;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="349" end="449" sentText="If the etiology of the liver injury is not clearly documented, query the provider for clarification.">
+<RelationSet id="547">
+<problem value="liver injury" begin="372" end="384" status="0" certainty="-3" cui="C0160390" tui="T037" rank="767" code="NO-CODE" sourceType="DXP"/>
+<problem value="injury" begin="378" end="384" status="0" certainty="-3" cui="C1510467;C3263723;C3263722" tui="T037;T037;T037" rank="794;793;765" code="NO-CODE" sourceType="MSH;ICPC2P;SNOMEDCTUS"/>
+<problem value="liver" begin="372" end="377" status="0" certainty="-3" cui="C0023884;C0205054;C1278929;C0023899;C0721399;C0496870;C0736268;C2346688;C0872387" tui="T023;T029;T023;T109,T121;T109,T121,T127;T191;T023;T168;T058" rank="797;797;765;739;673;610;572;562;373" code="NO-CODE" sourceType="LCH;SNMI;RCD;MMSL;CHV;ICD10;NCI;NCI;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="450" end="567" sentText="For this example, assign code K72.00, Acute and subacute hepatic failure without coma, for non-viral acute hepatitis.">
+<RelationSet id="547">
+<problem value="2.00, Acute and subacute hepatic failure withou" begin="482" end="529" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="548">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="acute" begin="551" end="556" status="0" certainty="-2"/>
+<problem value="hepatitis" begin="557" end="566" status="0" certainty="-2"/>
+</Relation>
+<modifier value="non;acute" begin="541;551" end="544;556" status="0" certainty="-2" cui="C1547228" tui="T170" rank="355" code="NO-CODE" sourceType="HL7V2.5"/>
+<modifier value="acute" begin="551" end="556" status="0" certainty="-2" cui="C0205178;C1547229;C1547295" tui="T079;T170;T170" rank="797;355;355" code="NO-CODE" sourceType="RCD;HL7V2.5;HL7V2.5"/>
+<problem value="viral acute hepatitis" begin="545" end="566" status="0" certainty="-2" cui="C0276622" tui="T047" rank="767" code="NO-CODE" sourceType="RCD"/>
+<problem value="acute hepatitis" begin="551" end="566" status="0" certainty="-2" cui="C0267797" tui="T047" rank="767" code="NO-CODE" sourceType="RCD"/>
+<problem value="viral;hepatitis" begin="545;557" end="550;566" status="0" certainty="-2" cui="C0489954;C0042721;C0019186;C1963279" tui="t047;T047;T005;T033" rank="800;797;716;551" code="NO-CODE" sourceType="ICD10CM;ICD10;LNC;NCI"/>
+<problem value="hepatitis" begin="557" end="566" status="0" certainty="-2" cui="C0019158;C0019159;C0795623" tui="T047;T047;T121,T129" rank="797;151;150" code="NO-CODE" sourceType="MSH;CHV;CHV"/>
+</RelationSet>
+<RelationSet id="549">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="subacute" begin="498" end="506" status="0" certainty="0"/>
+<problem value="hepatic failure" begin="507" end="522" status="0" certainty="-2"/>
+<problem value="coma" begin="531" end="535" status="0" certainty="-2"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="subacute" begin="498" end="506" status="0" certainty="0"/>
+<problem value="hepatic failure" begin="507" end="522" status="0" certainty="-2"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="subacute" begin="498" end="506" status="0" certainty="0"/>
+<problem value="coma" begin="531" end="535" status="0" certainty="-2"/>
+</Relation>
+<modifier value="subacute" begin="498" end="506" status="0" certainty="0" cui="C0205365" tui="T079" rank="767" code="NO-CODE" sourceType="RCD"/>
+<problem value="subacute hepatic failure" begin="498" end="522" status="0" certainty="-2" cui="C2887932;C0400929" tui="T047;T047" rank="800;767" code="NO-CODE" sourceType="ICD10CM;MDR"/>
+<problem value="hepatic failure" begin="507" end="522" status="0" certainty="-2" cui="C0085605" tui="T047" rank="797" code="NO-CODE" sourceType="COSTAR"/>
+<problem value="subacute;failure" begin="498;515" end="506;522" status="0" certainty="-2" cui="C0231177" tui="T046" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<problem value="hepatic" begin="507" end="514" status="0" certainty="-2" cui="C0023884;C0205054;C1278929;C0023899;C0721399;C0496870;C0736268;C2346688;C0996514;C0872387" tui="T023;T029;T023;T109,T121;T109,T121,T127;T191;T023;T168;T002;T058" rank="797;797;765;739;673;610;572;562;428;373" code="NO-CODE" sourceType="LCH;SNMI;RCD;NDFRT;CHV;ICD10;NCI;NCI;CHV;ICD10AM"/>
+<problem value="coma" begin="531" end="535" status="0" certainty="-2" cui="C0009421;C3146279" tui="T047;T004" rank="795;751" code="NO-CODE" sourceType="COSTAR;NCBI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="568" end="637" sentText="In ICD-10-CM there is no Index entry for “acute hepatitis, nonviral.”">
+<RelationSet id="550">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="hepatitis" begin="616" end="625" status="0" certainty="-2"/>
+<modifier value="acute" begin="610" end="615" status="0" certainty="-2"/>
+</Relation>
+<problem value="acute hepatitis" begin="610" end="625" status="0" certainty="-2" cui="C0267797" tui="T047" rank="767" code="NO-CODE" sourceType="RCD"/>
+<problem value="hepatitis" begin="616" end="625" status="0" certainty="-2" cui="C0019158;C0019159;C0795623" tui="T047;T047;T121,T129" rank="797;150;150" code="NO-CODE" sourceType="MSH;CHV;CHV"/>
+<modifier value="acute" begin="610" end="615" status="0" certainty="-2" cui="C0205178;C1547229;C1547295" tui="T079;T170;T170" rank="797;355;355" code="NO-CODE" sourceType="RCD;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="638" end="757" sentText="However, the Alphabetic Index, under the term “Hepatitis” leads to code K75.9, Inflammatory liver disease, unspecified.">
+<RelationSet id="550">
+<med value="Alphabetic Index" begin="651" end="667" status="0" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="551">
+<medicalDevice value="leads" begin="696" end="701" status="0" certainty="0" cui="C0023175;C1522538;C0181586;C0524167;C0332152;C1704733;C3275067;C2348269;C1708698;C1442948" tui="T131,T196;T169;T074;T059;T079;T074;T061;T196;T073;T121,T197" rank="797;797;686;644;575;575;572;558;519;150" code="NO-CODE" sourceType="LCH;MTH;UMD;CPT;NCI;NCI;NCI;NCI;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="551">
+<problem value="5.9, Inflammatory liver disease, unspec" begin="712" end="751" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="552">
+<problem value="Inflammatory liver disease" begin="717" end="743" status="0" certainty="0" cui="C0019158" tui="T047" rank="767" code="NO-CODE" sourceType="RCD"/>
+<problem value="Inflammatory;disease" begin="717;736" end="729;743" status="0" certainty="0" cui="C1290884" tui="T047" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="liver disease" begin="730" end="743" status="0" certainty="0" cui="C0023895;C2186532" tui="T047;T033" rank="797;592" code="NO-CODE" sourceType="SNM;MEDCIN"/>
+<problem value="disease" begin="736" end="743" status="0" certainty="0" cui="C0012634;C1422572;C1424810;C1416989;C3273340;C3540595;C3273341;C1331418" tui="T047;T028;T028;T028;T028;T028;T116;T041" rank="797;600;596;596;575;575;575;575" code="NO-CODE" sourceType="LCH;HGNC;OMIM;HGNC;NCI;NCI;NCI;NCI"/>
+<problem value="liver" begin="730" end="735" status="0" certainty="0" cui="C0023884;C0205054;C1278929;C0023899;C0721399;C0496870;C0736268;C2346688;C0872387" tui="T023;T029;T023;T109,T121;T109,T121,T127;T191;T023;T168;T058" rank="797;797;765;739;673;610;572;562;373" code="NO-CODE" sourceType="LCH;SNMI;RCD;MMSL;CHV;ICD10;NCI;NCI;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="758" end="830" sentText="Code K75.9 has an Excludes 1 note: acute or subacute hepatitis (K72.0-).">
+<RelationSet id="553">
+<modifier value="acute" begin="793" end="798" status="0" certainty="0" cui="C0205178" tui="T079" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="554">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="subacute" begin="802" end="810" status="0" certainty="0"/>
+<problem value="hepatitis" begin="811" end="820" status="0" certainty="0"/>
+</Relation>
+<modifier value="subacute" begin="802" end="810" status="0" certainty="0" cui="C0205178;C0205365;C1547229;C1547295" tui="T079;T079;T170;T170" rank="797;767;355;355" code="NO-CODE" sourceType="RCD;RCD;HL7V2.5;HL7V2.5"/>
+<problem value="subacute hepatitis" begin="802" end="820" status="0" certainty="0" cui="C0267797" tui="T047" rank="767" code="NO-CODE" sourceType="RCD"/>
+<problem value="hepatitis" begin="811" end="820" status="0" certainty="0" cui="C0019158;C0019159;C0795623" tui="T047;T047;T121,T129" rank="797;150;150" code="NO-CODE" sourceType="MSH;CHV;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,142 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1226">
+<Paragraph pgNo="1" begin="0" end="473">
+<Sentence sentNo="1" begin="0" end="64" sentText="Question: The patient  presented with severe lumbar spondylosis.">
+<RelationSet id="1263">
+<problem value="lumbar spondylosis" begin="45" end="63" status="0" certainty="1" cui="C0149983" tui="T047" rank="767" code="NO-CODE" sourceType="RCD"/>
+<problem value="spondylosis" begin="52" end="63" status="0" certainty="1" cui="C0038019" tui="T047" rank="797" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="lumbar" begin="45" end="51" status="0" certainty="1" cui="C0024090" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="65" end="327" sentText="The surgeon accomplished posterior lumbar interbody fusion L3-L4 and L4-L5 using autologous bone graft, discectomy of L3-L4 and L4L5, packing of the disc space with autologous bone that was harvested from the right iliac crest, and pedicle screw instrumentation.">
+<RelationSet id="1264">
+<modifier value="autologous;graft" begin="146;162" end="156;167" status="0" certainty="0" cui="C0559189" tui="T122" rank="765" code="NO-CODE" sourceType="SNMI"/>
+<modifier value="autologous" begin="146" end="156" status="0" certainty="0" cui="C0439859" tui="T080" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="autologous bone graft" begin="146" end="167" status="0" certainty="0" cui="C1699650" tui="T061" rank="644" code="NO-CODE" sourceType="MDR"/>
+<procedure value="using;graft" begin="140;162" end="145;167" status="0" certainty="0" cui="C0449871" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="bone graft" begin="157" end="167" status="0" certainty="0" cui="C0005976;C0181075;C3701420" tui="T061;T122;T061" rank="791;765;353" code="NO-CODE" sourceType="MSH;UMD;CPT"/>
+<procedure value="graft" begin="162" end="167" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+<anatomicalStructure value="bone" begin="157" end="161" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1265">
+<procedure value="discectomy" begin="169" end="179" status="0" certainty="0" cui="C0206078" tui="T061" rank="791" code="NO-CODE" sourceType="MDR"/>
+</RelationSet>
+<RelationSet id="1266">
+<anatomicalStructure value="bone" begin="241" end="245" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1267">
+<anatomicalStructure value="iliac crest" begin="280" end="291" status="0" certainty="0" cui="C1279104;C0223651" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<anatomicalStructure value="iliac" begin="280" end="285" status="0" certainty="0" cui="C0020889;C1279102" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1268">
+<anatomicalStructure value="pedicle" begin="297" end="304" status="0" certainty="0" cui="C0456605" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1269">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="posterior" begin="90" end="99" status="0" certainty="0"/>
+<procedure value="lumbar interbody fusion" begin="100" end="123" status="0" certainty="0"/>
+</Relation>
+<modifier value="posterior lumbar interbody fusion" begin="90" end="123" status="0" certainty="0" cui="S1001194" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<modifier value="posterior;interbody" begin="90;107" end="99;116" status="0" certainty="0" cui="S0002275" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="fusion" begin="117" end="123" status="0" certainty="0" cui="C0332466;C1293131" tui="T169;T061" rank="767;767" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="interbody" begin="107" end="116" status="0" certainty="0" cui="S0000335;C1268086;C1551342;C0242821" tui="t061;T017;T078;T016" rank="800;753;575;151" code="NO-CODE" sourceType="EZDI;NCI;NCI;CHV"/>
+<anatomicalStructure value="lumbar" begin="100" end="106" status="0" certainty="0" cui="C0024090" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="328" end="472" sentText="What are the appropriate ICD-10-PCS  procedure  code assignments? Is the discectomy coded separately or is it considered inherent to the fusion?">
+<RelationSet id="1270">
+<procedure value="discectomy" begin="401" end="411" status="0" certainty="0" cui="C0206078" tui="T061" rank="791" code="NO-CODE" sourceType="MDR"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="474" end="1225">
+<Sentence sentNo="4" begin="474" end="562" sentText="Answer: Discectomy is almost always performed at the same time as spinal fusion surgery.">
+<RelationSet id="1271">
+<procedure value="Discectomy" begin="482" end="492" status="0" certainty="0" cui="C0206078" tui="T061" rank="791" code="NO-CODE" sourceType="MDR"/>
+</RelationSet>
+<RelationSet id="1272">
+<procedure value="spinal fusion surgery" begin="540" end="561" status="0" certainty="0" cui="C0919636" tui="T061" rank="652" code="NO-CODE" sourceType="MDR"/>
+<procedure value="spinal fusion" begin="540" end="553" status="0" certainty="0" cui="C3278509;C0037935;C1410847" tui="T033;T061;T047,T190" rank="797;795;506" code="NO-CODE" sourceType="OMIM;MSH;ICD10CM"/>
+<procedure value="spinal;surgery" begin="540;554" end="546;561" status="0" certainty="0" cui="C2608059;C0920347" tui="T061;T061" rank="491;151" code="NO-CODE" sourceType="CCPSS;CHV"/>
+<procedure value="surgery" begin="554" end="561" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+<procedure value="fusion" begin="547" end="553" status="0" certainty="0" cui="C0332466;C1293131" tui="T169;T061" rank="767;767" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="spinal" begin="540" end="546" status="0" certainty="0" cui="C0037949;C1267072;C0521329;C1280065" tui="T023;T023;T082;T023" rank="795;765;703;234" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="563" end="620" sentText="Typically, a fusion involves partial removal of the disc.">
+</Sentence>
+<Sentence sentNo="6" begin="621" end="718" sentText="If the provider performs a discectomy with spinal fusion, it should be coded as excision of disc.">
+<RelationSet id="1273">
+<procedure value="discectomy" begin="648" end="658" status="0" certainty="-3" cui="C0206078" tui="T061" rank="791" code="NO-CODE" sourceType="MDR"/>
+</RelationSet>
+<RelationSet id="1274">
+<procedure value="spinal fusion" begin="664" end="677" status="0" certainty="-3" cui="C3278509;C0037935;C1410847" tui="T033;T061;T047,T190" rank="797;795;506" code="NO-CODE" sourceType="OMIM;MSH;ICD10CM"/>
+<procedure value="fusion" begin="671" end="677" status="0" certainty="-3" cui="C0332466;C1293131" tui="T169;T061" rank="767;767" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="spinal" begin="664" end="670" status="0" certainty="-3" cui="C0037949;C1267072;C0521329;C1280065" tui="T023;T023;T082;T023" rank="795;765;703;234" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1275">
+<procedure value="excision" begin="701" end="709" status="0" certainty="1" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="719" end="814" sentText="If, however, the provider documents “total discectomy,” it should be coded as a disc resection.">
+<RelationSet id="1276">
+<modifier value="total" begin="756" end="761" status="0" certainty="-3" cui="C0439810" tui="T080" rank="797" code="NO-CODE" sourceType="RCD"/>
+<procedure value="discectomy" begin="762" end="772" status="0" certainty="-3" cui="C0206078" tui="T061" rank="791" code="NO-CODE" sourceType="MDR"/>
+</RelationSet>
+<RelationSet id="1277">
+<procedure value="resection" begin="804" end="813" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="765;151" code="NO-CODE" sourceType="RCD;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="816" end="1224" sentText="In this case, assign the following ICD-10-PCS codes: 0SG007J Fusion of lumbar vertebral joint with autologous tissue substitute, posterior approach, anterior column, open approach, for the posterior lumbar interbody fusion 0SB20ZZ Excision of lumbar vertebral disc, open approach, for the discectomy 0QB20ZZ Excision of right pelvic bone, open approach, for the harvesting of the autologous bone for grafting">
+<RelationSet id="1278">
+<anatomicalStructure value="vertebral joint" begin="894" end="909" status="0" certainty="0" cui="C1182940" tui="T030" rank="691" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="lumbar;joint" begin="887;904" end="893;909" status="0" certainty="0" cui="C0224590" tui="T030" rank="691" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="vertebral" begin="894" end="903" status="0" certainty="0" cui="C0549207" tui="T023" rank="703" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="lumbar" begin="887" end="893" status="0" certainty="0" cui="C0024090" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="joint" begin="904" end="909" status="0" certainty="0" cui="C0521339;C0022417;C0444497;C0392905;C1269611;C1706309" tui="T169;T030;T082;T022;T030;T074" rank="797;797;767;765;765;575" code="NO-CODE" sourceType="SNMI;MSH;RCD;ICF;RCD;NCI"/>
+</RelationSet>
+<RelationSet id="1279">
+<procedure value="Excision;pelvic" begin="1124;1142" end="1132;1148" status="0" certainty="0" cui="C1293212" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="Excision;bone" begin="1124;1149" end="1132;1153" status="0" certainty="0" cui="C0302269" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="discectomy" begin="1105" end="1115" status="0" certainty="0" cui="C0206078" tui="T061" rank="791" code="NO-CODE" sourceType="MDR"/>
+<procedure value="Excision" begin="1124" end="1132" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+</RelationSet>
+<RelationSet id="1280">
+<anatomicalStructure value="pelvic bone" begin="1142" end="1153" status="0" certainty="0" cui="C0448168;C1305772" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="pelvic" begin="1142" end="1148" status="0" certainty="0" cui="C0030797;C0030786;C1279864;C0153663;C0559769" tui="T029;T023;T023;T191;T030" rank="797;795;765;610;575" code="NO-CODE" sourceType="MSH;MSH;SNOMEDCTUS;ICD10;NCI"/>
+<anatomicalStructure value="bone" begin="1149" end="1153" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1281">
+<anatomicalStructure value="bone" begin="1207" end="1211" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1282">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="posterior" begin="1005" end="1014" status="0" certainty="0"/>
+<procedure value="lumbar interbody fusion 0SB20ZZ Excision " begin="1015" end="1056" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="posterior" begin="1005" end="1014" status="0" certainty="0"/>
+<problem value="lumbar vertebral disc" begin="1059" end="1080" status="0" certainty="0"/>
+<procedure value="lumbar interbody fusion 0SB20ZZ Excision " begin="1015" end="1056" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="posterior" begin="1005" end="1014" status="0" certainty="0"/>
+<problem value="lumbar vertebral disc" begin="1059" end="1080" status="0" certainty="0"/>
+</Relation>
+<modifier value="posterior lumbar interbody fusion" begin="1005" end="1038" status="0" certainty="0" cui="S1001194" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<modifier value="posterior;interbody" begin="1005;1022" end="1014;1031" status="0" certainty="0" cui="S0002275" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<anatomicalStructure value="interbody;lumbar vertebral" begin="1022;1059" end="1031;1075" status="0" certainty="0" cui="C1305452;C0223486" tui="T023;T023" rank="765;691" code="NO-CODE" sourceType="RCD;UWDA"/>
+<anatomicalStructure value="lumbar;disc" begin="1059;1076" end="1065;1080" status="0" certainty="0" cui="C1305431" tui="T023" rank="765" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="vertebral" begin="1066" end="1075" status="0" certainty="0" cui="C0549207" tui="T023" rank="703" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="lumbar" begin="1059" end="1065" status="0" certainty="0" cui="C0024090" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="interbody;Excision;vertebral" begin="1022;1047;1066" end="1031;1055;1075" status="0" certainty="0" cui="C0408813" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="lumbar;fusion;vertebral" begin="1015;1032;1066" end="1021;1038;1075" status="0" certainty="0" cui="C0186045" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="Excision" begin="1047" end="1055" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+<procedure value="fusion" begin="1032" end="1038" status="0" certainty="0" cui="C0332466;C1293131" tui="T169;T061" rank="767;767" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="interbody" begin="1022" end="1031" status="0" certainty="0" cui="S0000335;C1268086;C1551342;C0242821" tui="t061;T017;T078;T016" rank="800;753;575;151" code="NO-CODE" sourceType="EZDI;NCI;NCI;CHV"/>
+<anatomicalStructure value="lumbar" begin="1015" end="1021" status="0" certainty="0" cui="C0024090" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

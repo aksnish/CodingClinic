@@ -1,0 +1,85 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="651">
+<Paragraph pgNo="1" begin="0" end="566">
+<Sentence sentNo="1" begin="0" end="115" sentText="Question: The patient has a history of subdural hematoma evacuation and cranioplasty due to traumatic brain injury.">
+<RelationSet id="920">
+<problem value="subdural hematoma" begin="39" end="56" status="1" certainty="1" cui="C0018946" tui="T046" rank="797" code="NO-CODE" sourceType="LCH"/>
+<problem value="hematoma" begin="48" end="56" status="1" certainty="1" cui="C0018944;C1962958" tui="T046;T033" rank="797;551" code="NO-CODE" sourceType="MSH;NCI"/>
+<anatomicalStructure value="subdural" begin="39" end="47" status="1" certainty="1" cui="S0002386;C0038541" tui="t061;T030" rank="800;703" code="NO-CODE" sourceType="EZDI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="921">
+<procedure value="cranioplasty" begin="72" end="84" status="1" certainty="0" cui="C0196112" tui="T061" rank="767" code="NO-CODE" sourceType="ICD10AM"/>
+</RelationSet>
+<RelationSet id="922">
+<problem value="traumatic brain injury" begin="92" end="114" status="1" certainty="0" cui="C0876926" tui="T037" rank="797" code="NO-CODE" sourceType="MSH"/>
+<problem value="traumatic;injury" begin="92;108" end="101;114" status="1" certainty="0" cui="C0043251;C0043250;C0740686" tui="T037;T037;T037" rank="791;536;150" code="NO-CODE" sourceType="ICPC2P;NCI;CHV"/>
+<problem value="brain injury" begin="102" end="114" status="1" certainty="0" cui="C0270611" tui="T037" rank="797" code="NO-CODE" sourceType="MSH"/>
+<problem value="injury" begin="108" end="114" status="1" certainty="0" cui="C3263723;C1510467;C3263722" tui="T037;T037;T037" rank="797;794;765" code="NO-CODE" sourceType="ICPC2P;MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="brain" begin="102" end="107" status="1" certainty="0" cui="C0006104;C1269537" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="116" end="209" sentText="He was readmitted for surgical treatment of subdural empyema, infection, and wound breakdown.">
+<RelationSet id="923">
+<problem value="subdural empyema" begin="160" end="176" status="0" certainty="0" cui="C0038539" tui="T047" rank="795" code="NO-CODE" sourceType="NDFRT"/>
+<problem value="empyema" begin="169" end="176" status="0" certainty="0" cui="C0014009" tui="T047" rank="795" code="NO-CODE" sourceType="ICPC2P"/>
+<anatomicalStructure value="subdural" begin="160" end="168" status="0" certainty="0" cui="S0002386;C0038541" tui="t061;T030" rank="800;703" code="NO-CODE" sourceType="EZDI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="924">
+<problem value="infection" begin="178" end="187" status="0" certainty="0" cui="C0009450;C1556682;C1550587" tui="T047;T033;T078" rank="795;551;366" code="NO-CODE" sourceType="LCH;NCI;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="925">
+<problem value="wound breakdown" begin="193" end="208" status="0" certainty="0" cui="C0038940" tui="T046" rank="765" code="NO-CODE" sourceType="MDR"/>
+<problem value="breakdown" begin="199" end="208" status="0" certainty="0" cui="C0699900;C1265875" tui="T040;T020" rank="460;151" code="NO-CODE" sourceType="GO;CHV"/>
+<problem value="wound" begin="193" end="198" status="0" certainty="0" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797;C1550680;C1549529;C1547965" tui="T070;T037;T080;T033;T184;T169;T031;T169;T170" rank="795;792;788;767;709;703;366;355;355" code="NO-CODE" sourceType="MSH;MDR;MSH;RCD;MDR;SNMI;HL7V3.0;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="210" end="315" sentText="At surgery, the previous incision was reopened, the skull hardware was removed, and the bone flap opened.">
+<RelationSet id="926">
+<procedure value="surgery" begin="213" end="220" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="927">
+<problem value="previous incision" begin="226" end="243" status="0" certainty="0" cui="C1285499" tui="T020" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="incision" begin="235" end="243" status="0" certainty="0" cui="C0184898;C2096041" tui="T061;T033" rank="767;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+</RelationSet>
+<RelationSet id="928">
+<medicalDevice value="hardware" begin="268" end="276" status="0" certainty="0" cui="C1880159;C1523994" tui="T073;T073" rank="575;575" code="NO-CODE" sourceType="NCI;UMD"/>
+</RelationSet>
+<RelationSet id="929">
+<anatomicalStructure value="bone flap" begin="298" end="307" status="0" certainty="0" cui="C1266913;C1562423;C1563046" tui="T024;T024;T024" rank="797;765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="flap" begin="303" end="307" status="0" certainty="0" cui="C0038925;C1412362" tui="T023;T028" rank="767;596" code="NO-CODE" sourceType="RCD;HGNC"/>
+<anatomicalStructure value="bone" begin="298" end="302" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="316" end="443" sentText="Nonexcisional debridement was performed, removing all infectious material in the cranial wound and subdural and epidural areas.">
+<RelationSet id="930">
+<procedure value="Nonexcisional" begin="316" end="329" status="0" certainty="0" cui="S0000570;C0728940" tui="t061;T061" rank="800;523" code="NO-CODE" sourceType="EZDI;NCI"/>
+<procedure value="debridement" begin="330" end="341" status="0" certainty="0" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="931">
+<problem value="wound" begin="405" end="410" status="0" certainty="0" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797;C1550680;C1549529;C1547965" tui="T070;T037;T080;T033;T184;T169;T031;T169;T170" rank="795;792;788;767;709;703;366;355;355" code="NO-CODE" sourceType="MSH;MDR;MSH;RCD;MDR;SNMI;HL7V3.0;HL7V2.5;HL7V2.5"/>
+<anatomicalStructure value="cranial" begin="397" end="404" status="0" certainty="0" cui="C3163632;C0037303;C1279062" tui="T082;T023;T023" rank="797;791;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="932">
+<anatomicalStructure value="epidural" begin="428" end="436" status="0" certainty="0" cui="S0002386;C0592511;C0228134;C1283259;C0812144" tui="t061;T169;T030;T074;T061" rank="800;575;530;242;150" code="NO-CODE" sourceType="EZDI;SNOMEDCTUS;NCI;SNOMEDCTUS;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="444" end="529" sentText="The flap was then re-secured, new plates and screws were placed and the wound closed.">
+<RelationSet id="933">
+<medicalDevice value="plates" begin="478" end="484" status="0" certainty="0" cui="C0005971;C0407295;C1139930;C3537155" tui="T074;T061;T074;T073" rank="765;765;686;575" code="NO-CODE" sourceType="RCD;RCD;UMD;NCI"/>
+</RelationSet>
+<RelationSet id="934">
+<medicalDevice value="screws" begin="489" end="495" status="0" certainty="0" cui="C0301559;C0005975;C0441634;C1704683" tui="T074;T074;T169;T074" rank="797;765;711;575" code="NO-CODE" sourceType="SNM;RCD;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="935">
+<problem value="wound" begin="516" end="521" status="0" certainty="0" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797;C1550680;C1549529;C1547965" tui="T070;T037;T080;T033;T184;T169;T031;T169;T170" rank="795;792;788;767;709;703;366;355;355" code="NO-CODE" sourceType="MSH;MDR;MSH;RCD;MDR;SNMI;HL7V3.0;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="530" end="565" sentText="How should this procedure be coded?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="567" end="650">
+<Sentence sentNo="7" begin="567" end="650" sentText="Answer: Assign the following ICD-10-PCS codes for the procedures performed: 00D20ZZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

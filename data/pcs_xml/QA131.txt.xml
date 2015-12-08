@@ -1,0 +1,108 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="971">
+<Paragraph pgNo="1" begin="0" end="412">
+<Sentence sentNo="1" begin="0" end="129" sentText="Question: A patient who was diagnosed with spinal stenosis underwent L2-L3 posterolateral fusion, and repair of midline durotomy.">
+<RelationSet id="321">
+<modifier value="midline" begin="112" end="119" status="0" certainty="0" cui="C0549183;C2939193;C0205132;C1552960;C1517938;C1550648;C1556143;C1546701" tui="T082;T082;T082;T081;T114,T123;T167;T170;T170" rank="767;765;765;575;519;416;366;355" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;SNMI;NCI;NCI;LNC;HL7V3.0;HL7V2.5"/>
+<procedure value="repair" begin="102" end="108" status="0" certainty="0" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+</RelationSet>
+<RelationSet id="322">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="L2-L3" begin="69" end="74" status="0" certainty="0"/>
+<problem value="spinal stenosis" begin="43" end="58" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="posterolateral fusion" begin="75" end="96" status="0" certainty="0"/>
+<anatomicalStructure value="L2-L3" begin="69" end="74" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="posterolateral fusion" begin="75" end="96" status="0" certainty="0"/>
+<anatomicalStructure value="L2-L3" begin="69" end="74" status="0" certainty="0"/>
+<problem value="spinal stenosis" begin="43" end="58" status="0" certainty="1"/>
+</Relation>
+<modifier value="posterolateral" begin="75" end="89" status="0" certainty="0" cui="C0332195" tui="T082" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="fusion" begin="90" end="96" status="0" certainty="0" cui="C0332466;C1293131" tui="T169;T061" rank="767;767" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="L2-L3" begin="69" end="74" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<problem value="spinal stenosis" begin="43" end="58" status="0" certainty="1" cui="C0037944" tui="T020" rank="795" code="NO-CODE" sourceType="MSH"/>
+<problem value="stenosis" begin="50" end="58" status="0" certainty="1" cui="C1261287;C0009814;C2632116;C0678234;C0333181;C0947637" tui="T190;T046;T204;T080;T169;T046" rank="797;767;751;724;703;286" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCBI;RCD;SNMI;SNOMEDCTUS"/>
+<anatomicalStructure value="spinal" begin="43" end="49" status="0" certainty="1" cui="C0037949;C1267072;C0521329;C1280065" tui="T023;T023;T082;T023" rank="795;765;703;234" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="130" end="254" sentText="In the body of the report, the provider documented that the durotomy was probably created from previous epidural injections.">
+<RelationSet id="322">
+<procedure value="durotomy" begin="190" end="198" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="323">
+<procedure value="epidural injections" begin="234" end="253" status="0" certainty="1" cui="C0021486;C0812144" tui="T169;T061" rank="795;652" code="NO-CODE" sourceType="MSH;CHV"/>
+<procedure value="injections" begin="243" end="253" status="0" certainty="1" cui="C1828121;C1272883;C1533685;C0021485" tui="T169;T122;T061;T061" rank="795;767;767;151" code="NO-CODE" sourceType="MSH;NCI;ICPC2P;CHV"/>
+<anatomicalStructure value="epidural" begin="234" end="242" status="0" certainty="1" cui="S0002386;C0592511;C0228134;C1283259" tui="t061;T169;T030;T074" rank="800;575;530;242" code="NO-CODE" sourceType="EZDI;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="255" end="411" sentText="Is it appropriate to assign code G97.41, Accidental puncture or laceration of dura during a procedure, for the durotomy due to previous epidural injections?">
+<RelationSet id="323">
+<problem value="7.41, Accidental puncture or laceration of dura during a pro" begin="290" end="350" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="324">
+<modifier value="Accidental puncture;laceration;dura during;procedure" begin="296;319;333;347" end="315;329;344;356" status="0" certainty="0" cui="C2349484" tui="t047" rank="800" code="NO-CODE" sourceType="ICD10CM"/>
+<modifier value="Accidental" begin="296" end="306" status="0" certainty="0" cui="C0521129" tui="T169" rank="797" code="NO-CODE" sourceType="SNMI"/>
+<problem value="Accidental;laceration;during;procedure" begin="296;319;338;347" end="306;329;344;356" status="0" certainty="0" cui="C0433747" tui="T037" rank="234" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="puncture" begin="307" end="315" status="0" certainty="0" cui="C0034117;C0033119;C1881711" tui="T060,T061;T037;T067" rank="795;767;561" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="325">
+<modifier value="epidural injections" begin="391" end="410" status="0" certainty="0" cui="C0021486" tui="T169" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="injections" begin="400" end="410" status="0" certainty="0" cui="C1828121;C1272883;C1533685;C0021485" tui="T169;T122;T061;T061" rank="795;767;767;151" code="NO-CODE" sourceType="MSH;NCI;ICPC2P;CHV"/>
+<procedure value="epidural" begin="391" end="399" status="0" certainty="0" cui="S0002386;C0812144;C0592511;C0228134;C1283259" tui="t061;T061;T169;T030;T074" rank="800;652;575;530;242" code="NO-CODE" sourceType="EZDI;CHV;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="326">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="dura" begin="333" end="337" status="0" certainty="0"/>
+<problem value="laceration" begin="319" end="329" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="dura" begin="333" end="337" status="0" certainty="0" cui="C0013313" tui="T023" rank="575" code="NO-CODE" sourceType="HL7V2.5"/>
+<problem value="laceration" begin="319" end="329" status="0" certainty="0" cui="C0043246" tui="T037" rank="797" code="NO-CODE" sourceType="ICPC2P"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="413" end="970">
+<Sentence sentNo="4" begin="413" end="512" sentText="Answer: Assign code G96.11, Dural tear, for the durotomy secondary to previous epidural injections.">
+<RelationSet id="326">
+<problem value="6.11, Dura" begin="435" end="445" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="327">
+<problem value="tear" begin="447" end="451" status="0" certainty="0" cui="C1550271;C0039409;C0152227;C0043246;C0424109;C0423153;C1704633;C1611838;C1547924;C3203359" tui="T080;T031;T047;T037;T033;T033;T082;T031;T170;T037" rank="797;795;765;765;765;713;575;366;355;150" code="NO-CODE" sourceType="LNC;MSH;SNOMEDCTUS;RCD;RCD;OMIM;NCI;HL7V3.0;HL7V2.5;CHV"/>
+</RelationSet>
+<RelationSet id="328">
+<procedure value="epidural injections" begin="492" end="511" status="0" certainty="0" cui="C0021486;C0812144" tui="T169;T061" rank="795;652" code="NO-CODE" sourceType="MSH;CHV"/>
+<procedure value="injections" begin="501" end="511" status="0" certainty="0" cui="C1828121;C1272883;C1533685;C0021485" tui="T169;T122;T061;T061" rank="795;767;767;151" code="NO-CODE" sourceType="MSH;NCI;ICPC2P;CHV"/>
+<anatomicalStructure value="epidural" begin="492" end="500" status="0" certainty="0" cui="S0002386;C0592511;C0228134;C1283259" tui="t061;T169;T030;T074" rank="800;575;530;242" code="NO-CODE" sourceType="EZDI;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="513" end="592" sentText="In ICD10-CM, “Non-traumatic dural tear” is specifically indexed to code G96.11.">
+<RelationSet id="328">
+<problem value="dural tear" begin="541" end="551" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="329">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="dural tear" begin="541" end="551" status="0" certainty="0"/>
+<modifier value="traumatic" begin="531" end="540" status="0" certainty="0"/>
+</Relation>
+<problem value="dural tear" begin="541" end="551" status="0" certainty="0" cui="C1504340" tui="T037" rank="652" code="NO-CODE" sourceType="ICD9CM"/>
+<problem value="tear" begin="547" end="551" status="0" certainty="0" cui="C1550271;C0039409;C0152227;C0043246;C0424109;C0423153;C1704633;C1611838;C1547924;C3203359" tui="T080;T031;T047;T037;T033;T033;T082;T031;T170;T037" rank="797;795;765;765;765;713;575;366;355;150" code="NO-CODE" sourceType="LNC;MSH;SNOMEDCTUS;RCD;RCD;OMIM;NCI;HL7V3.0;HL7V2.5;CHV"/>
+<modifier value="traumatic;indexed" begin="531;569" end="540;576" status="0" certainty="0" cui="C0451546" tui="T170" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="593" end="780" sentText="Also, assign code Y84.8, Other medical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure.">
+<RelationSet id="329">
+<problem value="4.8, Other medical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the proc" begin="613" end="774" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="781" end="873" sentText="In this case, the tear happened before the procedure, so it is not related to the procedure.">
+<RelationSet id="331">
+<problem value="tear" begin="799" end="803" status="0" certainty="0" cui="C1550271;C0039409;C0152227;C0043246;C0424109;C0423153;C1704633;C1611838;C1547924;C3203359" tui="T080;T031;T047;T037;T033;T033;T082;T031;T170;T037" rank="797;795;765;765;765;713;575;366;355;150" code="NO-CODE" sourceType="LNC;MSH;SNOMEDCTUS;RCD;RCD;OMIM;NCI;HL7V3.0;HL7V2.5;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="874" end="969" sentText="Code G97.41 would have been assigned if the durotomy had occurred during the current operation.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

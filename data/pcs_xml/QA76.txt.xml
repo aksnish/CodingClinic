@@ -1,0 +1,18 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="892">
+<Paragraph pgNo="1" begin="0" end="685">
+<Sentence sentNo="1" begin="0" end="175" sentText="Question: The Official Guidelines for Coding and Reporting, Section I.C.16.a.2, states that “A code from category Z38 is assigned only once, to a newborn at the time of birth.">
+</Sentence>
+<Sentence sentNo="2" begin="176" end="299" sentText="If a newborn is transferred to another institution, a code from category Z38 should not be used at the receiving hospital.”">
+</Sentence>
+<Sentence sentNo="3" begin="300" end="684" sentText="Can you clarify whether a physician who sees the baby born in the hospital and follows the baby during the hospital stay, may report the code from category Z38, Liveborn infants according to place of birth and type of delivery, more than once? Or, is the guideline to be interpreted that the codes from category Z38 can only be assigned once on the initial evaluation after the birth.">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="686" end="891">
+<Sentence sentNo="4" begin="686" end="799" sentText="Answer: For physician coding and reporting, category Z38 codes are not limited to only the day the baby was born.">
+</Sentence>
+<Sentence sentNo="5" begin="800" end="890" sentText="A physician may report a code from category Z38 for each visit during the birth admission.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

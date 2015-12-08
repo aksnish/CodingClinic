@@ -1,0 +1,68 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1111">
+<Paragraph pgNo="1" begin="0" end="200">
+<Sentence sentNo="1" begin="0" end="97" sentText="Question: In terms of coding excisional debridement, does dissection mean the same as excisional?">
+<RelationSet id="16">
+<procedure value="debridement" begin="40" end="51" status="0" certainty="1" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+<procedure value="excisional" begin="29" end="39" status="0" certainty="1" cui="C0728940" tui="T061" rank="523" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+<RelationSet id="17">
+<procedure value="dissection" begin="58" end="68" status="0" certainty="1" cui="C0012737" tui="T061" rank="795" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="98" end="199" sentText="For example, the provider’s documentation states: “The debridement was sharp using knife dissection.”">
+<RelationSet id="18">
+<procedure value="debridement" begin="153" end="164" status="0" certainty="0" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="201" end="1110">
+<Sentence sentNo="3" begin="201" end="306" sentText="Answer: No, knife dissection is not sufficient language to be able to code the root operation “Excision.”">
+<RelationSet id="19">
+<procedure value="dissection" begin="219" end="229" status="0" certainty="-3" cui="C0012737" tui="T061" rank="795" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="307" end="447" sentText="Knife dissection may only be referring to the means used to reach the procedure site, and doesn’t necessarily say what was done at the site.">
+<RelationSet id="20">
+<procedure value="dissection" begin="313" end="323" status="0" certainty="0" cui="C0012737" tui="T061" rank="795" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="448" end="541" sentText="Query the physician for more information when the documentation only states knife dissection.">
+<RelationSet id="21">
+<procedure value="dissection" begin="530" end="540" status="0" certainty="0" cui="C0012737" tui="T061" rank="795" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="542" end="638" sentText="Use of a sharp instrument does not always indicate that an excisional debridement was performed.">
+<RelationSet id="22">
+<procedure value="debridement" begin="612" end="623" status="0" certainty="-2" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+<procedure value="excisional" begin="601" end="611" status="0" certainty="-2" cui="C0728940" tui="T061" rank="523" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="639" end="882" sentText="A code is assigned for excisional debridement when the provider documents “excisional debridement,” and/or the documentation meets the root operation definition of “excision” (cutting out or off, without replacement, a portion of a body part).">
+<RelationSet id="23">
+<procedure value="debridement" begin="673" end="684" status="0" certainty="0" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="24">
+<procedure value="debridement" begin="725" end="736" status="0" certainty="0" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="25">
+<modifier value="operation definition" begin="779" end="799" status="0" certainty="0" cui="C0683955" tui="T062" rank="481" code="NO-CODE" sourceType="CHV"/>
+<modifier value="definition" begin="789" end="799" status="0" certainty="0" cui="C1704788;C3539107;C1550452" tui="T077;T170;T078" rank="797;767;366" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;HL7V3.0"/>
+<procedure value="operation" begin="779" end="788" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+<procedure value="excision" begin="804" end="812" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="883" end="976" sentText="Documentation of excisional debridement should be specific regarding the type of debridement.">
+<RelationSet id="26">
+<procedure value="debridement" begin="911" end="922" status="0" certainty="0" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+<procedure value="excisional" begin="900" end="910" status="0" certainty="0" cui="C0728940" tui="T061" rank="523" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+<RelationSet id="27">
+<procedure value="debridement" begin="964" end="975" status="0" certainty="1" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="977" end="1109" sentText="If the documentation is not clear or if there is any question about the procedure, the provider should be queried for clarification.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

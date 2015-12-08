@@ -1,0 +1,209 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="731">
+<Paragraph pgNo="1" begin="0" end="414">
+<Sentence sentNo="1" begin="0" end="162" sentText="Question: What is the correct ICD-10-CM code for hyperplastic polyp of the descending colon, K63.5, Polyp of colon, or D12.4, Benign neoplasm of descending colon?">
+<RelationSet id="1807">
+<problem value="3.5, Polyp of " begin="95" end="109" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1808">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="descending colon" begin="75" end="91" status="0" certainty="0"/>
+<problem value="hyperplastic polyp" begin="49" end="67" status="0" certainty="1"/>
+</Relation>
+<anatomicalStructure value="descending colon" begin="75" end="91" status="0" certainty="0" cui="C0227389;C0153435;C0496863" tui="T023;T191;T191" rank="797;610;610" code="NO-CODE" sourceType="MTHMST;ICD10;ICD10"/>
+<anatomicalStructure value="colon" begin="86" end="91" status="0" certainty="0" cui="C1623185;C0009368;C0684195;C1281569;C2684091;C0496907;C0154061;C1337205;C1446425" tui="T121;T023;T002;T023;T074;T191;T191;T168;T129" rank="797;795;795;765;739;610;610;562;416" code="NO-CODE" sourceType="MMSL;MTHMST;AOD;SNOMEDCTUS;VANDF;ICD10;ICD10;NCI;LNC"/>
+<problem value="hyperplastic polyp;colon" begin="49;86" end="67;91" status="0" certainty="1" cui="C0742608" tui="T047" rank="576" code="NO-CODE" sourceType="NCI"/>
+<problem value="hyperplastic polyp" begin="49" end="67" status="0" certainty="1" cui="C0333983" tui="T191" rank="797" code="NO-CODE" sourceType="SNM"/>
+<problem value="hyperplastic" begin="49" end="61" status="0" certainty="1" cui="C0032167;C0020507" tui="T167;T046" rank="767;703" code="NO-CODE" sourceType="RCD;NCI"/>
+<problem value="polyp;colon" begin="62;86" end="67;91" status="0" certainty="1" cui="C0009376;C2911243" tui="T190;T033" rank="800;295" code="NO-CODE" sourceType="COSTAR;MTHICD9"/>
+<problem value="polyp" begin="62" end="67" status="0" certainty="1" cui="C0032584;C1546747" tui="T190;T170" rank="797;355" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1809">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="descending colon" begin="145" end="161" status="0" certainty="0"/>
+<problem value="neoplasm" begin="133" end="141" status="0" certainty="0"/>
+<modifier value="Benign" begin="126" end="132" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="descending colon" begin="145" end="161" status="0" certainty="0"/>
+<problem value="neoplasm" begin="133" end="141" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="neoplasm" begin="133" end="141" status="0" certainty="0"/>
+<modifier value="Benign" begin="126" end="132" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="descending colon" begin="145" end="161" status="0" certainty="0" cui="C0227389;C0153435;C0496863" tui="T023;T191;T191" rank="797;610;610" code="NO-CODE" sourceType="MTHMST;ICD10;ICD10"/>
+<anatomicalStructure value="colon" begin="156" end="161" status="0" certainty="0" cui="C1623185;C0009368;C0684195;C1281569;C2684091;C0496907;C0154061;C1337205;C1446425" tui="T121;T023;T002;T023;T074;T191;T191;T168;T129" rank="797;795;795;765;739;610;610;562;416" code="NO-CODE" sourceType="MMSL;MTHMST;AOD;SNOMEDCTUS;VANDF;ICD10;ICD10;NCI;LNC"/>
+<problem value="Benign neoplasm;descending colon" begin="126;145" end="141;161" status="0" certainty="0" cui="C0496863" tui="T191" rank="800" code="NO-CODE" sourceType="ICD10"/>
+<problem value="neoplasm;descending colon" begin="133;145" end="141;161" status="0" certainty="0" cui="C0345865" tui="T191" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="Benign neoplasm;colon" begin="126;156" end="141;161" status="0" certainty="0" cui="C2865400;C0004991" tui="t047;T191" rank="800;797" code="NO-CODE" sourceType="ICD10CM;CCS"/>
+<problem value="Benign neoplasm" begin="126" end="141" status="0" certainty="0" cui="C0086692;C0497550" tui="T191;T191" rank="797;503" code="NO-CODE" sourceType="ICD10AM;MEDLINEPLUS"/>
+<problem value="neoplasm;colon" begin="133;156" end="141;161" status="0" certainty="0" cui="C0009375" tui="T191" rank="795" code="NO-CODE" sourceType="COSTAR"/>
+<problem value="neoplasm" begin="133" end="141" status="0" certainty="0" cui="C0027651;C2981607" tui="T191;T170" rank="797;572" code="NO-CODE" sourceType="COSTAR;NCI"/>
+<modifier value="Benign" begin="126" end="132" status="0" certainty="0" cui="C0205183" tui="T080" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="1810">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="Polyp" begin="100" end="105" status="0" certainty="0"/>
+<anatomicalStructure value="colon" begin="109" end="114" status="0" certainty="0"/>
+</Relation>
+<problem value="Polyp;colon" begin="100;109" end="105;114" status="0" certainty="0" cui="C0009376;C2911243" tui="T190;T033" rank="800;295" code="NO-CODE" sourceType="COSTAR;MTHICD9"/>
+<problem value="Polyp" begin="100" end="105" status="0" certainty="0" cui="C0032584;C1546747" tui="T190;T170" rank="797;355" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+<anatomicalStructure value="colon" begin="109" end="114" status="0" certainty="0" cui="C1623185;C0009368;C0684195;C1281569;C2684091;C0496907;C0154061;C1337205;C1446425" tui="T121;T023;T002;T023;T074;T191;T191;T168;T129" rank="797;795;795;765;739;610;610;562;416" code="NO-CODE" sourceType="MMSL;MTHMST;AOD;SNOMEDCTUS;VANDF;ICD10;ICD10;NCI;LNC"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="163" end="300" sentText="The Alphabetic Index leads all colon polyps that specify location to category D12, Benign neoplasm of colon, rectum, anus and anal canal.">
+<RelationSet id="1811">
+<anatomicalStructure value="rectum" begin="272" end="278" status="0" certainty="0" cui="C0034896;C1278926;C0154062;C0496867;C0496908;C0869814" tui="T023;T023;T191;T191;T191;T058" rank="797;765;610;610;610;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;ICD10;ICD10AM"/>
+</RelationSet>
+<RelationSet id="1811">
+<anatomicalStructure value="anus" begin="280" end="284" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1812">
+<anatomicalStructure value="anal canal" begin="289" end="299" status="0" certainty="0" cui="C0227411;C1280336;C0153445" tui="T023;T030;T191" rank="797;765;610" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10"/>
+<anatomicalStructure value="canal" begin="294" end="299" status="0" certainty="0" cui="C0442636;C1550227" tui="T083;T023" rank="767;576" code="NO-CODE" sourceType="RCD;HL7V2.5"/>
+<anatomicalStructure value="anal" begin="289" end="293" status="0" certainty="0" cui="C0003461;C2939124;C1278927;C0870072;C1524024" tui="T023;T082;T023;T058;T169" rank="797;767;765;373;274" code="NO-CODE" sourceType="LCH;RCD;SNOMEDCTUS;ICD10AM;MSH"/>
+</RelationSet>
+<RelationSet id="1813">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="polyps" begin="200" end="206" status="0" certainty="0"/>
+<anatomicalStructure value="colon" begin="194" end="199" status="0" certainty="0"/>
+</Relation>
+<problem value="colon polyps" begin="194" end="206" status="0" certainty="0" cui="C0009376;C2911243" tui="T190;T033" rank="797;295" code="NO-CODE" sourceType="COSTAR;MTHICD9"/>
+<problem value="polyps" begin="200" end="206" status="0" certainty="0" cui="C0032584;C1546747" tui="T190;T170" rank="797;355" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+<anatomicalStructure value="colon" begin="194" end="199" status="0" certainty="0" cui="C1623185;C0009368;C0684195;C1281569;C2684091;C0496907;C0154061;C1337205;C1446425" tui="T121;T023;T002;T023;T074;T191;T191;T168;T129" rank="797;795;795;765;739;610;610;562;416" code="NO-CODE" sourceType="MMSL;MTHMST;AOD;SNOMEDCTUS;VANDF;ICD10;ICD10;NCI;LNC"/>
+</RelationSet>
+<RelationSet id="1814">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="neoplasm" begin="253" end="261" status="0" certainty="0"/>
+<modifier value="Benign" begin="246" end="252" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="neoplasm" begin="253" end="261" status="0" certainty="0"/>
+<anatomicalStructure value="colon" begin="265" end="270" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="neoplasm" begin="253" end="261" status="0" certainty="0"/>
+<modifier value="Benign" begin="246" end="252" status="0" certainty="0"/>
+<anatomicalStructure value="colon" begin="265" end="270" status="0" certainty="0"/>
+</Relation>
+<problem value="Benign neoplasm;colon" begin="246;265" end="261;270" status="0" certainty="0" cui="C2865400;C0004991" tui="t047;T191" rank="800;797" code="NO-CODE" sourceType="ICD10CM;CCS"/>
+<problem value="Benign neoplasm" begin="246" end="261" status="0" certainty="0" cui="C0086692;C0497550" tui="T191;T191" rank="797;503" code="NO-CODE" sourceType="ICD10AM;MEDLINEPLUS"/>
+<problem value="neoplasm;colon" begin="253;265" end="261;270" status="0" certainty="0" cui="C0009375" tui="T191" rank="795" code="NO-CODE" sourceType="COSTAR"/>
+<problem value="neoplasm" begin="253" end="261" status="0" certainty="0" cui="C0027651;C2981607" tui="T191;T170" rank="797;572" code="NO-CODE" sourceType="COSTAR;NCI"/>
+<modifier value="Benign" begin="246" end="252" status="0" certainty="0" cui="C0205183" tui="T080" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="colon" begin="265" end="270" status="0" certainty="0" cui="C1623185;C0009368;C0684195;C1281569;C2684091;C0496907;C0154061;C1337205;C1446425" tui="T121;T023;T002;T023;T074;T191;T191;T168;T129" rank="797;795;795;765;739;610;610;562;416" code="NO-CODE" sourceType="MMSL;MTHMST;AOD;SNOMEDCTUS;VANDF;ICD10;ICD10;NCI;LNC"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="301" end="342" sentText="Category D12 includes adenomatous polyps.">
+<RelationSet id="1815">
+<problem value="adenomatous polyps" begin="323" end="341" status="0" certainty="0" cui="C0206677" tui="T191" rank="797" code="NO-CODE" sourceType="RCD"/>
+<problem value="adenomatous" begin="323" end="334" status="0" certainty="0" cui="C0001430" tui="T191" rank="797" code="NO-CODE" sourceType="LCH"/>
+<problem value="polyps" begin="335" end="341" status="0" certainty="0" cui="C0032584;C1546747" tui="T190;T170" rank="797;355" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="343" end="413" sentText="Our understanding is that hyperplastic colon polyps are not neoplasms.">
+<RelationSet id="1816">
+<problem value="neoplasms" begin="403" end="412" status="0" certainty="-2" cui="C0027651;C2981607" tui="T191;T170" rank="797;572" code="NO-CODE" sourceType="COSTAR;NCI"/>
+</RelationSet>
+<RelationSet id="1817">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="polyps" begin="388" end="394" status="0" certainty="0"/>
+<anatomicalStructure value="colon" begin="382" end="387" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="polyps" begin="388" end="394" status="0" certainty="0"/>
+<modifier value="hyperplastic" begin="369" end="381" status="0" certainty="0"/>
+<anatomicalStructure value="colon" begin="382" end="387" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="polyps" begin="388" end="394" status="0" certainty="0"/>
+<modifier value="hyperplastic" begin="369" end="381" status="0" certainty="0"/>
+</Relation>
+<problem value="hyperplastic colon polyps" begin="369" end="394" status="0" certainty="0" cui="C0742608" tui="T047" rank="576" code="NO-CODE" sourceType="NCI"/>
+<problem value="hyperplastic;polyps" begin="369;388" end="381;394" status="0" certainty="0" cui="C0333983" tui="T191" rank="797" code="NO-CODE" sourceType="SNM"/>
+<problem value="colon polyps" begin="382" end="394" status="0" certainty="0" cui="C0009376;C2911243" tui="T190;T033" rank="800;295" code="NO-CODE" sourceType="COSTAR;MTHICD9"/>
+<problem value="polyps" begin="388" end="394" status="0" certainty="0" cui="C0032584;C1546747" tui="T190;T170" rank="797;355" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+<anatomicalStructure value="colon" begin="382" end="387" status="0" certainty="0" cui="C1623185;C0009368;C0684195;C1281569;C2684091;C0496907;C0154061;C1337205;C1446425" tui="T121;T023;T002;T023;T074;T191;T191;T168;T129" rank="797;795;795;765;739;610;610;562;416" code="NO-CODE" sourceType="MMSL;MTHMST;AOD;SNOMEDCTUS;VANDF;ICD10;ICD10;NCI;LNC"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="415" end="730">
+<Sentence sentNo="5" begin="415" end="554" sentText="Answer: Assign code K63.5, Polyp of colon, when the physician documents a hyperplastic colon polyp regardless of the location in the colon.">
+<RelationSet id="1817">
+<problem value="3.5, Polyp of " begin="437" end="451" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1818">
+<problem value="hyperplastic colon polyp" begin="489" end="513" status="0" certainty="0" cui="C0009376;C0742608" tui="T190;T047" rank="800;576" code="NO-CODE" sourceType="COSTAR;NCI"/>
+<problem value="hyperplastic;polyp" begin="489;508" end="501;513" status="0" certainty="0" cui="C0333983" tui="T191" rank="797" code="NO-CODE" sourceType="SNM"/>
+<problem value="hyperplastic" begin="489" end="501" status="0" certainty="0" cui="C0032167;C0020507" tui="T167;T046" rank="767;703" code="NO-CODE" sourceType="RCD;NCI"/>
+<problem value="colon" begin="502" end="507" status="0" certainty="0" cui="C1623185;C0009368;C0684195;C1281569;C2684091;C0496907;C0154061;C1337205;C1446425" tui="T121;T023;T002;T023;T074;T191;T191;T168;T129" rank="797;795;795;765;739;610;610;562;416" code="NO-CODE" sourceType="MMSL;MTHMST;AOD;SNOMEDCTUS;VANDF;ICD10;ICD10;NCI;LNC"/>
+<problem value="polyp" begin="508" end="513" status="0" certainty="0" cui="C0032584;C1546747" tui="T190;T170" rank="797;355" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1819">
+<anatomicalStructure value="colon" begin="548" end="553" status="0" certainty="0" cui="C1623185;C0009368;C0684195;C1281569;C2684091;C0496907;C0154061;C1337205;C1446425" tui="T121;T023;T002;T023;T074;T191;T191;T168;T129" rank="797;795;795;765;739;610;610;562;416" code="NO-CODE" sourceType="MMSL;MTHMST;AOD;SNOMEDCTUS;VANDF;ICD10;ICD10;NCI;LNC"/>
+</RelationSet>
+<RelationSet id="1820">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="Polyp" begin="442" end="447" status="0" certainty="0"/>
+<anatomicalStructure value="colon" begin="451" end="456" status="0" certainty="0"/>
+</Relation>
+<problem value="Polyp;colon" begin="442;451" end="447;456" status="0" certainty="0" cui="C0009376;C2911243" tui="T190;T033" rank="797;295" code="NO-CODE" sourceType="COSTAR;MTHICD9"/>
+<problem value="Polyp" begin="442" end="447" status="0" certainty="0" cui="C0032584;C1546747" tui="T190;T170" rank="797;355" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+<anatomicalStructure value="colon" begin="451" end="456" status="0" certainty="0" cui="C1623185;C0009368;C0684195;C1281569;C2684091;C0496907;C0154061;C1337205;C1446425" tui="T121;T023;T002;T023;T074;T191;T191;T168;T129" rank="797;795;795;765;739;610;610;562;416" code="NO-CODE" sourceType="MMSL;MTHMST;AOD;SNOMEDCTUS;VANDF;ICD10;ICD10;NCI;LNC"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="555" end="646" sentText="ICD-10CM does not classify adenomatous polyps of the colon the same as hyperplastic polyps.">
+<RelationSet id="1820">
+<modifier value="classify" begin="573" end="581" status="0" certainty="-2" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1821">
+<problem value="colon;hyperplastic polyps" begin="608;626" end="613;645" status="0" certainty="0" cui="C0742608" tui="T047" rank="576" code="NO-CODE" sourceType="NCI"/>
+<problem value="adenomatous;colon;polyps" begin="582;608;639" end="593;613;645" status="0" certainty="0" cui="C2865400;C0850572;C0742605" tui="t047;T191;T047" rank="800;767;150" code="NO-CODE" sourceType="ICD10CM;DXP;CHV"/>
+<problem value="hyperplastic polyps" begin="626" end="645" status="0" certainty="0" cui="C0333983" tui="T191" rank="797" code="NO-CODE" sourceType="SNM"/>
+<problem value="hyperplastic" begin="626" end="638" status="0" certainty="0" cui="C0032167;C0020507" tui="T167;T046" rank="767;703" code="NO-CODE" sourceType="RCD;NCI"/>
+<problem value="colon;polyps" begin="608;639" end="613;645" status="0" certainty="0" cui="C0009376;C2911243" tui="T190;T033" rank="800;295" code="NO-CODE" sourceType="COSTAR;MTHICD9"/>
+<problem value="polyps" begin="639" end="645" status="0" certainty="0" cui="C0032584;C1546747" tui="T190;T170" rank="797;355" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1822">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="adenomatous polyps" begin="582" end="600" status="0" certainty="-2"/>
+<anatomicalStructure value="colon" begin="608" end="613" status="0" certainty="-2"/>
+</Relation>
+<problem value="adenomatous polyps;colon" begin="582;608" end="600;613" status="0" certainty="-2" cui="C2865400;C0742605" tui="t047;T047" rank="800;150" code="NO-CODE" sourceType="ICD10CM;CHV"/>
+<problem value="polyps;colon;hyperplastic" begin="594;608;626" end="600;613;638" status="0" certainty="-2" cui="C0009376;C0742608" tui="T190;T047" rank="800;576" code="NO-CODE" sourceType="COSTAR;NCI"/>
+<problem value="adenomatous polyps" begin="582" end="600" status="0" certainty="-2" cui="C0206677" tui="T191" rank="797" code="NO-CODE" sourceType="RCD"/>
+<problem value="polyps;hyperplastic" begin="594;626" end="600;638" status="0" certainty="-2" cui="C0333983" tui="T191" rank="797" code="NO-CODE" sourceType="SNM"/>
+<problem value="adenomatous;colon" begin="582;608" end="593;613" status="0" certainty="-2" cui="C0850572" tui="T191" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="adenomatous" begin="582" end="593" status="0" certainty="-2" cui="C0001430" tui="T191" rank="797" code="NO-CODE" sourceType="LCH"/>
+<problem value="polyps" begin="594" end="600" status="0" certainty="-2" cui="C0032584;C1546747" tui="T190;T170" rank="797;355" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+<anatomicalStructure value="colon" begin="608" end="613" status="0" certainty="-2" cui="C1623185;C0009368;C0684195;C1281569;C2684091;C0496907;C0154061;C1337205;C1446425" tui="T121;T023;T002;T023;T074;T191;T191;T168;T129" rank="797;795;795;765;739;610;610;562;416" code="NO-CODE" sourceType="MMSL;MTHMST;AOD;SNOMEDCTUS;VANDF;ICD10;ICD10;NCI;LNC"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="647" end="729" sentText="Typically hyperplastic polyps of the colon are slow-growing and not pre-cancerous.">
+<RelationSet id="1823">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="Typically" begin="647" end="656" status="0" certainty="0"/>
+<problem value="hyperplastic polyps" begin="657" end="676" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="colon" begin="684" end="689" status="0" certainty="0"/>
+<modifier value="Typically" begin="647" end="656" status="0" certainty="0"/>
+<problem value="hyperplastic polyps" begin="657" end="676" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="colon" begin="684" end="689" status="0" certainty="0"/>
+<problem value="hyperplastic polyps" begin="657" end="676" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="colon" begin="684" end="689" status="0" certainty="0" cui="C1623185;C0009368;C0684195;C1281569;C2684091;C0496907;C0154061;C1337205;C1446425" tui="T121;T023;T002;T023;T074;T191;T191;T168;T129" rank="797;795;795;765;739;610;610;562;416" code="NO-CODE" sourceType="MMSL;MTHMST;AOD;SNOMEDCTUS;VANDF;ICD10;ICD10;NCI;LNC"/>
+<modifier value="Typically" begin="647" end="656" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<problem value="hyperplastic polyps;colon" begin="657;684" end="676;689" status="0" certainty="0" cui="C0742608" tui="T047" rank="576" code="NO-CODE" sourceType="NCI"/>
+<problem value="hyperplastic polyps" begin="657" end="676" status="0" certainty="0" cui="C0333983" tui="T191" rank="797" code="NO-CODE" sourceType="SNM"/>
+<problem value="hyperplastic" begin="657" end="669" status="0" certainty="0" cui="C0032167;C0020507" tui="T167;T046" rank="767;703" code="NO-CODE" sourceType="RCD;NCI"/>
+<problem value="polyps;colon" begin="670;684" end="676;689" status="0" certainty="0" cui="C0009376;C2911243" tui="T190;T033" rank="800;295" code="NO-CODE" sourceType="COSTAR;MTHICD9"/>
+<problem value="polyps" begin="670" end="676" status="0" certainty="0" cui="C0032584;C1546747" tui="T190;T170" rank="797;355" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

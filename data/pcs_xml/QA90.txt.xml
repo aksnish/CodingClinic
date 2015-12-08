@@ -1,0 +1,116 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="658">
+<Paragraph pgNo="1" begin="0" end="508">
+<Sentence sentNo="1" begin="0" end="137" sentText="Question: A patient with failed corneal graft with corneal scar of the right eye presented for penetrating keratoplasty of the right eye.">
+<RelationSet id="1432">
+<procedure value="corneal graft" begin="32" end="45" status="0" certainty="1" cui="C0010042" tui="T061" rank="791" code="NO-CODE" sourceType="MSH"/>
+<procedure value="graft" begin="40" end="45" status="0" certainty="1" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+<RelationSet id="1433">
+<procedure value="penetrating keratoplasty" begin="95" end="119" status="0" certainty="0" cui="C0022592" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="keratoplasty" begin="107" end="119" status="0" certainty="0" cui="C0010042" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="1434">
+<modifier value="right" begin="127" end="132" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1435">
+<anatomicalStructure value="right eye" begin="127" end="136" status="0" certainty="0" cui="C0229089;C2177784" tui="T029;T060" rank="797;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+<anatomicalStructure value="eye" begin="133" end="136" status="0" certainty="0" cui="C0015392;C1280202;C1299003;C0154094;C2347396;C0042789;C1522230;C1555998;C1555960;C1550636;C1546630;C0029144" tui="T023;T023;T169;T191;T122;T040;T082;T097;T097;T031;T170;T090" rank="797;765;703;610;575;575;575;366;366;366;355;150" code="NO-CODE" sourceType="COSTAR;SNOMEDCTUS;NCI;ICD10;NCI;NCI;SNOMEDCTUS;HL7V3.0;HL7V3.0;HL7V3.0;HL7V2.5;CHV"/>
+</RelationSet>
+<RelationSet id="1436">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="corneal scar" begin="51" end="63" status="0" certainty="1"/>
+<anatomicalStructure value="eye" begin="77" end="80" status="0" certainty="0"/>
+<modifier value="right" begin="71" end="76" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="corneal scar" begin="51" end="63" status="0" certainty="1"/>
+<modifier value="right" begin="71" end="76" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="corneal scar" begin="51" end="63" status="0" certainty="1"/>
+<anatomicalStructure value="eye" begin="77" end="80" status="0" certainty="0"/>
+</Relation>
+<problem value="scar" begin="59" end="63" status="0" certainty="1" cui="C2004491;C0008767;C1839330;C1419736;C0241158" tui="T046;T046;T028;T028;T033" rank="791;790;596;587;284" code="NO-CODE" sourceType="ICPC2P;RCD;OMIM;HGNC;MEDLINEPLUS"/>
+<anatomicalStructure value="right eye" begin="71" end="80" status="0" certainty="0" cui="C0229089;C2177784" tui="T029;T060" rank="797;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+<anatomicalStructure value="eye" begin="77" end="80" status="0" certainty="0" cui="C0015392;C1280202;C1299003;C0154094;C2347396;C0042789;C1522230;C1555998;C1555960;C1550636;C1546630;C0029144" tui="T023;T023;T169;T191;T122;T040;T082;T097;T097;T031;T170;T090" rank="797;765;703;610;575;575;575;366;366;366;355;150" code="NO-CODE" sourceType="COSTAR;SNOMEDCTUS;NCI;ICD10;NCI;NCI;SNOMEDCTUS;HL7V3.0;HL7V3.0;HL7V3.0;HL7V2.5;CHV"/>
+<modifier value="right" begin="71" end="76" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="138" end="217" sentText="A paracentesis was performed and the anterior chamber filled with viscoelastic.">
+<RelationSet id="1437">
+<procedure value="paracentesis" begin="140" end="152" status="0" certainty="0" cui="C0034115" tui="T058" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="1438">
+<modifier value="anterior" begin="175" end="183" status="0" certainty="0" cui="C0205094" tui="T169" rank="797" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="1439">
+<anatomicalStructure value="anterior chamber" begin="175" end="191" status="0" certainty="0" cui="C0003151;C2069970" tui="T023;T058" rank="795;592" code="NO-CODE" sourceType="NCI;MEDCIN"/>
+<anatomicalStructure value="chamber" begin="184" end="191" status="0" certainty="0" cui="C0935616;C0179874" tui="T023;T074" rank="688;686" code="NO-CODE" sourceType="UWDA;UMD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="218" end="310" sentText="The recipient bed was trephined to the level of Descemet’s membrane with a corneal trephine.">
+<RelationSet id="1440">
+<anatomicalStructure value="Descemet;membrane" begin="266;277" end="274;285" status="0" certainty="0" cui="C0011665" tui="T023" rank="795" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="membrane" begin="277" end="285" status="0" certainty="0" cui="C0596901;C0025255;C1706182" tui="T026;T024;T073" rank="797;795;575" code="NO-CODE" sourceType="MTH;MSH;NCI"/>
+</RelationSet>
+<RelationSet id="1440">
+<anatomicalStructure value="corneal trephine" begin="293" end="309" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="311" end="344" sentText="The anterior chamber was incised.">
+<RelationSet id="1441">
+<modifier value="anterior" begin="315" end="323" status="0" certainty="0" cui="C0205094" tui="T169" rank="797" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="1442">
+<anatomicalStructure value="anterior chamber" begin="315" end="331" status="0" certainty="0" cui="C0003151;C2069970" tui="T023;T058" rank="795;592" code="NO-CODE" sourceType="NCI;MEDCIN"/>
+<anatomicalStructure value="chamber" begin="324" end="331" status="0" certainty="0" cui="C0935616;C0179874" tui="T023;T074" rank="688;686" code="NO-CODE" sourceType="UWDA;UMD"/>
+</RelationSet>
+<RelationSet id="1442">
+<procedure value="incised" begin="336" end="343" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="345" end="374" sentText="The donor tissue was sutured.">
+<RelationSet id="1442">
+<procedure value="sutured" begin="366" end="373" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="375" end="507" sentText="What are the correct root operation and approach for this procedure? Are the paracentesis and viscoelastic filling coded separately?">
+<RelationSet id="1443">
+<procedure value="operation" begin="401" end="410" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1444">
+<procedure value="paracentesis" begin="452" end="464" status="0" certainty="0" cui="C0034115" tui="T058" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="509" end="657">
+<Sentence sentNo="7" begin="509" end="657" sentText="Answer: For the penetrating keratoplasty of the right eye, with paracentesis and viscoelastic filling, assign the following ICD-10-PCS code: 08R8XKZ">
+<RelationSet id="1445">
+<procedure value="paracentesis" begin="573" end="585" status="0" certainty="0" cui="C0034115" tui="T058" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="1446">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="penetrating keratoplasty" begin="525" end="549" status="0" certainty="0"/>
+<modifier value="right" begin="557" end="562" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="penetrating keratoplasty" begin="525" end="549" status="0" certainty="0"/>
+<anatomicalStructure value="eye" begin="563" end="566" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="penetrating keratoplasty" begin="525" end="549" status="0" certainty="0"/>
+<anatomicalStructure value="eye" begin="563" end="566" status="0" certainty="0"/>
+<modifier value="right" begin="557" end="562" status="0" certainty="0"/>
+</Relation>
+<modifier value="penetrating" begin="525" end="536" status="0" certainty="0" cui="C0205321" tui="T169" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<procedure value="penetrating keratoplasty" begin="525" end="549" status="0" certainty="0" cui="C0022592" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="keratoplasty" begin="537" end="549" status="0" certainty="0" cui="C0010042" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="right eye" begin="557" end="566" status="0" certainty="0" cui="C0229089;C2177784" tui="T029;T060" rank="797;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+<anatomicalStructure value="eye" begin="563" end="566" status="0" certainty="0" cui="C0015392;C1280202;C1299003;C0154094;C2347396;C0042789;C1522230;C1555998;C1555960;C1550636;C1546630;C0029144" tui="T023;T023;T169;T191;T122;T040;T082;T097;T097;T031;T170;T090" rank="797;765;703;610;575;575;575;366;366;366;355;150" code="NO-CODE" sourceType="COSTAR;SNOMEDCTUS;NCI;ICD10;NCI;NCI;SNOMEDCTUS;HL7V3.0;HL7V3.0;HL7V3.0;HL7V2.5;CHV"/>
+<modifier value="right" begin="557" end="562" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

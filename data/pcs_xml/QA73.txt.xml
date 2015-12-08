@@ -1,0 +1,70 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="766">
+<Paragraph pgNo="1" begin="0" end="400">
+<Sentence sentNo="1" begin="0" end="53" sentText="Question: A patient was seen for total thyroidectomy.">
+<RelationSet id="1801">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="total" begin="33" end="38" status="0" certainty="1"/>
+<procedure value="thyroidectomy" begin="39" end="52" status="0" certainty="1"/>
+</Relation>
+<modifier value="total" begin="33" end="38" status="0" certainty="1" cui="C0439810" tui="T080" rank="797" code="NO-CODE" sourceType="RCD"/>
+<procedure value="total thyroidectomy" begin="33" end="52" status="0" certainty="1" cui="C0193788" tui="T061" rank="767" code="NO-CODE" sourceType="ICD10AM"/>
+<procedure value="thyroidectomy" begin="39" end="52" status="0" certainty="1" cui="C0040145" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="54" end="201" sentText="Following the induction of general endotracheal anesthesia, an endotracheal tube with leads was placed between the vocal folds for neuromonitoring.">
+<RelationSet id="1802">
+<medicalDevice value="endotracheal tube" begin="117" end="134" status="0" certainty="0" cui="C0336630;C1260970;C1546626" tui="T074;T074;T170" rank="797;685;355" code="NO-CODE" sourceType="RCD;UMD;HL7V2.5"/>
+<medicalDevice value="tube" begin="130" end="134" status="0" certainty="0" cui="C1561954;C0175730;C1704474;C1427122;C1704731;C1704730;C1611794;C1547937" tui="T077;T074;T081;T028;T074;T074;T170;T170" rank="797;767;765;596;575;563;366;355" code="NO-CODE" sourceType="NCI;RCD;NCI;HGNC;NCI;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1803">
+<medicalDevice value="leads" begin="140" end="145" status="0" certainty="0" cui="C0023175;C1522538;C0181586;C0524167;C0332152;C1704733;C3275067;C2348269;C1708698;C1442948" tui="T131,T196;T169;T074;T059;T079;T074;T061;T196;T073;T121,T197" rank="797;797;686;644;575;575;572;558;519;150" code="NO-CODE" sourceType="LCH;MTH;UMD;CPT;NCI;NCI;NCI;NCI;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="1804">
+<anatomicalStructure value="vocal folds" begin="169" end="180" status="0" certainty="0" cui="C0042930;C1280362" tui="T023;T023" rank="791;234" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1805">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="general" begin="81" end="88" status="0" certainty="0"/>
+<procedure value="endotracheal anesthesia" begin="89" end="112" status="0" certainty="0"/>
+</Relation>
+<modifier value="general" begin="81" end="88" status="0" certainty="0" cui="C0205246;C1553889" tui="T082;T078" rank="765;366" code="NO-CODE" sourceType="SNMI;HL7V3.0"/>
+<modifier value="endotracheal" begin="89" end="101" status="0" certainty="0" cui="C0599554;C1522653" tui="T082;T169" rank="797;575" code="NO-CODE" sourceType="CSP;NCI"/>
+<procedure value="induction;general;anesthesia" begin="68;81;102" end="77;88;112" status="0" certainty="0" cui="C0473960" tui="T061" rank="797" code="NO-CODE" sourceType="RCDAE"/>
+<procedure value="endotracheal anesthesia" begin="89" end="112" status="0" certainty="0" cui="C0002919" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="induction;anesthesia" begin="68;102" end="77;112" status="0" certainty="0" cui="C0853212" tui="T061" rank="797" code="NO-CODE" sourceType="MDR"/>
+<procedure value="general;anesthesia" begin="81;102" end="88;112" status="0" certainty="0" cui="C0002915;C2930406;C0498334" tui="T061;T039;T061" rank="797;656;249" code="NO-CODE" sourceType="ICD10AMAE;NDFRT;HCDT"/>
+<procedure value="anesthesia" begin="102" end="112" status="0" certainty="0" cui="C0002903;C0278134;C2219802;C1546907" tui="T061;T184;T033;T169" rank="795;765;592;355" code="NO-CODE" sourceType="LCH;SNMI;MEDCIN;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="202" end="399" sentText="What is the correct ICD-10-PCS code for intraoperative EMG monitoring via endotracheal tube? There does not appear to be an approach value for natural or artificial opening in the ICD-10-PCS table.">
+<RelationSet id="1806">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="endotracheal tube" begin="276" end="293" status="0" certainty="0"/>
+<procedure value="EMG monitoring" begin="257" end="271" status="0" certainty="0"/>
+</Relation>
+<medicalDevice value="endotracheal tube" begin="276" end="293" status="0" certainty="0" cui="C0336630;C1260970;C1546626" tui="T074;T074;T170" rank="797;685;355" code="NO-CODE" sourceType="RCD;UMD;HL7V2.5"/>
+<medicalDevice value="tube" begin="289" end="293" status="0" certainty="0" cui="C1561954;C0175730;C1704474;C1427122;C1704731;C1704730;C1611794;C1547937" tui="T077;T074;T081;T028;T074;T074;T170;T170" rank="797;767;765;596;575;563;366;355" code="NO-CODE" sourceType="NCI;RCD;NCI;HGNC;NCI;NCI;HL7V3.0;HL7V2.5"/>
+<procedure value="intraoperative;monitoring" begin="242;261" end="256;271" status="0" certainty="0" cui="C0079637" tui="T060" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="monitoring" begin="261" end="271" status="0" certainty="0" cui="C0181904;C0728873;C0182037;C0150369;C1521743;C0596972;C1704646;C1516647;C0030695" tui="T074;T115;T074;T058;T097;T074;T073;T062;T058" rank="767;722;683;576;575;575;575;572;530" code="NO-CODE" sourceType="CHV;CHV;UMD;NCI;NCI;NCI;NCI;NCI;NCI"/>
+<procedure value="EMG" begin="257" end="260" status="0" certainty="0" cui="C0013839;C0180677;C0200204" tui="T060;T074;T060" rank="644;300;295" code="NO-CODE" sourceType="CCPSS;CHV;MTHICD9"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="401" end="765">
+<Sentence sentNo="4" begin="401" end="539" sentText="Answer: In terms of nervous system monitoring, the ICD-10PCS does not provide a specific approach value for natural or artificial opening.">
+</Sentence>
+<Sentence sentNo="5" begin="540" end="598" sentText="The external approach is the closest available equivalent.">
+</Sentence>
+<Sentence sentNo="6" begin="599" end="655" sentText="Reporting intraoperative EMG monitoring is not required.">
+<RelationSet id="1807">
+<procedure value="intraoperative;monitoring" begin="609;628" end="623;638" status="0" certainty="0" cui="C0079637" tui="T060" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="monitoring" begin="628" end="638" status="0" certainty="0" cui="C0181904;C0728873;C0182037;C0150369;C1521743;C0596972;C1704646;C1516647;C0030695" tui="T074;T115;T074;T058;T097;T074;T073;T062;T058" rank="767;722;683;576;575;575;575;572;530" code="NO-CODE" sourceType="CHV;CHV;UMD;NCI;NCI;NCI;NCI;NCI;NCI"/>
+<procedure value="EMG" begin="624" end="627" status="0" certainty="0" cui="C0013839;C0180677;C0200204" tui="T060;T074;T060" rank="644;300;295" code="NO-CODE" sourceType="CCPSS;CHV;MTHICD9"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="656" end="764" sentText="Facilities that wish to collect this information may assign the following ICD-10-PCS procedure code: 4A11X4G">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

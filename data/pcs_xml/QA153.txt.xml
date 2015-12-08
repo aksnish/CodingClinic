@@ -1,0 +1,165 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1336">
+<Paragraph pgNo="1" begin="0" end="561">
+<Sentence sentNo="1" begin="0" end="124" sentText="Question: A patient was admitted for repair of a recurrent incisional hernia with incarceration and small bowel obstruction.">
+<RelationSet id="1352">
+<problem value="small bowel obstruction" begin="100" end="123" status="0" certainty="0" cui="C0235329" tui="T047" rank="797" code="NO-CODE" sourceType="COSTAR"/>
+<problem value="bowel obstruction" begin="106" end="123" status="0" certainty="0" cui="C0021843" tui="T047" rank="765" code="NO-CODE" sourceType="CST"/>
+<problem value="obstruction" begin="112" end="123" status="0" certainty="0" cui="C0028778;C1882136" tui="T046;T067" rank="797;561" code="NO-CODE" sourceType="RCD;NCI"/>
+<anatomicalStructure value="small bowel" begin="100" end="111" status="0" certainty="0" cui="C0021852;C1519375" tui="T023;T024" rank="765;571" code="NO-CODE" sourceType="SNM;NCI"/>
+<anatomicalStructure value="bowel" begin="106" end="111" status="0" certainty="0" cui="C0021853" tui="T023" rank="765" code="NO-CODE" sourceType="SNM"/>
+</RelationSet>
+<RelationSet id="1353">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="incisional hernia" begin="59" end="76" status="0" certainty="0"/>
+<modifier value="recurrent" begin="49" end="58" status="0" certainty="1"/>
+</Relation>
+<problem value="recurrent incisional hernia" begin="49" end="76" status="0" certainty="0" cui="C2048746" tui="T020" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="incisional hernia" begin="59" end="76" status="0" certainty="0" cui="C0267716;C0156145" tui="T020;T020" rank="797;293" code="NO-CODE" sourceType="SNM;ICD9CM"/>
+<problem value="recurrent;hernia" begin="49;70" end="58;76" status="0" certainty="0" cui="C0281961" tui="T020" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="hernia" begin="70" end="76" status="0" certainty="0" cui="C0019270" tui="T190" rank="797" code="NO-CODE" sourceType="MSH"/>
+<modifier value="recurrent" begin="49" end="58" status="0" certainty="1" cui="C2945760" tui="T079" rank="797" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="125" end="191" sentText="At surgery, after the hernia was excised, the fascia was assessed.">
+<RelationSet id="1354">
+<procedure value="surgery" begin="128" end="135" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1355">
+<problem value="hernia" begin="147" end="153" status="0" certainty="0" cui="C0019270" tui="T190" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="1355">
+<procedure value="excised" begin="158" end="165" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1356">
+<anatomicalStructure value="fascia" begin="171" end="177" status="0" certainty="0" cui="C0015641;C1279051" tui="T024;T023" rank="797;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="192" end="343" sentText="On both sides of the abdomen, the external oblique was released from the internal oblique and the posterior rectus sheath was released from the fascia.">
+<RelationSet id="1357">
+<anatomicalStructure value="abdomen" begin="213" end="220" status="0" certainty="0" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+</RelationSet>
+<RelationSet id="1358">
+<anatomicalStructure value="external oblique" begin="226" end="242" status="0" certainty="0" cui="C0224375" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="oblique;internal" begin="235;265" end="242;273" status="0" certainty="0" cui="C0224376" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="1359">
+<modifier value="posterior" begin="290" end="299" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1360">
+<anatomicalStructure value="posterior rectus sheath" begin="290" end="313" status="0" certainty="0" cui="C0459579" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="rectus sheath" begin="300" end="313" status="0" certainty="0" cui="C0740005" tui="T023" rank="692" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="rectus;fascia" begin="300;336" end="306;342" status="0" certainty="0" cui="C0225234;C0447684" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+</RelationSet>
+<RelationSet id="1361">
+<anatomicalStructure value="fascia" begin="336" end="342" status="0" certainty="0" cui="C0015641;C1279051" tui="T024;T023" rank="797;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="344" end="418" sentText="The fascia was closed and mesh was placed over the anterior rectus sheath.">
+<RelationSet id="1362">
+<anatomicalStructure value="fascia" begin="348" end="354" status="0" certainty="0" cui="C0015641;C1279051" tui="T024;T023" rank="797;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1363">
+<medicalDevice value="mesh" begin="370" end="374" status="0" certainty="0" cui="C0181805;C1552983;C1135584" tui="T074;T081;T170" rank="767;576;366" code="NO-CODE" sourceType="RCD;NCI;SRC"/>
+</RelationSet>
+<RelationSet id="1364">
+<modifier value="anterior" begin="395" end="403" status="0" certainty="0" cui="C0205094" tui="T169" rank="797" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="1365">
+<anatomicalStructure value="anterior rectus sheath" begin="395" end="417" status="0" certainty="0" cui="C0447683" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="rectus sheath" begin="404" end="417" status="0" certainty="0" cui="C0740005" tui="T023" rank="692" code="NO-CODE" sourceType="UWDA"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="419" end="560" sentText="What is the appropriate root operation for the abdomen component release, and is the placement of the mesh included in the component release?">
+<RelationSet id="1366">
+<anatomicalStructure value="abdomen" begin="466" end="473" status="0" certainty="0" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+</RelationSet>
+<RelationSet id="1367">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="mesh" begin="521" end="525" status="0" certainty="0"/>
+<procedure value="placement" begin="504" end="513" status="0" certainty="0"/>
+</Relation>
+<medicalDevice value="mesh" begin="521" end="525" status="0" certainty="0" cui="C0181805;C1552983;C1135584" tui="T074;T081;T170" rank="767;576;366" code="NO-CODE" sourceType="RCD;NCI;SRC"/>
+<procedure value="placement" begin="504" end="513" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="562" end="1335">
+<Sentence sentNo="6" begin="562" end="633" sentText="Answer: The abdominal wall is composed of multiple layers (components).">
+<RelationSet id="1368">
+<anatomicalStructure value="abdominal wall" begin="574" end="588" status="0" certainty="0" cui="C0836916;C1269041" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="abdominal" begin="574" end="583" status="0" certainty="0" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="634" end="741" sentText="In a component separation repair, the layers are separated, so the defect (hernia) can be closed primarily.">
+<RelationSet id="1369">
+<procedure value="repair" begin="660" end="666" status="0" certainty="0" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+</RelationSet>
+<RelationSet id="1371">
+<problem value="hernia" begin="709" end="715" status="0" certainty="0" cui="C0019270" tui="T190" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="742" end="874" sentText="Since the resulting abdominal wall is now only one layer, it is often reinforced with an additional layer of mesh or other material.">
+<RelationSet id="1372">
+<anatomicalStructure value="abdominal wall" begin="762" end="776" status="0" certainty="0" cui="C0836916;C1269041" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="abdominal" begin="762" end="771" status="0" certainty="0" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+</RelationSet>
+<RelationSet id="1373">
+<medicalDevice value="mesh" begin="851" end="855" status="0" certainty="0" cui="C0181805;C1552983;C1135584" tui="T074;T081;T170" rank="767;576;366" code="NO-CODE" sourceType="RCD;NCI;SRC"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="875" end="1048" sentText="If the fascia cannot be closed primarily, then relaxing incisions are made in the abdominal muscle by making additional lateral or posterior incisions to release the muscle.">
+<RelationSet id="1374">
+<anatomicalStructure value="fascia" begin="882" end="888" status="0" certainty="-3" cui="C0015641;C1279051" tui="T024;T023" rank="797;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1375">
+<procedure value="incisions;abdominal" begin="931;957" end="940;966" status="0" certainty="-3" cui="C0198488" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="incisions;muscle" begin="931;967" end="940;973" status="0" certainty="-3" cui="C0185181" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="incisions" begin="931" end="940" status="0" certainty="-3" cui="C0184898;C2096041" tui="T061;T033" rank="767;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+</RelationSet>
+<RelationSet id="1376">
+<anatomicalStructure value="abdominal muscle" begin="957" end="973" status="0" certainty="0" cui="C0000739;C1280282" tui="T023;T024" rank="797;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="abdominal" begin="957" end="966" status="0" certainty="0" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+<anatomicalStructure value="muscle" begin="967" end="973" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="1377">
+<anatomicalStructure value="muscle" begin="1041" end="1047" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="1378">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="posterior" begin="1006" end="1015" status="0" certainty="0"/>
+<procedure value="incisions" begin="1016" end="1025" status="0" certainty="0"/>
+</Relation>
+<modifier value="posterior" begin="1006" end="1015" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<procedure value="incisions;muscle" begin="1016;1041" end="1025;1047" status="0" certainty="0" cui="C0185181" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="incisions" begin="1016" end="1025" status="0" certainty="0" cui="C0184898;C2096041" tui="T061;T033" rank="767;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="1049" end="1111" sentText="Code the component separation to the root operation “Release.”">
+</Sentence>
+<Sentence sentNo="11" begin="1112" end="1298" sentText="The appropriate root operation for the placement of the mesh is “Supplement,” since the mesh is being used to reinforce the abdominal wall as well as to prevent recurrence of the hernia.">
+<RelationSet id="1379">
+<medicalDevice value="mesh" begin="1200" end="1204" status="0" certainty="0" cui="C0181805;C1552983;C1135584" tui="T074;T081;T170" rank="767;576;366" code="NO-CODE" sourceType="RCD;NCI;SRC"/>
+</RelationSet>
+<RelationSet id="1380">
+<anatomicalStructure value="abdominal wall" begin="1236" end="1250" status="1" certainty="0" cui="C0836916;C1269041" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="abdominal" begin="1236" end="1245" status="1" certainty="0" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+</RelationSet>
+<RelationSet id="1381">
+<problem value="recurrence;hernia" begin="1273;1291" end="1283;1297" status="0" certainty="0" cui="C0281961" tui="T020" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="hernia" begin="1291" end="1297" status="0" certainty="0" cui="C0019270" tui="T190" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="1382">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="placement" begin="1151" end="1160" status="0" certainty="0"/>
+<medicalDevice value="mesh" begin="1168" end="1172" status="0" certainty="0"/>
+</Relation>
+<procedure value="placement" begin="1151" end="1160" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+<medicalDevice value="mesh" begin="1168" end="1172" status="0" certainty="0" cui="C0181805;C1552983;C1135584" tui="T074;T081;T170" rank="767;576;366" code="NO-CODE" sourceType="RCD;NCI;SRC"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="12" begin="1299" end="1334" sentText="Assign ICD-10-PCS codes as follows:">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

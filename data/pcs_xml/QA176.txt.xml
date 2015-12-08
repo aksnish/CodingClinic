@@ -1,0 +1,67 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1259">
+<Paragraph pgNo="1" begin="0" end="443">
+<Sentence sentNo="1" begin="0" end="92" sentText="Question: A pregnant patient presents to the hospital at 40 weeks gestation in active labor.">
+</Sentence>
+<Sentence sentNo="2" begin="93" end="232" sentText="Artificial rupture of the fetal membranes (AROM) is carried out and Pitocin is given intravenously in the peripheral vein to augment labor.">
+<RelationSet id="2575">
+<med value="Pitocin" begin="161" end="168" status="0" certainty="0" cui="C0030095;C0733348;C0523809;C1418208;C1704206" tui="T116,T121,T125;T116,T121,T125;T059;T028;T116,T121,T125" rank="797;792;652;603;575" code="NO-CODE" sourceType="LCH;MMSL;MDR;HGNC;NCI"/>
+</RelationSet>
+<RelationSet id="2576">
+<anatomicalStructure value="vein" begin="210" end="214" status="0" certainty="0" cui="C0348013;C0042449;C1278960;C0398102" tui="T082;T023;T023;T061" rank="797;797;765;373" code="NO-CODE" sourceType="RCD;MSH;SNOMEDCTUS;ICD10AM"/>
+</RelationSet>
+<RelationSet id="2577">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="AROM" begin="136" end="140" status="0" certainty="0"/>
+<anatomicalStructure value="fetal membranes" begin="119" end="134" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="AROM" begin="136" end="140" status="0" certainty="0"/>
+<problem value="Artificial rupture" begin="93" end="111" status="0" certainty="0"/>
+<anatomicalStructure value="fetal membranes" begin="119" end="134" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="Artificial rupture" begin="93" end="111" status="0" certainty="0"/>
+<anatomicalStructure value="fetal membranes" begin="119" end="134" status="0" certainty="0"/>
+</Relation>
+<problem value="rupture" begin="104" end="111" status="0" certainty="0" cui="C3203359;C0443294;C1881712" tui="T037;T169;T067" rank="797;767;561" code="NO-CODE" sourceType="LCH;RCD;NCI"/>
+<anatomicalStructure value="membranes" begin="125" end="134" status="0" certainty="0" cui="C0596901;C0025255;C1706182" tui="T026;T024;T073" rank="797;795;575" code="NO-CODE" sourceType="MTH;MSH;NCI"/>
+<anatomicalStructure value="fetal" begin="119" end="124" status="0" certainty="0" cui="C0521457;C0015965;C1305737;C0242291" tui="T169;T018;T017;T024" rank="797;797;765;572" code="NO-CODE" sourceType="SNMI;LCH;SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="233" end="323" sentText="The patient had a spontaneous vaginal delivery of a live born infant without complication.">
+</Sentence>
+<Sentence sentNo="4" begin="324" end="442" sentText="Is the administration of Pitocin to augment active labor coded separately in ICD-10PCS? How should this case be coded?">
+<RelationSet id="2578">
+<med value="Pitocin" begin="349" end="356" status="0" certainty="0" cui="C0030095;C0733348;C0523809;C1418208;C1704206" tui="T116,T121,T125;T116,T121,T125;T059;T028;T116,T121,T125" rank="797;792;652;603;575" code="NO-CODE" sourceType="LCH;MMSL;MDR;HGNC;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="444" end="1258">
+<Sentence sentNo="5" begin="444" end="544" sentText="Answer: Assign code O80, Encounter for full-term uncomplicated delivery, as the principal diagnosis.">
+</Sentence>
+<Sentence sentNo="6" begin="545" end="707" sentText="Codes Z3A.40, 40 weeks of gestation of pregnancy, and Z37.0, Single live born, should be assigned to describe weeks of  gestation and the outcome of the delivery.">
+</Sentence>
+<Sentence sentNo="7" begin="708" end="786" sentText="The administration of Pitocin to augment active labor is not coded separately.">
+<RelationSet id="2579">
+<med value="Pitocin" begin="730" end="737" status="0" certainty="0" cui="C0030095;C0733348;C0523809;C1418208;C1704206" tui="T116,T121,T125;T116,T121,T125;T059;T028;T116,T121,T125" rank="797;792;652;603;575" code="NO-CODE" sourceType="LCH;MMSL;MDR;HGNC;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="787" end="913" sentText="In this case, the patient presented in active labor; therefore do no assign a separate code for the administration of Pitocin.">
+<RelationSet id="2580">
+<med value="Pitocin" begin="905" end="912" status="0" certainty="-2" cui="C0030095;C0733348;C0523809;C1418208;C1704206" tui="T116,T121,T125;T116,T121,T125;T059;T028;T116,T121,T125" rank="797;792;652;603;575" code="NO-CODE" sourceType="LCH;MMSL;MDR;HGNC;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="914" end="972" sentText="When Pitocin is given to induce labor, it should be coded.">
+<RelationSet id="2581">
+<med value="Pitocin" begin="919" end="926" status="0" certainty="0" cui="C0030095;C0733348;C0523809;C1418208;C1704206" tui="T116,T121,T125;T116,T121,T125;T059;T028;T116,T121,T125" rank="797;792;652;603;575" code="NO-CODE" sourceType="LCH;MMSL;MDR;HGNC;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="973" end="1257" sentText="For the assisted delivery and artificial rupture of the membranes, assign ICD-10PCS procedure codes as follows: 10E0XZZ Delivery of products of conception, external approach 10907ZC Drainage of amniotic fluid, therapeutic from products of conception, via natural or artificial opening">
+<RelationSet id="2582">
+<anatomicalStructure value="membranes" begin="1029" end="1038" status="0" certainty="0" cui="C0596901;C0025255;C1706182" tui="T026;T024;T073" rank="797;795;575" code="NO-CODE" sourceType="MTH;MSH;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

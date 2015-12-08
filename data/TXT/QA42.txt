@@ -1,0 +1,2 @@
+Question: The patient’s pregnancy was complicated due to cervical incompetence, and she underwent placement of cervical cerclage during the second trimester. After a completely normal delivery, she underwent transvaginal removal of the cerclage. How is the removal coded? 
+Answer: Assign the following ICD-10-PCS code for the transvaginal removal of cervical cerclage: 0UCC7ZZ 

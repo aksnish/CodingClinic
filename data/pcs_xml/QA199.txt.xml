@@ -1,0 +1,42 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="869">
+<Paragraph pgNo="1" begin="0" end="118">
+<Sentence sentNo="1" begin="0" end="117" sentText="Question: Do two conditions have to be listed together in the diagnostic statement in order to assume an association?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="119" end="868">
+<Sentence sentNo="2" begin="119" end="206" sentText="Answer: It is not required that two conditions be listed together in the health record.">
+</Sentence>
+<Sentence sentNo="3" begin="207" end="383" sentText="However, the provider needs to document the linkage, except for situations where the classification assumes an association (e.g., hypertension with chronic kidney involvement).">
+<RelationSet id="2266">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="chronic" begin="355" end="362" status="0" certainty="0"/>
+<problem value="hypertension" begin="337" end="349" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="chronic" begin="355" end="362" status="0" certainty="0"/>
+<problem value=" kidney involvement" begin="362" end="381" status="0" certainty="0"/>
+<problem value="hypertension" begin="337" end="349" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="chronic" begin="355" end="362" status="0" certainty="0"/>
+<problem value=" kidney involvement" begin="362" end="381" status="0" certainty="0"/>
+</Relation>
+<modifier value="chronic" begin="355" end="362" status="0" certainty="0" cui="C0205191;C0547045;C1555457;C1547296" tui="T079;T169;T170;T170" rank="797;767;366;355" code="NO-CODE" sourceType="RCD;RCD;HL7V3.0;HL7V2.5"/>
+<problem value="kidney" begin="363" end="369" status="0" certainty="0" cui="C0022646;C1278978;C0496892;C0496927;C1514845;C0869841;C0227665" tui="T023;T023;T191;T191;T024;T061;T023" rank="797;765;610;610;572;373;151" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM;CHV"/>
+<problem value="hypertension" begin="337" end="349" status="0" certainty="0" cui="C0020538;C1963138" tui="T047;T033" rank="795;551" code="NO-CODE" sourceType="CCS;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="384" end="497" sentText="When the provider establishes a linkage or relationship between the two conditions, they should be coded as such.">
+</Sentence>
+<Sentence sentNo="5" begin="498" end="615" sentText="However, the entire record should be reviewed to  determine whether a relationship between the two conditions exists.">
+</Sentence>
+<Sentence sentNo="6" begin="616" end="731" sentText="The fact that a patient has two conditions that commonly occur together does not necessarily mean they are related.">
+</Sentence>
+<Sentence sentNo="7" begin="732" end="785" sentText="A different cause  may be documented by the provider.">
+</Sentence>
+<Sentence sentNo="8" begin="786" end="867" sentText="If it is not clear whether or not two conditions are related, query the provider.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

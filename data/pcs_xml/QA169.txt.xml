@@ -1,0 +1,44 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="604">
+<Paragraph pgNo="1" begin="0" end="440">
+<Sentence sentNo="1" begin="0" end="163" sentText="Question: A skin substitute, such as Integra, is an acellular dermal replacement  that is  described as humantissue-derived with the cellular DNA material removed.">
+<RelationSet id="2495">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="dermal replacement" begin="62" end="80" status="0" certainty="0"/>
+<modifier value="acellular" begin="52" end="61" status="0" certainty="0"/>
+</Relation>
+<problem value="dermal" begin="62" end="68" status="0" certainty="0" cui="C1123023;C1278993;C0221928;C0496955;C1522447;C0444099;C1546781" tui="T022;T022;T080;T191;T169;T031;T170" rank="797;765;703;610;575;366;355" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCI;ICD10;NCI;HL7V3.0;HL7V2.5"/>
+<procedure value="acellular dermal replacement" begin="52" end="80" status="0" certainty="0" cui="C1611223" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="replacement" begin="69" end="80" status="0" certainty="0" cui="C0559956;C0035139;C1555302" tui="T169;T061;T078" rank="797;765;366" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;HL7V3.0"/>
+<modifier value="acellular" begin="52" end="61" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="164" end="303" sentText="Though nonautologous tissue is used, it is manipulated in such a way as to possibly be considered  manufactured  and  therefore  synthetic.">
+</Sentence>
+<Sentence sentNo="3" begin="304" end="439" sentText="In ICD-10-PCS, should the device value for a dermal regenerative graft be “synthetic substitute” or “non-autologous tissue substitute?”">
+<RelationSet id="2496">
+<modifier value="dermal regenerative" begin="349" end="368" status="0" certainty="0" cui="S1000441" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<problem value="dermal" begin="349" end="355" status="0" certainty="0" cui="C1123023;C1278993;C0221928;C0496955;C1522447;C0444099;C1546781" tui="T022;T022;T080;T191;T169;T031;T170" rank="797;765;703;610;575;366;355" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCI;ICD10;NCI;HL7V3.0;HL7V2.5"/>
+<procedure value="dermal regenerative graft" begin="349" end="374" status="0" certainty="0" cui="C0795778" tui="T061" rank="401" code="NO-CODE" sourceType="ICD9CM"/>
+<procedure value="dermal;graft;substitute" begin="349;369;389" end="355;374;399" status="0" certainty="0" cui="C3248357;C2368522" tui="T061;T061" rank="353;250" code="NO-CODE" sourceType="CPT;HCPCS"/>
+<procedure value="dermal;graft;synthetic" begin="349;369;379" end="355;374;388" status="0" certainty="0" cui="C0687573;C0851142" tui="T074;T061" rank="685;608" code="NO-CODE" sourceType="UMD;ICD10AM"/>
+<procedure value="graft;synthetic" begin="369;379" end="374;388" status="0" certainty="0" cui="C0185104" tui="T061" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="dermal;graft" begin="349;369" end="355;374" status="0" certainty="0" cui="C0037297;C0181078;C0040748;C2240390" tui="T061;T122;T023;T033" rank="791;765;714;595" code="NO-CODE" sourceType="CCS;RCD;SNMI;MEDCIN"/>
+<procedure value="graft" begin="369" end="374" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="441" end="603">
+<Sentence sentNo="4" begin="441" end="532" sentText="Answer: Skin substitute products, such as Integra and Dermagraft, are biologically derived.">
+<RelationSet id="2496">
+<anatomicalStructure value="Skin" begin="449" end="453" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2496">
+<med value="Dermagraft" begin="495" end="505" status="0" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="533" end="602" sentText="Assign the device value indicating “nonautologous tissue substitute.”">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

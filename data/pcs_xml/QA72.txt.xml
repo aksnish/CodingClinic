@@ -1,0 +1,51 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="973">
+<Paragraph pgNo="1" begin="0" end="350">
+<Sentence sentNo="1" begin="0" end="167" sentText="Question: The above patient also underwent elevation, preparation, and transfer of radial forearm free flap to reconstruct the defect left by the orbital exenteration.">
+<RelationSet id="1984">
+<modifier value="elevation" begin="43" end="52" status="0" certainty="-2" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1985">
+<anatomicalStructure value="free flap" begin="98" end="107" status="0" certainty="0" cui="C0441031;C0851248" tui="T024;T061" rank="797;373" code="NO-CODE" sourceType="RCD;ICD10AM"/>
+<anatomicalStructure value="radial" begin="83" end="89" status="0" certainty="0" cui="C0442038;C0034627;C1306504;C1279083;C0920847" tui="T077;T023;T081;T023;T077" rank="797;795;767;765;691" code="NO-CODE" sourceType="RCD;LCH;NCI;SNOMEDCTUS;UWDA"/>
+<anatomicalStructure value="flap" begin="103" end="107" status="0" certainty="0" cui="C0038925;C1412362" tui="T023;T028" rank="767;596" code="NO-CODE" sourceType="RCD;HGNC"/>
+</RelationSet>
+<RelationSet id="1986">
+<modifier value="orbital" begin="146" end="153" status="0" certainty="0" cui="C0699036;C0684285" tui="T082;T044" rank="767;481" code="NO-CODE" sourceType="RCD;AOD"/>
+<procedure value="orbital exenteration" begin="146" end="166" status="0" certainty="0" cui="C0162661" tui="T061" rank="724" code="NO-CODE" sourceType="SNM"/>
+<procedure value="exenteration" begin="154" end="166" status="0" certainty="0" cui="C0015258" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="168" end="349" sentText="Should the root operation for the radial forearm free flap procedure be reported as supplement or replacement? What is the appropriate ICD-10-PCS code assignment for this procedure?">
+<RelationSet id="1987">
+<anatomicalStructure value="free flap" begin="217" end="226" status="0" certainty="0" cui="C0441031;C0851248" tui="T024;T061" rank="797;373" code="NO-CODE" sourceType="RCD;ICD10AM"/>
+<anatomicalStructure value="radial" begin="202" end="208" status="0" certainty="0" cui="C0442038;C0034627;C1306504;C1279083;C0920847" tui="T077;T023;T081;T023;T077" rank="797;795;767;765;691" code="NO-CODE" sourceType="RCD;LCH;NCI;SNOMEDCTUS;UWDA"/>
+<anatomicalStructure value="flap" begin="222" end="226" status="0" certainty="0" cui="C0038925;C1412362" tui="T023;T028" rank="767;596" code="NO-CODE" sourceType="RCD;HGNC"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="351" end="972">
+<Sentence sentNo="3" begin="351" end="454" sentText="Answer: The appropriate root operation for the autograft used to reconstruct the face is “Replacement.”">
+<RelationSet id="1988">
+<anatomicalStructure value="face" begin="432" end="436" status="1" certainty="0" cui="C0015450;C1281591;C1423759;C2828055" tui="T029;T023;T028;T028" rank="797;765;596;575" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;OMIM;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="455" end="635" sentText="The root operation “Replacement” is defined as putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part.">
+</Sentence>
+<Sentence sentNo="5" begin="636" end="760" sentText="Harvesting of the graft should be coded separately, since the ICD-10-PCS Official Guidelines for Coding and Reporting (B3.9)">
+<RelationSet id="1989">
+<procedure value="Harvesting;graft" begin="636;654" end="646;659" status="0" certainty="0" cui="C2012506" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="graft" begin="654" end="659" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="761" end="908" sentText="state, “If an autograft is obtained from a different body part in order to complete the objective of the procedure, a separate procedure is coded.”">
+<RelationSet id="1990">
+<procedure value="autograft" begin="775" end="784" status="0" certainty="-3" cui="C0559189;C0040736;C0181074;C0332835;C1705210;C1546653;C3683798;C1961139" tui="T122;T061;T122;T024;T122;T170;T061;T061" rank="795;790;767;765;575;355;353;353" code="NO-CODE" sourceType="RCD;MDR;RCD;MSH;NCI;HL7V2.5;CPT;CPT"/>
+<anatomicalStructure value="autograft;body" begin="775;814" end="784;818" status="0" certainty="-3" cui="C0448966" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="909" end="972" sentText="For the procedures, assign ICD-10-PCS codes as follows: 0JR107Z">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

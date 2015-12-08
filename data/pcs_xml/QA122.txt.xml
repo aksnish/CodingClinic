@@ -1,0 +1,92 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1084">
+<Paragraph pgNo="1" begin="0" end="321">
+<Sentence sentNo="1" begin="0" end="201" sentText="Question: A 28-week, Rh D-negative pregnant patient with a history of previously delivering an Rh D-positive baby, receives a prophylactic injection of anti-D immune globulin during her prenatal visit.">
+<RelationSet id="1385">
+<procedure value="prophylactic" begin="126" end="138" status="0" certainty="1" cui="C0033107;C0445202;C0199176;C0355642;C0009653;C0677582" tui="T170;T169;T061;T121;T074;T074" rank="789;767;765;737;684;575" code="NO-CODE" sourceType="MSH;MDR;CHV;USPMG;UMD;NCI"/>
+<procedure value="injection" begin="139" end="148" status="0" certainty="1" cui="C1828121;C1272883;C1533685;C0021485" tui="T169;T122;T061;T061" rank="795;767;767;151" code="NO-CODE" sourceType="MSH;NCI;ICPC2P;CHV"/>
+</RelationSet>
+<RelationSet id="1386">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<lab value="globulin" begin="166" end="174" status="0" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+<modifier value="immune" begin="159" end="165" status="0" certainty="0"/>
+</Relation>
+<lab value="globulin" begin="166" end="174" status="0" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+<modifier value="immune" begin="159" end="165" status="0" certainty="0" cui="C0439662;C0020964" tui="T169;T039" rank="797;795" code="NO-CODE" sourceType="RCD;LCH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="202" end="244" sentText="The patient does not have isoimmunization.">
+</Sentence>
+<Sentence sentNo="3" begin="245" end="320" sentText="What is the appropriate ICD-10-CM diagnosis code assignment for this visit?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="322" end="1083">
+<Sentence sentNo="4" begin="322" end="459" sentText="Answer: Assign code Z34.83, Encounter for supervision of other normal pregnancy, third trimester, to indicate this is a normal pregnancy.">
+<RelationSet id="1386">
+<problem value="4.83, Encounter for supervision of other normal pregnancy, third tri" begin="344" end="412" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="460" end="574" sentText="Assign also codes Z31.82, Encounter for Rh incompatibility status, and Z3A.28, 28 weeks of gestation of pregnancy.">
+<RelationSet id="1386">
+<problem value="1.82, Encounter for Rh incompatibility " begin="480" end="519" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1386">
+<finding value="Rh incompatibility status" begin="500" end="525" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="575" end="784" sentText="Since the anti-D immune globulin was given as a prophylactic measure and the patient does not have isoimmunization, a code from subcategory O36.01, Maternal care for anti-D [Rh] antibodies, is not appropriate.">
+<RelationSet id="1387">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="Rh" begin="749" end="751" status="0" certainty="0"/>
+<lab value="antibodies" begin="753" end="763" status="0" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</Relation>
+<modifier value="Rh;antibodies" begin="749;753" end="751;763" status="0" certainty="0" cui="C0073163" tui="T116,T129" rank="787" code="NO-CODE" sourceType="MSH"/>
+<modifier value="Rh" begin="749" end="751" status="0" certainty="0" cui="C2699077;C0035493;C0035403;C0034992" tui="T185;T196;T129;T169" rank="575;519;491;275" code="NO-CODE" sourceType="NCI;NCI;CCPSS;MSH"/>
+<lab value="antibodies" begin="753" end="763" status="0" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1388">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<lab value="globulin" begin="599" end="607" status="0" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+<modifier value="immune" begin="592" end="598" status="0" certainty="0"/>
+</Relation>
+<lab value="globulin" begin="599" end="607" status="0" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+<modifier value="immune" begin="592" end="598" status="0" certainty="0" cui="C0439662;C0020964" tui="T169;T039" rank="797;795" code="NO-CODE" sourceType="RCD;LCH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="785" end="861" sentText="The use of anti-D immune globulin does not mean the pregnancy is not normal.">
+<RelationSet id="1389">
+<modifier value="normal" begin="854" end="860" status="0" certainty="1" cui="C0205307;C0949333;C1882114;C1704701;C2698497;C0558145;C1553402;C1553386;C1553399;C1550469;C1550457;C1551394;C1553406" tui="T080;T080;T081;T081;T170;T033;T078;T078;T078;T078;T078;T078;T078" rank="797;797;575;575;572;572;366;366;366;366;366;366;366" code="NO-CODE" sourceType="RCD;MSH;NCI;NCI;NCI;NCI;HL7V3.0;HL7V3.0;HL7V3.0;HL7V3.0;HL7V3.0;HL7V3.0;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1390">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<lab value="globulin" begin="810" end="818" status="0" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+<modifier value="immune" begin="803" end="809" status="0" certainty="0"/>
+</Relation>
+<lab value="globulin" begin="810" end="818" status="0" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+<modifier value="immune" begin="803" end="809" status="0" certainty="0" cui="C0439662;C0020964" tui="T169;T039" rank="797;795" code="NO-CODE" sourceType="RCD;LCH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="862" end="988" sentText="Rh factor is a protein that can be present on the surface of red blood cells and is passed from the parents to their children.">
+<RelationSet id="1391">
+<anatomicalStructure value="surface;cells" begin="912;933" end="919;938" status="0" certainty="0" cui="C0699040" tui="T026" rank="797" code="NO-CODE" sourceType="GO"/>
+<anatomicalStructure value="blood cells" begin="927" end="938" status="0" certainty="0" cui="C0005773" tui="T025" rank="797" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="red;cells" begin="923;933" end="926;938" status="0" certainty="0" cui="C0014792" tui="T025" rank="791" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="cells" begin="933" end="938" status="0" certainty="0" cui="C0007634;C1269647;C1861886;C1948049;C1704653;C1136359" tui="T025;T025;T028;T082;T074;T073" rank="797;765;596;576;575;575" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;OMIM;NCI;NCI;NCI"/>
+<anatomicalStructure value="blood" begin="927" end="932" status="0" certainty="0" cui="S0001759;C0005767;C0005768;C0392895;C0333275;C0229664" tui="t061;T024;T031;T098;T080;T031" rank="800;797;797;767;765;576" code="NO-CODE" sourceType="EZDI;LCH;MSH;SNMI;SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="989" end="1082" sentText="Some individuals are Rh positive; while others do not have the Rh factor and are Rh negative.">
+<RelationSet id="1392">
+<modifier value="Rh positive" begin="1010" end="1021" status="0" certainty="1" cui="C0427629;C2699078" tui="T034;T185" rank="765;575" code="NO-CODE" sourceType="RCD;NCI"/>
+<modifier value="Rh" begin="1010" end="1012" status="0" certainty="1" cui="C2699077;C0035493;C0035403;C0034992" tui="T185;T196;T129;T169" rank="575;519;491;275" code="NO-CODE" sourceType="NCI;NCI;CCPSS;MSH"/>
+</RelationSet>
+<RelationSet id="1392">
+<medicalDevice value="Rh factor" begin="1052" end="1061" status="0" certainty="-2" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1393">
+<modifier value="Rh" begin="1070" end="1072" status="0" certainty="-2" cui="C0035403;C2699077;C0035493;C0034992" tui="T129;T185;T196;T169" rank="797;575;519;275" code="NO-CODE" sourceType="MSH;NCI;NCI;MSH"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

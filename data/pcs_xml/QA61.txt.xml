@@ -1,0 +1,97 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="811">
+<Paragraph pgNo="1" begin="0" end="366">
+<Sentence sentNo="1" begin="0" end="252" sentText="Question: This patient had a lesion within the left anterior descending (LAD) coronary artery that extended into a branch artery of the LAD at the bifurcation and two drug-eluting stents were placed percutaneously, one in the LAD and one in the branch.">
+<RelationSet id="1191">
+<anatomicalStructure value="left anterior descending;coronary artery;branch" begin="47;78;115" end="71;93;121" status="0" certainty="0" cui="C0226032" tui="T023" rank="797" code="NO-CODE" sourceType="SNMI"/>
+<anatomicalStructure value="left;coronary artery;branch" begin="47;78;115" end="51;93;121" status="0" certainty="0" cui="C0447055" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="artery" begin="122" end="128" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<anatomicalStructure value="branch" begin="115" end="121" status="0" certainty="0" cui="C1253959;C2700384;C0205384;C2700383;C1706131;C1881507;C2826234" tui="T023;T082;T082;T002;T097;T104;T170" rank="797;797;767;576;576;575;572" code="NO-CODE" sourceType="NCI;FMA;SNMI;NCI;NCI;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="1191">
+<anatomicalStructure value="LAD" begin="136" end="139" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1192">
+<medicalDevice value="drug-eluting stents" begin="167" end="186" status="0" certainty="0" cui="C1322815" tui="T074" rank="795" code="NO-CODE" sourceType="MSH"/>
+<medicalDevice value="stents" begin="180" end="186" status="0" certainty="0" cui="C2348535;C0038257;C1705817" tui="T061;T074;T074" rank="797;795;575" code="NO-CODE" sourceType="NCI;MSH;NCI"/>
+</RelationSet>
+<RelationSet id="1192">
+<anatomicalStructure value="LAD" begin="226" end="229" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1193">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="lesion" begin="29" end="35" status="0" certainty="1"/>
+<anatomicalStructure value="left anterior descending" begin="47" end="71" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="lesion" begin="29" end="35" status="0" certainty="1"/>
+<anatomicalStructure value="LAD) coronary artery" begin="73" end="93" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="lesion" begin="29" end="35" status="0" certainty="1"/>
+<anatomicalStructure value="left anterior descending" begin="47" end="71" status="0" certainty="1"/>
+<anatomicalStructure value="LAD) coronary artery" begin="73" end="93" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="left anterior descending;coronary artery;branch" begin="47;78;115" end="71;93;121" status="0" certainty="1" cui="C0226032" tui="T023" rank="797" code="NO-CODE" sourceType="SNMI"/>
+<anatomicalStructure value="anterior descending;coronary artery" begin="52;78" end="71;93" status="0" certainty="1" cui="C1510906" tui="T023" rank="576" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="left anterior descending;LAD;artery" begin="47;73;87" end="71;76;93" status="0" certainty="1" cui="C1321506" tui="T023" rank="765" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="left;coronary artery;branch" begin="47;78;115" end="51;93;121" status="0" certainty="1" cui="C0447055" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="left;coronary artery" begin="47;78" end="51;93" status="0" certainty="1" cui="C1261082" tui="T023" rank="765" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="anterior descending;coronary artery" begin="52;78" end="71;93" status="0" certainty="0" cui="C1510906" tui="T023" rank="576" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="left anterior descending;LAD;artery" begin="47;73;87" end="71;76;93" status="0" certainty="0" cui="C1321506" tui="T023" rank="765" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="left;coronary artery" begin="47;78" end="51;93" status="0" certainty="0" cui="C1261082" tui="T023" rank="765" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="coronary artery" begin="78" end="93" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="87" end="93" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="253" end="365" sentText="Are branches considered separate coronary artery sites? What is the appropriate number of coronary artery sites?">
+<RelationSet id="1194">
+<anatomicalStructure value="coronary artery" begin="286" end="301" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="295" end="301" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<anatomicalStructure value="sites" begin="302" end="307" status="0" certainty="0" cui="C0205145;C2945843;C2825164;C1515974;C1546778" tui="T082;T080;T082;T029;T170" rank="797;767;575;575;355" code="NO-CODE" sourceType="RCD;RCD;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1195">
+<anatomicalStructure value="coronary artery" begin="343" end="358" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="352" end="358" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<anatomicalStructure value="sites" begin="359" end="364" status="0" certainty="0" cui="C0205145;C2945843;C2825164;C1515974;C1546778" tui="T082;T080;T082;T029;T170" rank="797;767;575;575;355" code="NO-CODE" sourceType="RCD;RCD;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="367" end="810">
+<Sentence sentNo="3" begin="367" end="448" sentText="Answer: In this case, the branch is not coded as a separate coronary artery site.">
+<RelationSet id="1196">
+<anatomicalStructure value="coronary artery" begin="427" end="442" status="0" certainty="-2" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="436" end="442" status="0" certainty="-2" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<anatomicalStructure value="site" begin="443" end="447" status="0" certainty="-2" cui="C0205145;C2945843;C2825164;C1515974;C1546778" tui="T082;T080;T082;T029;T170" rank="797;767;575;575;355" code="NO-CODE" sourceType="RCD;RCD;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="449" end="531" sentText="According to the procedure report, the lesion extended from the LAD to the branch.">
+<RelationSet id="1197">
+<anatomicalStructure value="LAD" begin="513" end="516" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="532" end="674" sentText="If the lesion in the branch had been a separate lesion than the one in the LAD, then the body part value would be coded as two coronary sites.">
+<RelationSet id="1199">
+<anatomicalStructure value="LAD" begin="607" end="610" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1200">
+<anatomicalStructure value="sites" begin="668" end="673" status="0" certainty="1" cui="C0205145;C2945843;C2825164;C1515974;C1546778" tui="T082;T080;T082;T029;T170" rank="797;767;575;575;355" code="NO-CODE" sourceType="RCD;RCD;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="675" end="809" sentText="Assign code 0270346, Dilation of coronary artery, one site, bifurcation, with drug-eluting intraluminal device, percutaneous approach.">
+<RelationSet id="1201">
+<medicalDevice value="device" begin="779" end="785" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1202">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="Dilation" begin="696" end="704" status="0" certainty="0"/>
+<anatomicalStructure value="coronary artery" begin="708" end="723" status="0" certainty="0"/>
+</Relation>
+<problem value="Dilation" begin="696" end="704" status="0" certainty="0" cui="C0012359;C0700124;C0393293" tui="T046;T169;T061" rank="765;575;286" code="NO-CODE" sourceType="SNM;NCI;MTHMST"/>
+<anatomicalStructure value="coronary artery" begin="708" end="723" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="717" end="723" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

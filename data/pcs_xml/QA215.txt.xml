@@ -1,0 +1,54 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="738">
+<Paragraph pgNo="1" begin="0" end="507">
+<Sentence sentNo="1" begin="0" end="506" sentText="Question: If a physician documents heart failure with preserved ejection fraction (HFpEF), heart failure with preserved systolic function, and/or heart failure with reduced ejection fraction (HFrEF), heart failure with low ejection fraction, heart failure with reduced systolic function, or other similar terms, can the coder  assume the provider  means  respectively “diastolic heart failure” or “systolic heart failure,” and apply the proper ICD-10-CM code based on the documented clinical circumstances?">
+<RelationSet id="1669">
+<problem value="heart failure" begin="35" end="48" status="0" certainty="-3" cui="C0018801" tui="T047" rank="797" code="NO-CODE" sourceType="CCS"/>
+<problem value="heart" begin="35" end="40" status="0" certainty="-3" cui="C0018787;C1281570;C0153500;C0153957" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="AIR;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+<RelationSet id="1670">
+<problem value="heart failure" begin="91" end="104" status="0" certainty="-2" cui="C0018801" tui="T047" rank="797" code="NO-CODE" sourceType="CCS"/>
+<problem value="heart" begin="91" end="96" status="0" certainty="-2" cui="C0018787;C1281570;C0153500;C0153957" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="AIR;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+<RelationSet id="1671">
+<problem value="heart failure" begin="146" end="159" status="0" certainty="-2" cui="C0018801" tui="T047" rank="797" code="NO-CODE" sourceType="CCS"/>
+<problem value="heart" begin="146" end="151" status="0" certainty="-2" cui="C0018787;C1281570;C0153500;C0153957" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="AIR;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+<RelationSet id="1672">
+<problem value="heart failure" begin="242" end="255" status="0" certainty="-2" cui="C0018801" tui="T047" rank="797" code="NO-CODE" sourceType="CCS"/>
+<problem value="heart" begin="242" end="247" status="0" certainty="-2" cui="C0018787;C1281570;C0153500;C0153957" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="AIR;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+<RelationSet id="1673">
+<problem value="diastolic;heart failure" begin="369;407" end="378;420" status="0" certainty="-2" cui="C1135196" tui="T047" rank="795" code="NO-CODE" sourceType="NDFRT"/>
+<problem value="heart failure;systolic" begin="379;398" end="392;406" status="0" certainty="-2" cui="C1135191" tui="T047" rank="795" code="NO-CODE" sourceType="NDFRT"/>
+<problem value="failure;heart" begin="385;407" end="392;412" status="0" certainty="-2" cui="C0018801" tui="T047" rank="797" code="NO-CODE" sourceType="CCS"/>
+<problem value="heart" begin="379" end="384" status="0" certainty="-2" cui="C0018787;C1281570;C0153500;C0153957" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="AIR;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+<RelationSet id="1674">
+<problem value="heart" begin="407" end="412" status="0" certainty="-2" cui="C0018787;C1281570;C0153500;C0153957" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="AIR;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+<RelationSet id="1675">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<bodyFunction value="ejection fraction" begin="223" end="240" status="0" certainty="-2"/>
+<problem value=" heart failure" begin="199" end="213" status="0" certainty="-2"/>
+</Relation>
+<bodyFunction value="ejection fraction" begin="223" end="240" status="0" certainty="-2" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<problem value="heart failure" begin="200" end="213" status="0" certainty="-2" cui="C0018801" tui="T047" rank="797" code="NO-CODE" sourceType="CCS"/>
+<problem value="heart" begin="200" end="205" status="0" certainty="-2" cui="C0018787;C1281570;C0153500;C0153957" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="AIR;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="508" end="737">
+<Sentence sentNo="2" begin="508" end="634" sentText="Answer: No, the coder cannot assume either diastolic or systolic failure or a combination of both, based on these newer terms.">
+</Sentence>
+<Sentence sentNo="3" begin="635" end="737" sentText="Therefore, query the provider  to clarify whether the patient has diastolic or systolic heart failure.">
+<RelationSet id="1677">
+<problem value="diastolic;heart failure" begin="701;723" end="710;736" status="0" certainty="-3" cui="C1135196" tui="T047" rank="795" code="NO-CODE" sourceType="NDFRT"/>
+<problem value="systolic heart failure" begin="714" end="736" status="0" certainty="-3" cui="C1135191" tui="T047" rank="795" code="NO-CODE" sourceType="NDFRT"/>
+<problem value="heart failure" begin="723" end="736" status="0" certainty="-3" cui="C0018801" tui="T047" rank="797" code="NO-CODE" sourceType="CCS"/>
+<problem value="heart" begin="723" end="728" status="0" certainty="-3" cui="C0018787;C1281570;C0153500;C0153957" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="AIR;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

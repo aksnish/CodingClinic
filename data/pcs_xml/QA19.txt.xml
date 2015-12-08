@@ -1,0 +1,107 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="781">
+<Paragraph pgNo="1" begin="0" end="479">
+<Sentence sentNo="1" begin="0" end="122" sentText="Question: A nine-year-old girl with a diagnosis of vascular ring and double aortic arch presents for division of the ring.">
+<RelationSet id="333">
+<problem value="vascular ring" begin="51" end="64" status="0" certainty="1" cui="C0265888;C0221214" tui="T019;T019" rank="797;797" code="NO-CODE" sourceType="SNM;DXP"/>
+<anatomicalStructure value="vascular" begin="51" end="59" status="0" certainty="1" cui="C1801960;C0005847;C1558950;C0392759" tui="T080;T023;T033;T169" rank="797;753;551;233" code="NO-CODE" sourceType="SNMI;SNOMEDCTVET;NCI;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="335">
+<anatomicalStructure value="aortic arch" begin="76" end="87" status="0" certainty="0" cui="C0003489;C1269010" tui="T023;T023" rank="793;765" code="NO-CODE" sourceType="NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="aortic" begin="76" end="82" status="0" certainty="0" cui="C0003483;C1278934;C0869784" tui="T023;T023;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+<anatomicalStructure value="arch" begin="83" end="87" status="0" certainty="0" cui="C0741204;C1538146;C0230467" tui="T030;T028;T029" rank="797;587;151" code="NO-CODE" sourceType="CCPSS;HGNC;CHV"/>
+</RelationSet>
+<RelationSet id="335">
+<anatomicalStructure value="ring" begin="117" end="121" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="123" end="249" sentText="At surgery, a left thoracotomy was carried out, a small ligamentum arteriosus was identified, and divided with electrocautery.">
+<RelationSet id="336">
+<procedure value="surgery" begin="126" end="133" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="337">
+<modifier value="small" begin="173" end="178" status="0" certainty="0" cui="C0700321;C0547044;C2700395" tui="T081;T080;T081" rank="797;797;797" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="337">
+<anatomicalStructure value="ligamentum arteriosus" begin="179" end="200" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="338">
+<medicalDevice value="electrocautery" begin="234" end="248" status="0" certainty="0" cui="C0007471;C0013804;C1706093" tui="T061;T061;T074" rank="795;791;575" code="NO-CODE" sourceType="LCH;RCD;NCI"/>
+</RelationSet>
+<RelationSet id="339">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="thoracotomy" begin="142" end="153" status="0" certainty="0"/>
+<modifier value="left" begin="137" end="141" status="0" certainty="0"/>
+</Relation>
+<procedure value="thoracotomy" begin="142" end="153" status="0" certainty="0" cui="C0039991" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<modifier value="left" begin="137" end="141" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="250" end="337" sentText="The left aortic arch was revealed and circumferentially dissected, ligated and divided.">
+<RelationSet id="340">
+<modifier value="left" begin="254" end="258" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="341">
+<anatomicalStructure value="left aortic arch" begin="254" end="270" status="0" certainty="0" cui="C0447048" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="aortic arch" begin="259" end="270" status="0" certainty="0" cui="C0003489;C1269010" tui="T023;T023" rank="793;765" code="NO-CODE" sourceType="NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="aortic" begin="259" end="265" status="0" certainty="0" cui="C0003483;C1278934;C0869784" tui="T023;T023;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+<anatomicalStructure value="arch" begin="266" end="270" status="0" certainty="0" cui="C0741204;C1538146;C0230467" tui="T030;T028;T029" rank="797;587;151" code="NO-CODE" sourceType="CCPSS;HGNC;CHV"/>
+</RelationSet>
+<RelationSet id="341">
+<procedure value="dissected" begin="306" end="315" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="338" end="423" sentText="After division of the ligamentum, there was no apparent compression to the esophagus.">
+<RelationSet id="341">
+<anatomicalStructure value="ligamentum" begin="360" end="370" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="342">
+<anatomicalStructure value="esophagus" begin="413" end="422" status="0" certainty="-2" cui="C0014876;C1278919;C0154059;C0153942;C1516966;C0872395;C0545823" tui="T023;T023;T191;T191;T024;T061;T082" rank="797;765;611;611;572;374;151" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AE;ICD10AE;NCI;ICD10AMAE;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="424" end="478" sentText="What are the appropriate PCS codes for this procedure?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="480" end="780">
+<Sentence sentNo="6" begin="480" end="596" sentText="Answer: The ICD-10-PCS does not provide a specific root operation or body part value for division of an aortic arch.">
+<RelationSet id="343">
+<procedure value="operation" begin="536" end="545" status="0" certainty="-2" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+<anatomicalStructure value="root;body part" begin="531;549" end="535;558" status="0" certainty="-2" cui="C1318154" tui="T023" rank="797" code="NO-CODE" sourceType="MTH"/>
+</RelationSet>
+<RelationSet id="344">
+<anatomicalStructure value="aortic arch" begin="584" end="595" status="0" certainty="0" cui="C0003489;C1269010" tui="T023;T023" rank="793;765" code="NO-CODE" sourceType="NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="aortic" begin="584" end="590" status="0" certainty="0" cui="C0003483;C1278934;C0869784" tui="T023;T023;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+<anatomicalStructure value="arch" begin="591" end="595" status="0" certainty="0" cui="C0741204;C1538146;C0230467" tui="T030;T028;T029" rank="797;587;151" code="NO-CODE" sourceType="CCPSS;HGNC;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="597" end="662" sentText="Repair of the thoracic aorta is the closest available equivalent.">
+<RelationSet id="345">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="thoracic aorta" begin="611" end="625" status="0" certainty="0"/>
+<procedure value="Repair" begin="597" end="603" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="thoracic aorta" begin="611" end="625" status="0" certainty="0" cui="C1522460;C1281571" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="thoracic" begin="611" end="619" status="0" certainty="0" cui="C0817096;C0729233" tui="T029;T047" rank="797;295" code="NO-CODE" sourceType="LCH;MTHICD9"/>
+<anatomicalStructure value="aorta" begin="620" end="625" status="0" certainty="0" cui="C0003483;C1278934;C0869784" tui="T023;T023;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+<procedure value="Repair;thoracic" begin="597;611" end="603;619" status="0" certainty="0" cui="C1293776" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="Repair;aorta" begin="597;620" end="603;625" status="0" certainty="0" cui="C0190364" tui="T061" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="Repair" begin="597" end="603" status="0" certainty="0" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="663" end="779" sentText="Assign the following ICD-10PCS codes for the division of the vascular ring and division of left aortic arch: 0DN50ZZ">
+<RelationSet id="346">
+<anatomicalStructure value="vascular" begin="724" end="732" status="0" certainty="0" cui="C1801960;C0005847;C1558950;C0392759" tui="T080;T023;T033;T169" rank="797;753;551;233" code="NO-CODE" sourceType="SNMI;SNOMEDCTVET;NCI;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="347">
+<modifier value="left" begin="754" end="758" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="348">
+<anatomicalStructure value="left aortic arch" begin="754" end="770" status="0" certainty="0" cui="C0447048" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="aortic arch" begin="759" end="770" status="0" certainty="0" cui="C0003489;C1269010" tui="T023;T023" rank="793;765" code="NO-CODE" sourceType="NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="aortic" begin="759" end="765" status="0" certainty="0" cui="C0003483;C1278934;C0869784" tui="T023;T023;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+<anatomicalStructure value="arch" begin="766" end="770" status="0" certainty="0" cui="C0741204;C1538146;C0230467" tui="T030;T028;T029" rank="797;587;151" code="NO-CODE" sourceType="CCPSS;HGNC;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

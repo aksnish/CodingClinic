@@ -1,0 +1,118 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="857">
+<Paragraph pgNo="1" begin="0" end="469">
+<Sentence sentNo="1" begin="0" end="133" sentText="Question: A patient with history of infrarenal abdominal aortic aneurysm repair has developed an extension in the perivisceral aorta.">
+<RelationSet id="1946">
+<modifier value="infrarenal;aortic" begin="36;57" end="46;63" status="1" certainty="1" cui="S0002303" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<problem value="abdominal aortic aneurysm" begin="47" end="72" status="1" certainty="1" cui="C0162871" tui="T047" rank="797" code="NO-CODE" sourceType="MSH"/>
+<problem value="infrarenal;aneurysm" begin="36;64" end="46;72" status="1" certainty="1" cui="C0854141" tui="T047,T190" rank="652" code="NO-CODE" sourceType="MDR"/>
+<problem value="aortic aneurysm" begin="57" end="72" status="1" certainty="1" cui="C0003486;C2072946;C0340629" tui="T047;T033;T047" rank="797;592;295" code="NO-CODE" sourceType="LCH;MEDCIN;MTHICD9"/>
+<problem value="aneurysm" begin="64" end="72" status="1" certainty="1" cui="C0002940;C0439651" tui="T047;T082" rank="797;767" code="NO-CODE" sourceType="LCH;RCD"/>
+<procedure value="abdominal aortic aneurysm repair" begin="47" end="79" status="1" certainty="1" cui="C0741152" tui="T061" rank="316" code="NO-CODE" sourceType="COSTAR"/>
+<procedure value="aortic aneurysm repair" begin="57" end="79" status="1" certainty="1" cui="C0397942;C0521233" tui="T061;T061" rank="797;592" code="NO-CODE" sourceType="MDR;MEDCIN"/>
+<procedure value="abdominal;repair" begin="47;73" end="56;79" status="1" certainty="1" cui="C1293792" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="aneurysm repair" begin="64" end="79" status="1" certainty="1" cui="C0189661" tui="T061" rank="767" code="NO-CODE" sourceType="MTHICD9"/>
+<procedure value="repair" begin="73" end="79" status="1" certainty="1" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+<anatomicalStructure value="infrarenal" begin="36" end="46" status="1" certainty="1" cui="S0002568;C0022646" tui="t060;T023" rank="800;703" code="NO-CODE" sourceType="EZDI;LNC"/>
+<anatomicalStructure value="abdominal" begin="47" end="56" status="1" certainty="1" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+<anatomicalStructure value="aortic" begin="57" end="63" status="1" certainty="1" cui="C0003483" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="1947">
+<anatomicalStructure value="aorta" begin="127" end="132" status="0" certainty="0" cui="C0003483;C1278934;C0869784" tui="T023;T023;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="134" end="246" sentText="Bilateral renal artery bypass was performed due to the nature of the disease and location of the renal arteries.">
+<RelationSet id="1948">
+<problem value="disease" begin="203" end="210" status="0" certainty="0" cui="C0012634;C1422572;C1424810;C1416989;C3273340;C3540595;C3273341;C1331418" tui="T047;T028;T028;T028;T028;T028;T116;T041" rank="797;600;596;596;575;575;575;575" code="NO-CODE" sourceType="LCH;HGNC;OMIM;HGNC;NCI;NCI;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="1949">
+<anatomicalStructure value="renal arteries" begin="231" end="245" status="0" certainty="0" cui="C0035065;C1278951;C0884045" tui="T023;T023;T023" rank="795;765;416" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;LNC"/>
+<anatomicalStructure value="arteries" begin="237" end="245" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<anatomicalStructure value="renal" begin="231" end="236" status="0" certainty="0" cui="C0022646;C1278978;C0496892;C0496927;C1514845;C0869841;C0227665" tui="T023;T023;T191;T191;T024;T061;T023" rank="797;765;610;610;572;373;151" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="1950">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="renal artery bypass" begin="144" end="163" status="0" certainty="0"/>
+<modifier value="Bilateral" begin="134" end="143" status="0" certainty="0"/>
+</Relation>
+<procedure value="renal;bypass" begin="144;157" end="149;163" status="0" certainty="0" cui="C0748265" tui="T061" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="bypass" begin="157" end="163" status="0" certainty="0" cui="C0741847" tui="T061" rank="765" code="NO-CODE" sourceType="NCI"/>
+<procedure value="renal" begin="144" end="149" status="0" certainty="0" cui="C0022646;C1278978;C0496892;C0496927;C1514845;C0869841" tui="T023;T023;T191;T191;T024;T061" rank="797;765;610;610;572;373" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM"/>
+<anatomicalStructure value="Bilateral renal" begin="134" end="149" status="0" certainty="0" cui="C0227665" tui="T023" rank="151" code="NO-CODE" sourceType="CHV"/>
+<modifier value="Bilateral" begin="134" end="143" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="247" end="439" sentText="An end-to-end anastomosis was performed between the right renal artery and the gastroduodenal artery (a branch of the hepatic artery), and between the left renal artery and the splenic artery.">
+<RelationSet id="1951">
+<procedure value="end-to-end anastomosis" begin="250" end="272" status="0" certainty="0" cui="C0332855" tui="T061" rank="150" code="NO-CODE" sourceType="CHV"/>
+<procedure value="anastomosis" begin="261" end="272" status="0" certainty="0" cui="C0332854;C0332853;C0677554;C0500470" tui="T082;T020;T061;T030" rank="797;797;765;692" code="NO-CODE" sourceType="SNMI;SNM;RCD;UWDA"/>
+</RelationSet>
+<RelationSet id="1952">
+<modifier value="right" begin="299" end="304" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1953">
+<anatomicalStructure value="right renal artery" begin="299" end="317" status="0" certainty="0" cui="C1267336;C0226332" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNM"/>
+<anatomicalStructure value="renal artery" begin="305" end="317" status="0" certainty="0" cui="C0035065;C1278951;C0884045" tui="T023;T023;T023" rank="795;765;416" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;LNC"/>
+<anatomicalStructure value="right renal" begin="299" end="310" status="0" certainty="0" cui="C0227613" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="artery" begin="311" end="317" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<anatomicalStructure value="renal" begin="305" end="310" status="0" certainty="0" cui="C0022646;C1278978;C0496892;C0496927;C1514845;C0869841;C0227665" tui="T023;T023;T191;T191;T024;T061;T023" rank="797;765;610;610;572;373;151" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="1954">
+<anatomicalStructure value="gastroduodenal artery" begin="326" end="347" status="0" certainty="0" cui="C0226311;C1280130" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="artery;hepatic" begin="341;365" end="347;372" status="0" certainty="0" cui="C0019145" tui="T023" rank="797" code="NO-CODE" sourceType="LCH"/>
+<anatomicalStructure value="artery" begin="341" end="347" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="1955">
+<anatomicalStructure value="hepatic" begin="365" end="372" status="0" certainty="0" cui="C0023884;C0205054;C1278929;C0023899;C0721399;C0496870;C0736268;C2346688;C0996514;C0872387" tui="T023;T029;T023;T109,T121;T109,T121,T127;T191;T023;T168;T002;T058" rank="797;797;765;739;673;610;572;562;428;373" code="NO-CODE" sourceType="LCH;SNMI;RCD;NDFRT;CHV;ICD10;NCI;NCI;CHV;ICD10AM"/>
+<anatomicalStructure value="artery" begin="373" end="379" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="1956">
+<modifier value="left" begin="398" end="402" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1957">
+<anatomicalStructure value="left renal artery" begin="398" end="415" status="0" certainty="0" cui="C1267337;C0226333" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNM"/>
+<anatomicalStructure value="renal artery" begin="403" end="415" status="0" certainty="0" cui="C0035065;C1278951;C0884045" tui="T023;T023;T023" rank="795;765;416" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;LNC"/>
+<anatomicalStructure value="left renal" begin="398" end="408" status="0" certainty="0" cui="C0227614" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="artery" begin="409" end="415" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<anatomicalStructure value="renal" begin="403" end="408" status="0" certainty="0" cui="C0022646;C1278978;C0496892;C0496927;C1514845;C0869841;C0227665" tui="T023;T023;T191;T191;T024;T061;T023" rank="797;765;610;610;572;373;151" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="1958">
+<anatomicalStructure value="splenic artery" begin="424" end="438" status="0" certainty="0" cui="C0037996;C1280127" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="splenic" begin="424" end="431" status="0" certainty="0" cui="C0037993;C1278932;C0153470;C2228485;C0771377;C0869677" tui="T023;T023;T191;T058;T024;T061" rank="797;765;610;592;572;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;MEDCIN;NCI;ICD10AM"/>
+<anatomicalStructure value="artery" begin="432" end="438" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="440" end="468" sentText="How is this procedure coded?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="470" end="856">
+<Sentence sentNo="5" begin="470" end="695" sentText="Answer: The Body Part Key of ICD-10-PCS indicates “hepatic artery” should be used for “gastroduodenal artery,” but ICD-10-PCS does not provide a specific body part value for hepatic artery in table 041, Bypass Lower Arteries.">
+<RelationSet id="1959">
+<anatomicalStructure value="Part;hepatic" begin="487;521" end="491;528" status="0" certainty="0" cui="C1268123" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="hepatic" begin="521" end="528" status="0" certainty="0" cui="C0023884;C0205054;C1278929;C0023899;C0721399;C0496870;C0736268;C2346688;C0996514;C0872387" tui="T023;T029;T023;T109,T121;T109,T121,T127;T191;T023;T168;T002;T058" rank="797;797;765;739;673;610;572;562;428;373" code="NO-CODE" sourceType="LCH;SNMI;RCD;NDFRT;CHV;ICD10;NCI;NCI;CHV;ICD10AM"/>
+</RelationSet>
+<RelationSet id="1959">
+<anatomicalStructure value="gastroduodenal artery" begin="557" end="578" status="0" certainty="1" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1960">
+<anatomicalStructure value="hepatic" begin="644" end="651" status="0" certainty="-2" cui="C0023884;C0205054;C1278929;C0023899;C0721399;C0496870;C0736268;C2346688;C0996514;C0872387" tui="T023;T029;T023;T109,T121;T109,T121,T127;T191;T023;T168;T002;T058" rank="797;797;765;739;673;610;572;562;428;373" code="NO-CODE" sourceType="LCH;SNMI;RCD;NDFRT;CHV;ICD10;NCI;NCI;CHV;ICD10AM"/>
+</RelationSet>
+<RelationSet id="1961">
+<anatomicalStructure value="Arteries" begin="686" end="694" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="696" end="781" sentText="The Abdominal Aorta body part value is the closest available (“upstream”) equivalent.">
+<RelationSet id="1962">
+<problem value="Abdominal" begin="700" end="709" status="0" certainty="0" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+<anatomicalStructure value="Abdominal Aorta" begin="700" end="715" status="0" certainty="0" cui="C0003484;C1269882;C2228415" tui="T023;T023;T058" rank="795;765;592" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;MEDCIN"/>
+<anatomicalStructure value="body part" begin="716" end="725" status="0" certainty="0" cui="C0229962" tui="T023" rank="797" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="Aorta;part" begin="710;721" end="715;725" status="0" certainty="0" cui="C1268111" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="Aorta" begin="710" end="715" status="0" certainty="0" cui="C0003483;C1278934;C0869784" tui="T023;T023;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+<anatomicalStructure value="body" begin="716" end="720" status="0" certainty="0" cui="S1000390;C1268086;C1551342;C0242821" tui="t061;T017;T078;T016" rank="800;753;575;151" code="NO-CODE" sourceType="EZDI;NCI;NCI;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="782" end="855" sentText="For the procedures performed, assign ICD-10-PCS codes as follows: 04100Z3">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

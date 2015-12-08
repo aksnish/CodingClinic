@@ -1,0 +1,2 @@
+Question: A patient is admitted to a long-term care hospital from an acute care facility with persistent respiratory failure following traumatic quadriplegia after being involved in a motor vehicle accident. The patient is being maintained on continuous positive airway pressure [CPAP] via a tracheostomy. Since the patient is receiving CPAP for 45 hours via his tracheostomy would this be considered mechanical ventilation? 
+Answer: Continuous positive airway pressure delivered via a tracheostomy is coded as mechanical ventilation. Assign the following ICD-10-PCS code: 5A1945Z

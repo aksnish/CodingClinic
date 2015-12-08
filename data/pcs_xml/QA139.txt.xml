@@ -1,0 +1,259 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1712">
+<Paragraph pgNo="1" begin="0" end="772">
+<Sentence sentNo="1" begin="0" end="95" sentText="Question: A seven-year-old boy diagnosed with left distal femur osteosarcoma underwent surgery.">
+<RelationSet id="1142">
+<procedure value="femur;surgery" begin="58;87" end="63;94" status="0" certainty="0" cui="C0187766" tui="T061" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="surgery" begin="87" end="94" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1143">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="left" begin="46" end="50" status="0" certainty="1"/>
+<problem value="distal femur osteosarcoma" begin="51" end="76" status="0" certainty="1"/>
+</Relation>
+<modifier value="left" begin="46" end="50" status="0" certainty="1" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+<problem value="osteosarcoma" begin="64" end="76" status="0" certainty="1" cui="C0029463;C2697383;C3541899;C0585442" tui="T191;T028;T170;T191" rank="797;598;550;150" code="NO-CODE" sourceType="ICPC2P;OMIM;NCI;CHV"/>
+<anatomicalStructure value="distal femur" begin="51" end="63" status="0" certainty="1" cui="C0448194" tui="T023" rank="765" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="left;femur" begin="46;58" end="50;63" status="0" certainty="1" cui="C0817320" tui="T023" rank="692" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="femur" begin="58" end="63" status="0" certainty="1" cui="C0015811;C1279112" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="96" end="216" sentText="The surgeon resected 18 centimeters of the distal femur and the entire knee joint down to subcondylar bone on the tibia.">
+<RelationSet id="1143">
+<modifier value="distal" begin="139" end="145" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1144">
+<anatomicalStructure value="distal femur" begin="139" end="151" status="0" certainty="0" cui="C0448194" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="femur" begin="146" end="151" status="0" certainty="0" cui="C1279112;C0015811" tui="T023;T023" rank="797;797" code="NO-CODE" sourceType="SNOMEDCTUS;LCH"/>
+</RelationSet>
+<RelationSet id="1145">
+<anatomicalStructure value="entire;joint;subcondylar" begin="160;172;186" end="166;177;197" status="0" certainty="0" cui="C1282798" tui="T030" rank="797" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="joint;subcondylar" begin="172;186" end="177;197" status="0" certainty="0" cui="C0224510" tui="T030" rank="765" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="entire;joint" begin="160;172" end="166;177" status="0" certainty="0" cui="C1269611" tui="T030" rank="797" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="knee joint" begin="167" end="177" status="0" certainty="0" cui="C0022745;C1269073" tui="T030;T030" rank="797;797" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="joint;bone" begin="172;198" end="177;202" status="0" certainty="0" cui="C0545594" tui="T030" rank="716" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="knee;bone" begin="167;198" end="171;202" status="0" certainty="0" cui="C0030647" tui="T023" rank="765" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="joint" begin="172" end="177" status="0" certainty="0" cui="C0521339;C0022417;C0444497;C0392905;C1706309" tui="T169;T030;T082;T022;T074" rank="797;797;767;765;575" code="NO-CODE" sourceType="SNMI;MSH;RCD;ICF;NCI"/>
+<anatomicalStructure value="knee" begin="167" end="171" status="0" certainty="0" cui="C0022742;C1963703;C1283838" tui="T023;T029;T029" rank="797;765;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1146">
+<anatomicalStructure value="bone;tibia" begin="198;210" end="202;215" status="0" certainty="0" cui="C0825689;C0040184" tui="T023;T023" rank="692;572" code="NO-CODE" sourceType="UWDA;NCI"/>
+<anatomicalStructure value="bone" begin="198" end="202" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1147">
+<anatomicalStructure value="bone;tibia" begin="198;210" end="202;215" status="0" certainty="0" cui="C0040184;C0825689" tui="T023;T023" rank="795;692" code="NO-CODE" sourceType="LCH;UWDA"/>
+<anatomicalStructure value="tibia" begin="210" end="215" status="0" certainty="0" cui="C1279118" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="217" end="341" sentText="Following resection of the left distal femur osteosarcoma, left femur to left tibia rotational osteosynthesis was performed.">
+<RelationSet id="1148">
+<modifier value="left" begin="276" end="280" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1149">
+<anatomicalStructure value="femur;tibia" begin="281;295" end="286;300" status="0" certainty="0" cui="C1442260" tui="T023" rank="409" code="NO-CODE" sourceType="CHV"/>
+<anatomicalStructure value="left femur" begin="276" end="286" status="0" certainty="0" cui="C0817320" tui="T023" rank="692" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="femur" begin="281" end="286" status="0" certainty="0" cui="C0015811;C1279112" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1150">
+<modifier value="left" begin="290" end="294" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1151">
+<anatomicalStructure value="left tibia" begin="290" end="300" status="0" certainty="0" cui="C0817322" tui="T023" rank="692" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="tibia" begin="295" end="300" status="0" certainty="0" cui="C0040184;C1279118" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1152">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="distal" begin="249" end="255" status="0" certainty="0"/>
+<procedure value="resection" begin="227" end="236" status="0" certainty="0"/>
+<problem value="osteosarcoma" begin="262" end="274" status="0" certainty="0"/>
+<anatomicalStructure value="femur" begin="256" end="261" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="distal" begin="249" end="255" status="0" certainty="0"/>
+<problem value="osteosarcoma" begin="262" end="274" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="resection" begin="227" end="236" status="0" certainty="0"/>
+<anatomicalStructure value="femur" begin="256" end="261" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="osteosarcoma" begin="262" end="274" status="0" certainty="0"/>
+<anatomicalStructure value="femur" begin="256" end="261" status="0" certainty="0"/>
+</Relation>
+<modifier value="distal" begin="249" end="255" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<procedure value="resection" begin="227" end="236" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="765;151" code="NO-CODE" sourceType="RCD;CHV"/>
+<problem value="osteosarcoma" begin="262" end="274" status="0" certainty="0" cui="C0029463;C2697383;C3541899;C0585442" tui="T191;T028;T170;T191" rank="797;598;550;150" code="NO-CODE" sourceType="ICPC2P;OMIM;NCI;CHV"/>
+<anatomicalStructure value="distal femur" begin="249" end="261" status="0" certainty="0" cui="C0448194" tui="T023" rank="765" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="left;femur" begin="244;256" end="248;261" status="0" certainty="0" cui="C0817320" tui="T023" rank="692" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="femur" begin="256" end="261" status="0" certainty="0" cui="C0015811;C1279112" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="342" end="542" sentText="The tibial component was rotated 180 degrees and a plate was attached on the lateral side of the femur and the rotated medial side of the tibia (rotated 180 degrees so it has become the lateral side).">
+<RelationSet id="1153">
+<medicalDevice value="plate" begin="393" end="398" status="0" certainty="0" cui="C0005971;C0407295;C1139930;C3537155" tui="T074;T061;T074;T073" rank="765;765;686;575" code="NO-CODE" sourceType="RCD;RCD;UMD;NCI"/>
+</RelationSet>
+<RelationSet id="1154">
+<anatomicalStructure value="femur" begin="439" end="444" status="0" certainty="0" cui="C0015811;C1279112" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1155">
+<anatomicalStructure value="tibia" begin="480" end="485" status="0" certainty="0" cui="C0040184;C1279118" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="543" end="676" sentText="The tibia was fixed first onto the plate with screws, and after the screws were placed into the femoral side, rotation was confirmed.">
+<RelationSet id="1156">
+<anatomicalStructure value="tibia" begin="547" end="552" status="0" certainty="0" cui="C0040184;C1279118" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1157">
+<medicalDevice value="plate" begin="578" end="583" status="0" certainty="0" cui="C0005971;C0407295;C1139930;C3537155" tui="T074;T061;T074;T073" rank="765;765;686;575" code="NO-CODE" sourceType="RCD;RCD;UMD;NCI"/>
+</RelationSet>
+<RelationSet id="1158">
+<medicalDevice value="screws" begin="589" end="595" status="0" certainty="0" cui="C0301559;C0005975;C0441634;C1704683" tui="T074;T074;T169;T074" rank="797;765;711;575" code="NO-CODE" sourceType="SNM;RCD;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="1159">
+<medicalDevice value="screws" begin="611" end="617" status="0" certainty="0" cui="C0301559;C0005975;C0441634;C1704683" tui="T074;T074;T169;T074" rank="797;765;711;575" code="NO-CODE" sourceType="SNM;RCD;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="1160">
+<anatomicalStructure value="femoral" begin="639" end="646" status="0" certainty="0" cui="C0015811;C0039866;C1281586;C1279112" tui="T023;T029;T023;T023" rank="797;795;765;765" code="NO-CODE" sourceType="LCH;LCH;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="677" end="771" sentText="What is the correct root operation for the left femur to left tibia rotational osteosynthesis?">
+<RelationSet id="1161">
+<anatomicalStructure value="root" begin="697" end="701" status="0" certainty="0" cui="S1001239;C0242726;C0563017;C0040452;C1705917;C1318154" tui="t061;T002;T033;T023;T078;T023" rank="800;765;765;576;575;418" code="NO-CODE" sourceType="EZDI;RCD;RCD;NCI;NCI;LNC"/>
+</RelationSet>
+<RelationSet id="1162">
+<modifier value="left" begin="720" end="724" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1163">
+<anatomicalStructure value="left femur" begin="720" end="730" status="0" certainty="0" cui="C0817320" tui="T023" rank="692" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="femur;tibia" begin="725;739" end="730;744" status="0" certainty="0" cui="C1442260" tui="T023" rank="409" code="NO-CODE" sourceType="CHV"/>
+<anatomicalStructure value="femur" begin="725" end="730" status="0" certainty="0" cui="C0015811;C1279112" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1164">
+<modifier value="left" begin="734" end="738" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1165">
+<anatomicalStructure value="left;tibia" begin="720;739" end="724;744" status="0" certainty="0" cui="C0817322" tui="T023" rank="692" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="tibia" begin="739" end="744" status="0" certainty="0" cui="C0040184;C1279118" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="773" end="1711">
+<Sentence sentNo="7" begin="773" end="891" sentText="Answer: This surgery is most often performed to treat children with bone cancer in the distal femur or proximal tibia.">
+<RelationSet id="1166">
+<procedure value="surgery" begin="786" end="793" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1166">
+<modifier value="distal" begin="860" end="866" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1166">
+<modifier value="proximal" begin="876" end="884" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1167">
+<anatomicalStructure value="proximal tibia" begin="876" end="890" status="0" certainty="0" cui="C0588198" tui="T023" rank="765" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="distal;tibia" begin="860;885" end="866;890" status="0" certainty="0" cui="C0588200" tui="T023" rank="765" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="femur;tibia" begin="867;885" end="872;890" status="0" certainty="0" cui="C1442260" tui="T023" rank="409" code="NO-CODE" sourceType="CHV"/>
+<anatomicalStructure value="tibia" begin="885" end="890" status="0" certainty="0" cui="C0040184;C1279118" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1168">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="cancer" begin="846" end="852" status="0" certainty="0"/>
+<anatomicalStructure value="bone" begin="841" end="845" status="0" certainty="0"/>
+<anatomicalStructure value="femur" begin="867" end="872" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="cancer" begin="846" end="852" status="0" certainty="0"/>
+<anatomicalStructure value="femur" begin="867" end="872" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="cancer" begin="846" end="852" status="0" certainty="0"/>
+<anatomicalStructure value="bone" begin="841" end="845" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="bone;femur" begin="841;867" end="845;872" status="0" certainty="0" cui="C0825102;C0015811" tui="T023;T023" rank="692;572" code="NO-CODE" sourceType="UWDA;NCI"/>
+<anatomicalStructure value="bone" begin="841" end="845" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+<problem value="bone cancer" begin="841" end="852" status="0" certainty="0" cui="C0279530;C0585442" tui="T191;T191" rank="793;151" code="NO-CODE" sourceType="MEDCIN;CHV"/>
+<problem value="cancer" begin="846" end="852" status="0" certainty="0" cui="C0006826;C1306459;C0998265;C0260515;C1547140" tui="T191;T191;T204;T033;T091" rank="793;765;751;592;355" code="NO-CODE" sourceType="ICPC2P;SNOMEDCTUS;NCBI;MEDCIN;HL7V2.5"/>
+<anatomicalStructure value="femur;proximal" begin="867;876" end="872;884" status="0" certainty="0" cui="C0448190" tui="T029" rank="765" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="distal femur" begin="860" end="872" status="0" certainty="0" cui="C0448194" tui="T023" rank="765" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="bone;femur" begin="841;867" end="845;872" status="0" certainty="0" cui="C0015811;C0825102" tui="T023;T023" rank="797;692" code="NO-CODE" sourceType="LCH;UWDA"/>
+<anatomicalStructure value="femur" begin="867" end="872" status="0" certainty="0" cui="C1279112" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="892" end="1232" sentText="At surgery, the malignant neoplasm and surrounding tissues are removed and the remaining lower section of the leg is rotated back to front, then reattached to the healthy upper section so that the ankle joint bends forward somewhat like a knee, and a lower leg prosthesis can be attached to the foot to make up the difference in leg length.">
+<RelationSet id="1169">
+<procedure value="surgery" begin="895" end="902" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1170">
+<problem value="malignant neoplasm" begin="908" end="926" status="0" certainty="0" cui="C0006826;C1306459;C1547218" tui="T191;T191;T170" rank="797;765;355" code="NO-CODE" sourceType="ICD10AM;SNOMEDCTUS;HL7V2.5"/>
+<problem value="malignant" begin="908" end="917" status="0" certainty="0" cui="C0205282;C1533592;C0334590" tui="T080;T191;T191" rank="767;571;571" code="NO-CODE" sourceType="RCD;NCI;NCI"/>
+<problem value="neoplasm" begin="918" end="926" status="0" certainty="0" cui="C0027651;C2981607" tui="T191;T170" rank="797;572" code="NO-CODE" sourceType="COSTAR;NCI"/>
+</RelationSet>
+<RelationSet id="1171">
+<anatomicalStructure value="lower;leg" begin="981;1002" end="986;1005" status="0" certainty="0" cui="C1140621;C0230446" tui="T029;T023" rank="797;150" code="NO-CODE" sourceType="RCD;CHV"/>
+<anatomicalStructure value="leg" begin="1002" end="1005" status="0" certainty="0" cui="S1000407;C1285009;C1269079;C0023216" tui="t061;T029;T023;T029" rank="800;765;765;765" code="NO-CODE" sourceType="EZDI;SNOMEDCTUS;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1172">
+<anatomicalStructure value="ankle joint" begin="1089" end="1100" status="0" certainty="0" cui="C0003087;C1279146" tui="T030;T030" rank="795;765" code="NO-CODE" sourceType="NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="ankle" begin="1089" end="1094" status="0" certainty="0" cui="C0003086;C1283839" tui="T029;T029" rank="797;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="joint" begin="1095" end="1100" status="0" certainty="0" cui="C0521339;C0022417;C0444497;C0392905;C1269611;C1706309" tui="T169;T030;T082;T022;T030;T074" rank="797;797;767;765;765;575" code="NO-CODE" sourceType="SNMI;MSH;RCD;ICF;RCD;NCI"/>
+</RelationSet>
+<RelationSet id="1173">
+<anatomicalStructure value="knee" begin="1131" end="1135" status="0" certainty="0" cui="C0022742;C1963703;C1283838;C0022745" tui="T023;T029;T029;T030" rank="797;765;765;575" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="1174">
+<modifier value="lower" begin="1143" end="1148" status="0" certainty="0" cui="C0205251;C1272755;C0441994;C2003888;C1708760;C2700150;C1550472;C1299352;C1619811;C1611820" tui="T080;T081;T082;T052;T080;T170;T078;T080;T080;T081" rank="797;767;767;576;576;572;366;366;366;366" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;RCD;NCI;NCI;NCI;HL7V3.0;HL7V3.0;HL7V3.0;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1175">
+<anatomicalStructure value="foot;leg" begin="1187;1221" end="1191;1224" status="0" certainty="1" cui="C0023216" tui="T029" rank="151" code="NO-CODE" sourceType="CHV"/>
+<anatomicalStructure value="foot" begin="1187" end="1191" status="0" certainty="1" cui="C0016504;C1281587;C0347981;C2346504;C2348704;C2348613" tui="T023;T023;T081;T081;T081;T081" rank="797;765;765;571;541;541" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;HL7V3.0;NCI;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="1176">
+<anatomicalStructure value="leg" begin="1221" end="1224" status="0" certainty="0" cui="S1000407;C1140621;C1285009;C1269079;C0023216" tui="t061;T029;T029;T023;T029" rank="800;797;765;765;765" code="NO-CODE" sourceType="EZDI;LCH;SNOMEDCTUS;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1177">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="prosthesis" begin="1153" end="1163" status="0" certainty="0"/>
+<anatomicalStructure value="leg" begin="1149" end="1152" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="lower leg" begin="1143" end="1152" status="0" certainty="0" cui="C0230446" tui="T023" rank="150" code="NO-CODE" sourceType="CHV"/>
+<anatomicalStructure value="leg" begin="1149" end="1152" status="0" certainty="0" cui="S1000407;C1140621;C1285009;C1269079;C0023216" tui="t061;T029;T029;T023;T029" rank="800;797;765;765;765" code="NO-CODE" sourceType="EZDI;RCD;SNOMEDCTUS;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="1233" end="1389" sentText="The appropriate root operation for the rotational osteosynthesis is “Reposition,” and the repositioning of the tibia captures the rotational osteosynthesis.">
+<RelationSet id="1179">
+<anatomicalStructure value="tibia" begin="1344" end="1349" status="0" certainty="0" cui="C0040184;C1279118" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="1390" end="1535" sentText="In ICD-10-PCS, the root operation “Reposition” is defined as moving to its normal location or other suitable location all or part of a body part.">
+<RelationSet id="1181">
+<modifier value="Reposition;normal" begin="1425;1465" end="1435;1471" status="0" certainty="0" cui="C0332445" tui="T080" rank="767" code="NO-CODE" sourceType="SNM"/>
+<procedure value="Reposition" begin="1425" end="1435" status="0" certainty="0" cui="C1550045;C0733755;C0556030;C0935622;C2347268;C1551389" tui="T078;T082;T061;T169;T170;T170" rank="797;767;767;688;572;366" code="NO-CODE" sourceType="HL7V2.5;RCD;RCD;UWDA;NCI;HL7V3.0"/>
+<procedure value="operation" begin="1414" end="1423" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="11" begin="1536" end="1584" sentText="This is not a knee replacement procedure per se.">
+<RelationSet id="1182">
+<modifier value="replacement" begin="1555" end="1566" status="0" certainty="-2" cui="C0559956;C1555302" tui="T169;T078" rank="797;366" code="NO-CODE" sourceType="RCD;HL7V3.0"/>
+<procedure value="replacement procedure" begin="1555" end="1576" status="0" certainty="-2" cui="C0035139" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="knee replacement" begin="1550" end="1566" status="0" certainty="-2" cui="C0086511;C2186386" tui="T061;T033" rank="765;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+<procedure value="knee;procedure" begin="1550;1567" end="1554;1576" status="0" certainty="-2" cui="C1292892" tui="T058" rank="150" code="NO-CODE" sourceType="CHV"/>
+<procedure value="procedure" begin="1567" end="1576" status="0" certainty="-2" cui="C0184661;C0025664;C2700391;C1948041;C3274430;C3538935;C3539779;C1546467" tui="T060,T061;T170;T052;T061;T058;T078;T170;T078" rank="792;789;576;575;572;571;571;366" code="NO-CODE" sourceType="MSH;MSH;NCI;NCI;NCI;NCI;NCI;HL7V2.5"/>
+<anatomicalStructure value="knee" begin="1550" end="1554" status="0" certainty="-2" cui="C0022742;C1963703;C1283838;C0022745" tui="T023;T029;T029;T030" rank="797;765;765;575" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="12" begin="1585" end="1710" sentText="Instead, the ankle is temporarily taking the place of the knee while the child’s long bones continue to grow, after which the">
+<RelationSet id="1183">
+<anatomicalStructure value="ankle" begin="1598" end="1603" status="0" certainty="0" cui="C0003086;C1283839;C0003087" tui="T029;T029;T030" rank="797;765;575" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="1184">
+<anatomicalStructure value="knee;bones" begin="1643;1671" end="1647;1676" status="0" certainty="0" cui="C0030647" tui="T023" rank="765" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="knee;s" begin="1643;1664" end="1647;1665" status="0" certainty="0" cui="C0022742;C0562271" tui="T023;T060" rank="797;634" code="NO-CODE" sourceType="LCH;AIR"/>
+<anatomicalStructure value="knee" begin="1643" end="1647" status="0" certainty="0" cui="C1963703;C1283838;C0022745" tui="T029;T029;T030" rank="765;765;575" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS;NCI"/>
+</RelationSet>
+<RelationSet id="1185">
+<anatomicalStructure value="long bones" begin="1666" end="1676" status="0" certainty="0" cui="C1282773;C0222647" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNM"/>
+<anatomicalStructure value="bones" begin="1671" end="1676" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T022;T023;T031;T170" rank="795;792;790;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,79 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="447">
+<Paragraph pgNo="1" begin="0" end="294">
+<Sentence sentNo="1" begin="0" end="126" sentText="Question: The patient presents for surgical treatment of an acute right basal ganglia intraparenchymal intracerebral hematoma.">
+<RelationSet id="2015">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="basal ganglia intraparenchymal intracerebral hematoma" begin="72" end="125" status="0" certainty="0"/>
+<modifier value="acute" begin="60" end="65" status="0" certainty="1"/>
+</Relation>
+<problem value="intracerebral hematoma" begin="103" end="125" status="0" certainty="0" cui="C0021870;C0542007;C2937358" tui="T046;T047;T046" rank="797;644;234" code="NO-CODE" sourceType="SNM;CST;SNOMEDCTUS"/>
+<problem value="hematoma" begin="117" end="125" status="0" certainty="0" cui="C0018944;C1962958" tui="T046;T033" rank="797;551" code="NO-CODE" sourceType="MSH;NCI"/>
+<problem value="ganglia" begin="78" end="85" status="0" certainty="0" cui="C0017067;C1258666;C0085648" tui="T023;T020,T047;T047" rank="797;790;151" code="NO-CODE" sourceType="UWDA;ICD10;CHV"/>
+<anatomicalStructure value="right basal ganglia" begin="66" end="85" status="0" certainty="0" cui="C0546018" tui="T023" rank="767" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="basal ganglia" begin="72" end="85" status="0" certainty="0" cui="C0004781" tui="T023" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="intracerebral" begin="103" end="116" status="0" certainty="0" cui="C0442111;C0006104;C1522211;C0228174" tui="T082;T023;T169;T023" rank="797;703;575;523" code="NO-CODE" sourceType="RCD;SNMI;NCI;LNC"/>
+<modifier value="acute" begin="60" end="65" status="0" certainty="1" cui="C0205178;C1547229;C1547295" tui="T079;T170;T170" rank="797;355;355" code="NO-CODE" sourceType="RCD;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="127" end="235" sentText="He underwent percutaneous endoscopic evacuation of an organized solid hematoma in the brain via a burr hole.">
+<RelationSet id="2016">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="percutaneous" begin="140" end="152" status="0" certainty="0"/>
+<procedure value="endoscopic evacuation" begin="153" end="174" status="0" certainty="0"/>
+</Relation>
+<modifier value="percutaneous" begin="140" end="152" status="0" certainty="0" cui="C0522523;C0221912;C1522243;C1522447" tui="T082;T082;T169;T169" rank="797;797;575;575" code="NO-CODE" sourceType="RCD;SNMI;NCI;NCI"/>
+<procedure value="evacuation;hematoma" begin="164;197" end="174;205" status="0" certainty="0" cui="C1261965" tui="T061" rank="767" code="NO-CODE" sourceType="MDR"/>
+<procedure value="endoscopic" begin="153" end="163" status="0" certainty="0" cui="C0014245;C0442418;C1552424" tui="T060;T082;T073,T093" rank="795;711;366" code="NO-CODE" sourceType="ICPC2P;SNOMEDCTUS;HL7V3.0"/>
+<procedure value="evacuation" begin="164" end="174" status="0" certainty="0" cui="C1282573" tui="T061" rank="765" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+<RelationSet id="2017">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="hematoma" begin="197" end="205" status="0" certainty="0"/>
+<modifier value="solid" begin="191" end="196" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="hematoma" begin="197" end="205" status="0" certainty="0"/>
+<anatomicalStructure value="brain" begin="213" end="218" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="burr hole" begin="225" end="234" status="0" certainty="0"/>
+<anatomicalStructure value="brain" begin="213" end="218" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="hematoma" begin="197" end="205" status="0" certainty="0"/>
+<medicalDevice value="burr hole" begin="225" end="234" status="0" certainty="0"/>
+<anatomicalStructure value="brain" begin="213" end="218" status="0" certainty="0"/>
+<modifier value="solid" begin="191" end="196" status="0" certainty="0"/>
+</Relation>
+<problem value="organized;hematoma" begin="181;197" end="190;205" status="0" certainty="0" cui="C0333198" tui="T020" rank="767" code="NO-CODE" sourceType="SNM"/>
+<problem value="hematoma;brain" begin="197;213" end="205;218" status="0" certainty="0" cui="C0578446" tui="T037" rank="767" code="NO-CODE" sourceType="RCDAE"/>
+<problem value="hematoma" begin="197" end="205" status="0" certainty="0" cui="C0018944;C1962958" tui="T046;T033" rank="797;551" code="NO-CODE" sourceType="MSH;NCI"/>
+<medicalDevice value="burr" begin="225" end="229" status="0" certainty="0" cui="C0330093;C0700351" tui="T002;T074" rank="767;685" code="NO-CODE" sourceType="SNMI;UMD"/>
+<anatomicalStructure value="brain" begin="213" end="218" status="0" certainty="0" cui="C0006104;C1269537" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+<modifier value="solid" begin="191" end="196" status="0" certainty="0" cui="C0205208;C1378566;C0302909" tui="T080;T122;T167" rank="797;776;765" code="NO-CODE" sourceType="RCD;NCI;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="236" end="293" sentText="What is the appropriate ICD-10-PCS code for this surgery?">
+<RelationSet id="2018">
+<procedure value="surgery" begin="285" end="292" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="295" end="446">
+<Sentence sentNo="4" begin="295" end="399" sentText="Answer: “Extirpation” is the appropriate root operation since an organized solid hematoma was evacuated.">
+<RelationSet id="2019">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="hematoma" begin="376" end="384" status="0" certainty="0"/>
+<modifier value="solid" begin="370" end="375" status="0" certainty="0"/>
+</Relation>
+<modifier value="solid" begin="370" end="375" status="0" certainty="0" cui="C0205208;C1378566;C0302909" tui="T080;T122;T167" rank="797;776;765" code="NO-CODE" sourceType="RCD;NCI;SNOMEDCTUS"/>
+<problem value="organized;hematoma" begin="360;376" end="369;384" status="0" certainty="0" cui="C0333198" tui="T020" rank="767" code="NO-CODE" sourceType="SNM"/>
+<problem value="hematoma" begin="376" end="384" status="0" certainty="0" cui="C0018944;C1962958" tui="T046;T033" rank="797;551" code="NO-CODE" sourceType="MSH;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="400" end="445" sentText="Assign the following ICD-10-PCS code: 00C74ZZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,31 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="762">
+<Paragraph pgNo="1" begin="0" end="224">
+<Sentence sentNo="1" begin="0" end="223" sentText="Question: If the above patient underwent placement of an acellular matrix graft that contained a mixture of material, including both synthetic and biologic derived,  what would the correct device character be in ICD-10-PCS?">
+<RelationSet id="1973">
+<procedure value="placement" begin="41" end="50" status="0" certainty="-3" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1974">
+<procedure value="graft" begin="74" end="79" status="0" certainty="-3" cui="C0181074;C0332835;C1527362;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T122;T024;T080;T061;T169;T122;T170;T061" rank="797;791;789;765;703;575;355;353" code="NO-CODE" sourceType="UMD;MSH;MTH;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+<anatomicalStructure value="acellular matrix" begin="57" end="73" status="0" certainty="-3" cui="C0010853" tui="T026" rank="575" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="acellular" begin="57" end="66" status="0" certainty="-3" cui="C0178539;C0007634" tui="T169;T025" rank="797;523" code="NO-CODE" sourceType="CHV;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="225" end="761">
+<Sentence sentNo="2" begin="225" end="352" sentText="Answer: As previously stated, if biologic material is mixed with synthetic material, assign to nonautologous tissue substitute.">
+</Sentence>
+<Sentence sentNo="3" begin="353" end="514" sentText="Tissue-engineered products may be cellular or acellular, and derived from biological tissue, synthetic material, or a mixture of biologic and synthetic material.">
+</Sentence>
+<Sentence sentNo="4" begin="515" end="629" sentText="Since composite material always has a biologic component, it is always coded as a nonautologous tissue substitute.">
+</Sentence>
+<Sentence sentNo="5" begin="630" end="760" sentText="Assign the following ICD-10-PCS code: 0CR4XKZ Replacement of buccal mucosa with nonautologous tissue substitute, external approach">
+<RelationSet id="1975">
+<anatomicalStructure value="buccal mucosa" begin="691" end="704" status="0" certainty="0" cui="C1578559;C1280540;C0153373;C0026639" tui="T023;T024;T191;T023" rank="797;765;610;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10;CHV"/>
+<anatomicalStructure value="mucosa" begin="698" end="704" status="0" certainty="0" cui="C0026724;C1561514" tui="T024;T170" rank="791;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+<anatomicalStructure value="buccal" begin="691" end="697" status="0" certainty="0" cui="C0442010;C0007966;C1279153;C1522188;C1540415" tui="T082;T029;T023;T169;T029" rank="797;795;765;575;523" code="NO-CODE" sourceType="RCD;LCH;SNOMEDCTUS;SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

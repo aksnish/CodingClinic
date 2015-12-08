@@ -1,0 +1,18 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="910">
+<Paragraph pgNo="1" begin="0" end="295">
+<Sentence sentNo="1" begin="0" end="294" sentText="Question: When coding a physician’s services provided during inpatient hospitalization, which set of coding guidelines is applicable, the inpatient or outpatient guidelines? I’m particularly interested because of the guidelines related to inconclusive diagnoses (probable, suspected, rule out).">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="296" end="909">
+<Sentence sentNo="2" begin="296" end="539" sentText="Answer: When coding for physician services, regardless of the  setting where  the services  are provided,  coders should be guided by the Diagnostic Coding and Reporting Guidelines for Outpatient Services (Hospital-Based and Physician Office).">
+</Sentence>
+<Sentence sentNo="3" begin="541" end="590" sentText="The inpatient guidelines are for hospital coding.">
+</Sentence>
+<Sentence sentNo="4" begin="591" end="738" sentText="Therefore, for physician services, do not code diagnoses documented as “probable,” “suspected,” “questionable,” “rule out,” or “working diagnosis.”">
+</Sentence>
+<Sentence sentNo="5" begin="739" end="908" sentText="Rather, code the condition(s) to the highest degree of certainty for that encounter/visit, such as symptoms, signs, abnormal test results, or other reason for the visit.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

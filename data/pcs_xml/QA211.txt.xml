@@ -1,0 +1,53 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="598">
+<Paragraph pgNo="1" begin="0" end="237">
+<Sentence sentNo="1" begin="0" end="236" sentText="Question: Does the advice from Coding Clinic, First  Quarter 2010, page 5, regarding the coding of neurologic deficits  caused by CVA  even when they  have resolved at the time of discharge from hospital hold true for ICD-10-CM as well?">
+<RelationSet id="433">
+<problem value="deficits" begin="110" end="118" status="0" certainty="-1" cui="C2987487;C0162429" tui="T080;T047" rank="797;765" code="NO-CODE" sourceType="NCI;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="434">
+<problem value="CVA" begin="130" end="133" status="0" certainty="-1" cui="C0038454;C0054889;C0001365" tui="T047;T061;T047" rank="702;578;293" code="NO-CODE" sourceType="CCPSS;NCI;ICD9CM"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="238" end="597">
+<Sentence sentNo="2" begin="238" end="318" sentText="Answer: Hemiplegia is not inherent to an acute cerebrovascular  accident  (CVA).">
+<RelationSet id="435">
+<problem value="Hemiplegia" begin="246" end="256" status="0" certainty="0" cui="C0018991;C0522224;C0259928" tui="T184;T033;T101" rank="795;791;150" code="NO-CODE" sourceType="CCS;NDFRT;CHV"/>
+</RelationSet>
+<RelationSet id="436">
+<problem value="acute;CVA" begin="279;313" end="284;316" status="0" certainty="-2" cui="C0751956" tui="T047" rank="150" code="NO-CODE" sourceType="CHV"/>
+<problem value="CVA" begin="313" end="316" status="0" certainty="-2" cui="C0038454;C0054889;C0001365" tui="T047;T061;T047" rank="790;578;293" code="NO-CODE" sourceType="CCPSS;NCI;ICD9CM"/>
+</RelationSet>
+<RelationSet id="437">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="acute" begin="279" end="284" status="0" certainty="-2"/>
+<problem value="cerebrovascular  accident" begin="285" end="310" status="0" certainty="-2"/>
+</Relation>
+<modifier value="acute" begin="279" end="284" status="0" certainty="-2" cui="C0205178;C1547229;C1547295" tui="T079;T170;T170" rank="797;355;355" code="NO-CODE" sourceType="RCD;HL7V2.5;HL7V2.5"/>
+<problem value="acute cerebrovascular;accident" begin="279;302" end="300;310" status="0" certainty="-2" cui="C0751956" tui="T047" rank="797" code="NO-CODE" sourceType="MSH"/>
+<problem value="cerebrovascular;accident;CVA" begin="285;302;313" end="300;310;316" status="0" certainty="-2" cui="C0038454" tui="T047" rank="797" code="NO-CODE" sourceType="ICPC2P"/>
+<problem value="accident" begin="302" end="310" status="0" certainty="-2" cui="C0000924;C0521129;C1961149;C2046386;C1546397" tui="T037;T169;T067;T033;T078" rank="797;797;767;592;355" code="NO-CODE" sourceType="ICPC2P;SNMI;SNOMEDCTUS;MEDCIN;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="320" end="410" sentText="Therefore,  it should be coded even if the hemiplegia resolves, with or without treatment.">
+<RelationSet id="438">
+<problem value="hemiplegia" begin="363" end="373" status="0" certainty="-3" cui="C0018991;C0522224;C0259928" tui="T184;T033;T101" rank="795;791;150" code="NO-CODE" sourceType="CCS;NDFRT;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="411" end="469" sentText="The hemiplegia affects the care that the patient receives.">
+<RelationSet id="439">
+<problem value="hemiplegia" begin="415" end="425" status="0" certainty="0" cui="C0018991;C0522224;C0259928" tui="T184;T033;T101" rank="795;791;150" code="NO-CODE" sourceType="CCS;NDFRT;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="470" end="596" sentText="Report any neurological deficits caused by a CVA even when they have been resolved at the time of discharge from the hospital.">
+<RelationSet id="440">
+<problem value="deficits" begin="494" end="502" status="0" certainty="-1" cui="C2987487;C0162429" tui="T080;T047" rank="797;765" code="NO-CODE" sourceType="NCI;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="441">
+<problem value="CVA" begin="515" end="518" status="0" certainty="-1" cui="C0038454;C0054889;C0001365" tui="T047;T061;T047" rank="702;578;293" code="NO-CODE" sourceType="CCPSS;NCI;ICD9CM"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

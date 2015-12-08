@@ -1,0 +1,102 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="735">
+<Paragraph pgNo="1" begin="0" end="624">
+<Sentence sentNo="1" begin="0" end="150" sentText="Question: A seven-year-old boy with Noonan syndrome and non-cleft velopharyngeal insufficiency underwent posterior pharyngeal flap to the soft palate.">
+<RelationSet id="204">
+<problem value="Noonan syndrome" begin="36" end="51" status="0" certainty="1" cui="C0028326" tui="T019,T047" rank="797" code="NO-CODE" sourceType="MSH"/>
+<problem value="syndrome" begin="43" end="51" status="0" certainty="1" cui="C0039082;C1558916" tui="T047;T033" rank="797;551" code="NO-CODE" sourceType="LCH;NCI"/>
+</RelationSet>
+<RelationSet id="205">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="posterior" begin="105" end="114" status="0" certainty="0"/>
+<procedure value="pharyngeal flap" begin="115" end="130" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="posterior" begin="105" end="114" status="0" certainty="0"/>
+<problem value="velopharyngeal insufficiency" begin="66" end="94" status="0" certainty="0"/>
+<modifier value="cleft" begin="60" end="65" status="0" certainty="1"/>
+<procedure value="pharyngeal flap" begin="115" end="130" status="0" certainty="0"/>
+<anatomicalStructure value="soft palate" begin="138" end="149" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="pharyngeal flap" begin="115" end="130" status="0" certainty="0"/>
+<anatomicalStructure value="soft palate" begin="138" end="149" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="velopharyngeal insufficiency" begin="66" end="94" status="0" certainty="0"/>
+<modifier value="cleft" begin="60" end="65" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="posterior" begin="105" end="114" status="0" certainty="0"/>
+<problem value="velopharyngeal insufficiency" begin="66" end="94" status="0" certainty="0"/>
+</Relation>
+<modifier value="posterior" begin="105" end="114" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<problem value="velopharyngeal insufficiency" begin="66" end="94" status="0" certainty="0" cui="C0042454" tui="T047,T190" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="pharyngeal flap" begin="115" end="130" status="0" certainty="0" cui="C0845027" tui="T061" rank="608" code="NO-CODE" sourceType="ICD10AM"/>
+<anatomicalStructure value="pharyngeal" begin="115" end="125" status="0" certainty="0" cui="C0031354;C1278903" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="ICD10AM;SNOMEDCTUS"/>
+<anatomicalStructure value="flap" begin="126" end="130" status="0" certainty="0" cui="C0038925;C1412362" tui="T023;T028" rank="767;596" code="NO-CODE" sourceType="RCD;HGNC"/>
+<anatomicalStructure value="soft palate" begin="138" end="149" status="0" certainty="0" cui="C0030219;C1280392;C0153376;C2239128" tui="T023;T023;T191;T058" rank="797;765;610;595" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10;MEDCIN"/>
+<anatomicalStructure value="palate" begin="143" end="149" status="0" certainty="0" cui="C0700374;C1278914" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="151" end="294" sentText="At surgery, the posterior pharyngeal flap was suspended to the soft palate oral mucosa for treatment of non-cleft velopharyngeal insufficiency.">
+<RelationSet id="206">
+<procedure value="surgery" begin="154" end="161" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="206">
+<modifier value="posterior" begin="167" end="176" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="207">
+<anatomicalStructure value="pharyngeal" begin="177" end="187" status="0" certainty="0" cui="C0031354;C1278903" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="ICD10AM;SNOMEDCTUS"/>
+<anatomicalStructure value="flap" begin="188" end="192" status="0" certainty="0" cui="C0038925;C1412362" tui="T023;T028" rank="767;596" code="NO-CODE" sourceType="RCD;HGNC"/>
+</RelationSet>
+<RelationSet id="208">
+<anatomicalStructure value="soft palate;mucosa" begin="214;231" end="225;237" status="0" certainty="0" cui="C0447499" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="palate;mucosa" begin="219;231" end="225;237" status="0" certainty="0" cui="C0447497" tui="T023" rank="765" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="soft palate" begin="214" end="225" status="0" certainty="0" cui="C0030219;C1280392;C0153376;C2239128" tui="T023;T023;T191;T058" rank="797;765;610;595" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10;MEDCIN"/>
+<anatomicalStructure value="oral mucosa" begin="226" end="237" status="0" certainty="0" cui="C0026639" tui="T023" rank="795" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="palate" begin="219" end="225" status="0" certainty="0" cui="C0700374;C1278914" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+<anatomicalStructure value="mucosa" begin="231" end="237" status="0" certainty="0" cui="C0026724;C1561514" tui="T024;T170" rank="791;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+<anatomicalStructure value="oral" begin="226" end="230" status="0" certainty="0" cui="C0442027;C0226896;C0230028;C1267547;C1278910;C1272919;C1527415" tui="T082;T030;T029;T029;T029;T122;T169" rank="797;795;765;765;765;575;575" code="NO-CODE" sourceType="RCD;LCH;UWDA;SNOMEDCTUS;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="209">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="velopharyngeal insufficiency" begin="265" end="293" status="0" certainty="0"/>
+<modifier value="cleft" begin="259" end="264" status="0" certainty="0"/>
+</Relation>
+<problem value="velopharyngeal insufficiency" begin="265" end="293" status="0" certainty="0" cui="C0042454" tui="T047,T190" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="295" end="529" sentText="The root operation “Transfer” appears to meet the objective of the surgery, since it involves moving without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part.">
+<RelationSet id="210">
+<procedure value="surgery" begin="362" end="369" status="0" certainty="1" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="530" end="623" sentText="What is the appropriate procedure code assignment for the pharyngeal flap to the soft palate?">
+<RelationSet id="211">
+<anatomicalStructure value="pharyngeal" begin="588" end="598" status="0" certainty="0" cui="C0031354;C1278903" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="ICD10AM;SNOMEDCTUS"/>
+<anatomicalStructure value="flap" begin="599" end="603" status="0" certainty="0" cui="C0038925;C1412362" tui="T023;T028" rank="767;596" code="NO-CODE" sourceType="RCD;HGNC"/>
+</RelationSet>
+<RelationSet id="212">
+<anatomicalStructure value="soft palate" begin="611" end="622" status="0" certainty="0" cui="C0030219;C1280392;C0153376;C2239128" tui="T023;T023;T191;T058" rank="797;765;610;595" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10;MEDCIN"/>
+<anatomicalStructure value="palate" begin="616" end="622" status="0" certainty="0" cui="C0700374;C1278914" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="625" end="734">
+<Sentence sentNo="5" begin="625" end="733" sentText="Answer: For the posterior pharyngeal flap to the soft palate, assign the ICD-10-PCS code as follows: 0KX40Z2">
+<RelationSet id="212">
+<modifier value="posterior" begin="641" end="650" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="213">
+<anatomicalStructure value="pharyngeal" begin="651" end="661" status="0" certainty="0" cui="C0031354;C1278903" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="ICD10AM;SNOMEDCTUS"/>
+<anatomicalStructure value="flap" begin="662" end="666" status="0" certainty="0" cui="C0038925;C1412362" tui="T023;T028" rank="767;596" code="NO-CODE" sourceType="RCD;HGNC"/>
+</RelationSet>
+<RelationSet id="214">
+<anatomicalStructure value="soft palate" begin="674" end="685" status="0" certainty="0" cui="C0030219;C1280392;C0153376;C2239128" tui="T023;T023;T191;T058" rank="797;765;610;595" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10;MEDCIN"/>
+<anatomicalStructure value="palate" begin="679" end="685" status="0" certainty="0" cui="C0700374;C1278914" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

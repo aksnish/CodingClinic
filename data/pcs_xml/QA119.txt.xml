@@ -1,0 +1,91 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1010">
+<Paragraph pgNo="1" begin="0" end="483">
+<Sentence sentNo="1" begin="0" end="110" sentText="Question: A patient is admitted with sepsis and placed on mechanical ventilation and extubated after 20 hours.">
+<RelationSet id="1069">
+<problem value="sepsis" begin="37" end="43" status="0" certainty="1" cui="C0243026;C1090821;C0333534;C0036690" tui="T047;T204;T169;T047" rank="797;751;703;575" code="NO-CODE" sourceType="COSTAR;NCBI;SNMI;NCI"/>
+</RelationSet>
+<RelationSet id="1070">
+<procedure value="mechanical ventilation" begin="58" end="80" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="58" end="68" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+<RelationSet id="1070">
+<procedure value="extubated" begin="85" end="94" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="111" end="290" sentText="The documentation states that the patient’s initial respiratory decompensation is due to the sepsis and that the presumed cause of the sepsis is spontaneous bacterial peritonitis.">
+<RelationSet id="1072">
+<problem value="sepsis" begin="204" end="210" status="0" certainty="0" cui="C0243026;C1090821;C0333534;C0036690" tui="T047;T204;T169;T047" rank="797;751;703;575" code="NO-CODE" sourceType="COSTAR;NCBI;SNMI;NCI"/>
+</RelationSet>
+<RelationSet id="1073">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="bacterial peritonitis" begin="268" end="289" status="0" certainty="0"/>
+<modifier value="spontaneous" begin="256" end="267" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="sepsis" begin="246" end="252" status="0" certainty="0"/>
+<modifier value="spontaneous" begin="256" end="267" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="sepsis" begin="246" end="252" status="0" certainty="0"/>
+<problem value="bacterial peritonitis" begin="268" end="289" status="0" certainty="0"/>
+<modifier value="spontaneous" begin="256" end="267" status="0" certainty="0"/>
+</Relation>
+<problem value="sepsis;bacterial" begin="246;268" end="252;277" status="0" certainty="0" cui="C0684256" tui="T047" rank="767" code="NO-CODE" sourceType="MDR"/>
+<problem value="sepsis" begin="246" end="252" status="0" certainty="0" cui="C0243026;C1090821;C0333534;C0036690" tui="T047;T204;T169;T047" rank="797;751;703;575" code="NO-CODE" sourceType="COSTAR;NCBI;SNMI;NCI"/>
+<problem value="spontaneous bacterial peritonitis" begin="256" end="289" status="0" certainty="0" cui="C0275551;C2062979" tui="T047;T047" rank="765;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+<problem value="bacterial peritonitis" begin="268" end="289" status="0" certainty="0" cui="C0341503;C0275550" tui="T047;T047" rank="797;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+<problem value="peritonitis" begin="278" end="289" status="0" certainty="0" cui="C0031154" tui="T047" rank="795" code="NO-CODE" sourceType="ICD10"/>
+<modifier value="spontaneous" begin="256" end="267" status="0" certainty="0" cui="C0205359" tui="T169" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="291" end="386" sentText="Percutaneous drainage of the peritoneal cavity is performed and the fluid is sent for cultures.">
+<RelationSet id="1074">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="peritoneal cavity" begin="320" end="337" status="0" certainty="0"/>
+<procedure value="Percutaneous drainage" begin="291" end="312" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="peritoneal cavity" begin="320" end="337" status="0" certainty="0" cui="C1704247;C1279039" tui="T030;T030" rank="797;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="peritoneal" begin="320" end="330" status="0" certainty="0" cui="C0031153;C0442034;C0496954;C0496874" tui="T023;T029;T191;T191" rank="797;797;610;610" code="NO-CODE" sourceType="LCH;RCD;ICD10;ICD10"/>
+<anatomicalStructure value="cavity" begin="331" end="337" status="0" certainty="0" cui="C1510420;C0333343;C0011334" tui="T190;T030;T047" rank="767;691;399" code="NO-CODE" sourceType="SNMI;UWDA;MEDLINEPLUS"/>
+<modifier value="Percutaneous" begin="291" end="303" status="0" certainty="0" cui="C0522523;C0221912;C1522243;C1522447" tui="T082;T082;T169;T169" rank="797;797;575;575" code="NO-CODE" sourceType="RCD;SNMI;NCI;NCI"/>
+<procedure value="drainage" begin="304" end="312" status="0" certainty="0" cui="C0013103;C0012621;C2926602" tui="T061;T031;T031" rank="795;765;333" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;OMS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="387" end="482" sentText="Which of the two procedures is the principal procedure, mechanical ventilation or paracentesis?">
+<RelationSet id="1075">
+<procedure value="mechanical ventilation" begin="443" end="465" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="443" end="453" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+<RelationSet id="1076">
+<procedure value="paracentesis" begin="469" end="481" status="0" certainty="0" cui="C0034115" tui="T058" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="484" end="1009">
+<Sentence sentNo="5" begin="484" end="556" sentText="Answer: Assign the code for the paracentesis as the principal procedure.">
+<RelationSet id="1077">
+<procedure value="paracentesis" begin="516" end="528" status="0" certainty="0" cui="C0034115" tui="T058" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="557" end="629" sentText="The mechanical ventilation code is sequenced as an additional procedure.">
+<RelationSet id="1078">
+<procedure value="mechanical ventilation" begin="561" end="583" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="561" end="571" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="630" end="1008" sentText="The ICD-10PCS Official Guidelines for Coding and Reporting, Selection of Principal Procedure state, “A diagnostic procedure was performed for the principal diagnosis and a procedure is performed for definitive treatment of a secondary diagnosis: Sequence diagnostic procedure as principal procedure, since the procedure most related to the principal diagnosis takes precedence.”">
+<RelationSet id="1079">
+<procedure value="diagnostic procedure" begin="733" end="753" status="0" certainty="0" cui="C0430022;C1546908" tui="T060;T169" rank="797;355" code="NO-CODE" sourceType="SNOMEDCTUS;HL7V2.5"/>
+<procedure value="procedure" begin="744" end="753" status="0" certainty="0" cui="C0184661;C0025664;C2700391;C1948041;C3274430;C3538935;C3539779;C1546467" tui="T060,T061;T170;T052;T061;T058;T078;T170;T078" rank="792;789;576;575;572;571;571;366" code="NO-CODE" sourceType="MSH;MSH;NCI;NCI;NCI;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1080">
+<modifier value="diagnostic;procedure" begin="885;919" end="895;928" status="0" certainty="0" cui="C1546908" tui="T169" rank="355" code="NO-CODE" sourceType="HL7V2.5"/>
+<modifier value="principal" begin="909" end="918" status="0" certainty="0" cui="C0205225;C0401925" tui="T080;T097" rank="767;765" code="NO-CODE" sourceType="SNMI;RCD"/>
+<procedure value="diagnostic procedure;procedure" begin="885;919" end="905;928" status="0" certainty="0" cui="C0430022" tui="T060" rank="797" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="procedure" begin="919" end="928" status="0" certainty="0" cui="C0184661;C0025664;C2700391;C1948041;C3274430;C3538935;C3539779;C1546467" tui="T060,T061;T170;T052;T061;T058;T078;T170;T078" rank="792;789;576;575;572;571;571;366" code="NO-CODE" sourceType="MSH;MSH;NCI;NCI;NCI;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

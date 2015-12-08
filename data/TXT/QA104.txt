@@ -1,0 +1,2 @@
+Question: A patient was admitted in acute respiratory failure, and was intubated and placed on mechanical ventilation for 23 hours. Should the endotracheal (ET) intubation be separately coded along with the mechanical ventilation? 
+Answer: Yes, in this case, code both the mechanical ventilation and the insertion of the ET tube as follows: 5A1935Z

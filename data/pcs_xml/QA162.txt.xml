@@ -1,0 +1,49 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="715">
+<Paragraph pgNo="1" begin="0" end="324">
+<Sentence sentNo="1" begin="0" end="122" sentText="Question: The patient was taken to the operating room post vaginal delivery for control of bleeding using a Bakri balloon.">
+<RelationSet id="1081">
+<procedure value="vaginal delivery" begin="59" end="75" status="0" certainty="0" cui="C0566690;C1541822;C2114516" tui="T033;T061;T033" rank="767;644;595" code="NO-CODE" sourceType="RCD;CPT;MEDCIN"/>
+<procedure value="delivery" begin="67" end="75" status="0" certainty="0" cui="C0011209;C2053584;C1705822;C0559563" tui="T061;T033;T052;T033" rank="765;595;575;506" code="NO-CODE" sourceType="ICD10;MEDCIN;NCI;CHV"/>
+<anatomicalStructure value="vaginal" begin="59" end="66" status="0" certainty="0" cui="C0042232;C1272941;C1522570" tui="T023;T122;T169" rank="703;575;575" code="NO-CODE" sourceType="NCI;NCI;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1082">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="bleeding" begin="91" end="99" status="0" certainty="0"/>
+<medicalDevice value="Bakri balloon" begin="108" end="121" status="0" certainty="0"/>
+</Relation>
+<problem value="bleeding" begin="91" end="99" status="0" certainty="0" cui="C0019080" tui="T046" rank="791" code="NO-CODE" sourceType="ICPC2P"/>
+<medicalDevice value="balloon" begin="114" end="121" status="0" certainty="0" cui="C0336867;C0441144;C1704777;C0004704" tui="T073;T074;T074;T061" rank="765;724;575;286" code="NO-CODE" sourceType="SNM;RCD;NCI;MTHMST"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="123" end="229" sentText="We are unsure if the Bakri balloon is coded to the Obstetrics section or the Medical and Surgical Section.">
+<RelationSet id="1083">
+<medicalDevice value="balloon" begin="150" end="157" status="0" certainty="-3" cui="C0336867;C0441144;C1704777;C0004704" tui="T073;T074;T074;T061" rank="765;724;575;286" code="NO-CODE" sourceType="SNM;RCD;NCI;MTHMST"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="230" end="323" sentText="If coded to Medical and Surgical, what are the appropriate body part and approach characters?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="325" end="714">
+<Sentence sentNo="4" begin="325" end="450" sentText="Answer: The root operation “Control” is used since the intent of the procedure is to stop postprocedural (delivery) bleeding.">
+<RelationSet id="1084">
+<problem value="bleeding" begin="441" end="449" status="0" certainty="0" cui="C0019080" tui="T046" rank="791" code="NO-CODE" sourceType="ICPC2P"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="451" end="613" sentText="The root operation “Control” is only available in the general anatomic regions, and in this case “genitourinary tract” is the appropriate general anatomic region.">
+</Sentence>
+<Sentence sentNo="6" begin="614" end="714" sentText="For control of vaginal bleeding using the Bakri balloon assign the following ICD10-PCS code: 0W3R7ZZ">
+<RelationSet id="1085">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="Bakri balloon" begin="656" end="669" status="0" certainty="0"/>
+<problem value="vaginal bleeding" begin="629" end="645" status="0" certainty="0"/>
+</Relation>
+<medicalDevice value="balloon" begin="662" end="669" status="0" certainty="0" cui="C0336867;C0441144;C1704777;C0004704" tui="T073;T074;T074;T061" rank="765;724;575;286" code="NO-CODE" sourceType="SNM;RCD;NCI;MTHMST"/>
+<problem value="vaginal bleeding" begin="629" end="645" status="0" certainty="0" cui="C2979982;C3163625" tui="T046;T046" rank="793;536" code="NO-CODE" sourceType="COSTAR;NCI"/>
+<problem value="bleeding" begin="637" end="645" status="0" certainty="0" cui="C0019080" tui="T046" rank="791" code="NO-CODE" sourceType="ICPC2P"/>
+<anatomicalStructure value="vaginal" begin="629" end="636" status="0" certainty="0" cui="C1522570;C0042232;C1272941" tui="T169;T023;T122" rank="765;703;575" code="NO-CODE" sourceType="SNOMEDCTUS;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

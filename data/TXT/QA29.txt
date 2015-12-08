@@ -1,0 +1,2 @@
+Question: When the physician documents in his final diagnostic statement “Immunocompromised State” and it is not caused by medication or due to an underlying disease process, should immunocompromised state be coded? 
+Answer: Yes, assign code D89.9, Disorder involving the immune mechanism, unspecified, if no underlying cause of the immunocompromised state has been identified. This code should only be assigned if no specific disease process or drug has been identified as causing the immunocompromised state. 

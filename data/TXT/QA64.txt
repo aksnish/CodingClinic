@@ -1,0 +1,2 @@
+Question: A patient presents for otoscopy, tympanometry and audiometry. The patient is found to have moderate to severe mixed hearing loss in the right ear and moderate sensorineural hearing loss in the left ear. What is the appropriate diagnosis code assignment for this patient? 
+Answer: Assign code H90.6, Mixed conductive and sensorineural hearing loss, bilateral, for a patient with different types of hearing loss in the right and left ear. 

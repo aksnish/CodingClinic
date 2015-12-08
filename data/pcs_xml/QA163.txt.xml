@@ -1,0 +1,97 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="701">
+<Paragraph pgNo="1" begin="0" end="135">
+<Sentence sentNo="1" begin="0" end="134" sentText="Question: How is an open posterior colporrhaphy/rectocele repair coded in PCS? Should one or two codes be assigned for this procedure?">
+<RelationSet id="567">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="colporrhaphy/rectocele repair" begin="35" end="64" status="0" certainty="1"/>
+<modifier value="posterior" begin="25" end="34" status="0" certainty="1"/>
+</Relation>
+<problem value="rectocele" begin="48" end="57" status="0" certainty="1" cui="C0149771" tui="T020,T047" rank="795" code="NO-CODE" sourceType="ICD10"/>
+<procedure value="rectocele repair" begin="48" end="64" status="0" certainty="1" cui="C0677487" tui="T061" rank="767" code="NO-CODE" sourceType="ICD10AM"/>
+<procedure value="posterior;repair" begin="25;58" end="34;64" status="0" certainty="1" cui="C0195230" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="colporrhaphy" begin="35" end="47" status="0" certainty="1" cui="C0009416" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="repair" begin="58" end="64" status="0" certainty="1" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+<modifier value="posterior" begin="25" end="34" status="0" certainty="1" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="136" end="700">
+<Sentence sentNo="2" begin="136" end="322" sentText="Answer: In the context of a rectocele, colporrhaphy refers to the indirect result of repairing the laxity between the vagina and the rectum caused by the stretching of the pelvic fascia.">
+<RelationSet id="568">
+<problem value="rectocele" begin="164" end="173" status="0" certainty="0" cui="C0149771" tui="T020,T047" rank="795" code="NO-CODE" sourceType="ICD10"/>
+</RelationSet>
+<RelationSet id="569">
+<procedure value="colporrhaphy" begin="175" end="187" status="0" certainty="0" cui="C0009416" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="570">
+<anatomicalStructure value="vagina" begin="254" end="260" status="0" certainty="0" cui="C0042232;C1278985;C0154002;C0686277;C1272941;C1522570;C1519910;C0869896" tui="T023;T023;T191;T191;T122;T169;T024;T061" rank="797;765;610;610;575;575;575;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;NCI;SNOMEDCTUS;NCI;ICD10AM"/>
+</RelationSet>
+<RelationSet id="571">
+<anatomicalStructure value="rectum" begin="269" end="275" status="0" certainty="0" cui="C0034896;C1278926;C0154062;C0496867;C0496908;C0869814" tui="T023;T023;T191;T191;T191;T058" rank="797;765;610;610;610;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;ICD10;ICD10AM"/>
+</RelationSet>
+<RelationSet id="572">
+<anatomicalStructure value="pelvic fascia" begin="308" end="321" status="0" certainty="0" cui="C0225300" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="fascia" begin="315" end="321" status="0" certainty="0" cui="C0015641;C1279051" tui="T024;T023" rank="797;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="pelvic" begin="308" end="314" status="0" certainty="0" cui="C0030797;C1279864;C0153663;C0559769;C0030786" tui="T029;T023;T191;T030;T023" rank="797;765;610;575;571" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="323" end="384" sentText="The site of the repair procedure is the pelvic region fascia.">
+<RelationSet id="573">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="pelvic region fascia" begin="363" end="383" status="0" certainty="0"/>
+<procedure value="repair procedure" begin="339" end="355" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="pelvic region" begin="363" end="376" status="0" certainty="0" cui="C0030797;C0559769;C0036033" tui="T029;T030;T029" rank="797;575;151" code="NO-CODE" sourceType="MSH;NCI;CHV"/>
+<anatomicalStructure value="pelvic;fascia" begin="363;377" end="369;383" status="0" certainty="0" cui="C0225300" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="fascia" begin="377" end="383" status="0" certainty="0" cui="C0015641;C1279051" tui="T024;T023" rank="797;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="pelvic" begin="363" end="369" status="0" certainty="0" cui="C1279864;C0153663;C0030786" tui="T023;T191;T023" rank="765;610;571" code="NO-CODE" sourceType="SNOMEDCTUS;ICD10;NCI"/>
+<modifier value="site;procedure" begin="327;346" end="331;355" status="0" certainty="0" cui="C1285543" tui="T169" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="repair procedure;fascia" begin="339;377" end="355;383" status="0" certainty="0" cui="C0185424" tui="T061" rank="766" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="repair;pelvic" begin="339;363" end="345;369" status="0" certainty="0" cui="C1293218" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="procedure" begin="346" end="355" status="0" certainty="0" cui="C0184661;C0025664;C2700391;C1948041;C3274430;C3538935;C3539779;C1546467" tui="T060,T061;T170;T052;T061;T058;T078;T170;T078" rank="792;789;576;575;572;571;571;366" code="NO-CODE" sourceType="MSH;MSH;NCI;NCI;NCI;NCI;NCI;HL7V2.5"/>
+<procedure value="repair" begin="339" end="345" status="0" certainty="0" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="385" end="465" sentText="A posterior colporrhaphy is the surgical intervention for repair of a rectocele.">
+<RelationSet id="574">
+<procedure value="repair;rectocele" begin="443;455" end="449;464" status="0" certainty="0" cui="C0677487" tui="T061" rank="767" code="NO-CODE" sourceType="ICD10AM"/>
+<procedure value="intervention" begin="426" end="438" status="0" certainty="0" cui="C2183254;C1273869;C1948041;C3274035;C3542921;C0886296" tui="T033;T058;T061;T062;T185;T058" rank="592;586;575;572;572;151" code="NO-CODE" sourceType="MEDCIN;LNC;NCI;NCI;NCI;CHV"/>
+<procedure value="surgical" begin="417" end="425" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C1552276;C0582175;C1555455;C1552386;C1547138" tui="T169;T091;T058;T078;T097;T097;T078;T097;T078" rank="794;791;767;571;366;366;366;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V3.0;HL7V3.0;HL7V3.0;HL7V2.5"/>
+<procedure value="repair" begin="443" end="449" status="0" certainty="0" cui="C0374711;C0205340;C0554245;C0043240;C1705181" tui="T061;T169;T097;T040;T058" rank="797;767;767;702;576" code="NO-CODE" sourceType="RCD;SNMI;RCD;SNM;NCI"/>
+</RelationSet>
+<RelationSet id="575">
+<problem value="rectocele" begin="455" end="464" status="0" certainty="0" cui="C0149771" tui="T020,T047" rank="795" code="NO-CODE" sourceType="ICD10"/>
+</RelationSet>
+<RelationSet id="576">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="posterior" begin="387" end="396" status="0" certainty="0"/>
+<procedure value="colporrhaphy" begin="397" end="409" status="0" certainty="0"/>
+</Relation>
+<modifier value="posterior" begin="387" end="396" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<procedure value="posterior colporrhaphy" begin="387" end="409" status="0" certainty="0" cui="C0195230" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="colporrhaphy" begin="397" end="409" status="0" certainty="0" cui="C0009416" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="466" end="654" sentText="During the procedure, the rectum is pushed back into its normal position, and the support tissues between the back of the vagina and rectum are sutured to tighten the laxity in the fascia.">
+<RelationSet id="577">
+<anatomicalStructure value="rectum" begin="492" end="498" status="0" certainty="0" cui="C0034896;C1278926;C0154062;C0496867;C0496908;C0869814" tui="T023;T023;T191;T191;T191;T058" rank="797;765;610;610;610;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;ICD10;ICD10AM"/>
+</RelationSet>
+<RelationSet id="578">
+<anatomicalStructure value="tissues" begin="556" end="563" status="0" certainty="1" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="579">
+<anatomicalStructure value="vagina" begin="588" end="594" status="0" certainty="0" cui="C0042232;C1278985;C0154002;C0686277;C1272941;C1522570;C1519910;C0869896" tui="T023;T023;T191;T191;T122;T169;T024;T061" rank="797;765;610;610;575;575;575;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;NCI;SNOMEDCTUS;NCI;ICD10AM"/>
+</RelationSet>
+<RelationSet id="580">
+<anatomicalStructure value="rectum" begin="599" end="605" status="0" certainty="0" cui="C0034896;C1278926;C0154062;C0496867;C0496908;C0869814" tui="T023;T023;T191;T191;T191;T058" rank="797;765;610;610;610;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;ICD10;ICD10AM"/>
+</RelationSet>
+<RelationSet id="581">
+<anatomicalStructure value="fascia" begin="647" end="653" status="0" certainty="0" cui="C0015641;C1279051" tui="T024;T023" rank="797;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="655" end="700" sentText="Assign the following ICD-10-PCS code: 0JQC0ZZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

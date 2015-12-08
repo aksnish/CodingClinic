@@ -1,0 +1,127 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1105">
+<Paragraph pgNo="1" begin="0" end="804">
+<Sentence sentNo="1" begin="0" end="165" sentText="Question: A patient, who is status post bilateral mastectomy, is admitted for right pedicle latissimus myocutaneous flap and placement of bilateral tissue expanders.">
+<RelationSet id="2283">
+<anatomicalStructure value="myocutaneous" begin="103" end="115" status="0" certainty="0" cui="C0450119" tui="T024" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="pedicle;flap" begin="84;116" end="91;120" status="0" certainty="0" cui="C0450136" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="pedicle" begin="84" end="91" status="0" certainty="0" cui="C0456605" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="flap" begin="116" end="120" status="0" certainty="0" cui="C0038925;C1412362" tui="T023;T028" rank="767;596" code="NO-CODE" sourceType="RCD;HGNC"/>
+</RelationSet>
+<RelationSet id="2283">
+<modifier value="bilateral" begin="138" end="147" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2284">
+<anatomicalStructure value="tissue" begin="148" end="154" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2285">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value=" mastectomy" begin="49" end="60" status="0" certainty="1"/>
+<modifier value="bilateral" begin="40" end="49" status="0" certainty="1"/>
+</Relation>
+<procedure value="bilateral mastectomy" begin="40" end="60" status="0" certainty="1" cui="C0191877" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="mastectomy" begin="50" end="60" status="0" certainty="1" cui="C0024881;C0024886;C0191849" tui="T061;T061;T061" rank="797;765;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;SNOMEDCTUS"/>
+<modifier value="bilateral" begin="40" end="49" status="0" certainty="1" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="166" end="256" sentText="On the right side, latissimus was raised off its insertions and pushed up into the axilla.">
+<RelationSet id="2286">
+<anatomicalStructure value="axilla" begin="249" end="255" status="0" certainty="0" cui="S0000552;C0004454;C1284953;C1283835;C1279154" tui="t061;T029;T029;T029;T023" rank="800;797;765;765;234" code="NO-CODE" sourceType="EZDI;LCH;SNOMEDCTUS;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="257" end="329" sentText="The skin was pushed down firmly over the muscle and closed with sutures.">
+<RelationSet id="2286">
+<anatomicalStructure value="skin" begin="261" end="265" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2287">
+<anatomicalStructure value="muscle" begin="298" end="304" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="2288">
+<medicalDevice value="sutures" begin="321" end="328" status="0" certainty="0" cui="C0205368;C0038969;C0009068;C1705834;C1706068;C1546803" tui="T169;T074;T061;T073;T122;T170" rank="797;795;765;575;575;355" code="NO-CODE" sourceType="SNMI;MSH;SNM;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="330" end="439" sentText="Skin flaps were raised and a tunnel was dissected to allow the pulling of the latissimus flap into the chest.">
+<RelationSet id="2288">
+<anatomicalStructure value="Skin flaps" begin="330" end="340" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2288">
+<procedure value="dissected" begin="370" end="379" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2289">
+<anatomicalStructure value="flap;chest" begin="419;433" end="423;438" status="0" certainty="0" cui="C0440896" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="chest" begin="433" end="438" status="0" certainty="0" cui="C0817096;C1521735;C0729233" tui="T029;T080;T047" rank="797;797;295" code="NO-CODE" sourceType="LCH;NCI;MTHICD9"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="440" end="594" sentText="A tissue expander was placed underneath the latissimus on top of the pectoralis muscle and the rest of the latissimus was closed over the tissue expander.">
+<RelationSet id="2290">
+<anatomicalStructure value="pectoralis muscle" begin="509" end="526" status="0" certainty="0" cui="C0030747" tui="T023" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="latissimus;muscle" begin="484;520" end="494;526" status="0" certainty="0" cui="C0224362" tui="T023" rank="572" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="pectoralis" begin="509" end="519" status="0" certainty="0" cui="C1510663" tui="T023" rank="765" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="muscle" begin="520" end="526" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="2291">
+<anatomicalStructure value="tissue" begin="578" end="584" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="595" end="747" sentText="On the left side, the pectoralis muscle was split and dissected out, the tissue expander was placed and the muscle was closed over the top with sutures.">
+<RelationSet id="2292">
+<anatomicalStructure value="pectoralis muscle" begin="617" end="634" status="0" certainty="0" cui="C0030747" tui="T023" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="pectoralis" begin="617" end="627" status="0" certainty="0" cui="C1510663" tui="T023" rank="765" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="muscle" begin="628" end="634" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="2293">
+<anatomicalStructure value="tissue" begin="668" end="674" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2294">
+<anatomicalStructure value="muscle" begin="703" end="709" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="2295">
+<medicalDevice value="sutures" begin="739" end="746" status="0" certainty="0" cui="C0205368;C0038969;C0009068;C1705834;C1706068;C1546803" tui="T169;T074;T061;T073;T122;T170" rank="797;795;765;575;575;355" code="NO-CODE" sourceType="SNMI;MSH;SNM;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="748" end="803" sentText="What are the appropriate  ICD-10-PCS code  assignments?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="805" end="1104">
+<Sentence sentNo="8" begin="805" end="1103" sentText="Answer: For the right pedicle latissimus myocutaneous flap and insertion of bilateral tissue expanders, assign ICD-10-PCS codes as follows: 0KXF0Z2 Transfer right trunk muscle with skin and subcutaneous tissue, open approach 0HHV0NZ Insertion of tissue expander into bilateral breast, open approach">
+<RelationSet id="2296">
+<modifier value="right" begin="821" end="826" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="2297">
+<anatomicalStructure value="myocutaneous flap" begin="846" end="863" status="0" certainty="0" cui="C0450119;C0851251" tui="T024;T061" rank="797;373" code="NO-CODE" sourceType="RCD;ICD10AM"/>
+<anatomicalStructure value="pedicle;flap" begin="827;859" end="834;863" status="0" certainty="0" cui="C0450136" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="pedicle" begin="827" end="834" status="0" certainty="0" cui="C0456605" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="flap" begin="859" end="863" status="0" certainty="0" cui="C0038925;C1412362" tui="T023;T028" rank="767;596" code="NO-CODE" sourceType="RCD;HGNC"/>
+</RelationSet>
+<RelationSet id="2297">
+<modifier value="bilateral" begin="881" end="890" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2298">
+<anatomicalStructure value="tissue" begin="891" end="897" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2299">
+<anatomicalStructure value="trunk muscle" begin="968" end="980" status="0" certainty="0" cui="C0581755;C1280275" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="muscle" begin="974" end="980" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+<anatomicalStructure value="trunk" begin="968" end="973" status="0" certainty="0" cui="C1280632;C0460005;C2700369" tui="T023;T029;T002" rank="765;765;576" code="NO-CODE" sourceType="SNOMEDCTUS;RCD;NCI"/>
+</RelationSet>
+<RelationSet id="2299">
+<anatomicalStructure value="skin" begin="986" end="990" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2300">
+<anatomicalStructure value="subcutaneous tissue" begin="995" end="1014" status="0" certainty="0" cui="C0278403;C0222331;C1123023" tui="T024;T024;T022" rank="797;575;472" code="NO-CODE" sourceType="SNMI;NCI;AOD"/>
+<anatomicalStructure value="tissue" begin="1008" end="1014" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2301">
+<anatomicalStructure value="tissue" begin="1051" end="1057" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2301">
+<modifier value="bilateral" begin="1072" end="1081" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2302">
+<anatomicalStructure value="bilateral breast" begin="1072" end="1088" status="0" certainty="0" cui="C0222605" tui="T023" rank="765" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="breast" begin="1082" end="1088" status="0" certainty="0" cui="C0006141;C1521735;C1268990;C0929301;C0496956;C0191838" tui="T023;T080;T023;T023;T191;T061" rank="797;797;765;703;610;373" code="NO-CODE" sourceType="LCH;NCI;SNOMEDCTUS;SNMI;ICD10;ICD10AM"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

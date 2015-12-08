@@ -1,0 +1,2 @@
+Question: Does documentation of a positive Coombs test need to be present in order for the diagnosis code for ABO isoimmunization to be assigned on a newborn record? 
+Answer: No. If the provider documents ABO incompatibility on a newborn record, assign code P55.1, ABO isoimmunization of newborn. 

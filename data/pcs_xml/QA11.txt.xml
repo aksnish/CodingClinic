@@ -1,0 +1,75 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="463">
+<Paragraph pgNo="1" begin="0" end="245">
+<Sentence sentNo="1" begin="0" end="94" sentText="Question: A patient with coronary artery disease underwent percutaneous coronary intervention.">
+<RelationSet id="1780">
+<problem value="coronary artery disease" begin="25" end="48" status="0" certainty="1" cui="C1956346;C0010068;C0010054" tui="T047;T047;T047" rank="797;795;150" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;CHV"/>
+<problem value="artery disease" begin="34" end="48" status="0" certainty="1" cui="C0852949" tui="T047" rank="242" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="disease" begin="41" end="48" status="0" certainty="1" cui="C0012634;C1422572;C1424810;C1416989;C3273340;C3540595;C3273341;C1331418" tui="T047;T028;T028;T028;T028;T028;T116;T041" rank="797;600;596;596;575;575;575;575" code="NO-CODE" sourceType="LCH;HGNC;OMIM;HGNC;NCI;NCI;NCI;NCI"/>
+<anatomicalStructure value="coronary artery" begin="25" end="40" status="0" certainty="1" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="34" end="40" status="0" certainty="1" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="1781">
+<modifier value="percutaneous" begin="59" end="71" status="0" certainty="1" cui="C0522523;C0221912;C1522243;C1522447" tui="T082;T082;T169;T169" rank="797;797;575;575" code="NO-CODE" sourceType="RCD;SNMI;NCI;NCI"/>
+<modifier value="coronary" begin="72" end="80" status="0" certainty="1" cui="C1522318" tui="T082" rank="797" code="NO-CODE" sourceType="NCI"/>
+<problem value="artery disease;coronary" begin="34;72" end="48;80" status="0" certainty="1" cui="C1956346;C0010054" tui="T047;T047" rank="797;150" code="NO-CODE" sourceType="MSH;CHV"/>
+<problem value="disease;coronary" begin="41;72" end="48;80" status="0" certainty="1" cui="C0010068" tui="T047" rank="795" code="NO-CODE" sourceType="MEDLINEPLUS"/>
+<procedure value="percutaneous coronary intervention" begin="59" end="93" status="0" certainty="1" cui="C1532338" tui="T061" rank="797" code="NO-CODE" sourceType="MDR"/>
+<procedure value="intervention" begin="81" end="93" status="0" certainty="1" cui="C2183254;C1273869;C1948041;C3274035;C3542921;C0886296" tui="T033;T058;T061;T062;T185;T058" rank="592;586;575;572;572;151" code="NO-CODE" sourceType="MEDCIN;LNC;NCI;NCI;NCI;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="95" end="156" sentText="Angioplasty was performed on the right coronary artery (RCA).">
+<RelationSet id="1782">
+<procedure value="Angioplasty" begin="95" end="106" status="0" certainty="0" cui="C0162577;C1548817" tui="T061;T058" rank="797;355" code="NO-CODE" sourceType="MDR;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1783">
+<modifier value="right" begin="128" end="133" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1784">
+<anatomicalStructure value="right coronary artery;RCA" begin="128;151" end="149;154" status="0" certainty="0" cui="C0226042" tui="T023" rank="765" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="right coronary artery" begin="128" end="149" status="0" certainty="0" cui="C1261316" tui="T023" rank="765" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="coronary artery" begin="134" end="149" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="143" end="149" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="157" end="199" sentText="However, stent insertion was unsuccessful.">
+<RelationSet id="1786">
+<procedure value="stent insertion" begin="166" end="181" status="0" certainty="0" cui="C0522776" tui="T061" rank="150" code="NO-CODE" sourceType="CHV"/>
+<procedure value="insertion" begin="172" end="181" status="0" certainty="0" cui="C0441587;C0021107;C1512796;C1883719" tui="T058;T061;T045;T169" rank="765;702;575;575" code="NO-CODE" sourceType="RCD;SNM;NCI;HL7V3.0"/>
+<procedure value="stent" begin="166" end="171" status="0" certainty="0" cui="C2348535;C0038257;C1705817" tui="T061;T074;T074" rank="797;795;575" code="NO-CODE" sourceType="NCI;MSH;NCI"/>
+</RelationSet>
+<RelationSet id="1787">
+<modifier value="unsuccessful" begin="186" end="198" status="0" certainty="0" cui="C1272703;C1272705" tui="T080;T080" rank="767;767" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="200" end="244" sentText="Should an angioplasty be coded in this case?">
+<RelationSet id="1788">
+<procedure value="angioplasty" begin="210" end="221" status="0" certainty="0" cui="C0162577;C1548817" tui="T061;T058" rank="797;355" code="NO-CODE" sourceType="MDR;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="246" end="462">
+<Sentence sentNo="5" begin="246" end="291" sentText="Answer: Yes, the angioplasty should be coded.">
+<RelationSet id="1789">
+<procedure value="angioplasty" begin="263" end="274" status="0" certainty="0" cui="C0162577;C1548817" tui="T061;T058" rank="797;355" code="NO-CODE" sourceType="MDR;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="292" end="396" sentText="Although the vessel was not dilated as much as needed to insert the stent, an angioplasty was performed.">
+<RelationSet id="1790">
+<anatomicalStructure value="vessel" begin="305" end="311" status="0" certainty="0" cui="C0042591;C0148346;C0005847;C1511228;C0702235" tui="T029;T118,T121;T023;T024;T109,T121" rank="767;722;701;571;520" code="NO-CODE" sourceType="RCD;MTH;LNC;NCI;PDQ"/>
+</RelationSet>
+<RelationSet id="1791">
+<medicalDevice value="stent" begin="360" end="365" status="0" certainty="-2" cui="C2348535;C0038257;C1705817" tui="T061;T074;T074" rank="797;795;575" code="NO-CODE" sourceType="NCI;MSH;NCI"/>
+</RelationSet>
+<RelationSet id="1792">
+<procedure value="angioplasty" begin="370" end="381" status="0" certainty="0" cui="C0162577;C1548817" tui="T061;T058" rank="797;355" code="NO-CODE" sourceType="MDR;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="397" end="462" sentText="Assign the following ICD-10-PCS code for the angioplasty: 02703ZZ">
+<RelationSet id="1793">
+<procedure value="angioplasty" begin="442" end="453" status="0" certainty="0" cui="C0162577;C1548817" tui="T061;T058" rank="797;355" code="NO-CODE" sourceType="MDR;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

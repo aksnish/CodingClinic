@@ -1,0 +1,121 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="764">
+<Paragraph pgNo="1" begin="0" end="316">
+<Sentence sentNo="1" begin="0" end="127" sentText="Question: A right skin-sparing mastectomy was performed due to the patient’s history of left breast invasive lobular carcinoma.">
+<RelationSet id="743">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="breast" begin="93" end="99" status="1" certainty="0"/>
+<problem value="invasive lobular carcinoma" begin="100" end="126" status="1" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="left" begin="88" end="92" status="1" certainty="0"/>
+<problem value="invasive lobular carcinoma" begin="100" end="126" status="1" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="left" begin="88" end="92" status="1" certainty="0"/>
+<anatomicalStructure value="breast" begin="93" end="99" status="1" certainty="0"/>
+<problem value="invasive lobular carcinoma" begin="100" end="126" status="1" certainty="0"/>
+</Relation>
+<modifier value="left" begin="88" end="92" status="1" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+<anatomicalStructure value="breast;lobular" begin="93;109" end="99;116" status="1" certainty="0" cui="C0222617" tui="T023" rank="797" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="left breast" begin="88" end="99" status="1" certainty="0" cui="C0222601" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="breast" begin="93" end="99" status="1" certainty="0" cui="C0006141;C1521735;C1268990;C0929301;C0496956;C0191838" tui="T023;T080;T023;T023;T191;T061" rank="797;797;765;703;610;373" code="NO-CODE" sourceType="LCH;NCI;SNOMEDCTUS;SNMI;ICD10;ICD10AM"/>
+<problem value="breast invasive lobular carcinoma" begin="93" end="126" status="1" certainty="0" cui="C0279565" tui="T191" rank="797" code="NO-CODE" sourceType="PDQ"/>
+<problem value="breast invasive;carcinoma" begin="93;117" end="108;126" status="1" certainty="0" cui="C0853879" tui="T191" rank="576" code="NO-CODE" sourceType="NCI"/>
+<problem value="invasive;carcinoma" begin="100;117" end="108;126" status="1" certainty="0" cui="C1334274" tui="T191" rank="576" code="NO-CODE" sourceType="NCI"/>
+<problem value="lobular carcinoma" begin="109" end="126" status="1" certainty="0" cui="C0206692" tui="T191" rank="797" code="NO-CODE" sourceType="RCD"/>
+<problem value="breast;carcinoma" begin="93;117" end="99;126" status="1" certainty="0" cui="C0678222;C0006142" tui="T191;T191" rank="797;790" code="NO-CODE" sourceType="COSTAR;MSH"/>
+<problem value="carcinoma" begin="117" end="126" status="1" certainty="0" cui="C0007097" tui="T191" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="lobular" begin="109" end="116" status="1" certainty="0" cui="C0205417;C0921005" tui="T080;T023" rank="767;692" code="NO-CODE" sourceType="SNMI;UWDA"/>
+</RelationSet>
+<RelationSet id="744">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="skin-sparing mastectomy" begin="18" end="41" status="0" certainty="1"/>
+<modifier value="right" begin="12" end="17" status="0" certainty="1"/>
+</Relation>
+<problem value="skin-sparing" begin="18" end="30" status="0" certainty="1" cui="C1123023;C1278993;C0496955;C0444099;C1546781" tui="T022;T022;T191;T031;T170" rank="797;765;610;366;355" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;HL7V3.0;HL7V2.5"/>
+<procedure value="skin-sparing mastectomy" begin="18" end="41" status="0" certainty="1" cui="C1997268" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="mastectomy" begin="31" end="41" status="0" certainty="1" cui="C0024881;C0024886;C0191849" tui="T061;T061;T061" rank="797;765;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;SNOMEDCTUS"/>
+<modifier value="right" begin="12" end="17" status="0" certainty="1" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="128" end="236" sentText="After superior, medial, inferior and lateral flaps were made, the breast was taken off using electrocautery.">
+<RelationSet id="745">
+<anatomicalStructure value="breast" begin="194" end="200" status="0" certainty="0" cui="C0006141;C1521735;C1268990;C0929301;C0496956;C0191838" tui="T023;T080;T023;T023;T191;T061" rank="797;797;765;703;610;373" code="NO-CODE" sourceType="LCH;NCI;SNOMEDCTUS;SNMI;ICD10;ICD10AM"/>
+</RelationSet>
+<RelationSet id="746">
+<medicalDevice value="electrocautery" begin="221" end="235" status="0" certainty="0" cui="C0007471;C0013804;C1706093" tui="T061;T061;T074" rank="795;791;575" code="NO-CODE" sourceType="LCH;RCD;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="237" end="315" sentText="Is the skin-sparing mastectomy coded as a resection or excision of the breast?">
+<RelationSet id="747">
+<problem value="skin-sparing" begin="244" end="256" status="0" certainty="0" cui="C1123023;C1278993;C0496955;C0444099;C1546781" tui="T022;T022;T191;T031;T170" rank="797;765;610;366;355" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;HL7V3.0;HL7V2.5"/>
+<procedure value="skin-sparing;resection;breast" begin="244;279;308" end="256;288;314" status="0" certainty="0" cui="C2574028" tui="T061" rank="383" code="NO-CODE" sourceType="ICD10PCS"/>
+<procedure value="skin-sparing mastectomy" begin="244" end="267" status="0" certainty="0" cui="C1997268" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="mastectomy" begin="257" end="267" status="0" certainty="0" cui="C0024881;C0024886;C0191849" tui="T061;T061;T061" rank="797;765;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="748">
+<procedure value="resection" begin="279" end="288" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="765;151" code="NO-CODE" sourceType="RCD;CHV"/>
+</RelationSet>
+<RelationSet id="749">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="excision" begin="292" end="300" status="0" certainty="0"/>
+<anatomicalStructure value="breast" begin="308" end="314" status="0" certainty="0"/>
+</Relation>
+<procedure value="excision;breast" begin="292;308" end="300;314" status="0" certainty="0" cui="C0191848" tui="T061" rank="150" code="NO-CODE" sourceType="CHV"/>
+<procedure value="excision" begin="292" end="300" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+<anatomicalStructure value="breast" begin="308" end="314" status="0" certainty="0" cui="C0006141;C1521735;C1268990;C0929301;C0496956;C0191838" tui="T023;T080;T023;T023;T191;T061" rank="797;797;765;703;610;373" code="NO-CODE" sourceType="LCH;NCI;SNOMEDCTUS;SNMI;ICD10;ICD10AM"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="317" end="763">
+<Sentence sentNo="4" begin="317" end="432" sentText="Answer: Even though the procedure spared the skin overlying the breast, nevertheless the entire breast was removed.">
+<RelationSet id="750">
+<anatomicalStructure value="skin;breast" begin="362;381" end="366;387" status="0" certainty="0" cui="C1279000;C0149538" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+</RelationSet>
+<RelationSet id="751">
+<anatomicalStructure value="breast" begin="381" end="387" status="0" certainty="0" cui="C1268990;C0006141;C1521735;C0929301;C0496956;C0191838" tui="T023;T023;T080;T023;T191;T061" rank="797;797;797;703;610;373" code="NO-CODE" sourceType="SNOMEDCTUS;LCH;NCI;SNMI;ICD10;ICD10AM"/>
+</RelationSet>
+<RelationSet id="752">
+<anatomicalStructure value="breast" begin="413" end="419" status="0" certainty="0" cui="C1268990;C0006141;C1521735;C0929301;C0496956;C0191838" tui="T023;T023;T080;T023;T191;T061" rank="797;797;797;703;610;373" code="NO-CODE" sourceType="SNOMEDCTUS;LCH;NCI;SNMI;ICD10;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="433" end="540" sentText="While there is a separate body part value for nipple and breast, the mastectomy does not require two codes.">
+<RelationSet id="753">
+<anatomicalStructure value="nipple" begin="479" end="485" status="0" certainty="0" cui="C0028109;C0205312;C0457424;C1280732" tui="T023;T080;T082;T023" rank="797;767;767;765" code="NO-CODE" sourceType="MSH;RCD;RCD;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="754">
+<anatomicalStructure value="breast" begin="490" end="496" status="0" certainty="0" cui="C0006141;C1521735;C1268990;C0929301;C0496956;C0191838" tui="T023;T080;T023;T023;T191;T061" rank="797;797;765;703;610;373" code="NO-CODE" sourceType="LCH;NCI;SNOMEDCTUS;SNMI;ICD10;ICD10AM"/>
+</RelationSet>
+<RelationSet id="755">
+<procedure value="mastectomy" begin="502" end="512" status="0" certainty="0" cui="C0024881;C0024886;C0191849" tui="T061;T061;T061" rank="797;765;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="541" end="678" sentText="This differs from the case total hysterectomy, where there was a special need to code cervix and uterus separately for tracking purposes.">
+<RelationSet id="756">
+<modifier value="total" begin="568" end="573" status="0" certainty="0" cui="C0439810" tui="T080" rank="797" code="NO-CODE" sourceType="RCD"/>
+<procedure value="total hysterectomy" begin="568" end="586" status="0" certainty="0" cui="C0677962;C0372591;C0372590" tui="T061;T061;T061" rank="767;271;271" code="NO-CODE" sourceType="MEDCIN;CPT;CPT"/>
+<procedure value="hysterectomy" begin="574" end="586" status="0" certainty="0" cui="C0020699;C1548863" tui="T061;T058" rank="797;355" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="757">
+<anatomicalStructure value="cervix" begin="627" end="633" status="0" certainty="0" cui="C0007874;C0200040;C1550623;C1546592" tui="T023;T061;T031;T170" rank="797;373;366;355" code="NO-CODE" sourceType="RCD;ICD10AM;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="758">
+<anatomicalStructure value="uterus" begin="638" end="644" status="0" certainty="0" cui="C0042149;C1269032;C0496919;C0869889;C1519876" tui="T023;T023;T191;T060;T024" rank="797;765;610;592;575" code="NO-CODE" sourceType="ICD10AM;SNOMEDCTUS;ICD10;MEDCIN;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="679" end="763" sentText="For the right skin-sparing mastectomy, assign the ICD-10PCS code as follows: 0HTT0ZZ">
+<RelationSet id="759">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="skin-sparing mastectomy" begin="693" end="716" status="0" certainty="0"/>
+<modifier value="right" begin="687" end="692" status="0" certainty="0"/>
+</Relation>
+<problem value="skin-sparing" begin="693" end="705" status="0" certainty="0" cui="C1123023;C1278993;C0496955;C0444099;C1546781" tui="T022;T022;T191;T031;T170" rank="797;765;610;366;355" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;HL7V3.0;HL7V2.5"/>
+<procedure value="skin-sparing mastectomy" begin="693" end="716" status="0" certainty="0" cui="C1997268" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="mastectomy" begin="706" end="716" status="0" certainty="0" cui="C0024881;C0024886;C0191849" tui="T061;T061;T061" rank="797;765;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;SNOMEDCTUS"/>
+<modifier value="right" begin="687" end="692" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

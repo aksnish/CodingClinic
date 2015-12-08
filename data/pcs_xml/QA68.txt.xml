@@ -1,0 +1,168 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1730">
+<Paragraph pgNo="1" begin="0" end="846">
+<Sentence sentNo="1" begin="0" end="128" sentText="Question: A patient with congenital hydrocephalus status post ventriculoperitoneal (VP) shunt was admitted due to shunt failure.">
+<RelationSet id="1581">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="ventriculoperitoneal (VP" begin="62" end="86" status="0" certainty="1"/>
+<medicalDevice value="shunt" begin="88" end="93" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="ventriculoperitoneal (VP" begin="62" end="86" status="0" certainty="1"/>
+<problem value="congenital hydrocephalus" begin="25" end="49" status="0" certainty="1"/>
+<medicalDevice value="shunt" begin="88" end="93" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="congenital hydrocephalus" begin="25" end="49" status="0" certainty="1"/>
+<medicalDevice value="shunt" begin="88" end="93" status="0" certainty="0"/>
+</Relation>
+<modifier value="ventriculoperitoneal" begin="62" end="82" status="0" certainty="1" cui="S1001670" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="ventriculoperitoneal;shunt" begin="62;88" end="82;93" status="0" certainty="1" cui="C0162702" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="VP" begin="84" end="86" status="0" certainty="1" cui="C0280544;C0138318;C1706109;C1883540;C1519906;C0078413;C2247213;C0280545;C0280102" tui="T061;T116,T124,T125;T028;T081;T044;T061;T044;T061;T061" rank="578;575;575;540;519;519;456;441;441" code="NO-CODE" sourceType="NCI;NCI;NCI;NCI;NCI;PDQ;GO;PDQ;PDQ"/>
+<problem value="congenital hydrocephalus" begin="25" end="49" status="0" certainty="1" cui="C0020256" tui="T019" rank="793" code="NO-CODE" sourceType="SNM"/>
+<problem value="hydrocephalus" begin="36" end="49" status="0" certainty="1" cui="C0020255;C1963137" tui="T047;T033" rank="797;639" code="NO-CODE" sourceType="SNM;NCI"/>
+<medicalDevice value="VP;shunt" begin="84;88" end="86;93" status="0" certainty="0" cui="C0175662" tui="T074" rank="767" code="NO-CODE" sourceType="RCD"/>
+<medicalDevice value="shunt" begin="88" end="93" status="0" certainty="0" cui="C0542331;C1442858;C0232180;C1705199;C1546777;C0813207" tui="T074;T033;T033;T074;T170;T061" rank="767;765;716;575;355;353" code="NO-CODE" sourceType="UMD;SNOMEDCTUS;SNOMEDCTUS;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="129" end="210" sentText="The VP shunt had become free of its connection and had migrated into the abdomen.">
+<RelationSet id="1582">
+<medicalDevice value="VP shunt" begin="133" end="141" status="0" certainty="0" cui="C0175662" tui="T074" rank="765" code="NO-CODE" sourceType="LNC"/>
+<medicalDevice value="shunt" begin="136" end="141" status="0" certainty="0" cui="C0542331;C1442858;C0232180;C1705199;C1546777;C0813207" tui="T074;T033;T033;T074;T170;T061" rank="767;765;716;575;355;353" code="NO-CODE" sourceType="UMD;SNOMEDCTUS;SNOMEDCTUS;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+<RelationSet id="1583">
+<anatomicalStructure value="abdomen" begin="202" end="209" status="0" certainty="-2" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="211" end="281" sentText="Surgery was performed to replace the migrated portion of the VP shunt.">
+<RelationSet id="1584">
+<procedure value="Surgery" begin="211" end="218" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1585">
+<medicalDevice value="VP shunt" begin="272" end="280" status="0" certainty="0" cui="C0175662" tui="T074" rank="765" code="NO-CODE" sourceType="LNC"/>
+<medicalDevice value="shunt" begin="275" end="280" status="0" certainty="0" cui="C0542331;C1442858;C0232180;C1705199;C1546777;C0813207" tui="T074;T033;T033;T074;T170;T061" rank="767;765;716;575;355;353" code="NO-CODE" sourceType="UMD;SNOMEDCTUS;SNOMEDCTUS;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="282" end="372" sentText="The distal end of the catheter was removed laparoscopically from the abdomen and replaced.">
+<RelationSet id="1586">
+<medicalDevice value="catheter" begin="304" end="312" status="0" certainty="0" cui="C0085590;C1704454;C0007430;C1546572" tui="T074;T074;T061;T170" rank="795;575;488;355" code="NO-CODE" sourceType="RCD;NCI;ICPC2P;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1587">
+<anatomicalStructure value="abdomen" begin="351" end="358" status="0" certainty="0" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="373" end="539" sentText="An incision was then made in the periauricular area to expose the site of the distal tubing, and cerebrospinal fluid was seen flowing through the disconnected tubing.">
+<RelationSet id="1588">
+<procedure value="incision" begin="376" end="384" status="0" certainty="0" cui="C0184898;C2096041" tui="T061;T033" rank="767;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+</RelationSet>
+<RelationSet id="1589">
+<anatomicalStructure value="periauricular" begin="406" end="419" status="0" certainty="0" cui="S1001140;C1549094;C1522191" tui="t061;T023;T169" rank="800;797;575" code="NO-CODE" sourceType="EZDI;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="540" end="656" sentText="A tunneler was used, and the distal tubing was brought back to the periauricular incision and tied to the connecter.">
+<RelationSet id="1589">
+<medicalDevice value="tunneler" begin="542" end="550" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1590">
+<procedure value="incision" begin="621" end="629" status="0" certainty="0" cui="C0184898;C2096041" tui="T061;T033" rank="767;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+<anatomicalStructure value="periauricular" begin="607" end="620" status="0" certainty="0" cui="S1001140;C1549094;C1522191" tui="t061;T023;T169" rank="800;797;575" code="NO-CODE" sourceType="EZDI;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="657" end="792" sentText="Please clarify the correct ICD-10-PCS procedure code(s) for laparoscopic retrieval of VP shunt with replacement of the distal catheter.">
+<RelationSet id="1591">
+<procedure value="laparoscopic" begin="717" end="729" status="0" certainty="0" cui="C0031150;C0393360;C1883297" tui="T060;T082;T061" rank="800;717;592" code="NO-CODE" sourceType="CCS;SNOMEDCTUS;MEDCIN"/>
+<procedure value="retrieval" begin="730" end="739" status="0" certainty="0" cui="C1514918" tui="T058" rank="576" code="NO-CODE" sourceType="NCI"/>
+<procedure value="shunt" begin="746" end="751" status="0" certainty="0" cui="C0542331;C1442858;C0232180;C1705199;C1546777;C0813207" tui="T074;T033;T033;T074;T170;T061" rank="767;765;716;575;355;353" code="NO-CODE" sourceType="UMD;SNOMEDCTUS;SNOMEDCTUS;NCI;HL7V2.5;CPT"/>
+<procedure value="VP" begin="743" end="745" status="0" certainty="0" cui="C0280544;C0138318;C1706109;C1883540;C1519906;C0078413;C2247213;C0280545;C0280102" tui="T061;T116,T124,T125;T028;T081;T044;T061;T044;T061;T061" rank="578;575;575;540;519;519;456;441;441" code="NO-CODE" sourceType="NCI;NCI;NCI;NCI;NCI;PDQ;GO;PDQ;PDQ"/>
+</RelationSet>
+<RelationSet id="1592">
+<modifier value="distal catheter" begin="776" end="791" status="0" certainty="0" cui="S0002654" tui="t060" rank="800" code="NO-CODE" sourceType="EZDI"/>
+</RelationSet>
+<RelationSet id="1593">
+<medicalDevice value="catheter" begin="783" end="791" status="0" certainty="0" cui="C0085590;C1704454;C0007430;C1546572" tui="T074;T074;T061;T170" rank="795;575;488;355" code="NO-CODE" sourceType="RCD;NCI;ICPC2P;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="793" end="845" sentText="Should the shunt be classified as a drainage device?">
+<RelationSet id="1594">
+<medicalDevice value="shunt" begin="804" end="809" status="0" certainty="0" cui="C0542331;C1442858;C0232180;C1705199;C1546777;C0813207" tui="T074;T033;T033;T074;T170;T061" rank="797;765;716;575;355;353" code="NO-CODE" sourceType="UMD;SNOMEDCTUS;SNOMEDCTUS;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+<RelationSet id="1595">
+<medicalDevice value="shunt;device" begin="804;838" end="809;844" status="0" certainty="0" cui="C0542331" tui="T074" rank="797" code="NO-CODE" sourceType="MTH"/>
+<medicalDevice value="device" begin="838" end="844" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="847" end="1729">
+<Sentence sentNo="9" begin="847" end="928" sentText="Answer: A ventriculoperitoneal (VP) shunt is not classified as a drainage device.">
+<RelationSet id="1596">
+<medicalDevice value="device" begin="921" end="927" status="0" certainty="-2" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1597">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="shunt" begin="883" end="888" status="0" certainty="0"/>
+<procedure value="ventriculoperitoneal (VP" begin="857" end="881" status="0" certainty="0"/>
+</Relation>
+<medicalDevice value="ventriculoperitoneal;VP;shunt" begin="857;879;883" end="877;881;888" status="0" certainty="0" cui="C0175662" tui="T074" rank="767" code="NO-CODE" sourceType="RCD"/>
+<medicalDevice value="shunt" begin="883" end="888" status="0" certainty="0" cui="C0542331;C1442858;C0232180;C1705199;C1546777;C0813207" tui="T074;T033;T033;T074;T170;T061" rank="767;765;716;575;355;353" code="NO-CODE" sourceType="UMD;SNOMEDCTUS;SNOMEDCTUS;NCI;HL7V2.5;CPT"/>
+<modifier value="ventriculoperitoneal" begin="857" end="877" status="0" certainty="0" cui="S1001670" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="ventriculoperitoneal;shunt" begin="857;883" end="877;888" status="0" certainty="0" cui="C0162702" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="VP" begin="879" end="881" status="0" certainty="0" cui="C0280544;C0138318;C1706109;C1883540;C1519906;C0078413;C2247213;C0280545;C0280102" tui="T061;T116,T124,T125;T028;T081;T044;T061;T044;T061;T061" rank="578;575;575;540;519;519;456;441;441" code="NO-CODE" sourceType="NCI;NCI;NCI;NCI;NCI;PDQ;GO;PDQ;PDQ"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="929" end="1113" sentText="The shunt was initially placed to reroute the contents of the cerebral ventricle to another location, and “Bypass” is the appropriate root operation for the initial VP shunt procedure.">
+<RelationSet id="1598">
+<medicalDevice value="shunt" begin="933" end="938" status="0" certainty="0" cui="C0542331;C1442858;C0232180;C1705199;C1546777;C0813207" tui="T074;T033;T033;T074;T170;T061" rank="767;765;716;575;355;353" code="NO-CODE" sourceType="UMD;SNOMEDCTUS;SNOMEDCTUS;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+<RelationSet id="1599">
+<anatomicalStructure value="cerebral ventricle" begin="991" end="1009" status="0" certainty="0" cui="C0007799;C0521404;C0346906" tui="T030;T082;T191" rank="797;703;610" code="NO-CODE" sourceType="SNM;SNMI;ICD10"/>
+<anatomicalStructure value="ventricle" begin="1000" end="1009" status="0" certainty="0" cui="C2355627;C1522565;C0018827" tui="T023;T082;T023" rank="797;797;765" code="NO-CODE" sourceType="FMA;NCI;SNM"/>
+<anatomicalStructure value="cerebral" begin="991" end="999" status="0" certainty="0" cui="C0242202;C1280654;C0006104;C0228174;C1707523" tui="T023;T023;T023;T023;T024" rank="797;765;703;575;571" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;SNMI;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="1600">
+<modifier value="initial;procedure" begin="1086;1103" end="1093;1112" status="0" certainty="0" cui="S1000742" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="shunt procedure" begin="1097" end="1112" status="0" certainty="0" cui="C2065933" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="procedure" begin="1103" end="1112" status="0" certainty="0" cui="C0184661;C0025664;C2700391;C1948041;C3274430;C3538935;C3539779;C1546467" tui="T060,T061;T170;T052;T061;T058;T078;T170;T078" rank="792;789;576;575;572;571;571;366" code="NO-CODE" sourceType="MSH;MSH;NCI;NCI;NCI;NCI;NCI;HL7V2.5"/>
+<procedure value="shunt" begin="1097" end="1102" status="0" certainty="0" cui="C0542331;C1442858;C0232180;C1705199;C1546777;C0813207" tui="T074;T033;T033;T074;T170;T061" rank="767;765;716;575;355;353" code="NO-CODE" sourceType="UMD;SNOMEDCTUS;SNOMEDCTUS;NCI;HL7V2.5;CPT"/>
+<procedure value="VP" begin="1094" end="1096" status="0" certainty="0" cui="C0280544;C0138318;C1706109;C1883540;C1519906;C0078413;C2247213;C0280545;C0280102" tui="T061;T116,T124,T125;T028;T081;T044;T061;T044;T061;T061" rank="578;575;575;540;519;519;456;441;441" code="NO-CODE" sourceType="NCI;NCI;NCI;NCI;NCI;PDQ;GO;PDQ;PDQ"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="11" begin="1114" end="1288" sentText="In ICD-10-PCS, “Drainage” is defined as taking/ letting out fluids/gases, whereas “Bypass” is defined as altering the route of passage of the contents of a tubular body part.">
+</Sentence>
+<Sentence sentNo="12" begin="1289" end="1513" sentText="The device value is “synthetic substitute” because the original root operation for placing the VP shunt is “Bypass,” and the device placed in that root operation and now being revised is classified as a synthetic substitute.">
+<RelationSet id="1602">
+<modifier value="original" begin="1344" end="1352" status="0" certainty="0" cui="C0205313;C2347409" tui="T078;T057" rank="797;562" code="NO-CODE" sourceType="SNMI;NCI"/>
+<procedure value="operation" begin="1358" end="1367" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1603">
+<medicalDevice value="VP shunt" begin="1384" end="1392" status="0" certainty="0" cui="C0175662" tui="T074" rank="765" code="NO-CODE" sourceType="LNC"/>
+<medicalDevice value="shunt" begin="1387" end="1392" status="0" certainty="0" cui="C0542331;C1442858;C0232180;C1705199;C1546777;C0813207" tui="T074;T033;T033;T074;T170;T061" rank="797;765;716;575;355;353" code="NO-CODE" sourceType="UMD;SNOMEDCTUS;SNOMEDCTUS;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="13" begin="1514" end="1673" sentText="The sites of the procedures to revise the shunt are the peritoneal cavity and the subcutaneous tissue of the periauricular area (behind the ear), respectively.">
+<RelationSet id="1604">
+<anatomicalStructure value="subcutaneous tissue" begin="1596" end="1615" status="0" certainty="0" cui="C0278403;C0222331;C1123023" tui="T024;T024;T022" rank="797;575;472" code="NO-CODE" sourceType="SNMI;NCI;AOD"/>
+<anatomicalStructure value="tissue" begin="1609" end="1615" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1605">
+<anatomicalStructure value="periauricular" begin="1623" end="1636" status="0" certainty="0" cui="S1001140;C1549094;C1522191" tui="t061;T023;T169" rank="800;797;575" code="NO-CODE" sourceType="EZDI;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="1606">
+<anatomicalStructure value="ear" begin="1654" end="1657" status="0" certainty="0" cui="C0521422;C0013443;C0521421;C1418197;C1414437;C1522191;C1272926;C1550629;C1546608" tui="T082;T023;T023;T028;T028;T169;T122;T031;T170" rank="797;795;765;596;587;575;575;366;355" code="NO-CODE" sourceType="SNMI;MSH;RCD;HGNC;HGNC;SNOMEDCTUS;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1607">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="shunt" begin="1556" end="1561" status="0" certainty="0"/>
+<anatomicalStructure value="peritoneal cavity" begin="1570" end="1587" status="0" certainty="0"/>
+</Relation>
+<medicalDevice value="shunt;peritoneal" begin="1556;1570" end="1561;1580" status="0" certainty="0" cui="C0175661" tui="T074" rank="653" code="NO-CODE" sourceType="SPN"/>
+<medicalDevice value="shunt" begin="1556" end="1561" status="0" certainty="0" cui="C0542331;C1442858;C0232180;C1705199;C1546777;C0813207" tui="T074;T033;T033;T074;T170;T061" rank="767;765;716;575;355;353" code="NO-CODE" sourceType="UMD;SNOMEDCTUS;SNOMEDCTUS;NCI;HL7V2.5;CPT"/>
+<anatomicalStructure value="peritoneal cavity" begin="1570" end="1587" status="0" certainty="0" cui="C1704247;C1279039" tui="T030;T030" rank="797;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="peritoneal" begin="1570" end="1580" status="0" certainty="0" cui="C0031153;C0442034;C0496954;C0496874" tui="T023;T029;T191;T191" rank="797;797;610;610" code="NO-CODE" sourceType="LCH;RCD;ICD10;ICD10"/>
+<anatomicalStructure value="cavity" begin="1581" end="1587" status="0" certainty="0" cui="C1510420;C0333343;C0011334" tui="T190;T030;T047" rank="767;691;399" code="NO-CODE" sourceType="SNMI;UWDA;MEDLINEPLUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="14" begin="1674" end="1729" sentText="Assign the following ICD-10PCS procedure codes: 0WWG4JZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

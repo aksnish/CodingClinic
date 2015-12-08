@@ -1,0 +1,47 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="556">
+<Paragraph pgNo="1" begin="0" end="236">
+<Sentence sentNo="1" begin="0" end="109" sentText="Question: The Index entry for Alcohol, withdrawal, leads to code F10.239, Alcohol dependence with withdrawal.">
+<RelationSet id="2570">
+<med value="Alcohol" begin="30" end="37" status="0" certainty="1" cui="C0001975;C0001973;C0687725;C0001962;C0202304;C1547288" tui="T109,T121;T048;T101;T109;T059;T170" rank="797;795;765;744;571;355" code="NO-CODE" sourceType="LCH;DSM3R;DXP;MMSL;NCI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2571">
+<medicalDevice value="leads" begin="51" end="56" status="0" certainty="1" cui="C0023175;C1522538;C0181586;C0524167;C0332152;C1704733;C3275067;C2348269;C1708698;C1442948" tui="T131,T196;T169;T074;T059;T079;T074;T061;T196;T073;T121,T197" rank="797;797;686;644;575;575;572;558;519;150" code="NO-CODE" sourceType="LCH;MTH;UMD;CPT;NCI;NCI;NCI;NCI;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="2572">
+<problem value="dependence" begin="82" end="92" status="0" certainty="0" cui="C0439857;C3244310;C0851827;C1701901;C0011546;C2698668" tui="T048;T169;T080;T080;T041;T089" rank="797;797;767;575;575;572" code="NO-CODE" sourceType="MDR;HL7V3.0;SNOMEDCTUS;NCI;NCI;NCI"/>
+<problem value="Alcohol" begin="74" end="81" status="0" certainty="0" cui="C0001975;C0001973;C0687725;C0001962;C0202304;C1547288" tui="T109,T121;T048;T101;T109;T059;T170" rank="797;795;765;744;571;355" code="NO-CODE" sourceType="LCH;SNMI;DXP;MMSL;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="110" end="169" sentText="However, only alcohol abuse is documented by the physician.">
+<RelationSet id="2572">
+<finding value="alcohol abuse" begin="124" end="137" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="170" end="235" sentText="In ICD-10-CM, how is alcohol abuse with alcohol withdrawal coded?">
+<RelationSet id="2572">
+<finding value="alcohol abuse" begin="191" end="204" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="237" end="555">
+<Sentence sentNo="4" begin="237" end="327" sentText="Answer: In ICD-10-CM, alcohol withdrawal is categorized as alcohol dependence, by default.">
+<RelationSet id="2573">
+<problem value="alcohol dependence" begin="296" end="314" status="0" certainty="0" cui="C0001973" tui="T048" rank="795" code="NO-CODE" sourceType="SNMI"/>
+<problem value="dependence" begin="304" end="314" status="0" certainty="0" cui="C0439857;C3244310;C0851827;C1701901;C0011546;C2698668" tui="T048;T169;T080;T080;T041;T089" rank="797;797;767;575;575;572" code="NO-CODE" sourceType="MDR;HL7V3.0;SNOMEDCTUS;NCI;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="328" end="422" sentText="The classification provides a combination code for alcohol dependence with alcohol withdrawal.">
+<RelationSet id="2574">
+<problem value="dependence" begin="387" end="397" status="0" certainty="0" cui="C0439857;C3244310;C0851827;C1701901;C0011546;C2698668" tui="T048;T169;T080;T080;T041;T089" rank="797;797;767;575;575;572" code="NO-CODE" sourceType="MDR;HL7V3.0;SNOMEDCTUS;NCI;NCI;NCI"/>
+<problem value="alcohol" begin="379" end="386" status="0" certainty="0" cui="C0001975;C0001973;C0687725;C0001962;C0202304;C1547288" tui="T109,T121;T048;T101;T109;T059;T170" rank="797;795;765;744;571;355" code="NO-CODE" sourceType="LCH;SNMI;DXP;MMSL;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="423" end="554" sentText="Therefore query the provider for clarification, when alcohol abuse and alcohol withdrawal are both documented in the health record.">
+<RelationSet id="2574">
+<finding value="alcohol abuse" begin="476" end="489" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

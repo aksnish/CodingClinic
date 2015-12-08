@@ -1,0 +1,2 @@
+Question: What is the appropriate code assignment for acute inflammatory demyelinating polyneuropathy? 
+Answer: Assign code G61.0, Guillain-Barre syndrome, for acute inflammatory demyelinating polyneuropathy. As noted in the Tabular List, code G61.0 includes acute (post-) infective polyneuritis. 

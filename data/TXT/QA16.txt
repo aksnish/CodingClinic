@@ -1,0 +1,2 @@
+Question: The patient presents for surgical treatment of an acute right basal ganglia intraparenchymal intracerebral hematoma. He underwent percutaneous endoscopic evacuation of an organized solid hematoma in the brain via a burr hole. What is the appropriate ICD-10-PCS code for this surgery? 
+Answer: “Extirpation” is the appropriate root operation since an organized solid hematoma was evacuated. Assign the following ICD-10-PCS code: 00C74ZZ 

@@ -1,0 +1,20 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="642">
+<Paragraph pgNo="1" begin="0" end="327">
+<Sentence sentNo="1" begin="0" end="73" sentText="Question: Term birth is marked on the Newborn Physical Examination sheet.">
+</Sentence>
+<Sentence sentNo="2" begin="74" end="163" sentText="The number of weeks from the mother’s chart (which is put in the baby’s chart) is 41 4/7.">
+</Sentence>
+<Sentence sentNo="3" begin="164" end="235" sentText="The mother’s chart is coded with the postterm pregnancy diagnosis code.">
+</Sentence>
+<Sentence sentNo="4" begin="236" end="326" sentText="Is it appropriate to assign diagnosis code P08.21, Post-term newborn, on the baby’s chart?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="328" end="641">
+<Sentence sentNo="5" begin="328" end="466" sentText="Answer: No, it would not be appropriate to assign code P08.21 on the baby’s chart without specific documentation from the baby’s provider.">
+</Sentence>
+<Sentence sentNo="6" begin="467" end="640" sentText="Codes P08.21, Post-term newborn, and P08.22, Prolonged gestation of newborn, should be assigned based only on information documented by the provider in the infant’s  record.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

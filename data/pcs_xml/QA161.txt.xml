@@ -1,0 +1,65 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="423">
+<Paragraph pgNo="1" begin="0" end="309">
+<Sentence sentNo="1" begin="0" end="71" sentText="Question: A patient underwent a repeat low transverse cesarean section.">
+<RelationSet id="960">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="transverse" begin="43" end="53" status="0" certainty="1"/>
+<procedure value="cesarean section" begin="54" end="70" status="0" certainty="1"/>
+</Relation>
+<modifier value="transverse;section" begin="43;63" end="53;70" status="0" certainty="1" cui="C0446380" tui="T082" rank="695" code="NO-CODE" sourceType="LNC"/>
+<modifier value="cesarean" begin="54" end="62" status="0" certainty="1" cui="S0000253" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="low transverse cesarean section" begin="39" end="70" status="0" certainty="1" cui="C0741849" tui="T061" rank="800" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="repeat;cesarean section" begin="32;54" end="38;70" status="0" certainty="1" cui="C0206101;C2053590" tui="T061;T033" rank="797;592" code="NO-CODE" sourceType="MSH;MEDCIN"/>
+<procedure value="cesarean section" begin="54" end="70" status="0" certainty="1" cui="C0007876" tui="T061" rank="797" code="NO-CODE" sourceType="MEDLINEPLUS"/>
+<procedure value="section" begin="63" end="70" status="0" certainty="1" cui="C0205155;C1522472;C1705191;C1552923;C1552924;C1552858;C1551341;C0700320" tui="T082;T167;T072;T081;T081;T078;T078;T059" rank="767;576;576;575;366;366;359;258" code="NO-CODE" sourceType="RCD;NCI;NCI;NCI;HL7V3.0;HL7V3.0;HL7V3.0;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="72" end="171" sentText="During the cesarean delivery, vacuum extraction was used to assist with the delivery of the infant.">
+<RelationSet id="961">
+<modifier value="cesarean" begin="83" end="91" status="0" certainty="0" cui="S0000253" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="cesarean delivery" begin="83" end="100" status="0" certainty="0" cui="C1384674;C0007876;C0195605;C0195625" tui="T033;T061;T061;T061" rank="765;627;271;271" code="NO-CODE" sourceType="SNOMEDCTUS;CPT;HCPT;HCPT"/>
+<procedure value="delivery" begin="92" end="100" status="0" certainty="0" cui="C0011209;C2053584;C1705822;C0559563" tui="T061;T033;T052;T033" rank="765;595;575;506" code="NO-CODE" sourceType="ICD10;MEDCIN;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="962">
+<procedure value="vacuum extraction" begin="102" end="119" status="0" certainty="0" cui="C0042225" tui="T061" rank="791" code="NO-CODE" sourceType="SNM"/>
+<procedure value="extraction" begin="109" end="119" status="0" certainty="0" cui="C0185115;C0684295" tui="T061;T059" rank="797;481" code="NO-CODE" sourceType="LCH;AOD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="172" end="308" sentText="What is the correct ICD-10-PCS qualifier (7th character) at table 10D, for low transverse cesarean section aided with vacuum extraction?">
+<RelationSet id="963">
+<procedure value="vacuum extraction" begin="290" end="307" status="0" certainty="0" cui="C0042225" tui="T061" rank="765" code="NO-CODE" sourceType="SNM"/>
+<procedure value="extraction" begin="297" end="307" status="0" certainty="0" cui="C0185115;C0684295" tui="T061;T059" rank="797;481" code="NO-CODE" sourceType="LCH;AOD"/>
+</RelationSet>
+<RelationSet id="964">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="low transverse" begin="247" end="261" status="0" certainty="0"/>
+<procedure value="cesarean section" begin="262" end="278" status="0" certainty="0"/>
+</Relation>
+<modifier value="low" begin="247" end="250" status="0" certainty="0" cui="C0205251;C0441994;C0234886;C2003888;C1708760;C2700150;C1550472;C1299352;C1619811;C1611820" tui="T080;T082;T039;T052;T080;T170;T078;T080;T080;T081" rank="797;767;750;576;576;572;366;366;366;366" code="NO-CODE" sourceType="RCD;RCD;SNOMEDCTUS;NCI;NCI;NCI;HL7V3.0;HL7V3.0;HL7V3.0;HL7V3.0"/>
+<modifier value="transverse;section" begin="251;271" end="261;278" status="0" certainty="0" cui="C0446380" tui="T082" rank="695" code="NO-CODE" sourceType="LNC"/>
+<modifier value="cesarean" begin="262" end="270" status="0" certainty="0" cui="S0000253" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="low transverse cesarean section" begin="247" end="278" status="0" certainty="0" cui="C0741849" tui="T061" rank="800" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="cesarean section" begin="262" end="278" status="0" certainty="0" cui="C0007876" tui="T061" rank="797" code="NO-CODE" sourceType="MEDLINEPLUS"/>
+<procedure value="section" begin="271" end="278" status="0" certainty="0" cui="C0205155;C1522472;C1705191;C1552923;C1552924;C1552858;C1551341;C0700320" tui="T082;T167;T072;T081;T081;T078;T078;T059" rank="767;576;576;575;366;366;359;258" code="NO-CODE" sourceType="RCD;NCI;NCI;NCI;HL7V3.0;HL7V3.0;HL7V3.0;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="310" end="422">
+<Sentence sentNo="4" begin="310" end="388" sentText="Answer: Vacuum assistance used with cesarean delivery is not separately coded.">
+<RelationSet id="965">
+<modifier value="cesarean" begin="346" end="354" status="0" certainty="0" cui="S0000253" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="cesarean delivery" begin="346" end="363" status="0" certainty="0" cui="C1384674;C0007876;C0195605;C0195625" tui="T033;T061;T061;T061" rank="765;627;271;271" code="NO-CODE" sourceType="SNOMEDCTUS;CPT;HCPT;HCPT"/>
+<procedure value="delivery" begin="355" end="363" status="0" certainty="0" cui="C0011209;C2053584;C1705822;C0559563" tui="T061;T033;T052;T033" rank="765;595;575;506" code="NO-CODE" sourceType="ICD10;MEDCIN;NCI;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="389" end="421" sentText="Code only the cesarean delivery.">
+<RelationSet id="966">
+<procedure value="only;cesarean delivery" begin="394;403" end="398;420" status="0" certainty="0" cui="C0372645" tui="T061" rank="629" code="NO-CODE" sourceType="CPT"/>
+<procedure value="cesarean delivery" begin="403" end="420" status="0" certainty="0" cui="C1384674;C0007876;C0195605;C0195625" tui="T033;T061;T061;T061" rank="765;627;271;271" code="NO-CODE" sourceType="SNOMEDCTUS;CPT;HCPT;HCPT"/>
+<procedure value="delivery" begin="412" end="420" status="0" certainty="0" cui="C0011209;C2053584;C1705822;C0559563" tui="T061;T033;T052;T033" rank="765;595;575;506" code="NO-CODE" sourceType="ICD10;MEDCIN;NCI;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

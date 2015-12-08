@@ -1,0 +1,125 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1615">
+<Paragraph pgNo="1" begin="0" end="376">
+<Sentence sentNo="1" begin="0" end="168" sentText="Question: If a physician documents “debridement of bone, fascia or muscle,” without specifying “excisional debridement,” can that be reported as excisional debridement?">
+<RelationSet id="1110">
+<anatomicalStructure value="fascia;muscle" begin="57;67" end="63;73" status="0" certainty="-3" cui="C0815393" tui="T023" rank="692" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="fascia" begin="57" end="63" status="0" certainty="-3" cui="C0015641;C1279051" tui="T024;T023" rank="797;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1111">
+<anatomicalStructure value="muscle" begin="67" end="73" status="0" certainty="-3" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="1112">
+<procedure value="debridement" begin="107" end="118" status="0" certainty="-2" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+<procedure value="excisional" begin="96" end="106" status="0" certainty="-2" cui="C0728940" tui="T061" rank="523" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+<RelationSet id="1113">
+<procedure value="debridement" begin="156" end="167" status="0" certainty="1" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+<procedure value="excisional" begin="145" end="155" status="0" certainty="1" cui="C0728940" tui="T061" rank="523" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+<RelationSet id="1114">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="debridement" begin="36" end="47" status="0" certainty="-3"/>
+<anatomicalStructure value="bone" begin="51" end="55" status="0" certainty="-3"/>
+</Relation>
+<procedure value="debridement;bone" begin="36;51" end="47;55" status="0" certainty="-3" cui="C0185221" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="debridement" begin="36" end="47" status="0" certainty="-3" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+<anatomicalStructure value="bone" begin="51" end="55" status="0" certainty="-3" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="169" end="375" sentText="In order for the surgeon to get down into these areas, wouldn’t he or she need to excise/ cut? What code should we report for debridement performed on bone, muscle or fascia, if not specified as excisional?">
+<RelationSet id="1115">
+<procedure value="debridement" begin="295" end="306" status="0" certainty="-3" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1116">
+<anatomicalStructure value="bone" begin="320" end="324" status="0" certainty="-3" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1117">
+<anatomicalStructure value="muscle;fascia" begin="326;336" end="332;342" status="0" certainty="-3" cui="C0815393" tui="T023" rank="692" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="muscle" begin="326" end="332" status="0" certainty="-3" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="1118">
+<anatomicalStructure value="fascia" begin="336" end="342" status="0" certainty="-3" cui="C0015641;C1279051" tui="T024;T023" rank="797;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="377" end="1614">
+<Sentence sentNo="3" begin="377" end="475" sentText="Answer: Coders cannot assume that the debridement of bone, fascia, or muscle is always excisional.">
+<RelationSet id="1119">
+<anatomicalStructure value="fascia" begin="436" end="442" status="0" certainty="-2" cui="C0015641;C1279051" tui="T024;T023" rank="797;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1120">
+<anatomicalStructure value="muscle" begin="447" end="453" status="0" certainty="-2" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="1121">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="bone" begin="430" end="434" status="0" certainty="-2"/>
+<procedure value="debridement" begin="415" end="426" status="0" certainty="-2"/>
+</Relation>
+<anatomicalStructure value="bone" begin="430" end="434" status="0" certainty="-2" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+<procedure value="debridement;bone" begin="415;430" end="426;434" status="0" certainty="-2" cui="C0185221" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="debridement" begin="415" end="426" status="0" certainty="-2" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="476" end="620" sentText="For example, if a patient suffers a traumatic open wound and fascia, muscle, or bone is exposed, an excisional debridement may not be performed.">
+<RelationSet id="1122">
+<problem value="open wound" begin="522" end="532" status="0" certainty="-3" cui="C0332798;C2116830" tui="T037;T033" rank="797;595" code="NO-CODE" sourceType="SNMI;MEDCIN"/>
+<problem value="traumatic" begin="512" end="521" status="0" certainty="-3" cui="C0043251;C1510467;C0332663;C3263723;C0548346" tui="T037;T037;T169;T037;T058" rank="791;789;767;765;317" code="NO-CODE" sourceType="ICPC2P;MSH;RCD;SNOMEDCTUS;PCDS"/>
+<problem value="wound" begin="527" end="532" status="0" certainty="-3" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797;C1550680;C1549529;C1547965" tui="T070;T037;T080;T033;T184;T169;T031;T169;T170" rank="795;792;788;767;709;703;366;355;355" code="NO-CODE" sourceType="MSH;MDR;MSH;RCD;MDR;SNMI;HL7V3.0;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1123">
+<anatomicalStructure value="fascia" begin="537" end="543" status="0" certainty="-3" cui="C0015641;C1279051" tui="T024;T023" rank="797;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1124">
+<anatomicalStructure value="muscle" begin="545" end="551" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="1125">
+<anatomicalStructure value="bone" begin="556" end="560" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1126">
+<procedure value="debridement" begin="587" end="598" status="0" certainty="0" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+<procedure value="excisional" begin="576" end="586" status="0" certainty="0" cui="C0728940" tui="T061" rank="523" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="621" end="730" sentText="ICD-10-PCS does not provide a default if the debridement is not specified as “excisional” or “nonexcisional.”">
+<RelationSet id="1127">
+<procedure value="debridement" begin="666" end="677" status="0" certainty="-3" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="731" end="808" sentText="In many cases, only nonexcisional debridement is required to clean the wound.">
+<RelationSet id="1128">
+<procedure value="debridement;clean;wound" begin="765;792;802" end="776;797;807" status="0" certainty="0" cui="C0455099" tui="T061" rank="234" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="debridement;wound" begin="765;802" end="776;807" status="0" certainty="0" cui="C0191342" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="debridement" begin="765" end="776" status="0" certainty="0" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1129">
+<problem value="wound" begin="802" end="807" status="0" certainty="0" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797;C1550680;C1549529;C1547965" tui="T070;T037;T080;T033;T184;T169;T031;T169;T170" rank="795;792;788;767;709;703;366;355;355" code="NO-CODE" sourceType="MSH;MDR;MSH;RCD;MDR;SNMI;HL7V3.0;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="809" end="883" sentText="Therefore, providers should specifically document the type of debridement.">
+<RelationSet id="1130">
+<procedure value="debridement" begin="871" end="882" status="0" certainty="0" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="884" end="979" sentText="Clear and concise documentation is needed in order to accurately report excisional debridement.">
+<RelationSet id="1131">
+<procedure value="debridement" begin="967" end="978" status="0" certainty="0" cui="C0011079;C3245462" tui="T061;T170" rank="797;366" code="NO-CODE" sourceType="LCH;HL7V3.0"/>
+<procedure value="excisional" begin="956" end="966" status="0" certainty="0" cui="C0728940" tui="T061" rank="523" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="980" end="1088" sentText="The link between good provider documentation and correct coding has always been emphasized in Coding Clinic.">
+</Sentence>
+<Sentence sentNo="10" begin="1089" end="1249" sentText="It is critical that hospitals work with their providers to ensure that the documentation used to support excisional debridement clearly describes the procedure.">
+<RelationSet id="1132">
+<modifier value="debridement" begin="1205" end="1216" status="1" certainty="0" cui="C3245462" tui="T170" rank="366" code="NO-CODE" sourceType="HL7V3.0"/>
+<procedure value="debridement;procedure" begin="1205;1239" end="1216;1248" status="1" certainty="0" cui="C0011079" tui="T061" rank="797" code="NO-CODE" sourceType="LCH"/>
+<procedure value="excisional" begin="1194" end="1204" status="1" certainty="0" cui="C0728940" tui="T061" rank="523" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="11" begin="1250" end="1443" sentText="Although this may pose some challenges to the coding community, if the documentation is not clear or there is any question about the procedure, the provider should be queried for clarification.">
+</Sentence>
+<Sentence sentNo="12" begin="1444" end="1613" sentText="To avoid queries, which are frustrating and burdensome to both coders and providers, physicians should be encouraged to provide clear documentation at the point of care.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

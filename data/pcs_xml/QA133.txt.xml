@@ -1,0 +1,161 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1006">
+<Paragraph pgNo="1" begin="0" end="377">
+<Sentence sentNo="1" begin="0" end="98" sentText="Question: A patient presents to our facility for evaluation of left hip and groin pain discomfort.">
+<RelationSet id="975">
+<modifier value="left" begin="63" end="67" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="976">
+<anatomicalStructure value="left hip" begin="63" end="71" status="0" certainty="0" cui="C0524471;C1268234;C0517668;C2945669" tui="T029;T029;T033;T033" rank="765;765;328;150" code="NO-CODE" sourceType="SNMI;SNOMEDCTUS;NOC;CHV"/>
+<anatomicalStructure value="hip" begin="68" end="71" status="0" certainty="0" cui="C0019552;C1423009;C1335638;C1337104;C1538823;C0529134;C1430701;C3538851;C1704840;C0022122;C1709823" tui="T023;T028;T028;T028;T028;T116,T123;T116,T123;T028;T028;T023;T028" rank="795;600;596;596;587;575;575;575;575;575;575" code="NO-CODE" sourceType="SNM;HGNC;HGNC;HGNC;HGNC;NCI;NCI;NCI;NCI;HL7V2.5;NCI"/>
+</RelationSet>
+<RelationSet id="977">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="groin" begin="76" end="81" status="0" certainty="0"/>
+<problem value="pain discomfort" begin="82" end="97" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="groin" begin="76" end="81" status="0" certainty="0" cui="C0018246;C1279151" tui="T029;T029" rank="795;234" code="NO-CODE" sourceType="LCH;SNOMEDCTUS"/>
+<problem value="groin pain" begin="76" end="86" status="0" certainty="0" cui="C0239783" tui="T184" rank="765" code="NO-CODE" sourceType="DXP"/>
+<problem value="pain" begin="82" end="86" status="0" certainty="0" cui="C0030193;C0234226;C1882272;C1557397;C0242936;C1549543" tui="T184;T169;T033;T033;T073,T093;T169" rank="797;767;551;551;366;355" code="NO-CODE" sourceType="ICPC2P;RCD;NCI;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="99" end="216" sentText="Arthroscopy was performed which revealed left hip femoroacetabular impingement with symptomatic labral tear (sprain).">
+<RelationSet id="978">
+<procedure value="Arthroscopy" begin="99" end="110" status="0" certainty="0" cui="C0003904" tui="T060" rank="795" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="979">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="labral tear" begin="195" end="206" status="0" certainty="0"/>
+<modifier value="symptomatic" begin="183" end="194" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="symptomatic" begin="183" end="194" status="0" certainty="0"/>
+<problem value="sprain" begin="208" end="214" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="hip" begin="145" end="148" status="0" certainty="0"/>
+<problem value="sprain" begin="208" end="214" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="labral tear" begin="195" end="206" status="0" certainty="0"/>
+<anatomicalStructure value="hip" begin="145" end="148" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="labral tear" begin="195" end="206" status="0" certainty="0"/>
+<modifier value="symptomatic" begin="183" end="194" status="0" certainty="0"/>
+<anatomicalStructure value="hip" begin="145" end="148" status="0" certainty="0"/>
+<modifier value="left" begin="140" end="144" status="0" certainty="0"/>
+<problem value="sprain" begin="208" end="214" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="left" begin="140" end="144" status="0" certainty="0"/>
+<problem value="sprain" begin="208" end="214" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="labral tear" begin="195" end="206" status="0" certainty="0"/>
+<modifier value="left" begin="140" end="144" status="0" certainty="0"/>
+</Relation>
+<problem value="tear" begin="202" end="206" status="0" certainty="0" cui="C1550271;C0039409;C0152227;C0043246;C0424109;C0423153;C1704633;C1611838;C1547924;C3203359" tui="T080;T031;T047;T037;T033;T033;T082;T031;T170;T037" rank="797;795;765;765;765;713;575;366;355;150" code="NO-CODE" sourceType="LNC;MSH;SNOMEDCTUS;RCD;RCD;OMIM;NCI;HL7V3.0;HL7V2.5;CHV"/>
+<anatomicalStructure value="labral" begin="195" end="201" status="0" certainty="0" cui="S0002494;C1185781" tui="t091;T023" rank="800;692" code="NO-CODE" sourceType="EZDI;UWDA"/>
+<modifier value="left" begin="140" end="144" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+<anatomicalStructure value="left hip" begin="140" end="148" status="0" certainty="0" cui="C0524471;C1268234;C0517668;C2945669" tui="T029;T029;T033;T033" rank="765;765;328;150" code="NO-CODE" sourceType="SNMI;SNOMEDCTUS;NOC;CHV"/>
+<anatomicalStructure value="hip" begin="145" end="148" status="0" certainty="0" cui="C0019552;C1423009;C1335638;C1337104;C1538823;C0529134;C1430701;C3538851;C1704840;C0022122;C1709823" tui="T023;T028;T028;T028;T028;T116,T123;T116,T123;T028;T028;T023;T028" rank="795;600;596;596;587;575;575;575;575;575;575" code="NO-CODE" sourceType="SNM;HGNC;HGNC;HGNC;HGNC;NCI;NCI;NCI;NCI;HL7V2.5;NCI"/>
+<problem value="sprain" begin="208" end="214" status="0" certainty="0" cui="C0038045" tui="T037" rank="797" code="NO-CODE" sourceType="ICPC2P"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="217" end="376" sentText="What are the appropriate diagnostic code assignments for these conditions? We cannot find any Index entries to help us locate the appropriate code assignments.">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="378" end="1005">
+<Sentence sentNo="4" begin="378" end="473" sentText="Answer: Assign code S73.192A, Other sprain of left hip, initial encounter, for the labral tear.">
+<RelationSet id="979">
+<problem value="3.192A, Other sprain of left hip, initial e" begin="400" end="443" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="980">
+<problem value="tear" begin="468" end="472" status="0" certainty="0" cui="C1550271;C0039409;C0152227;C0043246;C0424109;C0423153;C1704633;C1611838;C1547924;C3203359" tui="T080;T031;T047;T037;T033;T033;T082;T031;T170;T037" rank="797;795;765;765;765;713;575;366;355;150" code="NO-CODE" sourceType="LNC;MSH;SNOMEDCTUS;RCD;RCD;OMIM;NCI;HL7V3.0;HL7V2.5;CHV"/>
+<anatomicalStructure value="labral" begin="461" end="467" status="0" certainty="0" cui="S0002494;C1185781" tui="t091;T023" rank="800;692" code="NO-CODE" sourceType="EZDI;UWDA"/>
+</RelationSet>
+<RelationSet id="981">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="sprain" begin="414" end="420" status="0" certainty="0"/>
+<modifier value="left" begin="424" end="428" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="sprain" begin="414" end="420" status="0" certainty="0"/>
+<anatomicalStructure value="hip" begin="429" end="432" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="sprain" begin="414" end="420" status="0" certainty="0"/>
+<anatomicalStructure value="hip" begin="429" end="432" status="0" certainty="0"/>
+<modifier value="left" begin="424" end="428" status="0" certainty="0"/>
+</Relation>
+<problem value="Other sprain;left hip" begin="408;424" end="420;432" status="0" certainty="0" cui="C2859302" tui="T037" rank="397" code="NO-CODE" sourceType="ICD10CM"/>
+<problem value="Other sprain;hip" begin="408;429" end="420;432" status="0" certainty="0" cui="C0434424" tui="T037" rank="717" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="sprain;left hip" begin="414;424" end="420;432" status="0" certainty="0" cui="C2859265;C2031230" tui="t047;T037" rank="800;595" code="NO-CODE" sourceType="ICD10CM;MEDCIN"/>
+<problem value="Other sprain" begin="408" end="420" status="0" certainty="0" cui="C0565872" tui="T037" rank="717" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="sprain;hip" begin="414;429" end="420;432" status="0" certainty="0" cui="C0272889" tui="T037" rank="767" code="NO-CODE" sourceType="RCD"/>
+<problem value="sprain" begin="414" end="420" status="0" certainty="0" cui="C0038045" tui="T037" rank="797" code="NO-CODE" sourceType="ICPC2P"/>
+<anatomicalStructure value="left hip" begin="424" end="432" status="0" certainty="0" cui="C0524471;C1268234;C0517668;C2945669" tui="T029;T029;T033;T033" rank="765;765;328;150" code="NO-CODE" sourceType="SNMI;SNOMEDCTUS;NOC;CHV"/>
+<anatomicalStructure value="hip" begin="429" end="432" status="0" certainty="0" cui="C0019552;C1423009;C1335638;C1337104;C1538823;C0529134;C1430701;C3538851;C1704840;C0022122;C1709823" tui="T023;T028;T028;T028;T028;T116,T123;T116,T123;T028;T028;T023;T028" rank="795;600;596;596;587;575;575;575;575;575;575" code="NO-CODE" sourceType="SNM;HGNC;HGNC;HGNC;HGNC;NCI;NCI;NCI;NCI;HL7V2.5;NCI"/>
+<modifier value="left" begin="424" end="428" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="474" end="575" sentText="Assign code M25.852, Other specified joint disorders, left hip, for the femoroacetabular impingement.">
+<RelationSet id="981">
+<problem value="5.852, Other specified joint disorders, l" begin="488" end="529" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="982">
+<problem value="Other specified joint disorders" begin="495" end="526" status="0" certainty="0" cui="C0029746" tui="T047" rank="719" code="NO-CODE" sourceType="ICD9CM"/>
+<problem value="Other;joint disorders" begin="495;511" end="500;526" status="0" certainty="0" cui="C1442831" tui="T047" rank="719" code="NO-CODE" sourceType="ICD10"/>
+<problem value="joint disorders" begin="511" end="526" status="0" certainty="0" cui="C0022408" tui="T047" rank="765" code="NO-CODE" sourceType="NCI"/>
+<problem value="disorders" begin="517" end="526" status="0" certainty="0" cui="C0012634" tui="T047" rank="765" code="NO-CODE" sourceType="LCH"/>
+<anatomicalStructure value="joint" begin="511" end="516" status="0" certainty="0" cui="C0521339;C0022417;C0444497;C0392905;C1269611;C1706309" tui="T169;T030;T082;T022;T030;T074" rank="797;797;767;765;765;575" code="NO-CODE" sourceType="SNMI;MSH;RCD;ICF;RCD;NCI"/>
+</RelationSet>
+<RelationSet id="983">
+<modifier value="left" begin="528" end="532" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="984">
+<anatomicalStructure value="left hip" begin="528" end="536" status="0" certainty="0" cui="C0524471;C1268234;C0517668;C2945669" tui="T029;T029;T033;T033" rank="765;765;328;150" code="NO-CODE" sourceType="SNMI;SNOMEDCTUS;NOC;CHV"/>
+<anatomicalStructure value="hip" begin="533" end="536" status="0" certainty="0" cui="C0019552;C1423009;C1335638;C1337104;C1538823;C0529134;C1430701;C3538851;C1704840;C0022122;C1709823" tui="T023;T028;T028;T028;T028;T116,T123;T116,T123;T028;T028;T023;T028" rank="795;600;596;596;587;575;575;575;575;575;575" code="NO-CODE" sourceType="SNM;HGNC;HGNC;HGNC;HGNC;NCI;NCI;NCI;NCI;HL7V2.5;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="576" end="632" sentText="ICD-10-CM’s Index cross-references “tear” with “sprain.”">
+</Sentence>
+<Sentence sentNo="7" begin="633" end="712" sentText="Subcategory S73.1 includes tear of the cartilage, joint or ligament of the hip.">
+<RelationSet id="985">
+<anatomicalStructure value="joint;ligament;hip" begin="683;692;708" end="688;700;711" status="0" certainty="0" cui="C0225110;C1279168" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="joint;hip" begin="683;708" end="688;711" status="0" certainty="0" cui="C0019558;C1279144" tui="T030;T030" rank="797;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="hip" begin="708" end="711" status="0" certainty="0" cui="C0019552;C1423009;C1335638;C1337104;C1538823;C0529134;C1430701;C3538851;C1704840;C0022122;C1709823" tui="T023;T028;T028;T028;T028;T116,T123;T116,T123;T028;T028;T023;T028" rank="795;600;596;596;587;575;575;575;575;575;575" code="NO-CODE" sourceType="SNM;HGNC;HGNC;HGNC;HGNC;NCI;NCI;NCI;NCI;HL7V2.5;NCI"/>
+</RelationSet>
+<RelationSet id="986">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="tear" begin="660" end="664" status="0" certainty="0"/>
+<anatomicalStructure value="cartilage" begin="672" end="681" status="0" certainty="0"/>
+</Relation>
+<problem value="tear;cartilage" begin="660;672" end="664;681" status="0" certainty="0" cui="C0238218" tui="T037" rank="711" code="NO-CODE" sourceType="COSTAR"/>
+<problem value="tear" begin="660" end="664" status="0" certainty="0" cui="C1550271;C0039409;C0152227;C0043246;C0424109;C0423153;C1704633;C1611838;C1547924;C3203359" tui="T080;T031;T047;T037;T033;T033;T082;T031;T170;T037" rank="797;795;765;765;765;713;575;366;355;150" code="NO-CODE" sourceType="LNC;MSH;SNOMEDCTUS;RCD;RCD;OMIM;NCI;HL7V3.0;HL7V2.5;CHV"/>
+<anatomicalStructure value="cartilage" begin="672" end="681" status="0" certainty="0" cui="C0007301;C0442012" tui="T024;T082" rank="797;767" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="713" end="822" sentText="Sprains can include tears, and a tear is equivalent to a third degree sprain, which is a complete disruption.">
+<RelationSet id="987">
+<problem value="tear" begin="746" end="750" status="0" certainty="1" cui="C1550271;C0039409;C0152227;C0043246;C0424109;C0423153;C1704633;C1611838;C1547924;C3203359" tui="T080;T031;T047;T037;T033;T033;T082;T031;T170;T037" rank="797;795;765;765;765;713;575;366;355;150" code="NO-CODE" sourceType="LNC;MSH;SNOMEDCTUS;RCD;RCD;OMIM;NCI;HL7V3.0;HL7V2.5;CHV"/>
+</RelationSet>
+<RelationSet id="988">
+<problem value="sprain" begin="783" end="789" status="0" certainty="0" cui="C0038045" tui="T037" rank="797" code="NO-CODE" sourceType="ICPC2P"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="823" end="913" sentText="Additionally, ICD-10-CM does not provide a specific code for femoroacetabular impingement.">
+</Sentence>
+<Sentence sentNo="10" begin="914" end="1004" sentText="Code M25.85- can be referenced in the Index under Disorder, joint specified type NEC, hip.">
+<RelationSet id="989">
+<problem value="NEC" begin="995" end="998" status="0" certainty="0" cui="C2129066;C2986788;C0206695" tui="T033;T081;T191" rank="592;519;519" code="NO-CODE" sourceType="MEDCIN;NCI;NCI"/>
+<anatomicalStructure value="joint;NEC" begin="974;995" end="979;998" status="0" certainty="0" cui="C0555829" tui="T030" rank="719" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="990">
+<anatomicalStructure value="hip" begin="1000" end="1003" status="0" certainty="0" cui="C0019552;C1423009;C1335638;C1337104;C1538823;C0529134;C1430701;C3538851;C1704840;C0022122;C1709823" tui="T023;T028;T028;T028;T028;T116,T123;T116,T123;T028;T028;T023;T028" rank="795;600;596;596;587;575;575;575;575;575;575" code="NO-CODE" sourceType="SNM;HGNC;HGNC;HGNC;HGNC;NCI;NCI;NCI;NCI;HL7V2.5;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

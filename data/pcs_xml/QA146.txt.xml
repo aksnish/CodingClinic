@@ -1,0 +1,88 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="620">
+<Paragraph pgNo="1" begin="0" end="377">
+<Sentence sentNo="1" begin="0" end="107" sentText="Question: A patient presents for treatment of a traumatic injury of the facial nerve with facial paralysis.">
+<RelationSet id="268">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="facial nerve" begin="72" end="84" status="0" certainty="0"/>
+<problem value="traumatic injury" begin="48" end="64" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="facial nerve" begin="72" end="84" status="0" certainty="0"/>
+<problem value="facial paralysis" begin="90" end="106" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="facial nerve" begin="72" end="84" status="0" certainty="0"/>
+<problem value="traumatic injury" begin="48" end="64" status="0" certainty="1"/>
+<problem value="facial paralysis" begin="90" end="106" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="facial nerve" begin="72" end="84" status="0" certainty="0" cui="C0015462" tui="T023" rank="795" code="NO-CODE" sourceType="MTH"/>
+<anatomicalStructure value="facial" begin="72" end="78" status="0" certainty="0" cui="C0524465;C0015450;C1281591;C1423759;C2828055" tui="T082;T029;T023;T028;T028" rank="797;797;765;596;575" code="NO-CODE" sourceType="SNMI;LCH;SNOMEDCTUS;OMIM;NCI"/>
+<anatomicalStructure value="nerve" begin="79" end="84" status="0" certainty="0" cui="C0027740;C1280541;C0027769;C0599851;C0027757" tui="T024;T023;T184;T169;T024" rank="797;765;709;576;572" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;RCDSY;CSP;NCI"/>
+<problem value="injury;facial nerve" begin="58;72" end="64;84" status="0" certainty="1" cui="C0161408" tui="T037" rank="795" code="NO-CODE" sourceType="ICD10"/>
+<problem value="traumatic injury" begin="48" end="64" status="0" certainty="1" cui="C0740686" tui="T037" rank="150" code="NO-CODE" sourceType="CHV"/>
+<problem value="injury;facial" begin="58;72" end="64;78" status="0" certainty="1" cui="C0015459;C2228400" tui="T037;T033" rank="797;592" code="NO-CODE" sourceType="MSH;MEDCIN"/>
+<problem value="injury;nerve" begin="58;79" end="64;84" status="0" certainty="1" cui="C0161479" tui="T037" rank="767" code="NO-CODE" sourceType="MDR"/>
+<problem value="traumatic" begin="48" end="57" status="0" certainty="1" cui="C0043251;C0332663;C0043250;C0548346" tui="T037;T169;T037;T058" rank="791;767;536;317" code="NO-CODE" sourceType="ICPC2P;RCD;NCI;PCDS"/>
+<problem value="injury" begin="58" end="64" status="0" certainty="1" cui="C3263723;C1510467;C3263722" tui="T037;T037;T037" rank="797;794;765" code="NO-CODE" sourceType="ICPC2P;MSH;SNOMEDCTUS"/>
+<problem value="facial paralysis" begin="90" end="106" status="0" certainty="0" cui="C0015469;C0015464" tui="T047;T047" rank="797;711" code="NO-CODE" sourceType="OMIM;RCD"/>
+<anatomicalStructure value="facial" begin="90" end="96" status="0" certainty="0" cui="C0524465;C0015450;C1281591;C1423759;C2828055" tui="T082;T029;T023;T028;T028" rank="797;797;765;596;575" code="NO-CODE" sourceType="SNMI;LCH;SNOMEDCTUS;OMIM;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="108" end="205" sentText="At surgery, it was noted that a small branch of the right buccal nerve had been transected (cut).">
+<RelationSet id="269">
+<procedure value="surgery" begin="111" end="118" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="270">
+<modifier value="right" begin="160" end="165" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="271">
+<anatomicalStructure value="right buccal" begin="160" end="172" status="0" certainty="0" cui="C0925962" tui="T023" rank="692" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="buccal nerve" begin="166" end="178" status="0" certainty="0" cui="C0228737;C1281227" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="buccal" begin="166" end="172" status="0" certainty="0" cui="C0442010;C0007966;C1279153;C1522188;C1540415" tui="T082;T029;T023;T169;T029" rank="797;795;765;575;523" code="NO-CODE" sourceType="RCD;LCH;SNOMEDCTUS;SNOMEDCTUS;NCI"/>
+<anatomicalStructure value="nerve" begin="173" end="178" status="0" certainty="0" cui="C0027740;C1280541;C0027769;C0599851;C0027757" tui="T024;T023;T184;T169;T024" rank="797;765;709;576;572" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;RCDSY;CSP;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="206" end="318" sentText="The surgeon reimplanted (buried) the distal end of the transected (cut) nerve into the zygomaticus major muscle.">
+<RelationSet id="272">
+<anatomicalStructure value="end;nerve" begin="250;278" end="253;283" status="0" certainty="0" cui="C0027747" tui="T026" rank="697" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="nerve" begin="278" end="283" status="0" certainty="0" cui="C0027740;C1280541;C0027769;C0599851;C0027757" tui="T024;T023;T184;T169;T024" rank="797;765;709;576;572" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;RCDSY;CSP;NCI"/>
+</RelationSet>
+<RelationSet id="273">
+<anatomicalStructure value="zygomaticus major muscle" begin="293" end="317" status="0" certainty="0" cui="C0224115" tui="T023" rank="765" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="zygomaticus major" begin="293" end="310" status="0" certainty="0" cui="C1304943" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="zygomaticus" begin="293" end="304" status="0" certainty="0" cui="C1710708" tui="T023" rank="576" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="muscle" begin="311" end="317" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="319" end="376" sentText="What is the appropriate ICD-10-PCS code for this surgery?">
+<RelationSet id="274">
+<procedure value="surgery" begin="368" end="375" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="378" end="619">
+<Sentence sentNo="5" begin="378" end="510" sentText="Answer: In this case, the facial nerve was moved to another location; therefore “reposition” is the most appropriate root operation.">
+<RelationSet id="275">
+<anatomicalStructure value="facial nerve" begin="404" end="416" status="0" certainty="0" cui="C0015462" tui="T023" rank="795" code="NO-CODE" sourceType="MTH"/>
+<anatomicalStructure value="facial" begin="404" end="410" status="0" certainty="0" cui="C0524465;C0015450;C1281591;C1423759;C2828055" tui="T082;T029;T023;T028;T028" rank="797;797;765;596;575" code="NO-CODE" sourceType="SNMI;LCH;SNOMEDCTUS;OMIM;NCI"/>
+<anatomicalStructure value="nerve" begin="411" end="416" status="0" certainty="0" cui="C0027740;C1280541;C0027769;C0599851;C0027757" tui="T024;T023;T184;T169;T024" rank="797;765;709;576;572" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;RCDSY;CSP;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="511" end="618" sentText="For the reimplantation of the right facial nerve into the muscle, assign ICD-10PCS code as follows: 00SM0ZZ">
+<RelationSet id="276">
+<modifier value="right" begin="541" end="546" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="277">
+<anatomicalStructure value="facial;muscle" begin="547;569" end="553;575" status="0" certainty="0" cui="C0015460;C3665483" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="facial nerve" begin="547" end="559" status="0" certainty="0" cui="C0015462" tui="T023" rank="795" code="NO-CODE" sourceType="MTH"/>
+<anatomicalStructure value="facial" begin="547" end="553" status="0" certainty="0" cui="C0524465;C0015450;C1281591;C1423759;C2828055" tui="T082;T029;T023;T028;T028" rank="797;797;765;596;575" code="NO-CODE" sourceType="SNMI;LCH;SNOMEDCTUS;OMIM;NCI"/>
+<anatomicalStructure value="nerve" begin="554" end="559" status="0" certainty="0" cui="C0027740;C1280541;C0027769;C0599851;C0027757" tui="T024;T023;T184;T169;T024" rank="797;765;709;576;572" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;RCDSY;CSP;NCI"/>
+</RelationSet>
+<RelationSet id="278">
+<anatomicalStructure value="muscle" begin="569" end="575" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

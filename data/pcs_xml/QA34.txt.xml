@@ -1,0 +1,77 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="639">
+<Paragraph pgNo="1" begin="0" end="435">
+<Sentence sentNo="1" begin="0" end="143" sentText="Question: The patient is admitted for placement of an inflatable penile implant due to impotence that is the result of a radical prostatectomy.">
+<RelationSet id="305">
+<modifier value="inflatable" begin="54" end="64" status="0" certainty="1" cui="S0001089" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="penile implant" begin="65" end="79" status="0" certainty="1" cui="C0403319;C0030850" tui="T061;T074" rank="795;790" code="NO-CODE" sourceType="MSH;MSH"/>
+<procedure value="implant" begin="72" end="79" status="0" certainty="1" cui="C0021102;C3244302;C0021107;C0032098;C1704229;C1705604;C0029976;C1711357;C1692876;C1546675" tui="T074;T169;T061;T002;T122;T081;T040;T169;T169;T170" rank="797;797;767;765;765;765;716;575;366;355" code="NO-CODE" sourceType="SNOMEDCTUS;HL7V3.0;RCD;RCD;NCI;NCI;SNM;NCI;HL7V3.0;HL7V2.5"/>
+<procedure value="penile" begin="65" end="71" status="0" certainty="1" cui="C0030851;C1280739;C0149627;C0154089;C1709494;C0869881" tui="T023;T023;T191;T191;T024;T061" rank="797;765;610;610;572;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM"/>
+</RelationSet>
+<RelationSet id="306">
+<problem value="impotence" begin="87" end="96" status="0" certainty="0" cui="C0242350;C2187990" tui="T047;T184" rank="791;592" code="NO-CODE" sourceType="DSM3R;MEDCIN"/>
+</RelationSet>
+<RelationSet id="307">
+<modifier value="radical" begin="121" end="128" status="0" certainty="0" cui="C0439807;C0302912" tui="T080;T104" rank="767;767" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<procedure value="radical prostatectomy" begin="121" end="142" status="0" certainty="0" cui="C0194810" tui="T061" rank="767" code="NO-CODE" sourceType="ICD10AM"/>
+<procedure value="prostatectomy" begin="129" end="142" status="0" certainty="0" cui="C0033573" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="144" end="341" sentText="A reservoir was deployed at the pre-pubic area below the fascia; the implant cylinders were deployed in the right corporal body and left corporal body; the pump was placed in the right hemiscrotum.">
+<RelationSet id="308">
+<anatomicalStructure value="pubic area" begin="180" end="190" status="0" certainty="0" cui="C0230189" tui="T029" rank="575" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="pubic" begin="180" end="185" status="0" certainty="0" cui="C1279105;C0034014" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+</RelationSet>
+<RelationSet id="309">
+<anatomicalStructure value="fascia" begin="201" end="207" status="0" certainty="0" cui="C0015641;C1279051" tui="T024;T023" rank="797;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="310">
+<medicalDevice value="cylinders" begin="221" end="230" status="0" certainty="0" cui="C0946010;C1704654;C1705109;C0181797" tui="T082;T081;T073;T074" rank="692;575;575;562" code="NO-CODE" sourceType="NCI;NCI;NCI;NCI"/>
+<medicalDevice value="implant" begin="213" end="220" status="0" certainty="0" cui="C0021102;C3244302;C0021107;C0032098;C1704229;C1705604;C0029976;C1711357;C1692876;C1546675" tui="T074;T169;T061;T002;T122;T081;T040;T169;T169;T170" rank="797;797;767;765;765;765;716;575;366;355" code="NO-CODE" sourceType="SNOMEDCTUS;HL7V3.0;RCD;RCD;NCI;NCI;SNM;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="311">
+<modifier value="right" begin="252" end="257" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="312">
+<anatomicalStructure value="body" begin="267" end="271" status="0" certainty="0" cui="S1000390;C1268086;C1551342;C0242821" tui="t061;T017;T078;T016" rank="800;753;575;151" code="NO-CODE" sourceType="EZDI;NCI;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="313">
+<anatomicalStructure value="body" begin="290" end="294" status="0" certainty="0" cui="S1000390;C1268086;C1551342;C0242821" tui="t061;T017;T078;T016" rank="800;753;575;151" code="NO-CODE" sourceType="EZDI;NCI;NCI;CHV"/>
+</RelationSet>
+<RelationSet id="314">
+<medicalDevice value="pump" begin="300" end="304" status="0" certainty="0" cui="C0182537;C1706421;C1150186;C1556080" tui="T074;T073;T044;T170" rank="767;575;456;366" code="NO-CODE" sourceType="UMD;NCI;GO;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="315">
+<modifier value="right" begin="323" end="328" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="316">
+<anatomicalStructure value="hemiscrotum" begin="329" end="340" status="0" certainty="0" cui="C0036471;C1280740;C0153604;C0154011" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="342" end="395" sentText="In ICD-10-PCS is it classified as an infusion device?">
+<RelationSet id="317">
+<procedure value="infusion" begin="379" end="387" status="0" certainty="0" cui="C0574032;C1827465" tui="T061;T169" rank="767;366" code="NO-CODE" sourceType="MDR;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="396" end="434" sentText="What are the codes for this procedure?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="436" end="638">
+<Sentence sentNo="5" begin="436" end="562" sentText="Answer: The parts of the prosthesis are all one contained closed circuit device intended to augment the function of the penis.">
+<RelationSet id="318">
+<medicalDevice value="prosthesis" begin="461" end="471" status="0" certainty="0" cui="S0000880;C0175649;C0525024;C0039828;C0347948" tui="t061;T074;T061;T170;T074" rank="800;797;581;481;234" code="NO-CODE" sourceType="EZDI;MSH;MTHMST;CHV;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="319">
+<anatomicalStructure value="penis" begin="556" end="561" status="0" certainty="0" cui="C0030851;C1280739;C0149627;C0154089;C1709494;C0869881;C1070230" tui="T023;T023;T191;T191;T024;T061;T204" rank="797;765;610;610;572;373;150" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10;NCI;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="563" end="592" sentText="It is not an infusion device.">
+<RelationSet id="320">
+<procedure value="infusion" begin="576" end="584" status="0" certainty="-2" cui="C0574032;C1827465" tui="T061;T169" rank="767;366" code="NO-CODE" sourceType="MDR;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="593" end="638" sentText="Assign the following ICD-10-PCS code: 0VUS0JZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

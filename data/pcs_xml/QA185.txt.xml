@@ -1,0 +1,77 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="757">
+<Paragraph pgNo="1" begin="0" end="383">
+<Sentence sentNo="1" begin="0" end="78" sentText="Question: The patient had uterine adenocarcinoma and was admitted for surgery.">
+<RelationSet id="1090">
+<problem value="uterine adenocarcinoma" begin="26" end="48" status="0" certainty="1" cui="C1153706" tui="T191" rank="767" code="NO-CODE" sourceType="RCD"/>
+<problem value="adenocarcinoma" begin="34" end="48" status="0" certainty="1" cui="C0001418" tui="T191" rank="797" code="NO-CODE" sourceType="LCH"/>
+<problem value="uterine" begin="26" end="33" status="0" certainty="1" cui="C0042149;C1269032;C0496919;C0869889;C1519876" tui="T023;T023;T191;T060;T024" rank="797;765;610;592;575" code="NO-CODE" sourceType="ICD10AM;SNOMEDCTUS;ICD10;MEDCIN;NCI"/>
+</RelationSet>
+<RelationSet id="1091">
+<procedure value="surgery" begin="70" end="77" status="0" certainty="1" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="79" end="224" sentText="The surgeon noted in the dictated report  that numerous  adhesions between the abdominal wall and uterus were carefully and thoroughly dissected.">
+<RelationSet id="1092">
+<anatomicalStructure value="abdominal wall" begin="158" end="172" status="0" certainty="0" cui="C0836916;C1269041" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="abdominal" begin="158" end="167" status="0" certainty="0" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="225" end="335" sentText="Following extensive lysis, a total abdominal hysterectomy and bilateral salpingooophorectomy were carried out.">
+<RelationSet id="1093">
+<procedure value="total abdominal hysterectomy" begin="254" end="282" status="0" certainty="0" cui="C0404079" tui="T061" rank="797" code="NO-CODE" sourceType="CCS"/>
+<procedure value="abdominal hysterectomy" begin="260" end="282" status="0" certainty="0" cui="C0404077" tui="T061" rank="767" code="NO-CODE" sourceType="COSTAR"/>
+<procedure value="total;hysterectomy" begin="254;270" end="259;282" status="0" certainty="0" cui="C0677962;C0372591;C0372590" tui="T061;T061;T061" rank="767;271;271" code="NO-CODE" sourceType="MEDCIN;CPT;CPT"/>
+<procedure value="hysterectomy" begin="270" end="282" status="0" certainty="0" cui="C0020699;C1548863" tui="T061;T058" rank="797;355" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+<anatomicalStructure value="abdominal" begin="260" end="269" status="0" certainty="0" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+</RelationSet>
+<RelationSet id="1093">
+<procedure value="salpingooophorectomy" begin="297" end="317" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="336" end="382" sentText="In this case should the  adhesions  be  coded?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="384" end="756">
+<Sentence sentNo="5" begin="384" end="396" sentText="Answer: Yes.">
+</Sentence>
+<Sentence sentNo="6" begin="397" end="520" sentText="Assign code N73.6, Female pelvic peritoneal adhesions (postinfective), as an additional diagnosis for the pelvic adhesions.">
+<RelationSet id="1094">
+<problem value="Female pelvic peritoneal adhesions;postinfective" begin="416;452" end="450;465" status="0" certainty="0" cui="C2903121" tui="T047" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="Female pelvic peritoneal adhesions" begin="416" end="450" status="0" certainty="0" cui="C0156331" tui="T047" rank="767" code="NO-CODE" sourceType="MTHICD9"/>
+<problem value="peritoneal adhesions" begin="430" end="450" status="0" certainty="0" cui="C0156181;C0375362" tui="T020;T047" rank="797;293" code="NO-CODE" sourceType="ICD10;ICD9CM"/>
+<problem value="pelvic;adhesions" begin="423;441" end="429;450" status="0" certainty="0" cui="C0262591;C1386453" tui="T047;T047,T190" rank="797;797" code="NO-CODE" sourceType="MDR;MTH"/>
+<problem value="adhesions" begin="441" end="450" status="0" certainty="0" cui="C0001511;C0175633" tui="T046;T070" rank="767;576" code="NO-CODE" sourceType="LCH;NCI"/>
+<anatomicalStructure value="pelvic peritoneal" begin="423" end="440" status="0" certainty="0" cui="C0230295;C0521444" tui="T023;T082" rank="797;703" code="NO-CODE" sourceType="SNM;SNMI"/>
+<anatomicalStructure value="Female pelvic" begin="416" end="429" status="0" certainty="0" cui="C0735411" tui="T029" rank="692" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="peritoneal" begin="430" end="440" status="0" certainty="0" cui="C0031153;C0442034;C0496954;C0496874" tui="T023;T029;T191;T191" rank="797;797;610;610" code="NO-CODE" sourceType="LCH;RCD;ICD10;ICD10"/>
+<anatomicalStructure value="pelvic" begin="423" end="429" status="0" certainty="0" cui="C0030797;C1279864;C0153663;C0559769;C0030786" tui="T029;T023;T191;T030;T023" rank="797;765;610;575;571" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="1095">
+<problem value="pelvic adhesions" begin="503" end="519" status="0" certainty="0" cui="C0262591;C1386453" tui="T047;T047,T190" rank="797;489" code="NO-CODE" sourceType="MDR;ICPC2P"/>
+<problem value="adhesions" begin="510" end="519" status="0" certainty="0" cui="C0001511;C0175633" tui="T046;T070" rank="767;576" code="NO-CODE" sourceType="LCH;NCI"/>
+<anatomicalStructure value="pelvic" begin="503" end="509" status="0" certainty="0" cui="C0030797;C1279864;C0153663;C0559769;C0030786" tui="T029;T023;T191;T030;T023" rank="797;765;610;575;571" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="521" end="670" sentText="In this case, extensive lysis of numerous  adhesions was  required before the definitive surgery, total abdominal hysterectomy, could be carried out.">
+<RelationSet id="1096">
+<procedure value="surgery" begin="610" end="617" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1097">
+<procedure value="total abdominal hysterectomy" begin="619" end="647" status="0" certainty="0" cui="C0404079" tui="T061" rank="797" code="NO-CODE" sourceType="CCS"/>
+<procedure value="abdominal hysterectomy" begin="625" end="647" status="0" certainty="0" cui="C0404077" tui="T061" rank="767" code="NO-CODE" sourceType="COSTAR"/>
+<procedure value="total;hysterectomy" begin="619;635" end="624;647" status="0" certainty="0" cui="C0677962;C0372591;C0372590" tui="T061;T061;T061" rank="767;271;271" code="NO-CODE" sourceType="MEDCIN;CPT;CPT"/>
+<procedure value="hysterectomy" begin="635" end="647" status="0" certainty="0" cui="C0020699;C1548863" tui="T061;T058" rank="797;355" code="NO-CODE" sourceType="MSH;HL7V2.5"/>
+<anatomicalStructure value="abdominal" begin="625" end="634" status="0" certainty="0" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="671" end="755" sentText="Both the diagnosis of pelvic adhesions and the adhesiolysis are appropriately coded.">
+<RelationSet id="1098">
+<problem value="pelvic adhesions" begin="693" end="709" status="0" certainty="0" cui="C0262591;C1386453" tui="T047;T047,T190" rank="797;489" code="NO-CODE" sourceType="MDR;ICPC2P"/>
+<problem value="adhesions" begin="700" end="709" status="0" certainty="0" cui="C0001511;C0175633" tui="T046;T070" rank="767;576" code="NO-CODE" sourceType="LCH;NCI"/>
+<problem value="pelvic" begin="693" end="699" status="0" certainty="0" cui="C0030797;C1279864;C0153663;C0559769;C0030786" tui="T029;T023;T191;T030;T023" rank="797;765;610;575;571" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;ICD10;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

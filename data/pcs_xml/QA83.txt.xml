@@ -1,0 +1,116 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="912">
+<Paragraph pgNo="1" begin="0" end="73">
+<Sentence sentNo="1" begin="0" end="72" sentText="Question: A patient with cervical stenosis presented for laminoplasty of">
+<RelationSet id="2035">
+<problem value="cervical stenosis" begin="25" end="42" status="0" certainty="1" cui="C0269199" tui="T190" rank="797" code="NO-CODE" sourceType="DXP"/>
+<problem value="stenosis" begin="34" end="42" status="0" certainty="1" cui="C1261287;C0009814;C2632116;C0678234;C0333181;C0947637" tui="T190;T046;T204;T080;T169;T046" rank="797;767;751;724;703;286" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCBI;RCD;SNMI;SNOMEDCTUS"/>
+<anatomicalStructure value="cervical" begin="25" end="33" status="0" certainty="1" cui="C0027530;C0205064;C0007874;C1281592;C2137077;C0200040;C1550623;C1546592" tui="T029;T082;T023;T023;T033;T061;T031;T170" rank="797;797;790;765;592;373;366;355" code="NO-CODE" sourceType="CST;RCD;RCD;SNOMEDCTUS;MEDCIN;ICD10AM;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2036">
+<procedure value="laminoplasty" begin="57" end="69" status="0" certainty="1" cui="C1535956" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="74" end="911">
+<Sentence sentNo="2" begin="75" end="87" sentText="evels C3-C7.">
+</Sentence>
+<Sentence sentNo="3" begin="88" end="177" sentText="The patient was l prepped for surgery and a midline posterior cervical incision was made.">
+<RelationSet id="2037">
+<procedure value="surgery" begin="118" end="125" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2038">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="cervical incision" begin="150" end="167" status="0" certainty="0"/>
+<modifier value="posterior" begin="140" end="149" status="0" certainty="0"/>
+</Relation>
+<procedure value="cervical incision" begin="150" end="167" status="0" certainty="0" cui="C0442944;C0195270" tui="T061;T061" rank="767;765" code="NO-CODE" sourceType="RCD;RCD"/>
+<procedure value="midline;incision" begin="132;159" end="139;167" status="0" certainty="0" cui="C0456276" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="incision" begin="159" end="167" status="0" certainty="0" cui="C0184898;C2096041" tui="T061;T033" rank="767;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+<procedure value="cervical" begin="150" end="158" status="0" certainty="0" cui="C0027530;C0205064;C0007874;C1281592;C2137077;C0200040;C1550623;C1546592" tui="T029;T082;T023;T023;T033;T061;T031;T170" rank="797;797;790;765;592;373;366;355" code="NO-CODE" sourceType="CST;RCD;RCD;SNOMEDCTUS;MEDCIN;ICD10AM;HL7V3.0;HL7V2.5"/>
+<modifier value="posterior" begin="140" end="149" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="178" end="324" sentText="A drill was used to create a multi-segment osteotomy through the junction of the lamina and facet joint on the right side from levels C7 up to C3.">
+<RelationSet id="2039">
+<modifier value="multi-segment" begin="207" end="220" status="1" certainty="0" cui="C0441635;C0439064" tui="T082;T081" rank="767;575" code="NO-CODE" sourceType="NCI;LNC"/>
+</RelationSet>
+<RelationSet id="2040">
+<procedure value="osteotomy" begin="221" end="230" status="1" certainty="0" cui="C0029468;C3668862;C3668863;C3668864;C3668865" tui="T061;T061;T061;T061;T061" rank="797;353;353;353;353" code="NO-CODE" sourceType="MSH;CPT;CPT;CPT;CPT"/>
+</RelationSet>
+<RelationSet id="2041">
+<anatomicalStructure value="lamina" begin="259" end="265" status="0" certainty="0" cui="C0205274;C0920995;C2700402;C1033802" tui="T082;T023;T002;T204" rank="797;687;575;430" code="NO-CODE" sourceType="SNMI;UWDA;NCI;NCBI"/>
+</RelationSet>
+<RelationSet id="2042">
+<anatomicalStructure value="facet joint" begin="270" end="281" status="0" certainty="0" cui="C0224521;C1267117" tui="T030;T030" rank="791;765" code="NO-CODE" sourceType="SNMI;SNOMEDCTUS"/>
+<anatomicalStructure value="facet" begin="270" end="275" status="0" certainty="0" cui="C0332225;C0222679" tui="T082;T029" rank="767;765" code="NO-CODE" sourceType="SNMI;SNOMEDCTUS"/>
+<anatomicalStructure value="joint" begin="276" end="281" status="0" certainty="0" cui="C0521339;C0022417;C0444497;C0392905;C1269611;C1706309" tui="T169;T030;T082;T022;T030;T074" rank="797;797;767;765;765;575" code="NO-CODE" sourceType="SNMI;MSH;RCD;ICF;RCD;NCI"/>
+</RelationSet>
+<RelationSet id="2043">
+<anatomicalStructure value="levels;C3" begin="305;321" end="311;323" status="0" certainty="0" cui="C0446413" tui="T029" rank="692" code="NO-CODE" sourceType="UWDA"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="325" end="469" sentText="On the left side, a junction of the facet and lamina at each level was scored with the drill from C7 to C3 to create a stress riser in the bone.">
+<RelationSet id="2044">
+<anatomicalStructure value="lamina" begin="371" end="377" status="0" certainty="0" cui="C0205274;C0920995;C2700402;C1033802" tui="T082;T023;T002;T204" rank="797;687;575;430" code="NO-CODE" sourceType="SNMI;UWDA;NCI;NCBI"/>
+</RelationSet>
+<RelationSet id="2044">
+<anatomicalStructure value="C7" begin="423" end="425" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2044">
+<anatomicalStructure value="C3" begin="429" end="431" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2045">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="bone" begin="464" end="468" status="0" certainty="0"/>
+<problem value="stress" begin="444" end="450" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="bone" begin="464" end="468" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="470" end="538" sentText="The laminae were then cracked back to expand the spinal canal space.">
+<RelationSet id="2046">
+<anatomicalStructure value="laminae" begin="474" end="481" status="0" certainty="0" cui="C0920995;C2700402;C1033802" tui="T023;T002;T204" rank="687;575;430" code="NO-CODE" sourceType="UWDA;NCI;NCBI"/>
+</RelationSet>
+<RelationSet id="2047">
+<anatomicalStructure value="spinal canal" begin="519" end="531" status="0" certainty="0" cui="C0037922" tui="T030" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="spinal" begin="519" end="525" status="0" certainty="0" cui="C0037949;C1267072;C0521329;C1280065" tui="T023;T023;T082;T023" rank="795;765;703;234" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="canal" begin="526" end="531" status="0" certainty="0" cui="C0442636;C1550227" tui="T083;T023" rank="767;576" code="NO-CODE" sourceType="RCD;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="539" end="625" sentText="A 12-mm allograft strut graft was selected and shaped, then attached to a graft plate.">
+<RelationSet id="2048">
+<procedure value="allograft" begin="547" end="556" status="0" certainty="0" cui="C0450127;C0040739;C1546537" tui="T122;T061;T170" rank="795;790;355" code="NO-CODE" sourceType="RCD;ICD10AM;HL7V2.5"/>
+<procedure value="graft" begin="563" end="568" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+<RelationSet id="2049">
+<medicalDevice value="plate" begin="619" end="624" status="0" certainty="0" cui="C0005971;C0407295;C1139930;C3537155" tui="T074;T061;T074;T073" rank="765;765;686;575" code="NO-CODE" sourceType="RCD;RCD;UMD;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="626" end="776" sentText="The allograft and plate construct was then placed between the cut edge of the lamina on the right and the swinging door and then anchored with screws.">
+<RelationSet id="2050">
+<medicalDevice value="plate" begin="644" end="649" status="0" certainty="0" cui="C0005971;C0407295;C1139930;C3537155" tui="T074;T061;T074;T073" rank="765;765;686;575" code="NO-CODE" sourceType="RCD;RCD;UMD;NCI"/>
+</RelationSet>
+<RelationSet id="2051">
+<anatomicalStructure value="lamina" begin="704" end="710" status="0" certainty="0" cui="C0205274;C0920995;C2700402;C1033802" tui="T082;T023;T002;T204" rank="797;687;575;430" code="NO-CODE" sourceType="SNMI;UWDA;NCI;NCBI"/>
+</RelationSet>
+<RelationSet id="2052">
+<medicalDevice value="screws" begin="769" end="775" status="0" certainty="0" cui="C0301559;C0005975;C0441634;C1704683" tui="T074;T074;T169;T074" rank="797;765;711;575" code="NO-CODE" sourceType="SNM;RCD;SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="777" end="834" sentText="This procedure was performed at each level C3 through C7.">
+<RelationSet id="2053">
+<anatomicalStructure value="level C3" begin="814" end="822" status="0" certainty="0" cui="C0446413" tui="T029" rank="692" code="NO-CODE" sourceType="UWDA"/>
+</RelationSet>
+<RelationSet id="2054">
+<anatomicalStructure value="level;C7" begin="814;831" end="819;833" status="0" certainty="0" cui="C0446417" tui="T029" rank="692" code="NO-CODE" sourceType="UWDA"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="835" end="910" sentText="What are the appropriate root operation, and body system, for laminoplasty?">
+<RelationSet id="2055">
+<procedure value="laminoplasty" begin="897" end="909" status="0" certainty="0" cui="C1535956" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,2 @@
+Question: The patient was admitted with gastrointestinal bleeding. The provider performed microbead embolization to the inferior mesenteric artery, to totally occlude the artery. What is the appropriate ICD-10-PCS  procedure  code? 
+Answer: Microcoils and microbeads are classified as intraluminal devices. The device key entry for “Embolization coils” advises coders to use intraluminal device. Assign ICD-10-PCS code as follows: 04LB3DZ Occlusion of inferior mesenteric artery with intraluminal device, percutaneous  approach. 

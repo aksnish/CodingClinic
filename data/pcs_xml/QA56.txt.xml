@@ -1,0 +1,69 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1102">
+<Paragraph pgNo="1" begin="0" end="320">
+<Sentence sentNo="1" begin="0" end="319" sentText="Question: When a Rh negative mother delivers at term without complication, and she is administered Rhogam prophylactically during the admission, would code Z31.82, Encounter for Rh incompatibility status, be assigned or is code O36.093-, Maternal care for other rhesus isoimmunization, third trimester more appropriate?">
+<RelationSet id="1086">
+<med value="Rhogam" begin="99" end="105" status="0" certainty="-2" cui="C0702053" tui="T116,T121,T129" rank="792" code="NO-CODE" sourceType="SNMI"/>
+</RelationSet>
+<RelationSet id="1086">
+<problem value="1.82, Encounter for Rh incompatibility " begin="158" end="197" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1086">
+<finding value="Rh incompatibility status" begin="178" end="203" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1087">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="negative" begin="20" end="28" status="0" certainty="-2"/>
+<lab value="Rh" begin="17" end="19" status="0" certainty="1" code="NO-CODE" cui="34992;35493;35403;2699077" tui="T129;T185;T169;T196" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</Relation>
+<lab value="Rh" begin="17" end="19" status="0" certainty="1" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+<modifier value="Rh negative" begin="17" end="28" status="0" certainty="-2" cui="C0427630;C2699077" tui="T033;T185" rank="765;575" code="NO-CODE" sourceType="RCD;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="321" end="1101">
+<Sentence sentNo="2" begin="321" end="462" sentText="Answer: Assign code O26.893, Other specified pregnancy related conditions, third trimester, along with other codes to represent the delivery.">
+<RelationSet id="1087">
+<problem value="6.893, Other specified pregnancy related conditions, third tr" begin="343" end="404" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="463" end="588" sentText="Code Z67.91, Unspecified blood type, Rh negative, may be assigned as an additional diagnosis, if the blood type is not known.">
+<RelationSet id="1087">
+<problem value="7.91, Unspecified blood type, Rh ne" begin="470" end="505" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1087">
+<lab value="Unspecified blood type" begin="476" end="498" status="0" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1088">
+<lab value="Rh" begin="500" end="502" status="0" certainty="-3" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1089">
+<modifier value="Rh negative" begin="500" end="511" status="0" certainty="-3" cui="C0427630;C2699077" tui="T033;T185" rank="765;575" code="NO-CODE" sourceType="RCD;NCI"/>
+</RelationSet>
+<RelationSet id="1089">
+<lab value="blood type" begin="564" end="574" status="0" certainty="-3" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="589" end="672" sentText="If the blood type is known, a more specific code from category Z67 can be assigned.">
+<RelationSet id="1089">
+<lab value="blood type" begin="596" end="606" status="0" certainty="-3" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="673" end="806" sentText="Codes in category O36, Maternal care for rhesus isoimmunization, are not appropriate since the patient does not have isoimmunization.">
+</Sentence>
+<Sentence sentNo="6" begin="807" end="861" sentText="Prophylaxis is being given to prevent isoimmunization.">
+<RelationSet id="1089">
+<med value="Prophylaxis" begin="807" end="818" status="0" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="862" end="1100" sentText="Additionally, code Z31.82, Encounter for Rh incompatibility status, is not appropriate, as according to the ICD-10-CM Official Guidelines for Coding and Reporting, this code may only be reported as the principal or first-listed diagnosis.">
+<RelationSet id="1089">
+<problem value="1.82, Encounter for Rh incompatibility " begin="883" end="922" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1089">
+<finding value="Rh incompatibility status" begin="903" end="928" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,40 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="298">
+<Paragraph pgNo="1" begin="0" end="166">
+<Sentence sentNo="1" begin="0" end="165" sentText="Question: Does documentation of a positive Coombs test need to be present in order for the diagnosis code for ABO isoimmunization to be assigned on a newborn record?">
+<RelationSet id="2566">
+<modifier value="isoimmunization" begin="114" end="129" status="0" certainty="0" cui="C0302020" tui="T039" rank="767" code="NO-CODE" sourceType="SNM"/>
+<problem value="isoimmunization;newborn" begin="114;150" end="129;157" status="0" certainty="0" cui="C0014761" tui="T047" rank="765" code="NO-CODE" sourceType="RCDAE"/>
+<problem value="ABO isoimmunization" begin="110" end="129" status="0" certainty="0" cui="C0852852;C0270202" tui="T047;T047" rank="644;536" code="NO-CODE" sourceType="MTHICD9;ICD10CM"/>
+<procedure value="ABO" begin="110" end="113" status="0" certainty="0" cui="C1412099;C0078140" tui="T028;T061" rank="596;578" code="NO-CODE" sourceType="HGNC;NCI"/>
+</RelationSet>
+<RelationSet id="2567">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="positive" begin="34" end="42" status="0" certainty="1"/>
+<lab value="Coombs test" begin="43" end="54" status="0" certainty="1" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</Relation>
+<lab value="Coombs test" begin="43" end="54" status="0" certainty="1" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="167" end="297">
+<Sentence sentNo="2" begin="167" end="178" sentText="Answer: No.">
+</Sentence>
+<Sentence sentNo="3" begin="179" end="296" sentText="If the provider documents ABO incompatibility on a newborn record, assign code P55.1, ABO isoimmunization of newborn.">
+<RelationSet id="2568">
+<problem value="ABO incompatibility;newborn" begin="205;230" end="224;237" status="0" certainty="-3" cui="C1409243" tui="T020,T047" rank="506" code="NO-CODE" sourceType="ICPC2ICD10ENG"/>
+<problem value="ABO incompatibility" begin="205" end="224" status="0" certainty="-3" cui="C0860218;C0238580" tui="T047;T033" rank="797;592" code="NO-CODE" sourceType="MDR;MEDCIN"/>
+</RelationSet>
+<RelationSet id="2568">
+<problem value="5.1, ABO isoimmunization of ne" begin="260" end="290" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2569">
+<modifier value="isoimmunization" begin="269" end="284" status="0" certainty="0" cui="C0302020" tui="T039" rank="767" code="NO-CODE" sourceType="SNM"/>
+<problem value="isoimmunization;newborn" begin="269;288" end="284;295" status="0" certainty="0" cui="C0014761" tui="T047" rank="765" code="NO-CODE" sourceType="RCDAE"/>
+<problem value="ABO isoimmunization" begin="265" end="284" status="0" certainty="0" cui="C0852852;C0270202" tui="T047;T047" rank="644;536" code="NO-CODE" sourceType="MTHICD9;ICD10CM"/>
+<procedure value="ABO" begin="265" end="268" status="0" certainty="0" cui="C1412099;C0078140" tui="T028;T061" rank="596;578" code="NO-CODE" sourceType="HGNC;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

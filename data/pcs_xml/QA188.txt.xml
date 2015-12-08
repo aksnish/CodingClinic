@@ -1,0 +1,115 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="928">
+<Paragraph pgNo="1" begin="0" end="370">
+<Sentence sentNo="1" begin="0" end="95" sentText="Question: How should dehydration with hypernatremia and dehydration with hyponatremia be coded?">
+<RelationSet id="374">
+<problem value="dehydration" begin="21" end="32" status="0" certainty="1" cui="C0011175;C1963090" tui="T047;T033" rank="800;551" code="NO-CODE" sourceType="ICPC;NCI"/>
+</RelationSet>
+<RelationSet id="375">
+<problem value="hypernatremia" begin="38" end="51" status="0" certainty="1" cui="C0020488;C1522136" tui="T047;T034" rank="797;753" code="NO-CODE" sourceType="LCH;OMIM"/>
+</RelationSet>
+<RelationSet id="376">
+<problem value="dehydration" begin="56" end="67" status="0" certainty="1" cui="C0011175;C1963090" tui="T047;T033" rank="800;551" code="NO-CODE" sourceType="ICPC;NCI"/>
+</RelationSet>
+<RelationSet id="377">
+<problem value="hyponatremia" begin="73" end="85" status="0" certainty="1" cui="C0020625;C0857122" tui="T033;T047" rank="797;644" code="NO-CODE" sourceType="LCH;MDR"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="96" end="198" sentText="Codes E87.0 and E87.1 seem to capture hypernatremia and hyponatremia respectively but not dehydration.">
+<RelationSet id="378">
+<problem value="hypernatremia" begin="134" end="147" status="0" certainty="1" cui="C0020488;C1522136" tui="T047;T034" rank="797;753" code="NO-CODE" sourceType="LCH;OMIM"/>
+</RelationSet>
+<RelationSet id="379">
+<problem value="hyponatremia" begin="152" end="164" status="0" certainty="1" cui="C0020625;C0857122" tui="T033;T047" rank="797;644" code="NO-CODE" sourceType="LCH;MDR"/>
+</RelationSet>
+<RelationSet id="380">
+<problem value="dehydration" begin="186" end="197" status="0" certainty="-2" cui="C0011175;C1963090" tui="T047;T033" rank="797;551" code="NO-CODE" sourceType="ICPC;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="199" end="369" sentText="There are no index entries for dehydration with hypernatremia/hyponatremia, and there is no subentry for dehydration within the entries of hypernatremia and hyponatremia.">
+<RelationSet id="381">
+<problem value="dehydration" begin="230" end="241" status="0" certainty="-2" cui="C0011175;C1963090" tui="T047;T033" rank="800;551" code="NO-CODE" sourceType="ICPC;NCI"/>
+</RelationSet>
+<RelationSet id="382">
+<problem value="hypernatremia" begin="247" end="260" status="0" certainty="-2" cui="C0020488;C1522136" tui="T047;T034" rank="797;753" code="NO-CODE" sourceType="LCH;OMIM"/>
+</RelationSet>
+<RelationSet id="383">
+<problem value="hyponatremia" begin="261" end="273" status="0" certainty="-2" cui="C0020625;C0857122" tui="T033;T047" rank="797;644" code="NO-CODE" sourceType="LCH;MDR"/>
+</RelationSet>
+<RelationSet id="384">
+<problem value="dehydration" begin="304" end="315" status="0" certainty="-2" cui="C0011175;C1963090" tui="T047;T033" rank="800;551" code="NO-CODE" sourceType="ICPC;NCI"/>
+</RelationSet>
+<RelationSet id="385">
+<problem value="hypernatremia" begin="338" end="351" status="0" certainty="-2" cui="C0020488;C1522136" tui="T047;T034" rank="797;753" code="NO-CODE" sourceType="LCH;OMIM"/>
+</RelationSet>
+<RelationSet id="386">
+<problem value="hyponatremia" begin="356" end="368" status="0" certainty="-2" cui="C0020625;C0857122" tui="T033;T047" rank="797;644" code="NO-CODE" sourceType="LCH;MDR"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="371" end="927">
+<Sentence sentNo="4" begin="371" end="523" sentText="Answer: Assign code E86.0, Dehydration, in addition to code E87.0, Hyperosmolality and hypernatremia, for a diagnosis of dehydration with hypernatremia.">
+<RelationSet id="386">
+<problem value="6.0, Dehydr" begin="393" end="404" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="387">
+<problem value="Dehydration" begin="398" end="409" status="0" certainty="0" cui="C0011175;C1963090" tui="T047;T033" rank="797;551" code="NO-CODE" sourceType="ICPC;NCI"/>
+</RelationSet>
+<RelationSet id="388">
+<problem value="hypernatremia" begin="458" end="471" status="0" certainty="0" cui="C0020488;C1522136" tui="T047;T034" rank="797;753" code="NO-CODE" sourceType="LCH;OMIM"/>
+</RelationSet>
+<RelationSet id="389">
+<problem value="dehydration" begin="492" end="503" status="0" certainty="0" cui="C0011175;C1963090" tui="T047;T033" rank="800;551" code="NO-CODE" sourceType="ICPC;NCI"/>
+</RelationSet>
+<RelationSet id="390">
+<problem value="hypernatremia" begin="509" end="522" status="0" certainty="0" cui="C0020488;C1522136" tui="T047;T034" rank="797;753" code="NO-CODE" sourceType="LCH;OMIM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="524" end="666" sentText="Assign code E86.0, Dehydration, in addition to code E87.1, Hypo-osmolality and hyponatremia, for a diagnosis of dehydration with hyponatremia.">
+<RelationSet id="390">
+<problem value="6.0, Dehydr" begin="538" end="549" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="391">
+<problem value="Dehydration" begin="543" end="554" status="0" certainty="0" cui="C0011175;C1963090" tui="T047;T033" rank="797;551" code="NO-CODE" sourceType="ICPC;NCI"/>
+</RelationSet>
+<RelationSet id="392">
+<problem value="hyponatremia" begin="603" end="615" status="0" certainty="0" cui="C0020625;C0857122" tui="T033;T047" rank="797;644" code="NO-CODE" sourceType="LCH;MDR"/>
+</RelationSet>
+<RelationSet id="393">
+<problem value="dehydration" begin="636" end="647" status="0" certainty="0" cui="C0011175;C1963090" tui="T047;T033" rank="797;551" code="NO-CODE" sourceType="ICPC;NCI"/>
+</RelationSet>
+<RelationSet id="394">
+<problem value="hyponatremia" begin="653" end="665" status="0" certainty="0" cui="C0020625;C0857122" tui="T033;T047" rank="797;644" code="NO-CODE" sourceType="LCH;MDR"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="667" end="808" sentText="Two codes are required to fully capture dehydration with hypernatremia (E86.0 and E87.0) and dehydration with hyponatremia (E86.0 and E87.1).">
+<RelationSet id="395">
+<problem value="dehydration" begin="707" end="718" status="0" certainty="0" cui="C0011175;C1963090" tui="T047;T033" rank="800;551" code="NO-CODE" sourceType="ICPC;NCI"/>
+</RelationSet>
+<RelationSet id="395">
+<problem value="dehydration" begin="707" end="718" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="396">
+<problem value="hypernatremia" begin="724" end="737" status="0" certainty="0" cui="C0020488;C1522136" tui="T047;T034" rank="797;753" code="NO-CODE" sourceType="LCH;OMIM"/>
+</RelationSet>
+<RelationSet id="397">
+<problem value="dehydration" begin="760" end="771" status="0" certainty="0" cui="C0011175;C1963090" tui="T047;T033" rank="800;551" code="NO-CODE" sourceType="ICPC;NCI"/>
+</RelationSet>
+<RelationSet id="398">
+<problem value="hyponatremia" begin="777" end="789" status="0" certainty="0" cui="C0020625;C0857122" tui="T033;T047" rank="797;644" code="NO-CODE" sourceType="LCH;MDR"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="809" end="926" sentText="Coders should follow the index, which leads to coding both the dehydration and hypernatremia/hyponatremia separately.">
+<RelationSet id="399">
+<problem value="dehydration" begin="872" end="883" status="0" certainty="0" cui="C0011175;C1963090" tui="T047;T033" rank="800;551" code="NO-CODE" sourceType="ICPC;NCI"/>
+</RelationSet>
+<RelationSet id="400">
+<problem value="hypernatremia" begin="888" end="901" status="0" certainty="0" cui="C0020488;C1522136" tui="T047;T034" rank="797;753" code="NO-CODE" sourceType="LCH;OMIM"/>
+</RelationSet>
+<RelationSet id="401">
+<problem value="hyponatremia" begin="902" end="914" status="0" certainty="0" cui="C0020625;C0857122" tui="T033;T047" rank="797;644" code="NO-CODE" sourceType="LCH;MDR"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

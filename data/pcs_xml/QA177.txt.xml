@@ -1,0 +1,96 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1137">
+<Paragraph pgNo="1" begin="0" end="618">
+<Sentence sentNo="1" begin="0" end="127" sentText="Question: A patient who is receiving ongoing chemotherapy for lung cancer presents for Neulasta injection to prevent infection.">
+<RelationSet id="1657">
+<procedure value="injection" begin="96" end="105" status="0" certainty="0" cui="C1828121;C1272883;C1533685;C0021485" tui="T169;T122;T061;T061" rank="795;767;767;151" code="NO-CODE" sourceType="MSH;NCI;ICPC2P;CHV"/>
+</RelationSet>
+<RelationSet id="1658">
+<problem value="infection" begin="117" end="126" status="0" certainty="0" cui="C0009450;C1556682;C1550587" tui="T047;T033;T078" rank="795;551;366" code="NO-CODE" sourceType="LCH;NCI;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1659">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="chemotherapy" begin="45" end="57" status="0" certainty="1"/>
+<anatomicalStructure value="lung" begin="62" end="66" status="0" certainty="1"/>
+<problem value=" cancer" begin="66" end="73" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="chemotherapy" begin="45" end="57" status="0" certainty="1"/>
+<anatomicalStructure value="lung" begin="62" end="66" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="lung" begin="62" end="66" status="0" certainty="1"/>
+<problem value=" cancer" begin="66" end="73" status="0" certainty="1"/>
+</Relation>
+<procedure value="chemotherapy" begin="45" end="57" status="0" certainty="1" cui="C3665472;C0013217;C0392920" tui="T061;T061;T061" rank="791;789;765" code="NO-CODE" sourceType="MSH;MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="lung" begin="62" end="66" status="0" certainty="1" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="LCH;AIR;SNOMEDCTUS;NCI"/>
+<problem value="lung cancer" begin="62" end="73" status="0" certainty="1" cui="C0242379;C0684249" tui="T191;T191" rank="793;603" code="NO-CODE" sourceType="MSH;NCI"/>
+<problem value="cancer" begin="67" end="73" status="0" certainty="1" cui="C0006826;C1306459;C0998265;C0260515;C1547140" tui="T191;T191;T204;T033;T091" rank="793;765;751;592;355" code="NO-CODE" sourceType="ICPC2P;SNOMEDCTUS;NCBI;MEDCIN;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="129" end="193" sentText="The patient  receives the Neulasta via a subcutaneous injection.">
+<RelationSet id="1660">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="subcutaneous" begin="170" end="182" status="0" certainty="0"/>
+<procedure value=" injection" begin="182" end="192" status="0" certainty="0"/>
+</Relation>
+<modifier value="subcutaneous injection" begin="170" end="192" status="0" certainty="0" cui="C0021499" tui="T169" rank="797" code="NO-CODE" sourceType="MSH"/>
+<modifier value="subcutaneous" begin="170" end="182" status="0" certainty="0" cui="C0443315;C0221912;C1522447;C1522438" tui="T082;T082;T169;T169" rank="797;797;575;575" code="NO-CODE" sourceType="RCD;SNMI;NCI;SNOMEDCTUS"/>
+<procedure value="injection" begin="183" end="192" status="0" certainty="0" cui="C1828121;C1272883;C1533685;C0021485" tui="T169;T122;T061;T061" rank="795;767;767;151" code="NO-CODE" sourceType="MSH;NCI;ICPC2P;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="194" end="439" sentText="The advice provided in the Second Quarter 2010 issue of Coding Clinic for ICD-9-CM  advised  coders  to  report  code V07.8, Other specified prophylactic or treatment measure, for an encounter for Neulasta administration to prevent an infection.">
+<RelationSet id="1661">
+<problem value="infection" begin="429" end="438" status="0" certainty="0" cui="C0009450;C1556682;C1550587" tui="T047;T033;T078" rank="795;551;366" code="NO-CODE" sourceType="LCH;NCI;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="440" end="507" sentText="However, there does not seem to be an equivalent code in ICD-10-CM.">
+</Sentence>
+<Sentence sentNo="5" begin="508" end="617" sentText="What are the appropriate diagnosis and procedures  codes for an encounter for Neulasta to prevent  infection?">
+<RelationSet id="1662">
+<med value="Neulasta" begin="586" end="594" status="0" certainty="0" cui="C1171279" tui="T116,T121,T129" rank="797" code="NO-CODE" sourceType="RXNORM"/>
+</RelationSet>
+<RelationSet id="1663">
+<problem value="infection" begin="607" end="616" status="0" certainty="0" cui="C0009450;C1556682;C1550587" tui="T047;T033;T078" rank="795;551;366" code="NO-CODE" sourceType="LCH;NCI;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="619" end="1136">
+<Sentence sentNo="6" begin="619" end="750" sentText="Answer: Assign code Z76.89, Persons encountering health services in other specified circumstances, as the reason for the encounter.">
+</Sentence>
+<Sentence sentNo="7" begin="751" end="828" sentText="Assign also the appropriate code assignment to describe the patient’s cancer.">
+<RelationSet id="1664">
+<problem value="cancer" begin="821" end="827" status="0" certainty="1" cui="C0006826;C1306459;C0998265;C0260515;C1547140" tui="T191;T191;T204;T033;T091" rank="793;765;751;592;355" code="NO-CODE" sourceType="ICPC2P;SNOMEDCTUS;NCBI;MEDCIN;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="829" end="934" sentText="In this case, assign code C34.90, Malignant neoplasm of unspecified part of unspecified bronchus or lung.">
+<RelationSet id="1665">
+<problem value="Malignant neoplasm;unspecified bronchus;lung" begin="863;905;929" end="881;925;933" status="0" certainty="0" cui="C0348343" tui="T191" rank="719" code="NO-CODE" sourceType="MDR"/>
+<problem value="Malignant neoplasm" begin="863" end="881" status="0" certainty="0" cui="C0006826;C1306459;C1547218" tui="T191;T191;T170" rank="797;765;355" code="NO-CODE" sourceType="ICD10AM;SNOMEDCTUS;HL7V2.5"/>
+<problem value="Malignant" begin="863" end="872" status="0" certainty="0" cui="C0205282;C1533592;C0334590" tui="T080;T191;T191" rank="767;571;571" code="NO-CODE" sourceType="RCD;NCI;NCI"/>
+<problem value="neoplasm" begin="873" end="881" status="0" certainty="0" cui="C0027651;C2981607" tui="T191;T170" rank="797;572" code="NO-CODE" sourceType="COSTAR;NCI"/>
+</RelationSet>
+<RelationSet id="1666">
+<anatomicalStructure value="bronchus;lung" begin="917;929" end="925;933" status="0" certainty="0" cui="C0545675;C0153954;C0154071" tui="T023;T191;T191" rank="797;610;610" code="NO-CODE" sourceType="SNM;ICD10;ICD10"/>
+<anatomicalStructure value="part;lung" begin="897;929" end="901;933" status="0" certainty="0" cui="C1268107" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="lung" begin="929" end="933" status="0" certainty="0" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="LCH;AIR;SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="935" end="1135" sentText="If desired, assign ICD-10-PCS procedure code as follows for the subcutaneous injection of Neulasta: 3E013GC Introduction of other therapeutic substance into subcutaneous tissue, percutaneous  approach">
+<RelationSet id="1667">
+<anatomicalStructure value="subcutaneous tissue" begin="1092" end="1111" status="0" certainty="0" cui="C0278403;C0222331" tui="T024;T024" rank="797;575" code="NO-CODE" sourceType="SNMI;NCI"/>
+<anatomicalStructure value="tissue" begin="1105" end="1111" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1668">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="subcutaneous" begin="999" end="1011" status="0" certainty="0"/>
+<procedure value=" injection" begin="1011" end="1021" status="0" certainty="0"/>
+</Relation>
+<modifier value="subcutaneous injection" begin="999" end="1021" status="0" certainty="0" cui="C0021499" tui="T169" rank="797" code="NO-CODE" sourceType="MSH"/>
+<modifier value="subcutaneous" begin="999" end="1011" status="0" certainty="0" cui="C0443315;C1522438" tui="T082;T169" rank="797;575" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<procedure value="injection" begin="1012" end="1021" status="0" certainty="0" cui="C1828121;C1272883;C1533685;C0021485" tui="T169;T122;T061;T061" rank="795;767;767;151" code="NO-CODE" sourceType="MSH;NCI;ICPC2P;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

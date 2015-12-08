@@ -1,0 +1,123 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1355">
+<Paragraph pgNo="1" begin="0" end="396">
+<Sentence sentNo="1" begin="0" end="92" sentText="Question: A patient with anemia and thrombocytopenia is admitted with fever and neutropenia.">
+<RelationSet id="1402">
+<problem value="anemia" begin="25" end="31" status="0" certainty="1" cui="C0002871;C1000483;C0857322" tui="T047;T002;T033" rank="797;751;644" code="NO-CODE" sourceType="CCS;NCBI;MDR"/>
+</RelationSet>
+<RelationSet id="1405">
+<problem value="neutropenia" begin="80" end="91" status="0" certainty="0" cui="C0027947;C0853697" tui="T047;T033" rank="797;767" code="NO-CODE" sourceType="COSTAR;RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="93" end="222" sentText="The provider documented that the neutropenia and anemia are secondary to chemotherapy for medulloblastoma with spinal metastasis.">
+<RelationSet id="1406">
+<problem value="neutropenia" begin="126" end="137" status="0" certainty="0" cui="C0027947;C0853697" tui="T047;T033" rank="797;767" code="NO-CODE" sourceType="COSTAR;RCD"/>
+</RelationSet>
+<RelationSet id="1407">
+<problem value="anemia;secondary" begin="142;153" end="148;162" status="0" certainty="0" cui="C0340952" tui="T047" rank="767" code="NO-CODE" sourceType="MTHICD9"/>
+<problem value="anemia" begin="142" end="148" status="0" certainty="0" cui="C0002871;C1000483;C0857322" tui="T047;T002;T033" rank="797;751;644" code="NO-CODE" sourceType="CCS;NCBI;MDR"/>
+</RelationSet>
+<RelationSet id="1408">
+<procedure value="chemotherapy" begin="166" end="178" status="0" certainty="0" cui="C3665472;C0013217;C0392920" tui="T061;T061;T061" rank="791;789;765" code="NO-CODE" sourceType="MSH;MSH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1409">
+<problem value="medulloblastoma" begin="183" end="198" status="0" certainty="0" cui="C0025149;C2697367" tui="T191;T028" rank="797;598" code="NO-CODE" sourceType="LCH;OMIM"/>
+</RelationSet>
+<RelationSet id="1410">
+<problem value="spinal metastasis" begin="204" end="221" status="0" certainty="0" cui="C0684550" tui="T191" rank="765" code="NO-CODE" sourceType="MDR"/>
+<problem value="metastasis" begin="211" end="221" status="0" certainty="0" cui="C0027627;C1522484;C2939419;C0036525" tui="T191;T081;T191;T169" rank="791;789;765;576" code="NO-CODE" sourceType="ICPC2P;MSH;RCD;NCI"/>
+<anatomicalStructure value="spinal" begin="204" end="210" status="0" certainty="0" cui="C0037949;C1267072;C0521329;C1280065" tui="T023;T023;T082;T023" rank="795;765;703;234" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;NCI;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="223" end="395" sentText="Since pancytopenia includes anemia, neutropenia and thrombocytopenia, is it appropriate to assign a code for pancytopenia when the neutropenia is secondary to chemotherapy?">
+<RelationSet id="1411">
+<problem value="pancytopenia" begin="229" end="241" status="0" certainty="0" cui="C0030312;C0010828" tui="T047;T046" rank="795;767" code="NO-CODE" sourceType="MDR;RCD"/>
+</RelationSet>
+<RelationSet id="1412">
+<problem value="anemia" begin="251" end="257" status="0" certainty="0" cui="C0002871;C1000483;C0857322" tui="T047;T002;T033" rank="797;751;644" code="NO-CODE" sourceType="CCS;NCBI;MDR"/>
+</RelationSet>
+<RelationSet id="1413">
+<problem value="neutropenia" begin="259" end="270" status="0" certainty="0" cui="C0027947;C0853697" tui="T047;T033" rank="797;767" code="NO-CODE" sourceType="COSTAR;RCD"/>
+</RelationSet>
+<RelationSet id="1415">
+<problem value="pancytopenia" begin="332" end="344" status="0" certainty="0" cui="C0030312;C0010828" tui="T047;T046" rank="795;767" code="NO-CODE" sourceType="MDR;RCD"/>
+</RelationSet>
+<RelationSet id="1416">
+<problem value="neutropenia" begin="354" end="365" status="0" certainty="0" cui="C0027947;C0853697" tui="T047;T033" rank="797;767" code="NO-CODE" sourceType="COSTAR;RCD"/>
+</RelationSet>
+<RelationSet id="1417">
+<procedure value="chemotherapy" begin="382" end="394" status="0" certainty="0" cui="C3665472;C0013217;C0392920" tui="T061;T061;T061" rank="791;789;765" code="NO-CODE" sourceType="MSH;MSH;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="397" end="1354">
+<Sentence sentNo="4" begin="397" end="501" sentText="Answer: Assign code D70.1, Agranulocytosis secondary to cancer chemotherapy, as the principal diagnosis.">
+<RelationSet id="1417">
+<problem value="0.1, Agranulocytosis secondary to cancer chemoth" begin="419" end="467" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1418">
+<problem value="Agranulocytosis secondary to cancer chemotherapy" begin="424" end="472" status="0" certainty="0" cui="C2873810" tui="T046" rank="402" code="NO-CODE" sourceType="ICD10CM"/>
+<problem value="Agranulocytosis" begin="424" end="439" status="0" certainty="0" cui="C0001824;C0702094" tui="T047;T034" rank="797;717" code="NO-CODE" sourceType="MSH;MTHICD9"/>
+</RelationSet>
+<RelationSet id="1419">
+<problem value="secondary;cancer" begin="440;453" end="449;459" status="0" certainty="0" cui="C2939419;C3266877;C0027627" tui="T191;T191;T191" rank="765;575;150" code="NO-CODE" sourceType="RCD;NCI;CHV"/>
+<problem value="cancer" begin="453" end="459" status="0" certainty="0" cui="C0006826;C1306459;C0998265;C0260515;C1547140" tui="T191;T191;T204;T033;T091" rank="793;765;751;592;355" code="NO-CODE" sourceType="ICPC2P;SNOMEDCTUS;NCBI;MEDCIN;HL7V2.5"/>
+<procedure value="cancer chemotherapy" begin="453" end="472" status="0" certainty="0" cui="C3665472;C0392920" tui="T061;T061" rank="791;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<procedure value="chemotherapy" begin="460" end="472" status="0" certainty="0" cui="C0013217" tui="T061" rank="789" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="502" end="786" sentText="Codes R50.81, Fever with conditions classified elsewhere, T45.1X5A, Adverse effect of antineoplastic and immunosuppressive drug, Initial encounter, D64.81, Anemia due to antineoplastic chemotherapy, D69.59, Other secondary thrombocytopenia, should be assigned as additional diagnoses.">
+<RelationSet id="1422">
+<problem value="Anemia due to antineoplastic chemotherapy" begin="658" end="699" status="0" certainty="0" cui="C2712647" tui="T046" rank="800" code="NO-CODE" sourceType="MTHICD9"/>
+<problem value="Anemia due to;chemotherapy" begin="658;687" end="671;699" status="0" certainty="0" cui="C1998329" tui="T037" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="Anemia" begin="658" end="664" status="0" certainty="0" cui="C0002871;C1000483;C0857322" tui="T047;T002;T033" rank="797;751;644" code="NO-CODE" sourceType="CCS;NCBI;MDR"/>
+</RelationSet>
+<RelationSet id="1423">
+<modifier value="Anemia;antineoplastic" begin="658;672" end="664;686" status="0" certainty="0" cui="C2873745;C0475534" tui="t047;t047" rank="800;800" code="NO-CODE" sourceType="ICD10CM;ICD10CM"/>
+<procedure value="chemotherapy" begin="687" end="699" status="0" certainty="0" cui="C3665472;C0013217;C0392920" tui="T061;T061;T061" rank="791;789;765" code="NO-CODE" sourceType="MSH;MSH;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1424">
+<problem value="Other secondary thrombocytopenia" begin="709" end="741" status="0" certainty="0" cui="C2921026" tui="T047" rank="402" code="NO-CODE" sourceType="ICD9CM"/>
+<problem value="secondary thrombocytopenia" begin="715" end="741" status="0" certainty="0" cui="C0154301" tui="T047" rank="765" code="NO-CODE" sourceType="ICD10"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="787" end="858" sentText="Patients may present with both pancytopenia and neutropenia with fever.">
+<RelationSet id="1425">
+<problem value="pancytopenia" begin="818" end="830" status="0" certainty="0" cui="C0030312;C0010828" tui="T047;T046" rank="795;767" code="NO-CODE" sourceType="MDR;RCD"/>
+</RelationSet>
+<RelationSet id="1426">
+<problem value="neutropenia" begin="835" end="846" status="0" certainty="0" cui="C0027947;C0853697" tui="T047;T033" rank="797;767" code="NO-CODE" sourceType="COSTAR;RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="859" end="899" sentText="They are clinically different processes.">
+</Sentence>
+<Sentence sentNo="8" begin="900" end="974" sentText="The pancytopenia code alone does not convey the complete clinical picture.">
+<RelationSet id="1428">
+<problem value="pancytopenia" begin="904" end="916" status="0" certainty="0" cui="C0030312;C0010828" tui="T047;T046" rank="795;767" code="NO-CODE" sourceType="MDR;RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="975" end="1163" sentText="However, the excludes1 note at category D61, Other aplastic anemias and other bone marrow failure syndromes, prohibits assigning code D70.1 along with a pancytopenia code in this category.">
+<RelationSet id="1429">
+<problem value="Other aplastic anemias" begin="1020" end="1042" status="0" certainty="0" cui="C0477310" tui="T047" rank="720" code="NO-CODE" sourceType="ICD10AE"/>
+<problem value="aplastic anemias" begin="1026" end="1042" status="0" certainty="0" cui="C0002874" tui="T047" rank="797" code="NO-CODE" sourceType="CCS"/>
+<problem value="Other;anemias" begin="1020;1035" end="1025;1042" status="0" certainty="0" cui="C0472702" tui="T047" rank="718" code="NO-CODE" sourceType="ICD10AE"/>
+<problem value="anemias" begin="1035" end="1042" status="0" certainty="0" cui="C0002871;C1000483" tui="T047;T002" rank="797;751" code="NO-CODE" sourceType="CCS;NCBI"/>
+</RelationSet>
+<RelationSet id="1430">
+<problem value="bone marrow failure syndromes" begin="1053" end="1082" status="0" certainty="-2" cui="C2931245" tui="T047" rank="787" code="NO-CODE" sourceType="MSH"/>
+<problem value="bone marrow failure" begin="1053" end="1072" status="0" certainty="-2" cui="C0030312" tui="T047" rank="765" code="NO-CODE" sourceType="RCD"/>
+<problem value="other;syndromes" begin="1047;1073" end="1052;1082" status="0" certainty="-2" cui="C1558937" tui="T047" rank="551" code="NO-CODE" sourceType="NCI"/>
+<problem value="syndromes" begin="1073" end="1082" status="0" certainty="-2" cui="C0039082;C1558916" tui="T047;T033" rank="797;551" code="NO-CODE" sourceType="LCH;NCI"/>
+<anatomicalStructure value="bone marrow" begin="1053" end="1064" status="0" certainty="-2" cui="C0005953;C1708973;C0869673;C1550653" tui="T024;T024;T061;T031" rank="797;576;373;366" code="NO-CODE" sourceType="MSH;NCI;ICD10AM;HL7V3.0"/>
+<anatomicalStructure value="marrow" begin="1058" end="1064" status="0" certainty="-2" cui="C0376152;C0086590;C0330477;C0025148;C0001629;C1546708" tui="T023;T168;T002;T023;T023;T170" rank="797;767;765;523;523;355" code="NO-CODE" sourceType="MSH;LCH;SNOMEDCTUS;NCI;NCI;HL7V2.5"/>
+<anatomicalStructure value="bone" begin="1053" end="1057" status="0" certainty="-2" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1431">
+<problem value="pancytopenia" begin="1128" end="1140" status="0" certainty="-2" cui="C0030312;C0010828" tui="T047;T046" rank="795;767" code="NO-CODE" sourceType="MDR;RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="1164" end="1353" sentText="The National Center for Health Statistics (NCHS) has agreed to address the issue of the excludes1 at category D61 at a future ICD-10-CM Coordination and Maintenance Committee (C&amp;M) meeting.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

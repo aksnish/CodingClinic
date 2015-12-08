@@ -1,0 +1,84 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="752">
+<Paragraph pgNo="1" begin="0" end="339">
+<Sentence sentNo="1" begin="0" end="87" sentText="Question: A patient desiring permanent sterilization was brought to the operating room.">
+<RelationSet id="852">
+<modifier value="desiring;sterilization" begin="20;39" end="28;52" status="0" certainty="1" cui="C0749001" tui="T055" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<modifier value="permanent" begin="29" end="38" status="0" certainty="1" cui="C0205355;C1549637;C1548538" tui="T079;T078;T078" rank="797;355;355" code="NO-CODE" sourceType="RCD;HL7V2.5;HL7V2.5"/>
+<procedure value="sterilization" begin="39" end="52" status="0" certainty="1" cui="C0038280;C0362065;C0038288" tui="T061;T033;T061" rank="795;720;644" code="NO-CODE" sourceType="LCH;ICD10;CCS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="88" end="144" sentText="The abdomen was entered through infraumbilical incision.">
+<RelationSet id="853">
+<anatomicalStructure value="abdomen" begin="92" end="99" status="0" certainty="0" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+</RelationSet>
+<RelationSet id="854">
+<modifier value="infraumbilical" begin="120" end="134" status="0" certainty="0" cui="C0446493" tui="t029" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="infraumbilical incision" begin="120" end="143" status="0" certainty="0" cui="C0198493" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="incision" begin="135" end="143" status="0" certainty="0" cui="C0184898;C2096041" tui="T061;T033" rank="767;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="145" end="207" sentText="A segment of the right fallopian tube was ligated and excised.">
+<RelationSet id="855">
+<modifier value="right" begin="162" end="167" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="856">
+<anatomicalStructure value="right fallopian tube" begin="162" end="182" status="0" certainty="0" cui="C0227900;C1281194" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="fallopian tube" begin="168" end="182" status="0" certainty="0" cui="C0015560;C1278991;C0153579;C0872396" tui="T023;T023;T191;T061" rank="797;765;610;373" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="208" end="276" sentText="A segment of the left fallopian tube was suture ligated and excised.">
+<RelationSet id="857">
+<modifier value="left" begin="225" end="229" status="0" certainty="0" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="858">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="suture" begin="249" end="255" status="0" certainty="0"/>
+<anatomicalStructure value="fallopian tube" begin="230" end="244" status="0" certainty="0"/>
+</Relation>
+<medicalDevice value="suture" begin="249" end="255" status="0" certainty="0" cui="C0205368;C0038969;C0009068;C1705834;C1706068;C1546803" tui="T169;T074;T061;T073;T122;T170" rank="797;795;765;575;575;355" code="NO-CODE" sourceType="SNMI;MSH;SNM;NCI;NCI;HL7V2.5"/>
+<anatomicalStructure value="left fallopian tube" begin="225" end="244" status="0" certainty="0" cui="C0227902;C1281195" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="fallopian tube" begin="230" end="244" status="0" certainty="0" cui="C0015560;C1278991;C0153579;C0872396" tui="T023;T023;T191;T061" rank="797;765;610;373" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="277" end="338" sentText="What is/are the correct root operation(s) for this procedure?">
+<RelationSet id="859">
+<procedure value="operation" begin="306" end="315" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="340" end="751">
+<Sentence sentNo="6" begin="340" end="511" sentText="Answer: There are several distinct procedures performed on the fallopian tubes for sterilization, including ligation alone, fulguration, and ligation followed by excision.">
+<RelationSet id="860">
+<procedure value="ligation" begin="481" end="489" status="0" certainty="0" cui="C0023690" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="861">
+<procedure value="excision" begin="502" end="510" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+</RelationSet>
+<RelationSet id="862">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="sterilization" begin="423" end="436" status="0" certainty="0"/>
+<anatomicalStructure value="fallopian tubes" begin="403" end="418" status="0" certainty="0"/>
+</Relation>
+<procedure value="sterilization" begin="423" end="436" status="0" certainty="0" cui="C0038280;C0362065;C0038288" tui="T061;T033;T061" rank="795;720;644" code="NO-CODE" sourceType="LCH;ICD10;CCS"/>
+<anatomicalStructure value="fallopian tubes" begin="403" end="418" status="0" certainty="0" cui="C0015560;C1278991;C0153579;C0872396" tui="T023;T023;T191;T061" rank="797;765;610;373" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="512" end="603" sentText="These are coded to the root operations “Occlusion, Destruction, and Excision” respectively.">
+<RelationSet id="863">
+<problem value="Occlusion" begin="552" end="561" status="0" certainty="0" cui="C0441597;C0028778;C1947917;C0011382;C1882137" tui="T169;T046;T169;T042;T067" rank="765;765;702;575;561" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;MDR;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="864">
+<procedure value="Excision" begin="580" end="588" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="604" end="705" sentText="In this case, excision is the definitive procedure performed after the ends of each tube are ligated.">
+<RelationSet id="865">
+<procedure value="excision;procedure" begin="618;645" end="626;654" status="0" certainty="0" cui="C0728940;C0015252" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="ICPC2P;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="706" end="751" sentText="Assign the following ICD-10-PCS code: 0UB70ZZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,70 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="797">
+<Paragraph pgNo="1" begin="0" end="339">
+<Sentence sentNo="1" begin="0" end="164" sentText="Question: The patient presents for cleft lip repair, and underwent Millard technique, which consisted of rotating the medial segment and advancing the lateral flap.">
+<RelationSet id="866">
+<problem value="cleft lip" begin="35" end="44" status="0" certainty="1" cui="C0008924" tui="T019" rank="795" code="NO-CODE" sourceType="COSTAR"/>
+<procedure value="cleft lip repair" begin="35" end="51" status="0" certainty="1" cui="C0192070" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="lip repair" begin="41" end="51" status="0" certainty="1" cui="C0192038;C0192055;C0371883;C0192054" tui="T061;T061;T061;T061" rank="767;271;271;271" code="NO-CODE" sourceType="RCD;CPT;CPT;CPT"/>
+<procedure value="repair" begin="45" end="51" status="0" certainty="1" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+<anatomicalStructure value="lip" begin="41" end="44" status="0" certainty="1" cui="C0023759;C0333972;C1278911;C0153932;C1846919;C0264511" tui="T023;T020;T023;T191;T028;T047" rank="795;767;765;610;596;596" code="NO-CODE" sourceType="LCH;SNMI;SNOMEDCTUS;ICD10;HGNC;NCI"/>
+</RelationSet>
+<RelationSet id="867">
+<modifier value="technique" begin="75" end="84" status="0" certainty="0" cui="C0449851;C0025664" tui="T169;T170" rank="797;789" code="NO-CODE" sourceType="RCD;MSH"/>
+<modifier value="Millard" begin="67" end="74" status="0" certainty="0" cui="S1000959" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+</RelationSet>
+<RelationSet id="867">
+<anatomicalStructure value="medial segment" begin="118" end="132" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="165" end="226" sentText="The Cupids bow with piltrum is preserved with this technique.">
+</Sentence>
+<Sentence sentNo="3" begin="227" end="338" sentText="What is the appropriate root operation for a cleft lip repair using the Millard Rotation Advancement technique?">
+<RelationSet id="868">
+<problem value="cleft lip" begin="272" end="281" status="0" certainty="0" cui="C0008924" tui="T019" rank="795" code="NO-CODE" sourceType="COSTAR"/>
+<procedure value="repair;Advancement" begin="282;316" end="288;327" status="0" certainty="0" cui="C0185106" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="cleft lip repair" begin="272" end="288" status="0" certainty="0" cui="C0192070" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="lip repair" begin="278" end="288" status="0" certainty="0" cui="C0192038;C0192055;C0371883;C0192054" tui="T061;T061;T061;T061" rank="767;271;271;271" code="NO-CODE" sourceType="RCD;CPT;CPT;CPT"/>
+<procedure value="repair" begin="282" end="288" status="0" certainty="0" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+<anatomicalStructure value="lip" begin="278" end="281" status="0" certainty="0" cui="C0023759;C0333972;C1278911;C0153932;C1846919;C0264511" tui="T023;T020;T023;T191;T028;T047" rank="795;767;765;610;596;596" code="NO-CODE" sourceType="LCH;SNMI;SNOMEDCTUS;ICD10;HGNC;NCI"/>
+</RelationSet>
+<RelationSet id="869">
+<modifier value="Advancement technique" begin="316" end="337" status="0" certainty="0" cui="C0730463" tui="T170" rank="767" code="NO-CODE" sourceType="RCD"/>
+<modifier value="Advancement" begin="316" end="327" status="0" certainty="0" cui="C0441478" tui="T169" rank="765" code="NO-CODE" sourceType="RCD"/>
+<modifier value="technique" begin="328" end="337" status="0" certainty="0" cui="C0449851;C0025664" tui="T169;T170" rank="797;789" code="NO-CODE" sourceType="RCD;MSH"/>
+<modifier value="Millard" begin="299" end="306" status="0" certainty="0" cui="S1000959" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="340" end="796">
+<Sentence sentNo="4" begin="340" end="481" sentText="Answer: Assign code 0KX10Z2, Transfer facial muscle with skin and subcutaneous tissue, open approach, for the rotation advancement procedure.">
+<RelationSet id="870">
+<anatomicalStructure value="facial muscle" begin="378" end="391" status="0" certainty="0" cui="C0015460;C3665483" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="muscle" begin="385" end="391" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+<anatomicalStructure value="facial" begin="378" end="384" status="0" certainty="0" cui="C0524465;C0015450;C1281591;C1423759;C2828055" tui="T082;T029;T023;T028;T028" rank="797;797;765;596;575" code="NO-CODE" sourceType="SNMI;LCH;SNOMEDCTUS;OMIM;NCI"/>
+</RelationSet>
+<RelationSet id="870">
+<anatomicalStructure value="skin" begin="397" end="401" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="871">
+<anatomicalStructure value="subcutaneous tissue" begin="406" end="425" status="0" certainty="0" cui="C0278403;C0222331;C1123023" tui="T024;T024;T022" rank="797;575;472" code="NO-CODE" sourceType="SNMI;NCI;AOD"/>
+<anatomicalStructure value="tissue" begin="419" end="425" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="872">
+<modifier value="advancement" begin="459" end="470" status="0" certainty="0" cui="C0441478" tui="T169" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="procedure" begin="471" end="480" status="0" certainty="0" cui="C0184661;C0025664;C2700391;C1948041;C3274430;C3538935;C3539779;C1546467" tui="T060,T061;T170;T052;T061;T058;T078;T170;T078" rank="792;789;576;575;572;571;571;366" code="NO-CODE" sourceType="MSH;MSH;NCI;NCI;NCI;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="482" end="639" sentText="A transfer is “moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part.”">
+</Sentence>
+<Sentence sentNo="6" begin="640" end="726" sentText="In this case, a muscle flap was anastomosed across the cleft which covered the defect.">
+<RelationSet id="873">
+<anatomicalStructure value="muscle" begin="656" end="662" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+<anatomicalStructure value="flap" begin="663" end="667" status="0" certainty="0" cui="C0038925;C1412362" tui="T023;T028" rank="767;596" code="NO-CODE" sourceType="RCD;HGNC"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="727" end="795" sentText="The body part transferred remained connected to its vascular supply.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

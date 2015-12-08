@@ -1,0 +1,159 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1409">
+<Paragraph pgNo="1" begin="0" end="704">
+<Sentence sentNo="1" begin="0" end="186" sentText="Question: The patient presented with epistaxis and the provider documented that two sutures were placed to surround a small ruptured arterial bleeding vessel of the external right naris.">
+<RelationSet id="1713">
+<problem value="epistaxis" begin="37" end="46" status="0" certainty="1" cui="C0014591;C2228238" tui="T046;T033" rank="797;592" code="NO-CODE" sourceType="ICD10;MEDCIN"/>
+</RelationSet>
+<RelationSet id="1714">
+<medicalDevice value="sutures" begin="84" end="91" status="0" certainty="0" cui="C0205368;C0038969;C0009068;C1705834;C1706068;C1546803" tui="T169;T074;T061;T073;T122;T170" rank="797;795;765;575;575;355" code="NO-CODE" sourceType="SNMI;MSH;SNM;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1715">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="naris" begin="180" end="185" status="0" certainty="0"/>
+<problem value="ruptured arterial bleeding vessel" begin="124" end="157" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="small" begin="118" end="123" status="0" certainty="0"/>
+<anatomicalStructure value="naris" begin="180" end="185" status="0" certainty="0"/>
+<problem value="ruptured arterial bleeding vessel" begin="124" end="157" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="small" begin="118" end="123" status="0" certainty="0"/>
+<problem value="ruptured arterial bleeding vessel" begin="124" end="157" status="0" certainty="0"/>
+</Relation>
+<modifier value="small" begin="118" end="123" status="0" certainty="0" cui="C0700321;C0547044;C2700395" tui="T081;T080;T081" rank="797;797;797" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;NCI"/>
+<anatomicalStructure value="naris" begin="180" end="185" status="0" certainty="0" cui="C0595944;C1280896;C1456808" tui="T030;T030;T023" rank="765;765;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS;SNOMEDCTUS"/>
+<problem value="ruptured arterial" begin="124" end="141" status="0" certainty="0" cui="C0155760" tui="T037" rank="767" code="NO-CODE" sourceType="ICD10"/>
+<problem value="arterial bleeding" begin="133" end="150" status="0" certainty="0" cui="C0340654" tui="T046" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="ruptured" begin="124" end="132" status="0" certainty="0" cui="C3203359;C0443294;C1881712" tui="T037;T169;T067" rank="797;767;561" code="NO-CODE" sourceType="LCH;RCD;NCI"/>
+<problem value="bleeding" begin="142" end="150" status="0" certainty="0" cui="C0019080" tui="T046" rank="791" code="NO-CODE" sourceType="ICPC2P"/>
+<anatomicalStructure value="small;arterial" begin="118;133" end="123;141" status="0" certainty="0" cui="C0226001;C1282822" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="small;vessel" begin="118;151" end="123;157" status="0" certainty="0" cui="C1282841;C0225988" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="arterial" begin="133" end="141" status="0" certainty="0" cui="C0221464;C0003842;C0226004" tui="T082;T023;T022" rank="797;765;151" code="NO-CODE" sourceType="RCD;MSH;CHV"/>
+<anatomicalStructure value="vessel" begin="151" end="157" status="0" certainty="0" cui="C0042591;C0148346;C0005847;C1511228;C0702235" tui="T029;T118,T121;T023;T024;T109,T121" rank="767;722;701;571;520" code="NO-CODE" sourceType="RCD;MTH;LNC;NCI;PDQ"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="187" end="389" sentText="Since the purpose of the suturing is to control the bleeding (arterial), table 03Q, Repair, upper arteries, appears to be the correct table, with “face artery” assigned as the body part (4th character).">
+<RelationSet id="1716">
+<problem value="bleeding;arterial" begin="239;249" end="247;257" status="0" certainty="0" cui="C0340654" tui="T046" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="bleeding" begin="239" end="247" status="0" certainty="0" cui="C0019080" tui="T046" rank="791" code="NO-CODE" sourceType="ICPC2P"/>
+</RelationSet>
+<RelationSet id="1716">
+<modifier value="upper" begin="279" end="284" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1716">
+<anatomicalStructure value="arteries" begin="285" end="293" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1717">
+<anatomicalStructure value="artery;part" begin="339;368" end="345;372" status="0" certainty="1" cui="C1268113" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="artery" begin="339" end="345" status="0" certainty="1" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<anatomicalStructure value="face" begin="334" end="338" status="0" certainty="1" cui="C0015450;C1281591;C1423759;C2828055" tui="T029;T023;T028;T028" rank="797;765;596;575" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;OMIM;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="390" end="460" sentText="However, “external” is not an option for the approach (5th character).">
+</Sentence>
+<Sentence sentNo="4" begin="461" end="535" sentText="Code 09QKXZZ Repair nose, external approach, also appears to be an option.">
+<RelationSet id="1718">
+<anatomicalStructure value="nose" begin="481" end="485" status="0" certainty="0" cui="C0028429;C1278896;C0721966;C1272939;C1522019;C0869679" tui="T023;T023;T109,T121;T122;T169;T061" rank="797;765;673;575;575;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;MMSL;NCI;SNOMEDCTUS;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="536" end="703" sentText="What is the most appropriate ICD-10-PCS code assignment for the placement of sutures surrounding a small ruptured arterial bleeding vessel of the external right naris?">
+<RelationSet id="1719">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="sutures" begin="613" end="620" status="0" certainty="0"/>
+<problem value="ruptured arterial bleeding vessel" begin="641" end="674" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<medicalDevice value="sutures" begin="613" end="620" status="0" certainty="0"/>
+<modifier value="small" begin="635" end="640" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="naris" begin="697" end="702" status="0" certainty="0"/>
+<problem value="ruptured arterial bleeding vessel" begin="641" end="674" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="placement" begin="600" end="609" status="0" certainty="0"/>
+<medicalDevice value="sutures" begin="613" end="620" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="ruptured arterial bleeding vessel" begin="641" end="674" status="0" certainty="0"/>
+<modifier value="small" begin="635" end="640" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="naris" begin="697" end="702" status="0" certainty="0"/>
+<medicalDevice value="sutures" begin="613" end="620" status="0" certainty="0"/>
+<procedure value="placement" begin="600" end="609" status="0" certainty="0"/>
+<problem value="ruptured arterial bleeding vessel" begin="641" end="674" status="0" certainty="0"/>
+<modifier value="small" begin="635" end="640" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="naris" begin="697" end="702" status="0" certainty="0" cui="C0595944;C1280896;C1456808" tui="T030;T030;T023" rank="765;765;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS;SNOMEDCTUS"/>
+<procedure value="placement" begin="600" end="609" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+<medicalDevice value="sutures" begin="613" end="620" status="0" certainty="0" cui="C0205368;C0038969;C0009068;C1705834;C1706068;C1546803" tui="T169;T074;T061;T073;T122;T170" rank="797;795;765;575;575;355" code="NO-CODE" sourceType="SNMI;MSH;SNM;NCI;NCI;HL7V2.5"/>
+<modifier value="small" begin="635" end="640" status="0" certainty="0" cui="C0700321;C0547044;C2700395" tui="T081;T080;T081" rank="797;797;797" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;NCI"/>
+<problem value="ruptured arterial" begin="641" end="658" status="0" certainty="0" cui="C0155760" tui="T037" rank="767" code="NO-CODE" sourceType="ICD10"/>
+<problem value="arterial bleeding" begin="650" end="667" status="0" certainty="0" cui="C0340654" tui="T046" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="bleeding" begin="659" end="667" status="0" certainty="0" cui="C0019080" tui="T046" rank="791" code="NO-CODE" sourceType="ICPC2P"/>
+<problem value="ruptured" begin="641" end="649" status="0" certainty="0" cui="C3203359;C0443294;C1881712" tui="T037;T169;T067" rank="797;767;561" code="NO-CODE" sourceType="LCH;RCD;NCI"/>
+<anatomicalStructure value="small;arterial" begin="635;650" end="640;658" status="0" certainty="0" cui="C0226001;C1282822" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="small;vessel" begin="635;668" end="640;674" status="0" certainty="0" cui="C1282841;C0225988" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="arterial" begin="650" end="658" status="0" certainty="0" cui="C0221464;C0003842;C0226004" tui="T082;T023;T022" rank="797;765;151" code="NO-CODE" sourceType="RCD;MSH;CHV"/>
+<anatomicalStructure value="vessel" begin="668" end="674" status="0" certainty="0" cui="C0042591;C0148346;C0005847;C1511228;C0702235" tui="T029;T118,T121;T023;T024;T109,T121" rank="767;722;701;571;520" code="NO-CODE" sourceType="RCD;MTH;LNC;NCI;PDQ"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="705" end="1408">
+<Sentence sentNo="6" begin="705" end="784" sentText="Answer: This procedure is a repair of the nose rather than repair of an artery.">
+<RelationSet id="1720">
+<anatomicalStructure value="nose" begin="747" end="751" status="0" certainty="0" cui="C0028429;C1278896;C0721966;C1272939;C1522019;C0869679" tui="T023;T023;T109,T121;T122;T169;T061" rank="797;765;673;575;575;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;MMSL;NCI;SNOMEDCTUS;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="785" end="871" sentText="Most of the body’s organs and tissues are vascular, and they bleed when cut or eroded.">
+<RelationSet id="1721">
+<modifier value="vascular" begin="827" end="835" status="0" certainty="0" cui="C1801960;C0005847;C1558950;C0392759" tui="T080;T023;T033;T169" rank="797;753;551;233" code="NO-CODE" sourceType="SNMI;SNOMEDCTVET;NCI;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="872" end="979" sentText="Repair of a cut or eroded body part is coded to that body part, rather than to a vascular system body part.">
+<RelationSet id="1723">
+<procedure value="Repair" begin="872" end="878" status="0" certainty="0" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+</RelationSet>
+<RelationSet id="1724">
+<anatomicalStructure value="vascular;body" begin="953;969" end="961;973" status="0" certainty="-2" cui="C0447147" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="body part" begin="969" end="978" status="0" certainty="-2" cui="C0229962" tui="T023" rank="797" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="vascular" begin="953" end="961" status="0" certainty="-2" cui="C1801960;C0005847;C1558950;C0392759" tui="T080;T023;T033;T169" rank="797;753;551;233" code="NO-CODE" sourceType="SNMI;SNOMEDCTVET;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="body" begin="969" end="973" status="0" certainty="-2" cui="S1000390;C1268086;C1551342;C0242821" tui="t061;T017;T078;T016" rank="800;753;575;151" code="NO-CODE" sourceType="EZDI;NCI;NCI;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="980" end="1060" sentText="Epistaxis occurs when a vessel within the richly vascular nasal mucosa ruptures.">
+<RelationSet id="1725">
+<problem value="Epistaxis" begin="980" end="989" status="0" certainty="0" cui="C0014591;C2228238" tui="T046;T033" rank="797;592" code="NO-CODE" sourceType="ICD10;MEDCIN"/>
+</RelationSet>
+<RelationSet id="1726">
+<anatomicalStructure value="nasal mucosa" begin="1038" end="1050" status="0" certainty="0" cui="C0027428;C1305746;C2239140;C0028937" tui="T024;T024;T058;T024" rank="795;765;592;572" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;MEDCIN;NCI"/>
+<anatomicalStructure value="vascular" begin="1029" end="1037" status="0" certainty="0" cui="C1801960;C0005847;C1558950;C0392759" tui="T080;T023;T033;T169" rank="797;753;551;233" code="NO-CODE" sourceType="SNMI;SNOMEDCTVET;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="mucosa" begin="1044" end="1050" status="0" certainty="0" cui="C0026724;C1561514" tui="T024;T170" rank="791;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+<anatomicalStructure value="nasal" begin="1038" end="1043" status="0" certainty="0" cui="C0028429;C0234847;C1278896;C0721966;C1272939;C1522019;C0869679" tui="T023;T042;T023;T109,T121;T122;T169;T061" rank="797;765;765;673;575;575;373" code="NO-CODE" sourceType="LCH;SNMI;SNOMEDCTUS;MMSL;NCI;SNOMEDCTUS;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="1061" end="1136" sentText="In this case, the epistaxis is being treated via externally placed sutures.">
+<RelationSet id="1727">
+<problem value="epistaxis" begin="1079" end="1088" status="0" certainty="0" cui="C0014591;C2228238" tui="T046;T033" rank="797;592" code="NO-CODE" sourceType="ICD10;MEDCIN"/>
+</RelationSet>
+<RelationSet id="1728">
+<medicalDevice value="sutures" begin="1128" end="1135" status="0" certainty="0" cui="C0205368;C0038969;C0009068;C1705834;C1706068;C1546803" tui="T169;T074;T061;T073;T122;T170" rank="797;795;765;575;575;355" code="NO-CODE" sourceType="SNMI;MSH;SNM;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="11" begin="1137" end="1361" sentText="Although the procedure was performed to control bleeding, in ICD-10-PCS the root operation “control” is defined as applicable for procedures to correct postoperative bleeding, and so control does not apply to this procedure.">
+<RelationSet id="1729">
+<problem value="bleeding" begin="1185" end="1193" status="0" certainty="0" cui="C0019080" tui="T046" rank="791" code="NO-CODE" sourceType="ICPC2P"/>
+</RelationSet>
+<RelationSet id="1730">
+<problem value="postoperative bleeding" begin="1289" end="1311" status="0" certainty="0" cui="C0032788" tui="T046" rank="765" code="NO-CODE" sourceType="MDR"/>
+<problem value="bleeding" begin="1303" end="1311" status="0" certainty="0" cui="C0019080" tui="T046" rank="791" code="NO-CODE" sourceType="ICPC2P"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="12" begin="1362" end="1407" sentText="Assign the following ICD-10-PCS code: 09QKXZZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

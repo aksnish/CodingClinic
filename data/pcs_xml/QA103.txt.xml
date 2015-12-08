@@ -1,0 +1,78 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="968">
+<Paragraph pgNo="1" begin="0" end="480">
+<Sentence sentNo="1" begin="0" end="157" sentText="Question: Coding Clinic for ICD-10-CM/PCS Fourth Quarter 2013, pages 126-127, provided advice about the creation of a percutaneous cutaneoperitoneal fistula.">
+<RelationSet id="28">
+<modifier value="cutaneoperitoneal" begin="131" end="148" status="0" certainty="0" cui="S1000414" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<modifier value="percutaneous" begin="118" end="130" status="0" certainty="0" cui="C0522523;C0221912;C1522243;C1522447" tui="T082;T082;T169;T169" rank="797;797;575;575" code="NO-CODE" sourceType="RCD;SNMI;NCI;NCI"/>
+<problem value="percutaneous;fistula" begin="118;149" end="130;156" status="0" certainty="0" cui="C0423772" tui="T190" rank="797" code="NO-CODE" sourceType="MSH"/>
+<problem value="fistula" begin="149" end="156" status="0" certainty="0" cui="C0016169;C1550639;C1546635;C0595812" tui="T190;T031;T170;T082" rank="795;366;355;233" code="NO-CODE" sourceType="LCH;HL7V3.0;HL7V2.5;SNOMEDCTUS"/>
+<procedure value="creation;cutaneoperitoneal fistula" begin="104;131" end="112;156" status="0" certainty="0" cui="C0198644" tui="T061" rank="767" code="NO-CODE" sourceType="CCS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="158" end="185" sentText="This advice is problematic.">
+<RelationSet id="28">
+<modifier value="problematic" begin="173" end="184" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="186" end="240" sentText="The root operation “Bypass” does not seem appropriate.">
+<RelationSet id="29">
+<procedure value="operation" begin="195" end="204" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+<procedure value="Bypass" begin="206" end="212" status="0" certainty="0" cui="C0741847" tui="T061" rank="765" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="241" end="302" sentText="The root operation “Insertion” appears to be a better choice.">
+<RelationSet id="30">
+<procedure value="operation" begin="250" end="259" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+<procedure value="Insertion" begin="261" end="270" status="0" certainty="0" cui="C0441587;C0021107;C1512796;C1883719" tui="T058;T061;T045;T169" rank="765;702;575;575" code="NO-CODE" sourceType="RCD;SNM;NCI;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="303" end="400" sentText="However there is no device value for peritoneal catheter in the ICD-10-PCS table under Insertion.">
+<RelationSet id="31">
+<medicalDevice value="peritoneal catheter" begin="340" end="359" status="0" certainty="-2" cui="C0179781" tui="T074" rank="767" code="NO-CODE" sourceType="RCD"/>
+<medicalDevice value="catheter" begin="351" end="359" status="0" certainty="-2" cui="C0085590;C1704454;C0007430;C1546572" tui="T074;T074;T061;T170" rank="797;575;488;355" code="NO-CODE" sourceType="RCD;NCI;ICPC2P;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="32">
+<procedure value="Insertion" begin="390" end="399" status="0" certainty="0" cui="C0441587;C0021107;C1512796;C1883719" tui="T058;T061;T045;T169" rank="765;702;575;575" code="NO-CODE" sourceType="RCD;SNM;NCI;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="401" end="479" sentText="How should the placement of a peritoneal dialysis catheter (fistula) be coded?">
+<RelationSet id="33">
+<problem value="fistula" begin="461" end="468" status="0" certainty="0" cui="C0016169;C1550639;C1546635;C0595812" tui="T190;T031;T170;T082" rank="795;366;355;233" code="NO-CODE" sourceType="LCH;HL7V3.0;HL7V2.5;SNOMEDCTUS"/>
+<procedure value="peritoneal dialysis" begin="431" end="450" status="0" certainty="0" cui="C0031139;C1555974;C1706534;C0449901" tui="T061;T097;T169;T061" rank="797;366;234;150" code="NO-CODE" sourceType="MSH;HL7V3.0;SNOMEDCTUS;CHV"/>
+<procedure value="placement;catheter" begin="416;451" end="425;459" status="0" certainty="0" cui="C0883301" tui="T061" rank="652" code="NO-CODE" sourceType="MDR"/>
+<procedure value="placement" begin="416" end="425" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+<procedure value="dialysis" begin="442" end="450" status="0" certainty="0" cui="C0011945;C1059964;C1654851;C0011946;C0917873" tui="T070;T204;T074;T061;T061" rank="795;751;675;652;151" code="NO-CODE" sourceType="LCH;NCBI;MMSL;MEDLINEPLUS;CHV"/>
+<procedure value="catheter" begin="451" end="459" status="0" certainty="0" cui="C0085590;C1704454;C0007430;C1546572" tui="T074;T074;T061;T170" rank="795;575;488;355" code="NO-CODE" sourceType="RCD;NCI;ICPC2P;HL7V2.5"/>
+<anatomicalStructure value="peritoneal" begin="431" end="441" status="0" certainty="0" cui="C0031153;C0442034;C0496954;C0496874" tui="T023;T029;T191;T191" rank="797;797;610;610" code="NO-CODE" sourceType="LCH;RCD;ICD10;ICD10"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="481" end="967">
+<Sentence sentNo="7" begin="481" end="623" sentText="Answer: In the original question, the requester asked about creation of a cutaneoperitoneal fistula, which led to the root operation “Bypass.”">
+<RelationSet id="34">
+<problem value="fistula" begin="573" end="580" status="0" certainty="1" cui="C0016169;C1550639;C1546635;C0595812" tui="T190;T031;T170;T082" rank="795;366;355;233" code="NO-CODE" sourceType="LCH;HL7V3.0;HL7V2.5;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="624" end="865" sentText="However, upon further review by the Coding Clinic for ICD-10CM/PCS Editorial Advisory Board (EAB), the EAB determined that a procedure to place a peritoneal dialysis device is more appropriately classified as an insertion of infusion device.">
+<RelationSet id="35">
+<medicalDevice value="dialysis device" begin="781" end="796" status="0" certainty="0" cui="C1654851" tui="T074" rank="797" code="NO-CODE" sourceType="MTH"/>
+<medicalDevice value="device" begin="790" end="796" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="36">
+<procedure value="insertion" begin="836" end="845" status="0" certainty="0" cui="C0441587;C0021107;C1512796;C1883719" tui="T058;T061;T045;T169" rank="765;702;575;575" code="NO-CODE" sourceType="RCD;SNM;NCI;HL7V3.0"/>
+<procedure value="infusion" begin="849" end="857" status="0" certainty="0" cui="C0574032;C1827465" tui="T061;T169" rank="767;366" code="NO-CODE" sourceType="MDR;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="866" end="967" sentText="Assign the following ICD-10-PCS procedure code for placement of a peritoneal dialysis device: 0WHG33Z">
+<RelationSet id="37">
+<procedure value="peritoneal dialysis" begin="932" end="951" status="0" certainty="0" cui="C0031139;C1555974;C1706534;C0449901" tui="T061;T097;T169;T061" rank="797;366;234;150" code="NO-CODE" sourceType="MSH;HL7V3.0;SNOMEDCTUS;CHV"/>
+<procedure value="placement;device" begin="917;952" end="926;958" status="0" certainty="0" cui="C0021107" tui="T061" rank="724" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="placement" begin="917" end="926" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+<procedure value="dialysis" begin="943" end="951" status="0" certainty="0" cui="C1654851;C0011945;C1059964;C0011946;C0917873" tui="T074;T070;T204;T061;T061" rank="797;795;751;652;151" code="NO-CODE" sourceType="MMSL;LCH;NCBI;MEDLINEPLUS;CHV"/>
+<anatomicalStructure value="peritoneal" begin="932" end="942" status="0" certainty="0" cui="C0031153;C0442034;C0496954;C0496874" tui="T023;T029;T191;T191" rank="797;797;610;610" code="NO-CODE" sourceType="LCH;RCD;ICD10;ICD10"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

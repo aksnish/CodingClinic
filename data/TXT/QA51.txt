@@ -1,0 +1,2 @@
+Question: A patient had insertion of a Swan Ganz catheter for monitoring of pulmonary artery pressure. Are two codes assigned to describe both the catheter insertion and pressure monitoring? Additionally, is it appropriate to assign a code for right cardiac catheterization? 
+Answer: When a Swan Ganz catheter is inserted, assign only a code for placement of monitoring device. Assign the body part value “Pulmonary artery trunk” unless documented otherwise. Based on the procedure report provided, assign the following ICD-10-PCS code: 02HP32Z 

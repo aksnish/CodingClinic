@@ -1,0 +1,159 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1955">
+<Paragraph pgNo="1" begin="0" end="631">
+<Sentence sentNo="1" begin="0" end="71" sentText="Question: The patient is status post left mastectomy for breast cancer.">
+<RelationSet id="1525">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="cancer" begin="64" end="70" status="0" certainty="0"/>
+<modifier value="left" begin="37" end="41" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="cancer" begin="64" end="70" status="0" certainty="0"/>
+<anatomicalStructure value="breast" begin="57" end="63" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="cancer" begin="64" end="70" status="0" certainty="0"/>
+<anatomicalStructure value="breast" begin="57" end="63" status="0" certainty="1"/>
+<modifier value="left" begin="37" end="41" status="0" certainty="1"/>
+<procedure value=" mastectomy" begin="41" end="52" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="left" begin="37" end="41" status="0" certainty="1"/>
+<procedure value=" mastectomy" begin="41" end="52" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="breast" begin="57" end="63" status="0" certainty="1"/>
+<procedure value=" mastectomy" begin="41" end="52" status="0" certainty="1"/>
+</Relation>
+<problem value="breast cancer" begin="57" end="70" status="0" certainty="0" cui="C0006142;C0678222" tui="T191;T191" rank="793;575" code="NO-CODE" sourceType="MEDLINEPLUS;NCI"/>
+<problem value="cancer" begin="64" end="70" status="0" certainty="0" cui="C0006826;C1306459;C0998265;C0260515;C1547140" tui="T191;T191;T204;T033;T091" rank="793;765;751;592;355" code="NO-CODE" sourceType="ICPC2P;SNOMEDCTUS;NCBI;MEDCIN;HL7V2.5"/>
+<anatomicalStructure value="breast" begin="57" end="63" status="0" certainty="1" cui="C0006141;C1521735;C1268990;C0929301;C0496956;C0191838" tui="T023;T080;T023;T023;T191;T061" rank="797;797;765;703;610;373" code="NO-CODE" sourceType="LCH;NCI;SNOMEDCTUS;SNMI;ICD10;ICD10AM"/>
+<modifier value="left" begin="37" end="41" status="0" certainty="1" cui="C0205091;C0242724;C1552822" tui="T082;T002;T169" rank="797;767;366" code="NO-CODE" sourceType="RCD;SNM;HL7V3.0"/>
+<procedure value="mastectomy" begin="42" end="52" status="0" certainty="1" cui="C0024881;C0024886;C0191849" tui="T061;T061;T061" rank="797;765;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="72" end="175" sentText="An ipsilateral pedicle transverse abdominomyocutaneous (TRAM) flap breast reconstruction was performed.">
+<RelationSet id="1526">
+<modifier value="TRAM;flap" begin="128;134" end="132;138" status="0" certainty="0" cui="S1000055" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="TRAM;flap breast reconstruction" begin="128;134" end="132;160" status="0" certainty="0" cui="C0521240" tui="T061" rank="797" code="NO-CODE" sourceType="SNMI"/>
+<procedure value="flap breast reconstruction" begin="134" end="160" status="0" certainty="0" cui="C0580896" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="breast reconstruction" begin="139" end="160" status="0" certainty="0" cui="C0085076;C0370620;C0370621;C0370622;C0405379;C0405405;C0370619;C0370617" tui="T061;T061;T061;T061;T061;T061;T061;T061" rank="791;271;271;271;271;271;271;271" code="NO-CODE" sourceType="NCI;CPT;CPT;CPT;CPT;CPT;CPT;CPT"/>
+<procedure value="reconstruction" begin="146" end="160" status="0" certainty="0" cui="C0524865;C0020912" tui="T061;T066" rank="765;575" code="NO-CODE" sourceType="RCD;NCI"/>
+<procedure value="breast" begin="139" end="145" status="0" certainty="0" cui="C0006141;C1521735;C1268990;C0929301;C0496956;C0191838" tui="T023;T080;T023;T023;T191;T061" rank="797;797;765;703;610;373" code="NO-CODE" sourceType="LCH;NCI;SNOMEDCTUS;SNMI;ICD10;ICD10AM"/>
+<anatomicalStructure value="flap" begin="134" end="138" status="0" certainty="0" cui="C0038925;C1412362" tui="T023;T028" rank="767;596" code="NO-CODE" sourceType="RCD;HGNC"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="176" end="336" sentText="The TRAM flap was elevated off the underlying abdominal wall, leaving the medial and lateral rows of anterior rectus sheath perforators intact on the left side.">
+<RelationSet id="1527">
+<anatomicalStructure value="abdominal wall" begin="222" end="236" status="0" certainty="0" cui="C0836916;C1269041" tui="T023;T023" rank="795;765" code="NO-CODE" sourceType="NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="abdominal" begin="222" end="231" status="0" certainty="0" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+</RelationSet>
+<RelationSet id="1528">
+<anatomicalStructure value="anterior rectus sheath" begin="277" end="299" status="0" certainty="0" cui="C0447683" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="lateral;rectus" begin="261;286" end="268;292" status="0" certainty="0" cui="C0224131;C0582821" tui="T023;T023" rank="765;724" code="NO-CODE" sourceType="SNOMEDCTUS;UWDA"/>
+<anatomicalStructure value="rectus sheath" begin="286" end="299" status="0" certainty="0" cui="C0740005" tui="T023" rank="692" code="NO-CODE" sourceType="UWDA"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="337" end="414" sentText="The resulting muscle flap was passed through the tunnel into the left breast.">
+<RelationSet id="1529">
+<anatomicalStructure value="muscle" begin="351" end="357" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+<anatomicalStructure value="flap" begin="358" end="362" status="0" certainty="0" cui="C0038925;C1412362" tui="T023;T028" rank="767;596" code="NO-CODE" sourceType="RCD;HGNC"/>
+</RelationSet>
+<RelationSet id="1530">
+<anatomicalStructure value="left breast" begin="402" end="413" status="0" certainty="0" cui="C0222601" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="breast" begin="407" end="413" status="0" certainty="0" cui="C0006141;C1521735;C1268990;C0929301;C0496956;C0191838" tui="T023;T080;T023;T023;T191;T061" rank="797;797;765;703;610;373" code="NO-CODE" sourceType="LCH;NCI;SNOMEDCTUS;SNMI;ICD10;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="415" end="630" sentText="What are the appropriate ICD-10-PCS code assignments  for this  procedure? Under the term, reconstruction in the Index to Procedures of ICD-10-PCS, there are instructions to see repair, replacement  and  supplement.">
+<RelationSet id="1531">
+<modifier value="reconstruction" begin="506" end="520" status="0" certainty="0" cui="C0020912" tui="T066" rank="575" code="NO-CODE" sourceType="NCI"/>
+<procedure value="reconstruction;Procedures" begin="506;537" end="520;547" status="0" certainty="0" cui="C0524865" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="632" end="1954">
+<Sentence sentNo="6" begin="632" end="878" sentText="Answer: For the TRAM flap reconstruction, assign ICD-10PCS code as follows: 0KXL0Z6 Transfer left abdomen muscle, transverse rectus abdominis myocutaneous, open approach The qualifier “6” is used for transverse rectus abdominis myocutaneous flap.">
+<RelationSet id="1532">
+<modifier value="TRAM flap" begin="648" end="657" status="0" certainty="0" cui="S1000055" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="reconstruction" begin="658" end="672" status="0" certainty="0" cui="C0524865;C0020912" tui="T061;T066" rank="765;575" code="NO-CODE" sourceType="RCD;NCI"/>
+<anatomicalStructure value="flap" begin="653" end="657" status="0" certainty="0" cui="C0038925;C1412362" tui="T023;T028" rank="767;596" code="NO-CODE" sourceType="RCD;HGNC"/>
+</RelationSet>
+<RelationSet id="1533">
+<anatomicalStructure value="abdomen muscle" begin="730" end="744" status="0" certainty="0" cui="C0000739;C1280282" tui="T023;T024" rank="765;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="abdomen" begin="730" end="737" status="0" certainty="0" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+<anatomicalStructure value="muscle" begin="738" end="744" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="1534">
+<anatomicalStructure value="rectus abdominis" begin="757" end="773" status="0" certainty="0" cui="C0206066;C1305918" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MSH;RCD"/>
+<anatomicalStructure value="myocutaneous" begin="774" end="786" status="0" certainty="0" cui="C0450119" tui="T024" rank="765" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="1535">
+<anatomicalStructure value="rectus abdominis myocutaneous flap" begin="843" end="877" status="0" certainty="0" cui="C0438801" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="rectus abdominis;flap" begin="843;873" end="859;877" status="0" certainty="0" cui="C0440920" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="rectus abdominis" begin="843" end="859" status="0" certainty="0" cui="C0206066;C1305918" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MSH;RCD"/>
+<anatomicalStructure value="myocutaneous" begin="860" end="872" status="0" certainty="0" cui="C0450119" tui="T024" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="flap" begin="873" end="877" status="0" certainty="0" cui="C0038925;C1412362" tui="T023;T028" rank="767;596" code="NO-CODE" sourceType="RCD;HGNC"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="879" end="959" sentText="This code should be assigned for a composite flap that includes skin and muscle.">
+<RelationSet id="1536">
+<anatomicalStructure value="flap;skin" begin="924;943" end="928;947" status="0" certainty="0" cui="C1562051" tui="T024" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1537">
+<anatomicalStructure value="muscle" begin="952" end="958" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="960" end="1005" sentText="If only muscle is used, assign qualifier “Z.”">
+</Sentence>
+<Sentence sentNo="9" begin="1006" end="1079" sentText="The root operation “transfer” is appropriate for the TRAM reconstruction.">
+<RelationSet id="1538">
+<procedure value="operation" begin="1015" end="1024" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1539">
+<procedure value="reconstruction" begin="1064" end="1078" status="0" certainty="0" cui="C0524865;C0020912" tui="T061;T066" rank="765;575" code="NO-CODE" sourceType="RCD;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="1080" end="1212" sentText="In this example, a portion of the abdominal muscle is moved to the breast, and remains connected to its vascular and nervous supply.">
+<RelationSet id="1540">
+<anatomicalStructure value="abdominal muscle" begin="1114" end="1130" status="0" certainty="0" cui="C0000739;C1280282" tui="T023;T024" rank="797;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS"/>
+<anatomicalStructure value="muscle;breast" begin="1124;1147" end="1130;1153" status="0" certainty="0" cui="C0030747" tui="T023" rank="765" code="NO-CODE" sourceType="FMA"/>
+<anatomicalStructure value="abdominal" begin="1114" end="1123" status="0" certainty="0" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+<anatomicalStructure value="muscle" begin="1124" end="1130" status="0" certainty="0" cui="C0026845;C0442025" tui="T024;T082" rank="797;797" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="1541">
+<anatomicalStructure value="breast" begin="1147" end="1153" status="0" certainty="0" cui="C0006141;C1521735;C1268990;C0929301;C0496956;C0191838" tui="T023;T080;T023;T023;T191;T061" rank="797;797;765;703;610;373" code="NO-CODE" sourceType="LCH;NCI;SNOMEDCTUS;SNMI;ICD10;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="11" begin="1213" end="1391" sentText="The root operation, transfer, is the moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part.">
+<RelationSet id="1542">
+<procedure value="operation" begin="1222" end="1231" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="12" begin="1392" end="1523" sentText="Further, the root operation explanation states that the body part transferred remains connected to its vascular and nervous supply.">
+<RelationSet id="1543">
+<anatomicalStructure value="root" begin="1405" end="1409" status="0" certainty="0" cui="S1001239;C0242726;C0563017;C0040452;C1705917;C1318154" tui="t061;T002;T033;T023;T078;T023" rank="800;765;765;576;575;418" code="NO-CODE" sourceType="EZDI;RCD;RCD;NCI;NCI;LNC"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="13" begin="1524" end="1738" sentText="While the main index term for reconstruction alone references  the root operations  repair,  replacement and supplement, the root operation transfer is the appropriate root operation for a TRAM flap reconstruction.">
+<RelationSet id="1544">
+<procedure value="repair" begin="1608" end="1614" status="0" certainty="0" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+</RelationSet>
+<RelationSet id="1545">
+<procedure value="replacement" begin="1617" end="1628" status="0" certainty="0" cui="C0559956;C0035139;C1555302" tui="T169;T061;T078" rank="797;765;366" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="1546">
+<anatomicalStructure value="root" begin="1649" end="1653" status="0" certainty="0" cui="S1001239;C0242726;C0563017;C0040452;C1705917;C1318154" tui="t061;T002;T033;T023;T078;T023" rank="800;765;765;576;575;418" code="NO-CODE" sourceType="EZDI;RCD;RCD;NCI;NCI;LNC"/>
+</RelationSet>
+<RelationSet id="1547">
+<modifier value="TRAM flap" begin="1713" end="1722" status="0" certainty="0" cui="S1000055" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="reconstruction" begin="1723" end="1737" status="0" certainty="0" cui="C0524865;C0020912" tui="T061;T066" rank="765;575" code="NO-CODE" sourceType="RCD;NCI"/>
+<anatomicalStructure value="flap" begin="1718" end="1722" status="0" certainty="0" cui="C0038925;C1412362" tui="T023;T028" rank="767;596" code="NO-CODE" sourceType="RCD;HGNC"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="14" begin="1739" end="1899" sentText="According to the ICD-10-PCS Official Coding Guidelines, A7, “It is not required to consult the index first before proceeding to the tables to complete the code.">
+</Sentence>
+<Sentence sentNo="15" begin="1900" end="1953" sentText="A valid code may be chosen directly from the tables.”">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

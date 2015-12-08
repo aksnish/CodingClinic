@@ -1,0 +1,81 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="637">
+<Paragraph pgNo="1" begin="0" end="214">
+<Sentence sentNo="1" begin="0" end="163" sentText="Question: A patient with median arcuate ligament syndrome underwent bypass graft from the distal descending thoracic aorta to the celiac artery with Dacron® graft.">
+<RelationSet id="2183">
+<problem value="median arcuate ligament syndrome" begin="25" end="57" status="0" certainty="1" cui="C0152098" tui="T047" rank="765" code="NO-CODE" sourceType="DXP"/>
+<problem value="syndrome" begin="49" end="57" status="0" certainty="1" cui="C0039082;C1558916" tui="T047;T033" rank="797;551" code="NO-CODE" sourceType="LCH;NCI"/>
+<anatomicalStructure value="ligament" begin="40" end="48" status="0" certainty="1" cui="C0023685;C1269080;C0521342" tui="T024;T023;T029" rank="797;765;703" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;SNMI"/>
+</RelationSet>
+<RelationSet id="2184">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="distal descending thoracic aorta" begin="90" end="122" status="0" certainty="0"/>
+<procedure value="bypass graft" begin="68" end="80" status="0" certainty="1"/>
+</Relation>
+<anatomicalStructure value="descending thoracic aorta" begin="97" end="122" status="0" certainty="0" cui="C3163626;C1278935" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="descending;aorta" begin="97;117" end="107;122" status="0" certainty="0" cui="C0011666;C1305624" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="MSH;RCD"/>
+<anatomicalStructure value="thoracic;artery" begin="108;137" end="116;143" status="0" certainty="0" cui="C0039976" tui="T023" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="thoracic;celiac" begin="108;130" end="116;136" status="0" certainty="0" cui="C1442171" tui="T029" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="thoracic aorta" begin="108" end="122" status="0" certainty="0" cui="C1522460;C1281571" tui="T023;T023" rank="797;765" code="NO-CODE" sourceType="RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="thoracic" begin="108" end="116" status="0" certainty="0" cui="C0817096;C0729233" tui="T029;T047" rank="797;295" code="NO-CODE" sourceType="LCH;MTHICD9"/>
+<anatomicalStructure value="aorta" begin="117" end="122" status="0" certainty="0" cui="C0003483;C1278934;C0869784" tui="T023;T023;T061" rank="797;765;373" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10AM"/>
+<procedure value="bypass graft;descending thoracic aorta" begin="68;97" end="80;122" status="0" certainty="1" cui="C0190408" tui="T061" rank="750" code="NO-CODE" sourceType="SNMI"/>
+<procedure value="bypass graft" begin="68" end="80" status="0" certainty="1" cui="C0185098" tui="T061" rank="767" code="NO-CODE" sourceType="CPT"/>
+<procedure value="bypass" begin="68" end="74" status="0" certainty="1" cui="C0741847" tui="T061" rank="765" code="NO-CODE" sourceType="NCI"/>
+<procedure value="graft" begin="75" end="80" status="0" certainty="1" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+<RelationSet id="2185">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="celiac artery" begin="130" end="143" status="0" certainty="0"/>
+<procedure value="Dacron® graft" begin="149" end="162" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="celiac artery" begin="130" end="143" status="0" certainty="0" cui="C0007569;C0559365;C1268965" tui="T023;T023;T023" rank="797;765;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="aorta;artery" begin="117;137" end="122;143" status="0" certainty="0" cui="C0003483" tui="T023" rank="572" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="celiac" begin="130" end="136" status="0" certainty="0" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+<anatomicalStructure value="artery" begin="137" end="143" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<procedure value="graft" begin="157" end="162" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="164" end="213" sentText="What is the correct qualifier for this procedure?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="215" end="636">
+<Sentence sentNo="3" begin="215" end="285" sentText="Answer: According to the operative report, a bypass was not performed.">
+<RelationSet id="2186">
+<procedure value="bypass" begin="260" end="266" status="0" certainty="0" cui="C0741847" tui="T061" rank="765" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="286" end="386" sentText="Although the surgeon referred to the procedure as a ‘bypass,’ the route of passage was not modified.">
+<RelationSet id="2187">
+<procedure value="bypass" begin="339" end="345" status="0" certainty="0" cui="C0741847" tui="T061" rank="765" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="387" end="460" sentText="The surgeon used the term ‘bypass graft,’ to refer to the device he used.">
+<RelationSet id="2188">
+<procedure value="bypass graft" begin="414" end="426" status="0" certainty="0" cui="C0185098" tui="T061" rank="767" code="NO-CODE" sourceType="CPT"/>
+<procedure value="used;graft" begin="399;421" end="403;426" status="0" certainty="0" cui="C0449871" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="bypass" begin="414" end="420" status="0" certainty="0" cui="C0741847" tui="T061" rank="765" code="NO-CODE" sourceType="NCI"/>
+<procedure value="graft" begin="421" end="426" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="461" end="588" sentText="At surgery, he released the celiac artery, and excised the diseased portion of the artery and replaced it with a Dacron® graft.">
+<RelationSet id="2189">
+<procedure value="surgery" begin="464" end="471" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2190">
+<anatomicalStructure value="celiac artery" begin="489" end="502" status="0" certainty="0" cui="C0007569;C0559365;C1268965" tui="T023;T023;T023" rank="797;765;765" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="celiac" begin="489" end="495" status="0" certainty="0" cui="C0000726;C1281594;C0153662;C0230168" tui="T029;T023;T191;T029" rank="797;765;610;575" code="NO-CODE" sourceType="CST;SNOMEDCTUS;ICD10;NCI"/>
+<anatomicalStructure value="artery" begin="496" end="502" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="2191">
+<anatomicalStructure value="artery" begin="544" end="550" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="2192">
+<procedure value="graft" begin="582" end="587" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="589" end="635" sentText="Assign the following ICD-10-PCS codes: 04N10ZZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

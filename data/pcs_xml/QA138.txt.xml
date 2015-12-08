@@ -1,0 +1,125 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1834">
+<Paragraph pgNo="1" begin="0" end="1035">
+<Sentence sentNo="1" begin="0" end="72" sentText="Question: The patient is a five-year-old with severe juvenile scoliosis.">
+<RelationSet id="2193">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="juvenile scoliosis" begin="53" end="71" status="0" certainty="1"/>
+<modifier value="severe" begin="46" end="52" status="0" certainty="1"/>
+</Relation>
+<problem value="scoliosis" begin="62" end="71" status="0" certainty="1" cui="C0036439;C0700208;C0559260" tui="T190;T020;T019" rank="795;765;765" code="NO-CODE" sourceType="MSH;ICPC2P;RCD"/>
+<modifier value="severe" begin="46" end="52" status="0" certainty="1" cui="C0205082;C0439793;C1519275;C2983285;C2919019;C1547231;C1547227" tui="T080;T080;T033;T170;T033;T170;T170" rank="767;767;572;571;571;355;355" code="NO-CODE" sourceType="RCD;MTH;NCI;NCI;NCI;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="73" end="173" sentText="She had previously undergone placement of growing rods and the proximal hooks have become dislodged.">
+<RelationSet id="2194">
+<procedure value="placement" begin="102" end="111" status="1" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="rods" begin="123" end="127" status="1" certainty="0" cui="C1563018;C1424852;C1947942;C0206427;C1705186;C2347970;C2347971;C1552915" tui="T007;T028;T082;T025;T074;T081;T081;T081" rank="753;596;576;576;575;541;541;366" code="NO-CODE" sourceType="SNOMEDCTVET;HGNC;NCI;MTH;NCI;NCI;NCI;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="174" end="263" sentText="She is now being admitted for removal and replacement of proximal hooks and growing rods.">
+</Sentence>
+<Sentence sentNo="4" begin="264" end="341" sentText="During surgery the entire growth rod was removed and a new device was placed.">
+<RelationSet id="2195">
+<procedure value="surgery" begin="271" end="278" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2196">
+<medicalDevice value="rod" begin="297" end="300" status="0" certainty="0" cui="C1563018;C1424852;C1947942;C0206427;C1705186;C2347970;C2347971;C1552915" tui="T007;T028;T082;T025;T074;T081;T081;T081" rank="753;596;576;576;575;541;541;366" code="NO-CODE" sourceType="SNOMEDCTVET;HGNC;NCI;MTH;NCI;NCI;NCI;HL7V3.0"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="342" end="495" sentText="A pedicle hook was placed in the fusion mass on the left and then a down-going laminar hook was placed around the fusion mass superiorly at the T4 level.">
+<RelationSet id="2197">
+<medicalDevice value="hook" begin="352" end="356" status="0" certainty="0" cui="C0181209" tui="T074" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="2199">
+<medicalDevice value="hook" begin="429" end="433" status="0" certainty="0" cui="C0181209" tui="T074" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="2200">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<lab value="T4 level" begin="486" end="494" status="0" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+<problem value="fusion mass" begin="456" end="467" status="0" certainty="0"/>
+</Relation>
+<lab value="T4 level" begin="486" end="494" status="0" certainty="0" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="496" end="614" sentText="At the T3 level on the right, a claw construct with an up-going pedicle hook and a down-going laminar hook was placed.">
+<RelationSet id="2201">
+<anatomicalStructure value="T3 level" begin="503" end="511" status="0" certainty="0" cui="C0446421;C0428419" tui="T029;T059" rank="692;592" code="NO-CODE" sourceType="UWDA;MEDCIN"/>
+</RelationSet>
+<RelationSet id="2202">
+<medicalDevice value="hook" begin="598" end="602" status="0" certainty="0" cui="C0181209" tui="T074" rank="767" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="615" end="683" sentText="The rods were then cut and contoured and replaced first on the left.">
+</Sentence>
+<Sentence sentNo="8" begin="684" end="751" sentText="Eyebolts were placed above the hooks and the hooks were compressed.">
+</Sentence>
+<Sentence sentNo="9" begin="752" end="797" sentText="The same procedure was repeated on the right.">
+</Sentence>
+<Sentence sentNo="10" begin="798" end="903" sentText="Both rods were lengthened approximately a centimeter and the new eye bolts were tightened up and sheared.">
+<RelationSet id="2203">
+<anatomicalStructure value="eye" begin="863" end="866" status="0" certainty="0" cui="C0015392;C1280202;C1299003;C0154094;C2347396;C0042789;C1522230;C1555998;C1555960;C1550636;C1546630;C0029144" tui="T023;T023;T169;T191;T122;T040;T082;T097;T097;T031;T170;T090" rank="797;765;703;610;575;575;575;366;366;366;355;150" code="NO-CODE" sourceType="COSTAR;SNOMEDCTUS;NCI;ICD10;NCI;NCI;SNOMEDCTUS;HL7V3.0;HL7V3.0;HL7V3.0;HL7V2.5;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="11" begin="904" end="964" sentText="Intraoperative neuromonitoring was also done during surgery.">
+<RelationSet id="2204">
+<procedure value="surgery" begin="956" end="963" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="12" begin="965" end="1034" sentText="What are the appropriate ICD-10-CM/PCS diagnosis and procedure codes?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="1036" end="1833">
+<Sentence sentNo="13" begin="1036" end="1169" sentText="Answer: Assign code T84.328A, Displacement of other bone devices, implants and grafts, initial encounter, as the principal diagnosis.">
+<RelationSet id="2204">
+<problem value="4.328A, Displacement of other bone devices, implants and grafts, initial e" begin="1058" end="1132" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2205">
+<anatomicalStructure value="bone" begin="1088" end="1092" status="0" certainty="0" cui="C0005931;C0262950;C0391978;C0443157;C1266909;C1266908;C1550616;C1546560" tui="T024;T023;T024;T169;T022;T023;T031;T170" rank="795;792;790;767;765;765;366;355" code="NO-CODE" sourceType="MSH;LCH;MSH;RCD;SNOMEDCTUS;SNOMEDCTUS;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2206">
+<procedure value="grafts" begin="1115" end="1121" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="14" begin="1170" end="1225" sentText="The dislodgement of the hooks is coded as displacement.">
+</Sentence>
+<Sentence sentNo="15" begin="1226" end="1239" sentText="Code M41.119,">
+</Sentence>
+<Sentence sentNo="16" begin="1240" end="1334" sentText="Juvenile idiopathic scoliosis, site unspecified should be assigned as an additional diagnosis.">
+<RelationSet id="2207">
+<problem value="Juvenile idiopathic scoliosis" begin="1240" end="1269" status="0" certainty="0" cui="C3495538" tui="T047" rank="800" code="NO-CODE" sourceType="ICD10AM"/>
+<problem value="idiopathic scoliosis" begin="1249" end="1269" status="0" certainty="0" cui="C0595995;C0036440" tui="T020;T190" rank="797;293" code="NO-CODE" sourceType="MTHICD9;ICD9CM"/>
+<problem value="scoliosis" begin="1260" end="1269" status="0" certainty="0" cui="C0036439;C0700208;C0559260" tui="T190;T020;T019" rank="797;765;765" code="NO-CODE" sourceType="MSH;ICPC2P;RCD"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="17" begin="1335" end="1398" sentText="The surgeon removed the old hooks and rods and placed new ones.">
+</Sentence>
+<Sentence sentNo="18" begin="1399" end="1510" sentText="In this case the root operation “Revision” is not appropriate since the entire device was removed and replaced.">
+<RelationSet id="2208">
+<procedure value="operation" begin="1421" end="1430" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+<procedure value="Revision" begin="1432" end="1440" status="0" certainty="0" cui="C0439617;C0439616;C0558347;C1527075" tui="T079;T079;T061;T061" rank="797;767;767;576" code="NO-CODE" sourceType="RCD;RCD;SNOMEDCTUS;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="19" begin="1511" end="1670" sentText="Intraoperative monitoring of the nervous system during surgery provides recordings and critical detail, which assists the surgeon in preventing neural insults.">
+<RelationSet id="2209">
+<anatomicalStructure value="neural" begin="1655" end="1661" status="0" certainty="0" cui="C0027740;C1280541;C0599851;C0027757" tui="T024;T023;T169;T024" rank="797;765;576;572" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;CSP;NCI"/>
+</RelationSet>
+<RelationSet id="2210">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="nervous system" begin="1544" end="1558" status="0" certainty="0"/>
+<procedure value="surgery" begin="1566" end="1573" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="nervous system" begin="1544" end="1558" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<procedure value="nervous system;surgery" begin="1544;1566" end="1558;1573" status="0" certainty="0" cui="C0524850" tui="T061" rank="644" code="NO-CODE" sourceType="CPT"/>
+<procedure value="surgery" begin="1566" end="1573" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="20" begin="1671" end="1722" sentText="If desired, intraoperative monitoring may be coded.">
+</Sentence>
+<Sentence sentNo="21" begin="1723" end="1786" sentText="The code assignment includes both motor and sensory monitoring.">
+</Sentence>
+<Sentence sentNo="22" begin="1787" end="1832" sentText="Assign the following ICD10-PCS codes: 0PH404Z">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

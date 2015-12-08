@@ -1,0 +1,36 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1123">
+<Paragraph pgNo="1" begin="0" end="699">
+<Sentence sentNo="1" begin="0" end="231" sentText="Question: External causes of morbidity coding may require up to four codes to identify the cause of injury, the intent of the injury (accident versus intentional), the place of injury, and the person’s status at the time of injury.">
+<RelationSet id="895">
+<problem value="injury" begin="100" end="106" status="0" certainty="0" cui="C1510467;C3263723;C3263722" tui="T037;T037;T037" rank="794;793;765" code="NO-CODE" sourceType="MSH;ICPC2P;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="896">
+<problem value="injury;intentional" begin="126;150" end="132;161" status="0" certainty="0" cui="C0151737" tui="T037" rank="797" code="NO-CODE" sourceType="MDR"/>
+<problem value="injury;accident" begin="126;134" end="132;142" status="0" certainty="0" cui="C0151736;C2063868;C0740686" tui="T037;T037;T037" rank="767;595;280" code="NO-CODE" sourceType="CST;MEDCIN;LCH"/>
+<problem value="injury" begin="126" end="132" status="0" certainty="0" cui="C1510467;C3263723;C3263722" tui="T037;T037;T037" rank="794;793;765" code="NO-CODE" sourceType="MSH;ICPC2P;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="897">
+<problem value="injury" begin="177" end="183" status="0" certainty="0" cui="C1510467;C3263723;C3263722" tui="T037;T037;T037" rank="794;793;765" code="NO-CODE" sourceType="MSH;ICPC2P;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="898">
+<problem value="injury" begin="224" end="230" status="0" certainty="0" cui="C1510467;C3263723;C3263722" tui="T037;T037;T037" rank="794;793;765" code="NO-CODE" sourceType="MSH;ICPC2P;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="232" end="441" sentText="Can you please clarify whether coders must use physician documentation or if coders can use information from non-provider documentation, such as nurse’s notes, documentation from ambulance transport, etcetera?">
+</Sentence>
+<Sentence sentNo="3" begin="442" end="618" sentText="It seems that it would be labor intensive to expect a physician to restate documentation that may have already been provided by ambulance transport or the emergency room nurse.">
+</Sentence>
+<Sentence sentNo="4" begin="619" end="698" sentText="Would you please address this issue nationally so everyone  can be  consistent?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="700" end="1122">
+<Sentence sentNo="5" begin="700" end="779" sentText="Answer: Coders should use information contained in the official medical record.">
+</Sentence>
+<Sentence sentNo="6" begin="780" end="996" sentText="Codes for external causes of morbidity are assigned based on physician documentation; however, if the physician does not document external cause information, coders may use documentation available from nonphysicians.">
+</Sentence>
+<Sentence sentNo="7" begin="997" end="1121" sentText="If there is conflict between the physician and nonphysician documentation, the physician’s documentation  takes  precedence.">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

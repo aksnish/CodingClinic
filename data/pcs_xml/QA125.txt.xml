@@ -1,0 +1,142 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1396">
+<Paragraph pgNo="1" begin="0" end="315">
+<Sentence sentNo="1" begin="0" end="97" sentText="Question: The patient underwent ultrasound accelerated thrombolysis of the pulmonary artery (PA).">
+<RelationSet id="63">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="ultrasound" begin="32" end="42" status="0" certainty="1"/>
+<anatomicalStructure value="pulmonary artery" begin="75" end="91" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="ultrasound" begin="32" end="42" status="0" certainty="1"/>
+<problem value="thrombolysis" begin="55" end="67" status="0" certainty="1"/>
+<anatomicalStructure value="pulmonary artery" begin="75" end="91" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="thrombolysis" begin="55" end="67" status="0" certainty="1"/>
+<anatomicalStructure value="pulmonary artery" begin="75" end="91" status="0" certainty="1"/>
+</Relation>
+<procedure value="ultrasound" begin="32" end="42" status="0" certainty="1" cui="C0037709;C0220934;C0175663;C0041618;C1875843;C2368378;C1456803;C0041621" tui="T070;T169;T074;T060;T074;T061;T070;T070" rank="795;788;767;765;739;595;576;150" code="NO-CODE" sourceType="LCH;MSH;SNOMEDCTUS;CHV;NDFRT;MEDCIN;CSP;CHV"/>
+<anatomicalStructure value="pulmonary artery;PA" begin="75;93" end="91;95" status="0" certainty="1" cui="C1269026" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="pulmonary artery" begin="75" end="91" status="0" certainty="1" cui="C0034052;C0545747" tui="T023;T023" rank="795;150" code="NO-CODE" sourceType="MSH;CHV"/>
+<anatomicalStructure value="pulmonary" begin="75" end="84" status="0" certainty="1" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="MSH;AIR;SNOMEDCTUS;NCI"/>
+<anatomicalStructure value="artery" begin="85" end="91" status="0" certainty="1" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="98" end="314" sentText="What is the appropriate ICD-10-PCS code for ultrasound accelerated thrombolysis of the PA? Should the root operation “Insertion” be coded and is the ultrasound and accelerated thrombolysis procedure separately coded?">
+<RelationSet id="64">
+<procedure value="ultrasound" begin="142" end="152" status="0" certainty="0" cui="C0037709;C0220934;C0175663;C0041618;C1875843;C2368378;C1456803;C0041621" tui="T070;T169;T074;T060;T074;T061;T070;T070" rank="795;788;767;765;739;595;576;150" code="NO-CODE" sourceType="LCH;MSH;SNOMEDCTUS;CHV;NDFRT;MEDCIN;CSP;CHV"/>
+</RelationSet>
+<RelationSet id="65">
+<procedure value="operation" begin="205" end="214" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+<procedure value="Insertion" begin="216" end="225" status="0" certainty="0" cui="C0441587;C0021107;C1512796;C1883719" tui="T058;T061;T045;T169" rank="765;702;575;575" code="NO-CODE" sourceType="RCD;SNM;NCI;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="66">
+<procedure value="ultrasound" begin="247" end="257" status="0" certainty="0" cui="C0037709;C0220934;C0175663;C0041618;C1875843;C2368378;C1456803;C0041621" tui="T070;T169;T074;T060;T074;T061;T070;T070" rank="795;788;767;765;739;595;576;150" code="NO-CODE" sourceType="LCH;MSH;SNOMEDCTUS;CHV;NDFRT;MEDCIN;CSP;CHV"/>
+</RelationSet>
+<RelationSet id="67">
+<modifier value="procedure;coded" begin="287;308" end="296;313" status="0" certainty="0" cui="C1550373" tui="T170" rank="354" code="NO-CODE" sourceType="HL7V2.5"/>
+<procedure value="procedure" begin="287" end="296" status="0" certainty="0" cui="C0184661;C0025664;C2700391;C1948041;C3274430;C3538935;C3539779;C1546467" tui="T060,T061;T170;T052;T061;T058;T078;T170;T078" rank="792;789;576;575;572;571;571;366" code="NO-CODE" sourceType="MSH;MSH;NCI;NCI;NCI;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="68">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="accelerated" begin="153" end="164" status="0" certainty="0"/>
+<problem value="thrombolysis" begin="165" end="177" status="0" certainty="0"/>
+</Relation>
+<modifier value="accelerated" begin="153" end="164" status="0" certainty="0" cui="C0521110" tui="T169" rank="767" code="NO-CODE" sourceType="SNMI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="316" end="1395">
+<Sentence sentNo="3" begin="316" end="460" sentText="Answer: Ultrasound accelerated thrombolysis uses specialized equipment to perform the procedure, but no device is left behind after the surgery.">
+<RelationSet id="70">
+<procedure value="surgery" begin="452" end="459" status="0" certainty="-2" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="461" end="556" sentText="Delivery of ultrasonic waves via catheter is not considered insertion of a device in PCS terms.">
+<RelationSet id="71">
+<medicalDevice value="ultrasonic;catheter" begin="473;494" end="483;502" status="0" certainty="0" cui="C0878980" tui="T074" rank="684" code="NO-CODE" sourceType="UMD"/>
+<medicalDevice value="catheter" begin="494" end="502" status="0" certainty="0" cui="C0085590;C0007430;C1704454;C1546572" tui="T074;T061;T074;T170" rank="795;765;575;355" code="NO-CODE" sourceType="RCD;RCD;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="557" end="680" sentText="Therefore, the root operation “Insertion” is not appropriate, since “Insertion” is only coded when a device is left behind.">
+<RelationSet id="72">
+<procedure value="operation" begin="577" end="586" status="0" certainty="0" cui="C0038895;C0543467;C3241922;C1880161;C3244306;C3244305" tui="T169;T058;T052;T066;T170;T169" rank="789;765;576;575;366;366" code="NO-CODE" sourceType="MSH;MTH;NCI;NCI;HL7V3.0;HL7V3.0"/>
+<procedure value="Insertion" begin="588" end="597" status="0" certainty="0" cui="C0441587;C0021107;C1512796;C1883719" tui="T058;T061;T045;T169" rank="765;702;575;575" code="NO-CODE" sourceType="RCD;SNM;NCI;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="72">
+<modifier value="left" begin="668" end="672" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="681" end="836" sentText="Assign the appropriate code from ICD-10-PCS table 6A7, Extracorporeal therapies, physiological systems, ultrasound therapy, for the therapeutic ultrasound.">
+<RelationSet id="73">
+<procedure value="ultrasound therapy" begin="785" end="803" status="0" certainty="0" cui="C0041620;C0374495" tui="T061;T061" rank="767;271" code="NO-CODE" sourceType="RCD;HCPT"/>
+<procedure value="ultrasound" begin="785" end="795" status="0" certainty="0" cui="C0037709;C0220934;C0175663;C0041618;C1875843;C2368378;C1456803;C0041621" tui="T070;T169;T074;T060;T074;T061;T070;T070" rank="795;788;767;765;739;595;576;150" code="NO-CODE" sourceType="LCH;MSH;SNOMEDCTUS;CHV;NDFRT;MEDCIN;CSP;CHV"/>
+<procedure value="therapy" begin="796" end="803" status="0" certainty="0" cui="C0039798;C0087111;C1363945" tui="T169;T061;T033" rank="794;767;575" code="NO-CODE" sourceType="MSH;CSP;NCI"/>
+</RelationSet>
+<RelationSet id="74">
+<procedure value="therapeutic ultrasound" begin="813" end="835" status="0" certainty="0" cui="C0041620" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="therapeutic" begin="813" end="824" status="0" certainty="0" cui="C0302350;C0039796;C0723712;C1547427" tui="T169;T061;T109,T121;T170" rank="797;795;673;355" code="NO-CODE" sourceType="RCD;MSH;CHV;HL7V2.5"/>
+<procedure value="ultrasound" begin="825" end="835" status="0" certainty="0" cui="C0037709;C0220934;C0175663;C0041618;C1875843;C2368378;C1456803;C0041621" tui="T070;T169;T074;T060;T074;T061;T070;T070" rank="795;788;767;765;739;595;576;150" code="NO-CODE" sourceType="LCH;MSH;SNOMEDCTUS;CHV;NDFRT;MEDCIN;CSP;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="837" end="1029" sentText="Although this table is titled “extracorporeal therapies” and this type of ultrasound was not technically extracorporeal, these are the only therapeutic ultrasound codes available at this time.">
+<RelationSet id="75">
+<procedure value="ultrasound" begin="911" end="921" status="0" certainty="0" cui="C0037709;C0220934;C0175663;C0041618;C1875843;C2368378;C1456803;C0041621" tui="T070;T169;T074;T060;T074;T061;T070;T070" rank="795;788;767;765;739;595;576;150" code="NO-CODE" sourceType="LCH;MSH;SNOMEDCTUS;CHV;NDFRT;MEDCIN;CSP;CHV"/>
+</RelationSet>
+<RelationSet id="76">
+<procedure value="therapeutic ultrasound" begin="977" end="999" status="0" certainty="-2" cui="C0041620" tui="T061" rank="767" code="NO-CODE" sourceType="ICD10AM"/>
+<procedure value="therapeutic" begin="977" end="988" status="0" certainty="-2" cui="C0302350;C0039796;C0723712;C1547427" tui="T169;T061;T109,T121;T170" rank="797;795;673;355" code="NO-CODE" sourceType="RCD;MSH;CHV;HL7V2.5"/>
+<procedure value="ultrasound" begin="989" end="999" status="0" certainty="-2" cui="C0037709;C0220934;C0175663;C0041618;C1875843;C2368378;C1456803;C0041621" tui="T070;T169;T074;T060;T074;T061;T070;T070" rank="795;788;767;765;739;595;576;150" code="NO-CODE" sourceType="LCH;MSH;SNOMEDCTUS;CHV;NDFRT;MEDCIN;CSP;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="1030" end="1223" sentText="Additionally, assign the appropriate code from ICD10-PCS table 3E0, Administration, Physiological systems and anatomical regions, introduction, to identify infusion of the thrombolytic therapy.">
+<RelationSet id="77">
+<modifier value="infusion;therapy" begin="1186;1215" end="1194;1222" status="0" certainty="0" cui="C1552428;C1555985" tui="T170;T170" rank="366;366" code="NO-CODE" sourceType="HL7V3.0;HL7V3.0"/>
+<procedure value="thrombolytic therapy" begin="1202" end="1222" status="0" certainty="0" cui="C0040044" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="therapy" begin="1215" end="1222" status="0" certainty="0" cui="C0039798;C0087111;C1363945" tui="T169;T061;T033" rank="794;767;575" code="NO-CODE" sourceType="MSH;CSP;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="1224" end="1279" sentText="The pulmonary artery is classified as a central artery.">
+<RelationSet id="78">
+<anatomicalStructure value="pulmonary artery;central" begin="1228;1264" end="1244;1271" status="0" certainty="0" cui="C0450965" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="pulmonary artery" begin="1228" end="1244" status="0" certainty="0" cui="C0034052;C1269026;C0545747" tui="T023;T023;T023" rank="795;765;150" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;CHV"/>
+<anatomicalStructure value="artery;central" begin="1238;1264" end="1244;1271" status="0" certainty="0" cui="C1516384" tui="T023" rank="576" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="pulmonary" begin="1228" end="1237" status="0" certainty="0" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="MSH;AIR;SNOMEDCTUS;NCI"/>
+<anatomicalStructure value="artery" begin="1238" end="1244" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="79">
+<anatomicalStructure value="central artery" begin="1264" end="1278" status="0" certainty="0" cui="C1516384" tui="T023" rank="576" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="artery" begin="1272" end="1278" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="1280" end="1394" sentText="Assign the following ICD-10-PCS codes for the ultrasound accelerated thrombolysis of the pulmonary artery: 6A750Z7">
+<RelationSet id="80">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="accelerated" begin="1337" end="1348" status="0" certainty="0"/>
+<problem value="thrombolysis" begin="1349" end="1361" status="0" certainty="0"/>
+<anatomicalStructure value="pulmonary artery" begin="1369" end="1385" status="0" certainty="0"/>
+<procedure value="ultrasound" begin="1326" end="1336" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="thrombolysis" begin="1349" end="1361" status="0" certainty="0"/>
+<anatomicalStructure value="pulmonary artery" begin="1369" end="1385" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="pulmonary artery" begin="1369" end="1385" status="0" certainty="0"/>
+<procedure value="ultrasound" begin="1326" end="1336" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="accelerated" begin="1337" end="1348" status="0" certainty="0"/>
+<problem value="thrombolysis" begin="1349" end="1361" status="0" certainty="0"/>
+</Relation>
+<modifier value="accelerated" begin="1337" end="1348" status="0" certainty="0" cui="C0521110" tui="T169" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<anatomicalStructure value="pulmonary artery" begin="1369" end="1385" status="0" certainty="0" cui="C0034052;C1269026;C0545747" tui="T023;T023;T023" rank="795;765;150" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;CHV"/>
+<anatomicalStructure value="pulmonary" begin="1369" end="1378" status="0" certainty="0" cui="C0024109;C2709248;C1278908;C0819757" tui="T023;T080;T023;T024" rank="797;767;765;572" code="NO-CODE" sourceType="MSH;AIR;SNOMEDCTUS;NCI"/>
+<anatomicalStructure value="artery" begin="1379" end="1385" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<procedure value="ultrasound" begin="1326" end="1336" status="0" certainty="0" cui="C0037709;C0220934;C0175663;C0041618;C1875843;C2368378;C1456803;C0041621" tui="T070;T169;T074;T060;T074;T061;T070;T070" rank="795;788;767;765;739;595;576;150" code="NO-CODE" sourceType="LCH;MSH;SNOMEDCTUS;CHV;NDFRT;MEDCIN;CSP;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

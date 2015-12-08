@@ -1,0 +1,47 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="614">
+<Paragraph pgNo="1" begin="0" end="295">
+<Sentence sentNo="1" begin="0" end="100" sentText="Question: A patient status post tracheostomy was admitted as an inpatient on mechanical ventilation.">
+<RelationSet id="1451">
+<procedure value="tracheostomy" begin="32" end="44" status="0" certainty="1" cui="C0040590;C1875833;C1700189" tui="T061;T074;T169" rank="795;739;151" code="NO-CODE" sourceType="MSH;VANDF;CHV"/>
+</RelationSet>
+<RelationSet id="1452">
+<procedure value="mechanical ventilation" begin="77" end="99" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="77" end="87" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="101" end="208" sentText="Five days later the tracheostomy was removed and the patient was successfully weaned off of the ventilator.">
+<RelationSet id="1453">
+<procedure value="tracheostomy" begin="121" end="133" status="0" certainty="0" cui="C0040590;C1875833;C1700189" tui="T061;T074;T169" rank="795;739;151" code="NO-CODE" sourceType="MSH;VANDF;CHV"/>
+</RelationSet>
+<RelationSet id="1454">
+<medicalDevice value="ventilator" begin="197" end="207" status="0" certainty="0" cui="C0087153;C1611144;C1547127" tui="T074;T073;T082" rank="792;750;355" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="209" end="294" sentText="How should the hours of mechanical ventilation be counted during the weaning process?">
+<RelationSet id="1455">
+<procedure value="mechanical ventilation;weaning" begin="233;278" end="255;285" status="0" certainty="0" cui="C2228926" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="mechanical ventilation" begin="233" end="255" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="233" end="243" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="296" end="613">
+<Sentence sentNo="4" begin="296" end="415" sentText="Answer: All of the period of weaning is counted during the process of withdrawing the patient from ventilatory support.">
+</Sentence>
+<Sentence sentNo="5" begin="416" end="612" sentText="The duration includes the time the patient is on the ventilator, the weaning period, and ends when the patient is extubated and the mechanical ventilation is turned off (after the weaning period).">
+<RelationSet id="1457">
+<medicalDevice value="ventilator" begin="469" end="479" status="0" certainty="0" cui="C0087153;C1611144;C1547127" tui="T074;T073;T082" rank="792;750;355" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1457">
+<procedure value="extubated" begin="530" end="539" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="1458">
+<procedure value="mechanical ventilation;weaning" begin="548;596" end="570;603" status="0" certainty="0" cui="C2228926" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="mechanical ventilation" begin="548" end="570" status="0" certainty="0" cui="C0199470" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="mechanical" begin="548" end="558" status="0" certainty="0" cui="C0443254;C0699886" tui="T169;T061" rank="767;304" code="NO-CODE" sourceType="RCD;ALT"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

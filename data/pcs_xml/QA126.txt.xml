@@ -1,0 +1,82 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="889">
+<Paragraph pgNo="1" begin="0" end="301">
+<Sentence sentNo="1" begin="0" end="108" sentText="Question: A patient presents with bleeding duodenal ulcer and an esophagogastroduodenoscopy was carried out.">
+<RelationSet id="1216">
+<problem value="bleeding duodenal ulcer" begin="34" end="57" status="0" certainty="1" cui="C0151966" tui="T047" rank="765" code="NO-CODE" sourceType="MDR"/>
+<problem value="duodenal ulcer" begin="43" end="57" status="0" certainty="1" cui="C0013295;C1962985" tui="T047;T033" rank="797;551" code="NO-CODE" sourceType="MSH;NCI"/>
+<problem value="bleeding;ulcer" begin="34;52" end="42;57" status="0" certainty="1" cui="C0333291" tui="T047" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<problem value="duodenal" begin="43" end="51" status="0" certainty="1" cui="C0013303;C1278921;C0496869;C0153426" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10"/>
+<problem value="bleeding" begin="34" end="42" status="0" certainty="1" cui="C0019080" tui="T046" rank="791" code="NO-CODE" sourceType="ICPC2P"/>
+<problem value="ulcer" begin="52" end="57" status="0" certainty="1" cui="C0041582;C1963256;C1550672;C1547940" tui="T046;T033;T170;T170" rank="797;551;366;355" code="NO-CODE" sourceType="RCD;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1217">
+<procedure value="esophagogastroduodenoscopy" begin="65" end="91" status="0" certainty="0" cui="C0079304" tui="T060" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="109" end="196" sentText="Multiple clips were applied to the vessels to control the multiple hemorrhaging ulcers.">
+<RelationSet id="1218">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="Multiple" begin="109" end="117" status="0" certainty="0"/>
+<medicalDevice value="clips" begin="118" end="123" status="0" certainty="0"/>
+</Relation>
+<modifier value="Multiple" begin="109" end="117" status="0" certainty="0" cui="C0449822;C1719797;C0439064;C2911648" tui="T081;T169;T081;T081" rank="767;767;767;576" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;RCD;NCI"/>
+<medicalDevice value="clips" begin="118" end="123" status="0" certainty="0" cui="C0175722;C1283066;C0185010;C1824746;C1337111;C1824747;C1705205;C1704793;C2827463;C1561603;C0056374" tui="T074;T061;T061;T028;T028;T028;T074;T028;T028;T170;T116,T123" rank="797;797;765;587;587;587;575;575;575;367;233" code="NO-CODE" sourceType="MSH;MTH;SNMI;HGNC;HGNC;HGNC;NCI;NCI;NCI;HL7V2.5;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1219">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="multiple" begin="167" end="175" status="0" certainty="0"/>
+<problem value="hemorrhaging ulcers" begin="176" end="195" status="0" certainty="0"/>
+</Relation>
+<modifier value="multiple" begin="167" end="175" status="0" certainty="0" cui="C0449822;C1719797;C0439064;C2911648" tui="T081;T169;T081;T081" rank="767;767;767;576" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;RCD;NCI"/>
+<problem value="multiple;ulcers" begin="167;189" end="175;195" status="0" certainty="0" cui="C1265815" tui="T046" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="hemorrhaging" begin="176" end="188" status="0" certainty="0" cui="C0019080" tui="T046" rank="797" code="NO-CODE" sourceType="MSH"/>
+<problem value="ulcers" begin="189" end="195" status="0" certainty="0" cui="C0041582;C1550672;C1547940" tui="T046;T170;T170" rank="797;366;355" code="NO-CODE" sourceType="LCH;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="197" end="300" sentText="Should “control” be assigned for the root operation? What is the appropriate ICD-10-PCS procedure code?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="302" end="888">
+<Sentence sentNo="4" begin="302" end="462" sentText="Answer: The root operation “control” is defined as only applicable for procedures to correct postoperative bleeding, and so it does not apply to this procedure.">
+<RelationSet id="1220">
+<problem value="postoperative bleeding" begin="395" end="417" status="0" certainty="0" cui="C0032788" tui="T046" rank="765" code="NO-CODE" sourceType="MDR"/>
+<problem value="bleeding" begin="409" end="417" status="0" certainty="0" cui="C0019080" tui="T046" rank="791" code="NO-CODE" sourceType="ICPC2P"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="463" end="506" sentText="This procedure is a repair of the duodenum.">
+<RelationSet id="1221">
+<anatomicalStructure value="duodenum" begin="497" end="505" status="0" certainty="0" cui="C0013303;C1278921;C0496869;C0153426" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="507" end="593" sentText="Most of the body’s organs and tissues are vascular, and they bleed when cut or eroded.">
+<RelationSet id="1222">
+<modifier value="vascular" begin="549" end="557" status="0" certainty="0" cui="C1801960;C0005847;C1558950;C0392759" tui="T080;T023;T033;T169" rank="797;753;551;233" code="NO-CODE" sourceType="SNMI;SNOMEDCTVET;NCI;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="594" end="709" sentText="Repair of a cut or eroded body part is coded to the body part repaired, rather than to a vascular system body part.">
+<RelationSet id="1224">
+<anatomicalStructure value="vascular;body" begin="683;699" end="691;703" status="0" certainty="-2" cui="C0447147" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="body part" begin="699" end="708" status="0" certainty="-2" cui="C0229962" tui="T023" rank="797" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="vascular" begin="683" end="691" status="0" certainty="-2" cui="C1801960;C0005847;C1558950;C0392759" tui="T080;T023;T033;T169" rank="797;753;551;233" code="NO-CODE" sourceType="SNMI;SNOMEDCTVET;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="body" begin="699" end="703" status="0" certainty="-2" cui="S1000390;C1268086;C1551342;C0242821" tui="t061;T017;T078;T016" rank="800;753;575;151" code="NO-CODE" sourceType="EZDI;NCI;NCI;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="710" end="841" sentText="In this case, the duodenal ulcers are being repaired via an endoscopic approach, with clips placed on vessels eroded by the ulcers.">
+<RelationSet id="1225">
+<problem value="duodenal ulcers" begin="728" end="743" status="0" certainty="0" cui="C0013295;C1962985" tui="T047;T033" rank="797;551" code="NO-CODE" sourceType="MSH;NCI"/>
+<problem value="duodenal" begin="728" end="736" status="0" certainty="0" cui="C0013303;C1278921;C0496869;C0153426" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="LCH;SNOMEDCTUS;ICD10;ICD10"/>
+<problem value="ulcers" begin="737" end="743" status="0" certainty="0" cui="C0041582;C1550672;C1547940" tui="T046;T170;T170" rank="797;366;355" code="NO-CODE" sourceType="LCH;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="1226">
+<medicalDevice value="clips" begin="796" end="801" status="0" certainty="0" cui="C0175722;C1283066;C0185010;C1824746;C1337111;C1824747;C1705205;C1704793;C2827463;C1561603;C0056374" tui="T074;T061;T061;T028;T028;T028;T074;T028;T028;T170;T116,T123" rank="797;797;765;587;587;587;575;575;575;367;233" code="NO-CODE" sourceType="MSH;MTH;SNMI;HGNC;HGNC;HGNC;NCI;NCI;NCI;HL7V2.5;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="1227">
+<problem value="ulcers" begin="834" end="840" status="0" certainty="0" cui="C0041582;C1550672;C1547940" tui="T046;T170;T170" rank="797;366;355" code="NO-CODE" sourceType="LCH;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="842" end="887" sentText="Assign the following ICD-10-PCS code: 0DQ98ZZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

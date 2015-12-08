@@ -1,0 +1,2 @@
+Question: The above patient also had colostomy creation at the same time that the lower anterior resection of the rectum was performed. Should the colostomy be coded? 
+Answer: Yes, creation of the colostomy should be separately coded. In this case the sigmoid colon was bypassed to skin, and is appropriately coded to the root operation “Bypass.” Assign the ICD-10-PCS code as follows: 0D1N0Z4 

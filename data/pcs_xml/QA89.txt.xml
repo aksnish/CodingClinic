@@ -1,0 +1,124 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="894">
+<Paragraph pgNo="1" begin="0" end="556">
+<Sentence sentNo="1" begin="0" end="217" sentText="Question: A patient status post multiple eye procedures, who is diagnosed with corneal edema with anterior segment membrane of the right eye, presented for penetrating keratoplasty and anterior segment reconstruction.">
+<RelationSet id="2065">
+<modifier value="multiple" begin="32" end="40" status="0" certainty="1" cui="C0449822;C1719797;C0439064;C2911648" tui="T081;T169;T081;T081" rank="767;767;767;576" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;RCD;NCI"/>
+</RelationSet>
+<RelationSet id="2066">
+<anatomicalStructure value="eye" begin="41" end="44" status="0" certainty="1" cui="C0015392;C1280202;C1299003;C0154094;C2347396;C0042789;C1522230;C1555998;C1555960;C1550636;C1546630;C0029144" tui="T023;T023;T169;T191;T122;T040;T082;T097;T097;T031;T170;T090" rank="797;765;703;610;575;575;575;366;366;366;355;150" code="NO-CODE" sourceType="COSTAR;SNOMEDCTUS;NCI;ICD10;NCI;NCI;SNOMEDCTUS;HL7V3.0;HL7V3.0;HL7V3.0;HL7V2.5;CHV"/>
+</RelationSet>
+<RelationSet id="2067">
+<modifier value="anterior" begin="98" end="106" status="0" certainty="0" cui="C0205094" tui="T169" rank="797" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="2068">
+<modifier value="right" begin="131" end="136" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="2069">
+<anatomicalStructure value="anterior segment;eye" begin="98;137" end="114;140" status="0" certainty="0" cui="C0003153" tui="T023" rank="795" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="segment;eye" begin="107;137" end="114;140" status="0" certainty="0" cui="C1517082" tui="T023" rank="576" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="right eye" begin="131" end="140" status="0" certainty="0" cui="C0229089;C2177784" tui="T029;T060" rank="797;592" code="NO-CODE" sourceType="RCD;MEDCIN"/>
+<anatomicalStructure value="eye" begin="137" end="140" status="0" certainty="0" cui="C0015392;C1280202;C1299003;C0154094;C2347396;C0042789;C1522230;C1555998;C1555960;C1550636;C1546630;C0029144" tui="T023;T023;T169;T191;T122;T040;T082;T097;T097;T031;T170;T090" rank="797;765;703;610;575;575;575;366;366;366;355;150" code="NO-CODE" sourceType="COSTAR;SNOMEDCTUS;NCI;ICD10;NCI;NCI;SNOMEDCTUS;HL7V3.0;HL7V3.0;HL7V3.0;HL7V2.5;CHV"/>
+</RelationSet>
+<RelationSet id="2070">
+<modifier value="penetrating" begin="156" end="167" status="0" certainty="0" cui="C0205321" tui="T169" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<procedure value="penetrating keratoplasty" begin="156" end="180" status="0" certainty="0" cui="C0022592" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="keratoplasty" begin="168" end="180" status="0" certainty="0" cui="C0010042" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="2071">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="anterior" begin="185" end="193" status="0" certainty="0"/>
+<procedure value="segment reconstruction" begin="194" end="216" status="0" certainty="0"/>
+</Relation>
+<modifier value="anterior" begin="185" end="193" status="0" certainty="0" cui="C0205094" tui="T169" rank="797" code="NO-CODE" sourceType="RCD"/>
+<modifier value="anterior segment" begin="185" end="201" status="0" certainty="0" cui="C0348014" tui="T082" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="reconstruction" begin="202" end="216" status="0" certainty="0" cui="C0524865;C0020912" tui="T061;T066" rank="765;575" code="NO-CODE" sourceType="RCD;NCI"/>
+<procedure value="segment" begin="194" end="201" status="0" certainty="0" cui="C0205122;C0441635;C0700381;C2697664;C1524109" tui="T082;T082;T058;T066;T038" rank="797;767;767;575;464" code="NO-CODE" sourceType="RCD;NCI;RCD;NCI;GO"/>
+</RelationSet>
+<RelationSet id="2072">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="corneal edema" begin="79" end="92" status="0" certainty="0"/>
+<anatomicalStructure value="segment membrane" begin="107" end="123" status="0" certainty="0"/>
+</Relation>
+<problem value="corneal edema" begin="79" end="92" status="0" certainty="0" cui="C0010037" tui="T047" rank="797" code="NO-CODE" sourceType="NCI"/>
+<problem value="edema" begin="87" end="92" status="0" certainty="0" cui="C0013604" tui="T046" rank="797" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="membrane" begin="115" end="123" status="0" certainty="0" cui="C0596901;C0025255;C1706182" tui="T026;T024;T073" rank="797;795;575" code="NO-CODE" sourceType="MTH;MSH;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="218" end="396" sentText="The anterior chamber was entered with a blade, the corneal wound was completed, a dense membrane was resected from the iris, and the donor tissue was placed to the recipient bed.">
+<RelationSet id="2073">
+<modifier value="anterior" begin="222" end="230" status="0" certainty="0" cui="C0205094" tui="T169" rank="797" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="2074">
+<anatomicalStructure value="anterior chamber" begin="222" end="238" status="0" certainty="0" cui="C0003151;C2069970" tui="T023;T058" rank="795;592" code="NO-CODE" sourceType="NCI;MEDCIN"/>
+<anatomicalStructure value="chamber" begin="231" end="238" status="0" certainty="0" cui="C0935616;C0179874" tui="T023;T074" rank="688;686" code="NO-CODE" sourceType="UWDA;UMD"/>
+</RelationSet>
+<RelationSet id="2075">
+<medicalDevice value="blade" begin="258" end="263" status="0" certainty="0" cui="C2948008;C0179323;C2700402" tui="T121;T074;T002" rank="797;686;576" code="NO-CODE" sourceType="RXNORM;UMD;NCI"/>
+</RelationSet>
+<RelationSet id="2076">
+<problem value="wound" begin="277" end="282" status="0" certainty="0" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797;C1550680;C1549529;C1547965" tui="T070;T037;T080;T033;T184;T169;T031;T169;T170" rank="795;792;788;767;709;703;366;355;355" code="NO-CODE" sourceType="MSH;MDR;MSH;RCD;MDR;SNMI;HL7V3.0;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2077">
+<anatomicalStructure value="membrane" begin="306" end="314" status="0" certainty="0" cui="C0596901;C0025255;C1706182" tui="T026;T024;T073" rank="797;795;575" code="NO-CODE" sourceType="MTH;MSH;NCI"/>
+</RelationSet>
+<RelationSet id="2077">
+<procedure value="resected" begin="319" end="327" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2078">
+<anatomicalStructure value="iris" begin="337" end="341" status="0" certainty="0" cui="C0022077;C1001362;C1278891;C2314880;C1256254" tui="T023;T002;T023;T204;T121" rank="795;765;765;751;150" code="NO-CODE" sourceType="MTH;NCBI;SNOMEDCTUS;NCBI;CHV"/>
+</RelationSet>
+<RelationSet id="2079">
+<anatomicalStructure value="tissue" begin="357" end="363" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="397" end="435" sentText="Adhesions on the iris were also lysed.">
+<RelationSet id="2080">
+<anatomicalStructure value="iris" begin="414" end="418" status="0" certainty="0" cui="C0022077;C1001362;C1278891;C2314880;C1256254" tui="T023;T002;T023;T204;T121" rank="795;765;765;751;150" code="NO-CODE" sourceType="MTH;NCBI;SNOMEDCTUS;NCBI;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="436" end="555" sentText="What are the correct root operations and approach for the penetrating keratoplasty and anterior segment reconstruction?">
+<RelationSet id="2081">
+<anatomicalStructure value="root" begin="457" end="461" status="0" certainty="0" cui="S1001239;C0242726;C0563017;C0040452;C1705917;C1318154" tui="t061;T002;T033;T023;T078;T023" rank="800;765;765;576;575;418" code="NO-CODE" sourceType="EZDI;RCD;RCD;NCI;NCI;LNC"/>
+</RelationSet>
+<RelationSet id="2082">
+<modifier value="penetrating" begin="494" end="505" status="0" certainty="0" cui="C0205321" tui="T169" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<procedure value="penetrating keratoplasty" begin="494" end="518" status="0" certainty="0" cui="C0022592" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="keratoplasty" begin="506" end="518" status="0" certainty="0" cui="C0010042" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="2083">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="segment reconstruction" begin="532" end="554" status="0" certainty="0"/>
+<modifier value="anterior" begin="523" end="531" status="0" certainty="0"/>
+</Relation>
+<modifier value="anterior segment" begin="523" end="539" status="0" certainty="0" cui="C0348014" tui="T082" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="reconstruction" begin="540" end="554" status="0" certainty="0" cui="C0524865;C0020912" tui="T061;T066" rank="765;575" code="NO-CODE" sourceType="RCD;NCI"/>
+<procedure value="segment" begin="532" end="539" status="0" certainty="0" cui="C0205122;C0441635;C0700381;C2697664;C1524109" tui="T082;T082;T058;T066;T038" rank="797;767;767;575;464" code="NO-CODE" sourceType="RCD;NCI;RCD;NCI;GO"/>
+<modifier value="anterior" begin="523" end="531" status="0" certainty="0" cui="C0205094" tui="T169" rank="797" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="557" end="893">
+<Sentence sentNo="5" begin="557" end="734" sentText="Answer: The penetrating keratoplasty with anterior segment reconstruction represents the restorative procedures performed, and is captured with the root operation “Replacement.”">
+<RelationSet id="2084">
+<modifier value="penetrating" begin="569" end="580" status="0" certainty="0" cui="C0205321" tui="T169" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<procedure value="penetrating keratoplasty" begin="569" end="593" status="0" certainty="0" cui="C0022592" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="keratoplasty" begin="581" end="593" status="0" certainty="0" cui="C0010042" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="735" end="846" sentText="The adhesions on the iris required careful and extensive lysis, and represents a separate procedural objective.">
+<RelationSet id="2085">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="adhesions" begin="739" end="748" status="0" certainty="0"/>
+<anatomicalStructure value="iris" begin="756" end="760" status="0" certainty="0"/>
+</Relation>
+<problem value="adhesions;iris" begin="739;756" end="748;760" status="0" certainty="0" cui="C0154933" tui="T047,T190" rank="797" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="adhesions" begin="739" end="748" status="0" certainty="0" cui="C0001511;C0175633" tui="T046;T070" rank="767;576" code="NO-CODE" sourceType="LCH;NCI"/>
+<anatomicalStructure value="iris" begin="756" end="760" status="0" certainty="0" cui="C0022077;C1001362;C1278891;C2314880;C1256254" tui="T023;T002;T023;T204;T121" rank="795;765;765;751;150" code="NO-CODE" sourceType="MTH;NCBI;SNOMEDCTUS;NCBI;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="847" end="892" sentText="Assign the following ICD-10PCS codes: 08R8XKZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

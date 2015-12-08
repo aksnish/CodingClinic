@@ -1,0 +1,103 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="590">
+<Paragraph pgNo="1" begin="0" end="373">
+<Sentence sentNo="1" begin="0" end="171" sentText="Question: A 70-year-old male with first and second degree atrioventricular (AV) blocks as well as right bundle branch block presents for insertion of a leadless pacemaker.">
+<RelationSet id="474">
+<medicalDevice value="pacemaker" begin="161" end="170" status="0" certainty="0" cui="C0810633;C3275122;C0030163;C1546728" tui="T074;T061;T074;T170" rank="686;572;530;355" code="NO-CODE" sourceType="UMD;NCI;COSTAR;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="475">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="AV" begin="76" end="78" status="0" certainty="0"/>
+<modifier value="second degree" begin="44" end="57" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="AV" begin="76" end="78" status="0" certainty="0"/>
+<problem value="atrioventricular" begin="58" end="74" status="0" certainty="1"/>
+<modifier value="second degree" begin="44" end="57" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="atrioventricular" begin="58" end="74" status="0" certainty="1"/>
+<modifier value="second degree" begin="44" end="57" status="0" certainty="1"/>
+</Relation>
+<anatomicalStructure value="atrioventricular;right bundle branch" begin="58;98" end="74;117" status="0" certainty="1" cui="C0225916" tui="T023" rank="765" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="atrioventricular;bundle" begin="58;104" end="74;110" status="0" certainty="1" cui="C0006382" tui="T023" rank="791" code="NO-CODE" sourceType="NCI"/>
+<modifier value="second degree" begin="44" end="57" status="0" certainty="1" cui="C0556960;C0443298" tui="T081;T080" rank="767;767" code="NO-CODE" sourceType="SNOMEDCTUS;RCD"/>
+<modifier value="degree" begin="51" end="57" status="0" certainty="1" cui="C0449286;C2348088;C0441889;C0542560;C1561545" tui="T081;T081;T080;T170;T081" rank="767;575;575;575;366" code="NO-CODE" sourceType="RCD;NCI;NCI;NCI;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="476">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="right" begin="98" end="103" status="0" certainty="0"/>
+<problem value="bundle branch block" begin="104" end="123" status="0" certainty="0"/>
+</Relation>
+<modifier value="right" begin="98" end="103" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+<problem value="right bundle branch block" begin="98" end="123" status="0" certainty="0" cui="C0085615" tui="T047" rank="797" code="NO-CODE" sourceType="MDR"/>
+<problem value="bundle branch block" begin="104" end="123" status="0" certainty="0" cui="C0006384" tui="T047" rank="797" code="NO-CODE" sourceType="CCS"/>
+<problem value="block" begin="118" end="123" status="0" certainty="0" cui="C0332206;C0028778;C0233660;C2237319;C1533157;C1706968;C1706084;C2828370;C1879887;C1706085;C1706083;C2983591" tui="T169;T046;T048;T033;T167;T033;T083;T081;T067;T122;T081;T062" rank="797;765;716;592;576;576;576;576;575;575;575;572" code="NO-CODE" sourceType="NCI;SNM;SNOMEDCTUS;MEDCIN;NCI;NCI;NCI;NCI;NCI;NCI;NCI;NCI"/>
+<anatomicalStructure value="atrioventricular;right bundle branch" begin="58;98" end="74;117" status="0" certainty="0" cui="C0225916" tui="T023" rank="765" code="NO-CODE" sourceType="SNMI"/>
+<anatomicalStructure value="atrioventricular;bundle" begin="58;104" end="74;110" status="0" certainty="0" cui="C0006382" tui="T023" rank="791" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="right bundle branch" begin="98" end="117" status="0" certainty="0" cui="C1305153" tui="T023" rank="765" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="bundle branch" begin="104" end="117" status="0" certainty="0" cui="C0225920" tui="T023" rank="765" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="branch" begin="111" end="117" status="0" certainty="0" cui="C1253959;C2700384;C0205384;C2700383;C1706131;C1881507;C2826234" tui="T023;T082;T082;T002;T097;T104;T170" rank="797;797;767;576;576;575;572" code="NO-CODE" sourceType="NCI;FMA;SNMI;NCI;NCI;NCI;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="172" end="272" sentText="A leadless pacemaker was inserted via catheter under fluoroscopic guidance into the right ventricle.">
+<RelationSet id="477">
+<medicalDevice value="pacemaker;catheter" begin="183;210" end="192;218" status="0" certainty="0" cui="C0179779" tui="T074" rank="767" code="NO-CODE" sourceType="SNMI"/>
+<medicalDevice value="pacemaker" begin="183" end="192" status="0" certainty="0" cui="C0810633;C3275122;C0030163;C1546728" tui="T074;T061;T074;T170" rank="686;572;530;355" code="NO-CODE" sourceType="UMD;NCI;COSTAR;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="478">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="ventricle" begin="262" end="271" status="0" certainty="0"/>
+<modifier value="right" begin="256" end="261" status="0" certainty="0"/>
+<procedure value="fluoroscopic guidance" begin="225" end="246" status="0" certainty="0"/>
+<medicalDevice value="catheter" begin="210" end="218" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="right" begin="256" end="261" status="0" certainty="0"/>
+<procedure value="fluoroscopic guidance" begin="225" end="246" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="fluoroscopic guidance" begin="225" end="246" status="0" certainty="0"/>
+<medicalDevice value="catheter" begin="210" end="218" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="ventricle" begin="262" end="271" status="0" certainty="0"/>
+<procedure value="fluoroscopic guidance" begin="225" end="246" status="0" certainty="0"/>
+</Relation>
+<modifier value="right" begin="256" end="261" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+<anatomicalStructure value="right ventricle" begin="256" end="271" status="0" certainty="0" cui="S0002671;C0225883;C1269891" tui="t060;T023;T023" rank="800;792;765" code="NO-CODE" sourceType="EZDI;NCI;SNOMEDCTUS"/>
+<anatomicalStructure value="ventricle" begin="262" end="271" status="0" certainty="0" cui="C2355627;C1522565;C0018827;C0007799" tui="T023;T082;T023;T030" rank="797;797;765;575" code="NO-CODE" sourceType="FMA;NCI;SNM;NCI"/>
+<procedure value="fluoroscopic guidance" begin="225" end="246" status="0" certainty="0" cui="C0560563" tui="T060" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="fluoroscopic" begin="225" end="237" status="0" certainty="0" cui="C0016356" tui="T060" rank="800" code="NO-CODE" sourceType="ICD10AM"/>
+<procedure value="guidance" begin="238" end="246" status="0" certainty="0" cui="C0302614;C0181090;C0150600;C1706050" tui="T074;T097;T058;T073" rank="767;767;711;575" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;CHV;NCI"/>
+<medicalDevice value="catheter;guidance" begin="210;238" end="218;246" status="0" certainty="0" cui="S0000382;C0181089" tui="t061;T074" rank="800;150" code="NO-CODE" sourceType="EZDI;CHV"/>
+<medicalDevice value="catheter" begin="210" end="218" status="0" certainty="0" cui="C0085590;C1704454;C0007430;C1546572" tui="T074;T074;T061;T170" rank="795;575;488;355" code="NO-CODE" sourceType="RCD;NCI;ICPC2P;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="273" end="336" sentText="The ICD-10-PCS does not provide a value for leadless pacemaker.">
+<RelationSet id="479">
+<medicalDevice value="pacemaker" begin="326" end="335" status="0" certainty="-2" cui="C0810633;C3275122;C0030163;C1546728" tui="T074;T061;T074;T170" rank="686;572;530;355" code="NO-CODE" sourceType="UMD;NCI;COSTAR;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="337" end="372" sentText="How should this procedure be coded?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="374" end="589">
+<Sentence sentNo="5" begin="374" end="461" sentText="Answer: The ICD-10-PCS does not provide a specific device value for leadless pacemaker.">
+<RelationSet id="480">
+<medicalDevice value="device" begin="425" end="431" status="0" certainty="-2" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="481">
+<medicalDevice value="pacemaker" begin="451" end="460" status="0" certainty="-2" cui="C0810633;C3275122;C0030163;C1546728" tui="T074;T061;T074;T170" rank="686;572;530;355" code="NO-CODE" sourceType="UMD;NCI;COSTAR;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="462" end="518" sentText="Intraluminal device is the closest available equivalent.">
+<RelationSet id="482">
+<medicalDevice value="device" begin="475" end="481" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="519" end="588" sentText="Assign the following ICD-10-PCS code for this new technology: 02HK3DZ">
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

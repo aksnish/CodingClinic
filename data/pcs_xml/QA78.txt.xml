@@ -1,0 +1,127 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="939">
+<Paragraph pgNo="1" begin="0" end="248">
+<Sentence sentNo="1" begin="0" end="247" sentText="Question: What is the correct ICD-10-CM code assignment for a patient who presents with an acute non-ST elevation myocardial infarction, and develops post-infarctional angina when the patient also has atherosclerotic coronary artery disease (CAD)?">
+<RelationSet id="2168">
+<problem value="acute non-ST elevation myocardial infarction" begin="91" end="135" status="0" certainty="0" cui="C1276061" tui="T047" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="acute;ST elevation myocardial infarction" begin="91;101" end="96;135" status="0" certainty="0" cui="C1303258" tui="T047" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="acute;myocardial infarction" begin="91;114" end="96;135" status="0" certainty="0" cui="C0155626;C3541950;C1521999" tui="T047;T033;T169" rank="797;572;554" code="NO-CODE" sourceType="DXP;NCI;NCI"/>
+<problem value="myocardial infarction" begin="114" end="135" status="0" certainty="0" cui="C0027051;C0428953" tui="T047;T033" rank="797;572" code="NO-CODE" sourceType="MSH;NCI"/>
+<problem value="infarction" begin="125" end="135" status="0" certainty="0" cui="C0021308" tui="T046" rank="797" code="NO-CODE" sourceType="LCH"/>
+<problem value="ST" begin="101" end="103" status="0" certainty="0" cui="C1420490;C0080145;C3272372;C0036056;C0036183;C0037556;C0074774;C0038137;C2720163;C0079588" tui="T028;T114,T123;T170;T083;T083;T119,T121;T121,T197;T170;T047;T047" rank="596;575;556;548;522;519;441;275;233;150" code="NO-CODE" sourceType="NCI;CSP;NCI;NCI;NCI;NCI;PDQ;MSH;SNOMEDCTUS;CHV"/>
+<anatomicalStructure value="myocardial" begin="114" end="124" status="0" certainty="0" cui="C1522564;C0027061" tui="T082;T024" rank="797;797" code="NO-CODE" sourceType="NCI;MSH"/>
+</RelationSet>
+<RelationSet id="2169">
+<problem value="coronary artery disease;CAD" begin="217;242" end="240;245" status="0" certainty="0" cui="C1956346" tui="T047" rank="797" code="NO-CODE" sourceType="MSH"/>
+<problem value="coronary artery disease" begin="217" end="240" status="0" certainty="0" cui="C0010054" tui="T047" rank="150" code="NO-CODE" sourceType="CHV"/>
+<problem value="coronary;disease" begin="217;233" end="225;240" status="0" certainty="0" cui="C0010068" tui="T047" rank="795" code="NO-CODE" sourceType="MEDLINEPLUS"/>
+<problem value="artery disease" begin="226" end="240" status="0" certainty="0" cui="C0852949" tui="T047" rank="242" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="disease" begin="233" end="240" status="0" certainty="0" cui="C0012634;C1422572;C1424810;C1416989;C3273340;C3540595;C3273341;C1331418" tui="T047;T028;T028;T028;T028;T028;T116;T041" rank="797;600;596;596;575;575;575;575" code="NO-CODE" sourceType="LCH;HGNC;OMIM;HGNC;NCI;NCI;NCI;NCI"/>
+<anatomicalStructure value="coronary artery" begin="217" end="232" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="226" end="232" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="2170">
+<problem value="coronary artery disease;CAD" begin="217;242" end="240;245" status="0" certainty="0" cui="C1956346" tui="T047" rank="765" code="NO-CODE" sourceType="RCD"/>
+<problem value="CAD" begin="242" end="245" status="0" certainty="0" cui="C1413983;C1413078;C1428349;C0170509;C0280573;C0010068;C0011905" tui="T028;T028;T028;T061;T061;T047;T060" rank="596;596;587;578;575;525;519" code="NO-CODE" sourceType="HGNC;HGNC;HGNC;PDQ;NCI;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="2171">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="angina" begin="168" end="174" status="0" certainty="0"/>
+<modifier value="infarctional" begin="155" end="167" status="0" certainty="0"/>
+</Relation>
+<problem value="angina" begin="168" end="174" status="0" certainty="0" cui="C0002962;C2024883" tui="T184;T033" rank="765;592" code="NO-CODE" sourceType="CCPSS;MEDCIN"/>
+<modifier value="infarctional" begin="155" end="167" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="249" end="938">
+<Sentence sentNo="2" begin="249" end="352" sentText="Answer: Assign code I21.4, Non-ST elevation (NSTEMI) myocardial infarction, as the principal diagnosis.">
+<RelationSet id="2171">
+<finding value="ST elevation" begin="280" end="292" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2172">
+<problem value="Non-ST elevation;NSTEMI;myocardial infarction" begin="276;294;302" end="292;300;323" status="0" certainty="0" cui="C1561921" tui="T047" rank="402" code="NO-CODE" sourceType="ICD10CM"/>
+</RelationSet>
+<RelationSet id="2173">
+<problem value="Non-ST elevation;myocardial infarction" begin="276;302" end="292;323" status="0" certainty="0" cui="C1276061;C3537184" tui="T047;T033" rank="592;572" code="NO-CODE" sourceType="MEDCIN;NCI"/>
+<problem value="ST elevation;myocardial infarction" begin="280;302" end="292;323" status="0" certainty="0" cui="C1303258;C3538872" tui="T047;T033" rank="592;572" code="NO-CODE" sourceType="MEDCIN;NCI"/>
+<problem value="myocardial infarction" begin="302" end="323" status="0" certainty="0" cui="C0027051;C0428953" tui="T047;T033" rank="797;572" code="NO-CODE" sourceType="MSH;NCI"/>
+<problem value="infarction" begin="313" end="323" status="0" certainty="0" cui="C0021308" tui="T046" rank="797" code="NO-CODE" sourceType="LCH"/>
+<anatomicalStructure value="myocardial" begin="302" end="312" status="0" certainty="0" cui="C1522564;C0027061" tui="T082;T024" rank="797;797" code="NO-CODE" sourceType="NCI;MSH"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="353" end="539" sentText="Codes I23.7, Postinfarctional angina, and I25.118, Atherosclerotic heart disease of native coronary artery with other forms of angina pectoris, should be assigned as secondary diagnoses.">
+<RelationSet id="2174">
+<problem value="angina" begin="383" end="389" status="0" certainty="0" cui="C0002962;C2024883" tui="T184;T033" rank="765;592" code="NO-CODE" sourceType="CCPSS;MEDCIN"/>
+</RelationSet>
+<RelationSet id="2175">
+<problem value="angina pectoris" begin="480" end="495" status="0" certainty="0" cui="C0002962" tui="T184" rank="797" code="NO-CODE" sourceType="CCPSS"/>
+</RelationSet>
+<RelationSet id="2176">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="coronary artery" begin="444" end="459" status="0" certainty="0"/>
+<problem value="Atherosclerotic heart disease" begin="404" end="433" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="coronary artery" begin="444" end="459" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="453" end="459" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<problem value="Atherosclerotic heart disease;native coronary artery" begin="404;437" end="433;459" status="0" certainty="0" cui="C0837134" tui="T047" rank="608" code="NO-CODE" sourceType="ICD10AM"/>
+<problem value="disease;coronary artery" begin="426;444" end="433;459" status="0" certainty="0" cui="C1956346;C0010068;C0010054" tui="T047;T047;T047" rank="797;797;713" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;DXP"/>
+<problem value="heart disease" begin="420" end="433" status="0" certainty="0" cui="C0018799" tui="T047" rank="797" code="NO-CODE" sourceType="RCD"/>
+<problem value="disease;artery" begin="426;453" end="433;459" status="0" certainty="0" cui="C0852949" tui="T047" rank="242" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="disease" begin="426" end="433" status="0" certainty="0" cui="C0012634;C1422572;C1424810;C1416989;C3273340;C3540595;C3273341;C1331418" tui="T047;T028;T028;T028;T028;T028;T116;T041" rank="797;600;596;596;575;575;575;575" code="NO-CODE" sourceType="LCH;HGNC;OMIM;HGNC;NCI;NCI;NCI;NCI"/>
+<problem value="heart" begin="420" end="425" status="0" certainty="0" cui="C0018787;C1281570;C0153500;C0153957" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="AIR;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="540" end="645" sentText="In this case, the documentation indicates that the angina is postinfarctional, so code I23.7 is assigned.">
+<RelationSet id="2177">
+<problem value="angina" begin="591" end="597" status="0" certainty="0" cui="C0002962;C2024883" tui="T184;T033" rank="765;592" code="NO-CODE" sourceType="CCPSS;MEDCIN"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="646" end="750" sentText="The presence of postinfarctional angina together with atherosclerosis is appropriately coded to I25.118,">
+<RelationSet id="2178">
+<problem value="angina" begin="679" end="685" status="0" certainty="0" cui="C0002962;C2024883" tui="T184;T033" rank="765;592" code="NO-CODE" sourceType="CCPSS;MEDCIN"/>
+</RelationSet>
+<RelationSet id="2179">
+<problem value="atherosclerosis" begin="700" end="715" status="0" certainty="0" cui="C0004153;C0333482" tui="T047;T169" rank="797;703" code="NO-CODE" sourceType="MSH;SNMI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="751" end="783" sentText="as it is another form of angina.">
+<RelationSet id="2180">
+<problem value="angina" begin="776" end="782" status="0" certainty="0" cui="C0002962;C2024883" tui="T184;T033" rank="765;592" code="NO-CODE" sourceType="CCPSS;MEDCIN"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="784" end="937" sentText="Since angina is present, it would not be appropriate to use code I25.10, Atherosclerotic heart disease of native coronary artery without angina pectoris.">
+<RelationSet id="2181">
+<problem value="angina" begin="790" end="796" status="0" certainty="-2" cui="C0002962;C2024883" tui="T184;T033" rank="765;592" code="NO-CODE" sourceType="CCPSS;MEDCIN"/>
+</RelationSet>
+<RelationSet id="2181">
+<problem value="5.10, Atherosclerotic heart disease of native coronary artery without angina pe" begin="851" end="930" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="2182">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="angina pectoris" begin="921" end="936" status="0" certainty="-2"/>
+<anatomicalStructure value="coronary artery" begin="897" end="912" status="0" certainty="0"/>
+<problem value="Atherosclerotic heart disease" begin="857" end="886" status="0" certainty="-2"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<problem value="angina pectoris" begin="921" end="936" status="0" certainty="-2"/>
+<anatomicalStructure value="coronary artery" begin="897" end="912" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="coronary artery" begin="897" end="912" status="0" certainty="0"/>
+<problem value="Atherosclerotic heart disease" begin="857" end="886" status="0" certainty="-2"/>
+</Relation>
+<problem value="angina" begin="921" end="927" status="0" certainty="-2" cui="C0002962;C2024883" tui="T184;T033" rank="797;592" code="NO-CODE" sourceType="CCPSS;MEDCIN"/>
+<anatomicalStructure value="coronary artery" begin="897" end="912" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="906" end="912" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<problem value="Atherosclerotic heart disease;native coronary artery" begin="857;890" end="886;912" status="0" certainty="-2" cui="C0837134" tui="T047" rank="608" code="NO-CODE" sourceType="ICD10AM"/>
+<problem value="disease;coronary artery" begin="879;897" end="886;912" status="0" certainty="-2" cui="C1956346;C0010068;C0010054" tui="T047;T047;T047" rank="797;797;713" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;DXP"/>
+<problem value="heart disease" begin="873" end="886" status="0" certainty="-2" cui="C0018799" tui="T047" rank="797" code="NO-CODE" sourceType="RCD"/>
+<problem value="disease;artery" begin="879;906" end="886;912" status="0" certainty="-2" cui="C0852949" tui="T047" rank="242" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<problem value="disease" begin="879" end="886" status="0" certainty="-2" cui="C0012634;C1422572;C1424810;C1416989;C3273340;C3540595;C3273341;C1331418" tui="T047;T028;T028;T028;T028;T028;T116;T041" rank="797;600;596;596;575;575;575;575" code="NO-CODE" sourceType="LCH;HGNC;OMIM;HGNC;NCI;NCI;NCI;NCI"/>
+<problem value="heart" begin="873" end="878" status="0" certainty="-2" cui="C0018787;C1281570;C0153500;C0153957" tui="T023;T023;T191;T191" rank="797;765;610;610" code="NO-CODE" sourceType="AIR;SNOMEDCTUS;ICD10;ICD10"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

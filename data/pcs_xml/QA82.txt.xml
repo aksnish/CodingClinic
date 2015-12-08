@@ -1,0 +1,94 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1316">
+<Paragraph pgNo="1" begin="0" end="261">
+<Sentence sentNo="1" begin="0" end="74" sentText="Question: The patient was admitted for revision of right hip arthroplasty.">
+<RelationSet id="2502">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="hip" begin="57" end="60" status="0" certainty="1"/>
+<procedure value="arthroplasty" begin="61" end="73" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="hip" begin="57" end="60" status="0" certainty="1"/>
+<procedure value="arthroplasty" begin="61" end="73" status="0" certainty="0"/>
+<modifier value="right" begin="51" end="56" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="arthroplasty" begin="61" end="73" status="0" certainty="0"/>
+<modifier value="right" begin="51" end="56" status="0" certainty="1"/>
+</Relation>
+<anatomicalStructure value="right hip" begin="51" end="60" status="0" certainty="1" cui="C0524470;C1268233;C0517667;C2945670" tui="T029;T029;T058;T058" rank="765;765;328;150" code="NO-CODE" sourceType="SNMI;SNOMEDCTUS;NOC;CHV"/>
+<anatomicalStructure value="hip" begin="57" end="60" status="0" certainty="1" cui="C0019552;C1423009;C1335638;C1337104;C1538823;C0529134;C1430701;C3538851;C1704840;C0022122;C1709823" tui="T023;T028;T028;T028;T028;T116,T123;T116,T123;T028;T028;T023;T028" rank="795;600;596;596;587;575;575;575;575;575;575" code="NO-CODE" sourceType="SNM;HGNC;HGNC;HGNC;HGNC;NCI;NCI;NCI;NCI;HL7V2.5;NCI"/>
+<modifier value="right" begin="51" end="56" status="0" certainty="1" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+<procedure value="revision;hip arthroplasty" begin="39;57" end="47;73" status="0" certainty="0" cui="C0459480" tui="T061" rank="767" code="NO-CODE" sourceType="MDR"/>
+<procedure value="hip arthroplasty" begin="57" end="73" status="0" certainty="0" cui="C0186193" tui="T061" rank="765" code="NO-CODE" sourceType="MDR"/>
+<procedure value="arthroplasty" begin="61" end="73" status="0" certainty="0" cui="C0003893;C0700235" tui="T061;T061" rank="797;622" code="NO-CODE" sourceType="MSH;HCDT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="75" end="155" sentText="The right ceramic head and acetabular liner were replaced due to excessive wear.">
+<RelationSet id="2503">
+<modifier value="right" begin="79" end="84" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="2504">
+<anatomicalStructure value="head" begin="93" end="97" status="0" certainty="0" cui="C0205096;C0018670;C1281590;C2348941;C1706305;C1708330;C0876917" tui="T082;T029;T023;T170;T073;T073;T061" rank="797;797;765;576;575;575;373" code="NO-CODE" sourceType="SNMI;CST;SNOMEDCTUS;NCI;NCI;NCI;ICD10AM"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="156" end="260" sentText="Is this procedure coded as a revision or replacement? What is the appropriate procedure code assignment?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="262" end="1315">
+<Sentence sentNo="4" begin="262" end="521" sentText="Answer: When the components of a replaced joint are removed and new components (i.e., femoral head, acetabular surface, femoral surface, and liner) are inserted, codes are assigned for the placement of new components and for the removal of the old components.">
+<RelationSet id="2505">
+<anatomicalStructure value="femoral head" begin="348" end="360" status="0" certainty="0" cui="C0015813" tui="T023" rank="797" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="femoral" begin="348" end="355" status="0" certainty="0" cui="C0015811;C0039866;C1281586;C1279112" tui="T023;T029;T023;T023" rank="797;795;765;765" code="NO-CODE" sourceType="LCH;LCH;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="head" begin="356" end="360" status="0" certainty="0" cui="C0205096;C0018670;C1281590;C2348941;C1706305;C1708330;C0876917" tui="T082;T029;T023;T170;T073;T073;T061" rank="797;797;765;576;575;575;373" code="NO-CODE" sourceType="SNMI;CST;SNOMEDCTUS;NCI;NCI;NCI;ICD10AM"/>
+</RelationSet>
+<RelationSet id="2506">
+<anatomicalStructure value="acetabular surface" begin="362" end="380" status="0" certainty="0" cui="C1283574" tui="T029" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="acetabular" begin="362" end="372" status="0" certainty="0" cui="S0002374;C0000962;C1279100" tui="t061;T023;T023" rank="800;795;765" code="NO-CODE" sourceType="EZDI;RCD;SNOMEDCTUS"/>
+<anatomicalStructure value="surface" begin="373" end="380" status="0" certainty="0" cui="C0015450;C0205148;C1281591;C0836841;C1423759;C2828055" tui="T029;T082;T023;T029;T028;T028" rank="797;767;765;692;596;575" code="NO-CODE" sourceType="LCH;RCD;SNOMEDCTUS;UWDA;OMIM;NCI"/>
+</RelationSet>
+<RelationSet id="2507">
+<anatomicalStructure value="femoral surface" begin="382" end="397" status="0" certainty="0" cui="C0828554" tui="T029" rank="692" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="femoral" begin="382" end="389" status="0" certainty="0" cui="C0015811;C0039866;C1281586;C1279112" tui="T023;T029;T023;T023" rank="797;795;765;765" code="NO-CODE" sourceType="LCH;LCH;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="surface" begin="390" end="397" status="0" certainty="0" cui="C0015450;C0205148;C1281591;C0836841;C1423759;C2828055" tui="T029;T082;T023;T029;T028;T028" rank="797;767;765;692;596;575" code="NO-CODE" sourceType="LCH;RCD;SNOMEDCTUS;UWDA;OMIM;NCI"/>
+</RelationSet>
+<RelationSet id="2508">
+<procedure value="placement" begin="451" end="460" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="522" end="703" sentText="The root operation “Replacement” is defined as putting in or on biological or synthetic material that physically takes the place and/ or function of all or a portion of a body part.">
+</Sentence>
+<Sentence sentNo="6" begin="704" end="915" sentText="Conversely, a revision should be reported when the objective of the procedure is to correct the position or function of a previously placed device, without taking out and putting a whole new device in its place.">
+</Sentence>
+<Sentence sentNo="7" begin="916" end="1018" sentText="Examples of revision surgery include re-cementing of a prosthetic joint or adjusting a pacemaker lead.">
+<RelationSet id="2509">
+<procedure value="revision" begin="928" end="936" status="0" certainty="0" cui="C0439617;C0439616;C0558347;C1527075" tui="T079;T079;T061;T061" rank="797;767;767;576" code="NO-CODE" sourceType="RCD;RCD;SNOMEDCTUS;NCI"/>
+<procedure value="surgery" begin="937" end="944" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="2510">
+<anatomicalStructure value="joint" begin="982" end="987" status="0" certainty="0" cui="C0521339;C0022417;C0444497;C0392905;C1269611;C1706309" tui="T169;T030;T082;T022;T030;T074" rank="797;797;767;765;765;575" code="NO-CODE" sourceType="SNMI;MSH;RCD;ICF;RCD;NCI"/>
+</RelationSet>
+<RelationSet id="2511">
+<medicalDevice value="pacemaker lead" begin="1003" end="1017" status="0" certainty="0" cui="C1283151" tui="T074" rank="686" code="NO-CODE" sourceType="UMD"/>
+<medicalDevice value="pacemaker" begin="1003" end="1012" status="0" certainty="0" cui="C0810633;C3275122;C0030163;C1546728" tui="T074;T061;T074;T170" rank="686;572;530;355" code="NO-CODE" sourceType="UMD;NCI;COSTAR;HL7V2.5"/>
+<medicalDevice value="lead" begin="1013" end="1017" status="0" certainty="0" cui="C0023175;C1522538;C2242140;C0181586;C0524167;C0332152;C1704733;C3275067;C2348269;C1708698;C1442948" tui="T131,T196;T169;T121;T074;T059;T079;T074;T061;T196;T073;T121,T197" rank="797;797;774;686;644;575;575;572;558;519;150" code="NO-CODE" sourceType="LCH;MTH;RXNORM;UMD;CPT;NCI;NCI;NCI;NCI;NCI;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="1019" end="1084" sentText="A code for supplement is assigned for placement of the new liner.">
+<RelationSet id="2512">
+<procedure value="placement" begin="1057" end="1066" status="0" certainty="0" cui="C1524072;C0441587;C1533810" tui="T080;T058;T058" rank="797;765;724" code="NO-CODE" sourceType="NCI;SNOMEDCTUS;SNOMEDCTUS"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="1085" end="1195" sentText="The liner is placed to physically reinforce the replaced joint; it is not functioning as a replaced body part.">
+<RelationSet id="2513">
+<anatomicalStructure value="joint" begin="1142" end="1147" status="0" certainty="0" cui="C0521339;C0022417;C0444497;C0392905;C1269611;C1706309" tui="T169;T030;T082;T022;T030;T074" rank="797;797;767;765;765;575" code="NO-CODE" sourceType="SNMI;MSH;RCD;ICF;RCD;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="10" begin="1196" end="1314" sentText="Assign the following ICD-10PCS codes for the removal and replacement of the ceramic head and acetabular liner: 0SRR03A">
+<RelationSet id="2514">
+<anatomicalStructure value="head" begin="1280" end="1284" status="0" certainty="0" cui="C0205096;C0018670;C1281590;C2348941;C1706305;C1708330;C0876917" tui="T082;T029;T023;T170;T073;T073;T061" rank="797;797;765;576;575;575;373" code="NO-CODE" sourceType="SNMI;CST;SNOMEDCTUS;NCI;NCI;NCI;ICD10AM"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

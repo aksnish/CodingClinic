@@ -1,0 +1,53 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="590">
+<Paragraph pgNo="1" begin="0" end="183">
+<Sentence sentNo="1" begin="0" end="86" sentText="Question: A newborn is diagnosed with congenital hyperbilirubinemia, likely hemolytic.">
+<RelationSet id="81">
+<problem value="congenital hyperbilirubinemia" begin="38" end="67" status="0" certainty="1" cui="C0238077" tui="T019,T047" rank="595" code="NO-CODE" sourceType="DXP"/>
+<problem value="hyperbilirubinemia" begin="49" end="67" status="0" certainty="1" cui="C0020433;C0311468" tui="T033,T047;T033" rank="797;601" code="NO-CODE" sourceType="MDR;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="87" end="129" sentText="A positive Coombs test is also documented.">
+<RelationSet id="83">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<lab value="Coombs test" begin="98" end="109" status="0" certainty="1" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+<modifier value="positive" begin="89" end="97" status="0" certainty="1"/>
+</Relation>
+<lab value="Coombs test" begin="98" end="109" status="0" certainty="1" code="NO-CODE" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="130" end="182" sentText="What is the correct code assignment for the newborn?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="184" end="589">
+<Sentence sentNo="4" begin="184" end="233" sentText="Answer: This appears to be a documentation issue.">
+</Sentence>
+<Sentence sentNo="5" begin="234" end="342" sentText="It is the physician’s responsibility to interpret test results and document his or her clinical conclusions.">
+</Sentence>
+<Sentence sentNo="6" begin="343" end="474" sentText="Therefore, query the physician as to whether the newborn has transient newborn hyperbilirubinemia or congenital hyperbilirubinemia.">
+<RelationSet id="84">
+<problem value="hyperbilirubinemia;congenital" begin="422;444" end="440;454" status="0" certainty="-3" cui="C0238077" tui="T019,T047" rank="595" code="NO-CODE" sourceType="DXP"/>
+<problem value="newborn;hyperbilirubinemia" begin="392;422" end="399;440" status="0" certainty="-3" cui="C0857007" tui="T047" rank="644" code="NO-CODE" sourceType="MDR"/>
+<problem value="hyperbilirubinemia" begin="422" end="440" status="0" certainty="-3" cui="C0020433;C0311468" tui="T033,T047;T033" rank="797;601" code="NO-CODE" sourceType="MDR;NCI"/>
+</RelationSet>
+<RelationSet id="85">
+<problem value="congenital hyperbilirubinemia" begin="444" end="473" status="0" certainty="-3" cui="C0238077" tui="T019,T047" rank="595" code="NO-CODE" sourceType="DXP"/>
+<problem value="hyperbilirubinemia" begin="455" end="473" status="0" certainty="-3" cui="C0020433;C0311468" tui="T033,T047;T033" rank="797;601" code="NO-CODE" sourceType="MDR;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="475" end="588" sentText="Assign code P59.9, Neonatal jaundice, unspecified, if the provider confirms transient newborn hyperbilirubinemia.">
+<RelationSet id="85">
+<problem value="9.9, Neonatal jaundice, unspec" begin="489" end="519" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="86">
+<problem value="Neonatal jaundice" begin="494" end="511" status="0" certainty="-3" cui="C0022353" tui="T184" rank="797" code="NO-CODE" sourceType="LCH"/>
+<problem value="jaundice" begin="503" end="511" status="0" certainty="-3" cui="C0022346;C2203646" tui="T046;T184" rank="795;592" code="NO-CODE" sourceType="ICPC;MEDCIN"/>
+</RelationSet>
+<RelationSet id="87">
+<problem value="newborn hyperbilirubinemia" begin="561" end="587" status="0" certainty="-3" cui="C0857007" tui="T047" rank="644" code="NO-CODE" sourceType="MDR"/>
+<problem value="hyperbilirubinemia" begin="569" end="587" status="0" certainty="-3" cui="C0020433;C0311468" tui="T033,T047;T033" rank="797;601" code="NO-CODE" sourceType="MDR;NCI"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

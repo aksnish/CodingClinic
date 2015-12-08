@@ -1,0 +1,2 @@
+Question: What is the appropriate ICD-10-PCS code, when a combination of drugs is administered during a single injection (e.g., corticosteroid and local anesthetic)? 
+Answer: If two substances are combined into a single injection, and the facility desires to collect this information, the introduction of both substances may be coded. The administration of substances can be found in section 3 of ICD-10-PCS. 

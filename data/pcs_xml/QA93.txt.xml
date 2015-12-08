@@ -1,0 +1,100 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="729">
+<Paragraph pgNo="1" begin="0" end="409">
+<Sentence sentNo="1" begin="0" end="159" sentText="Question: A patient with right foot ulceration, status post partial 5th ray amputation, was seen in the operating room for secondary closure of the right foot.">
+<RelationSet id="442">
+<modifier value="5th" begin="68" end="71" status="0" certainty="1" cui="C0205439" tui="T081" rank="765" code="NO-CODE" sourceType="RCD"/>
+<problem value="partial" begin="60" end="67" status="0" certainty="1" cui="C0728938;C0449719;C1292711;C0270526;C1709471;C1550516;C1552020" tui="T081;T082;T082;T048;T081;T078;T078" rank="797;797;767;767;575;366;366" code="NO-CODE" sourceType="RCD;RCD;SNMI;MDR;NCI;HL7V3.0;HL7V3.0"/>
+<procedure value="amputation" begin="76" end="86" status="0" certainty="1" cui="C0002688;C1546539" tui="T061;T170" rank="797;355" code="NO-CODE" sourceType="LCH;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="443">
+<modifier value="right" begin="148" end="153" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="444">
+<anatomicalStructure value="right foot" begin="148" end="158" status="0" certainty="0" cui="C1279998;C0230460" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNM"/>
+<anatomicalStructure value="foot" begin="154" end="158" status="0" certainty="0" cui="C0016504;C1281587;C0347981;C2346504;C2348704;C2348613" tui="T023;T023;T081;T081;T081;T081" rank="797;765;765;571;541;541" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;HL7V3.0;NCI;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="445">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="foot" begin="31" end="35" status="0" certainty="1"/>
+<modifier value="right" begin="25" end="30" status="0" certainty="1"/>
+<problem value="ulceration" begin="36" end="46" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="right" begin="25" end="30" status="0" certainty="1"/>
+<problem value="ulceration" begin="36" end="46" status="0" certainty="1"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="foot" begin="31" end="35" status="0" certainty="1"/>
+<problem value="ulceration" begin="36" end="46" status="0" certainty="1"/>
+</Relation>
+<anatomicalStructure value="right foot" begin="25" end="35" status="0" certainty="1" cui="C1279998;C0230460" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNOMEDCTUS;SNM"/>
+<anatomicalStructure value="foot" begin="31" end="35" status="0" certainty="1" cui="C0016504;C1281587;C0347981;C2346504;C2348704;C2348613" tui="T023;T023;T081;T081;T081;T081" rank="797;765;765;571;541;541" code="NO-CODE" sourceType="MTH;SNOMEDCTUS;HL7V3.0;NCI;NCI;NCI"/>
+<modifier value="right" begin="25" end="30" status="0" certainty="1" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+<problem value="foot ulceration" begin="31" end="46" status="0" certainty="1" cui="C0085119" tui="T020,T047" rank="601" code="NO-CODE" sourceType="DXP"/>
+<problem value="ulceration" begin="36" end="46" status="0" certainty="1" cui="C0041582;C1963256" tui="T046;T033" rank="767;551" code="NO-CODE" sourceType="RCD;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="160" end="324" sentText="The site of the partial ray amputation was debrided, the wound was closed, and Ovation® was injected into the subcutaneous tissue in the area surrounding the wound.">
+<RelationSet id="446">
+<problem value="partial" begin="176" end="183" status="0" certainty="0" cui="C0728938;C0449719;C1292711;C0270526;C1709471;C1550516;C1552020" tui="T081;T082;T082;T048;T081;T078;T078" rank="797;797;767;767;575;366;366" code="NO-CODE" sourceType="RCD;RCD;SNMI;MDR;NCI;HL7V3.0;HL7V3.0"/>
+<procedure value="amputation" begin="188" end="198" status="0" certainty="0" cui="C0002688;C1546539" tui="T061;T170" rank="797;355" code="NO-CODE" sourceType="LCH;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="446">
+<procedure value="debrided" begin="203" end="211" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+</RelationSet>
+<RelationSet id="447">
+<problem value="wound" begin="217" end="222" status="0" certainty="0" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797;C1550680;C1549529;C1547965" tui="T070;T037;T080;T033;T184;T169;T031;T169;T170" rank="795;792;788;767;709;703;366;355;355" code="NO-CODE" sourceType="MSH;MDR;MSH;RCD;MDR;SNMI;HL7V3.0;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="448">
+<modifier value="injected;subcutaneous" begin="252;270" end="260;282" status="0" certainty="0" cui="C0021499" tui="T169" rank="767" code="NO-CODE" sourceType="MSH"/>
+</RelationSet>
+<RelationSet id="449">
+<anatomicalStructure value="subcutaneous tissue" begin="270" end="289" status="0" certainty="0" cui="C0278403;C0222331;C1123023" tui="T024;T024;T022" rank="797;575;472" code="NO-CODE" sourceType="SNMI;NCI;AOD"/>
+<anatomicalStructure value="tissue" begin="283" end="289" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="450">
+<problem value="wound" begin="318" end="323" status="0" certainty="0" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797;C1550680;C1549529;C1547965" tui="T070;T037;T080;T033;T184;T169;T031;T169;T170" rank="795;792;788;767;709;703;366;355;355" code="NO-CODE" sourceType="MSH;MDR;MSH;RCD;MDR;SNMI;HL7V3.0;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="325" end="408" sentText="What is the appropriate 6th character/ substance for the injection of the Ovation®?">
+<RelationSet id="451">
+<procedure value="injection" begin="382" end="391" status="0" certainty="0" cui="C1828121;C1272883;C1533685;C0021485" tui="T169;T122;T061;T061" rank="795;767;767;151" code="NO-CODE" sourceType="MSH;NCI;ICPC2P;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="410" end="728">
+<Sentence sentNo="4" begin="410" end="471" sentText="Answer: Do not code the injection of Ovation® into the wound.">
+<RelationSet id="452">
+<procedure value="injection" begin="434" end="443" status="0" certainty="-2" cui="C1828121;C1272883;C1533685;C0021485" tui="T169;T122;T061;T061" rank="795;767;767;151" code="NO-CODE" sourceType="MSH;NCI;ICPC2P;CHV"/>
+</RelationSet>
+<RelationSet id="453">
+<problem value="wound" begin="465" end="470" status="0" certainty="-2" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797;C1550680;C1549529;C1547965" tui="T070;T037;T080;T033;T184;T169;T031;T169;T170" rank="795;792;788;767;709;703;366;355;355" code="NO-CODE" sourceType="MSH;MDR;MSH;RCD;MDR;SNMI;HL7V3.0;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="5" begin="472" end="593" sentText="A substance injected during an operative procedure is typically not separately coded, as it is integral to the procedure.">
+<RelationSet id="454">
+<procedure value="substance injected;procedure" begin="474;513" end="492;522" status="0" certainty="0" cui="C0559599" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="injected;procedure" begin="484;513" end="492;522" status="0" certainty="0" cui="C1533685;C1828121;C0021485" tui="T061;T169;T061" rank="797;576;353" code="NO-CODE" sourceType="RCD;NCI;CPT"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="594" end="727" sentText="Ovation® is an extracellular matrix that provides cellular adhesion and migration and protection of growth factors for wound healing.">
+<RelationSet id="455">
+<anatomicalStructure value="extracellular matrix;cellular" begin="609;644" end="629;652" status="0" certainty="0" cui="C0015350" tui="T024" rank="797" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="matrix;cellular adhesion" begin="623;644" end="629;661" status="0" certainty="0" cui="C0887869" tui="T026" rank="791" code="NO-CODE" sourceType="MSH"/>
+<anatomicalStructure value="matrix;cellular" begin="623;644" end="629;652" status="0" certainty="0" cui="C0010853;C1383501" tui="T026;T026" rank="575;575" code="NO-CODE" sourceType="NCI;NCI"/>
+<anatomicalStructure value="extracellular" begin="609" end="622" status="0" certainty="0" cui="C0521119" tui="T026" rank="767" code="NO-CODE" sourceType="SNMI"/>
+</RelationSet>
+<RelationSet id="456">
+<problem value="adhesion" begin="653" end="661" status="0" certainty="0" cui="C0001511;C0175633" tui="T046;T070" rank="767;576" code="NO-CODE" sourceType="LCH;NCI"/>
+<anatomicalStructure value="extracellular matrix;cellular" begin="609;644" end="629;652" status="0" certainty="0" cui="C0015350" tui="T024" rank="575" code="NO-CODE" sourceType="NCI"/>
+<anatomicalStructure value="cellular" begin="644" end="652" status="0" certainty="0" cui="C0178539;C0007634;C1269647;C1861886;C1516377;C1948049;C1704653;C1136359" tui="T169;T025;T025;T028;T080;T082;T074;T073" rank="797;765;765;596;576;576;575;575" code="NO-CODE" sourceType="CHV;MSH;SNOMEDCTUS;OMIM;NCI;NCI;NCI;NCI"/>
+</RelationSet>
+<RelationSet id="457">
+<problem value="wound healing" begin="713" end="726" status="0" certainty="0" cui="C0043240;C0574776;C1265679" tui="T040;T033;T190" rank="797;767;767" code="NO-CODE" sourceType="MSH;RCD;SNOMEDCTUS"/>
+<problem value="wound" begin="713" end="718" status="0" certainty="0" cui="C0043187;C0043250;C0021501;C3241964;C0016204;C0332797;C1550680;C1549529;C1547965" tui="T070;T037;T080;T033;T184;T169;T031;T169;T170" rank="795;792;788;767;709;703;366;355;355" code="NO-CODE" sourceType="MSH;MDR;MSH;RCD;MDR;SNMI;HL7V3.0;HL7V2.5;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,149 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="979">
+<Paragraph pgNo="1" begin="0" end="543">
+<Sentence sentNo="1" begin="0" end="208" sentText="Question: A patient, status post coronary artery bypass graft (CABG), is admitted due to significant in-stent restenosis in a previously placed stent in the saphenous vein graft within the distal anastomosis.">
+<RelationSet id="652">
+<modifier value="coronary" begin="33" end="41" status="0" certainty="1" cui="C1522318" tui="T082" rank="797" code="NO-CODE" sourceType="NCI"/>
+<procedure value="coronary artery bypass" begin="33" end="55" status="0" certainty="1" cui="C0010055" tui="T061" rank="795" code="NO-CODE" sourceType="MSH"/>
+<procedure value="coronary artery;graft" begin="33;56" end="48;61" status="0" certainty="1" cui="C0440761;C0190213;C0190218" tui="T023;T061;T061" rank="767;271;271" code="NO-CODE" sourceType="RCD;HCPT;HCPT"/>
+<procedure value="artery bypass graft" begin="42" end="61" status="0" certainty="1" cui="C0189695;C0371745;C0337344;C0371755;C0337345" tui="T061;T061;T061;T061;T061" rank="765;253;253;253;253" code="NO-CODE" sourceType="RCD;HCPT;HCPT;HCPT;HCPT"/>
+<procedure value="coronary artery" begin="33" end="48" status="0" certainty="1" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<procedure value="bypass graft" begin="49" end="61" status="0" certainty="1" cui="C0185098" tui="T061" rank="767" code="NO-CODE" sourceType="CPT"/>
+<procedure value="artery" begin="42" end="48" status="0" certainty="1" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<procedure value="bypass" begin="49" end="55" status="0" certainty="1" cui="C0741847" tui="T061" rank="765" code="NO-CODE" sourceType="NCI"/>
+<procedure value="graft" begin="56" end="61" status="0" certainty="1" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+</RelationSet>
+<RelationSet id="653">
+<procedure value="CABG" begin="63" end="67" status="0" certainty="0" cui="C0010055" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+</RelationSet>
+<RelationSet id="654">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="in-stent" begin="101" end="109" status="0" certainty="-2"/>
+<problem value="restenosis " begin="110" end="121" status="0" certainty="-2"/>
+</Relation>
+<modifier value="in-stent" begin="101" end="109" status="0" certainty="-2" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<problem value="restenosis" begin="110" end="120" status="0" certainty="-2" cui="C1261287;C0333186;C0009814;C2632116;C0678234;C0947637" tui="T190;T020;T046;T204;T080;T046" rank="797;767;767;751;724;286" code="NO-CODE" sourceType="LCH;CHV;SNOMEDCTUS;NCBI;RCD;SNOMEDCTUS"/>
+</RelationSet>
+<RelationSet id="655">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<modifier value="distal" begin="189" end="195" status="0" certainty="0"/>
+<problem value=" anastomosis" begin="195" end="207" status="0" certainty="0"/>
+</Relation>
+<modifier value="distal" begin="189" end="195" status="0" certainty="0" cui="NO-CUI" tui="NO-TUI" rank="NO_RANK" code="NO-CODE" sourceType="NO-SOURCETYPE"/>
+<problem value="anastomosis" begin="196" end="207" status="0" certainty="0" cui="C0332854;C0332853;C0677554;C0500470" tui="T082;T020;T061;T030" rank="797;797;765;692" code="NO-CODE" sourceType="SNMI;SNM;RCD;UWDA"/>
+</RelationSet>
+<RelationSet id="656">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value="saphenous vein graft" begin="157" end="177" status="0" certainty="-2"/>
+<medicalDevice value="stent" begin="144" end="149" status="0" certainty="-2"/>
+</Relation>
+<modifier value="vein graft" begin="167" end="177" status="0" certainty="-2" cui="S0002683;S0000555" tui="t060;t061" rank="800;800" code="NO-CODE" sourceType="EZDI;EZDI"/>
+<modifier value="saphenous" begin="157" end="166" status="0" certainty="-2" cui="S0001179" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="graft" begin="172" end="177" status="0" certainty="-2" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+<procedure value="vein" begin="167" end="171" status="0" certainty="-2" cui="C0348013;C0042449;C1278960;C0398102" tui="T082;T023;T023;T061" rank="797;797;765;373" code="NO-CODE" sourceType="RCD;MSH;SNOMEDCTUS;ICD10AM"/>
+<anatomicalStructure value="saphenous vein graft" begin="157" end="177" status="0" certainty="-2" cui="C0729538" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="saphenous vein" begin="157" end="171" status="0" certainty="-2" cui="C0036186;C0392907" tui="T023;T023" rank="797;151" code="NO-CODE" sourceType="MSH;CHV"/>
+<medicalDevice value="stent;graft" begin="144;172" end="149;177" status="0" certainty="-2" cui="C1322796" tui="T074" rank="686" code="NO-CODE" sourceType="UMD"/>
+<medicalDevice value="stent;vein" begin="144;167" end="149;171" status="0" certainty="-2" cui="C2919452" tui="T074" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<medicalDevice value="stent" begin="144" end="149" status="0" certainty="-2" cui="C2348535;C0038257;C1705817" tui="T061;T074;T074" rank="797;795;575" code="NO-CODE" sourceType="NCI;MSH;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="209" end="348" sentText="A percutaneous transluminal coronary angioplasty was performed on the right coronary artery with deployment of a single drug-eluting stent.">
+<RelationSet id="657">
+<modifier value="coronary" begin="237" end="245" status="0" certainty="0" cui="C1522318" tui="T082" rank="797" code="NO-CODE" sourceType="NCI"/>
+<procedure value="percutaneous transluminal coronary angioplasty" begin="211" end="257" status="0" certainty="0" cui="C2936173" tui="T061" rank="797" code="NO-CODE" sourceType="MTH"/>
+<procedure value="percutaneous transluminal;angioplasty" begin="211;246" end="236;257" status="0" certainty="0" cui="C2936666" tui="T061" rank="797" code="NO-CODE" sourceType="MSH"/>
+<procedure value="transluminal coronary angioplasty" begin="224" end="257" status="0" certainty="0" cui="C0841996" tui="T061" rank="373" code="NO-CODE" sourceType="ICD10AM"/>
+<procedure value="percutaneous;angioplasty" begin="211;246" end="223;257" status="0" certainty="0" cui="C0411287" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="transluminal;angioplasty" begin="224;246" end="236;257" status="0" certainty="0" cui="C2936667;C0002996" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="MSH;CHV"/>
+<procedure value="coronary angioplasty" begin="237" end="257" status="0" certainty="0" cui="C0190211;C0002997" tui="T061;T061" rank="797;151" code="NO-CODE" sourceType="COSTAR;CHV"/>
+<procedure value="angioplasty" begin="246" end="257" status="0" certainty="0" cui="C0162577;C1548817" tui="T061;T058" rank="797;355" code="NO-CODE" sourceType="MDR;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="658">
+<anatomicalStructure value="right coronary artery" begin="279" end="300" status="0" certainty="0" cui="C1261316" tui="T023" rank="765" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="coronary artery" begin="285" end="300" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="294" end="300" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="659">
+<medicalDevice value="drug-eluting stent" begin="329" end="347" status="0" certainty="0" cui="C1322815" tui="T074" rank="795" code="NO-CODE" sourceType="MSH"/>
+<medicalDevice value="stent" begin="342" end="347" status="0" certainty="0" cui="C2348535;C0038257;C1705817" tui="T061;T074;T074" rank="797;795;575" code="NO-CODE" sourceType="NCI;MSH;NCI"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="349" end="473" sentText="In ICD-10-PCS, how is an angioplasty of a vessel that has been previously bypassed using a saphenous vein graft (SVG) coded?">
+<RelationSet id="660">
+<modifier value="vein graft" begin="450" end="460" status="0" certainty="0" cui="S0002683;S0000555" tui="t060;t061" rank="800;800" code="NO-CODE" sourceType="EZDI;EZDI"/>
+<modifier value="saphenous" begin="440" end="449" status="0" certainty="0" cui="S0001179" tui="t061" rank="800" code="NO-CODE" sourceType="EZDI"/>
+<procedure value="bypassed;saphenous vein graft" begin="423;440" end="431;460" status="0" certainty="0" cui="C2067298" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="bypassed using;vein graft" begin="423;450" end="437;460" status="0" certainty="0" cui="C2006026" tui="T061" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<procedure value="bypassed;saphenous;graft" begin="423;440;455" end="431;449;460" status="0" certainty="0" cui="C0748496" tui="T061" rank="491" code="NO-CODE" sourceType="CCPSS"/>
+<procedure value="bypassed;vein graft" begin="423;450" end="431;460" status="0" certainty="0" cui="C0398147" tui="T061" rank="765" code="NO-CODE" sourceType="RCD"/>
+<procedure value="bypassed;graft" begin="423;455" end="431;460" status="0" certainty="0" cui="C0185098" tui="T061" rank="767" code="NO-CODE" sourceType="CPT"/>
+<procedure value="using;graft" begin="432;455" end="437;460" status="0" certainty="0" cui="C0449871" tui="T061" rank="767" code="NO-CODE" sourceType="RCD"/>
+<procedure value="graft" begin="455" end="460" status="0" certainty="0" cui="C0332835;C1527362;C0181074;C1961139;C0700106;C1705210;C1546653;C3683798" tui="T024;T080;T122;T061;T169;T122;T170;T061" rank="791;789;767;765;703;575;355;353" code="NO-CODE" sourceType="MSH;MTH;UMD;CHV;SNMI;NCI;HL7V2.5;CPT"/>
+<procedure value="vein" begin="450" end="454" status="0" certainty="0" cui="C0348013;C0042449;C1278960;C0398102" tui="T082;T023;T023;T061" rank="797;797;765;373" code="NO-CODE" sourceType="RCD;MSH;SNOMEDCTUS;ICD10AM"/>
+<anatomicalStructure value="saphenous vein graft" begin="440" end="460" status="0" certainty="0" cui="C0729538" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="saphenous vein" begin="440" end="454" status="0" certainty="0" cui="C0036186;C0392907" tui="T023;T023" rank="797;151" code="NO-CODE" sourceType="MSH;CHV"/>
+</RelationSet>
+<RelationSet id="661">
+<modifier value="SVG" begin="462" end="465" status="0" certainty="0" cui="C2827658" tui="T171" rank="519" code="NO-CODE" sourceType="NCI"/>
+</RelationSet>
+<RelationSet id="662">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value=" vessel" begin="390" end="397" status="0" certainty="0"/>
+<procedure value="angioplasty" begin="374" end="385" status="0" certainty="0"/>
+</Relation>
+<anatomicalStructure value="vessel" begin="391" end="397" status="0" certainty="0" cui="C0042591;C0148346;C0005847;C1511228;C0702235" tui="T029;T118,T121;T023;T024;T109,T121" rank="767;722;701;571;520" code="NO-CODE" sourceType="RCD;MTH;LNC;NCI;PDQ"/>
+<procedure value="angioplasty" begin="374" end="385" status="0" certainty="0" cui="C0162577;C1548817" tui="T061;T058" rank="797;355" code="NO-CODE" sourceType="MDR;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="474" end="542" sentText="Would this be coded using the body part value for “coronary artery”?">
+<RelationSet id="663">
+<anatomicalStructure value="coronary artery" begin="525" end="540" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="534" end="540" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="544" end="978">
+<Sentence sentNo="5" begin="544" end="611" sentText="Answer: The saphenous vein is now functioning as a coronary artery.">
+<RelationSet id="664">
+<anatomicalStructure value="vein;coronary artery" begin="566;595" end="570;610" status="0" certainty="0" cui="C0545745" tui="T023" rank="150" code="NO-CODE" sourceType="CHV"/>
+<anatomicalStructure value="saphenous vein" begin="556" end="570" status="0" certainty="0" cui="C0036186;C0392907" tui="T023;T023" rank="797;151" code="NO-CODE" sourceType="MSH;CHV"/>
+<anatomicalStructure value="vein;coronary" begin="566;595" end="570;603" status="0" certainty="0" cui="C3495141;C0226737" tui="T023;T023" rank="797;713" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="vein" begin="566" end="570" status="0" certainty="0" cui="C0348013;C0042449;C1278960;C0398102" tui="T082;T023;T023;T061" rank="797;797;765;373" code="NO-CODE" sourceType="RCD;MSH;SNOMEDCTUS;ICD10AM"/>
+</RelationSet>
+<RelationSet id="665">
+<anatomicalStructure value="coronary artery" begin="595" end="610" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="604" end="610" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="612" end="830" sentText="The current  surgery was  performed on what is now serving as a coronary artery; therefore the coronary artery is the site of the procedure and the procedure is coded to the appropriate coronary artery body part value.">
+<RelationSet id="666">
+<procedure value="surgery" begin="625" end="632" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="667">
+<anatomicalStructure value="coronary artery" begin="676" end="691" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="685" end="691" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="668">
+<anatomicalStructure value="coronary artery" begin="707" end="722" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="716" end="722" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="669">
+<anatomicalStructure value="coronary artery;part" begin="798;819" end="813;823" status="0" certainty="0" cui="C1268112" tui="T023" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<anatomicalStructure value="coronary artery" begin="798" end="813" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery;part" begin="807;819" end="813;823" status="0" certainty="0" cui="C1268113" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="artery" begin="807" end="813" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="831" end="977" sentText="Assign the following ICD-10-PCS code: 027034Z Dilation of coronary artery, one site with drug-eluting intraluminal device,  percutaneous  approach">
+<RelationSet id="670">
+<anatomicalStructure value="coronary artery" begin="889" end="904" status="0" certainty="0" cui="C0205042;C1269008;C0869781;C0545743" tui="T023;T023;T060,T061;T023" rank="797;765;373;150" code="NO-CODE" sourceType="RCD;SNOMEDCTUS;ICD10AM;CHV"/>
+<anatomicalStructure value="artery" begin="898" end="904" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+<RelationSet id="671">
+<medicalDevice value="device" begin="946" end="952" status="0" certainty="0" cui="C0699733;C0220819;C0025080;C1550509;C1547019" tui="T073;T073;T074;T078;T081" rank="797;788;575;366;355" code="NO-CODE" sourceType="MSH;LNC;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>

@@ -1,0 +1,2 @@
+Question: What is the correct ICD-10-CM code for sepsis due to non-Candida Albicans? 
+Answer: Assign code B48.8, Other specified mycoses, for sepsis due to non-Candida Albicans. 

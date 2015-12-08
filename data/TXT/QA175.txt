@@ -1,0 +1,2 @@
+Question: A pregnant patient underwent medical induction of labor with Cervidil dinoprostone vaginal tampon. The patient had a spontaneous vaginal delivery at 37 weeks. What  is  the correct  ICD-10-PCS  code for medical induction of labor with Cervidil Dinoprostone vaginal tampon insert? 
+Answer: Cervidil (dinoprostone/prostaglandin gel insert) is used to ripen and soften the cervix, causing uterine contractions. Assign ICD-10-PCS code as follows: 3E0P7GC Introduction of other therapeutic substance into female reproductive, via natural or artificial opening 

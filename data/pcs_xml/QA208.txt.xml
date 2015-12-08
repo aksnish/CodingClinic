@@ -1,0 +1,132 @@
+<ezNLP>
+<Section value="Report Unknown Section" begin="0" end="0" secBegin="0" secEnd="1013">
+<Paragraph pgNo="1" begin="0" end="318">
+<Sentence sentNo="1" begin="0" end="98" sentText="Question: The patient presented to the hospital for repair of right femoral artery pseudoaneurysm.">
+<RelationSet id="505">
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<procedure value=" repair" begin="51" end="58" status="0" certainty="1"/>
+<anatomicalStructure value="femoral artery" begin="68" end="82" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="femoral artery" begin="68" end="82" status="0" certainty="0"/>
+<problem value="pseudoaneurysm" begin="83" end="97" status="0" certainty="0"/>
+</Relation>
+<Relation cui="NO-CUI" tui="NO-TUI" rank="NO-RANK" code="NO-CODE" sourceType="NO-SOURCETYPE">
+<anatomicalStructure value="femoral artery" begin="68" end="82" status="0" certainty="0"/>
+<procedure value=" repair" begin="51" end="58" status="0" certainty="1"/>
+<problem value="pseudoaneurysm" begin="83" end="97" status="0" certainty="0"/>
+</Relation>
+<procedure value="repair;femoral artery pseudoaneurysm" begin="52;68" end="58;97" status="0" certainty="1" cui="C3697229" tui="T061" rank="767" code="NO-CODE" sourceType="SNOMEDCTUS"/>
+<procedure value="repair;pseudoaneurysm" begin="52;83" end="58;97" status="0" certainty="1" cui="C0189661;C0748037" tui="T061;T061" rank="767;767" code="NO-CODE" sourceType="CCPSS;CCPSS"/>
+<procedure value="repair;femoral" begin="52;68" end="58;75" status="0" certainty="1" cui="C1293285;C0188106;C0371181" tui="T061;T061;T061" rank="767;765;271" code="NO-CODE" sourceType="SNOMEDCTUS;SNOMEDCTUS;CPT"/>
+<procedure value="repair;artery" begin="52;76" end="58;82" status="0" certainty="1" cui="C0189660;C2937236" tui="T061;T061" rank="797;150" code="NO-CODE" sourceType="RCD;CHV"/>
+<procedure value="repair" begin="52" end="58" status="0" certainty="1" cui="C0205340;C0554245;C0374711;C0043240;C1705181" tui="T169;T097;T061;T040;T058" rank="767;767;765;702;576" code="NO-CODE" sourceType="SNMI;RCD;ICPC2P;SNM;NCI"/>
+<anatomicalStructure value="right femoral artery" begin="62" end="82" status="0" certainty="0" cui="C0226447;C1281566" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="femoral artery" begin="68" end="82" status="0" certainty="0" cui="C0015801;C1280173;C0545729" tui="T023;T023;T082" rank="795;765;150" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;CHV"/>
+<anatomicalStructure value="right femoral" begin="62" end="75" status="0" certainty="0" cui="C1279548;C0230425;C0817319" tui="T023;T023;T023" rank="765;765;692" code="NO-CODE" sourceType="SNOMEDCTUS;SNM;UWDA"/>
+<anatomicalStructure value="femoral" begin="68" end="75" status="0" certainty="0" cui="C0015811;C0039866;C1281586;C1279112" tui="T023;T029;T023;T023" rank="797;795;765;765" code="NO-CODE" sourceType="LCH;LCH;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="artery" begin="76" end="82" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+<problem value="right femoral artery pseudoaneurysm" begin="62" end="97" status="0" certainty="0" cui="C2227988" tui="T190" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="femoral artery pseudoaneurysm" begin="68" end="97" status="0" certainty="0" cui="C0155744;C0264963;C0729728" tui="t047;T190;T047,T190" rank="800;767;765" code="NO-CODE" sourceType="ICD10CM;RCD;CCPSS"/>
+<problem value="artery pseudoaneurysm" begin="76" end="97" status="0" certainty="0" cui="C0340613" tui="T190" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="pseudoaneurysm" begin="83" end="97" status="0" certainty="0" cui="C0002940;C1510412;C0162868" tui="T047;T046;T046" rank="797;797;151" code="NO-CODE" sourceType="MDR;MDR;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="2" begin="99" end="212" sentText="At surgery, dissection was undertaken down to the inguinal ligament and the common femoral artery was identified.">
+<RelationSet id="506">
+<procedure value="surgery" begin="102" end="109" status="0" certainty="0" cui="C0038895;C0038894;C0543467;C1705196;C0582175;C1547138" tui="T169;T091;T058;T078;T097;T078" rank="794;791;767;571;366;355" code="NO-CODE" sourceType="MSH;MEDLINEPLUS;LCH;NCI;HL7V3.0;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="507">
+<procedure value="dissection" begin="111" end="121" status="0" certainty="0" cui="C0012737" tui="T061" rank="795" code="NO-CODE" sourceType="LCH"/>
+</RelationSet>
+<RelationSet id="508">
+<anatomicalStructure value="inguinal ligament" begin="149" end="166" status="0" certainty="0" cui="C0225043" tui="T023" rank="797" code="NO-CODE" sourceType="SNM"/>
+<anatomicalStructure value="inguinal" begin="149" end="157" status="0" certainty="0" cui="C0018246" tui="T029" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="ligament" begin="158" end="166" status="0" certainty="0" cui="C0023685;C1269080;C0521342" tui="T024;T023;T029" rank="797;765;703" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;SNMI"/>
+</RelationSet>
+<RelationSet id="509">
+<anatomicalStructure value="common femoral artery" begin="175" end="196" status="0" certainty="0" cui="C0447105" tui="T023" rank="767" code="NO-CODE" sourceType="RCD"/>
+<anatomicalStructure value="femoral artery" begin="182" end="196" status="0" certainty="0" cui="C0015801;C1280173;C0545729" tui="T023;T023;T082" rank="795;765;150" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;CHV"/>
+<anatomicalStructure value="femoral" begin="182" end="189" status="0" certainty="0" cui="C0015811;C0039866;C1281586;C1279112" tui="T023;T029;T023;T023" rank="797;795;765;765" code="NO-CODE" sourceType="LCH;LCH;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="artery" begin="190" end="196" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="3" begin="214" end="263" sentText="The pseudoaneurysm site was repaired with suture.">
+<RelationSet id="510">
+<anatomicalStructure value="site" begin="233" end="237" status="0" certainty="0" cui="C0205145;C2945843;C2825164;C1515974;C1546778" tui="T082;T080;T082;T029;T170" rank="797;767;575;575;355" code="NO-CODE" sourceType="RCD;RCD;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="511">
+<medicalDevice value="suture" begin="256" end="262" status="0" certainty="0" cui="C0205368;C0038969;C0009068;C1705834;C1706068;C1546803" tui="T169;T074;T061;T073;T122;T170" rank="797;795;765;575;575;355" code="NO-CODE" sourceType="SNMI;MSH;SNM;NCI;NCI;HL7V2.5"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="4" begin="264" end="317" sentText="What are the appropriate ICD-10-PCS procedure  codes?">
+</Sentence>
+</Paragraph>
+<Paragraph pgNo="2" begin="319" end="1012">
+<Sentence sentNo="5" begin="319" end="403" sentText="Answer: The cut down and suturing of the pseudoaneurysm should be coded as “Repair.”">
+<RelationSet id="512">
+<problem value="pseudoaneurysm" begin="360" end="374" status="0" certainty="0" cui="C0002940;C1510412;C0162868" tui="T047;T046;T046" rank="797;797;151" code="NO-CODE" sourceType="MDR;MDR;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="6" begin="404" end="522" sentText="A pseudoaneurysm or false aneurysm is actually a hematoma adjacent to a hole or other disruption of the arterial wall.">
+<RelationSet id="513">
+<problem value="pseudoaneurysm" begin="406" end="420" status="0" certainty="0" cui="C1510412;C0162868" tui="T046;T046" rank="797;151" code="NO-CODE" sourceType="MDR;CHV"/>
+</RelationSet>
+<RelationSet id="514">
+<problem value="false aneurysm" begin="424" end="438" status="0" certainty="0" cui="C1510412;C0162868" tui="T046;T046" rank="795;711" code="NO-CODE" sourceType="SNM;RCD"/>
+<problem value="aneurysm" begin="430" end="438" status="0" certainty="0" cui="C0002940;C0439651" tui="T047;T082" rank="797;767" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="515">
+<problem value="aneurysm;hematoma" begin="430;453" end="438;461" status="0" certainty="0" cui="C1510412" tui="T046" rank="765" code="NO-CODE" sourceType="SNM"/>
+<problem value="hematoma" begin="453" end="461" status="0" certainty="0" cui="C0018944;C1962958" tui="T046;T033" rank="797;551" code="NO-CODE" sourceType="MSH;NCI"/>
+</RelationSet>
+<RelationSet id="516">
+<anatomicalStructure value="arterial wall" begin="508" end="521" status="0" certainty="0" cui="C0507850" tui="T023" rank="692" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="arterial" begin="508" end="516" status="0" certainty="0" cui="C0221464;C0003842;C0226004" tui="T082;T023;T022" rank="797;765;151" code="NO-CODE" sourceType="RCD;MSH;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="7" begin="523" end="703" sentText="It is caused by the slow leaking of blood through into the surrounding tissues, which gives it the appearance of a sac, though the collection of blood is outside the arterial wall.">
+<RelationSet id="517">
+<anatomicalStructure value="blood;tissues" begin="559;594" end="564;601" status="0" certainty="0" cui="C1442199" tui="T024" rank="797" code="NO-CODE" sourceType="MTH"/>
+<anatomicalStructure value="tissues" begin="594" end="601" status="0" certainty="0" cui="C0040300;C1547928" tui="T024;T170" rank="795;355" code="NO-CODE" sourceType="AOD;HL7V2.5"/>
+</RelationSet>
+<RelationSet id="518">
+<anatomicalStructure value="arterial wall" begin="689" end="702" status="0" certainty="0" cui="C0507850" tui="T023" rank="692" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="blood;arterial" begin="668;689" end="673;697" status="0" certainty="0" cui="C0229665;C1550611;C1546553" tui="T024;T031;T170" rank="797;576;355" code="NO-CODE" sourceType="LNC;NCI;HL7V2.5"/>
+<anatomicalStructure value="arterial" begin="689" end="697" status="0" certainty="0" cui="C0221464;C0003842;C0226004" tui="T082;T023;T022" rank="797;765;151" code="NO-CODE" sourceType="RCD;MSH;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="8" begin="704" end="889" sentText="This is distinct from a true aneurysm, which is an abnormal widening of the arterial wall itself, and unless it is a dissecting aneurysm, involves all three layers of the arterial wall.">
+<RelationSet id="519">
+<problem value="true aneurysm" begin="728" end="741" status="0" certainty="0" cui="C1168154" tui="T047,T190" rank="644" code="NO-CODE" sourceType="MDR"/>
+<problem value="aneurysm" begin="733" end="741" status="0" certainty="0" cui="C0002940;C0439651" tui="T047;T082" rank="797;767" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="520">
+<problem value="dissecting aneurysm" begin="821" end="840" status="0" certainty="0" cui="C0002949" tui="T047" rank="795" code="NO-CODE" sourceType="NDFRT"/>
+<problem value="aneurysm" begin="832" end="840" status="0" certainty="0" cui="C0002940;C0439651" tui="T047;T082" rank="797;767" code="NO-CODE" sourceType="LCH;RCD"/>
+</RelationSet>
+<RelationSet id="521">
+<anatomicalStructure value="arterial wall" begin="875" end="888" status="0" certainty="0" cui="C0507850" tui="T023" rank="692" code="NO-CODE" sourceType="UWDA"/>
+<anatomicalStructure value="arterial" begin="875" end="883" status="0" certainty="0" cui="C0221464;C0003842;C0226004" tui="T082;T023;T022" rank="797;765;151" code="NO-CODE" sourceType="RCD;MSH;CHV"/>
+</RelationSet>
+</Sentence>
+<Sentence sentNo="9" begin="890" end="1011" sentText="Assign the following ICD-10-PCS code for the repair of pseudoaneurysm: 04QK0ZZ Repair right femoral artery, open approach">
+<RelationSet id="522">
+<problem value="pseudoaneurysm;right femoral artery" begin="945;976" end="959;996" status="0" certainty="0" cui="C2227988" tui="T190" rank="595" code="NO-CODE" sourceType="MEDCIN"/>
+<problem value="pseudoaneurysm;femoral artery" begin="945;982" end="959;996" status="0" certainty="0" cui="C0155744;C0264963;C0729728" tui="t047;T190;T047,T190" rank="800;767;765" code="NO-CODE" sourceType="ICD10CM;RCD;CCPSS"/>
+<problem value="pseudoaneurysm" begin="945" end="959" status="0" certainty="0" cui="C0002940;C1510412;C0162868" tui="T047;T046;T046" rank="797;797;151" code="NO-CODE" sourceType="MDR;MDR;CHV"/>
+</RelationSet>
+<RelationSet id="523">
+<modifier value="right" begin="976" end="981" status="0" certainty="0" cui="C0205090;C0035621;C1552823" tui="T082;T080;T169" rank="797;792;366" code="NO-CODE" sourceType="RCD;MSH;HL7V3.0"/>
+</RelationSet>
+<RelationSet id="524">
+<anatomicalStructure value="right femoral artery" begin="976" end="996" status="0" certainty="0" cui="C0226447;C1281566" tui="T023;T023" rank="765;765" code="NO-CODE" sourceType="SNM;SNOMEDCTUS"/>
+<anatomicalStructure value="femoral artery" begin="982" end="996" status="0" certainty="0" cui="C0015801;C1280173;C0545729" tui="T023;T023;T082" rank="795;765;150" code="NO-CODE" sourceType="MSH;SNOMEDCTUS;CHV"/>
+<anatomicalStructure value="right femoral" begin="976" end="989" status="0" certainty="0" cui="C1279548;C0230425;C0817319" tui="T023;T023;T023" rank="765;765;692" code="NO-CODE" sourceType="SNOMEDCTUS;SNM;UWDA"/>
+<anatomicalStructure value="femoral" begin="982" end="989" status="0" certainty="0" cui="C0015811;C0039866;C1281586;C1279112" tui="T023;T029;T023;T023" rank="797;795;765;765" code="NO-CODE" sourceType="LCH;LCH;SNOMEDCTUS;SNOMEDCTUS"/>
+<anatomicalStructure value="artery" begin="990" end="996" status="0" certainty="0" cui="C0003842;C0397581;C0226004" tui="T023;T061;T022" rank="797;373;151" code="NO-CODE" sourceType="MSH;ICD10AM;CHV"/>
+</RelationSet>
+</Sentence>
+</Paragraph>
+</Section>
+</ezNLP>
